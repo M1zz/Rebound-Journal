@@ -11,23 +11,21 @@ import SwiftUI
 
 final class ChartViewModel: ObservableObject {
     
-    @Published var journals: [JournalModel]
-    @Published var journalSummary: JournalSummary
-    @Published var journalData: [JournalMetaData]
+    @Published var journals: [JournalModel] = []
+    @Published var journalSummary: JournalSummary = .init(entries: [])
+    @Published var journalData: [JournalMetaData] = []
     @Published var groupedJournalData: GroupedJournal = []
     @Published var journalChart: [JournalChart] = []
     @Published var selectedDate = Date()
     @Published var selectedDetailType: Bool = false
     @Published var isDatePickerShown: Bool = false
     
-    init() {
-        let mockJournals = JournalModel.mockData().filter{ !$0.hasDeleted }
-        self.journals = mockJournals
-        self.journalData = mockJournals
-            .filter { !$0.hasDeleted }
+    func fetchJournals(data: FetchedResults<JournalEntry>) {
+        self.journals = JournalModel.fromCoreData(data).filter{ !$0.hasDeleted }
+        self.journalData = journals
             .map { JournalMetaData(entry: $0) }
-        self.journalSummary = JournalSummary(entries: mockJournals)
-        self.makeChartItems(from: mockJournals)
+        self.journalSummary = JournalSummary(entries: journals)
+        self.makeChartItems(from: journals)
         self.makeGroupedJournalData()
     }
     
@@ -42,7 +40,7 @@ final class ChartViewModel: ObservableObject {
         let last7Days = (0...6).compactMap {
             calendar.date(byAdding: .day, value: -$0, to: today)
         }.reversed()
-
+        
         var result: [JournalChart] = []
         
         for date in last7Days {
@@ -105,7 +103,7 @@ final class ChartViewModel: ObservableObject {
             calendar.component(.year, from: $0.date) == year &&
             calendar.component(.month, from: $0.date) == month
         }
-
+        
         self.journalData = filtered.map { JournalMetaData(entry: $0) }
         self.journalSummary = JournalSummary(entries: filtered)
         self.makeChartItems(from: filtered)

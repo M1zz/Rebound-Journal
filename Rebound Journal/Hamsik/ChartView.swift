@@ -11,8 +11,9 @@ import Charts
 struct ChartView: View {
     
     @EnvironmentObject var manager: DataManager
-    @ObservedObject var viewModel: ChartViewModel
+    @StateObject var viewModel: ChartViewModel
     @State var isDetailViewPresented: Bool = false
+    @FetchRequest(sortDescriptors: []) private var results: FetchedResults<JournalEntry>
     
     var body: some View {
         GeometryReader { proxy in
@@ -32,6 +33,12 @@ struct ChartView: View {
                 shootLog
             }
         }
+        .onAppear(perform: {
+            DispatchQueue.main.async {
+                viewModel.fetchJournals(data: results)
+                print(results.count)                
+            }
+        })
         .fullScreenCover(isPresented: $isDetailViewPresented) {
             // 타입별 상세보기
             ChartDetailView(isPresented: $isDetailViewPresented, viewModel: viewModel)

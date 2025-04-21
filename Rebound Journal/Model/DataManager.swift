@@ -19,6 +19,8 @@ enum FullScreenMode: Int, Identifiable {
 /// Main data manager for the app
 class DataManager: NSObject, ObservableObject {
     
+    static let shared = DataManager()
+    
     /// Dynamic properties that the UI will react to
     @Published var showLoading: Bool = false
     @Published var fullScreenMode: FullScreenMode?

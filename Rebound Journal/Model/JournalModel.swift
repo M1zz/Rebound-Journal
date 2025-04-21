@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct JournalModel: Identifiable {
     let id: String
@@ -19,6 +20,30 @@ struct JournalModel: Identifiable {
 }
 
 extension JournalModel {
+    
+    static func fromCoreData(_ entries: FetchedResults<JournalEntry>) -> [JournalModel] {
+            return entries.map { entry in
+                guard let id = entry.id,
+                      let date = entry.date,
+                      let emotionText = entry.moodText,
+                      let review = entry.reasons,
+                      let nextPlan = entry.reboundText
+                else {
+                    return .init(id: UUID().uuidString, date: Date(), hasDeleted: false, isGoalIn: false, emotionValue: 0, emotionText: "", review: "", nextPlan: "")
+                }
+                return JournalModel(
+                    id: id,
+                    date: date,
+                    hasDeleted: entry.hasDeleted,
+                    isGoalIn: entry.isRebounded,
+                    emotionValue: Int(entry.moodLevel),
+                    emotionText: emotionText,
+                    review: review,
+                    nextPlan: nextPlan
+                )
+            }
+        }
+    
     /// 더미데이터 생성
     static func mockData() -> [JournalModel] {
         let emotionTexts = ["행복해요", "조금 우울해요", "최고의 하루!", "짜증났어요", "평범했어요"]
