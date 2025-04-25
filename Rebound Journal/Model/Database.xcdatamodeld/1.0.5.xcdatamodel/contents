@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788" systemVersion="24D81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JournalEntry" representedClassName="JournalEntry" elementID="emotionValue" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hasDeleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isRebounded" optional="YES" attributeType="Boolean" usesScalarValueType="YES" elementID="isGoalIn"/>
+        <attribute name="moodLevel" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" elementID="emotionValue"/>
+        <attribute name="moodText" optional="YES" attributeType="String" elementID="emotionText"/>
+        <attribute name="reasons" optional="YES" attributeType="String" elementID="review"/>
+        <attribute name="reboundText" optional="YES" attributeType="String" elementID="nextPlan"/>
+    </entity>
+</model>

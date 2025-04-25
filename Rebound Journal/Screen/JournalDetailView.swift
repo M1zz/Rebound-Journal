@@ -36,7 +36,7 @@ struct JournalDetailView: View {
                 .multilineTextAlignment(.leading)
                 .font(.system(size: 28, weight: .semibold))
             HStack {
-                Text(manager.seledtedEntry?.text ?? "empty")
+                Text(manager.seledtedEntry?.moodText ?? "empty")
                     .padding()
                 Spacer()
             }

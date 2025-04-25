@@ -37,6 +37,7 @@
 		C37782F52DB4E65700BE2CF2 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37782F42DB4E65700BE2CF2 /* Array+Ext.swift */; };
 		C37782F72DB4EE3000BE2CF2 /* JournalMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37782F62DB4EE3000BE2CF2 /* JournalMetaData.swift */; };
 		C37782F92DB4F3F800BE2CF2 /* JournalChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37782F82DB4F3F800BE2CF2 /* JournalChart.swift */; };
+
 		C3A07BBF2DBA4B640057D3C3 /* ChartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BB72DBA4B640057D3C3 /* ChartDetailView.swift */; };
 		C3A07BC52DBA4B640057D3C3 /* JournalCreatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BBA2DBA4B640057D3C3 /* JournalCreatorViewModel.swift */; };
 		C3A07BC62DBA4B640057D3C3 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BB92DBA4B640057D3C3 /* ChartViewModel.swift */; };
@@ -89,10 +90,20 @@
 		58FAF6902D01FDBD008BE152 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		9C5A70E92BD201D0004B6F30 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		9C5A70EB2BD2487F004B6F30 /* JournalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
-		C37782F22DB4E3C600BE2CF2 /* JournalSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSummary.swift; sourceTree = "<group>"; };
-		C37782F42DB4E65700BE2CF2 /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
-		C37782F62DB4EE3000BE2CF2 /* JournalMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalMetaData.swift; sourceTree = "<group>"; };
-		C37782F82DB4F3F800BE2CF2 /* JournalChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalChart.swift; sourceTree = "<group>"; };
+		C376EA442D9BE5A4003E935F /* EmotionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionText.swift; sourceTree = "<group>"; };
+		C376EA452D9BE5A4003E935F /* EmotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionTracker.swift; sourceTree = "<group>"; };
+		C376EA462D9BE5A4003E935F /* ShootCreationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootCreationHeader.swift; sourceTree = "<group>"; };
+		C376EA472D9BE5A4003E935F /* StepControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepControlView.swift; sourceTree = "<group>"; };
+		C376EA482D9BE5A4003E935F /* VerticalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSlider.swift; sourceTree = "<group>"; };
+		C376EA4A2D9BE5A4003E935F /* EmotionInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionInputView.swift; sourceTree = "<group>"; };
+		C376EA4B2D9BE5A4003E935F /* JounrnalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JounrnalCreator.swift; sourceTree = "<group>"; };
+		C376EA4C2D9BE5A4003E935F /* ReviewPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPlanView.swift; sourceTree = "<group>"; };
+		C376EA4D2D9BE5A4003E935F /* SelectShootTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectShootTypeView.swift; sourceTree = "<group>"; };
+		C376EA502D9BE5A4003E935F /* JournalCreatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCreatorViewModel.swift; sourceTree = "<group>"; };
+		C376EA5F2D9BF488003E935F /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		C376EA612D9BF4A1003E935F /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
+		C376EA632D9BF55D003E935F /* 1.0.5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 1.0.5.xcdatamodel; sourceTree = "<group>"; };
+
 		C3A07BB72DBA4B640057D3C3 /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
 		C3A07BB82DBA4B640057D3C3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		C3A07BB92DBA4B640057D3C3 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
@@ -149,6 +160,7 @@
 		586F228A2A33861C004C7410 /* Rebound Journal */ = {
 			isa = PBXGroup;
 			children = (
+
 				C3A07BCB2DBBCED10057D3C3 /* ViewModel */,
 				C3A07BCA2DBBCE740057D3C3 /* View */,
 				589DCCB12D05F444003F86E5 /* Rebound-Journal-Info.plist */,
@@ -255,6 +267,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+
 		C3A07BCB2DBBCED10057D3C3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +277,7 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+
 		C3A07BE42DBBCEEC0057D3C3 /* Chart */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +301,7 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+
 		C3A07BE62DBBCF140057D3C3 /* JournalCreator */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,7 +394,9 @@
 				58FAF68D2D01F0C8008BE152 /* SettingsView.swift in Sources */,
 				C3A07BE02DBBCEE20057D3C3 /* ReviewPlanView.swift in Sources */,
 				586F228E2A33861C004C7410 /* DashboardContentView.swift in Sources */,
+				C3D6A5152DAFC4160030FBC6 /* Model.xcmappingmodel in Sources */,
 				C3B1B7AA2D9461E80008E38D /* AppDelegate.swift in Sources */,
+
 				C37782F92DB4F3F800BE2CF2 /* JournalChart.swift in Sources */,
 				C3D6A50F2DAFBD9B0030FBC6 /* Protocols.swift in Sources */,
 				58D6706D2BD01BBE00F581E2 /* String+Extension.swift in Sources */,
@@ -398,6 +415,7 @@
 				C3A07BDB2DBBCEE20057D3C3 /* EmotionTracker.swift in Sources */,
 				58D670752BD01ED900F581E2 /* UIImage+Extension.swift in Sources */,
 				9C5A70EA2BD201D0004B6F30 /* Color+Extension.swift in Sources */,
+
 				C3A07BDE2DBBCEE20057D3C3 /* ShootCreationHeader.swift in Sources */,
 				586F229D2A3388C4004C7410 /* HomeView.swift in Sources */,
 				589DCCAC2D04B169003F86E5 /* PhotoPicker.swift in Sources */,
@@ -407,6 +425,7 @@
 				58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */,
 				C3A07BE32DBBCEE20057D3C3 /* EmotionText.swift in Sources */,
 				586F229B2A3387AF004C7410 /* DataManager.swift in Sources */,
+
 				C37782F72DB4EE3000BE2CF2 /* JournalMetaData.swift in Sources */,
 				C37782F32DB4E3C600BE2CF2 /* JournalSummary.swift in Sources */,
 				58D670792BD01F2400F581E2 /* UIAlertAction+Extension.swift in Sources */,
@@ -548,10 +567,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rebound Journal/Preview Content\"";
-				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rebound-Journal-Info.plist";
@@ -570,6 +590,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -584,10 +605,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rebound Journal/Preview Content\"";
-				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rebound-Journal-Info.plist";
@@ -606,6 +628,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;

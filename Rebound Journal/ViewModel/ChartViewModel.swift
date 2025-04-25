@@ -11,6 +11,7 @@ import SwiftUI
 
 final class ChartViewModel: ObservableObject {
     
+
     @Published var journals: [JournalModel] = []
     @Published var journalSummary: JournalSummary = .init(entries: [])
     @Published var journalData: [JournalMetaData] = []
@@ -31,7 +32,7 @@ final class ChartViewModel: ObservableObject {
         let last7Days = (0...6).compactMap {
             calendar.date(byAdding: .day, value: -$0, to: today)
         }.reversed()
-        
+      
         var result: [JournalChart] = []
         
         for date in last7Days {
@@ -94,13 +95,14 @@ final class ChartViewModel: ObservableObject {
             calendar.component(.year, from: $0.date) == year &&
             calendar.component(.month, from: $0.date) == month
         }
-        
+
         self.journalData = filtered.map { JournalMetaData(entry: $0) }
         self.journalSummary = JournalSummary(entries: filtered)
         self.makeChartItems(from: filtered)
         self.makeGroupedJournalData()
     }
     
+
     func getJournals(context: NSManagedObjectContext) {
         let entries = DataManager.loadJournalEntries(context: context)
         self.journals = JournalModel.convertToJournalModel(entries: entries)
@@ -116,6 +118,7 @@ final class ChartViewModel: ObservableObject {
         print("JournalChartItems = \(self.journalChart.count)")
         print("GroupedJournalData = \(self.groupedJournalData.count)")
     }
+
 }
 
 /// 날짜별로 그룹화된 딕셔너리 타입
