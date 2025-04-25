@@ -19,6 +19,7 @@ struct JournalModel: Identifiable {
 }
 
 extension JournalModel {
+    
     static func convertToJournalModel(entries: [JournalEntry]) -> [JournalModel] {
         return entries.map { item in
             guard let id = item.id,
