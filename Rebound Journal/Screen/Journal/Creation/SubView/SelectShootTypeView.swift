@@ -32,8 +32,8 @@ struct SelectShootTypeView: View {
                         .frame(height: 160)
                         .background(
                             RoundedRectangle(cornerRadius: 10)
-                                .fill(Color.white)
-                                .shadow(color: Color.black.opacity(0.25), radius: 6, x: 0, y: 4)
+                                .fill(Color.cellColor)
+                                .shadow(color: Color.primary.opacity(0.25), radius: 6, x: 0, y: 4)
                         )
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
@@ -52,8 +52,8 @@ struct SelectShootTypeView: View {
                         .frame(height: 160)
                         .background(
                             RoundedRectangle(cornerRadius: 10)
-                                .fill(Color.white)
-                                .shadow(color: Color.black.opacity(0.25), radius: 6, x: 0, y: 4)
+                                .fill(Color.cellColor)
+                                .shadow(color: Color.primary.opacity(0.25), radius: 6, x: 0, y: 4)
                         )
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
@@ -100,7 +100,7 @@ struct SelectShootTypeView: View {
                     .frame(width: 60, height: 70)
                 Spacer()
                 Text("골인")
-                    .foregroundStyle(.black)
+                    .foregroundStyle(Color("Default"))
             }
         case false :
             VStack {
@@ -111,7 +111,7 @@ struct SelectShootTypeView: View {
                     .frame(width: 70, height: 105)
                 Spacer()
                 Text("리바운드")
-                    .foregroundStyle(.black)
+                    .foregroundStyle(Color("Default"))
             }
         }
     }

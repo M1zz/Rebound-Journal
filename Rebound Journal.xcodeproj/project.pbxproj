@@ -37,6 +37,7 @@
 		C37782F72DB4EE3000BE2CF2 /* JournalMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37782F62DB4EE3000BE2CF2 /* JournalMetaData.swift */; };
 		C37782F92DB4F3F800BE2CF2 /* JournalChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37782F82DB4F3F800BE2CF2 /* JournalChart.swift */; };
 		C377A9642DCFA63F000F227D /* JournalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377A9632DCFA63F000F227D /* JournalData.swift */; };
+		C377A9652DCFA64000F227D /* JournalAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377A9662DCFA64000F227D /* JournalAnalyzer.swift */; };
 		C37E18092E617A53000B4E5B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E18082E617A53000B4E5B /* HomeViewModel.swift */; };
 		C3A07BBF2DBA4B640057D3C3 /* ChartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BB72DBA4B640057D3C3 /* ChartDetailView.swift */; };
 		C3A07BC52DBA4B640057D3C3 /* JournalCreatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BBA2DBA4B640057D3C3 /* JournalCreatorViewModel.swift */; };
@@ -58,6 +59,12 @@
 		C3BAA6C52DC88F4E00D17DD8 /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */; };
 		C3BAA6C72DC8FE8400D17DD8 /* SelectTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */; };
 		C3D6A50F2DAFBD9B0030FBC6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */; };
+		4FB147945C3C4B13AAE7B10F /* ActiveReboundSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */; };
+		A8245C22CF9A4CF78573B457 /* SuccessFromReboundCelebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */; };
+		081494984EE84CA0951CC527 /* JournalTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */; };
+		BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */; };
+		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
+		48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +100,7 @@
 		C37782F62DB4EE3000BE2CF2 /* JournalMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalMetaData.swift; sourceTree = "<group>"; };
 		C37782F82DB4F3F800BE2CF2 /* JournalChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalChart.swift; sourceTree = "<group>"; };
 		C377A9632DCFA63F000F227D /* JournalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalData.swift; sourceTree = "<group>"; };
+		C377A9662DCFA64000F227D /* JournalAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAnalyzer.swift; sourceTree = "<group>"; };
 		C37E18082E617A53000B4E5B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C3A07BB72DBA4B640057D3C3 /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
 		C3A07BB82DBA4B640057D3C3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
@@ -115,6 +123,12 @@
 		C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTargetView.swift; sourceTree = "<group>"; };
 		C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTargetView.swift; sourceTree = "<group>"; };
 		C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReboundSection.swift; sourceTree = "<group>"; };
+		2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFromReboundCelebration.swift; sourceTree = "<group>"; };
+		D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTimelineView.swift; sourceTree = "<group>"; };
+		F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleGoalSection.swift; sourceTree = "<group>"; };
+		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
+		AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageJournalCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +168,7 @@
 				58D6706B2BD01BA800F581E2 /* Extensions */,
 				586F22992A338793004C7410 /* Model */,
 				589D5F412A3EDBD100DB3CCF /* Screen */,
+				4905299FBD8B40C5A53B5BAC /* Utilities */,
 				589DCCAF2D04B887003F86E5 /* AppDelegate.swift */,
 				586F229F2A338990004C7410 /* AppConfig.swift */,
 				586F228B2A33861C004C7410 /* ReboundJournalApp.swift */,
@@ -226,6 +241,9 @@
 			children = (
 				C345BA712E50DB4C00F93049 /* GoalList.swift */,
 				C345BA792E545A8900F93049 /* JournalList.swift */,
+				1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */,
+				D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */,
+				F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -325,6 +343,7 @@
 				C3A07BCD2DBBCEE20057D3C3 /* EmotionText.swift */,
 				C3A07BCE2DBBCEE20057D3C3 /* EmotionTracker.swift */,
 				C3A07BD02DBBCEE20057D3C3 /* ShootCreationHeader.swift */,
+				2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -354,6 +373,7 @@
 				C3A07BE72DBBF7120057D3C3 /* Database.xcdatamodeld */,
 				C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */,
 				C377A9632DCFA63F000F227D /* JournalData.swift */,
+				C377A9662DCFA64000F227D /* JournalAnalyzer.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -366,6 +386,14 @@
 				C345BA702E50DB3E00F93049 /* SubView */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		4905299FBD8B40C5A53B5BAC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		C38D927C2E4B968800C569E9 /* Creation */ = {
@@ -391,6 +419,7 @@
 			isa = PBXGroup;
 			children = (
 				C3A07BD52DBBCEE20057D3C3 /* JounrnalCreator.swift */,
+				AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */,
 				C38D92772E4B93E500C569E9 /* SubView */,
 			);
 			path = Creation;
@@ -502,6 +531,7 @@
 				58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */,
 				C3423FD02DD8F385000F2E4D /* SubGoalData.swift in Sources */,
 				C377A9642DCFA63F000F227D /* JournalData.swift in Sources */,
+				C377A9652DCFA64000F227D /* JournalAnalyzer.swift in Sources */,
 				C3A07BE32DBBCEE20057D3C3 /* EmotionText.swift in Sources */,
 				586F229B2A3387AF004C7410 /* DataManager.swift in Sources */,
 				C37782F72DB4EE3000BE2CF2 /* JournalMetaData.swift in Sources */,
@@ -515,6 +545,12 @@
 				C345BA722E50DB4C00F93049 /* GoalList.swift in Sources */,
 				C32530D42E63B886000A2E55 /* GoalInfo.swift in Sources */,
 				58D670712BD01C0F00F581E2 /* Calendar+Extension.swift in Sources */,
+				4FB147945C3C4B13AAE7B10F /* ActiveReboundSection.swift in Sources */,
+				A8245C22CF9A4CF78573B457 /* SuccessFromReboundCelebration.swift in Sources */,
+				081494984EE84CA0951CC527 /* JournalTimelineView.swift in Sources */,
+				BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */,
+				D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */,
+				48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

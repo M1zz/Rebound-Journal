@@ -139,7 +139,7 @@ extension ChartView {
                     .padding()
                     .frame(height: 80)
                     .frame(maxWidth: .infinity)
-                    .foregroundStyle(Color.default)
+                    .foregroundStyle(Color("Default"))
                     .background(Color.clear)
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
@@ -163,7 +163,7 @@ extension ChartView {
                 .padding()
                 .frame(height: 80)
                 .frame(maxWidth: .infinity)
-                .foregroundStyle(Color.default)
+                .foregroundStyle(Color("Default"))
                 .background(Color.clear)
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)

@@ -57,6 +57,7 @@ extension ChartView {
         HStack {
             Text("연속으로 \(viewModel.journalSummaries.streak)일째 기록 중이에요!")
                 .font(.title2.bold())
+                .foregroundStyle(.primary)
             Spacer()
         }
         .padding(.horizontal)
@@ -81,13 +82,16 @@ extension ChartView {
             HStack {
                 Text("월별")
                     .bold()
+                    .foregroundStyle(.primary)
                 Button {
                     debugPrint("날짜 변경")
                     viewModel.isDatePickerShown.toggle()
                 } label: {
                     HStack {
                         Text("\(viewModel.selectedDate.month)")
+                            .foregroundStyle(.primary)
                         Image(systemName: "chevron.up.chevron.down")
+                            .foregroundStyle(.primary)
                     }
                 }
                 
@@ -118,6 +122,7 @@ extension ChartView {
                 .scaledToFit()
             Text(text)
                 .font(.system(size: 12))
+                .foregroundStyle(.primary)
         }
         .frame(height: 12)
     }
@@ -129,6 +134,7 @@ extension ChartView {
             HStack{
                 Text("전체 (\(data.total)개)")
                     .font(.title2.bold())
+                    .foregroundStyle(.primary)
                 Spacer()
             }
             HStack {
@@ -147,7 +153,7 @@ extension ChartView {
                     .padding()
                     .frame(height: 80)
                     .frame(maxWidth: .infinity)
-                    .foregroundStyle(Color.default)
+                    .foregroundStyle(.primary)
                     .background(Color.clear)
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
@@ -171,7 +177,7 @@ extension ChartView {
                 .padding()
                 .frame(height: 80)
                 .frame(maxWidth: .infinity)
-                .foregroundStyle(Color.default)
+                .foregroundStyle(.primary)
                 .background(Color.clear)
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
@@ -190,6 +196,7 @@ extension ChartView {
                 Text("기록이 없어요!")
                     .padding()
                     .bold()
+                    .foregroundStyle(.primary)
                     .opacity(0.5)
                     .frame(maxWidth: .infinity)
                     .frame(height: 100)
@@ -200,17 +207,20 @@ extension ChartView {
                     VStack(alignment: .leading, spacing: 10) {
                         Text(group.key)
                             .font(.title3.bold())
-                            .foregroundStyle(.description)
+                            .foregroundStyle(.primary)
                             .padding(.leading, 5)
-                        
+
                         ForEach(group.value) { item in
                             VStack(alignment: .leading) {
                                 Text("\(item.isGoalIn ? "골인" : "리바운드") - \(item.emotionText)")
                                     .bold()
+                                    .foregroundStyle(.primary)
                                     .padding(.bottom, 10)
                                 Text(item.review)
+                                    .foregroundStyle(.primary)
                                 Divider()
                                 Text(item.nextPlan)
+                                    .foregroundStyle(.primary)
                             }
                             .padding()
                             .frame(maxWidth: .infinity)
@@ -231,6 +241,7 @@ extension ChartView {
                     viewModel.isDatePickerShown = false
                 } label: {
                     Text("취소")
+                        .foregroundStyle(.primary)
                 }
                 Spacer()
                 Button {
@@ -238,6 +249,7 @@ extension ChartView {
                     // TODO: 월 변경
                 } label: {
                     Text("확인")
+                        .foregroundStyle(.primary)
                 }
             }
             DatePicker("날짜 선택", selection: $viewModel.selectedDate, displayedComponents: .date)

@@ -54,7 +54,7 @@ struct SettingsView: View {
         HStack {
 						Text(title)
 								.font(.system(size: 18, weight: .medium))
-								.foregroundStyle(.default)
+								.foregroundStyle(Color("Default"))
             Spacer()
         }.foregroundColor(Color("TextColor"))
     }
@@ -109,7 +109,7 @@ struct SettingsView: View {
     //            }
     //        }.padding([.top, .bottom], 5).background(
     //            Color("Secondary").cornerRadius(15)
-    //                .shadow(color: Color.black.opacity(0.07), radius: 10)
+    //                .shadow(color: Color.primary.opacity(0.07), radius: 10)
     //        ).padding(.bottom, 40)
     //    }
     //    
@@ -161,7 +161,7 @@ struct SettingsView: View {
         .padding([.top, .bottom], 5)
         .background(Color("DiarySecondary")
             .cornerRadius(15)
-            .shadow(color: Color.black.opacity(0.07),
+            .shadow(color: Color.primary.opacity(0.07),
                     radius: 10))
         .padding(.bottom, 40)
     }
@@ -191,7 +191,7 @@ struct SettingsView: View {
             }
         }.padding([.top, .bottom], 5).background(
             Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.black.opacity(0.07), radius: 10)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10)
         ).padding(.bottom, 40)
     }
     
@@ -214,7 +214,7 @@ struct SettingsView: View {
             }
         }.padding([.top, .bottom], 5).background(
             Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.black.opacity(0.07), radius: 10)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10)
         ).padding(.bottom, 40)
     }
     
@@ -242,7 +242,7 @@ struct SettingsView: View {
             //            }
         }.padding([.top, .bottom], 5).background(
             Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.black.opacity(0.07), radius: 10)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10)
         )
     }
 }

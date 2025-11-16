@@ -20,24 +20,58 @@ struct DashboardContentView: View {
     @Query private var subGoals: [SubGoalData]
     @State private var isSettingsSheetPresented = false
     @State private var isHistorySheetPresented = false
-    
+    @State private var isGoalSectionExpanded = false
+
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some View {
-        ZStack {
-            VStack {
-                topTrailingButton
-                goalStatusText
-                subGoalList
+        VStack(spacing: 0) {
+            // 상단 버튼
+            topTrailingButton
+                .padding(.bottom, 8)
+
+            // 활성 실패 섹션 (고정)
+            let activeRebounds = JournalAnalyzer.getActiveRebounds(from: Array(journals))
+            if !activeRebounds.isEmpty {
+                ActiveReboundSection(activeRebounds: activeRebounds) { rebound in
+                    handleRetryRebound(rebound)
+                }
+                .background(Color(.systemBackground))
+                .shadow(color: Color.primary.opacity(0.05), radius: 3, y: 1)
             }
+
+            // 타임라인 (스크롤 가능)
+            ScrollView {
+                VStack(alignment: .leading, spacing: 0) {
+                    // 목표 토글 섹션
+                    CollapsibleGoalSection(
+                        subGoals: Array(subGoals),
+                        journals: Array(journals),
+                        isExpanded: $isGoalSectionExpanded
+                    )
+                    .padding(.top, 16)
+                    .padding(.horizontal)
+                    .padding(.bottom, 16)
+
+                    // 타임라인
+                    JournalTimelineView()
+                        .padding(.horizontal)
+
+                    // 하단 여백
+                    Color.clear.frame(height: 100)
+                }
+            }
+            .scrollIndicators(.hidden)
+        }
+        .overlay(alignment: .bottom) {
+            // 하단 버튼
             bottomButton
         }
-        .padding()
         // MARK: 10. 화면이동 중 전체화면을 덮는 방법
         .fullScreenCover(item: $manager.fullScreenMode) { type in
             switch type {
             case .entryCreator:
-                JounrnalCreator(viewModel: journalCreatorViewModel)
+                SinglePageJournalCreator(viewModel: journalCreatorViewModel)
                     .environmentObject(manager)
             case .readJournalView:
                 // TODO: 기록 상세화면
@@ -75,6 +109,25 @@ struct DashboardContentView: View {
     private var topTrailingButton: some View {
         HStack {
             Spacer()
+
+            // 개발용 샘플 데이터 버튼
+            #if DEBUG
+            Menu {
+                Button("샘플 데이터 생성") {
+                    SampleDataGenerator.generateAllSampleData(context: modelContext)
+                }
+                Button("모든 데이터 삭제", role: .destructive) {
+                    SampleDataGenerator.clearAllData(context: modelContext)
+                }
+            } label: {
+                Image(systemName: "cylinder.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 25)
+            }
+            .tint(.purple)
+            #endif
+
             Button {
                 manager.fullScreenMode = .chartView
             } label: {
@@ -83,8 +136,8 @@ struct DashboardContentView: View {
                     .scaledToFit()
                     .frame(width: 25)
             }
-            .tint(.black)
-            
+            .tint(Color("Default"))
+
             Button {
                 isSettingsSheetPresented.toggle()
             } label: {
@@ -93,12 +146,12 @@ struct DashboardContentView: View {
                     .scaledToFit()
                     .frame(width: 25)
             }
-            .tint(.black)
+            .tint(Color("Default"))
         }
     }
     /// 목표현황 텍스트
     private var goalStatusText: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: 8) {
             Text("목표(\(subGoals.count))")
                 .font(.system(size: 22))
                 .bold()
@@ -106,27 +159,25 @@ struct DashboardContentView: View {
                 .font(.system(size: 18))
                 .foregroundStyle(.secondary)
         }
-        .padding(.bottom, 30)
+        .padding(.bottom, 20)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
-    /// 목표 리스트
-    private var subGoalList: some View {
-        ScrollView {
-            LazyVGrid(columns: columns, spacing: 24) {
-                // 목표 없는 저널들을 위한 카테고리
-                let noGoalCount = journals.count(where: { $0.subGoal == nil || $0.subGoal?.isEmpty == true })
-                if noGoalCount > 0 {
-                    goalCell(["목표 없음": noGoalCount])
-                }
-                
-                // 기존 목표들
-                ForEach(subGoals, id: \.self) { item in
-                    let text = item.goalText ?? "목표 없음"
-                    let count = journals.count(where: { $0.subGoal == item.goalText })
-                    goalCell([text: count])
-                }
+    /// 목표 그리드 (ScrollView 제거)
+    private var subGoalGrid: some View {
+        LazyVGrid(columns: columns, spacing: 24) {
+            // 목표 없는 저널들을 위한 카테고리
+            let noGoalCount = journals.count(where: { $0.subGoal == nil || $0.subGoal?.isEmpty == true })
+            if noGoalCount > 0 {
+                goalCell(["목표 없음": noGoalCount])
             }
-            
+
+            // 기존 목표들
+            ForEach(subGoals, id: \.self) { item in
+                let text = item.goalText ?? "목표 없음"
+                let count = journals.count(where: { $0.subGoal == item.goalText })
+                goalCell([text: count])
+            }
+
             // 목표도 저널도 없는 경우에만 안내 메시지 표시
             if subGoals.isEmpty && journals.isEmpty {
                 Text("목표를 생성해주세요!")
@@ -134,11 +185,7 @@ struct DashboardContentView: View {
                     .foregroundStyle(.secondary)
                     .padding(.top, 50)
             }
-            
-            Color.clear
-                .frame(height: 200)
         }
-        .scrollIndicators(.hidden)
     }
     /// 목표 리스트 셀
     private func goalCell(_ data: [String: Int]) -> some View {
@@ -147,11 +194,11 @@ struct DashboardContentView: View {
         if let count = data.values.first {
             switch count {
             case 0..<3:
-                highlightColor = .goalFreqLow
+                highlightColor = Color("GoalFreqLow")
             case 3..<8:
-                highlightColor = .goalFreqMid
+                highlightColor = Color("GoalFreqMid")
             case 8...:
-                highlightColor = .goalFreqHigh
+                highlightColor = Color("GoalFreqHigh")
             default:
                 break
             }
@@ -162,7 +209,7 @@ struct DashboardContentView: View {
                let count = data.values.first {
                 Text(goal)
                     .lineLimit(1)
-										.foregroundStyle(.dashboardTitle)
+										.foregroundStyle(Color("DashboardTitle"))
                     .font(.system(size: 18))
                     .padding(.bottom, 10)
                     .minimumScaleFactor(0.7)
@@ -170,7 +217,7 @@ struct DashboardContentView: View {
                     Spacer()
                     Text("\(count)번")
                         .font(.system(size: 14, weight: .bold))
-												.foregroundStyle(.dashboardTitle)
+												.foregroundStyle(Color("DashboardTitle"))
                 }
             } else {
                 Text("데이터 없음")
@@ -183,19 +230,31 @@ struct DashboardContentView: View {
     }
     /// 하단 버튼
     private var bottomButton: some View {
-        VStack {
-            Spacer()
-            Button {
-                manager.fullScreenMode = .entryCreator
-            } label: {
-                Text("슛-쏘기")
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 60)
-                    .bold()
-                    .background(.tint)
-                    .foregroundStyle(.text)
-                    .clipShape(RoundedRectangle(cornerRadius: 90))
-            }
+        Button {
+            manager.fullScreenMode = .entryCreator
+        } label: {
+            Text("슛-쏘기")
+                .frame(maxWidth: .infinity)
+                .frame(height: 60)
+                .bold()
+                .background(.tint)
+                .foregroundStyle(Color("TextColor"))
+                .clipShape(RoundedRectangle(cornerRadius: 90))
         }
+        .padding(.horizontal, 16)
+        .padding(.bottom, 20)
+    }
+
+    /// 리바운드 재도전 처리
+    private func handleRetryRebound(_ rebound: JournalData) {
+        // ViewModel에 재도전할 리바운드 설정
+        journalCreatorViewModel.retryingRebound = rebound
+        journalCreatorViewModel.subGoal = rebound.subGoalUnwrapped
+        journalCreatorViewModel.purpose = rebound.purposeUnwrapped
+        journalCreatorViewModel.mainGoal = rebound.mainGoalUnwrapped
+
+        // 기록 화면 열기
+        manager.fullScreenMode = .entryCreator
     }
 }
+

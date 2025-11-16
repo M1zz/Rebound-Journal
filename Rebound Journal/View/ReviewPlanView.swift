@@ -38,7 +38,7 @@ struct ReviewPlanView: View {
                     .font(.system(size: 16))
                     .fontWeight(.semibold)
                     .frame(height: 35)
-                    .foregroundStyle(.default)
+                    .foregroundStyle(Color("Default"))
                     .padding(.horizontal, 10)
                     .background {
                         Capsule()

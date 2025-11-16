@@ -43,7 +43,7 @@ struct CreateTargetView: View {
                 HStack {
                     TextField("목표를 적어주세요", text: $targetText)
                         .font(.system(size: 15))
-                        .foregroundStyle(.black)
+                        .foregroundStyle(Color("Default"))
                         .padding(.horizontal, 10)
                         .frame(maxWidth: .infinity)
                         .multilineTextAlignment(.leading)
@@ -55,7 +55,7 @@ struct CreateTargetView: View {
                         }
                     Text("\(targetText.count)/30")
                         .font(.system(size: 12))
-                        .foregroundStyle(.description)
+                        .foregroundStyle(Color("Description"))
                         .padding(.horizontal, 5)
                 }
                 .frame(height: 65)

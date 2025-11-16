@@ -60,7 +60,7 @@ struct GoalList: View {
                     HStack(spacing: 6) {
                         ForEach(0..<data.count, id: \.self) { index in
                             Circle()
-                                .fill(index == currentGoal ? Color.white : Color.white.opacity(0.3))
+                                .fill(index == currentGoal ? Color.primary.opacity(0.8) : Color.primary.opacity(0.3))
                                 .frame(width: 8, height:  8)
                                 .animation(.easeInOut(duration: 0.2), value: currentGoal)
                         }
@@ -89,11 +89,11 @@ struct GoalList: View {
         
         switch data.count {
         case 0..<3:
-            highlightColor = .goalFreqLow
+            highlightColor = Color("GoalFreqLow")
         case 3..<8:
-            highlightColor = .goalFreqMid
+            highlightColor = Color("GoalFreqMid")
         case 8...:
-            highlightColor = .goalFreqHigh
+            highlightColor = Color("GoalFreqHigh")
         default:
             break
         }
@@ -102,7 +102,7 @@ struct GoalList: View {
             
             Text(data.title)
                 .lineLimit(1)
-                .foregroundStyle(.dashboardTitle)
+                .foregroundStyle(Color("DashboardTitle"))
                 .font(.system(size: 18))
                 .padding(.bottom, 10)
                 .minimumScaleFactor(0.7)
@@ -110,7 +110,7 @@ struct GoalList: View {
                 Spacer()
                 Text("\(data.count)번")
                     .font(.system(size: 14, weight: .bold))
-                    .foregroundStyle(.dashboardTitle)
+                    .foregroundStyle(Color("DashboardTitle"))
             }
         }
         .padding()
