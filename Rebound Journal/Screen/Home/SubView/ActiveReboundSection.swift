@@ -109,7 +109,7 @@ struct ActiveReboundCard: View {
                     Text("도전")
                 }
                 .font(.system(size: 12, weight: .semibold))
-                .foregroundStyle(.white)
+                .foregroundStyle(Color("TextColor"))
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 6)
                 .background(freshnessColor)

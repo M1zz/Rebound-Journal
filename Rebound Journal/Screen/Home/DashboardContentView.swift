@@ -37,7 +37,7 @@ struct DashboardContentView: View {
                     handleRetryRebound(rebound)
                 }
                 .background(Color(.systemBackground))
-                .shadow(color: .black.opacity(0.05), radius: 3, y: 1)
+                .shadow(color: Color.primary.opacity(0.05), radius: 3, y: 1)
             }
 
             // 타임라인 (스크롤 가능)
@@ -136,7 +136,7 @@ struct DashboardContentView: View {
                     .scaledToFit()
                     .frame(width: 25)
             }
-            .tint(.black)
+            .tint(Color("Default"))
 
             Button {
                 isSettingsSheetPresented.toggle()
@@ -146,7 +146,7 @@ struct DashboardContentView: View {
                     .scaledToFit()
                     .frame(width: 25)
             }
-            .tint(.black)
+            .tint(Color("Default"))
         }
     }
     /// 목표현황 텍스트
@@ -194,11 +194,11 @@ struct DashboardContentView: View {
         if let count = data.values.first {
             switch count {
             case 0..<3:
-                highlightColor = .goalFreqLow
+                highlightColor = Color("GoalFreqLow")
             case 3..<8:
-                highlightColor = .goalFreqMid
+                highlightColor = Color("GoalFreqMid")
             case 8...:
-                highlightColor = .goalFreqHigh
+                highlightColor = Color("GoalFreqHigh")
             default:
                 break
             }
@@ -209,7 +209,7 @@ struct DashboardContentView: View {
                let count = data.values.first {
                 Text(goal)
                     .lineLimit(1)
-										.foregroundStyle(.dashboardTitle)
+										.foregroundStyle(Color("DashboardTitle"))
                     .font(.system(size: 18))
                     .padding(.bottom, 10)
                     .minimumScaleFactor(0.7)
@@ -217,7 +217,7 @@ struct DashboardContentView: View {
                     Spacer()
                     Text("\(count)번")
                         .font(.system(size: 14, weight: .bold))
-												.foregroundStyle(.dashboardTitle)
+												.foregroundStyle(Color("DashboardTitle"))
                 }
             } else {
                 Text("데이터 없음")
@@ -238,7 +238,7 @@ struct DashboardContentView: View {
                 .frame(height: 60)
                 .bold()
                 .background(.tint)
-                .foregroundStyle(.text)
+                .foregroundStyle(Color("TextColor"))
                 .clipShape(RoundedRectangle(cornerRadius: 90))
         }
         .padding(.horizontal, 16)

@@ -24,12 +24,12 @@ struct ShootCreationHeader: View {
                     .font(.system(size: 25))
                     .fontWeight(.semibold)
                     .padding(.bottom, 3)
-                    .foregroundStyle(.default)
+                    .foregroundStyle(Color("Default"))
                 
                 if let description = description {
                     Text(description)
                         .font(.system(size: 18))
-                        .foregroundStyle(.description)
+                        .foregroundStyle(Color("Description"))
                 }
             }
         }

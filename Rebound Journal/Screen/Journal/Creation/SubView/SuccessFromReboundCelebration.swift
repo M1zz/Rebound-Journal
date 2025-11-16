@@ -117,7 +117,7 @@ struct SuccessFromReboundCelebration: View {
                 Button(action: onDismiss) {
                     Text("확인")
                         .font(.system(size: 16, weight: .semibold))
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Color("TextColor"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 12)
                         .background(Color.accentColor)
