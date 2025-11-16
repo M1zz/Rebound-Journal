@@ -26,6 +26,7 @@ struct ReviewPlanView: View {
     var isReviewed: Bool {!reviewText.isEmpty || currentField == .review}
     var isPlaned: Bool {!planText.isEmpty || currentField == .plan}
     @Binding var path: NavigationPath
+    @State private var showCelebration: Bool = false
     
     // etc
     let text = Constants.ContentText()
@@ -42,7 +43,15 @@ struct ReviewPlanView: View {
                     Capsule()
                         .fill(.unselectedTagBackground)
                 }
-            
+
+            // 과거 성공 패턴 제안 (리바운드일 때만)
+            if viewModel.goalType == false, let pattern = viewModel.suggestedPattern {
+                PastSuccessPatternCard(pattern: pattern, onApply: {
+                    applyPastPattern(pattern)
+                })
+                .padding(.vertical, 8)
+            }
+
             // Reviewing Shoot
             if (currentField == .review) || (currentField == .none) {
                 Text(text.reviewShooting)
@@ -112,8 +121,34 @@ struct ReviewPlanView: View {
         .onAppear() {
             reviewText = viewModel.reviewText ?? ""
             planText = viewModel.nextPlanText ?? ""
+
+            // 리바운드일 때만 과거 패턴 로드
+            if viewModel.goalType == false {
+                viewModel.loadPastSuccessPattern(context: modelContext)
+            }
+        }
+        .overlay {
+            // 축하 화면
+            if showCelebration, let rebound = viewModel.retryingRebound {
+                SuccessFromReboundCelebration(rebound: rebound) {
+                    showCelebration = false
+                    viewModel.showSuccessFromReboundCelebration = false
+                    manager.fullScreenMode = nil
+                }
+            }
+        }
+        .onChange(of: viewModel.showSuccessFromReboundCelebration) { _, newValue in
+            if newValue {
+                showCelebration = true
+            }
         }
         .padding()
+    }
+
+    /// 과거 패턴 적용
+    private func applyPastPattern(_ pattern: SuccessPattern) {
+        planText = pattern.suggestedPlan
+        viewModel.nextPlanText = pattern.suggestedPlan
     }
     
     private func onPreviousTapped() {
@@ -130,6 +165,100 @@ struct ReviewPlanView: View {
         else {
             path.append(JournalCreationState.createSubGoal)
         }
+    }
+}
+
+/// 과거 성공 패턴 카드
+struct PastSuccessPatternCard: View {
+    let pattern: SuccessPattern
+    let onApply: () -> Void
+    @State private var isExpanded: Bool = true
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            // 헤더
+            HStack {
+                Image(systemName: "lightbulb.fill")
+                    .foregroundStyle(.yellow)
+                Text("💡 과거의 나는 이렇게 했어요")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(.primary)
+                Spacer()
+                Button(action: {
+                    withAnimation {
+                        isExpanded.toggle()
+                    }
+                }) {
+                    Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
+                        .foregroundStyle(.gray)
+                }
+            }
+
+            if isExpanded {
+                VStack(alignment: .leading, spacing: 8) {
+                    // 날짜 정보
+                    HStack(spacing: 4) {
+                        Text("[\(pattern.formattedFailureDate)]")
+                            .font(.system(size: 14))
+                            .foregroundStyle(.red)
+                        Text("비슷한 실패")
+                            .font(.system(size: 14))
+                            .foregroundStyle(.secondary)
+                    }
+
+                    // 대안 내용
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("대안:")
+                            .font(.system(size: 13, weight: .medium))
+                            .foregroundStyle(.secondary)
+                        Text("\"\(pattern.suggestedPlan)\"")
+                            .font(.system(size: 15))
+                            .foregroundStyle(.primary)
+                            .padding(10)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(Color.blue.opacity(0.1))
+                            .cornerRadius(8)
+                    }
+
+                    // 성공 결과
+                    HStack(spacing: 4) {
+                        Image(systemName: "arrow.right")
+                            .font(.system(size: 12))
+                            .foregroundStyle(.green)
+                        Text("다음 시도에서 성공했어요!")
+                            .font(.system(size: 13))
+                            .foregroundStyle(.green)
+                    }
+
+                    // 적용 버튼
+                    Button(action: onApply) {
+                        HStack {
+                            Image(systemName: "arrow.down.circle.fill")
+                            Text("이 대안 적용하기")
+                        }
+                        .font(.system(size: 15, weight: .medium))
+                        .foregroundStyle(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 12)
+                        .background(Color.accentColor)
+                        .cornerRadius(10)
+                    }
+
+                    // 새로 생각하기 텍스트
+                    Text("또는 새로운 대안을 생각해보세요")
+                        .font(.system(size: 12))
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                }
+            }
+        }
+        .padding()
+        .background(Color.yellow.opacity(0.1))
+        .cornerRadius(12)
+        .overlay(
+            RoundedRectangle(cornerRadius: 12)
+                .stroke(Color.yellow.opacity(0.3), lineWidth: 1)
+        )
     }
 }
 

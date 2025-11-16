@@ -24,7 +24,13 @@ final class JournalData {
     var purpose: String? // 목적
     var mainGoal: String? // 큰 목표
     var subGoal: String? // 작은 목표
-    
+
+    // 실패-성공 연결 관계
+    var linkedReboundId: String? // 이 성공이 극복한 리바운드(실패) ID
+    var isResolved: Bool? // 리바운드가 해결되었는지
+    var resolvedDate: Date? // 해결된 날짜
+    var retryCount: Int? // 재시도 횟수
+
     init(id: String? = nil,
          date: Date? = nil,
          hasDeleted: Bool = false,
@@ -36,7 +42,11 @@ final class JournalData {
          isRebounded: Bool? = nil,
          purpose: String? = nil,
          mainGoal: String? = nil,
-         subGoal: String? = nil) {
+         subGoal: String? = nil,
+         linkedReboundId: String? = nil,
+         isResolved: Bool? = nil,
+         resolvedDate: Date? = nil,
+         retryCount: Int? = nil) {
         self.id = id
         self.date = date
         self.hasDeleted = hasDeleted
@@ -49,6 +59,10 @@ final class JournalData {
         self.purpose = purpose
         self.mainGoal = mainGoal
         self.subGoal = subGoal
+        self.linkedReboundId = linkedReboundId
+        self.isResolved = isResolved
+        self.resolvedDate = resolvedDate
+        self.retryCount = retryCount
     }
 }
 
@@ -108,5 +122,22 @@ extension JournalData {
 
     var isValidForDisplay: Bool {
         return !(hasDeleted ?? false) && date != nil
+    }
+
+    var linkedReboundIdUnwrapped: String {
+        return linkedReboundId ?? ""
+    }
+
+    var isResolvedUnwrapped: Bool {
+        return isResolved ?? false
+    }
+
+    var retryCountUnwrapped: Int {
+        return retryCount ?? 0
+    }
+
+    /// 활성 리바운드인지 (실패이면서 아직 해결되지 않음)
+    var isActiveRebound: Bool {
+        return isGoalIn == false && !(isResolved ?? false) && !hasDeletedUnwrapped
     }
 }
