@@ -28,16 +28,6 @@ struct JournalTimelineView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            // 타임라인 헤더
-            HStack {
-                Image(systemName: "clock.fill")
-                    .foregroundStyle(.blue)
-                Text("타임라인")
-                    .font(.system(size: 18, weight: .bold))
-                    .foregroundStyle(.primary)
-            }
-            .padding(.bottom, 12)
-
             // 타임라인 아이템들
             if timelineItems.isEmpty {
                 EmptyTimelineView()

@@ -20,14 +20,15 @@ struct DashboardContentView: View {
     @Query private var subGoals: [SubGoalData]
     @State private var isSettingsSheetPresented = false
     @State private var isHistorySheetPresented = false
-    @State private var isGoalSectionExpanded = false
 
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some View {
         VStack(spacing: 0) {
-            // 상단 버튼
-            topTrailingButton
+            // 상단 헤더
+            headerSection
+                .padding(.horizontal, 16)
+                .padding(.top, 8)
                 .padding(.bottom, 8)
 
             // 활성 실패 섹션 (고정)
@@ -40,26 +41,28 @@ struct DashboardContentView: View {
                 .shadow(color: .black.opacity(0.05), radius: 3, y: 1)
             }
 
-            // 타임라인 (스크롤 가능)
+            // 컨텐츠 (스크롤 가능)
             ScrollView {
-                VStack(alignment: .leading, spacing: 0) {
-                    // 목표 토글 섹션
-                    CollapsibleGoalSection(
-                        subGoals: Array(subGoals),
-                        journals: Array(journals),
-                        isExpanded: $isGoalSectionExpanded
-                    )
-                    .padding(.top, 16)
-                    .padding(.horizontal)
-                    .padding(.bottom, 16)
+                VStack(alignment: .leading, spacing: 16) {
+                    // 성장 요약 섹션
+                    GrowthSummarySection(journals: Array(journals))
+                        .padding(.horizontal)
 
-                    // 타임라인
-                    JournalTimelineView()
+                    // 목표 현황 섹션
+                    GoalStatusSection(
+                        subGoals: Array(subGoals),
+                        journals: Array(journals)
+                    )
+                    .padding(.horizontal)
+
+                    // 타임라인 보기 버튼
+                    timelineButton
                         .padding(.horizontal)
 
                     // 하단 여백
                     Color.clear.frame(height: 100)
                 }
+                .padding(.top, 16)
             }
             .scrollIndicators(.hidden)
         }
@@ -71,7 +74,7 @@ struct DashboardContentView: View {
         .fullScreenCover(item: $manager.fullScreenMode) { type in
             switch type {
             case .entryCreator:
-                SinglePageJournalCreator(viewModel: journalCreatorViewModel)
+                InteractiveJournalCreator(viewModel: journalCreatorViewModel)
                     .environmentObject(manager)
             case .readJournalView:
                 // TODO: 기록 상세화면
@@ -86,8 +89,18 @@ struct DashboardContentView: View {
                 PasscodeView(setupMode: true)
                     .environmentObject(manager)
             case .chartView:
-                ChartView(viewModel: chartViewModel)
+                NewChartView(viewModel: chartViewModel)
                     .environmentObject(manager)
+            case .timelineView:
+                TimelineView()
+                    .environmentObject(manager)
+            case .goalTimelineView:
+                if let goalName = manager.selectedGoal {
+                    GoalTimelineView(goalName: goalName, journals: Array(journals))
+                        .environmentObject(manager)
+                } else {
+                    EmptyView()
+                }
             }
         }
         /// Show the passcode view if the passcode was setup
@@ -105,11 +118,23 @@ struct DashboardContentView: View {
             SettingsView() // 모달로 표시될 View
         }
     }
-    /// 우측상단 버튼
-    private var topTrailingButton: some View {
+
+    /// 헤더 섹션 (타이틀 + 버튼들)
+    private var headerSection: some View {
         HStack {
+            Text("성장하기")
+                .font(.system(size: 28, weight: .bold))
+                .foregroundStyle(.primary)
+
             Spacer()
 
+            topTrailingButtons
+        }
+    }
+
+    /// 우측상단 버튼
+    private var topTrailingButtons: some View {
+        HStack(spacing: 16) {
             // 개발용 샘플 데이터 버튼
             #if DEBUG
             Menu {
@@ -228,21 +253,45 @@ struct DashboardContentView: View {
         .background(highlightColor)
         .clipShape(RoundedRectangle(cornerRadius: 4))
     }
+    /// 타임라인 보기 버튼
+    private var timelineButton: some View {
+        Button {
+            manager.fullScreenMode = .timelineView
+        } label: {
+            HStack {
+                Image(systemName: "clock.arrow.circlepath")
+                    .font(.system(size: 18))
+                Text("전체 타임라인 보기")
+                    .font(.system(size: 16, weight: .semibold))
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 14))
+            }
+            .foregroundStyle(.primary)
+            .padding()
+            .background(Color(.systemGray6))
+            .cornerRadius(12)
+        }
+    }
+
     /// 하단 버튼
     private var bottomButton: some View {
-        Button {
-            manager.fullScreenMode = .entryCreator
-        } label: {
-            Text("슛-쏘기")
-                .frame(maxWidth: .infinity)
-                .frame(height: 60)
-                .bold()
-                .background(.tint)
-                .foregroundStyle(.text)
-                .clipShape(RoundedRectangle(cornerRadius: 90))
+        HStack {
+            Spacer()
+            Button {
+                manager.fullScreenMode = .entryCreator
+            } label: {
+                Text("슛-쏘기")
+                    .font(.system(size: 16, weight: .semibold))
+                    .padding(.horizontal, 32)
+                    .frame(height: 48)
+                    .background(.tint)
+                    .foregroundStyle(.text)
+                    .clipShape(RoundedRectangle(cornerRadius: 24))
+            }
         }
-        .padding(.horizontal, 16)
-        .padding(.bottom, 20)
+        .padding(.horizontal, 24)
+        .padding(.bottom, 16)
     }
 
     /// 리바운드 재도전 처리

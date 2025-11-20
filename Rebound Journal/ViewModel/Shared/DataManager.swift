@@ -13,7 +13,7 @@ import Foundation
 
 /// Full Screen flow
 enum FullScreenMode: Int, Identifiable {
-    case entryCreator, readJournalView, reboundCreator, passcodeView, setupPasscodeView, chartView
+    case entryCreator, readJournalView, reboundCreator, passcodeView, setupPasscodeView, chartView, timelineView, goalTimelineView
     var id: Int { hashValue }
 }
 
@@ -27,6 +27,7 @@ class DataManager: NSObject, ObservableObject {
     @Published var selectedDate: Date = Date()
     @Published var selectedEntryImage: UIImage?
     @Published var seledtedEntry: JournalData?
+    @Published var selectedGoal: String?  // 선택된 목표 (목표별 타임라인용)
     //@Published var quotes: QuotesList = QuotesList()
     @Published var didEnterCorrectPasscode: Bool = false
     

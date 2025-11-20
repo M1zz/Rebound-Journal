@@ -43,6 +43,17 @@ extension Date {
         return formatter
     }()
 
+    /// yyyy mm dd 형식 (예: "2025 04 21")
+    var yyyyMMdd: String {
+        return Date.yyyyMMddFormatter.string(from: self)
+    }
+
+    private static let yyyyMMddFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy MM dd"
+        return formatter
+    }()
+
     func string(format: String) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = format

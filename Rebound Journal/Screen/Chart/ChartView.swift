@@ -40,6 +40,9 @@ struct ChartView: View {
         .onAppear {
             viewModel.fetch(from: journals)
         }
+        .onChange(of: viewModel.selectedDate) { _, _ in
+            viewModel.fetch(from: journals)
+        }
         .fullScreenCover(isPresented: $isDetailViewPresented) {
             // 타입별 상세보기
             ChartDetailView(isPresented: $isDetailViewPresented, viewModel: viewModel)
@@ -80,19 +83,24 @@ extension ChartView {
     private var chart: some View {
         VStack {
             HStack {
-                Text("월별")
-                    .bold()
-                    .foregroundStyle(.primary)
                 Button {
                     debugPrint("날짜 변경")
                     viewModel.isDatePickerShown.toggle()
                 } label: {
                     HStack {
-                        Text("\(viewModel.selectedDate.month)")
+                        Image(systemName: "calendar")
+                            .foregroundStyle(.primary)
+                        Text(viewModel.selectedDate.yyyyMMdd)
+                            .font(.system(size: 16, weight: .semibold))
                             .foregroundStyle(.primary)
                         Image(systemName: "chevron.up.chevron.down")
+                            .font(.system(size: 12))
                             .foregroundStyle(.primary)
                     }
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 8)
+                    .background(Color(.systemGray6))
+                    .cornerRadius(8)
                 }
                 
                 Spacer()

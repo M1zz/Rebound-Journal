@@ -65,6 +65,12 @@
 		BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */; };
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
 		48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */; };
+		E308811A2AEB4D4489616333 /* GrowthSummarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */; };
+		2C9C4D31562B4B6CA0F195DC /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */; };
+		CC27AF85F75949608B6E25C6 /* GoalStatusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */; };
+		2A6B93451E3B406F95D289DF /* StatisticsAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */; };
+		F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F796C4A4A4170BAA1A6EB /* NewChartView.swift */; };
+		CE51D846E3A44F0F87E4EFAE /* InteractiveJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8C68A3AEA4E78BC849D79 /* InteractiveJournalCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +135,13 @@
 		F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleGoalSection.swift; sourceTree = "<group>"; };
 		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
 		AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageJournalCreator.swift; sourceTree = "<group>"; };
+		0F590963E79741BC88003CBD /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthSummarySection.swift; sourceTree = "<group>"; };
+		2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStatusSection.swift; sourceTree = "<group>"; };
+		E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsAnalyzer.swift; sourceTree = "<group>"; };
+		094F796C4A4A4170BAA1A6EB /* NewChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChartView.swift; sourceTree = "<group>"; };
+		79B8C68A3AEA4E78BC849D79 /* InteractiveJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveJournalCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,7 +211,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		589D5F412A3EDBD100DB3CCF /* Screen */ = {
+				05348D0C19664A14A45BD717 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+589D5F412A3EDBD100DB3CCF /* Screen */ = {
 			isa = PBXGroup;
 			children = (
 				C38D927B2E4B94D100C569E9 /* Home */,
@@ -207,7 +228,8 @@
 				C38D92712E4B934100C569E9 /* Target */,
 				C38D926F2E4B92BC00C569E9 /* Journal */,
 				C38D926E2E4B92AF00C569E9 /* Setting */,
-			);
+			
+				05348D0C19664A14A45BD717 /* Timeline */,);
 			path = Screen;
 			sourceTree = "<group>";
 		};
@@ -244,7 +266,9 @@
 				1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */,
 				D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */,
 				F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */,
-			);
+			
+				9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */,
+				DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */,);
 			path = SubView;
 			sourceTree = "<group>";
 		};
@@ -295,7 +319,8 @@
 			children = (
 				C3A07BB82DBA4B640057D3C3 /* ChartView.swift */,
 				C38D92732E4B936800C569E9 /* SubView */,
-			);
+			
+				094F796C4A4A4170BAA1A6EB /* NewChartView.swift */,);
 			path = Chart;
 			sourceTree = "<group>";
 		};
@@ -374,7 +399,8 @@
 				C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */,
 				C377A9632DCFA63F000F227D /* JournalData.swift */,
 				C377A9662DCFA64000F227D /* JournalAnalyzer.swift */,
-			);
+			
+				E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */,);
 			path = Shared;
 			sourceTree = "<group>";
 		};
@@ -400,7 +426,8 @@
 			isa = PBXGroup;
 			children = (
 				C3A07BBA2DBA4B640057D3C3 /* JournalCreatorViewModel.swift */,
-			);
+			
+				79B8C68A3AEA4E78BC849D79 /* InteractiveJournalCreator.swift */,);
 			path = Creation;
 			sourceTree = "<group>";
 		};
@@ -551,7 +578,18 @@
 				BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */,
 				D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */,
 				48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */,
-			);
+			
+
+				E308811A2AEB4D4489616333 /* GrowthSummarySection.swift in Sources */,
+				2C9C4D31562B4B6CA0F195DC /* TimelineView.swift in Sources */,
+
+				CC27AF85F75949608B6E25C6 /* GoalStatusSection.swift in Sources */,
+
+				2A6B93451E3B406F95D289DF /* StatisticsAnalyzer.swift in Sources */,
+				F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */,
+
+				CE51D846E3A44F0F87E4EFAE /* InteractiveJournalCreator.swift in Sources */,
+);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
