@@ -95,8 +95,8 @@ struct HomeView: View {
                     .frame(width: 25)
                     .bold()
             }
-            .tint(.black)
-            
+            .tint(Color("Default"))
+
             // 통계화면 버튼
             Button {
                 print("통계화면 보기")
@@ -106,8 +106,8 @@ struct HomeView: View {
                     .scaledToFit()
                     .frame(width: 25)
             }
-            .tint(.black)
-            
+            .tint(Color("Default"))
+
             // 설정화면 버튼
             Button {
                 print("설정화면 보기")
@@ -117,7 +117,7 @@ struct HomeView: View {
                     .scaledToFit()
                     .frame(width: 25)
             }
-            .tint(.black)
+            .tint(Color("Default"))
         }
         .padding(.trailing)
     }
@@ -141,7 +141,7 @@ struct HomeView: View {
                 .frame(height: 60)
                 .bold()
                 .background(.tint)
-                .foregroundStyle(.text)
+                .foregroundStyle(Color("TextColor"))
                 .clipShape(RoundedRectangle(cornerRadius: 90))
                 .padding(.horizontal)
             // SE 대응 패딩

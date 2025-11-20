@@ -33,7 +33,7 @@ struct ModalHeaderBar: View {
           } label: {
             Image(systemName: "chevron.left")
               .font(.system(size: 20, weight: .semibold))
-              .tint(.default)
+              .tint(Color("Default"))
               .padding()
           }
         } else {
@@ -54,7 +54,7 @@ struct ModalHeaderBar: View {
           } label: {
             Image(systemName: Constants.ImageStrings.xMark)
               .font(.system(size: 20, weight: .semibold))
-              .tint(.default)
+              .tint(Color("Default"))
               .padding()
           }
           .alert(isPresented: $showAlert) {

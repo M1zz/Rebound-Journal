@@ -126,7 +126,7 @@ struct SinglePageJournalCreator: View {
         HStack {
             Text(text)
                 .padding()
-                .foregroundStyle(.black)
+                .foregroundStyle(Color("Default"))
             Spacer()
         }
         .frame(maxWidth: .infinity)
@@ -170,11 +170,11 @@ struct SinglePageJournalCreator: View {
                 .frame(height: 60)
             Text(title)
                 .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(.black)
+                .foregroundStyle(Color("Default"))
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 20)
-        .background(Color.white)
+        .background(Color.cellColor)
         .overlay(
             RoundedRectangle(cornerRadius: 10)
                 .stroke(isSelected ? Color.accentColor : Color.shootTypeButtonBorder, lineWidth: 2)
@@ -265,7 +265,7 @@ struct SinglePageJournalCreator: View {
         Button(action: saveJournal) {
             Text("저장")
                 .font(.system(size: 18, weight: .bold))
-                .foregroundStyle(.white)
+                .foregroundStyle(Color("TextColor"))
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(canSave ? Color.accentColor : Color.gray)

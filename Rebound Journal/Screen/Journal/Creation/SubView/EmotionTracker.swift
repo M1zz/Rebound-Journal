@@ -32,6 +32,38 @@ struct EmotionTracker: View {
     var isSliderEditing: Bool {
         viewModel.isSliderEditing
     }
+<<<<<<< HEAD
+=======
+    
+    var text = Constants.SystemText()
+    
+    var body: some View {
+        ZStack {
+            VStack {
+                HStack(spacing: 5) {
+                    if isFirstEnter {
+                        Text(text.sliderGuide)
+                            .frame(maxWidth: .infinity)
+                            .multilineTextAlignment(.center)
+                            .foregroundStyle(Color("Description"))
+                            .bold()
+                            .padding()
+                    } else if !isSliderEditing {
+                        EmotionText(emotions: $emotionText, selectedTags: $selectedEmotionTags)
+                            .onChange(of: selectedEmotionTags) { _, newValue in
+                                viewModel.emotionText = newValue
+                            }
+                    } else {
+                        FeelingShape(value: $emotionValue,
+                                     currentFeelingShape: $emotionShape)
+                    }
+                    
+                    Spacer()
+                    
+                    VerticalSlider(sliderValue: $emotionValue, isEdited: $viewModel.isSliderEditing)
+                        .onChange(of: emotionValue) { _, newValue in
+                            debugPrint("Slider: \(newValue)")
+>>>>>>> origin/refactoring
 
     var text = Constants.SystemText()
 

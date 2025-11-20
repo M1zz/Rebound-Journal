@@ -23,13 +23,13 @@ struct SelectTargetView: View {
                 HStack {
                     Text("어떤 슛을 남겨볼까요?")
                         .font(.system(size: 25).bold())
-                        .foregroundStyle(.default)
+                        .foregroundStyle(Color("Default"))
                     Spacer()
                 }
                 HStack {
                     Text("목표에 대한 슛인가요?")
                         .font(.system(size: 18))
-                        .foregroundStyle(.description)
+                        .foregroundStyle(Color("Description"))
                     Spacer()
                 }
             }
@@ -42,7 +42,7 @@ struct SelectTargetView: View {
                         HStack {
                             Text(text)
                                 .padding()
-                                .foregroundStyle(.black)
+                                .foregroundStyle(Color("Default"))
                             Spacer()
                         }
                         .frame(maxWidth: .infinity)

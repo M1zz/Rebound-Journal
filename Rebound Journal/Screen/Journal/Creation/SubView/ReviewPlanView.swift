@@ -36,7 +36,7 @@ struct ReviewPlanView: View {
         VStack(alignment: .leading) {
             Text(viewModel.emotionText?.first ?? "감정태그")
                 .font(.system(size: 16))
-                .foregroundStyle(.black)
+                .foregroundStyle(Color("Default"))
                 .padding(.horizontal, 10)
                 .padding(.vertical, 12)
                 .background {
@@ -237,7 +237,7 @@ struct PastSuccessPatternCard: View {
                             Text("이 대안 적용하기")
                         }
                         .font(.system(size: 15, weight: .medium))
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Color("TextColor"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 12)
                         .background(Color.accentColor)

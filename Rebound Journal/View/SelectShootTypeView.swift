@@ -62,7 +62,7 @@ struct SelectShootTypeView: View {
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(Color.accentColor)
-                    .foregroundColor(.default)
+                    .foregroundColor(Color("Default"))
                     .cornerRadius(90)
             }
             .disabled(viewModel.goalType == nil)
@@ -93,7 +93,7 @@ extension SelectShootTypeView {
                     .frame(width: 60, height: 70)
                 Spacer()
                 Text("골인")
-                    .foregroundStyle(.default)
+                    .foregroundStyle(Color("Default"))
             }
         case false :
             VStack {
@@ -103,7 +103,7 @@ extension SelectShootTypeView {
                     .frame(width: 60, height: 70)
                 Spacer()
                 Text("리바운드")
-                    .foregroundStyle(.default)
+                    .foregroundStyle(Color("Default"))
             }
         }
     }

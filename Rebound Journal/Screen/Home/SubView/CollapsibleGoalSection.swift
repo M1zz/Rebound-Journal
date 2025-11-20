@@ -107,11 +107,11 @@ struct CollapsibleGoalSection: View {
         if let count = data.values.first {
             switch count {
             case 0..<3:
-                highlightColor = .goalFreqLow
+                highlightColor = Color("GoalFreqLow")
             case 3..<8:
-                highlightColor = .goalFreqMid
+                highlightColor = Color("GoalFreqMid")
             case 8...:
-                highlightColor = .goalFreqHigh
+                highlightColor = Color("GoalFreqHigh")
             default:
                 break
             }
@@ -122,14 +122,14 @@ struct CollapsibleGoalSection: View {
                let count = data.values.first {
                 Text(goal)
                     .lineLimit(1)
-                    .foregroundStyle(.dashboardTitle)
+                    .foregroundStyle(Color("DashboardTitle"))
                     .font(.system(size: 16))
                     .minimumScaleFactor(0.7)
                 HStack {
                     Spacer()
                     Text("\(count)번")
                         .font(.system(size: 13, weight: .bold))
-                        .foregroundStyle(.dashboardTitle)
+                        .foregroundStyle(Color("DashboardTitle"))
                 }
             } else {
                 Text("데이터 없음")
@@ -177,7 +177,7 @@ struct AddGoalSheet: View {
                     .frame(maxWidth: .infinity)
                     .padding()
                     .background(Color.accentColor)
-                    .foregroundStyle(.white)
+                    .foregroundStyle(Color("TextColor"))
                     .cornerRadius(10)
                     .disabled(newGoalText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 }
