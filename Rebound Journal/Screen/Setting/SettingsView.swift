@@ -46,20 +46,16 @@ struct SettingsView: View {
                 }
             }
         }
-
+        
     }
     
     /// Create custom header view
     private func CustomHeader(title: String) -> some View {
         HStack {
-						Text(title)
-<<<<<<< HEAD
-								.font(.headline)
-								.foregroundStyle(.primary)
-=======
-								.font(.system(size: 18, weight: .medium))
-								.foregroundStyle(Color("Default"))
->>>>>>> origin/refactoring
+            Text(title)
+                .font(.system(size: 18, weight: .medium))
+                .foregroundStyle(Color("Default"))
+            
             Spacer()
         }
     }
@@ -117,7 +113,7 @@ struct SettingsView: View {
     //                .shadow(color: Color.primary.opacity(0.07), radius: 10)
     //        ).padding(.bottom, 40)
     //    }
-    //    
+    //
     //    private var InAppPurchasesPromoBannerView: some View {
     //        ZStack {
     //            if manager.isPremiumUser == false {
@@ -175,11 +171,6 @@ struct SettingsView: View {
         VStack {
             SettingsItem(title: Constants.Strings.setPasscode, icon: "circle.grid.3x3") {
                 manager.fullScreenMode = .setupPasscodeView
-                //                if manager.isPremiumUser {
-                //                    manager.fullScreenMode = .setupPasscodeView
-                //                } else {
-                //                    manager.fullScreenMode = .premium
-                //                }
             }
             Divider()
                 .padding(.horizontal)
@@ -193,13 +184,8 @@ struct SettingsView: View {
                 }))
             }
         }.padding([.top, .bottom], 5).background(
-<<<<<<< HEAD
-            Color(.systemGray6).cornerRadius(15)
-                .shadow(color: Color.black.opacity(0.07), radius: 10)
-=======
             Color("DiarySecondary").cornerRadius(15)
                 .shadow(color: Color.primary.opacity(0.07), radius: 10)
->>>>>>> origin/refactoring
         ).padding(.bottom, 40)
     }
     
@@ -220,13 +206,8 @@ struct SettingsView: View {
                 rootController?.present(shareController, animated: true, completion: nil)
             }
         }.padding([.top, .bottom], 5).background(
-<<<<<<< HEAD
-            Color(.systemGray6).cornerRadius(15)
-                .shadow(color: Color.black.opacity(0.07), radius: 10)
-=======
             Color("DiarySecondary").cornerRadius(15)
                 .shadow(color: Color.primary.opacity(0.07), radius: 10)
->>>>>>> origin/refactoring
         ).padding(.bottom, 40)
     }
     
@@ -251,13 +232,8 @@ struct SettingsView: View {
             //                UIApplication.shared.open(AppConfig.termsAndConditionsURL, options: [:], completionHandler: nil)
             //            }
         }.padding([.top, .bottom], 5).background(
-<<<<<<< HEAD
-            Color(.systemGray6).cornerRadius(15)
-                .shadow(color: Color.black.opacity(0.07), radius: 10)
-=======
             Color("DiarySecondary").cornerRadius(15)
                 .shadow(color: Color.primary.opacity(0.07), radius: 10)
->>>>>>> origin/refactoring
         )
     }
 }
@@ -266,7 +242,7 @@ struct SettingsView: View {
 #Preview {
     SettingsView()
         .environmentObject(DataManager(preview: true))
-				.environment(\.colorScheme, .dark)
+        .environment(\.colorScheme, .dark)
 }
 
 // MARK: - Mail presenter for SwiftUI

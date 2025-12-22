@@ -129,14 +129,8 @@ struct ActiveReboundCard: View {
                     Image(systemName: "arrow.clockwise")
                     Text("도전")
                 }
-<<<<<<< HEAD
-                .font(.caption)
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-=======
                 .font(.system(size: 12, weight: .semibold))
                 .foregroundStyle(Color("TextColor"))
->>>>>>> origin/refactoring
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 6)
                 .background(freshnessColor)

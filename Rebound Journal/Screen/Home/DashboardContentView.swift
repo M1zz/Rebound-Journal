@@ -276,21 +276,6 @@ struct DashboardContentView: View {
 
     /// 하단 버튼
     private var bottomButton: some View {
-<<<<<<< HEAD
-        HStack {
-            Spacer()
-            Button {
-                manager.fullScreenMode = .entryCreator
-            } label: {
-                Text("슛-쏘기")
-                    .font(.system(size: 16, weight: .semibold))
-                    .padding(.horizontal, 32)
-                    .frame(height: 48)
-                    .background(.tint)
-                    .foregroundStyle(.text)
-                    .clipShape(RoundedRectangle(cornerRadius: 24))
-            }
-=======
         Button {
             manager.fullScreenMode = .entryCreator
         } label: {
@@ -301,7 +286,6 @@ struct DashboardContentView: View {
                 .background(.tint)
                 .foregroundStyle(Color("TextColor"))
                 .clipShape(RoundedRectangle(cornerRadius: 90))
->>>>>>> origin/refactoring
         }
         .padding(.horizontal, 24)
         .padding(.bottom, 16)
