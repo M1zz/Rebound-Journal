@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct ChartDateSelector: View {
-    
+
     @ObservedObject var viewModel: ChartViewModel
-    @State private var selectedYear: Int = Calendar.current.component(.year, from: Date())
-    @State private var selectedMonth: Int = Calendar.current.component(.month, from: Date())
+    @State private var selectedYear: Int
+    @State private var selectedMonth: Int
+
+    init(viewModel: ChartViewModel) {
+        self.viewModel = viewModel
+        _selectedYear = State(initialValue: Calendar.current.component(.year, from: viewModel.selectedDate))
+        _selectedMonth = State(initialValue: Calendar.current.component(.month, from: viewModel.selectedDate))
+    }
     
     private var currentYear: Int {
         Calendar.current.component(.year, from: Date())

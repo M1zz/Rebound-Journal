@@ -22,6 +22,10 @@ final class ChartViewModel: ObservableObject {
     
     /// 뷰모델 내의 데이터를 초기화하는 함수
     func fetch(from journals: [JournalData]) {
+        // 저널 데이터 저장 (필터링에 사용)
+        if self.journals.isEmpty {
+            self.journals = journals
+        }
         generateJournalSummaries(from: journals)
         generateJournalCharts(from: journals)
         generateJournalDetails(from: journals)
@@ -32,32 +36,37 @@ final class ChartViewModel: ObservableObject {
     private func generateJournalSummaries(from journals: [JournalData]) {
         self.journalSummaries = JournalSummary(entries: journals)
     }
-    /// 차트 데이터 초기화
+    /// 차트 데이터 초기화 (선택된 월의 모든 날짜)
     private func generateJournalCharts(from journals: [JournalData]) {
         let calendar = Calendar.current
-        let today = calendar.startOfDay(for: Date())
-        // 7일치 날짜 생성: [0~6]일 전
-        let last7Days = (0...6).compactMap {
-            calendar.date(byAdding: .day, value: -$0, to: today)
-        }.reversed()
-        
+
+        // 선택된 날짜의 연도와 월 추출
+        let year = calendar.component(.year, from: selectedDate)
+        let month = calendar.component(.month, from: selectedDate)
+
+        // 해당 월의 일수 계산
+        guard let range = calendar.range(of: .day, in: .month, for: selectedDate) else { return }
+
         var charts: [JournalChart] = []
-        
-        for date in last7Days {
+
+        // 해당 월의 모든 날짜에 대해 차트 생성
+        for day in range {
+            guard let date = calendar.date(from: DateComponents(year: year, month: month, day: day)) else { continue }
+
             // 일별 데이터 추출
             let dayJournals = journals.filter {
                 !$0.hasDeletedUnwrapped && calendar.isDate($0.dateUnwrapped, inSameDayAs: date)
             }
-            
+
             let goalInCount = dayJournals.filter { $0.isGoalInUnwrapped }.count
             let reboundCount = dayJournals.filter { !$0.isGoalInUnwrapped }.count
-            
+
             if goalInCount > 0 {
                 charts.append(JournalChart(date: date, isGoalIn: true, count: goalInCount))
             } else {
                 charts.append(JournalChart(date: date, isGoalIn: true, count: 0))
             }
-            
+
             if reboundCount > 0 {
                 charts.append(JournalChart(date: date, isGoalIn: false, count: reboundCount))
             } else {
@@ -73,7 +82,7 @@ final class ChartViewModel: ObservableObject {
     
     /// 슛 기록을 날짜별로 그룹화하는 함수
     func makeGroupedJournalDetailsByDate() {
-        let grouped = Dictionary(grouping: journalDetails) { $0.date.dayLabel }
+        let grouped = Dictionary(grouping: journalDetails) { $0.date.yyyyMMdd }
         groupedJournals = grouped.sorted { $0.key < $1.key }
     }
     
