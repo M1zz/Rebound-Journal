@@ -28,16 +28,6 @@ struct JournalTimelineView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            // 타임라인 헤더
-            HStack {
-                Image(systemName: "clock.fill")
-                    .foregroundStyle(.blue)
-                Text("타임라인")
-                    .font(.system(size: 22, weight: .bold))
-                    .foregroundStyle(.primary)
-            }
-            .padding(.bottom, 12)
-
             // 타임라인 아이템들
             if timelineItems.isEmpty {
                 EmptyTimelineView()
@@ -74,7 +64,7 @@ struct DateSection: View {
         VStack(alignment: .leading, spacing: 8) {
             // 날짜 헤더
             Text(dateLabel)
-                .font(.system(size: 22, weight: .semibold))
+                .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(.secondary)
                 .padding(.top, 16)
                 .padding(.bottom, 8)
@@ -118,34 +108,34 @@ struct TimelineItemCard: View {
                 // 목표 & 타입
                 HStack {
                     Text(journal.subGoalUnwrapped)
-                        .font(.system(size: 22, weight: .semibold))
+                        .font(.system(size: 16, weight: .semibold))
                         .foregroundStyle(.primary)
 
                     Spacer()
 
                     if journal.isGoalInUnwrapped {
                         Text("골인")
-                            .font(.system(size: 22, weight: .semibold))
+                            .font(.system(size: 12, weight: .semibold))
                             .foregroundStyle(.green)
                             .padding(.horizontal, 8)
                             .padding(.vertical, 4)
-                            .background(Color.green.opacity(0.2))
+                            .background(Color.green.opacity(0.1))
                             .cornerRadius(8)
                     } else if journal.isResolvedUnwrapped {
                         Text("해결됨")
-                            .font(.system(size: 22, weight: .semibold))
+                            .font(.system(size: 12, weight: .semibold))
                             .foregroundStyle(.green)
                             .padding(.horizontal, 8)
                             .padding(.vertical, 4)
-                            .background(Color.green.opacity(0.2))
+                            .background(Color.green.opacity(0.1))
                             .cornerRadius(8)
                     } else {
                         Text("리바운드")
-                            .font(.system(size: 22, weight: .semibold))
+                            .font(.system(size: 12, weight: .semibold))
                             .foregroundStyle(.red)
                             .padding(.horizontal, 8)
                             .padding(.vertical, 4)
-                            .background(Color.red.opacity(0.2))
+                            .background(Color.red.opacity(0.1))
                             .cornerRadius(8)
                     }
                 }
@@ -154,9 +144,9 @@ struct TimelineItemCard: View {
                 if journal.isGoalInUnwrapped, !journal.linkedReboundIdUnwrapped.isEmpty {
                     HStack(spacing: 4) {
                         Image(systemName: "sparkles")
-                            .font(.system(size: 22))
+                            .font(.system(size: 12))
                         Text("이전 실패를 극복한 성공!")
-                            .font(.system(size: 17, weight: .medium))
+                            .font(.system(size: 13, weight: .medium))
                     }
                     .foregroundStyle(.green)
                 }
@@ -165,9 +155,9 @@ struct TimelineItemCard: View {
                 if !journal.isGoalInUnwrapped, journal.isResolvedUnwrapped {
                     HStack(spacing: 4) {
                         Image(systemName: "arrow.right.circle.fill")
-                            .font(.system(size: 22))
+                            .font(.system(size: 12))
                         Text("나중에 성공으로 극복했어요")
-                            .font(.system(size: 17, weight: .medium))
+                            .font(.system(size: 13, weight: .medium))
                     }
                     .foregroundStyle(.green)
                 }
@@ -175,13 +165,13 @@ struct TimelineItemCard: View {
                 // 감정 & 내용
                 if let emotion = journal.emotionText {
                     Text(emotion)
-                        .font(.system(size: 17))
+                        .font(.system(size: 13))
                         .foregroundStyle(.secondary)
                 }
 
                 if !journal.reviewUnwrapped.isEmpty {
                     Text(journal.reviewUnwrapped)
-                        .font(.system(size: 22))
+                        .font(.system(size: 14))
                         .foregroundStyle(.primary)
                         .lineLimit(3)
                 }
@@ -190,23 +180,23 @@ struct TimelineItemCard: View {
                 if !journal.isGoalInUnwrapped, !journal.nextPlanUnwrapped.isEmpty {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("대안:")
-                            .font(.system(size: 22, weight: .medium))
+                            .font(.system(size: 12, weight: .medium))
                             .foregroundStyle(.secondary)
                         Text(journal.nextPlanUnwrapped)
-                            .font(.system(size: 17))
+                            .font(.system(size: 13))
                             .foregroundStyle(.blue)
                             .lineLimit(2)
                     }
                     .padding(8)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color.blue.opacity(0.15))
+                    .background(Color.blue.opacity(0.05))
                     .cornerRadius(8)
                 }
 
                 // 시간
                 if let date = journal.date {
                     Text(date.formatted(date: .omitted, time: .shortened))
-                        .font(.system(size: 22))
+                        .font(.system(size: 12))
                         .foregroundStyle(.secondary)
                 }
             }
@@ -235,11 +225,11 @@ struct EmptyTimelineView: View {
                 .foregroundStyle(.secondary)
 
             Text("아직 기록이 없어요")
-                .font(.system(size: 22, weight: .medium))
+                .font(.system(size: 16, weight: .medium))
                 .foregroundStyle(.secondary)
 
             Text("첫 슛을 쏴보세요!")
-                .font(.system(size: 22))
+                .font(.system(size: 14))
                 .foregroundStyle(.secondary)
         }
         .frame(maxWidth: .infinity)

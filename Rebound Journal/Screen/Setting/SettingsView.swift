@@ -22,7 +22,7 @@ struct SettingsView: View {
                 Capsule()
                     .frame(width: 50, height: 5)
                     .padding(12)
-                    .foregroundColor(Color("DarkColor"))
+                    .foregroundStyle(.secondary)
                 ScrollView(.vertical, showsIndicators: false) {
                     Spacer(minLength: 5)
                     VStack {
@@ -54,11 +54,12 @@ struct SettingsView: View {
     /// Create custom header view
     private func CustomHeader(title: String) -> some View {
         HStack {
-						Text(title)
-								.font(.system(size: 22, weight: .medium))
-								.foregroundStyle(Color("Default"))
+            Text(title)
+                .font(.system(size: 18, weight: .medium))
+                .foregroundStyle(Color("Default"))
+            
             Spacer()
-        }.foregroundColor(Color("TextColor"))
+        }
     }
     
     /// Custom settings item
@@ -67,7 +68,7 @@ struct SettingsView: View {
             HStack {
                 Image(systemName: icon).resizable().aspectRatio(contentMode: .fit)
                     .frame(width: 22, height: 22, alignment: .center)
-                Text(title).font(.system(size: 22))
+                Text(title).font(.body)
                 Spacer()
                 if timePicker {
                     DatePicker("", selection: $remindersTime.onChange({ date in
@@ -83,7 +84,7 @@ struct SettingsView: View {
                         Image(systemName: "chevron.right")
                     }
                 }
-            }.foregroundColor(Color("TextColor")).padding()
+            }.foregroundStyle(.primary).padding()
         }
         return ZStack {
             if remindersToggle || timePicker {
@@ -114,7 +115,7 @@ struct SettingsView: View {
     //                .shadow(color: Color.primary.opacity(0.07), radius: 10)
     //        ).padding(.bottom, 40)
     //    }
-    //    
+    //
     //    private var InAppPurchasesPromoBannerView: some View {
     //        ZStack {
     //            if manager.isPremiumUser == false {
@@ -122,10 +123,10 @@ struct SettingsView: View {
     //                    Color("BackgroundColor")
     //                    HStack {
     //                        VStack(alignment: .leading) {
-    //                            Text("Premium Version").bold().font(.system(size: 22))
-    //                            Text("- Enable App Passcode").font(.system(size: 17)).opacity(0.7)
-    //                            Text("- Add Photos to journal").font(.system(size: 17)).opacity(0.7)
-    //                            Text("- Remove ads").font(.system(size: 17)).opacity(0.7)
+    //                            Text("Premium Version").bold().font(.system(size: 20))
+    //                            Text("- Enable App Passcode").font(.system(size: 15)).opacity(0.7)
+    //                            Text("- Add Photos to journal").font(.system(size: 15)).opacity(0.7)
+    //                            Text("- Remove ads").font(.system(size: 15)).opacity(0.7)
     //                        }
     //                        Spacer()
     //                        Image(systemName: "crown.fill").font(.system(size: 45))
@@ -152,16 +153,15 @@ struct SettingsView: View {
                          icon: "bell",
                          remindersToggle: true) { }
             if manager.enableReminders {
-                Color("TextColor")
-                    .frame(height: 1)
-                    .opacity(0.1)
+                Divider()
+                    .padding(.horizontal)
                 SettingsItem(title: "시간",
                              icon: "clock",
                              timePicker: true) { }
             }
         }
         .padding([.top, .bottom], 5)
-        .background(Color("DiarySecondary")
+        .background(Color(.systemGray6)
             .cornerRadius(15)
             .shadow(color: Color.primary.opacity(0.07),
                     radius: 10))
@@ -173,15 +173,9 @@ struct SettingsView: View {
         VStack {
             SettingsItem(title: Constants.Strings.setPasscode, icon: "circle.grid.3x3") {
                 manager.fullScreenMode = .setupPasscodeView
-                //                if manager.isPremiumUser {
-                //                    manager.fullScreenMode = .setupPasscodeView
-                //                } else {
-                //                    manager.fullScreenMode = .premium
-                //                }
             }
-            Color("TextColor")
-                .frame(height: 1)
-                .opacity(0.1)
+            Divider()
+                .padding(.horizontal)
             SettingsItem(title: Constants.Strings.disablePasscode,
                          icon: "lock.slash") {
                 presentAlert(title: "비밀번호 삭제",
@@ -206,9 +200,8 @@ struct SettingsView: View {
                     SKStoreReviewController.requestReview(in: windowScene)
                 }
             }
-            Color("TextColor")
-                .frame(height: 1)
-                .opacity(0.1)
+            Divider()
+                .padding(.horizontal)
             SettingsItem(title: Constants.Strings.shareApp,
                          icon: "square.and.arrow.up") {
                 let shareController = UIActivityViewController(activityItems: [AppConfig.yourAppURL], applicationActivities: nil)
@@ -227,26 +220,15 @@ struct SettingsView: View {
                          icon: "envelope.badge") {
                 EmailPresenter.shared.present()
             }
-            Color("TextColor")
-                .frame(height: 1)
-                .opacity(0.1)
-            SettingsItem(title: Constants.Strings.instagramDM,
-                         icon: "paperplane") {
-                if let instagramURL = URL(string: "https://instagram.com/lee25_ios") {
-                    UIApplication.shared.open(instagramURL, options: [:], completionHandler: nil)
-                }
-            }
 #warning("약관추가")
-            //            Color("TextColor")
-            //                .frame(height: 1)
-            //                .opacity(0.1)
+            //            Divider()
+            //                .padding(.horizontal)
             //            SettingsItem(title: Constants.Strings.privacyPolicy,
             //                         icon: "hand.raised") {
             //                UIApplication.shared.open(AppConfig.privacyURL, options: [:], completionHandler: nil)
             //            }
-            //            Color("TextColor")
-            //                .frame(height: 1)
-            //                .opacity(0.1)
+            //            Divider()
+            //                .padding(.horizontal)
             //            SettingsItem(title: Constants.Strings.termsOfUse,
             //                         icon: "doc.text") {
             //                UIApplication.shared.open(AppConfig.termsAndConditionsURL, options: [:], completionHandler: nil)
@@ -274,7 +256,7 @@ struct SettingsView: View {
 #Preview {
     SettingsView()
         .environmentObject(DataManager(preview: true))
-				.environment(\.colorScheme, .dark)
+        .environment(\.colorScheme, .dark)
 }
 
 // MARK: - Mail presenter for SwiftUI

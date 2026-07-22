@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024B3E35D6CEA76B46010314 /* Rebound JournalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC1A31504E3CF1E250D840 /* Rebound JournalSpec.swift */; };
 		081494984EE84CA0951CC527 /* JournalTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */; };
+		2A6B93451E3B406F95D289DF /* StatisticsAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */; };
+		2C9C4D31562B4B6CA0F195DC /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */; };
+		429D1D50CB2D9041CDDED650 /* Rebound JournalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CEB7F55F0C4DBCA5F58161 /* Rebound JournalSpec.swift */; };
 		48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */; };
 		4FB147945C3C4B13AAE7B10F /* ActiveReboundSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */; };
 		586F228C2A33861C004C7410 /* ReboundJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F228B2A33861C004C7410 /* ReboundJournalApp.swift */; };
@@ -29,6 +31,7 @@
 		58D6707B2BD0275600F581E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6707A2BD0275600F581E2 /* Constants.swift */; };
 		58FAF68D2D01F0C8008BE152 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68C2D01F0C8008BE152 /* SettingsView.swift */; };
 		58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */; };
+		76CCE816D1E2A31C5D918B96 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F652E997127C9970155311C /* LeeoKit */; };
 		8F8ACA842E1E946100624A89 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8ACA832E1E946100624A89 /* Alert+Extension.swift */; };
 		9C5A70EA2BD201D0004B6F30 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A70E92BD201D0004B6F30 /* Color+Extension.swift */; };
 		A8245C22CF9A4CF78573B457 /* SuccessFromReboundCelebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */; };
@@ -65,13 +68,18 @@
 		C3BAA6C52DC88F4E00D17DD8 /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */; };
 		C3BAA6C72DC8FE8400D17DD8 /* SelectTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */; };
 		C3D6A50F2DAFBD9B0030FBC6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */; };
+		CC27AF85F75949608B6E25C6 /* GoalStatusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */; };
+		CE51D846E3A44F0F87E4EFAE /* InteractiveJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8C68A3AEA4E78BC849D79 /* InteractiveJournalCreator.swift */; };
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
-		E40F7666FE3B6618A5112523 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 874BD087031D2E5916E3A2E1 /* LeeoKit */; };
+		E308811A2AEB4D4489616333 /* GrowthSummarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */; };
+		F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F796C4A4A4170BAA1A6EB /* NewChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		094F796C4A4A4170BAA1A6EB /* NewChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChartView.swift; sourceTree = "<group>"; };
 		1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReboundSection.swift; sourceTree = "<group>"; };
 		2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFromReboundCelebration.swift; sourceTree = "<group>"; };
+		2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
 		586F22882A33861C004C7410 /* Rebound Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rebound Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F228B2A33861C004C7410 /* ReboundJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundJournalApp.swift; sourceTree = "<group>"; };
@@ -93,9 +101,11 @@
 		58FAF68C2D01F0C8008BE152 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		58FE87B22E37A04E00B91E3C /* Rebound Journal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rebound Journal.entitlements"; sourceTree = "<group>"; };
-		7EFC1A31504E3CF1E250D840 /* Rebound JournalSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Rebound JournalSpec.swift"; sourceTree = "<group>"; };
+		79B8C68A3AEA4E78BC849D79 /* InteractiveJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveJournalCreator.swift; sourceTree = "<group>"; };
 		8F8ACA832E1E946100624A89 /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
+		9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthSummarySection.swift; sourceTree = "<group>"; };
 		9C5A70E92BD201D0004B6F30 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A8CEB7F55F0C4DBCA5F58161 /* Rebound JournalSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Rebound JournalSpec.swift"; sourceTree = "<group>"; };
 		AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageJournalCreator.swift; sourceTree = "<group>"; };
 		C32530D32E63B886000A2E55 /* GoalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalInfo.swift; sourceTree = "<group>"; };
 		C3423FCF2DD8F385000F2E4D /* SubGoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubGoalData.swift; sourceTree = "<group>"; };
@@ -131,6 +141,8 @@
 		C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTargetView.swift; sourceTree = "<group>"; };
 		C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTimelineView.swift; sourceTree = "<group>"; };
+		DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStatusSection.swift; sourceTree = "<group>"; };
+		E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsAnalyzer.swift; sourceTree = "<group>"; };
 		F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleGoalSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,13 +151,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40F7666FE3B6618A5112523 /* LeeoKit in Frameworks */,
+				76CCE816D1E2A31C5D918B96 /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05348D0C19664A14A45BD717 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
 		4905299FBD8B40C5A53B5BAC /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,7 +207,7 @@
 				58D6707A2BD0275600F581E2 /* Constants.swift */,
 				586F228F2A33861D004C7410 /* Assets.xcassets */,
 				586F22912A33861D004C7410 /* Preview Content */,
-				7EFC1A31504E3CF1E250D840 /* Rebound JournalSpec.swift */,
+				A8CEB7F55F0C4DBCA5F58161 /* Rebound JournalSpec.swift */,
 			);
 			path = "Rebound Journal";
 			sourceTree = "<group>";
@@ -220,6 +240,7 @@
 				C38D92712E4B934100C569E9 /* Target */,
 				C38D926F2E4B92BC00C569E9 /* Journal */,
 				C38D926E2E4B92AF00C569E9 /* Setting */,
+				05348D0C19664A14A45BD717 /* Timeline */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -257,6 +278,8 @@
 				1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */,
 				D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */,
 				F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */,
+				9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */,
+				DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";
@@ -308,6 +331,7 @@
 			children = (
 				C3A07BB82DBA4B640057D3C3 /* ChartView.swift */,
 				C38D92732E4B936800C569E9 /* SubView */,
+				094F796C4A4A4170BAA1A6EB /* NewChartView.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -387,6 +411,7 @@
 				C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */,
 				C377A9632DCFA63F000F227D /* JournalData.swift */,
 				C377A9662DCFA64000F227D /* JournalAnalyzer.swift */,
+				E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -405,6 +430,7 @@
 			isa = PBXGroup;
 			children = (
 				C3A07BBA2DBA4B640057D3C3 /* JournalCreatorViewModel.swift */,
+				79B8C68A3AEA4E78BC849D79 /* InteractiveJournalCreator.swift */,
 			);
 			path = Creation;
 			sourceTree = "<group>";
@@ -447,7 +473,7 @@
 			);
 			name = "Rebound Journal";
 			packageProductDependencies = (
-				874BD087031D2E5916E3A2E1 /* LeeoKit */,
+				8F652E997127C9970155311C /* LeeoKit */,
 			);
 			productName = "Rebound Journal";
 			productReference = 586F22882A33861C004C7410 /* Rebound Journal.app */;
@@ -478,7 +504,7 @@
 			);
 			mainGroup = 586F227F2A33861C004C7410;
 			packageReferences = (
-				BBD5686C2E7918A10C1DE1C1 /* XCLocalSwiftPackageReference "LeeoKit" */,
+				9F7E2A565A397F4410093BFF /* XCLocalSwiftPackageReference "LeeoKit" */,
 			);
 			productRefGroup = 586F22892A33861C004C7410 /* Products */;
 			projectDirPath = "";
@@ -562,7 +588,13 @@
 				BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */,
 				D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */,
 				48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */,
-				024B3E35D6CEA76B46010314 /* Rebound JournalSpec.swift in Sources */,
+				E308811A2AEB4D4489616333 /* GrowthSummarySection.swift in Sources */,
+				2C9C4D31562B4B6CA0F195DC /* TimelineView.swift in Sources */,
+				CC27AF85F75949608B6E25C6 /* GoalStatusSection.swift in Sources */,
+				2A6B93451E3B406F95D289DF /* StatisticsAnalyzer.swift in Sources */,
+				F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */,
+				CE51D846E3A44F0F87E4EFAE /* InteractiveJournalCreator.swift in Sources */,
+				429D1D50CB2D9041CDDED650 /* Rebound JournalSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,16 +825,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		BBD5686C2E7918A10C1DE1C1 /* XCLocalSwiftPackageReference "LeeoKit" */ = {
+		9F7E2A565A397F4410093BFF /* XCLocalSwiftPackageReference "LeeoKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../LeeoKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		874BD087031D2E5916E3A2E1 /* LeeoKit */ = {
+		8F652E997127C9970155311C /* LeeoKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BBD5686C2E7918A10C1DE1C1 /* XCLocalSwiftPackageReference "LeeoKit" */;
+			package = 9F7E2A565A397F4410093BFF /* XCLocalSwiftPackageReference "LeeoKit" */;
 			productName = LeeoKit;
 		};
 /* End XCSwiftPackageProductDependency section */

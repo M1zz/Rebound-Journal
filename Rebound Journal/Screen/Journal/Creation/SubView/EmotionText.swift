@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct EmotionText: View {
-    
+
     // UI State
     @Binding var emotions: [String]
     @Binding var selectedTags: [String]
     @State private var showSheet = false
     @State private var inputText = ""
-    
+    @State private var showToast = false
+
     // etc
     @Namespace private var animation
-    
+
     var body: some View {
         VStack(spacing: 0) {
             ScrollView(.vertical) {
@@ -41,11 +42,14 @@ struct EmotionText: View {
                             // MARK: 애니메이션이 좀 더 이뻐짐
                                 .matchedGeometryEffect(id: tag, in: animation)
                                 .onTapGesture {
-                                    if selectedTags.isEmpty {
-                                        // Adding to Selected Tag List
-                                        withAnimation(.snappy) {
-                                            selectedTags.insert(tag, at: 0)
+                                    withAnimation(.snappy) {
+                                        if !selectedTags.isEmpty {
+                                            // 이미 선택된 감정이 있으면 토스트 표시하고 교체
+                                            showToast = true
+                                            selectedTags.removeAll()
                                         }
+                                        // 마지막에 누른 감정만 선택
+                                        selectedTags.insert(tag, at: 0)
                                     }
                                 }
                         }
@@ -62,8 +66,15 @@ struct EmotionText: View {
                         }
                         .sheet(isPresented: $showSheet, content: {
                             CreateEmotionView(isPresented: $showSheet, onConfirm: { input in
-                                emotions.append(input)
-                                selectedTags.append(input)
+                                withAnimation(.snappy) {
+                                    if !selectedTags.isEmpty {
+                                        // 이미 선택된 감정이 있으면 토스트 표시하고 교체
+                                        showToast = true
+                                        selectedTags.removeAll()
+                                    }
+                                    emotions.append(input)
+                                    selectedTags.append(input)
+                                }
                             })
                             .presentationDetents([.fraction(0.3)])
                         })
@@ -72,6 +83,20 @@ struct EmotionText: View {
             }
             .scrollIndicators(.hidden)
             .zIndex(0)
+        }
+        .overlay(alignment: .top) {
+            if showToast {
+                ToastView(message: "감정은 하나만 선택됩니다")
+                    .transition(.move(edge: .top).combined(with: .opacity))
+                    .zIndex(1)
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                            withAnimation {
+                                showToast = false
+                            }
+                        }
+                    }
+            }
         }
     }
     
@@ -232,6 +257,25 @@ struct CreateEmotionView: View {
             )
         }
         .padding()
+    }
+}
+
+// MARK: - Toast View
+struct ToastView: View {
+    let message: String
+
+    var body: some View {
+        Text(message)
+            .font(.system(size: 14, weight: .medium))
+            .foregroundStyle(.white)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 12)
+            .background(
+                Capsule()
+                    .fill(Color.black.opacity(0.8))
+                    .shadow(color: .black.opacity(0.2), radius: 8, y: 4)
+            )
+            .padding(.top, 16)
     }
 }
 
