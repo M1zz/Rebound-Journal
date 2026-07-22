@@ -31,11 +31,11 @@ struct CollapsibleGoalSection: View {
                         Image(systemName: "target")
                             .foregroundStyle(.blue)
                         Text("목표 현황 (\(subGoals.count))")
-                            .font(.system(size: 18, weight: .bold))
+                            .font(.system(size: 22, weight: .bold))
                             .foregroundStyle(.primary)
                         Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
                             .foregroundStyle(.secondary)
-                            .font(.system(size: 14, weight: .semibold))
+                            .font(.system(size: 22, weight: .semibold))
                     }
                 }
 
@@ -70,7 +70,7 @@ struct CollapsibleGoalSection: View {
                     // 목표도 저널도 없는 경우에만 안내 메시지 표시
                     if subGoals.isEmpty && journals.isEmpty {
                         Text("목표를 생성해주세요!")
-                            .font(.system(size: 14))
+                            .font(.system(size: 22))
                             .foregroundStyle(.secondary)
                             .padding(.top, 20)
                     }
@@ -123,17 +123,17 @@ struct CollapsibleGoalSection: View {
                 Text(goal)
                     .lineLimit(1)
                     .foregroundStyle(Color("DashboardTitle"))
-                    .font(.system(size: 16))
+                    .font(.system(size: 22))
                     .minimumScaleFactor(0.7)
                 HStack {
                     Spacer()
                     Text("\(count)번")
-                        .font(.system(size: 13, weight: .bold))
+                        .font(.system(size: 17, weight: .bold))
                         .foregroundStyle(Color("DashboardTitle"))
                 }
             } else {
                 Text("데이터 없음")
-                    .foregroundColor(.gray)
+                    .foregroundStyle(.secondary)
             }
         }
         .padding(10)
@@ -152,7 +152,7 @@ struct AddGoalSheet: View {
         NavigationView {
             VStack(spacing: 20) {
                 Text("새로운 목표")
-                    .font(.system(size: 20, weight: .bold))
+                    .font(.system(size: 22, weight: .bold))
                     .padding(.top)
 
                 TextField("목표를 입력하세요", text: $newGoalText)

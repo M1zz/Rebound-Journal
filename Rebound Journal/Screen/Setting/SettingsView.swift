@@ -8,6 +8,7 @@
 import SwiftUI
 import StoreKit
 import MessageUI
+import LeeoKit
 
 struct SettingsView: View {
     @EnvironmentObject var manager: DataManager
@@ -33,6 +34,7 @@ struct SettingsView: View {
                         RatingShareView
                         CustomHeader(title: Constants.Strings.supportAndPrivacy)
                         PrivacySupportView
+                        LeeoSupportView
                     }
                     .padding(.horizontal, 20)
                     Spacer(minLength: 100)
@@ -53,7 +55,7 @@ struct SettingsView: View {
     private func CustomHeader(title: String) -> some View {
         HStack {
 						Text(title)
-								.font(.system(size: 18, weight: .medium))
+								.font(.system(size: 22, weight: .medium))
 								.foregroundStyle(Color("Default"))
             Spacer()
         }.foregroundColor(Color("TextColor"))
@@ -65,7 +67,7 @@ struct SettingsView: View {
             HStack {
                 Image(systemName: icon).resizable().aspectRatio(contentMode: .fit)
                     .frame(width: 22, height: 22, alignment: .center)
-                Text(title).font(.system(size: 18))
+                Text(title).font(.system(size: 22))
                 Spacer()
                 if timePicker {
                     DatePicker("", selection: $remindersTime.onChange({ date in
@@ -120,10 +122,10 @@ struct SettingsView: View {
     //                    Color("BackgroundColor")
     //                    HStack {
     //                        VStack(alignment: .leading) {
-    //                            Text("Premium Version").bold().font(.system(size: 20))
-    //                            Text("- Enable App Passcode").font(.system(size: 15)).opacity(0.7)
-    //                            Text("- Add Photos to journal").font(.system(size: 15)).opacity(0.7)
-    //                            Text("- Remove ads").font(.system(size: 15)).opacity(0.7)
+    //                            Text("Premium Version").bold().font(.system(size: 22))
+    //                            Text("- Enable App Passcode").font(.system(size: 17)).opacity(0.7)
+    //                            Text("- Add Photos to journal").font(.system(size: 17)).opacity(0.7)
+    //                            Text("- Remove ads").font(.system(size: 17)).opacity(0.7)
     //                        }
     //                        Spacer()
     //                        Image(systemName: "crown.fill").font(.system(size: 45))
@@ -225,6 +227,15 @@ struct SettingsView: View {
                          icon: "envelope.badge") {
                 EmailPresenter.shared.present()
             }
+            Color("TextColor")
+                .frame(height: 1)
+                .opacity(0.1)
+            SettingsItem(title: Constants.Strings.instagramDM,
+                         icon: "paperplane") {
+                if let instagramURL = URL(string: "https://instagram.com/lee25_ios") {
+                    UIApplication.shared.open(instagramURL, options: [:], completionHandler: nil)
+                }
+            }
 #warning("약관추가")
             //            Color("TextColor")
             //                .frame(height: 1)
@@ -244,6 +255,18 @@ struct SettingsView: View {
             Color("DiarySecondary").cornerRadius(15)
                 .shadow(color: Color.primary.opacity(0.07), radius: 10)
         )
+    }
+
+    // MARK: - LeeoKit Support (feedback & review)
+    private var LeeoSupportView: some View {
+        VStack {
+            LeeoSupportSection<ReboundJournalSpec>()
+                .foregroundColor(Color("TextColor"))
+                .padding()
+        }.padding([.top, .bottom], 5).background(
+            Color("DiarySecondary").cornerRadius(15)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10)
+        ).padding(.top, 40)
     }
 }
 

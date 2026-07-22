@@ -19,10 +19,10 @@ struct ActiveReboundSection: View {
                 // 헤더
                 HStack {
                     Image(systemName: "flame.fill")
-                        .font(.system(size: 14))
+                        .font(.system(size: 22))
                         .foregroundStyle(.red)
                     Text("해결하고 싶은 실패 (\(activeRebounds.count))")
-                        .font(.system(size: 16, weight: .bold))
+                        .font(.system(size: 22, weight: .bold))
                         .foregroundStyle(.primary)
                 }
                 .padding(.horizontal, 16)
@@ -81,7 +81,7 @@ struct ActiveReboundCard: View {
                     .fill(freshnessColor)
                     .frame(width: 6, height: 6)
                 Text(rebound.subGoalUnwrapped)
-                    .font(.system(size: 14, weight: .semibold))
+                    .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.primary)
                     .lineLimit(1)
                 Spacer()
@@ -94,9 +94,9 @@ struct ActiveReboundCard: View {
             if !rebound.nextPlanUnwrapped.isEmpty {
                 HStack(alignment: .top, spacing: 4) {
                     Text("💡")
-                        .font(.system(size: 12))
+                        .font(.system(size: 22))
                     Text(rebound.nextPlanUnwrapped)
-                        .font(.system(size: 12))
+                        .font(.system(size: 22))
                         .foregroundStyle(.secondary)
                         .lineLimit(2)
                 }
@@ -108,8 +108,8 @@ struct ActiveReboundCard: View {
                     Image(systemName: "arrow.clockwise")
                     Text("도전")
                 }
-                .font(.system(size: 12, weight: .semibold))
-                .foregroundStyle(Color("TextColor"))
+                .font(.system(size: 22, weight: .semibold))
+                .foregroundStyle(.white)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 6)
                 .background(freshnessColor)
@@ -118,11 +118,11 @@ struct ActiveReboundCard: View {
         }
         .frame(width: 200)
         .padding(10)
-        .background(Color.red.opacity(0.05))
+        .background(Color.cellColor)
         .cornerRadius(10)
         .overlay(
             RoundedRectangle(cornerRadius: 10)
-                .stroke(freshnessColor.opacity(0.3), lineWidth: 1.5)
+                .stroke(freshnessColor.opacity(0.5), lineWidth: 1.5)
         )
     }
 }

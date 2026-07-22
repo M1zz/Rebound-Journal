@@ -156,7 +156,7 @@ struct DashboardContentView: View {
                 .font(.system(size: 22))
                 .bold()
             Text("오늘은 어떤 목표에 시도했나요?")
-                .font(.system(size: 18))
+                .font(.system(size: 22))
                 .foregroundStyle(.secondary)
         }
         .padding(.bottom, 20)
@@ -181,7 +181,7 @@ struct DashboardContentView: View {
             // 목표도 저널도 없는 경우에만 안내 메시지 표시
             if subGoals.isEmpty && journals.isEmpty {
                 Text("목표를 생성해주세요!")
-                    .font(.system(size: 16))
+                    .font(.system(size: 22))
                     .foregroundStyle(.secondary)
                     .padding(.top, 50)
             }
@@ -210,13 +210,13 @@ struct DashboardContentView: View {
                 Text(goal)
                     .lineLimit(1)
 										.foregroundStyle(Color("DashboardTitle"))
-                    .font(.system(size: 18))
+                    .font(.system(size: 22))
                     .padding(.bottom, 10)
                     .minimumScaleFactor(0.7)
                 HStack {
                     Spacer()
                     Text("\(count)번")
-                        .font(.system(size: 14, weight: .bold))
+                        .font(.system(size: 22, weight: .bold))
 												.foregroundStyle(Color("DashboardTitle"))
                 }
             } else {

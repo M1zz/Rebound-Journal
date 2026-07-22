@@ -21,14 +21,14 @@ struct ShootCreationHeader: View {
             }
             VStack(alignment: .leading) {
                 Text(title ?? "")
-                    .font(.system(size: 25))
+                    .font(.system(size: 28))
                     .fontWeight(.semibold)
                     .padding(.bottom, 3)
                     .foregroundStyle(Color("Default"))
                 
                 if let description = description {
                     Text(description)
-                        .font(.system(size: 18))
+                        .font(.system(size: 22))
                         .foregroundStyle(Color("Description"))
                 }
             }

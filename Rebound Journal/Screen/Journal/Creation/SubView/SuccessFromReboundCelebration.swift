@@ -62,10 +62,10 @@ struct SuccessFromReboundCelebration: View {
                             .frame(width: 10, height: 10)
                         VStack(alignment: .leading, spacing: 2) {
                             Text("[\(daysAgo)] 실패 😢")
-                                .font(.system(size: 14, weight: .semibold))
+                                .font(.system(size: 22, weight: .semibold))
                             if !rebound.nextPlanUnwrapped.isEmpty {
                                 Text("대안: \(rebound.nextPlanUnwrapped)")
-                                    .font(.system(size: 13))
+                                    .font(.system(size: 17))
                                     .foregroundStyle(.secondary)
                                     .lineLimit(2)
                             }
@@ -76,7 +76,7 @@ struct SuccessFromReboundCelebration: View {
                     // 화살표
                     HStack {
                         Image(systemName: "arrow.down")
-                            .font(.system(size: 20))
+                            .font(.system(size: 22))
                             .foregroundStyle(Color.green)
                         Spacer()
                     }
@@ -89,7 +89,7 @@ struct SuccessFromReboundCelebration: View {
                             .frame(width: 10, height: 10)
                         VStack(alignment: .leading, spacing: 2) {
                             Text("[오늘] 성공! 🎉")
-                                .font(.system(size: 14, weight: .semibold))
+                                .font(.system(size: 22, weight: .semibold))
                         }
                         Spacer()
                     }
@@ -102,13 +102,13 @@ struct SuccessFromReboundCelebration: View {
                 VStack(spacing: 6) {
                     if daysBetween > 0 {
                         Text("\(daysBetween)일 전 실패를 극복했어요!")
-                            .font(.system(size: 16, weight: .medium))
+                            .font(.system(size: 22, weight: .medium))
                             .foregroundStyle(.primary)
                             .multilineTextAlignment(.center)
                     }
 
                     Text("이게 진짜 성장이에요 ⭐")
-                        .font(.system(size: 14))
+                        .font(.system(size: 22))
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                 }
@@ -116,7 +116,7 @@ struct SuccessFromReboundCelebration: View {
                 // 닫기 버튼
                 Button(action: onDismiss) {
                     Text("확인")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.system(size: 22, weight: .semibold))
                         .foregroundStyle(Color("TextColor"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 12)

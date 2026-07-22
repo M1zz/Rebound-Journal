@@ -123,6 +123,7 @@ struct Constants {
         
         static let supportAndPrivacy = "지원 및 개인정보 보호" // "Support & Privacy"
         static let eMailUs = "개발자에게 메일 보내기" // "E-Mail us"
+        static let instagramDM = "인스타그램 DM (@lee25_ios)" // "Instagram DM"
         static let privacyPolicy = "개인정보 보호정책"// "Privacy Policy"
         static let termsOfUse = "이용약관"// "Terms of Use"
         

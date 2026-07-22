@@ -35,7 +35,7 @@ struct ReviewPlanView: View {
     var body: some View {
             VStack(alignment: .leading) {
                 Text(viewModel.emotionText?.first ?? "감정태그")
-                    .font(.system(size: 16))
+                    .font(.system(size: 22))
                     .fontWeight(.semibold)
                     .frame(height: 35)
                     .foregroundStyle(Color("Default"))
@@ -47,7 +47,7 @@ struct ReviewPlanView: View {
                 
                 // Reviewing Shoot
                 Text(text.reviewShooting)
-                    .font(.system(size: 25))
+                    .font(.system(size: 28))
                     .fontWeight(.semibold)
                     .padding(.bottom, 3)
                     .foregroundStyle(currentField == .review ? .default : .gray)
@@ -70,7 +70,7 @@ struct ReviewPlanView: View {
                 
                 // Get NextPlan
                 Text(text.whatNextPlan)
-                    .font(.system(size: 25))
+                    .font(.system(size: 28))
                     .fontWeight(.semibold)
                     .padding(.bottom, 3)
                     .foregroundStyle(currentField == .plan ? .default : .gray)

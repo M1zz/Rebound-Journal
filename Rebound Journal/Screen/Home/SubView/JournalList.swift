@@ -36,12 +36,12 @@ struct JournalList: View {
 
         return HStack {
             Text("목표")
-                .font(.system(size: 13, weight: .regular))
+                .font(.system(size: 17, weight: .regular))
                 .foregroundColor(.accentColor)
                 .multilineTextAlignment(.center)
 
             Text(title)
-                .font(.system(size: 18, weight: .semibold))
+                .font(.system(size: 22, weight: .semibold))
                 .multilineTextAlignment(.center)
 
             Spacer()
@@ -50,9 +50,9 @@ struct JournalList: View {
             if isGoal && hasLinkedRebound {
                 HStack(spacing: 4) {
                     Image(systemName: "arrow.up.circle.fill")
-                        .font(.system(size: 12))
+                        .font(.system(size: 22))
                     Text("실패 극복")
-                        .font(.system(size: 12, weight: .semibold))
+                        .font(.system(size: 22, weight: .semibold))
                 }
                 .foregroundStyle(.green)
                 .padding(.horizontal, 8)
@@ -82,7 +82,7 @@ struct JournalList: View {
 
         return VStack(spacing: 8) {
             Text(title)
-                .font(.system(size: 20, weight: .semibold))
+                .font(.system(size: 22, weight: .semibold))
             // TODO: 색상 적용
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -91,9 +91,9 @@ struct JournalList: View {
             if hasLinkedRebound {
                 HStack(spacing: 4) {
                     Image(systemName: "sparkles")
-                        .font(.system(size: 12))
+                        .font(.system(size: 22))
                     Text("이전 실패를 극복한 성공이에요!")
-                        .font(.system(size: 13, weight: .medium))
+                        .font(.system(size: 17, weight: .medium))
                 }
                 .foregroundStyle(.green)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -101,13 +101,13 @@ struct JournalList: View {
             }
 
             Text(desc)
-                .font(.system(size: 13, weight: .regular))
+                .font(.system(size: 17, weight: .regular))
             // TODO: 색상 적용
                 .multilineTextAlignment(.leading)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
             Text(createdAt.formatted(date: .numeric, time: .shortened))
-                .font(.system(size: 13, weight: .regular))
+                .font(.system(size: 17, weight: .regular))
             // TODO: 색상 적용
                 .multilineTextAlignment(.trailing)
                 .frame(maxWidth: .infinity, alignment: .trailing)

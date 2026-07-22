@@ -58,7 +58,7 @@ struct SelectShootTypeView: View {
                 viewModel.currentStep = .emotion
             }) {
                 Text("다음으로")
-                    .font(.system(size: 18, weight: .bold))
+                    .font(.system(size: 22, weight: .bold))
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(Color.accentColor)

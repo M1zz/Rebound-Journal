@@ -25,12 +25,12 @@ struct CreateTargetView: View {
             VStack(alignment: .leading, spacing: 8) {
                 HStack {
                     Text("이번 슈팅에 대한")
-                        .font(.system(size: 18))
+                        .font(.system(size: 22))
                     Spacer()
                 }
                 HStack {
                     Text("목표를 생성할까요?")
-                        .font(.system(size: 25).bold())
+                        .font(.system(size: 28).bold())
                     Spacer()
                 }
             }
@@ -39,10 +39,10 @@ struct CreateTargetView: View {
             // MARK: 목표 입력
             VStack(alignment: .leading) {
                 Text("목표가 눈에 보이면, 동기부여의 효과가 있어요!")
-                    .font(.system(size: 13))
+                    .font(.system(size: 17))
                 HStack {
                     TextField("목표를 적어주세요", text: $targetText)
-                        .font(.system(size: 15))
+                        .font(.system(size: 17))
                         .foregroundStyle(Color("Default"))
                         .padding(.horizontal, 10)
                         .frame(maxWidth: .infinity)
@@ -54,7 +54,7 @@ struct CreateTargetView: View {
                             }
                         }
                     Text("\(targetText.count)/30")
-                        .font(.system(size: 12))
+                        .font(.system(size: 22))
                         .foregroundStyle(Color("Description"))
                         .padding(.horizontal, 5)
                 }
@@ -69,9 +69,9 @@ struct CreateTargetView: View {
             // MARK: 안내문구 2
             VStack(alignment: .center, spacing: 4) {
                 Text("다음 슈팅 때 선택할 수 있어요.")
-                    .font(.system(size: 13))
+                    .font(.system(size: 17))
                 Text("언제든지 다시 확인할 수 있어요.")
-                    .font(.system(size: 13))
+                    .font(.system(size: 17))
             }
             .padding(.bottom, 40)
             

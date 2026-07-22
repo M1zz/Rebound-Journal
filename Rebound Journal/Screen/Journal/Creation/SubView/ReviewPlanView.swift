@@ -35,7 +35,7 @@ struct ReviewPlanView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(viewModel.emotionText?.first ?? "감정태그")
-                .font(.system(size: 16))
+                .font(.system(size: 22))
                 .foregroundStyle(Color("Default"))
                 .padding(.horizontal, 10)
                 .padding(.vertical, 12)
@@ -55,10 +55,10 @@ struct ReviewPlanView: View {
             // Reviewing Shoot
             if (currentField == .review) || (currentField == .none) {
                 Text(text.reviewShooting)
-                    .font(.system(size: 25))
+                    .font(.system(size: 28))
                     .fontWeight(.semibold)
                     .padding(.bottom, 3)
-                    .foregroundStyle(currentField == .review ? .default : .gray)
+                    .foregroundStyle(currentField == .review ? .primary : .secondary)
                 TextEditor(text: $reviewText)
                     .onChange(of: reviewText) { _, newValue in
                         viewModel.reviewText = newValue
@@ -68,11 +68,11 @@ struct ReviewPlanView: View {
                     .frame(alignment: .topLeading)
                     .padding()
                     .scrollContentBackground(.hidden)
-                    .background(Color.gray.opacity(0.2))
+                    .background(Color(.systemGray6))
                     .clipShape(.rect(cornerRadius: 18))
                     .overlay(alignment: .topLeading) {
                         Text(text.reviewShootingField)
-                            .foregroundStyle(isReviewed ? .clear : .gray)
+                            .foregroundStyle(isReviewed ? .clear : .secondary)
                             .padding()
                     }
             }
@@ -80,10 +80,10 @@ struct ReviewPlanView: View {
             if (currentField == .plan) || (currentField == .none) {
                 // Get NextPlan
                 Text(text.whatNextPlan)
-                    .font(.system(size: 25))
+                    .font(.system(size: 28))
                     .fontWeight(.semibold)
                     .padding(.bottom, 3)
-                    .foregroundStyle(currentField == .plan ? .default : .gray)
+                    .foregroundStyle(currentField == .plan ? .primary : .secondary)
                 TextEditor(text: $planText)
                     .onChange(of: planText) { _, newValue in
                         viewModel.nextPlanText = newValue
@@ -93,11 +93,11 @@ struct ReviewPlanView: View {
                     .frame(alignment: .topLeading)
                     .padding()
                     .scrollContentBackground(.hidden)
-                    .background(Color.gray.opacity(0.2))
+                    .background(Color(.systemGray6))
                     .clipShape(.rect(cornerRadius: 18))
                     .overlay(alignment: .topLeading) {
                         Text(text.whatNextPlanField)
-                            .foregroundStyle(isPlaned ? .clear : .gray)
+                            .foregroundStyle(isPlaned ? .clear : .secondary)
                             .padding()
                     }
             }
@@ -181,7 +181,7 @@ struct PastSuccessPatternCard: View {
                 Image(systemName: "lightbulb.fill")
                     .foregroundStyle(.yellow)
                 Text("💡 과거의 나는 이렇게 했어요")
-                    .font(.system(size: 16, weight: .semibold))
+                    .font(.system(size: 22, weight: .semibold))
                     .foregroundStyle(.primary)
                 Spacer()
                 Button(action: {
@@ -199,20 +199,20 @@ struct PastSuccessPatternCard: View {
                     // 날짜 정보
                     HStack(spacing: 4) {
                         Text("[\(pattern.formattedFailureDate)]")
-                            .font(.system(size: 14))
+                            .font(.system(size: 22))
                             .foregroundStyle(.red)
                         Text("비슷한 실패")
-                            .font(.system(size: 14))
+                            .font(.system(size: 22))
                             .foregroundStyle(.secondary)
                     }
 
                     // 대안 내용
                     VStack(alignment: .leading, spacing: 4) {
                         Text("대안:")
-                            .font(.system(size: 13, weight: .medium))
+                            .font(.system(size: 17, weight: .medium))
                             .foregroundStyle(.secondary)
                         Text("\"\(pattern.suggestedPlan)\"")
-                            .font(.system(size: 15))
+                            .font(.system(size: 17))
                             .foregroundStyle(.primary)
                             .padding(10)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -223,10 +223,10 @@ struct PastSuccessPatternCard: View {
                     // 성공 결과
                     HStack(spacing: 4) {
                         Image(systemName: "arrow.right")
-                            .font(.system(size: 12))
+                            .font(.system(size: 22))
                             .foregroundStyle(.green)
                         Text("다음 시도에서 성공했어요!")
-                            .font(.system(size: 13))
+                            .font(.system(size: 17))
                             .foregroundStyle(.green)
                     }
 
@@ -236,7 +236,7 @@ struct PastSuccessPatternCard: View {
                             Image(systemName: "arrow.down.circle.fill")
                             Text("이 대안 적용하기")
                         }
-                        .font(.system(size: 15, weight: .medium))
+                        .font(.system(size: 17, weight: .medium))
                         .foregroundStyle(Color("TextColor"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 12)
@@ -246,7 +246,7 @@ struct PastSuccessPatternCard: View {
 
                     // 새로 생각하기 텍스트
                     Text("또는 새로운 대안을 생각해보세요")
-                        .font(.system(size: 12))
+                        .font(.system(size: 22))
                         .foregroundStyle(.secondary)
                         .frame(maxWidth: .infinity, alignment: .center)
                 }

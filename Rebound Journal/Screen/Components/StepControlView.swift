@@ -65,7 +65,7 @@ struct StepControlView: View {
             onPrevious?()
         } label: {
             Text(previousButtonText)
-                .font(.system(size: 18, weight: .bold))
+                .font(.system(size: 22, weight: .bold))
                 .padding()
                 .frame(maxWidth: .infinity)
                 .foregroundColor(.backButtonText)
@@ -84,7 +84,7 @@ struct StepControlView: View {
             }
         } label: {
             Text(nextButtonText)
-                .font(.system(size: 18, weight: .bold))
+                .font(.system(size: 22, weight: .bold))
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(canGoNext ? Color.accentColor : .disabledButtonBackground)

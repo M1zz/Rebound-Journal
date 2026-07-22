@@ -121,7 +121,7 @@ extension ChartView {
                 .foregroundStyle(circleColor)
                 .scaledToFit()
             Text(text)
-                .font(.system(size: 12))
+                .font(.system(size: 22))
                 .foregroundStyle(.primary)
         }
         .frame(height: 12)

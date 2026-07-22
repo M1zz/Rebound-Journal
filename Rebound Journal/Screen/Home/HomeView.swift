@@ -46,7 +46,8 @@ struct HomeView: View {
                     Text("슈팅이 빗맞아도 괜찮아요.\n 리바운드로 실패를 기회로 바꾸면 되니까요.")
                         .multilineTextAlignment(.center)
                         .lineSpacing(8)
-                        .font(.system(size: 18, weight: .semibold))
+                        .font(.title3)
+                        .fontWeight(.semibold)
                         .padding(.bottom, 50)
                 }
             }
@@ -73,7 +74,8 @@ struct HomeView: View {
                 Spacer()
                 if !hasJournals {
                     Text("더 나은 나를 위해 지금 슛을 쏴 보세요!")
-                        .font(.system(size: 18, weight: .semibold))
+                        .font(.title3)
+                        .fontWeight(.semibold)
                         .padding(.bottom, 30)
                 }
                 bottomButton
@@ -124,7 +126,8 @@ struct HomeView: View {
     private var bottomHeader: some View {
         HStack {
             Text("다시 리바운드-!")
-                .font(.system(size: 22, weight: .semibold))
+                .font(.title2)
+                .fontWeight(.semibold)
                 .padding(.horizontal)
             Rectangle()
                 .frame(height: 1)
@@ -137,6 +140,7 @@ struct HomeView: View {
             print("슛-쏘기 클릭")
         } label: {
             Text("슛-쏘기")
+                .font(.title3)
                 .frame(maxWidth: .infinity)
                 .frame(height: 60)
                 .bold()

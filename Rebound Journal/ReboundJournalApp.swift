@@ -7,12 +7,18 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 @main
 struct ReboundJournalApp: App {
     // 데이터를 전체에서 쓸 방법
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var manager: DataManager = DataManager(preview: false)
+
+    init() {
+        LeeoEngagement.shared.registerLaunch()
+    }
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             JournalData.self,
@@ -33,6 +39,7 @@ struct ReboundJournalApp: App {
                 .environmentObject(manager)
                 .environment(\.managedObjectContext, manager.container.viewContext)
                 .modelContainer(sharedModelContainer)
+                .leeoSatisfactionCheck(ReboundJournalSpec.self)
         }
     }
 }

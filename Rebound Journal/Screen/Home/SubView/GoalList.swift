@@ -103,13 +103,13 @@ struct GoalList: View {
             Text(data.title)
                 .lineLimit(1)
                 .foregroundStyle(Color("DashboardTitle"))
-                .font(.system(size: 18))
+                .font(.system(size: 22))
                 .padding(.bottom, 10)
                 .minimumScaleFactor(0.7)
             HStack {
                 Spacer()
                 Text("\(data.count)번")
-                    .font(.system(size: 14, weight: .bold))
+                    .font(.system(size: 22, weight: .bold))
                     .foregroundStyle(Color("DashboardTitle"))
             }
         }

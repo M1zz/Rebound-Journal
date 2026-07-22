@@ -22,13 +22,13 @@ struct SelectTargetView: View {
             VStack(alignment: .leading, spacing: 8) {
                 HStack {
                     Text("어떤 슛을 남겨볼까요?")
-                        .font(.system(size: 25).bold())
+                        .font(.system(size: 28).bold())
                         .foregroundStyle(Color("Default"))
                     Spacer()
                 }
                 HStack {
                     Text("목표에 대한 슛인가요?")
-                        .font(.system(size: 18))
+                        .font(.system(size: 22))
                         .foregroundStyle(Color("Description"))
                     Spacer()
                 }

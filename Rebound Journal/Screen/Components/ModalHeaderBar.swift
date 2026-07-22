@@ -23,7 +23,7 @@ struct ModalHeaderBar: View {
       // 타이틀 중앙 고정
       if let title = title {
         Text(title)
-          .font(.system(size: 20, weight: .semibold))
+          .font(.system(size: 22, weight: .semibold))
       }
 
       HStack {
@@ -32,7 +32,7 @@ struct ModalHeaderBar: View {
             action()
           } label: {
             Image(systemName: "chevron.left")
-              .font(.system(size: 20, weight: .semibold))
+              .font(.system(size: 22, weight: .semibold))
               .tint(Color("Default"))
               .padding()
           }
@@ -53,7 +53,7 @@ struct ModalHeaderBar: View {
             }
           } label: {
             Image(systemName: Constants.ImageStrings.xMark)
-              .font(.system(size: 20, weight: .semibold))
+              .font(.system(size: 22, weight: .semibold))
               .tint(Color("Default"))
               .padding()
           }

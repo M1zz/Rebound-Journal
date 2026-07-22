@@ -92,7 +92,7 @@ struct SinglePageJournalCreator: View {
     private var goalSelectionSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("어떤 목표에 대한 기록인가요?")
-                .font(.system(size: 20, weight: .bold))
+                .font(.system(size: 22, weight: .bold))
 
             // 목표 없음 옵션
             goalCell(text: "목표 없음", isSelected: viewModel.subGoal == "목표 없음") {
@@ -142,7 +142,7 @@ struct SinglePageJournalCreator: View {
     private var resultSelectionSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("결과가 어떠셨나요?")
-                .font(.system(size: 20, weight: .bold))
+                .font(.system(size: 22, weight: .bold))
 
             HStack(spacing: 16) {
                 // 골인 버튼
@@ -169,7 +169,7 @@ struct SinglePageJournalCreator: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 60)
             Text(title)
-                .font(.system(size: 16, weight: .semibold))
+                .font(.system(size: 22, weight: .semibold))
                 .foregroundStyle(Color("Default"))
         }
         .frame(maxWidth: .infinity)
@@ -185,7 +185,7 @@ struct SinglePageJournalCreator: View {
     private var emotionSelectionSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("어떤 기분이셨나요?")
-                .font(.system(size: 20, weight: .bold))
+                .font(.system(size: 22, weight: .bold))
 
             EmotionTracker(viewModel: viewModel)
         }
@@ -196,7 +196,7 @@ struct SinglePageJournalCreator: View {
             // 감정 태그
             if let emotion = viewModel.emotionText?.first {
                 Text(emotion)
-                    .font(.system(size: 14))
+                    .font(.system(size: 22))
                     .padding(.horizontal, 12)
                     .padding(.vertical, 6)
                     .background(Color.unselectedTagBackground)
@@ -213,7 +213,7 @@ struct SinglePageJournalCreator: View {
 
             // 리뷰 입력
             Text(viewModel.goalType == true ? "성공 경험을 기록해주세요" : "무엇이 문제였나요?")
-                .font(.system(size: 18, weight: .semibold))
+                .font(.system(size: 22, weight: .semibold))
 
             TextEditor(text: $reviewText)
                 .onChange(of: reviewText) { _, newValue in
@@ -223,7 +223,7 @@ struct SinglePageJournalCreator: View {
                 .frame(height: 100)
                 .padding(12)
                 .scrollContentBackground(.hidden)
-                .background(Color.gray.opacity(0.1))
+                .background(Color(.systemGray6))
                 .cornerRadius(12)
                 .overlay(alignment: .topLeading) {
                     if reviewText.isEmpty {
@@ -237,7 +237,7 @@ struct SinglePageJournalCreator: View {
             // 대안 입력 (실패일 때만)
             if viewModel.goalType == false {
                 Text("다음엔 어떻게 할까요?")
-                    .font(.system(size: 18, weight: .semibold))
+                    .font(.system(size: 22, weight: .semibold))
 
                 TextEditor(text: $planText)
                     .onChange(of: planText) { _, newValue in
@@ -247,7 +247,7 @@ struct SinglePageJournalCreator: View {
                     .frame(height: 100)
                     .padding(12)
                     .scrollContentBackground(.hidden)
-                    .background(Color.gray.opacity(0.1))
+                    .background(Color(.systemGray6))
                     .cornerRadius(12)
                     .overlay(alignment: .topLeading) {
                         if planText.isEmpty {
@@ -264,7 +264,7 @@ struct SinglePageJournalCreator: View {
     private var saveButton: some View {
         Button(action: saveJournal) {
             Text("저장")
-                .font(.system(size: 18, weight: .bold))
+                .font(.system(size: 22, weight: .bold))
                 .foregroundStyle(Color("TextColor"))
                 .frame(maxWidth: .infinity)
                 .padding()

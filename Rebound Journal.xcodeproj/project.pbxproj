@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024B3E35D6CEA76B46010314 /* Rebound JournalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC1A31504E3CF1E250D840 /* Rebound JournalSpec.swift */; };
+		081494984EE84CA0951CC527 /* JournalTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */; };
+		48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */; };
+		4FB147945C3C4B13AAE7B10F /* ActiveReboundSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */; };
 		586F228C2A33861C004C7410 /* ReboundJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F228B2A33861C004C7410 /* ReboundJournalApp.swift */; };
 		586F228E2A33861C004C7410 /* DashboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F228D2A33861C004C7410 /* DashboardContentView.swift */; };
 		586F22902A33861D004C7410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586F228F2A33861D004C7410 /* Assets.xcassets */; };
@@ -27,6 +31,8 @@
 		58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */; };
 		8F8ACA842E1E946100624A89 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8ACA832E1E946100624A89 /* Alert+Extension.swift */; };
 		9C5A70EA2BD201D0004B6F30 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A70E92BD201D0004B6F30 /* Color+Extension.swift */; };
+		A8245C22CF9A4CF78573B457 /* SuccessFromReboundCelebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */; };
+		BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */; };
 		C32530D42E63B886000A2E55 /* GoalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32530D32E63B886000A2E55 /* GoalInfo.swift */; };
 		C3423FD02DD8F385000F2E4D /* SubGoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3423FCF2DD8F385000F2E4D /* SubGoalData.swift */; };
 		C345BA722E50DB4C00F93049 /* GoalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345BA712E50DB4C00F93049 /* GoalList.swift */; };
@@ -59,15 +65,14 @@
 		C3BAA6C52DC88F4E00D17DD8 /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */; };
 		C3BAA6C72DC8FE8400D17DD8 /* SelectTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */; };
 		C3D6A50F2DAFBD9B0030FBC6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */; };
-		4FB147945C3C4B13AAE7B10F /* ActiveReboundSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */; };
-		A8245C22CF9A4CF78573B457 /* SuccessFromReboundCelebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */; };
-		081494984EE84CA0951CC527 /* JournalTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */; };
-		BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */; };
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
-		48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */; };
+		E40F7666FE3B6618A5112523 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 874BD087031D2E5916E3A2E1 /* LeeoKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReboundSection.swift; sourceTree = "<group>"; };
+		2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFromReboundCelebration.swift; sourceTree = "<group>"; };
+		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
 		586F22882A33861C004C7410 /* Rebound Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rebound Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F228B2A33861C004C7410 /* ReboundJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundJournalApp.swift; sourceTree = "<group>"; };
 		586F228D2A33861C004C7410 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
@@ -88,8 +93,10 @@
 		58FAF68C2D01F0C8008BE152 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		58FE87B22E37A04E00B91E3C /* Rebound Journal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rebound Journal.entitlements"; sourceTree = "<group>"; };
+		7EFC1A31504E3CF1E250D840 /* Rebound JournalSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Rebound JournalSpec.swift"; sourceTree = "<group>"; };
 		8F8ACA832E1E946100624A89 /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
 		9C5A70E92BD201D0004B6F30 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageJournalCreator.swift; sourceTree = "<group>"; };
 		C32530D32E63B886000A2E55 /* GoalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalInfo.swift; sourceTree = "<group>"; };
 		C3423FCF2DD8F385000F2E4D /* SubGoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubGoalData.swift; sourceTree = "<group>"; };
 		C345BA712E50DB4C00F93049 /* GoalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalList.swift; sourceTree = "<group>"; };
@@ -123,12 +130,8 @@
 		C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTargetView.swift; sourceTree = "<group>"; };
 		C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTargetView.swift; sourceTree = "<group>"; };
 		C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReboundSection.swift; sourceTree = "<group>"; };
-		2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFromReboundCelebration.swift; sourceTree = "<group>"; };
 		D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTimelineView.swift; sourceTree = "<group>"; };
 		F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleGoalSection.swift; sourceTree = "<group>"; };
-		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
-		AF0A0D2E118E4EFFB064D5B5 /* SinglePageJournalCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageJournalCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,12 +139,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40F7666FE3B6618A5112523 /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4905299FBD8B40C5A53B5BAC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		586F227F2A33861C004C7410 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +187,7 @@
 				58D6707A2BD0275600F581E2 /* Constants.swift */,
 				586F228F2A33861D004C7410 /* Assets.xcassets */,
 				586F22912A33861D004C7410 /* Preview Content */,
+				7EFC1A31504E3CF1E250D840 /* Rebound JournalSpec.swift */,
 			);
 			path = "Rebound Journal";
 			sourceTree = "<group>";
@@ -388,14 +401,6 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		4905299FBD8B40C5A53B5BAC /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 		C38D927C2E4B968800C569E9 /* Creation */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +446,9 @@
 			dependencies = (
 			);
 			name = "Rebound Journal";
+			packageProductDependencies = (
+				874BD087031D2E5916E3A2E1 /* LeeoKit */,
+			);
 			productName = "Rebound Journal";
 			productReference = 586F22882A33861C004C7410 /* Rebound Journal.app */;
 			productType = "com.apple.product-type.application";
@@ -469,6 +477,9 @@
 				ko,
 			);
 			mainGroup = 586F227F2A33861C004C7410;
+			packageReferences = (
+				BBD5686C2E7918A10C1DE1C1 /* XCLocalSwiftPackageReference "LeeoKit" */,
+			);
 			productRefGroup = 586F22892A33861C004C7410 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -551,6 +562,7 @@
 				BA3F6A4F7C6E49978AEA0084 /* CollapsibleGoalSection.swift in Sources */,
 				D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */,
 				48461282D10E40849788C078 /* SinglePageJournalCreator.swift in Sources */,
+				024B3E35D6CEA76B46010314 /* Rebound JournalSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,6 +791,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BBD5686C2E7918A10C1DE1C1 /* XCLocalSwiftPackageReference "LeeoKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LeeoKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		874BD087031D2E5916E3A2E1 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBD5686C2E7918A10C1DE1C1 /* XCLocalSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C3A07BE72DBBF7120057D3C3 /* Database.xcdatamodeld */ = {

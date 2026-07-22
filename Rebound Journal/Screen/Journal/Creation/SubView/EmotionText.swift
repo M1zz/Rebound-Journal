@@ -80,9 +80,9 @@ struct EmotionText: View {
         let isSelected = color == Color.selectedTagBackground ? true : false
         HStack(spacing: 8) {
             Text(tag)
-                .font(.system(size: 16, weight: .light))
+                .font(.system(size: 22, weight: .light))
         }
-				.foregroundStyle(isSelected ? .accent : .black)
+				.foregroundStyle(isSelected ? .accent : .primary)
         .padding(.horizontal, 10)
 				.padding(.vertical, 12)
         .background {
