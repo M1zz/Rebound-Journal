@@ -66,7 +66,7 @@ struct ConversationView: View {
                 inputArea
             }
         }
-        .task(id: engine.transcript.count) { await revealLatest() }
+        .task(id: engine.transcript.count) { await revealPending() }
         .onChange(of: engine.beat) { _, _ in resetInput() }
         .interactiveDismissDisabled(!engine.isFinished)
     }
@@ -438,20 +438,33 @@ struct ConversationView: View {
     private static let thinkingAnchor = "thinking"
     private static let listeningAnchor = "listening"
 
-    /// 새 조약돌 말이 오면 잠깐 뜸을 들였다가 글자를 하나씩 드러낸다.
-    private func revealLatest() async {
-        guard let latest = engine.transcript.last else { return }
-        guard latest.speaker == .pebble, !revealedIDs.contains(latest.id), typingID != latest.id else { return }
+    /// 아직 안 나온 조약돌의 말을 순서대로 하나씩 내보낸다.
+    ///
+    /// 한 마디가 두 문장으로 나뉘는 자리가 있다(지난 기록을 꺼낸 뒤 질문하기).
+    /// 마지막 것만 처리하면 앞 문장이 영영 감춰진 채 남으므로, 밀린 것을 전부
+    /// 훑으며 앞의 타이핑이 끝나기를 기다렸다가 다음으로 넘어간다.
+    private func revealPending() async {
+        while !Task.isCancelled {
+            guard let next = engine.transcript.first(where: {
+                $0.speaker == .pebble && !revealedIDs.contains($0.id)
+            }) else { return }
 
-        withAnimation(.easeOut(duration: 0.2)) { isThinking = true }
-        try? await Task.sleep(for: .milliseconds(480))
-        guard !Task.isCancelled else {
-            isThinking = false
-            return
-        }
-        withAnimation(.easeOut(duration: 0.2)) {
-            isThinking = false
-            typingID = latest.id
+            withAnimation(.easeOut(duration: 0.2)) { isThinking = true }
+            try? await Task.sleep(for: .milliseconds(480))
+            guard !Task.isCancelled else {
+                isThinking = false
+                return
+            }
+            withAnimation(.easeOut(duration: 0.2)) {
+                isThinking = false
+                typingID = next.id
+            }
+
+            // 타이핑이 끝나면 `TypewriterText`가 revealedIDs에 넣고 typingID를 비운다.
+            // 그 신호를 기다린다. 건너뛰기를 눌러도 같은 자리에서 풀린다.
+            while !Task.isCancelled && typingID == next.id {
+                try? await Task.sleep(for: .milliseconds(40))
+            }
         }
     }
 

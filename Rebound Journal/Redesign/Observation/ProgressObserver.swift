@@ -110,6 +110,46 @@ struct PastSuccess: Equatable {
     }
 }
 
+// MARK: - 지난번에 적은 것
+
+/// 같은 목표를 두고 지난번에 남긴 기록.
+///
+/// 대화에서 다시 묻기 전에 꺼내 보여준다. 기록이 보관함에만 쌓이면 아무 일도
+/// 일어나지 않는다. 다시 막혔을 때 눈앞에 놓여야 패턴이 보이고, 그래야 §6의
+/// "더 작게 쪼개기"가 지난번보다 나은 답으로 이어진다.
+struct PreviousNote: Equatable {
+    let date: Date
+    let review: String?
+    let plan: String?
+    let reached: Bool
+
+    /// 조약돌이 대화에서 꺼낼 한 줄. 비교하거나 나무라지 않고 사실만 옮긴다.
+    var recall: String? {
+        if let plan = PreviousNote.trimmed(plan) {
+            // "…부터 시작하기"처럼 사용자가 쓴 말에 이미 조사가 들어 있는 경우가 많다.
+            // 여기서 또 "부터"를 붙이면 겹치므로 목적격 조사만 쓴다.
+            let short = PreviousNote.condensed(plan)
+            return "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요."
+        }
+        if let review = PreviousNote.trimmed(review) {
+            return "지난번엔 '\(PreviousNote.condensed(review))'라고 적으셨어요."
+        }
+        return nil
+    }
+
+    private static func trimmed(_ value: String?) -> String? {
+        guard let value else { return nil }
+        let clean = value.trimmingCharacters(in: .whitespacesAndNewlines)
+        return clean.isEmpty ? nil : clean
+    }
+
+    /// 길면 앞부분만 인용한다. 통째로 되돌려주면 반성문처럼 읽힌다.
+    private static func condensed(_ text: String) -> String {
+        guard text.count > 24 else { return text }
+        return text.prefix(24).trimmingCharacters(in: .whitespacesAndNewlines) + "…"
+    }
+}
+
 // MARK: - 관찰자
 
 enum ProgressObserver {
@@ -216,6 +256,37 @@ enum ProgressObserver {
                 )
             }
             .first
+    }
+
+    /// 이 목표에 대해 지난번에 남긴 기록 하나.
+    static func lastNote(for goal: String, journals: [JournalData]) -> PreviousNote? {
+        guard let latest = journals
+            .filter({ $0.isValidForDisplay && matches(journal: $0, goal: goal) })
+            .max(by: { $0.dateUnwrapped < $1.dateUnwrapped }) else { return nil }
+
+        let note = PreviousNote(
+            date: latest.dateUnwrapped,
+            review: nonEmpty(latest.review),
+            plan: nonEmpty(latest.nextPlan),
+            reached: latest.isGoalInUnwrapped
+        )
+        // 적힌 내용이 없으면 꺼낼 것도 없다.
+        return note.recall == nil ? nil : note
+    }
+
+    /// 이 목표에 대한 기록 전부. 최근 것이 먼저.
+    static func notes(for goal: String, journals: [JournalData]) -> [PreviousNote] {
+        journals
+            .filter { $0.isValidForDisplay && matches(journal: $0, goal: goal) }
+            .sorted { $0.dateUnwrapped > $1.dateUnwrapped }
+            .map {
+                PreviousNote(
+                    date: $0.dateUnwrapped,
+                    review: nonEmpty($0.review),
+                    plan: nonEmpty($0.nextPlan),
+                    reached: $0.isGoalInUnwrapped
+                )
+            }
     }
 
     /// 이 목표를 몇 번이나 이어서 돌아봤는지. 숫자는 압박이 되기 쉬워 화면에서는

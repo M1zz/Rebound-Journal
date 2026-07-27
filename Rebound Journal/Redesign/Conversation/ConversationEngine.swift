@@ -50,6 +50,8 @@ final class ConversationEngine {
     private var emotionWord: String?
     private var smallerGoal: String = ""
     private let pastSuccess: PastSuccess?
+    /// 같은 목표를 두고 지난번에 적은 것. 다시 묻기 전에 꺼내 준다.
+    private let lastNote: PreviousNote?
 
     /// 사용자가 도중에 그만뒀는지. 그만둬도 지금까지 말한 건 저장한다.
     private(set) var didLeaveEarly = false
@@ -70,6 +72,9 @@ final class ConversationEngine {
         }
 
         self.pastSuccess = ProgressObserver.recentSuccess(journals: journals, excluding: self.goal)
+        self.lastNote = self.goal.isEmpty
+            ? nil
+            : ProgressObserver.lastNote(for: self.goal, journals: journals)
 
         say(observation.headline)
         enterConfirmOrFacts()
@@ -160,6 +165,11 @@ final class ConversationEngine {
     private func askFacts() {
         beat = .facts
         mood = .listening
+        // 다시 묻기 전에 지난번에 적은 걸 꺼낸다. 기록이 보관함에만 쌓이면
+        // 아무 일도 일어나지 않는다. 눈앞에 놓여야 패턴이 보인다.
+        if let recall = lastNote?.recall {
+            say(recall)
+        }
         say(ConversationScript.factsPrompt(goal: goal))
         response = .freeform(placeholder: ConversationScript.factsPlaceholder)
     }
