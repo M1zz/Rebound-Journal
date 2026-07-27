@@ -851,7 +851,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rebound-Journal-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "리바운드 저널";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "이 식별자는 귀하에게 개인화된 알람을 제공하는 데 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -891,7 +891,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rebound-Journal-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "리바운드 저널";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "이 식별자는 귀하에게 개인화된 알람을 제공하는 데 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

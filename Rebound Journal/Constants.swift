@@ -65,7 +65,7 @@ struct Constants {
     
     struct Strings {
         
-        static let mainTitle = "리바운드 저널"
+        static let mainTitle = "징검돌"
         
         static let oops = "이런!"
         static let reboundShootIn = "리바운드 슛!"

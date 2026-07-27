@@ -46,7 +46,7 @@ struct TodayView: View {
                 }
                 .scrollIndicators(.hidden)
             }
-            .navigationTitle("리바운드")
+            .navigationTitle("징검돌")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar { toolbarItems }
             .toolbarBackground(PebbleTheme.canvas, for: .navigationBar)
