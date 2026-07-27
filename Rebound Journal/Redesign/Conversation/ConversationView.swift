@@ -235,8 +235,11 @@ struct ConversationView: View {
         case .choices(let choices):
             VStack(spacing: 8) {
                 ForEach(choices) { choice in
-                    Button(choice.label) { engine.choose(choice) }
-                        .buttonStyle(ChoiceButtonStyle())
+                    Button(choice.label) {
+                        TypingFeedback.shared.tap()
+                        engine.choose(choice)
+                    }
+                    .buttonStyle(ChoiceButtonStyle())
                 }
             }
 
@@ -361,6 +364,7 @@ struct ConversationView: View {
                 .buttonStyle(ChoiceButtonStyle())
 
                 Button("맞아요") {
+                    TypingFeedback.shared.tap()
                     engine.submitFreeform(tidied)
                 }
                 .buttonStyle(WarmButtonStyle())
@@ -420,6 +424,7 @@ struct ConversationView: View {
                 .frame(height: 38)
 
                 Button("이걸로 할게요") {
+                    TypingFeedback.shared.tap()
                     engine.submitEmotion(value: selectedEmotion, word: selectedWord)
                 }
                 .buttonStyle(WarmButtonStyle())
@@ -482,6 +487,7 @@ struct ConversationView: View {
         if speech.isListening {
             await finishListening()
         } else {
+            TypingFeedback.shared.tap()
             engine.submitFreeform(draft)
         }
     }
@@ -499,6 +505,7 @@ struct ConversationView: View {
         }
 
         guard speech.needsConfirmation else {
+            TypingFeedback.shared.tap()
             engine.submitFreeform(heard)
             return
         }

@@ -14,6 +14,8 @@ struct SettingsView: View {
     @EnvironmentObject var manager: DataManager
     @State private var remindersTime: Date = Date()
     @State private var didConfigureTime: Bool = false
+    @State private var voiceOn: Bool = true
+    @State private var hapticOn: Bool = true
     
     // MARK: - Main rendering function
     var body: some View {
@@ -139,11 +141,62 @@ struct SettingsView: View {
     // MARK: - App Custom settings
     private var AppCustomSettingsView: some View {
         VStack {
+            CustomHeader(title: "조약돌")
+            CompanionFeedbackView
             CustomHeader(title: Constants.Strings.appPasscode)
             PasscodeView
             CustomHeader(title: Constants.Strings.dailyReminders)
             DailyRemindersView
         }
+    }
+
+    // MARK: - 조약돌 소리와 촉감
+    //
+    // 소리와 진동을 따로 둔다. 늦은 밤처럼 소리는 껐지만 촉감은 남기고 싶은
+    // 자리가 이 앱에서는 오히려 흔하다.
+    private var CompanionFeedbackView: some View {
+        VStack {
+            ToggleItem(title: "말할 때 소리", icon: "speaker.wave.2", isOn: $voiceOn)
+            Divider()
+                .padding(.horizontal)
+            ToggleItem(title: "말할 때 진동", icon: "hand.tap", isOn: $hapticOn)
+        }
+        // 저장소가 UserDefaults라 관찰 대상이 아니다. 화면 상태를 따로 들고
+        // 바뀔 때 옮겨 적는다. 계산 프로퍼티에 직접 Binding을 걸면 토글이
+        // 다시 그려지지 않아 눌러도 제자리로 튕긴다.
+        .onAppear {
+            voiceOn = PebbleVoice.shared.isEnabled
+            hapticOn = TypingFeedback.shared.isHapticEnabled
+        }
+        .onChange(of: voiceOn) { _, newValue in
+            PebbleVoice.shared.isEnabled = newValue
+        }
+        .onChange(of: hapticOn) { _, newValue in
+            TypingFeedback.shared.isHapticEnabled = newValue
+            // 켠 직후 한 번 울려 어떤 느낌인지 바로 알게 한다.
+            if newValue { TypingFeedback.shared.tap() }
+        }
+        .padding([.top, .bottom], 5)
+        .background(Color(.systemGray6)
+            .cornerRadius(15)
+            .shadow(color: Color.primary.opacity(0.07),
+                    radius: 10))
+        .padding(.bottom, 40)
+    }
+
+    /// 켜고 끄기만 하는 항목. 기존 `SettingsItem`은 알림 토글에 묶여 있어 재사용이 안 된다.
+    private func ToggleItem(title: String, icon: String, isOn: Binding<Bool>) -> some View {
+        HStack {
+            Image(systemName: icon)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 22, height: 22, alignment: .center)
+            Text(title).font(.body)
+            Spacer()
+            Toggle("", isOn: isOn).labelsHidden()
+        }
+        .foregroundStyle(.primary)
+        .padding()
     }
     
     // MARK: - Daily Reminders section
