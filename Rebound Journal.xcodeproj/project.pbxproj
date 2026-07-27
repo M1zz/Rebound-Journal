@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41606D32B4E15054B74956C /* ChatBubble.swift */; };
 		7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9637483D25A567BB2C364E /* RootView.swift */; };
 		1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF711FB488680547B2D7443 /* AddGoalView.swift */; };
 		8E5A6F4788FBCF515D6875D7 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF96E14F52D15708378F21 /* TodayView.swift */; };
@@ -89,6 +90,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D41606D32B4E15054B74956C /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		FA9637483D25A567BB2C364E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		5EF711FB488680547B2D7443 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 		BFEF96E14F52D15708378F21 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
@@ -216,7 +218,8 @@
 			
 				70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */,
 				979420319212C0F8FD12EB31 /* ConversationEngine.swift */,
-				C4793847AD7E6899F390C7B5 /* ConversationView.swift */,);
+				C4793847AD7E6899F390C7B5 /* ConversationView.swift */,
+				D41606D32B4E15054B74956C /* ChatBubble.swift */,);
 			path = Conversation;
 			sourceTree = "<group>";
 		};
@@ -711,7 +714,8 @@
 				D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */,
 				8E5A6F4788FBCF515D6875D7 /* TodayView.swift in Sources */,
 				1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */,
-				7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */,);
+				7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */,
+				06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */

@@ -25,8 +25,18 @@ struct TodayView: View {
     @State private var isShowingSettings = false
     @State private var isShowingChart = false
 
+    /// 사용자가 목록에서 직접 고른 목표. nil이면 앱이 알아서 하나 고른다.
+    ///
+    /// 고르는 행위 자체는 "실패했다"는 선언이 아니다. 무엇에 대해 얘기할지만
+    /// 정하는 것이고, 관찰은 여전히 조약돌이 먼저 한다 (§5-A).
+    @State private var selectedGoal: String?
+
     private var observation: GoalObservation {
-        ProgressObserver.primaryObservation(goals: goals, journals: journals)
+        if let selectedGoal {
+            ProgressObserver.observation(for: selectedGoal, journals: journals)
+        } else {
+            ProgressObserver.primaryObservation(goals: goals, journals: journals)
+        }
     }
 
     var body: some View {
@@ -51,7 +61,11 @@ struct TodayView: View {
             .toolbar { toolbarItems }
             .toolbarBackground(PebbleTheme.canvas, for: .navigationBar)
         }
-        .fullScreenCover(item: $conversation) { observation in
+        .fullScreenCover(item: $conversation) {
+            // 대화가 끝나면 선택을 놓는다. 다음에 열었을 때 조약돌이 다시 스스로
+            // 고르게 두어야, 사용자가 고른 목표에 계속 매여 있지 않는다.
+            selectedGoal = nil
+        } content: { observation in
             ConversationView(observation: observation, journals: journals)
         }
         .sheet(isPresented: $isAddingGoal) {
@@ -82,6 +96,10 @@ struct TodayView: View {
                 .multilineTextAlignment(.center)
                 .lineSpacing(6)
                 .fixedSize(horizontal: false, vertical: true)
+                // 목표를 고르면 조약돌이 하는 말이 바뀐다. 그 전환이 눈에 보여야
+                // 고른 행위에 반응이 있었다는 걸 안다.
+                .id(observation.headline)
+                .transition(.opacity.combined(with: .offset(y: 6)))
 
             if let invitation = observation.invitation {
                 Button(invitation) {
@@ -134,8 +152,11 @@ struct TodayView: View {
             .filter { $0.isValidForDisplay && $0.subGoalUnwrapped == text }
             .map(\.dateUnwrapped)
             .max()
+        let isSelected = selectedGoal == text
 
-        return SoftCard {
+        return Button {
+            select(text)
+        } label: {
             HStack(spacing: 14) {
                 // 최근에 해냈으면 따뜻한 점, 아니면 조용한 점. 색으로만 알린다.
                 Circle()
@@ -157,7 +178,35 @@ struct TodayView: View {
                     }
                 }
                 Spacer()
+
+                // 고른 목표에만 표식을 둔다. 고르지 않은 목표에 아무 표시가 없어야
+                // 목록이 "밀린 일 목록"으로 읽히지 않는다.
+                if isSelected {
+                    Image(systemName: "chevron.up")
+                        .font(.system(size: 12, weight: .semibold))
+                        .foregroundStyle(PebbleTheme.sunlight)
+                }
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(PebbleTheme.gutter)
+            .background(isSelected ? PebbleTheme.sunlight.opacity(0.10) : PebbleTheme.surface)
+            .clipShape(RoundedRectangle(cornerRadius: PebbleTheme.cardRadius, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: PebbleTheme.cardRadius, style: .continuous)
+                    .strokeBorder(
+                        isSelected ? PebbleTheme.sunlight : PebbleTheme.hairline,
+                        lineWidth: isSelected ? 1.5 : 1
+                    )
+            }
+        }
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(isSelected ? [.isSelected] : [])
+    }
+
+    /// 목표를 고르거나, 이미 고른 걸 다시 눌러 되돌린다.
+    private func select(_ goal: String) {
+        withAnimation(.easeInOut(duration: 0.28)) {
+            selectedGoal = (selectedGoal == goal) ? nil : goal
         }
     }
 

@@ -39,15 +39,15 @@ struct GoalObservation: Equatable, Identifiable {
         case .noGoalYet:
             "무엇을 향해 가고 있는지 아직 못 들었어요."
         case .neverAttempted(let goal):
-            "'\(goal)'을 적어두고 아직 돌아본 적은 없네요."
+            "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요."
         case .reached(let goal, let daysAgo):
             daysAgo == 0
                 ? "오늘 '\(goal)'에 닿았네요."
                 : "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요."
         case .notReached(let goal, let daysAgo):
             daysAgo <= 1
-                ? "'\(goal)'은 오늘 아직 닿지 않았네요."
-                : "'\(goal)'을 돌아본 지 \(daysAgo)일 됐어요."
+                ? "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요."
+                : "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요."
         case .quiet:
             "오늘은 그냥 옆에 있을게요."
         }
@@ -106,7 +106,7 @@ struct PastSuccess: Equatable {
         case 8...20: "지난주쯤"
         default: "얼마 전"
         }
-        return "\(when)에는 '\(goal)'을 해내셨어요."
+        return "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요."
     }
 }
 
@@ -117,7 +117,34 @@ enum ProgressObserver {
     /// 목표에 닿지 않은 채 이만큼 지나면 말을 건다. 매일 채근하지 않기 위한 간격이다.
     static let quietDays = 1
 
-    /// 지금 화면에 올릴 관찰 하나를 고른다.
+    /// 목표 하나를 두고 지금 상태를 말한다.
+    ///
+    /// 사용자가 목록에서 목표를 직접 고른 경우에도 이 함수를 쓴다. 그때는 `.quiet`을
+    /// 돌려주지 않는다 — 물어봤는데 "오늘은 그냥 옆에 있을게요"라고 답하면 대화가
+    /// 끊긴다. 고른 목표에 대해서는 언제나 할 말이 있어야 한다.
+    static func observation(
+        for goal: String,
+        journals: [JournalData],
+        now: Date = Date()
+    ) -> GoalObservation {
+        let entries = journals
+            .filter { $0.isValidForDisplay && matches(journal: $0, goal: goal) }
+
+        guard let latest = entries.max(by: { $0.dateUnwrapped < $1.dateUnwrapped }) else {
+            return GoalObservation(kind: .neverAttempted(goal: goal))
+        }
+
+        let elapsed = days(from: latest.dateUnwrapped, to: now)
+
+        // 오늘 닿았으면 그 얘기부터. 좋은 소식이 우선이다.
+        if latest.isGoalInUnwrapped && elapsed == 0 {
+            return GoalObservation(kind: .reached(goal: goal, daysAgo: 0))
+        }
+
+        return GoalObservation(kind: .notReached(goal: goal, daysAgo: elapsed))
+    }
+
+    /// 아무것도 고르지 않았을 때 화면에 올릴 관찰 하나를 고른다.
     ///
     /// 여러 목표가 밀려 있어도 **하나만** 보여준다. 밀린 목록을 한꺼번에 보여주는 건
     /// 그 자체로 압박이 되고, §5가 피하려던 바로 그 경험이 된다.
@@ -133,7 +160,7 @@ enum ProgressObserver {
             return GoalObservation(kind: .noGoalYet)
         }
 
-        // 오늘 이미 닿은 목표가 있으면 그걸 먼저 축하한다. 좋은 소식이 우선이다.
+        // 오늘 이미 닿은 목표가 있으면 그걸 먼저 축하한다.
         if let todayWin = live
             .filter({ $0.isGoalInUnwrapped && Calendar.current.isDate($0.dateUnwrapped, inSameDayAs: now) })
             .max(by: { $0.dateUnwrapped < $1.dateUnwrapped }),
@@ -157,15 +184,12 @@ enum ProgressObserver {
 
         guard let candidate = stale.first else { return GoalObservation(kind: .quiet) }
 
-        guard let elapsed = candidate.days else {
-            return GoalObservation(kind: .neverAttempted(goal: candidate.goal))
+        // 방금 남긴 목표뿐이면 말을 걸지 않는다. 매일 채근하지 않기 위한 간격이다.
+        if let elapsed = candidate.days, elapsed < quietDays {
+            return GoalObservation(kind: .quiet)
         }
 
-        if elapsed >= quietDays {
-            return GoalObservation(kind: .notReached(goal: candidate.goal, daysAgo: elapsed))
-        }
-
-        return GoalObservation(kind: .quiet)
+        return observation(for: candidate.goal, journals: live, now: now)
     }
 
     /// 가장 최근에 해낸 일. 대화에서 되짚어 줄 때 쓴다.

@@ -4,8 +4,12 @@
 //
 //  대화 화면 (설계 고찰 §7).
 //
-//  조약돌의 말은 음성과 텍스트로 함께 나간다. 소리를 놓쳐도 글이 남아 있고,
-//  소리를 꺼도 대화가 그대로 굴러간다.
+//  조약돌이 위에 있고, 주고받은 말이 아래에 말풍선으로 쌓인다. 조약돌의 말은
+//  글자가 하나씩 나타나고, 소리도 같이 난다. 소리를 놓쳐도 글이 남고, 소리를
+//  꺼도 대화는 그대로 굴러간다.
+//
+//  말하는 동안에는 입력을 막는다. 질문이 다 나오기 전에 답을 받으면 대화가 아니라
+//  양식 작성이 된다.
 //
 //  이 화면에는 "다시 말씀해 주세요"가 없다. 인식이 흐릿하면 정리해서 되묻고,
 //  그마저 안 되면 들린 대로 띄워 고치게 한다.
@@ -29,6 +33,11 @@ struct ConversationView: View {
     @State private var selectedWord: String?
     @FocusState private var isDraftFocused: Bool
 
+    // 말풍선 등장 제어
+    @State private var isThinking = false
+    @State private var typingID: UUID?
+    @State private var revealedIDs: Set<UUID> = []
+
     init(observation: GoalObservation, journals: [JournalData]) {
         _engine = State(initialValue: ConversationEngine(observation: observation, journals: journals))
     }
@@ -41,33 +50,23 @@ struct ConversationView: View {
         case confirming(tidied: String)
     }
 
+    /// 조약돌이 아직 말하는 중인지. 이때는 답할 차례가 아니다.
+    private var isPebbleSpeaking: Bool {
+        isThinking || typingID != nil
+    }
+
     var body: some View {
         ZStack {
             PebbleTheme.canvas.ignoresSafeArea()
 
             VStack(spacing: 0) {
                 header
-                // 내용이 짧을 때는 가운데에 모이고, 대화가 길어지면 위로 스크롤된다.
-                // 그냥 두면 조약돌만 위에 붙고 화면 한가운데가 텅 빈다.
-                GeometryReader { proxy in
-                    ScrollView {
-                        VStack(alignment: .leading, spacing: 28) {
-                            companion
-                            promptText
-                            history
-                        }
-                        .padding(.horizontal, 24)
-                        .padding(.vertical, 20)
-                        .frame(minHeight: proxy.size.height, alignment: .center)
-                    }
-                    .scrollIndicators(.hidden)
-                }
-
-                responseArea
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 12)
+                companion
+                thread
+                inputArea
             }
         }
+        .task(id: engine.transcript.count) { await revealLatest() }
         .onChange(of: engine.beat) { _, _ in resetInput() }
         .interactiveDismissDisabled(!engine.isFinished)
     }
@@ -93,60 +92,145 @@ struct ConversationView: View {
 
     // MARK: - 조약돌
 
+    /// 화면 위에 계속 머문다. 대화 상대가 누구인지 눈에서 사라지지 않아야 한다.
     private var companion: some View {
-        HStack {
-            Spacer()
-            PebbleView(
-                mood: speech.isListening ? .listening : engine.mood,
-                size: 130,
-                isSpeaking: false
-            )
-            Spacer()
-        }
-        .padding(.top, 8)
+        PebbleView(
+            mood: speech.isListening ? .listening : engine.mood,
+            size: 92,
+            isSpeaking: typingID != nil
+        )
+        .padding(.bottom, 6)
     }
 
-    private var promptText: some View {
-        Text(engine.prompt)
-            .font(PebbleTheme.companionFont(22))
-            .foregroundStyle(PebbleTheme.ink)
-            .lineSpacing(7)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .contentTransition(.opacity)
-            .animation(.easeInOut(duration: 0.3), value: engine.prompt)
-    }
+    // MARK: - 대화 줄기
 
-    /// 지나간 대화. 사용자가 자기가 한 말을 되짚을 수 있어야 한다.
-    private var history: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            ForEach(engine.transcript.dropLast()) { line in
-                HStack {
-                    if line.speaker == .user { Spacer(minLength: 40) }
-                    Text(line.text)
-                        .font(line.speaker == .pebble
-                              ? PebbleTheme.companionFont(15)
-                              : PebbleTheme.body(15))
-                        .foregroundStyle(line.speaker == .pebble
-                                         ? PebbleTheme.inkFaint
-                                         : PebbleTheme.inkSoft)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 10)
-                        .background(line.speaker == .user ? PebbleTheme.surfaceMuted : .clear)
-                        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
-                    if line.speaker == .pebble { Spacer(minLength: 40) }
+    private var thread: some View {
+        ScrollViewReader { proxy in
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    ForEach(visibleTranscript) { line in
+                        bubble(for: line)
+                            .id(line.id)
+                            .transition(.opacity.combined(with: .move(edge: .bottom)))
+                    }
+
+                    if isThinking {
+                        ChatBubble(speaker: .pebble) { ThinkingDots() }
+                            .id(Self.thinkingAnchor)
+                            .transition(.opacity)
+                    }
+
+                    // 듣는 동안 내 말이 오른쪽에 실시간으로 쌓인다. 잡히고 있다는
+                    // 확인이 있어야 말하다 멈추지 않는다.
+                    if speech.isListening {
+                        ChatBubble(speaker: .user) {
+                            listeningBubbleContent
+                        }
+                        .id(Self.listeningAnchor)
+                        .transition(.opacity)
+                    }
+
+                    Color.clear.frame(height: 4).id(Self.bottomAnchor)
                 }
+                .padding(.horizontal, 20)
+                .padding(.vertical, 12)
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
+            .scrollIndicators(.hidden)
+            .scrollDismissesKeyboard(.interactively)
+            // 말풍선이 아래에 붙어 답하는 자리 바로 위에 온다. 위로 붙이면 대화가
+            // 한두 마디일 때 화면 가운데가 통째로 비어 보인다.
+            .defaultScrollAnchor(.bottom)
+            // 조약돌이 말하는 중에 화면을 누르면 끝까지 건너뛴다.
+            .contentShape(Rectangle())
+            .onTapGesture { skipTyping() }
+            .onChange(of: engine.transcript.count) { _, _ in scroll(proxy) }
+            .onChange(of: isThinking) { _, _ in scroll(proxy) }
+            .onChange(of: speech.displayText) { _, _ in scroll(proxy) }
+            .onChange(of: typingID) { _, _ in scroll(proxy) }
         }
-        .opacity(0.9)
     }
 
-    // MARK: - 응답 영역
+    /// 아직 등장할 차례가 아닌 조약돌의 말은 감춘다. 그 자리에는 점 세 개가 떠 있다.
+    ///
+    /// `isThinking`만 보고 판단하면, 말이 추가된 직후 타이핑이 시작되기 전
+    /// 한 프레임 동안 문장 전체가 스쳐 지나간다.
+    private var visibleTranscript: [ConversationEngine.Utterance] {
+        engine.transcript.filter { line in
+            line.speaker == .user || revealedIDs.contains(line.id) || line.id == typingID
+        }
+    }
 
     @ViewBuilder
-    private var responseArea: some View {
+    private func bubble(for line: ConversationEngine.Utterance) -> some View {
+        switch line.speaker {
+        case .pebble:
+            ChatBubble(speaker: .pebble) {
+                if line.id == typingID {
+                    TypewriterText(text: line.text) {
+                        revealedIDs.insert(line.id)
+                        typingID = nil
+                    }
+                } else {
+                    Text(line.text)
+                        .font(PebbleTheme.companionFont(17))
+                        .foregroundStyle(PebbleTheme.ink)
+                        .lineSpacing(5)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+            }
+        case .user:
+            ChatBubble(speaker: .user) {
+                Text(line.text)
+                    .font(PebbleTheme.body(16))
+                    .foregroundStyle(PebbleTheme.ink)
+                    .lineSpacing(4)
+            }
+        }
+    }
+
+    private var listeningBubbleContent: some View {
+        HStack(spacing: 8) {
+            if speech.displayText.isEmpty {
+                Text("듣고 있어요")
+                    .font(PebbleTheme.body(16))
+                    .foregroundStyle(PebbleTheme.inkFaint)
+            } else {
+                Text(speech.displayText)
+                    .font(PebbleTheme.body(16))
+                    .foregroundStyle(PebbleTheme.ink)
+                    .lineSpacing(4)
+            }
+            Image(systemName: "waveform")
+                .font(.system(size: 13))
+                .foregroundStyle(PebbleTheme.sunlight)
+                .symbolEffect(.variableColor, isActive: true)
+        }
+    }
+
+    // MARK: - 입력 영역
+
+    @ViewBuilder
+    private var inputArea: some View {
+        Group {
+            if isPebbleSpeaking {
+                // 말이 끝나기 전에는 답할 자리를 만들지 않는다.
+                Color.clear.frame(height: 8)
+            } else {
+                responseControls
+                    .transition(.opacity.combined(with: .move(edge: .bottom)))
+            }
+        }
+        .animation(.easeOut(duration: 0.22), value: isPebbleSpeaking)
+        .padding(.horizontal, 20)
+        .padding(.bottom, 10)
+    }
+
+    @ViewBuilder
+    private var responseControls: some View {
         switch engine.response {
         case .choices(let choices):
-            VStack(spacing: 10) {
+            VStack(spacing: 8) {
                 ForEach(choices) { choice in
                     Button(choice.label) { engine.choose(choice) }
                         .buttonStyle(ChoiceButtonStyle())
@@ -171,98 +255,91 @@ struct ConversationView: View {
 
     @ViewBuilder
     private func freeformArea(placeholder: String) -> some View {
-        VStack(spacing: 12) {
-            if case .confirming(let tidied) = freeform {
-                confirmationCard(tidied: tidied)
-            } else {
-                inputCard(placeholder: placeholder)
-                controls
-            }
-        }
-    }
-
-    private func inputCard(placeholder: String) -> some View {
-        SoftCard {
-            ZStack(alignment: .topLeading) {
-                if draft.isEmpty && speech.displayText.isEmpty {
-                    Text(placeholder)
-                        .font(PebbleTheme.body(16))
+        if case .confirming(let tidied) = freeform {
+            confirmationCard(tidied: tidied)
+        } else {
+            VStack(spacing: 8) {
+                if isTidying {
+                    Text("정리하고 있어요…")
+                        .font(PebbleTheme.label(13))
                         .foregroundStyle(PebbleTheme.inkFaint)
-                        .padding(.top, 8)
-                        .padding(.leading, 5)
+                } else if case .unavailable(let note) = speech.phase {
+                    // 권한이 없어도 재촉하지 않는다. 적어도 된다고만 알린다.
+                    Text(note)
+                        .font(PebbleTheme.label(13))
+                        .foregroundStyle(PebbleTheme.inkFaint)
                 }
 
-                if speech.isListening {
-                    // 듣는 동안엔 들린 말을 그대로 보여준다. 자기 말이 잡히고 있다는
-                    // 확인이 있어야 사용자가 불안해하지 않는다.
-                    Text(speech.displayText)
-                        .font(PebbleTheme.body(16))
-                        .foregroundStyle(PebbleTheme.ink)
-                        .padding(.top, 8)
-                        .padding(.leading, 5)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                } else {
-                    TextEditor(text: $draft)
-                        .font(PebbleTheme.body(16))
-                        .foregroundStyle(PebbleTheme.ink)
-                        .scrollContentBackground(.hidden)
-                        .focused($isDraftFocused)
-                        .frame(minHeight: 84)
-                }
+                composer(placeholder: placeholder)
             }
-            .frame(minHeight: 84, alignment: .topLeading)
         }
     }
 
-    private var controls: some View {
-        HStack(spacing: 12) {
+    /// 메신저 입력줄. 말하거나 적거나, 둘 중 편한 쪽으로.
+    private func composer(placeholder: String) -> some View {
+        HStack(alignment: .bottom, spacing: 10) {
             micButton
 
-            Button(speech.isListening ? "다 말했어요" : "이대로 둘게요") {
-                Task { await handlePrimary() }
+            HStack(alignment: .bottom, spacing: 8) {
+                TextField(placeholder, text: $draft, axis: .vertical)
+                    .font(PebbleTheme.body(16))
+                    .foregroundStyle(PebbleTheme.ink)
+                    .textFieldStyle(.plain)
+                    .lineLimit(1...5)
+                    .focused($isDraftFocused)
+                    .disabled(speech.isListening)
+
+                if canSend {
+                    Button {
+                        Task { await handleSend() }
+                    } label: {
+                        Image(systemName: "arrow.up")
+                            .font(.system(size: 15, weight: .bold))
+                            .foregroundStyle(.white)
+                            .frame(width: 32, height: 32)
+                            .background(PebbleTheme.sunlight)
+                            .clipShape(Circle())
+                    }
+                    .transition(.scale.combined(with: .opacity))
+                }
             }
-            .buttonStyle(WarmButtonStyle())
-            .disabled(!speech.isListening && draft.trimmingCharacters(in: .whitespaces).isEmpty)
-            .opacity(!speech.isListening && draft.trimmingCharacters(in: .whitespaces).isEmpty ? 0.45 : 1)
-        }
-        .overlay(alignment: .top) {
-            if isTidying {
-                Text("정리하고 있어요…")
-                    .font(PebbleTheme.label(13))
-                    .foregroundStyle(PebbleTheme.inkFaint)
-                    .offset(y: -22)
-            } else if case .unavailable(let note) = speech.phase {
-                // 권한이 없어도 재촉하지 않는다. 적어도 된다고만 알린다.
-                Text(note)
-                    .font(PebbleTheme.label(13))
-                    .foregroundStyle(PebbleTheme.inkFaint)
-                    .offset(y: -22)
+            .padding(.horizontal, 14)
+            .padding(.vertical, 9)
+            .background(PebbleTheme.surface)
+            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    .strokeBorder(PebbleTheme.hairline, lineWidth: 1)
             }
         }
+        .animation(.easeOut(duration: 0.16), value: canSend)
+    }
+
+    private var canSend: Bool {
+        speech.isListening || !draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 
     private var micButton: some View {
         Button {
             Task { await toggleMic() }
         } label: {
-            Image(systemName: speech.isListening ? "waveform" : "mic.fill")
-                .font(.system(size: 19, weight: .medium))
-                .foregroundStyle(speech.isListening ? .white : PebbleTheme.ink)
-                .frame(width: 54, height: 54)
+            Image(systemName: speech.isListening ? "stop.fill" : "mic.fill")
+                .font(.system(size: 17, weight: .medium))
+                .foregroundStyle(speech.isListening ? .white : PebbleTheme.inkSoft)
+                .frame(width: 44, height: 44)
                 .background(speech.isListening ? PebbleTheme.sunlight : PebbleTheme.surfaceMuted)
                 .clipShape(Circle())
-                .symbolEffect(.variableColor, isActive: speech.isListening)
         }
         .accessibilityLabel(speech.isListening ? "그만 말하기" : "말로 답하기")
     }
 
     /// §7의 핵심 화면. 다시 말해달라고 하는 대신 정리한 문장을 보여주고 고르게 한다.
     private func confirmationCard(tidied: String) -> some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 10) {
             SoftCard(background: PebbleTheme.surfaceMuted) {
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading, spacing: 8) {
                     Text("혹시 이런 뜻인가요?")
-                        .font(PebbleTheme.label(14))
+                        .font(PebbleTheme.label(13))
                         .foregroundStyle(PebbleTheme.inkFaint)
                     Text(tidied)
                         .font(PebbleTheme.body(17))
@@ -291,8 +368,8 @@ struct ConversationView: View {
     // MARK: 감정
 
     private var emotionArea: some View {
-        VStack(spacing: 16) {
-            HStack(spacing: 8) {
+        VStack(spacing: 12) {
+            HStack(spacing: 6) {
                 ForEach(ConversationScript.emotionSteps, id: \.value) { step in
                     Button {
                         withAnimation(.easeOut(duration: 0.18)) {
@@ -301,10 +378,10 @@ struct ConversationView: View {
                         }
                     } label: {
                         Text(step.label)
-                            .font(PebbleTheme.label(13))
+                            .font(PebbleTheme.label(12))
                             .multilineTextAlignment(.center)
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 14)
+                            .padding(.vertical, 12)
                     }
                     .buttonStyle(ChoiceButtonStyle(selected: selectedEmotion == step.value))
                 }
@@ -321,7 +398,7 @@ struct ConversationView: View {
                             .font(PebbleTheme.label(14))
                             .foregroundStyle(PebbleTheme.ink)
                             .padding(.horizontal, 14)
-                            .padding(.vertical, 9)
+                            .padding(.vertical, 8)
                             .background(selectedWord == word
                                         ? PebbleTheme.sunlight.opacity(0.22)
                                         : PebbleTheme.surface)
@@ -337,13 +414,49 @@ struct ConversationView: View {
                     .padding(.horizontal, 1)
                 }
                 .scrollIndicators(.hidden)
-                .frame(height: 42)
+                .frame(height: 38)
 
                 Button("이걸로 할게요") {
                     engine.submitEmotion(value: selectedEmotion, word: selectedWord)
                 }
                 .buttonStyle(WarmButtonStyle())
             }
+        }
+    }
+
+    // MARK: - 말풍선 등장
+
+    private static let bottomAnchor = "bottom"
+    private static let thinkingAnchor = "thinking"
+    private static let listeningAnchor = "listening"
+
+    /// 새 조약돌 말이 오면 잠깐 뜸을 들였다가 글자를 하나씩 드러낸다.
+    private func revealLatest() async {
+        guard let latest = engine.transcript.last else { return }
+        guard latest.speaker == .pebble, !revealedIDs.contains(latest.id), typingID != latest.id else { return }
+
+        withAnimation(.easeOut(duration: 0.2)) { isThinking = true }
+        try? await Task.sleep(for: .milliseconds(480))
+        guard !Task.isCancelled else {
+            isThinking = false
+            return
+        }
+        withAnimation(.easeOut(duration: 0.2)) {
+            isThinking = false
+            typingID = latest.id
+        }
+    }
+
+    /// 화면을 누르면 타이핑을 끝까지 건너뛴다. 기다리기 싫은 사람도 있다.
+    private func skipTyping() {
+        guard let typingID else { return }
+        revealedIDs.insert(typingID)
+        self.typingID = nil
+    }
+
+    private func scroll(_ proxy: ScrollViewProxy) {
+        withAnimation(.easeOut(duration: 0.25)) {
+            proxy.scrollTo(Self.bottomAnchor, anchor: .bottom)
         }
     }
 
@@ -354,13 +467,14 @@ struct ConversationView: View {
             await finishListening()
         } else {
             draft = ""
+            isDraftFocused = false
             speech.reset()
             freeform = .listening
             await speech.start()
         }
     }
 
-    private func handlePrimary() async {
+    private func handleSend() async {
         if speech.isListening {
             await finishListening()
         } else {

@@ -98,7 +98,7 @@ enum ConversationScript {
     /// 상황을 묻는다. "왜 안 했어요?"가 아니라 "뭐가 막혔어요?"다.
     /// 원인을 사람이 아니라 상황에 둔다.
     static func factsPrompt(goal: String) -> String {
-        "'\(goal)'을 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?"
+        "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?"
     }
 
     static let factsPlaceholder = "짧아도 괜찮아요. 그때 무슨 일이 있었는지만."
