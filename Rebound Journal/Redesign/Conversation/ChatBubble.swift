@@ -144,27 +144,40 @@ struct TypewriterText: View {
     }
 
     private func reveal() async {
-        let characters = text.count
-        guard characters > 0 else {
+        let glyphs = Array(text)
+        guard !glyphs.isEmpty else {
             onFinish()
             return
         }
 
-        // 동작 줄이기를 켠 사용자에게는 한 번에 보여준다.
+        // 동작 줄이기를 켠 사용자에게는 한 번에 보여준다. 소리와 진동도 내지 않는다 —
+        // 글자가 이미 다 나와 있는데 소리만 이어지면 무엇에 대한 소리인지 알 수 없다.
         guard !reduceMotion else {
-            shownCount = characters
+            shownCount = glyphs.count
             onFinish()
             return
         }
 
         shownCount = 0
-        let step = min(Self.perCharacter, Self.maxDuration / Double(characters))
+        let step = min(Self.perCharacter, Self.maxDuration / Double(glyphs.count))
+        TypingFeedback.shared.begin(step: step)
 
-        for index in 1...characters {
+        for index in glyphs.indices {
             try? await Task.sleep(for: .seconds(step))
-            guard !Task.isCancelled else { return }
-            shownCount = index
+            guard !Task.isCancelled else {
+                // 화면을 벗어나거나 건너뛰면 소리도 함께 멈춘다.
+                TypingFeedback.shared.end()
+                return
+            }
+            shownCount = index + 1
+            TypingFeedback.shared.tick(
+                glyphs[index],
+                progress: Double(index) / Double(glyphs.count),
+                step: step
+            )
         }
+
+        TypingFeedback.shared.end()
         onFinish()
     }
 }

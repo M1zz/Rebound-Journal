@@ -450,6 +450,7 @@ struct ConversationView: View {
     /// 화면을 누르면 타이핑을 끝까지 건너뛴다. 기다리기 싫은 사람도 있다.
     private func skipTyping() {
         guard let typingID else { return }
+        TypingFeedback.shared.end()
         revealedIDs.insert(typingID)
         self.typingID = nil
     }

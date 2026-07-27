@@ -222,10 +222,11 @@ final class ConversationEngine {
 
     // MARK: - 말
 
+    /// 소리는 여기서 내지 않는다. 글자가 화면에 찍히는 순간에 맞춰
+    /// `TypewriterText`가 한 글자씩 낸다 — 엔진은 말이 생겼다는 것만 알린다.
     private func say(_ text: String) {
         prompt = text
         transcript.append(Utterance(speaker: .pebble, text: text))
-        PebbleVoice.shared.speak(text)
     }
 
     private func echo(_ text: String) {

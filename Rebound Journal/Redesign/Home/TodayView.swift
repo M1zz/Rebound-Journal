@@ -259,6 +259,15 @@ struct TodayView: View {
                         systemImage: PebbleVoice.shared.isEnabled ? "speaker.slash" : "speaker.wave.2"
                     )
                 }
+                // 소리와 따로 끈다. 소리는 껐지만 촉감은 남기고 싶은 자리가 흔하다.
+                Button {
+                    TypingFeedback.shared.isHapticEnabled.toggle()
+                } label: {
+                    Label(
+                        TypingFeedback.shared.isHapticEnabled ? "진동 끄기" : "진동 켜기",
+                        systemImage: TypingFeedback.shared.isHapticEnabled ? "hand.tap.fill" : "hand.tap"
+                    )
+                }
                 Button {
                     isShowingSettings = true
                 } label: {
