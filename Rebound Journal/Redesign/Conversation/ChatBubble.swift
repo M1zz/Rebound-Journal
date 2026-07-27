@@ -134,11 +134,11 @@ struct TypewriterText: View {
     @State private var shownCount = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    /// 글자 사이 기본 간격. 초당 8~9자 — 사람이 편하게 치는 속도다.
-    private static let perCharacter: Double = 0.115
+    /// 글자 사이 기본 간격. 초당 12~13자 — 익숙한 사람이 치는 속도다.
+    private static let perCharacter: Double = 0.078
 
     /// 문장부호에서 쉬는 시간을 뺀, 글자만의 총 시간 상한.
-    private static let maxDuration: Double = 5.0
+    private static let maxDuration: Double = 3.6
 
     /// 간격이 흔들리는 폭. 사람은 같은 박자로 치지 않는다.
     private static let jitter: ClosedRange<Double> = 0.7...1.35
@@ -248,11 +248,14 @@ struct TypewriterText: View {
     }
 
     /// 글자 뒤에 쉬는 시간.
+    ///
+    /// 치는 속도가 빨라졌으니 쉼도 같이 줄인다. 쉼만 그대로 두면 글자는 빠른데
+    /// 문장 사이에서만 늘어져 박자가 어긋난다.
     private static func pause(after character: Character) -> Double {
         switch character {
-        case ".", "!", "?": 0.40      // 문장이 끝났다
-        case "\n": 0.32               // 줄을 바꿨다
-        case ",": 0.18                // 잠깐 끊었다
+        case ".", "!", "?": 0.30      // 문장이 끝났다
+        case "\n": 0.24               // 줄을 바꿨다
+        case ",": 0.13                // 잠깐 끊었다
         default: 0
         }
     }
