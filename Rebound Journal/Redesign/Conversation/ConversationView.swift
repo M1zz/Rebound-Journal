@@ -172,11 +172,14 @@ struct ConversationView: View {
                         typingID = nil
                     }
                 } else {
+                    // 말풍선은 글자 길이만큼만 차지한다. maxWidth를 채우면 짧은 말도
+                    // 화면 폭을 가득 채워 말풍선처럼 보이지 않는다.
                     Text(line.text)
                         .font(PebbleTheme.companionFont(17))
                         .foregroundStyle(PebbleTheme.ink)
                         .lineSpacing(5)
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
             }
         case .user:

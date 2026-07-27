@@ -116,7 +116,14 @@ struct BubbleShape: InsettableShape {
 
 /// 글자를 하나씩 드러내 조약돌이 지금 말하고 있는 것처럼 보이게 한다.
 ///
-/// 문장이 길어도 전체 시간이 `maxDuration`을 넘지 않게 속도를 조절한다.
+/// 사람이 치는 것처럼 보이려면 속도만 늦춰서는 안 된다. 간격이 일정하면 아무리
+/// 느려도 기계가 뿌리는 것으로 읽힌다. 그래서 세 가지를 함께 쓴다.
+///
+///  1. 사람이 또박또박 치는 정도의 기본 속도 (초당 8~9자)
+///  2. 글자마다 간격을 흔든다 — 사람은 일정한 박자로 치지 않는다
+///  3. 문장부호에서 쉰다 — 마침표 뒤에서 숨을 고르고 다음 문장을 시작한다
+///
+/// 문장이 길면 전체 시간이 `maxDuration`을 넘지 않게 기본 속도를 줄인다.
 /// 기다림이 길어지면 대화가 아니라 로딩처럼 느껴지기 때문이다.
 struct TypewriterText: View {
 
@@ -127,20 +134,55 @@ struct TypewriterText: View {
     @State private var shownCount = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    private static let perCharacter: Double = 0.038
-    private static let maxDuration: Double = 1.8
+    /// 글자 사이 기본 간격. 초당 8~9자 — 사람이 편하게 치는 속도다.
+    private static let perCharacter: Double = 0.115
+
+    /// 문장부호에서 쉬는 시간을 뺀, 글자만의 총 시간 상한.
+    private static let maxDuration: Double = 5.0
+
+    /// 간격이 흔들리는 폭. 사람은 같은 박자로 치지 않는다.
+    private static let jitter: ClosedRange<Double> = 0.7...1.35
+
+    /// 커서가 깜빡이는 주기. 키보드 커서와 비슷하게 잡았다.
+    private static let caretBlink: Double = 0.5
+
+    @State private var isTyping = false
+    @State private var caretOn = true
+
+    private let blinkTimer = Timer
+        .publish(every: TypewriterText.caretBlink, on: .main, in: .common)
+        .autoconnect()
 
     var body: some View {
-        Text(String(text.prefix(shownCount)))
+        line
             .font(font)
-            .foregroundStyle(PebbleTheme.ink)
             .lineSpacing(5)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            // 글자가 늘어나며 말풍선이 커질 때 덜컥거리지 않게 한다.
-            .animation(.easeOut(duration: 0.08), value: shownCount)
+            .multilineTextAlignment(.leading)
+            .fixedSize(horizontal: false, vertical: true)
+            // 글자 수가 바뀔 때 애니메이션을 걸지 않는다. 걸면 SwiftUI가 앞뒤 상태를
+            // 겹쳐 넘기면서 커서가 둘로 보인다.
             .task(id: text) { await reveal() }
+            .onReceive(blinkTimer) { _ in
+                guard isTyping else { return }
+                caretOn.toggle()
+            }
             // 낭독 중에도 전체 문장을 읽어주고, 중간 상태를 계속 다시 읽지 않게 한다.
             .accessibilityLabel(text)
+    }
+
+    /// 드러난 글자 + 커서.
+    ///
+    /// 커서를 따로 겹쳐 그리면 줄바꿈된 문장의 끝을 따라가기 어렵다. 글자 뒤에
+    /// 이어 붙이면 위치 계산 없이 언제나 마지막 글자 옆에 선다.
+    private var line: Text {
+        let shown = Text(String(text.prefix(shownCount)))
+            .foregroundStyle(PebbleTheme.ink)
+
+        guard isTyping else { return shown }
+
+        // 자리는 늘 차지하고 색만 바꾼다. 커서가 나타났다 사라지면 글자가 흔들린다.
+        return shown + Text("|")
+            .foregroundStyle(caretOn ? PebbleTheme.sunlight : Color.clear)
     }
 
     private func reveal() async {
@@ -159,26 +201,60 @@ struct TypewriterText: View {
         }
 
         shownCount = 0
+        isTyping = true
+        caretOn = true
+
+        // 문장이 길면 기본 속도를 줄여 전체 시간을 묶어 둔다.
         let step = min(Self.perCharacter, Self.maxDuration / Double(glyphs.count))
         TypingFeedback.shared.begin(step: step)
 
         for index in glyphs.indices {
-            try? await Task.sleep(for: .seconds(step))
+            // 사람은 같은 박자로 치지 않는다. 흔들림이 없으면 느려도 기계로 읽힌다.
+            let wait = step * Double.random(in: Self.jitter)
+            try? await Task.sleep(for: .seconds(wait))
             guard !Task.isCancelled else {
                 // 화면을 벗어나거나 건너뛰면 소리도 함께 멈춘다.
-                TypingFeedback.shared.end()
+                stopTyping()
                 return
             }
+
             shownCount = index + 1
             TypingFeedback.shared.tick(
                 glyphs[index],
                 progress: Double(index) / Double(glyphs.count),
                 step: step
             )
+
+            // 문장부호 뒤에서 숨을 고른다. 여기서 쉬어야 읽는 리듬이 생긴다.
+            let breath = Self.pause(after: glyphs[index])
+            if breath > 0 {
+                // 쉬는 동안 커서는 켜 둔다. 멈춘 게 아니라 뜸을 들이는 것이다.
+                caretOn = true
+                try? await Task.sleep(for: .seconds(breath))
+                guard !Task.isCancelled else {
+                    stopTyping()
+                    return
+                }
+            }
         }
 
-        TypingFeedback.shared.end()
+        stopTyping()
         onFinish()
+    }
+
+    private func stopTyping() {
+        isTyping = false
+        TypingFeedback.shared.end()
+    }
+
+    /// 글자 뒤에 쉬는 시간.
+    private static func pause(after character: Character) -> Double {
+        switch character {
+        case ".", "!", "?": 0.40      // 문장이 끝났다
+        case "\n": 0.32               // 줄을 바꿨다
+        case ",": 0.18                // 잠깐 끊었다
+        default: 0
+        }
     }
 }
 
