@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */; };
+		B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F45927CE9303F8C2824F89 /* WeekStones.swift */; };
 		C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */; };
 		8A9CDD6B03CD60B458C42B02 /* HomeGreeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */; };
 		7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */; };
@@ -93,6 +95,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneBridgeView.swift; sourceTree = "<group>"; };
+		A7F45927CE9303F8C2824F89 /* WeekStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStones.swift; sourceTree = "<group>"; };
 		9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 		CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGreeting.swift; sourceTree = "<group>"; };
 		60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingFeedback.swift; sourceTree = "<group>"; };
@@ -200,7 +204,8 @@
 				5EF711FB488680547B2D7443 /* AddGoalView.swift */,
 				FA9637483D25A567BB2C364E /* RootView.swift */,
 				CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */,
-				9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */,);
+				9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */,
+				65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */,);
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -235,7 +240,8 @@
 			isa = PBXGroup;
 			children = (
 			
-				277B21196696E9C4AA400EB7 /* ProgressObserver.swift */,);
+				277B21196696E9C4AA400EB7 /* ProgressObserver.swift */,
+				A7F45927CE9303F8C2824F89 /* WeekStones.swift */,);
 			path = Observation;
 			sourceTree = "<group>";
 		};
@@ -727,7 +733,9 @@
 				06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */,
 				7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */,
 				8A9CDD6B03CD60B458C42B02 /* HomeGreeting.swift in Sources */,
-				C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */,);
+				C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */,
+				B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */,
+				34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */

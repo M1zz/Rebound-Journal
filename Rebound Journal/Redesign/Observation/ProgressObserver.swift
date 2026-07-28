@@ -150,6 +150,13 @@ struct PreviousNote: Equatable {
     }
 }
 
+/// 하루치 기록 한 줄. 어느 목표였는지가 함께 있어야 그날이 읽힌다.
+struct DayNote: Identifiable, Equatable {
+    let goal: String
+    let note: PreviousNote
+    var id: String { "\(goal)-\(note.date.timeIntervalSince1970)" }
+}
+
 // MARK: - 관찰자
 
 enum ProgressObserver {
@@ -286,6 +293,24 @@ enum ProgressObserver {
         )
         // 적힌 내용이 없으면 꺼낼 것도 없다.
         return note.recall == nil ? nil : note
+    }
+
+    /// 그날 남긴 기록. 돌 하나를 눌렀을 때 무엇이 있었는지 보여준다.
+    static func notes(on day: Date, journals: [JournalData], calendar: Calendar = .current) -> [DayNote] {
+        journals
+            .filter { $0.isValidForDisplay && calendar.isDate($0.dateUnwrapped, inSameDayAs: day) }
+            .sorted { $0.dateUnwrapped < $1.dateUnwrapped }
+            .map {
+                DayNote(
+                    goal: nonEmpty($0.subGoal) ?? nonEmpty($0.mainGoal) ?? "적어둔 목표 없음",
+                    note: PreviousNote(
+                        date: $0.dateUnwrapped,
+                        review: nonEmpty($0.review),
+                        plan: nonEmpty($0.nextPlan),
+                        reached: $0.isGoalInUnwrapped
+                    )
+                )
+            }
     }
 
     /// 이 목표에 대한 기록 전부. 최근 것이 먼저.

@@ -38,6 +38,11 @@ struct TodayView: View {
     /// 지금 답을 기다리는 물음. 답하면 비운다.
     @State private var followUp: FollowUp?
 
+    /// 징검다리에 보이는 주의 시작일.
+    @State private var weekStart: Date = WeekStones.startOfWeek(containing: Date())
+    /// 눌러서 펼쳐 본 돌.
+    @State private var selectedDay: Date?
+
     private var observation: GoalObservation {
         if let selectedGoal {
             ProgressObserver.observation(for: selectedGoal, journals: journals)
@@ -55,6 +60,7 @@ struct TodayView: View {
                     VStack(spacing: 30) {
                         companionArea
                         observationCard
+                        bridgeArea
                         goalsArea
                         Color.clear.frame(height: 24)
                     }
@@ -220,6 +226,113 @@ struct TodayView: View {
                 retryCount: nil
             )
         )
+    }
+
+    // MARK: - 징검다리
+
+    /// 한 주를 돌 일곱 개로 본다. 돌 하나를 누르면 그날 남긴 게 아래에 열린다.
+    private var bridgeArea: some View {
+        let days = WeekStones.days(weekStarting: weekStart, journals: journals)
+
+        return VStack(spacing: 10) {
+            StoneBridgeView(
+                days: days,
+                title: WeekStones.title(for: weekStart),
+                canGoForward: WeekStones.canGoForward(from: weekStart),
+                onPrevious: { moveWeek(-1) },
+                onNext: { moveWeek(1) },
+                onSelect: selectDay,
+                selected: selectedDay
+            )
+
+            if let selectedDay {
+                dayNotes(for: selectedDay)
+                    .transition(.opacity.combined(with: .move(edge: .top)))
+            }
+        }
+    }
+
+    private func moveWeek(_ delta: Int) {
+        guard delta < 0 || WeekStones.canGoForward(from: weekStart) else { return }
+        withAnimation(.easeInOut(duration: 0.22)) {
+            weekStart = WeekStones.week(weekStart, movedBy: delta)
+            selectedDay = nil
+        }
+    }
+
+    private func selectDay(_ day: StoneDay) {
+        guard day.state != .ahead else { return }
+        TypingFeedback.shared.tap()
+        withAnimation(.easeInOut(duration: 0.22)) {
+            selectedDay = (selectedDay.map { Calendar.current.isDate($0, inSameDayAs: day.date) } ?? false)
+                ? nil
+                : day.date
+        }
+    }
+
+    /// 그날 밟은 돌에 무엇이 있었는지.
+    @ViewBuilder
+    private func dayNotes(for day: Date) -> some View {
+        let entries = ProgressObserver.notes(on: day, journals: journals)
+
+        SoftCard(background: PebbleTheme.surfaceMuted) {
+            VStack(alignment: .leading, spacing: 14) {
+                Text(dayTitle(day))
+                    .font(PebbleTheme.label(12))
+                    .foregroundStyle(PebbleTheme.inkFaint)
+
+                if entries.isEmpty {
+                    // 빈 날을 나무라지 않는다. 돌은 그대로 거기 있다.
+                    Text("이날은 지나갔어요. 그래도 돌은 그대로 있어요.")
+                        .font(PebbleTheme.body(15))
+                        .foregroundStyle(PebbleTheme.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                } else {
+                    ForEach(entries) { entry in
+                        VStack(alignment: .leading, spacing: 4) {
+                            HStack(spacing: 8) {
+                                Circle()
+                                    .fill(entry.note.reached
+                                          ? PebbleTheme.sunlight
+                                          : PebbleTheme.inkFaint.opacity(0.4))
+                                    .frame(width: 6, height: 6)
+                                Text(entry.goal)
+                                    .font(PebbleTheme.label(13))
+                                    .foregroundStyle(PebbleTheme.inkSoft)
+                            }
+                            if let review = entry.note.review {
+                                Text(review)
+                                    .font(PebbleTheme.body(15))
+                                    .foregroundStyle(PebbleTheme.ink)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                            if let plan = entry.note.plan {
+                                HStack(alignment: .top, spacing: 5) {
+                                    Image(systemName: "arrow.turn.down.right")
+                                        .font(.system(size: 10))
+                                        .foregroundStyle(PebbleTheme.sunlight)
+                                        .padding(.top, 3)
+                                    Text(plan)
+                                        .font(PebbleTheme.body(14))
+                                        .foregroundStyle(PebbleTheme.inkSoft)
+                                        .fixedSize(horizontal: false, vertical: true)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private func dayTitle(_ day: Date) -> String {
+        let calendar = Calendar.current
+        if calendar.isDateInToday(day) { return "오늘" }
+        if calendar.isDateInYesterday(day) { return "어제" }
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "ko_KR")
+        formatter.dateFormat = "M월 d일 EEEE"
+        return formatter.string(from: day)
     }
 
     // MARK: - 목표
