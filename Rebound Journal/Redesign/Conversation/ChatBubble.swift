@@ -112,6 +112,68 @@ struct BubbleShape: InsettableShape {
     }
 }
 
+// MARK: - 답할 말
+
+/// 고를 수 있는 답 하나.
+struct ReplyChoice: Identifiable, Equatable {
+    let id: String
+    let label: String
+    /// 그 자리의 주된 답인지. 하나만 참이어야 한다.
+    var isPrimary: Bool = false
+}
+
+/// 아직 하지 않은 내 말.
+///
+/// 버튼처럼 생기면 대화가 아니라 설문이 된다. 그래서 내 말풍선과 같은 모양·같은
+/// 자리(오른쪽)에 두되, 아직 말하지 않았다는 뜻으로 테두리만 두르고 속은 비워 둔다.
+/// 누르면 그대로 채워진 말풍선이 되어 위로 올라간다.
+struct ReplyChip: View {
+    let label: String
+    var isPrimary: Bool = false
+    var action: () -> Void
+
+    var body: some View {
+        Button {
+            TypingFeedback.shared.tap()
+            action()
+        } label: {
+            Text(label)
+                .font(PebbleTheme.body(16))
+                .foregroundStyle(isPrimary ? Color.white : PebbleTheme.ink)
+                .multilineTextAlignment(.trailing)
+                .padding(.horizontal, 16)
+                .padding(.vertical, 12)
+                .background(isPrimary ? PebbleTheme.sunlight : PebbleTheme.surface)
+                .clipShape(BubbleShape(pointingLeft: false))
+                .overlay {
+                    BubbleShape(pointingLeft: false)
+                        .strokeBorder(
+                            isPrimary ? Color.clear : PebbleTheme.sunlight.opacity(0.55),
+                            lineWidth: 1.5
+                        )
+                }
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+/// 고를 수 있는 답들을 오른쪽에 쌓는다.
+struct ReplyOptions: View {
+    let choices: [ReplyChoice]
+    var onSelect: (ReplyChoice) -> Void
+
+    var body: some View {
+        VStack(alignment: .trailing, spacing: 8) {
+            ForEach(choices) { choice in
+                ReplyChip(label: choice.label, isPrimary: choice.isPrimary) {
+                    onSelect(choice)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .trailing)
+    }
+}
+
 // MARK: - 타이핑
 
 /// 글자를 하나씩 드러내 조약돌이 지금 말하고 있는 것처럼 보이게 한다.

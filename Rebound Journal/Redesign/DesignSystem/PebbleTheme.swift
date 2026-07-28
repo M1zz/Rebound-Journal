@@ -101,43 +101,6 @@ struct SoftCard<Content: View>: View {
     }
 }
 
-/// 주 동작 버튼. 압박을 주지 않도록 채도를 낮게 유지한다.
-struct WarmButtonStyle: ButtonStyle {
-    var prominent: Bool = true
-
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(PebbleTheme.label(17))
-            .foregroundStyle(prominent ? Color.white : PebbleTheme.ink)
-            .frame(maxWidth: .infinity)
-            .frame(height: 54)
-            .background(prominent ? PebbleTheme.sunlight : PebbleTheme.surfaceMuted)
-            .clipShape(Capsule())
-            .opacity(configuration.isPressed ? 0.82 : 1)
-            .animation(.easeOut(duration: 0.12), value: configuration.isPressed)
-    }
-}
-
-/// 대화 중 사용자가 고르는 선택지. 항상 "지금은 넘어가기"와 같은 줄에 놓인다.
-struct ChoiceButtonStyle: ButtonStyle {
-    var selected: Bool = false
-
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(PebbleTheme.body(16))
-            .foregroundStyle(PebbleTheme.ink)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.horizontal, 18)
-            .padding(.vertical, 15)
-            .background(selected ? PebbleTheme.sunlight.opacity(0.18) : PebbleTheme.surface)
-            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-            .overlay {
-                RoundedRectangle(cornerRadius: 16, style: .continuous)
-                    .strokeBorder(
-                        selected ? PebbleTheme.sunlight : PebbleTheme.hairline,
-                        lineWidth: selected ? 1.5 : 1
-                    )
-            }
-            .opacity(configuration.isPressed ? 0.75 : 1)
-    }
-}
+// 화면 폭을 채우는 버튼 스타일(WarmButtonStyle·ChoiceButtonStyle)은 걷어냈다.
+// 사용자가 답하는 자리는 전부 `ReplyChip` — 오른쪽에 놓인 말풍선 — 으로 통일했다.
+// 조약돌은 말풍선으로 말하는데 사용자만 버튼으로 답하면 한쪽만 대화 중인 꼴이 된다.

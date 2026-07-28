@@ -76,10 +76,16 @@ struct AddGoalView: View {
 
                 Spacer()
 
-                Button(primaryLabel) { advance() }
-                    .buttonStyle(WarmButtonStyle())
-                    .disabled(step == .direction && trimmed(direction).isEmpty)
-                    .opacity(step == .direction && trimmed(direction).isEmpty ? 0.45 : 1)
+                // 다른 화면과 같은 말투. 여기도 조약돌이 묻고 내가 답하는 자리다.
+                if step == .direction && trimmed(direction).isEmpty {
+                    EmptyView()
+                } else {
+                    ReplyOptions(choices: [
+                        ReplyChoice(id: "next", label: primaryLabel, isPrimary: true)
+                    ]) { _ in
+                        advance()
+                    }
+                }
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 16)

@@ -73,29 +73,27 @@ struct GreetingView: View {
 
     @ViewBuilder
     private var answerArea: some View {
-        if let followUp {
-            VStack(spacing: 8) {
-                Button("해냈어요") { answer(.done, followUp) }
-                    .buttonStyle(ChoiceButtonStyle())
-                Button("아직이에요") { answer(.notYet, followUp) }
-                    .buttonStyle(ChoiceButtonStyle())
-                Button("지금은 그냥 둘래요") { answer(.later, followUp) }
-                    .buttonStyle(ChoiceButtonStyle())
+        if followUp != nil {
+            ReplyOptions(choices: [
+                ReplyChoice(id: "done", label: "해냈어요"),
+                ReplyChoice(id: "notYet", label: "아직이에요"),
+                ReplyChoice(id: "later", label: "지금은 그냥 둘래요")
+            ]) { picked in
+                switch picked.id {
+                case "done": onAnswer(.done)
+                case "notYet": onAnswer(.notYet)
+                default: onAnswer(.later)
+                }
             }
             .padding(.top, 2)
         } else if let invitation {
-            Button(invitation) {
-                TypingFeedback.shared.tap()
+            ReplyOptions(choices: [
+                ReplyChoice(id: "go", label: invitation, isPrimary: true)
+            ]) { _ in
                 onInvitation()
             }
-            .buttonStyle(WarmButtonStyle())
-            .padding(.top, 4)
+            .padding(.top, 2)
         }
-    }
-
-    private func answer(_ answer: FollowUp.Answer, _ followUp: FollowUp) {
-        TypingFeedback.shared.tap()
-        onAnswer(answer)
     }
 
     // MARK: 등장

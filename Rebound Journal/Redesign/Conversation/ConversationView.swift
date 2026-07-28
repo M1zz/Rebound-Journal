@@ -233,14 +233,11 @@ struct ConversationView: View {
     private var responseControls: some View {
         switch engine.response {
         case .choices(let choices):
-            VStack(spacing: 8) {
-                ForEach(choices) { choice in
-                    Button(choice.label) {
-                        TypingFeedback.shared.tap()
-                        engine.choose(choice)
-                    }
-                    .buttonStyle(ChoiceButtonStyle())
-                }
+            ReplyOptions(
+                choices: choices.map { ReplyChoice(id: $0.id, label: $0.label) }
+            ) { picked in
+                guard let choice = choices.first(where: { $0.id == picked.id }) else { return }
+                engine.choose(choice)
             }
 
         case .freeform(let placeholder):
@@ -250,10 +247,9 @@ struct ConversationView: View {
             emotionArea
 
         case .acknowledgement(let label):
-            Button(label) {
+            ReplyOptions(choices: [ReplyChoice(id: "ack", label: label, isPrimary: true)]) { _ in
                 if engine.isFinished { close() } else { engine.advance() }
             }
-            .buttonStyle(WarmButtonStyle())
         }
     }
 
@@ -354,20 +350,18 @@ struct ConversationView: View {
                 }
             }
 
-            HStack(spacing: 10) {
-                Button("조금 달라요") {
+            ReplyOptions(choices: [
+                ReplyChoice(id: "yes", label: "맞아요", isPrimary: true),
+                ReplyChoice(id: "edit", label: "조금 달라요")
+            ]) { picked in
+                if picked.id == "yes" {
+                    engine.submitFreeform(tidied)
+                } else {
                     // 다시 말하게 하지 않는다. 정리된 문장을 편집 상태로 넘긴다.
                     draft = tidied
                     freeform = .editing
                     isDraftFocused = true
                 }
-                .buttonStyle(ChoiceButtonStyle())
-
-                Button("맞아요") {
-                    TypingFeedback.shared.tap()
-                    engine.submitFreeform(tidied)
-                }
-                .buttonStyle(WarmButtonStyle())
             }
         }
     }
@@ -375,22 +369,32 @@ struct ConversationView: View {
     // MARK: 감정
 
     private var emotionArea: some View {
-        VStack(spacing: 12) {
-            HStack(spacing: 6) {
-                ForEach(ConversationScript.emotionSteps, id: \.value) { step in
-                    Button {
-                        withAnimation(.easeOut(duration: 0.18)) {
-                            selectedEmotion = step.value
-                            selectedWord = nil
-                        }
-                    } label: {
-                        Text(step.label)
-                            .font(PebbleTheme.label(12))
-                            .multilineTextAlignment(.center)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 12)
+        VStack(alignment: .trailing, spacing: 10) {
+            // 눈금도 답하는 말이다. 오른쪽에 두어 내가 하는 말임을 유지한다.
+            // 아직 안 고른 것은 테두리만, 고른 것은 채워서 "이미 말한 것"으로 보이게.
+            if selectedEmotion == nil {
+                ReplyOptions(
+                    choices: ConversationScript.emotionSteps.map {
+                        ReplyChoice(id: "\($0.value)", label: $0.label)
                     }
-                    .buttonStyle(ChoiceButtonStyle(selected: selectedEmotion == step.value))
+                ) { picked in
+                    withAnimation(.easeOut(duration: 0.18)) {
+                        selectedEmotion = Int(picked.id)
+                        selectedWord = nil
+                    }
+                }
+            } else if let value = selectedEmotion {
+                ChatBubble(speaker: .user) {
+                    Text(ConversationScript.emotionSteps.first { $0.value == value }?.label ?? "")
+                        .font(PebbleTheme.body(16))
+                        .foregroundStyle(PebbleTheme.ink)
+                }
+                .onTapGesture {
+                    // 잘못 골랐으면 되돌릴 수 있어야 한다.
+                    withAnimation(.easeOut(duration: 0.18)) {
+                        selectedEmotion = nil
+                        selectedWord = nil
+                    }
                 }
             }
 
@@ -423,11 +427,11 @@ struct ConversationView: View {
                 .scrollIndicators(.hidden)
                 .frame(height: 38)
 
-                Button("이걸로 할게요") {
-                    TypingFeedback.shared.tap()
+                ReplyOptions(choices: [
+                    ReplyChoice(id: "done", label: "이걸로 할게요", isPrimary: true)
+                ]) { _ in
                     engine.submitEmotion(value: selectedEmotion, word: selectedWord)
                 }
-                .buttonStyle(WarmButtonStyle())
             }
         }
     }
