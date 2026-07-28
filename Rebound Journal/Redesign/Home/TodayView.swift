@@ -40,6 +40,8 @@ struct TodayView: View {
     @State private var shownGreetings: Set<UUID> = []
     /// 지금 답을 기다리는 물음. 답하면 비운다.
     @State private var followUp: FollowUp?
+    /// 첫 만남에서 "나중에요"라고 했는지. 같은 권유를 다시 띄우지 않는다.
+    @State private var didDeferIntro = false
 
     private var observation: GoalObservation {
         if let selectedGoal {
@@ -110,15 +112,57 @@ struct TodayView: View {
     private var greetingArea: some View {
         GreetingView(
             lines: greeting,
-            followUp: followUp,
-            invitation: invitationLabel,
-            onInvitation: startConversation,
-            onAnswer: handle(answer:),
+            choices: choices,
+            onSelect: handle(choice:),
             shown: $shownGreetings
         )
         .onAppear { buildGreetingIfNeeded() }
         // 목표가 바뀌면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
         .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
+    }
+
+    /// 아직 아무 기록도 목표도 없는 상태. 조약돌과 처음 만나는 자리다.
+    private var isFirstMeeting: Bool {
+        goals.isEmpty && journals.isEmpty
+    }
+
+    /// 지금 할 수 있는 답들.
+    private var choices: [ReplyChoice] {
+        if followUp != nil {
+            return [
+                ReplyChoice(id: "done", label: "해냈어요"),
+                ReplyChoice(id: "notYet", label: "아직이에요"),
+                ReplyChoice(id: "later", label: "지금은 그냥 둘래요")
+            ]
+        }
+        if didDeferIntro { return [] }
+        if isFirstMeeting {
+            // 처음부터 빠져나갈 길을 함께 둔다. 첫 화면에서 요구만 남으면 닫게 된다 (§5).
+            return [
+                ReplyChoice(id: "start", label: "적어볼게요", isPrimary: true),
+                ReplyChoice(id: "notNow", label: "나중에요")
+            ]
+        }
+        if let invitation = observation.invitation {
+            return [ReplyChoice(id: "talk", label: invitation, isPrimary: true)]
+        }
+        if case .noGoalYet = observation.kind {
+            return [ReplyChoice(id: "addGoal", label: "목표 하나 적어두기", isPrimary: true)]
+        }
+        return []
+    }
+
+    private func handle(choice: ReplyChoice) {
+        switch choice.id {
+        case "done": handle(answer: .done)
+        case "notYet": handle(answer: .notYet)
+        case "later": handle(answer: .later)
+        case "start", "addGoal": isAddingGoal = true
+        case "notNow":
+            didDeferIntro = true
+            greeting.append(GreetingLine(text: HomeGreeting.introDeferred))
+        default: conversation = observation
+        }
     }
 
     /// 인사말은 상태로 들고 간다.
@@ -127,6 +171,12 @@ struct TodayView: View {
     /// 방금 나눈 말이 없어지면 대화가 아니라 공지처럼 읽힌다.
     private func buildGreetingIfNeeded() {
         guard greeting.isEmpty else { return }
+
+        // 처음 만나는 자리에서는 관찰부터 들이밀지 않고 인사부터 한다.
+        guard !isFirstMeeting else {
+            greeting = HomeGreeting.introduction()
+            return
+        }
 
         let pending = selectedGoal == nil
             ? ProgressObserver.unresolved(journals: journals)
@@ -155,20 +205,6 @@ struct TodayView: View {
         shownGreetings = []
         followUp = nil
         buildGreetingIfNeeded()
-    }
-
-    private var invitationLabel: String? {
-        if observation.invitation != nil { return observation.invitation }
-        if case .noGoalYet = observation.kind { return "목표 하나 적어두기" }
-        return nil
-    }
-
-    private func startConversation() {
-        if case .noGoalYet = observation.kind {
-            isAddingGoal = true
-        } else {
-            conversation = observation
-        }
     }
 
     // MARK: - 매듭짓기

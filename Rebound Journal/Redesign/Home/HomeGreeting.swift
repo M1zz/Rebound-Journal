@@ -47,6 +47,24 @@ struct FollowUp: Equatable {
 
 enum HomeGreeting {
 
+    /// 처음 만났을 때. 앱을 켜자마자 목표부터 적으라고 하지 않는다.
+    ///
+    /// 상대가 누구인지 모르는 채로 요구부터 받으면 그냥 닫게 된다. 이름을 대고,
+    /// 무엇을 하는 사이인지 한 줄로 알린 다음, 마지막에야 묻는다.
+    ///
+    /// 메타포는 설명하지 않는다 (§4). 징검다리가 어떻고 실패가 어떻고를 늘어놓지
+    /// 않고, 이 앱이 실제로 하는 일만 말한다 — 내가 먼저 보고 말을 건다는 것.
+    static func introduction() -> [GreetingLine] {
+        [
+            GreetingLine(text: "안녕하세요. 저는 징검돌이에요."),
+            GreetingLine(text: "무엇에 닿았고 무엇이 막혔는지, 제가 먼저 보고 말을 걸게요."),
+            GreetingLine(text: "지금 향하고 있는 게 있으면 하나만 들려주실래요?")
+        ]
+    }
+
+    /// 첫 만남에서 "나중에요"라고 했을 때. 붙잡지 않는다.
+    static let introDeferred = "네, 그럼 그때 얘기해요. 여기 있을게요."
+
     /// 조약돌이 처음 건네는 말들.
     static func lines(
         observation: GoalObservation,

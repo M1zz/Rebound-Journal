@@ -17,10 +17,9 @@ import SwiftUI
 struct GreetingView: View {
 
     let lines: [GreetingLine]
-    let followUp: FollowUp?
-    let invitation: String?
-    var onInvitation: () -> Void
-    var onAnswer: (FollowUp.Answer) -> Void
+    /// 지금 할 수 있는 답들. 비어 있으면 조약돌이 혼자 말하고 끝난다.
+    let choices: [ReplyChoice]
+    var onSelect: (ReplyChoice) -> Void
 
     /// 이미 한 번 보여준 말들. 다시 들어와도 또 찍지 않는다.
     @Binding var shown: Set<UUID>
@@ -73,26 +72,9 @@ struct GreetingView: View {
 
     @ViewBuilder
     private var answerArea: some View {
-        if followUp != nil {
-            ReplyOptions(choices: [
-                ReplyChoice(id: "done", label: "해냈어요"),
-                ReplyChoice(id: "notYet", label: "아직이에요"),
-                ReplyChoice(id: "later", label: "지금은 그냥 둘래요")
-            ]) { picked in
-                switch picked.id {
-                case "done": onAnswer(.done)
-                case "notYet": onAnswer(.notYet)
-                default: onAnswer(.later)
-                }
-            }
-            .padding(.top, 2)
-        } else if let invitation {
-            ReplyOptions(choices: [
-                ReplyChoice(id: "go", label: invitation, isPrimary: true)
-            ]) { _ in
-                onInvitation()
-            }
-            .padding(.top, 2)
+        if !choices.isEmpty {
+            ReplyOptions(choices: choices, onSelect: onSelect)
+                .padding(.top, 2)
         }
     }
 
