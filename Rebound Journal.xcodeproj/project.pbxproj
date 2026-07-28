@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */; };
+		8A9CDD6B03CD60B458C42B02 /* HomeGreeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */; };
 		7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */; };
 		06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41606D32B4E15054B74956C /* ChatBubble.swift */; };
 		7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9637483D25A567BB2C364E /* RootView.swift */; };
@@ -91,6 +93,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGreeting.swift; sourceTree = "<group>"; };
 		60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingFeedback.swift; sourceTree = "<group>"; };
 		D41606D32B4E15054B74956C /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		FA9637483D25A567BB2C364E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -194,7 +198,9 @@
 			
 				BFEF96E14F52D15708378F21 /* TodayView.swift */,
 				5EF711FB488680547B2D7443 /* AddGoalView.swift */,
-				FA9637483D25A567BB2C364E /* RootView.swift */,);
+				FA9637483D25A567BB2C364E /* RootView.swift */,
+				CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */,
+				9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */,);
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -719,7 +725,9 @@
 				1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */,
 				7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */,
 				06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */,
-				7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */,);
+				7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */,
+				8A9CDD6B03CD60B458C42B02 /* HomeGreeting.swift in Sources */,
+				C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */

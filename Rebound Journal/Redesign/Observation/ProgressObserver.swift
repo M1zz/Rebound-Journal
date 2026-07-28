@@ -258,6 +258,20 @@ enum ProgressObserver {
             .first
     }
 
+    /// 아직 매듭짓지 못한 기록 하나.
+    ///
+    /// 막혔다고 적어두고 그 뒤로 아무 소식이 없는 것. 여기에 앱이 다시 물어봐야
+    /// 이야기가 끝난다. 묻지 않으면 "막혔다"는 기록만 남고 그 뒤가 없어서,
+    /// 나중에 돌아봤을 때 실패 목록처럼 보인다.
+    ///
+    /// 오늘 적은 건 묻지 않는다. 적자마자 "그건 어떻게 됐어요?"라고 물으면 재촉이 된다.
+    static func unresolved(journals: [JournalData], now: Date = Date()) -> JournalData? {
+        journals
+            .filter { $0.isActiveRebound && nonEmpty($0.subGoal) != nil }
+            .filter { days(from: $0.dateUnwrapped, to: now) >= 1 }
+            .max { $0.dateUnwrapped < $1.dateUnwrapped }
+    }
+
     /// 이 목표에 대해 지난번에 남긴 기록 하나.
     static func lastNote(for goal: String, journals: [JournalData]) -> PreviousNote? {
         guard let latest = journals

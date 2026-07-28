@@ -31,6 +31,13 @@ struct TodayView: View {
     /// 정하는 것이고, 관찰은 여전히 조약돌이 먼저 한다 (§5-A).
     @State private var selectedGoal: String?
 
+    /// 조약돌이 지금까지 건넨 말들. 답하면 뒤에 이어 붙는다.
+    @State private var greeting: [GreetingLine] = []
+    /// 이미 찍어서 보여준 인사말. 설정을 다녀와도 다시 타이핑하지 않는다.
+    @State private var shownGreetings: Set<UUID> = []
+    /// 지금 답을 기다리는 물음. 답하면 비운다.
+    @State private var followUp: FollowUp?
+
     private var observation: GoalObservation {
         if let selectedGoal {
             ProgressObserver.observation(for: selectedGoal, journals: journals)
@@ -88,32 +95,131 @@ struct TodayView: View {
     // MARK: - 관찰
 
     /// §5-A. 앱이 먼저, 중립적으로 말한다. 사용자는 아무것도 선언하지 않아도 된다.
+    ///
+    /// 매듭짓지 못한 기록이 있으면 그것부터 묻고, 없으면 오늘 상태를 전한다.
     private var observationCard: some View {
-        VStack(spacing: 18) {
-            Text(observation.headline)
-                .font(PebbleTheme.companionFont(21))
-                .foregroundStyle(PebbleTheme.ink)
-                .multilineTextAlignment(.center)
-                .lineSpacing(6)
-                .fixedSize(horizontal: false, vertical: true)
-                // 목표를 고르면 조약돌이 하는 말이 바뀐다. 그 전환이 눈에 보여야
-                // 고른 행위에 반응이 있었다는 걸 안다.
-                .id(observation.headline)
-                .transition(.opacity.combined(with: .offset(y: 6)))
+        GreetingView(
+            lines: greeting,
+            followUp: followUp,
+            invitation: invitationLabel,
+            onInvitation: startConversation,
+            onAnswer: handle(answer:),
+            shown: $shownGreetings
+        )
+        .padding(.horizontal, 2)
+        .onAppear { buildGreetingIfNeeded() }
+        // 목표를 고르면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
+        .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
+    }
 
-            if let invitation = observation.invitation {
-                Button(invitation) {
-                    conversation = observation
-                }
-                .buttonStyle(WarmButtonStyle())
-            } else if case .noGoalYet = observation.kind {
-                Button("목표 하나 적어두기") {
-                    isAddingGoal = true
-                }
-                .buttonStyle(WarmButtonStyle())
-            }
+    /// 인사말은 상태로 들고 간다.
+    ///
+    /// 매번 다시 계산하면 답한 순간 질문 말풍선이 목록에서 빠져 화면에서 사라진다.
+    /// 방금 나눈 말이 없어지면 대화가 아니라 공지처럼 읽힌다.
+    private func buildGreetingIfNeeded() {
+        guard greeting.isEmpty else { return }
+
+        let pending = selectedGoal == nil
+            ? ProgressObserver.unresolved(journals: journals)
+            : nil
+        followUp = pending.flatMap { HomeGreeting.followUp(for: $0) }
+        greeting = HomeGreeting.lines(
+            observation: observation,
+            followUp: followUp,
+            goalCount: goals.count
+        )
+    }
+
+    private func rebuildForSelection() {
+        followUp = nil
+        shownGreetings = []
+        greeting = HomeGreeting.lines(
+            observation: observation,
+            followUp: nil,
+            goalCount: goals.count
+        )
+    }
+
+    private var invitationLabel: String? {
+        if observation.invitation != nil { return observation.invitation }
+        if case .noGoalYet = observation.kind { return "목표 하나 적어두기" }
+        return nil
+    }
+
+    private func startConversation() {
+        if case .noGoalYet = observation.kind {
+            isAddingGoal = true
+        } else {
+            conversation = observation
         }
-        .padding(.horizontal, 4)
+    }
+
+    // MARK: - 매듭짓기
+
+    /// 매듭짓지 못한 기록에 대한 답을 처리한다.
+    ///
+    /// "해냈어요"는 그 기록을 닫고 성공으로 남긴다. 스키마에 있던
+    /// `isResolved`/`linkedReboundId`가 여기서 처음으로 쓰인다 — 막힌 기록과
+    /// 그걸 넘어선 기록이 이어져야 나중에 "그때 이렇게 넘겼다"를 꺼낼 수 있다.
+    private func handle(answer: FollowUp.Answer) {
+        guard let pending = followUp else { return }
+        followUp = nil
+
+        switch answer {
+        case .done:
+            resolve(pending)
+            answerBack(HomeGreeting.reply(to: answer, goal: pending.goal), thenTellToday: true)
+
+        case .notYet:
+            // 재도전하라고 말하지 않는다. 얘기할 자리만 열어 둔다 (§4).
+            conversation = GoalObservation(
+                kind: .notReached(goal: pending.goal, daysAgo: ProgressObserver.quietDays)
+            )
+
+        case .later:
+            answerBack(HomeGreeting.reply(to: answer, goal: pending.goal), thenTellToday: false)
+        }
+    }
+
+    /// 조약돌의 대답을 이어 붙인다. 물음만 있고 답이 없으면 대화가 끊긴 것처럼 남는다.
+    private func answerBack(_ reply: String, thenTellToday: Bool) {
+        greeting.append(GreetingLine(text: reply))
+        guard thenTellToday else { return }
+        // 매듭이 지어졌으니 이제 오늘 얘기를 한다.
+        greeting.append(contentsOf: HomeGreeting.lines(
+            observation: observation,
+            followUp: nil,
+            goalCount: goals.count
+        ))
+    }
+
+    private func resolve(_ followUp: FollowUp) {
+        guard let blocked = journals.first(where: { $0.id == followUp.journalID }) else { return }
+
+        blocked.isResolved = true
+        blocked.resolvedDate = Date()
+
+        // 넘어선 기록을 따로 남긴다. 막힌 기록을 성공으로 덮어쓰면 그때 무엇이
+        // 막혔는지가 사라져서, 다음에 같은 데서 막혔을 때 꺼낼 게 없어진다.
+        modelContext.insert(
+            JournalData(
+                id: UUID().uuidString,
+                date: Date(),
+                hasDeleted: false,
+                isGoalIn: true,
+                emotionValue: nil,
+                emotionText: nil,
+                review: nil,
+                nextPlan: nil,
+                isRebounded: true,
+                purpose: nil,
+                mainGoal: nil,
+                subGoal: followUp.goal,
+                linkedReboundId: followUp.journalID,
+                isResolved: nil,
+                retryCount: nil
+            )
+        )
     }
 
     // MARK: - 목표
