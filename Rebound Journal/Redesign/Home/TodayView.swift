@@ -54,15 +54,20 @@ struct TodayView: View {
             ZStack {
                 PebbleTheme.canvas.ignoresSafeArea()
 
-                VStack(spacing: 0) {
-                    companionArea
-                    Spacer(minLength: 0)
-                    // 말풍선은 아래에 붙는다. 대화가 한두 마디일 때 화면 가운데가
-                    // 통째로 비어 보이지 않게.
-                    greetingArea
-                        .padding(.horizontal, 22)
-                        .padding(.bottom, 16)
+                // 말이 조약돌 바로 아래에서 시작해 아래로 쌓인다.
+                //
+                // 대화 화면처럼 아래에 붙이면 안 된다. 거기는 입력줄이 바닥을
+                // 잡아주지만 홈에는 그런 게 없어서, 조약돌과 말풍선 사이가
+                // 통째로 빈 구멍이 된다.
+                ScrollView {
+                    VStack(spacing: 22) {
+                        companionArea
+                        greetingArea
+                    }
+                    .padding(.horizontal, 22)
+                    .padding(.bottom, 28)
                 }
+                .scrollIndicators(.hidden)
             }
             .navigationTitle("징검돌")
             .navigationBarTitleDisplayMode(.inline)
@@ -93,8 +98,8 @@ struct TodayView: View {
     // MARK: - 조약돌
 
     private var companionArea: some View {
-        PebbleView(mood: observation.pebbleMood, size: 150)
-            .padding(.top, 16)
+        PebbleView(mood: observation.pebbleMood, size: 140)
+            .padding(.top, 8)
     }
 
     // MARK: - 대화
