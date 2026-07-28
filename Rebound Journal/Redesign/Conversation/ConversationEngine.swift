@@ -177,7 +177,7 @@ final class ConversationEngine {
     private func askWhatWorked() {
         beat = .facts
         mood = .warm
-        say(ConversationScript.whatWorkedPrompt(goal: goal))
+        say(ConversationScript.whatWorkedPrompt)
         response = .freeform(placeholder: ConversationScript.whatWorkedPlaceholder)
     }
 

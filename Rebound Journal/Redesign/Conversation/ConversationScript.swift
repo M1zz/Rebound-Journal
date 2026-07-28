@@ -108,9 +108,11 @@ enum ConversationScript {
 
     /// 성공했을 때의 질문. 성공도 사실과 감정을 나눠 묻는다 — 나중에 되짚어 주려면
     /// 무엇이 통했는지가 기록으로 남아 있어야 한다 (§5).
-    static func whatWorkedPrompt(goal: String) -> String {
-        "'\(goal)'에 닿았네요. 뭐가 도움이 됐어요?"
-    }
+    ///
+    /// 목표 이름도 "닿았네요"도 여기서 다시 말하지 않는다. 바로 앞 말풍선이
+    /// 이미 그 말을 했고, 사이에 사용자 차례가 없어서 그대로 두면 조약돌이 같은
+    /// 말을 두 번 하는 것처럼 들린다.
+    static let whatWorkedPrompt = "뭐가 도움이 됐어요?"
 
     static let whatWorkedPlaceholder = "다음에 또 쓸 수 있게 적어둘게요."
 
