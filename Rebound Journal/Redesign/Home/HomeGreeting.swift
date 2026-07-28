@@ -27,6 +27,12 @@ struct FollowUp: Equatable {
     /// 물어보는 대상 기록의 식별값.
     let journalID: String
     let goal: String
+    /// 무엇에 대한 얘기였는지 먼저 짚는 말.
+    ///
+    /// 인용만 던지면 "그건"이 뭘 가리키는지 알 수 없다. 사용자가 그 말을 쓴 건
+    /// 며칠 전이고, 그사이 다른 목표들도 있었다. 어느 목표를 두고 한 말인지가
+    /// 같이 있어야 기억이 되살아난다.
+    let context: String
     let question: String
 
     enum Answer {
@@ -50,7 +56,11 @@ enum HomeGreeting {
         var lines: [GreetingLine] = []
 
         // 매듭짓지 못한 게 있으면 그게 먼저다. 오늘 얘기보다 지난 얘기의 끝맺음이 급하다.
+        //
+        // 무엇에 대한 얘기였는지 짚고 나서 묻는다. 한 문장에 목표와 인용과 물음을
+        // 다 넣으면 말풍선이 세 줄로 늘어져 읽기가 걸린다.
         if let followUp {
+            lines.append(GreetingLine(text: followUp.context))
             lines.append(GreetingLine(text: followUp.question))
             return lines
         }
@@ -87,17 +97,23 @@ enum HomeGreeting {
               !goal.isEmpty else { return nil }
 
         let when = elapsedPhrase(from: journal.dateUnwrapped, to: now)
-        let question: String
+        let context: String
 
         if let blocked = journal.review?.trimmingCharacters(in: .whitespacesAndNewlines),
            !blocked.isEmpty {
-            // 그때 사용자가 쓴 말을 그대로 인용한다. 앱이 요약해 버리면 남의 말이 된다.
-            question = "\(when) '\(condensed(blocked))'라고 하셨죠. 그건 어떻게 됐어요?"
+            // 어느 목표 얘기였는지 먼저 대고, 그때 사용자가 쓴 말을 그대로 인용한다.
+            // 앱이 요약해 버리면 남의 말이 된다.
+            context = "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(condensed(blocked))'라고 하셨어요."
         } else {
-            question = "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨죠. 그건 어떻게 됐어요?"
+            context = "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요."
         }
 
-        return FollowUp(journalID: id, goal: goal, question: question)
+        return FollowUp(
+            journalID: id,
+            goal: goal,
+            context: context,
+            question: "그건 어떻게 됐어요?"
+        )
     }
 
     /// 답을 듣고 조약돌이 하는 말.
