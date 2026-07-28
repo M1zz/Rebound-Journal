@@ -38,6 +38,8 @@ final class PebbleVoice {
     private let engine = AVAudioEngine()
     private let player = AVAudioPlayerNode()
     private let pitchUnit = AVAudioUnitTimePitch()
+    /// 소리를 둥글게 다듬는 자리. 고음을 깎고 저음을 살짝 올린다.
+    private let toneShaper = AVAudioUnitEQ(numberOfBands: 2)
     private let format = AVAudioFormat(standardFormatWithSampleRate: 44_100, channels: 1)!
     private var isWired = false
 
@@ -106,12 +108,22 @@ final class PebbleVoice {
 
     // MARK: - 엔진
 
+    /// 세션을 열고, 그래프를 (한 번만) 세우고, 엔진을 돌린다.
+    ///
+    /// 그래프 세우기와 엔진 켜기를 갈라 둔 이유가 있다. 예전에는 하나로 묶여 있어서
+    /// `start()`가 한 번 실패하면 `isWired`가 서지 않았고, 그러면 다음 글자마다
+    /// 같은 노드를 또 attach하며 그래프를 덧쌓았다. 시작 실패 한 번이 수십 번의
+    /// 오류로 번지고 있었다.
     private func wireIfNeeded() throws {
-        guard !isWired else {
-            if !engine.isRunning { try engine.start() }
-            return
+        activateSession()
+        buildGraph()
+        if !engine.isRunning {
+            engine.prepare()
+            try engine.start()
         }
+    }
 
+    private func activateSession() {
         // .playback — 무음 스위치를 켜 두어도 들린다.
         //
         // .ambient로 두면 무음 모드에서 아무 소리도 나지 않는다. 대부분 무음으로
@@ -121,17 +133,38 @@ final class PebbleVoice {
         let session = AVAudioSession.sharedInstance()
         try? session.setCategory(.playback, mode: .default, options: [.mixWithOthers])
         try? session.setActive(true, options: [])
+    }
+
+    private func buildGraph() {
+        guard !isWired else { return }
+        isWired = true
 
         engine.attach(player)
         engine.attach(pitchUnit)
+        engine.attach(toneShaper)
+
         // 잘게 자른 음절을 빠르게 흘려보낸다. 느리면 말이 되어 버려서 §9의
-        // "무슨 말인지 알아들을 수 없는 소리"가 되지 않는다.
-        pitchUnit.rate = 1.9
+        // "무슨 말인지 알아들을 수 없는 소리"가 되지 않는다. 다만 너무 빠르면
+        // 소리가 날카로워져 조약돌의 결과 어긋난다.
+        pitchUnit.rate = 1.62
+
+        // 둥근 소리를 만드는 건 결국 고음을 깎는 일이다.
+        // 높은 성분이 남아 있으면 아무리 피치를 낮춰도 뾰족하게 들린다.
+        let lowPass = toneShaper.bands[0]
+        lowPass.filterType = .lowPass
+        lowPass.frequency = 2_400
+        lowPass.bypass = false
+
+        // 저음을 조금 올려 속을 채운다. 깎기만 하면 얇아진다.
+        let body = toneShaper.bands[1]
+        body.filterType = .lowShelf
+        body.frequency = 320
+        body.gain = 3.5
+        body.bypass = false
+
         engine.connect(player, to: pitchUnit, format: format)
-        engine.connect(pitchUnit, to: engine.mainMixerNode, format: format)
-        engine.prepare()
-        try engine.start()
-        isWired = true
+        engine.connect(pitchUnit, to: toneShaper, format: format)
+        engine.connect(toneShaper, to: engine.mainMixerNode, format: format)
     }
 
     // MARK: - 글자에서 소리 고르기
@@ -162,13 +195,15 @@ final class PebbleVoice {
         }
 
         // 문장 끝으로 갈수록 살짝 내려가 말이 마무리되는 느낌을 준다.
-        let decline = 220 * progress
-        let spread = Double(seed % 7) * 55 - 165
+        let decline = 180 * progress
+        // 글자마다의 높낮이 차. 넓으면 통통 튀고, 좁으면 차분하게 굴러간다.
+        let spread = Double(seed % 7) * 36 - 108
         let scale: [Double] = [392, 440, 494, 523, 587, 659, 698]
 
         return Tone(
             index: seed,
-            cents: 780 + spread - decline,
+            // 너무 높이 올리면 얇고 뾰족해진다. 작고 둥근 존재감이 남을 만큼만.
+            cents: 560 + spread - decline,
             frequency: scale[seed % scale.count] * (1 - 0.10 * progress)
         )
     }
@@ -306,7 +341,7 @@ final class PebbleVoice {
         while start < total, abs(samples[start]) < threshold { start += 1 }
         guard start < total else { return nil }
 
-        let length = min(Int(0.055 * buffer.format.sampleRate), total - start)
+        let length = min(Int(0.068 * buffer.format.sampleRate), total - start)
         guard length > 64 else { return nil }
 
         guard let grain = AVAudioPCMBuffer(
@@ -315,12 +350,21 @@ final class PebbleVoice {
         ), let destination = grain.floatChannelData else { return nil }
         grain.frameLength = AVAudioFrameCount(length)
 
-        // 양 끝을 부드럽게 깎는다. 자른 자리를 그대로 두면 딱딱한 클릭음이 남는다.
-        let fade = max(1, length / 6)
+        // 양 끝을 곡선으로 깎는다.
+        //
+        // 직선으로 줄이면 시작과 끝에 꺾이는 지점이 남아 "톡" 하고 모서리가 들린다.
+        // 코사인으로 눕히면 그 모서리가 사라져 소리가 둥글어진다. 깎는 구간도
+        // 길게 잡아 알갱이 전체가 부풀었다 꺼지듯 들리게 했다.
+        let fade = max(1, length / 3)
         for index in 0..<length {
             var gain: Float = 1
-            if index < fade { gain = Float(index) / Float(fade) }
-            if index > length - fade { gain = Float(length - index) / Float(fade) }
+            if index < fade {
+                let t = Float(index) / Float(fade)
+                gain = 0.5 - 0.5 * cos(.pi * t)
+            } else if index > length - fade {
+                let t = Float(length - index) / Float(fade)
+                gain = 0.5 - 0.5 * cos(.pi * t)
+            }
             destination[0][index] = samples[start + index] * gain * 0.9
         }
         return grain
