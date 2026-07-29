@@ -13,12 +13,17 @@ enum PebbleTheme {
 
     // MARK: - 색
 
-    /// 햇빛이 스며든 종이 같은 배경.
-    static let canvas = dynamic(light: 0xFBF8F3, dark: 0x141715)
-    /// 카드처럼 한 겹 올라온 면.
-    static let surface = dynamic(light: 0xFFFFFF, dark: 0x1F2422)
+    /// 개울가 이른 아침의 물안개 같은 배경.
+    ///
+    /// 크림 계열이었다가 옮겼다. 따뜻하긴 했지만 그 값은 이미 여러 대화형 앱이
+    /// 쓰고 있어서, 열자마자 "어디서 본 화면"이 됐다. 바탕을 물빛 쪽으로
+    /// 옮기니 이름·키 컬러와 같은 말을 하게 되고, 무엇보다 **따뜻한 조약돌이
+    /// 유일한 온기**가 되어 시선이 캐릭터로 모인다.
+    static let canvas = dynamic(light: 0xEFF3F3, dark: 0x111717)
+    /// 카드처럼 한 겹 올라온 면. 바탕보다 밝아야 말풍선이 떠 보인다.
+    static let surface = dynamic(light: 0xFCFDFD, dark: 0x1C2323)
     /// 배경 위에서 아주 살짝만 구분되는 면.
-    static let surfaceMuted = dynamic(light: 0xF3EFE8, dark: 0x1A1F1D)
+    static let surfaceMuted = dynamic(light: 0xE7EDEC, dark: 0x161C1C)
 
     /// 조약돌 본체 (밝은 쪽 → 그늘 쪽). 돌은 계속 따뜻하다.
     static let pebbleLit = dynamic(light: 0xF1E3CB, dark: 0xDCC3A2)
@@ -41,11 +46,11 @@ enum PebbleTheme {
     /// 작은 조약돌"(§10)은 캐릭터의 설정이라 여기까지 차갑게 만들면 안 된다.
     static let sunlight = dynamic(light: 0xE8A33D, dark: 0xE0A65A)
 
-    static let ink = dynamic(light: 0x27302F, dark: 0xE9EFEC)
-    static let inkSoft = dynamic(light: 0x5C6A68, dark: 0xA6B3B0)
-    static let inkFaint = dynamic(light: 0x8E9B99, dark: 0x74817E)
+    static let ink = dynamic(light: 0x232C2B, dark: 0xE9EFEE)
+    static let inkSoft = dynamic(light: 0x566564, dark: 0xA3B0AF)
+    static let inkFaint = dynamic(light: 0x899695, dark: 0x71807E)
 
-    static let hairline = dynamic(light: 0xDFE3E2, dark: 0x2C3331)
+    static let hairline = dynamic(light: 0xDBE3E2, dark: 0x28302F)
 
     // MARK: - 타이포
     //

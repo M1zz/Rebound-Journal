@@ -39,34 +39,36 @@ struct Palette {
     let pebbleShade: UInt32
 }
 
+// 키(개울 물빛)는 고정하고 바탕만 바꿔 비교한다.
+// 돌은 어느 경우에도 따뜻하게 둔다 — §10의 캐릭터 설정이라 여기는 안 건드린다.
 let palettes: [Palette] = [
     Palette(
-        name: "지금 (앰버)",
+        name: "지금 (베이지)",
         note: "따뜻하지만 흔한 계열",
-        canvas: 0xFDF8F1, surface: 0xFFFFFF, hairline: 0xE7DACA,
-        key: 0xE8A33D, ink: 0x2E2620,
-        pebbleLit: 0xF2DCBE, pebbleMid: 0xD9BC96, pebbleShade: 0xB08F68
-    ),
-    Palette(
-        name: "이끼",
-        note: "물가에 오래 놓인 돌",
-        canvas: 0xFAF7F0, surface: 0xFFFFFF, hairline: 0xE2E0D2,
-        key: 0x7D9471, ink: 0x2C2E27,
-        pebbleLit: 0xF0E4CE, pebbleMid: 0xD4C3A4, pebbleShade: 0xA8916D
-    ),
-    Palette(
-        name: "개울",
-        note: "돌 사이로 흐르는 물빛",
         canvas: 0xFBF8F3, surface: 0xFFFFFF, hairline: 0xDFE3E2,
         key: 0x5F8F93, ink: 0x27302F,
         pebbleLit: 0xF1E3CB, pebbleMid: 0xD6C0A0, pebbleShade: 0xAC9070
     ),
     Palette(
-        name: "질그릇",
-        note: "구운 흙, 손에 익은 색",
-        canvas: 0xFCF6F1, surface: 0xFFFFFF, hairline: 0xE9DAD3,
-        key: 0xB9695E, ink: 0x312622,
-        pebbleLit: 0xF2DFC9, pebbleMid: 0xDBBE9D, pebbleShade: 0xB08D6B
+        name: "물안개",
+        note: "개울가 이른 아침",
+        canvas: 0xEFF3F3, surface: 0xFCFDFD, hairline: 0xDBE3E2,
+        key: 0x5F8F93, ink: 0x232C2B,
+        pebbleLit: 0xF1E3CB, pebbleMid: 0xD6C0A0, pebbleShade: 0xAC9070
+    ),
+    Palette(
+        name: "물그림자",
+        note: "한 톤 내려앉은 물빛",
+        canvas: 0xE4EBEA, surface: 0xF7FAF9, hairline: 0xCFDAD8,
+        key: 0x4E7F84, ink: 0x1F2A29,
+        pebbleLit: 0xF3E6CF, pebbleMid: 0xD9C4A5, pebbleShade: 0xAF9474
+    ),
+    Palette(
+        name: "돌빛",
+        note: "물기 마른 자갈색",
+        canvas: 0xEFEFEC, surface: 0xFCFCFB, hairline: 0xDEDEDA,
+        key: 0x5F8F93, ink: 0x2A2C2B,
+        pebbleLit: 0xF1E3CB, pebbleMid: 0xD6C0A0, pebbleShade: 0xAC9070
     )
 ]
 
@@ -224,7 +226,7 @@ ctx.scaleBy(x: 1, y: -1)
 ctx.setFillColor(rgb(0xF2F2F2))
 ctx.fill(CGRect(x: 0, y: 0, width: width, height: height))
 
-draw("징검돌 — 키 컬러 후보", at: CGPoint(x: 48, y: 62), size: 34, color: rgb(0x1A1A1A), bold: true, in: ctx)
+draw("징검돌 — 바탕색 후보 (키는 물빛 고정)", at: CGPoint(x: 48, y: 62), size: 34, color: rgb(0x1A1A1A), bold: true, in: ctx)
 
 let cardWidth: CGFloat = 500
 let cardHeight: CGFloat = 590
