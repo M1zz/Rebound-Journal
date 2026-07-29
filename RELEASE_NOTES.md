@@ -6,33 +6,8 @@
 
 ---
 
-### App Store Connect 프로모션 텍스트 (170자 이하)
 
-이 칸은 170자가 넘으면 저장이 안 된다. 아래는 줄바꿈까지 세어 맞춘 것이다.
-
-한국어 — 103자
-────────────────────────────────────────
-리바운드 저널이 징검돌이 되었습니다.
-조약돌이 먼저 말을 겁니다. 목록 대신 대화로 돌아보고, 한 주는 징검다리로 놓입니다.
-말투 선택과 위젯도 생겼어요. 이전 기록은 그대로 있습니다.
-────────────────────────────────────────
-
-영어 — 166자
-────────────────────────────────────────
-Rebound Journal is now ZinggumDol.
-A small pebble speaks first. Reflect through conversation, not lists. Your week becomes stepping stones. Your notes are still here.
-────────────────────────────────────────
-
-170을 딱 채우지 않고 몇 자 남겨 뒀다. 붙여넣는 자리에 따라 줄바꿈이 두 글자로
-세어지는 경우가 있어서, 꽉 채우면 그때 잘린다.
-
-무엇을 남기고 무엇을 버렸는지: 이름이 바뀐 것과 기록이 그대로라는 것, 이 둘은
-어떤 경우에도 뺄 수 없다. 업데이트를 받은 사람이 실제로 궁금해하는 게 그거다.
-나머지(대화·징검다리·말투·위젯)는 자리가 남는 만큼만 넣었다.
-
----
-
-### App Store Connect "이번 버전의 새로운 기능"
+### App Store Connect "이번 버전의 새로운 기능" — 한국어
 
 아래 선 사이를 그대로 복사해서 붙여넣는다.
 
@@ -66,6 +41,58 @@ A small pebble speaks first. Reflect through conversation, not lists. Your week 
 이번 버전에는 그래프와 통계 화면이 없습니다.
 
 ────────────────────────────────────────
+
+---
+
+### App Store Connect "What's New in This Version" — English
+
+영어 현지화 칸에 붙여넣는다. 한국어를 옮긴 게 아니라 영어로 다시 썼다.
+직역하면 "무엇에 닿았고"나 "징검다리" 같은 말이 설명이 필요한 낱말이 된다.
+
+────────────────────────────────────────
+
+Rebound Journal is now ZinggumDol.
+
+Open the app and a small pebble is there, waiting. No lists, no charts up front. The pebble looks at what you reached and what has gone quiet, and it speaks first.
+
+From writing things down to talking them through
+· Reflect by trading speech bubbles with the pebble. Answer out loud or by typing.
+· What happened and how you feel are asked in separate turns. They are different things.
+· On a day when answering is hard, the pebble stops there and asks nothing more.
+
+Where you have been
+· Your week is laid out as stepping stones across a stream. Stones you did not step on stay right where they are.
+· Look back through everything you have written, by date, and edit or delete any of it.
+
+Choose how the pebble speaks
+· Polite or casual. Set it in Settings, and change it back whenever you like.
+
+Widgets
+· Put the pebble on your Home Screen or Lock Screen. Tap it to come and leave today's note.
+
+Also
+· A small sound and a light tap as the pebble speaks. Each can be turned off.
+· A new icon and new colors.
+
+Everything you wrote before is still here. Your passcode and daily reminder are unchanged.
+
+This version does not include the chart and statistics screens.
+
+────────────────────────────────────────
+
+옮기면서 바꾼 것
+
+"무엇에 닿았고 무엇이 조용했는지"를 그대로 옮기면 영어에서는 뜻이 서지 않는다.
+what you reached / what has gone quiet으로 풀었다. 닿았다는 말은 살리고,
+조용하다는 말은 원문 그대로 뒀다 — 이 앱이 "안 했다"고 말하지 않는 자리라
+missed나 skipped로 바꾸면 §4를 어긴다.
+
+존댓말/반말은 영어에 없다. Polite or casual로 적었다. 말투를 고른다는 행위
+자체는 전달되고, 실제로 무엇이 바뀌는지는 설정에서 예문을 들려주니 거기서 안다.
+
+'남긴 것들' 같은 화면 이름은 따옴표로 인용하지 않았다. 영어 사용자에게는
+그 화면 이름이 한국어로 보이므로, 영어 이름을 인용하면 화면에서 찾을 수 없다.
+대신 그 화면이 하는 일로 적었다.
 
 ---
 
@@ -133,6 +160,9 @@ A small pebble speaks first. Reflect through conversation, not lists. Your week 
 - [ ] App Group group.com.leeo.ReboundJournal 을 등록한다. Identifiers에 만들고 앱과
       위젯 두 App ID에 체크. 없으면 위젯 서명이 실패한다. 시뮬레이터에서는 자동으로
       만들어져 안 걸리고 넘어간다.
+- [ ] 영어 현지화를 열면 앱이 영어를 지원한다고 읽힌다. 이름만 영어일 뿐 화면 안의
+      말은 전부 한국어다. 영어 릴리즈 노트를 올린다면 스토어의 지원 언어 표기와
+      설명글에서 그 점이 어긋나지 않는지 같이 본다.
 - [ ] 스크린샷을 새로 찍는다. 화면이 통째로 달라져서 지금 올라가 있는 것과 아무 관계가 없다.
 - [ ] 빌드 번호(CURRENT_PROJECT_VERSION)는 1 그대로다. 같은 버전으로 두 번 올리면 그때 올려야 한다.
 
