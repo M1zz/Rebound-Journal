@@ -1,42 +1,45 @@
 {
-  "sourceLanguage": "ko",
-  "strings": {
-    "징검돌": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ZinggumDol"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "징검돌"
-          }
-        }
-      },
-      "comment": "위젯 갤러리의 이름"
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "조약돌" : {
+
     },
-    "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A word from the pebble. Tap to leave today's note."
+    "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요." : {
+      "comment" : "위젯 갤러리의 설명",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A word from the pebble. Tap to leave today's note."
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
           }
         }
-      },
-      "comment": "위젯 갤러리의 설명"
+      }
+    },
+    "징검돌" : {
+      "comment" : "위젯 갤러리의 이름",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "징검돌"
+          }
+        }
+      }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

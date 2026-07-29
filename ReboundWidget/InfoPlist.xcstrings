@@ -1,40 +1,52 @@
 {
-  "sourceLanguage": "ko",
-  "strings": {
-    "CFBundleDisplayName": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ZinggumDol"
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "징검돌"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "징검돌"
           }
         }
       }
     },
-    "CFBundleName": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ZinggumDol"
+    "CFBundleName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "징검돌"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "징검돌"
+          }
+        }
+      }
+    },
+    "NSHumanReadableCopyright" : {
+      "comment" : "Copyright (human-readable)",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : ""
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

@@ -1,42 +1,78 @@
 {
-  "sourceLanguage": "ko",
-  "strings": {
-    "CFBundleDisplayName": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ZinggumDol"
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "홈 화면에 뜨는 앱 이름",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "징검돌"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "징검돌"
           }
         }
-      },
-      "comment": "홈 화면에 뜨는 앱 이름"
+      }
     },
-    "CFBundleName": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ZinggumDol"
+    "CFBundleName" : {
+      "comment" : "표시 이름을 못 쓰는 자리의 짧은 이름",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "징검돌"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "징검돌"
           }
         }
-      },
-      "comment": "표시 이름을 못 쓰는 자리의 짧은 이름"
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Privacy - Microphone Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "말로 편하게 돌아볼 수 있도록 마이크를 사용해요. 녹음은 저장되지 않고, 글로 옮긴 내용만 기기 안에 남습니다."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription" : {
+      "comment" : "Privacy - Speech Recognition Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "말한 내용을 글로 옮기기 위해 사용해요. 인식은 기기 안에서 이뤄지고 밖으로 나가지 않습니다."
+          }
+        }
+      }
+    },
+    "NSUserTrackingUsageDescription" : {
+      "comment" : "Privacy - Tracking Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "이 식별자는 귀하에게 개인화된 알람을 제공하는 데 사용됩니다."
+          }
+        }
+      }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }
