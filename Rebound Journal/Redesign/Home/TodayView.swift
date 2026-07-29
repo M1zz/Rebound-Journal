@@ -56,20 +56,13 @@ struct TodayView: View {
             ZStack {
                 PebbleTheme.canvas.ignoresSafeArea()
 
-                // 말이 조약돌 바로 아래에서 시작해 아래로 쌓인다.
-                //
-                // 대화 화면처럼 아래에 붙이면 안 된다. 거기는 입력줄이 바닥을
-                // 잡아주지만 홈에는 그런 게 없어서, 조약돌과 말풍선 사이가
-                // 통째로 빈 구멍이 된다.
-                ScrollView {
-                    VStack(spacing: 22) {
-                        companionArea
-                        greetingArea
-                    }
-                    .padding(.horizontal, 22)
-                    .padding(.bottom, 28)
+                // 조약돌은 스크롤 밖에 둔다. 대화 상대가 화면에서 밀려 나가면
+                // 혼잣말하는 화면이 된다. 말풍선만 그 아래에서 흐른다.
+                VStack(spacing: 0) {
+                    companionArea
+                        .padding(.bottom, 18)
+                    conversationArea
                 }
-                .scrollIndicators(.hidden)
             }
             .navigationTitle("징검돌")
             .navigationBarTitleDisplayMode(.inline)
@@ -109,16 +102,50 @@ struct TodayView: View {
     /// §5-A. 앱이 먼저, 중립적으로 말한다. 사용자는 아무것도 선언하지 않아도 된다.
     ///
     /// 매듭짓지 못한 기록이 있으면 그것부터 묻고, 없으면 오늘 상태를 전한다.
-    private var greetingArea: some View {
-        GreetingView(
-            lines: greeting,
-            choices: choices,
-            onSelect: handle(choice:),
-            shown: $shownGreetings
-        )
-        .onAppear { buildGreetingIfNeeded() }
-        // 목표가 바뀌면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
-        .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
+    private var conversationArea: some View {
+        ScrollViewReader { proxy in
+            ScrollView {
+                VStack(spacing: 0) {
+                    GreetingView(
+                        lines: greeting,
+                        choices: choices,
+                        onSelect: handle(choice:),
+                        // 글자가 늘어나는 동안에도 따라 내려간다. 새 말이 시작할 때만
+                        // 맞추면 긴 말풍선이 자라면서 화면 아래로 빠져나간다.
+                        onProgress: { scrollToLatest(proxy, animated: false) },
+                        shown: $shownGreetings
+                    )
+                    Color.clear
+                        .frame(height: 1)
+                        .id(Self.bottomAnchor)
+                }
+                .padding(.horizontal, 22)
+                .padding(.bottom, 24)
+            }
+            .scrollIndicators(.hidden)
+            // 위에 붙여 둔다. 아래에 붙이면 대화가 한두 마디일 때 조약돌과
+            // 첫 말풍선 사이가 통째로 빈다.
+            .onAppear { buildGreetingIfNeeded() }
+            .onChange(of: greeting.count) { _, _ in scrollToLatest(proxy, animated: true) }
+            // 목표가 바뀌면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
+            .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
+        }
+    }
+
+    private static let bottomAnchor = "bottom"
+
+    /// 마지막 말이 화면에 남도록 맞춘다.
+    ///
+    /// 내용이 화면보다 짧으면 스크롤할 것이 없어 아무 일도 일어나지 않는다.
+    /// 그래서 말이 적을 때는 조약돌 바로 아래에 붙어 있고, 길어질 때만 따라간다.
+    private func scrollToLatest(_ proxy: ScrollViewProxy, animated: Bool) {
+        if animated {
+            withAnimation(.easeOut(duration: 0.28)) {
+                proxy.scrollTo(Self.bottomAnchor, anchor: .bottom)
+            }
+        } else {
+            proxy.scrollTo(Self.bottomAnchor, anchor: .bottom)
+        }
     }
 
     /// 아직 아무 기록도 목표도 없는 상태. 조약돌과 처음 만나는 자리다.

@@ -20,6 +20,8 @@ struct GreetingView: View {
     /// 지금 할 수 있는 답들. 비어 있으면 조약돌이 혼자 말하고 끝난다.
     let choices: [ReplyChoice]
     var onSelect: (ReplyChoice) -> Void
+    /// 글자가 늘어나는 동안 계속 불린다. 화면을 따라 내리는 데 쓴다.
+    var onProgress: () -> Void = {}
 
     /// 이미 한 번 보여준 말들. 다시 들어와도 또 찍지 않는다.
     @Binding var shown: Set<UUID>
@@ -89,10 +91,14 @@ struct GreetingView: View {
             try? await Task.sleep(for: .milliseconds(260))
             guard !Task.isCancelled else { return }
             typingID = next.id
+            onProgress()
 
             while !Task.isCancelled && typingID == next.id {
                 try? await Task.sleep(for: .milliseconds(40))
+                // 글자가 늘어나며 말풍선이 자라는 동안 화면도 같이 내린다.
+                onProgress()
             }
+            onProgress()
         }
     }
 
