@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
 		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
 		9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */; };
 		215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BFD81E3954E97EE45C6A4 /* Phrasing.swift */; };
@@ -98,9 +99,41 @@
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
 		E308811A2AEB4D4489616333 /* GrowthSummarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */; };
 		F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F796C4A4A4170BAA1A6EB /* NewChartView.swift */; };
+		46B781E09259FABE4C2E5E9D /* ReboundWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 008D539F940765D19E5B644C /* ReboundWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */; };
+		BF0FE3B79F7CCB0FFDAAE993 /* ReboundWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */; };
+		11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
+		5878968440883284892A95D6 /* PebbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F995B506A6AF31E454ED76 /* PebbleView.swift */; };
+		19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
+		0A631BB6EF320CA20927EC4B /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F7294EA2E61984123CAAC5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586F22802A33861C004C7410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6197BA0BEE272FF88DD1207C;
+			remoteInfo = ReboundWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95B854224368979757E6BD8C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46B781E09259FABE4C2E5E9D /* ReboundWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSnapshot.swift; sourceTree = "<group>"; };
 		AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTips.swift; sourceTree = "<group>"; };
 		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
@@ -194,6 +227,11 @@
 		DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStatusSection.swift; sourceTree = "<group>"; };
 		E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsAnalyzer.swift; sourceTree = "<group>"; };
 		F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleGoalSection.swift; sourceTree = "<group>"; };
+		008D539F940765D19E5B644C /* ReboundWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ReboundWidget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2865C3F121BCA8EFE72A7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBF3899E539514D113B579B /* ReboundWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReboundWidget.entitlements; sourceTree = "<group>"; };
+		346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
+		F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundWidgetBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,9 +243,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F663ECC3EFA7B9913BE6C741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40D9FD48113A2F1BCA71CB73 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			
+				D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */,);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 		62173F9EBD4C53E4BB0ABD98 /* Guidance */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,7 +353,8 @@
 				A8D0DEC093A1C379B2A46325 /* Intelligence */,
 				37A6322C99CD327DC7B22EBD /* Voice */,
 				12AC9953CF8C3B82C7052CE2 /* Home */,
-				62173F9EBD4C53E4BB0ABD98 /* Guidance */,);
+				62173F9EBD4C53E4BB0ABD98 /* Guidance */,
+				40D9FD48113A2F1BCA71CB73 /* Widget */,);
 			path = Redesign;
 			sourceTree = "<group>";
 		};
@@ -326,6 +380,7 @@
 				C3B1B7AB2D9462140008E38D /* Localizable.xcstrings */,
 				C3B1B7AC2D9462140008E38D /* Rebound-Journal-Info.plist */,
 				586F228A2A33861C004C7410 /* Rebound Journal */,
+				D2A6396157B5A91A4951FC2D /* ReboundWidget */,
 				586F22892A33861C004C7410 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -333,6 +388,7 @@
 		586F22892A33861C004C7410 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				008D539F940765D19E5B644C /* ReboundWidget.appex */,
 				586F22882A33861C004C7410 /* Rebound Journal.app */,
 			);
 			name = Products;
@@ -603,6 +659,17 @@
 			path = Creation;
 			sourceTree = "<group>";
 		};
+		D2A6396157B5A91A4951FC2D /* ReboundWidget */ = {
+			isa = PBXGroup;
+			children = (
+				346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */,
+				F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */,
+				2865C3F121BCA8EFE72A7C91 /* Info.plist */,
+				BDBF3899E539514D113B579B /* ReboundWidget.entitlements */,
+			);
+			path = ReboundWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -613,10 +680,12 @@
 				586F22842A33861C004C7410 /* Sources */,
 				586F22852A33861C004C7410 /* Frameworks */,
 				586F22862A33861C004C7410 /* Resources */,
+				95B854224368979757E6BD8C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7B674EB54D2867F9D4771C8 /* PBXTargetDependency */,
 			);
 			name = "Rebound Journal";
 			packageProductDependencies = (
@@ -625,6 +694,23 @@
 			productName = "Rebound Journal";
 			productReference = 586F22882A33861C004C7410 /* Rebound Journal.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6197BA0BEE272FF88DD1207C /* ReboundWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AAB1B02031CFA38800C53D /* Build configuration list for PBXNativeTarget "ReboundWidget" */;
+			buildPhases = (
+				A11D78B82E961502C7054877 /* Sources */,
+				F663ECC3EFA7B9913BE6C741 /* Frameworks */,
+				19A9DEF6A2FCC41ACCA158DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReboundWidget;
+			productName = ReboundWidget;
+			productReference = 008D539F940765D19E5B644C /* ReboundWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -638,6 +724,9 @@
 				TargetAttributes = {
 					586F22872A33861C004C7410 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					6197BA0BEE272FF88DD1207C = {
+						CreatedOnToolsVersion = 26.0;
 					};
 				};
 			};
@@ -658,6 +747,7 @@
 			projectRoot = "";
 			targets = (
 				586F22872A33861C004C7410 /* Rebound Journal */,
+				6197BA0BEE272FF88DD1207C /* ReboundWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -670,6 +760,13 @@
 				586F22932A33861D004C7410 /* Preview Assets.xcassets in Resources */,
 				C3B1B7AD2D9462140008E38D /* Localizable.xcstrings in Resources */,
 				586F22902A33861D004C7410 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A9DEF6A2FCC41ACCA158DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,10 +864,32 @@
 				F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */,
 				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,
 				9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */,
-				DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */,);
+				DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */,
+				9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11D78B82E961502C7054877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */,
+				BF0FE3B79F7CCB0FFDAAE993 /* ReboundWidgetBundle.swift in Sources */,
+				11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */,
+				5878968440883284892A95D6 /* PebbleView.swift in Sources */,
+				19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */,
+				0A631BB6EF320CA20927EC4B /* PebbleSnapshot.swift in Sources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B674EB54D2867F9D4771C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6197BA0BEE272FF88DD1207C /* ReboundWidget */;
+			targetProxy = F7294EA2E61984123CAAC5DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		586F22942A33861D004C7410 /* Debug */ = {
@@ -973,6 +1092,65 @@
 			};
 			name = Release;
 		};
+		51B53D6B0709BDDBAA01ECC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ReboundWidget/ReboundWidget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReboundWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal.ReboundWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F7C2E9C0FEBC52D681645F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ReboundWidget/ReboundWidget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReboundWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal.ReboundWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -990,6 +1168,15 @@
 			buildConfigurations = (
 				586F22972A33861D004C7410 /* Debug */,
 				586F22982A33861D004C7410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AAB1B02031CFA38800C53D /* Build configuration list for PBXNativeTarget "ReboundWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B53D6B0709BDDBAA01ECC1 /* Debug */,
+				1F7C2E9C0FEBC52D681645F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

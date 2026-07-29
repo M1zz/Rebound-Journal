@@ -9,7 +9,9 @@
 
 import Foundation
 
-enum PebbleMood: Equatable {
+/// 원시값을 둔 이유는 위젯 때문이다. 표정을 앱과 위젯 사이로 옮기려면 글로
+/// 적을 수 있어야 하고, 그러면 `Codable`이 저절로 따라온다.
+enum PebbleMood: String, Equatable, Codable {
     /// 기본. 조용히 곁에 있는 상태.
     case resting
     /// 사용자가 말하는 동안 귀 기울이는 상태.

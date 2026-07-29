@@ -17,6 +17,7 @@
 import SwiftUI
 import SwiftData
 import TipKit
+import WidgetKit
 
 struct TodayView: View {
 
@@ -70,6 +71,7 @@ struct TodayView: View {
                     conversationArea
                 }
             }
+            .onOpenURL(perform: enter(from:))
             .navigationTitle("징검돌")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar { toolbarItems }
@@ -137,7 +139,18 @@ struct TodayView: View {
             .scrollIndicators(.hidden)
             // 위에 붙여 둔다. 아래에 붙이면 대화가 한두 마디일 때 조약돌과
             // 첫 말풍선 사이가 통째로 빈다.
-            .onAppear { buildGreetingIfNeeded() }
+            .onAppear {
+                buildGreetingIfNeeded()
+                // 인사를 만드는 쪽에 두지 않는다. 그쪽은 처음 만나는 자리에서
+                // 일찍 빠져나가고, 그러면 아직 아무것도 없는 사람의 홈 화면에만
+                // 조약돌이 나타나지 않는다. 가장 필요한 사람에게 없는 셈이다.
+                publishToWidget()
+            }
+            // 기록이 바뀌면 관찰도 바뀐다. 홈 화면의 조약돌도 같이 따라와야
+            // 어제 얘기를 오늘까지 하고 있지 않는다.
+            .onChange(of: journals.count) { _, _ in publishToWidget() }
+            .onChange(of: goals.count) { _, _ in publishToWidget() }
+            .onChange(of: speechStyle) { _, _ in publishToWidget() }
             .onChange(of: greeting.count) { _, _ in scrollToLatest(proxy, animated: true) }
             // 목표가 바뀌면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
             .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
@@ -196,6 +209,42 @@ struct TodayView: View {
             return [ReplyChoice(id: "addGoal", label: "목표 하나 적어두기", isPrimary: true)]
         }
         return []
+    }
+
+    // MARK: - 위젯
+
+    /// 홈 화면의 조약돌이 지금 무슨 말을 걸지 적어 둔다.
+    ///
+    /// 문장을 여기서 만드는 이유는 `PebbleSnapshot`에 적어 뒀다 — 관찰하는 곳이
+    /// 둘이면 앱과 위젯이 서로 다른 말을 하게 된다.
+    ///
+    /// 관찰 문장이 있으면 그걸 그대로 옮긴다. 위젯용으로 따로 짧게 줄이지 않는다.
+    /// 홈 화면에서 본 말과 앱을 열었을 때의 첫마디가 같아야 이어진 것으로 읽힌다.
+    private func publishToWidget() {
+        let current = observation
+        let snapshot = PebbleSnapshot(
+            line: current.headline,
+            action: Phrasing.say("오늘 남기러 가기", "오늘 남기러 가자"),
+            mood: current.pebbleMood,
+            updatedAt: Date()
+        )
+        PebbleSnapshot.save(snapshot)
+        WidgetCenter.shared.reloadAllTimelines()
+    }
+
+    /// 위젯을 눌러 들어왔을 때.
+    ///
+    /// 홈 화면에서 "남기러 가기"를 눌렀는데 앱이 인사만 하고 가만히 있으면
+    /// 한 번 더 눌러야 한다. 누른 사람은 이미 남길 마음으로 들어온 것이니
+    /// 바로 그 자리로 데려간다.
+    private func enter(from url: URL) {
+        guard PebbleLink.isRecord(url) else { return }
+        if observation.invitesConversation {
+            conversation = observation
+        } else {
+            // 아직 향하는 곳이 없으면 적을 것부터 정해야 한다.
+            isAddingGoal = true
+        }
     }
 
     private func handle(choice: ReplyChoice) {
