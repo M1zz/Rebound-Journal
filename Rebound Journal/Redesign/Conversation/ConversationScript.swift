@@ -97,14 +97,30 @@ enum ConversationScript {
 
     /// 상황을 묻는다. "왜 안 했어요?"가 아니라 "뭐가 막혔어요?"다.
     /// 원인을 사람이 아니라 상황에 둔다.
+    ///
+    /// 어떤 말로 묻든 이 원칙은 그대로다. 아래 표현들은 전부 사람이 아니라
+    /// 상황에 원인을 두고 있다.
     static func factsPrompt(goal: String) -> String {
-        "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?"
+        Phrasing.pick([
+            "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?",
+            "'\(goal)' 앞에서 뭐가 걸렸어요?",
+            "그때 무슨 일이 있었어요?"
+        ], seed: Phrasing.today(with: goal))
     }
 
     static let factsPlaceholder = "짧아도 괜찮아요. 그때 무슨 일이 있었는지만."
 
     /// 감정은 반드시 별도의 턴에서 묻는다 (§5-B).
-    static let emotionPrompt = "그건 상황 얘기였고요. 지금 기분은 어때요?"
+    ///
+    /// 어느 표현을 쓰든 "그건 상황 얘기였다"는 선 긋기를 남긴다. 그 선이 없으면
+    /// 사실과 감정이 도로 섞인다.
+    static func emotionPrompt(goal: String) -> String {
+        Phrasing.pick([
+            "그건 상황 얘기였고요. 지금 기분은 어때요?",
+            "여기까진 무슨 일이 있었는지였고요. 지금 마음은 어때요?",
+            "상황은 알겠어요. 그래서 지금 어떤 기분이에요?"
+        ], seed: Phrasing.today(with: goal))
+    }
 
     /// 성공했을 때의 질문. 성공도 사실과 감정을 나눠 묻는다 — 나중에 되짚어 주려면
     /// 무엇이 통했는지가 기록으로 남아 있어야 한다 (§5).
@@ -112,13 +128,27 @@ enum ConversationScript {
     /// 목표 이름도 "닿았네요"도 여기서 다시 말하지 않는다. 바로 앞 말풍선이
     /// 이미 그 말을 했고, 사이에 사용자 차례가 없어서 그대로 두면 조약돌이 같은
     /// 말을 두 번 하는 것처럼 들린다.
-    static let whatWorkedPrompt = "뭐가 도움이 됐어요?"
+    static func whatWorkedPrompt(goal: String) -> String {
+        Phrasing.pick([
+            "뭐가 도움이 됐어요?",
+            "뭐가 통했어요?",
+            "이번엔 뭐가 달랐어요?"
+        ], seed: Phrasing.today(with: goal))
+    }
 
     static let whatWorkedPlaceholder = "다음에 또 쓸 수 있게 적어둘게요."
 
     /// 쪼개기 질문 (§6). 앱이 쪼갠 결과를 제시하지 않는다는 점이 중요하다.
     /// SMART를 다시 들이미는 대신, 사용자가 스스로 계획하는 근육을 쓰게 한다.
-    static let smallerPrompt = "그럼 이건 어때요. 내일 바로 해낼 수 있을 만큼 작게 만든다면, 뭐가 될까요?"
+    ///
+    /// 표현을 바꿔도 이건 지킨다 — 어느 문장도 답을 먼저 내놓지 않고 묻기만 한다.
+    static func smallerPrompt(goal: String) -> String {
+        Phrasing.pick([
+            "그럼 이건 어때요. 내일 바로 해낼 수 있을 만큼 작게 만든다면, 뭐가 될까요?",
+            "이걸 더 작게 쪼갠다면 뭐가 될까요?",
+            "내일 딱 하나만 한다면, 뭘 하시겠어요?"
+        ], seed: Phrasing.today(with: goal))
+    }
 
     static let smallerPlaceholder = "작을수록 좋아요. 5분짜리여도 괜찮아요."
 
@@ -128,29 +158,71 @@ enum ConversationScript {
     ///
     /// 이 문장 하나가 "나는 능력이 없다"를 "나는 노력했는데 상황이 막혔다"로 옮긴다.
     /// 그래서 상황을 먼저, 감정을 나중에 놓고 사이에 선을 긋는다.
+    /// 표현은 바꾸되 구조는 바꾸지 않는다.
+    ///
+    /// 막힌 것 → 지금 기분 → 둘은 다른 얘기. 이 세 조각의 순서와 존재가 §5-B
+    /// 자체다. 문장을 다듬다 마지막 선 긋기를 빼면 이 마디가 하는 일이 없어진다.
     static func separation(facts: String, emotion: String) -> String {
         let situation = condensed(facts)
+        let closing = Phrasing.pick([
+            "이 둘은 다른 얘기예요.",
+            "상황이 막힌 거지, 사람이 문제인 게 아니에요.",
+            "하나는 있었던 일이고, 하나는 지금 마음이에요."
+        ], seed: Phrasing.today(with: situation))
+
         return """
         정리해 볼게요.
         막힌 건 '\(situation)'였고,
         지금 기분은 '\(emotion)'이에요.
 
-        이 둘은 다른 얘기예요.
+        \(closing)
         """
     }
 
     /// 감정이 바닥일 때의 마무리. 아무것도 더 묻지 않는다.
-    static let gentleClose = """
-        오늘은 여기까지 해요.
-        지금은 답을 찾는 것보다 쉬는 게 나아요.
-        적어두었으니까 없어지지 않아요.
-        """
+    static var gentleClose: String {
+        Phrasing.pick([
+            """
+            오늘은 여기까지 해요.
+            지금은 답을 찾는 것보다 쉬는 게 나아요.
+            적어두었으니까 없어지지 않아요.
+            """,
+            """
+            오늘은 여기서 멈춰요.
+            지금 억지로 답을 낼 필요 없어요.
+            적어뒀으니 다음에 같이 봐요.
+            """,
+            """
+            여기까지만 해요.
+            지친 날에 세운 계획은 잘 안 되더라고요.
+            남겨뒀으니 괜찮아요.
+            """
+        ], seed: Phrasing.today())
+    }
 
-    static let analyticClose = "적어뒀어요. 내일 이만큼만 해봐요."
+    static var analyticClose: String {
+        Phrasing.pick([
+            "적어뒀어요. 내일 이만큼만 해봐요.",
+            "적어뒀어요. 딱 이만큼이면 돼요.",
+            "이걸로 적어둘게요. 내일은 여기까지만."
+        ], seed: Phrasing.today())
+    }
 
-    static let reachedClose = "잘 기록해 뒀어요. 다음에 막힐 때 이걸 꺼내 볼게요."
+    static var reachedClose: String {
+        Phrasing.pick([
+            "잘 기록해 뒀어요. 다음에 막힐 때 이걸 꺼내 볼게요.",
+            "적어뒀어요. 다음에 비슷한 데서 막히면 보여드릴게요.",
+            "남겨뒀어요. 통했던 건 잊지 않게요."
+        ], seed: Phrasing.today())
+    }
 
-    static let leaveClose = "네, 그냥 둘게요. 여기 있을게요."
+    static var leaveClose: String {
+        Phrasing.pick([
+            "네, 그냥 둘게요. 여기 있을게요.",
+            "알겠어요. 여기 있을게요.",
+            "네, 그럼 다음에 얘기해요."
+        ], seed: Phrasing.today())
+    }
 
     // MARK: 감정 눈금
 

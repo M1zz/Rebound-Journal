@@ -177,14 +177,14 @@ final class ConversationEngine {
     private func askWhatWorked() {
         beat = .facts
         mood = .warm
-        say(ConversationScript.whatWorkedPrompt)
+        say(ConversationScript.whatWorkedPrompt(goal: goal))
         response = .freeform(placeholder: ConversationScript.whatWorkedPlaceholder)
     }
 
     private func askEmotion() {
         beat = .emotion
         mood = .listening
-        say(ConversationScript.emotionPrompt)
+        say(ConversationScript.emotionPrompt(goal: goal))
         response = .emotionScale
     }
 
@@ -218,7 +218,7 @@ final class ConversationEngine {
 
         beat = .smaller
         mood = .listening
-        say(ConversationScript.smallerPrompt)
+        say(ConversationScript.smallerPrompt(goal: goal))
         response = .freeform(placeholder: ConversationScript.smallerPlaceholder)
     }
 

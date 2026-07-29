@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BFD81E3954E97EE45C6A4 /* Phrasing.swift */; };
 		F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
 		4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174705416645E35FAB3931 /* LookBackView.swift */; };
@@ -98,6 +99,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
 		E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
 		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
 		51174705416645E35FAB3931 /* LookBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookBackView.swift; sourceTree = "<group>"; };
@@ -241,7 +243,8 @@
 				70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */,
 				979420319212C0F8FD12EB31 /* ConversationEngine.swift */,
 				C4793847AD7E6899F390C7B5 /* ConversationView.swift */,
-				D41606D32B4E15054B74956C /* ChatBubble.swift */,);
+				D41606D32B4E15054B74956C /* ChatBubble.swift */,
+				753BFD81E3954E97EE45C6A4 /* Phrasing.swift */,);
 			path = Conversation;
 			sourceTree = "<group>";
 		};
@@ -747,7 +750,8 @@
 				34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */,
 				4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */,
 				02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */,
-				F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */,);
+				F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */,
+				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */

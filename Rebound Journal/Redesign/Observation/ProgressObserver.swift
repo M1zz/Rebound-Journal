@@ -34,22 +34,57 @@ struct GoalObservation: Equatable, Identifiable {
     var id: String { headline }
 
     /// 조약돌이 화면에서 말하는 한 줄. 사실만 담고 평가하지 않는다.
+    ///
+    /// 매일 여는 화면이라 같은 문장이 반복되면 안내판처럼 읽힌다. 뜻은 그대로
+    /// 두고 말만 바꾼다. 고르는 방식은 `Phrasing` 참고 — 같은 날엔 같은 말이 나온다.
     var headline: String {
         switch kind {
         case .noGoalYet:
-            "무엇을 향해 가고 있는지 아직 못 들었어요."
+            Phrasing.pick([
+                "무엇을 향해 가고 있는지 아직 못 들었어요.",
+                "아직 어디로 가는 중인지 못 들었어요.",
+                "향하는 곳을 아직 못 들었네요."
+            ], seed: Phrasing.today())
+
         case .neverAttempted(let goal):
-            "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요."
+            Phrasing.pick([
+                "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요.",
+                "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이에요.",
+                "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해요."
+            ], seed: Phrasing.today(with: goal))
+
         case .reached(let goal, let daysAgo):
             daysAgo == 0
-                ? "오늘 '\(goal)'에 닿았네요."
-                : "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요."
+                ? Phrasing.pick([
+                    "오늘 '\(goal)'에 닿았네요.",
+                    "오늘 '\(goal)', 해내셨네요.",
+                    "'\(goal)'에 닿은 하루였네요."
+                ], seed: Phrasing.today(with: goal))
+                : Phrasing.pick([
+                    "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요.",
+                    "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해내셨죠.",
+                    "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어요."
+                ], seed: Phrasing.today(with: goal))
+
         case .notReached(let goal, let daysAgo):
             daysAgo <= 1
-                ? "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요."
-                : "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요."
+                ? Phrasing.pick([
+                    "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요.",
+                    "'\(goal)', 오늘은 아직이네요.",
+                    "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어요."
+                ], seed: Phrasing.today(with: goal))
+                : Phrasing.pick([
+                    "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요.",
+                    "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요.",
+                    "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어요."
+                ], seed: Phrasing.today(with: goal))
+
         case .quiet:
-            "오늘은 그냥 옆에 있을게요."
+            Phrasing.pick([
+                "오늘은 그냥 옆에 있을게요.",
+                "오늘은 조용히 있을게요.",
+                "딱히 할 말은 없어요. 그냥 여기 있어요."
+            ], seed: Phrasing.today())
         }
     }
 
@@ -64,9 +99,23 @@ struct GoalObservation: Equatable, Identifiable {
     /// 대화 버튼 문구. 어디에도 "실패"나 "리바운드"가 없다(§4).
     var invitation: String? {
         switch kind {
-        case .notReached: "무슨 일이 있었는지 얘기하기"
-        case .reached: "어떻게 됐는지 남기기"
-        case .neverAttempted: "지금 얘기해보기"
+        case .notReached(let goal, _):
+            Phrasing.pick([
+                "무슨 일이 있었는지 얘기하기",
+                "그때 얘기 해볼래요",
+                "잠깐 얘기해요"
+            ], seed: Phrasing.today(with: goal))
+        case .reached(let goal, _):
+            Phrasing.pick([
+                "어떻게 됐는지 남기기",
+                "뭐가 통했는지 적어두기",
+                "잊기 전에 적어둘래요"
+            ], seed: Phrasing.today(with: goal))
+        case .neverAttempted(let goal):
+            Phrasing.pick([
+                "지금 얘기해보기",
+                "여기서부터 얘기해요"
+            ], seed: Phrasing.today(with: goal))
         case .noGoalYet, .quiet: nil
         }
     }
@@ -106,7 +155,11 @@ struct PastSuccess: Equatable {
         case 8...20: "지난주쯤"
         default: "얼마 전"
         }
-        return "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요."
+        return Phrasing.pick([
+            "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요.",
+            "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해내셨잖아요.",
+            "\(when)에는 '\(goal)'에 닿으셨고요."
+        ], seed: Phrasing.today(with: goal))
     }
 }
 
@@ -129,10 +182,19 @@ struct PreviousNote: Equatable {
             // "…부터 시작하기"처럼 사용자가 쓴 말에 이미 조사가 들어 있는 경우가 많다.
             // 여기서 또 "부터"를 붙이면 겹치므로 목적격 조사만 쓴다.
             let short = PreviousNote.condensed(plan)
-            return "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요."
+            return Phrasing.pick([
+                "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요.",
+                "지난번에 '\(short)'\(short.particle("으로", "로")) 정하셨었죠.",
+                "그때 '\(short)'\(short.particle("을", "를")) 해보자고 하셨어요."
+            ], seed: Phrasing.today(with: short))
         }
         if let review = PreviousNote.trimmed(review) {
-            return "지난번엔 '\(PreviousNote.condensed(review))'라고 적으셨어요."
+            let short = PreviousNote.condensed(review)
+            return Phrasing.pick([
+                "지난번엔 '\(short)'라고 적으셨어요.",
+                "그때는 '\(short)'라고 하셨죠.",
+                "지난 기록엔 '\(short)'라고 남아 있어요."
+            ], seed: Phrasing.today(with: short))
         }
         return nil
     }

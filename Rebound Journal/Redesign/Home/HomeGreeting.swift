@@ -109,9 +109,17 @@ enum HomeGreeting {
     private static func statusLine(observation: GoalObservation, goalCount: Int) -> String? {
         switch observation.kind {
         case .reached:
-            "나머지도 천천히 보면 돼요."
+            Phrasing.pick([
+                "나머지도 천천히 보면 돼요.",
+                "다른 것들은 천천히 해요.",
+                "나머지는 서두르지 않아도 돼요."
+            ], seed: Phrasing.today())
         case .notReached, .neverAttempted:
-            "다른 것들은 그대로 두고, 이거 하나만 볼까요?"
+            Phrasing.pick([
+                "다른 것들은 그대로 두고, 이거 하나만 볼까요?",
+                "나머지는 접어두고 이것만 봐요.",
+                "오늘은 이거 하나면 충분해요."
+            ], seed: Phrasing.today())
         case .noGoalYet, .quiet:
             nil
         }
@@ -130,32 +138,60 @@ enum HomeGreeting {
            !blocked.isEmpty {
             // 어느 목표 얘기였는지 먼저 대고, 그때 사용자가 쓴 말을 그대로 인용한다.
             // 앱이 요약해 버리면 남의 말이 된다.
-            context = "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(condensed(blocked))'라고 하셨어요."
+            let quote = condensed(blocked)
+            context = Phrasing.pick([
+                "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 하셨어요.",
+                "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남기셨죠.",
+                "'\(goal)'에 대해 \(when) '\(quote)'라고 적으셨어요."
+            ], seed: Phrasing.today(with: goal))
         } else {
-            context = "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요."
+            context = Phrasing.pick([
+                "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요.",
+                "\(when) '\(goal)'에서 걸렸다고 남기셨죠."
+            ], seed: Phrasing.today(with: goal))
         }
 
         return FollowUp(
             journalID: id,
             goal: goal,
             context: context,
-            question: "그건 어떻게 됐어요?"
+            question: Phrasing.pick([
+                "그건 어떻게 됐어요?",
+                "그 뒤로는 어떻게 됐어요?",
+                "지금은 어떤가요?"
+            ], seed: Phrasing.today(with: goal))
         )
     }
 
     /// 답을 듣고 조약돌이 하는 말.
     static func reply(to answer: FollowUp.Answer, goal: String) -> String {
+        let seed = Phrasing.today(with: goal)
         switch answer {
         case .done:
-            "그럼 그건 끝난 얘기네요. 지금 적어둘게요."
+            return Phrasing.pick([
+                "그럼 그건 끝난 얘기네요. 지금 적어둘게요.",
+                "잘됐네요. 지금 남겨둘게요.",
+                "그럼 매듭지어 둘게요."
+            ], seed: seed)
+
         case .forgot:
             // 잊은 걸 나무라지 않는다. 눈에 안 띄었던 것뿐이다.
-            "그럴 수 있어요. 잊었다고 없어지는 건 아니니까요."
+            return Phrasing.pick([
+                "그럴 수 있어요. 잊었다고 없어지는 건 아니니까요.",
+                "그럴 수 있죠. 잊은 건 잊은 거고요.",
+                "괜찮아요. 눈에 안 띄었을 뿐이에요."
+            ], seed: seed)
+
         case .postponed:
             // 여기서는 대화가 열리므로 이 말은 쓰이지 않는다.
-            "그럼 그 얘기를 해볼까요."
+            return "그럼 그 얘기를 해볼까요."
+
         case .later:
-            "알겠어요. 여기 있을게요."
+            return Phrasing.pick([
+                "알겠어요. 여기 있을게요.",
+                "네, 그냥 둘게요.",
+                "그래요. 다음에 얘기해요."
+            ], seed: seed)
         }
     }
 
