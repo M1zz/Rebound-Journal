@@ -156,9 +156,12 @@ struct TodayView: View {
     /// 지금 할 수 있는 답들.
     private var choices: [ReplyChoice] {
         if followUp != nil {
+            // 됐다/안 됐다로만 물으면 실제 상태가 안 담긴다. 안 된 이유가
+            // 하나가 아니라서다 — 잊은 것과 미루는 것은 다른 얘기다.
             return [
-                ReplyChoice(id: "done", label: "해냈어요"),
-                ReplyChoice(id: "notYet", label: "아직이에요"),
+                ReplyChoice(id: "done", label: "했어요, 기록만 못 했고요"),
+                ReplyChoice(id: "forgot", label: "잊고 있었어요"),
+                ReplyChoice(id: "postponed", label: "자꾸 미루게 돼요"),
                 ReplyChoice(id: "later", label: "지금은 그냥 둘래요")
             ]
         }
@@ -182,7 +185,8 @@ struct TodayView: View {
     private func handle(choice: ReplyChoice) {
         switch choice.id {
         case "done": handle(answer: .done)
-        case "notYet": handle(answer: .notYet)
+        case "forgot": handle(answer: .forgot)
+        case "postponed": handle(answer: .postponed)
         case "later": handle(answer: .later)
         case "start", "addGoal": isAddingGoal = true
         case "notNow":
@@ -250,8 +254,15 @@ struct TodayView: View {
             resolve(pending)
             answerBack(HomeGreeting.reply(to: answer, goal: pending.goal), thenTellToday: true)
 
-        case .notYet:
-            // 재도전하라고 말하지 않는다. 얘기할 자리만 열어 둔다 (§4).
+        case .forgot:
+            // 잊은 건 캐물을 게 없다. 의지가 아니라 눈에 띄지 않았던 문제라
+            // 여기서 실패 분석으로 끌고 들어가면 없는 잘못을 만드는 셈이 된다.
+            answerBack(HomeGreeting.reply(to: answer, goal: pending.goal), thenTellToday: true)
+
+        case .postponed:
+            // 자꾸 미뤄진다는 건 그 일이 아직 크다는 뜻이다. 여기가 §6의
+            // 쪼개기가 필요한 자리라 대화로 넘긴다.
+            // 재도전하라고 말하지는 않는다. 얘기할 자리만 연다 (§4).
             conversation = GoalObservation(
                 kind: .notReached(goal: pending.goal, daysAgo: ProgressObserver.quietDays)
             )

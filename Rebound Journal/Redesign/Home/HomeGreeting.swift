@@ -35,11 +35,23 @@ struct FollowUp: Equatable {
     let context: String
     let question: String
 
+    /// "그건 어떻게 됐어요?"에 대한 답.
+    ///
+    /// 됐다/안 됐다로만 물으면 실제 상태가 담기지 않는다. 안 된 이유가 하나가
+    /// 아니기 때문이다. **잊은 것과 미루는 것은 서로 다른 얘기다.**
+    ///
+    ///  - 잊었다면 눈에 띄지 않았던 것이지 하기 싫었던 게 아니다. 캐물을 게 없다.
+    ///  - 자꾸 미뤄진다면 그 일이 아직 크다는 뜻이다. 여기가 §6의 쪼개기가
+    ///    필요한 자리고, 그래서 이 답만 대화로 이어진다.
+    ///
+    /// 둘을 "아직이에요" 하나로 묶으면 이 갈림길이 사라진다.
     enum Answer {
-        /// 그 뒤에 해냈다. 기록을 닫고 성공으로 남긴다.
+        /// 그 뒤에 해냈다. 적어두지 못했을 뿐이다.
         case done
-        /// 아직이다. 얘기해볼지 물어본다.
-        case notYet
+        /// 잊고 있었다.
+        case forgot
+        /// 자꾸 미루게 된다.
+        case postponed
         /// 지금은 말하고 싶지 않다.
         case later
     }
@@ -138,9 +150,13 @@ enum HomeGreeting {
     static func reply(to answer: FollowUp.Answer, goal: String) -> String {
         switch answer {
         case .done:
-            "그럼 그건 끝난 얘기네요. 잘 적어둘게요."
-        case .notYet:
-            "네, 아직인 거죠. 그것도 그대로 둬요."
+            "그럼 그건 끝난 얘기네요. 지금 적어둘게요."
+        case .forgot:
+            // 잊은 걸 나무라지 않는다. 눈에 안 띄었던 것뿐이다.
+            "그럴 수 있어요. 잊었다고 없어지는 건 아니니까요."
+        case .postponed:
+            // 여기서는 대화가 열리므로 이 말은 쓰이지 않는다.
+            "그럼 그 얘기를 해볼까요."
         case .later:
             "알겠어요. 여기 있을게요."
         }
