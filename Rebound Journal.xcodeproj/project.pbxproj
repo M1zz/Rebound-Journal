@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
 		4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174705416645E35FAB3931 /* LookBackView.swift */; };
 		34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */; };
 		B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F45927CE9303F8C2824F89 /* WeekStones.swift */; };
@@ -96,6 +97,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
 		51174705416645E35FAB3931 /* LookBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookBackView.swift; sourceTree = "<group>"; };
 		65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneBridgeView.swift; sourceTree = "<group>"; };
 		A7F45927CE9303F8C2824F89 /* WeekStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStones.swift; sourceTree = "<group>"; };
@@ -208,7 +210,8 @@
 				CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */,
 				9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */,
 				65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */,
-				51174705416645E35FAB3931 /* LookBackView.swift */,);
+				51174705416645E35FAB3931 /* LookBackView.swift */,
+				12B7A8A52995BD59714800CA /* AllRecordsView.swift */,);
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -739,7 +742,8 @@
 				C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */,
 				B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */,
 				34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */,
-				4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */,);
+				4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */,
+				02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */

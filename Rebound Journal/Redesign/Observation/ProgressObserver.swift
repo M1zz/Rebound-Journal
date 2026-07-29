@@ -154,7 +154,16 @@ struct PreviousNote: Equatable {
 struct DayNote: Identifiable, Equatable {
     let goal: String
     let note: PreviousNote
+    /// 그때 고른 감정 낱말. 원본을 훑어볼 때는 이것도 기록의 일부다.
+    let emotion: String?
     var id: String { "\(goal)-\(note.date.timeIntervalSince1970)" }
+}
+
+/// 하루와 그날의 기록들.
+struct RecordedDay: Identifiable, Equatable {
+    let day: Date
+    let notes: [DayNote]
+    var id: Date { day }
 }
 
 // MARK: - 관찰자
@@ -300,17 +309,41 @@ enum ProgressObserver {
         journals
             .filter { $0.isValidForDisplay && calendar.isDate($0.dateUnwrapped, inSameDayAs: day) }
             .sorted { $0.dateUnwrapped < $1.dateUnwrapped }
-            .map {
-                DayNote(
-                    goal: nonEmpty($0.subGoal) ?? nonEmpty($0.mainGoal) ?? "적어둔 목표 없음",
-                    note: PreviousNote(
-                        date: $0.dateUnwrapped,
-                        review: nonEmpty($0.review),
-                        plan: nonEmpty($0.nextPlan),
-                        reached: $0.isGoalInUnwrapped
-                    )
+            .map(dayNote(from:))
+    }
+
+    /// 남긴 기록 전부를 날짜별로 묶는다. 최근 날이 먼저.
+    ///
+    /// 여기서는 아무것도 솎아내지 않는다. 목표별로 모아 보여주는 자리(`지나온 길`)와
+    /// 달리, 이 목록의 쓸모는 "내가 지금까지 뭘 적었지?"를 통으로 훑는 것이라
+    /// 앱이 골라서 보여주면 그 쓸모가 사라진다.
+    static func allDays(journals: [JournalData], calendar: Calendar = .current) -> [RecordedDay] {
+        let live = journals.filter(\.isValidForDisplay)
+        let grouped = Dictionary(grouping: live) { calendar.startOfDay(for: $0.dateUnwrapped) }
+
+        return grouped
+            .map { day, entries in
+                RecordedDay(
+                    day: day,
+                    notes: entries
+                        .sorted { $0.dateUnwrapped < $1.dateUnwrapped }
+                        .map(dayNote(from:))
                 )
             }
+            .sorted { $0.day > $1.day }
+    }
+
+    private static func dayNote(from journal: JournalData) -> DayNote {
+        DayNote(
+            goal: nonEmpty(journal.subGoal) ?? nonEmpty(journal.mainGoal) ?? "적어둔 목표 없음",
+            note: PreviousNote(
+                date: journal.dateUnwrapped,
+                review: nonEmpty(journal.review),
+                plan: nonEmpty(journal.nextPlan),
+                reached: journal.isGoalInUnwrapped
+            ),
+            emotion: nonEmpty(journal.emotionText)
+        )
     }
 
     /// 이 목표에 대한 기록 전부. 최근 것이 먼저.

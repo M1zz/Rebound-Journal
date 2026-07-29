@@ -27,6 +27,7 @@ struct TodayView: View {
     @State private var isAddingGoal = false
     @State private var isShowingSettings = false
     @State private var isLookingBack = false
+    @State private var isShowingAllRecords = false
 
     /// 지금 조약돌이 얘기하는 목표. nil이면 앱이 알아서 고른다.
     ///
@@ -85,6 +86,9 @@ struct TodayView: View {
         }
         .sheet(isPresented: $isShowingSettings) {
             SettingsView()
+        }
+        .sheet(isPresented: $isShowingAllRecords) {
+            AllRecordsView()
         }
     }
 
@@ -326,6 +330,12 @@ struct TodayView: View {
                     isAddingGoal = true
                 } label: {
                     Label("목표 추가", systemImage: "plus")
+                }
+                // 정리되지 않은 원본. "지금까지 뭘 적었지?"를 훑는 자리다.
+                Button {
+                    isShowingAllRecords = true
+                } label: {
+                    Label("남긴 것들", systemImage: "list.bullet")
                 }
                 // 소리·진동 켜고 끄기는 설정 화면에 있다. 메뉴에도 두면
                 // 같은 스위치가 두 군데 있게 되어 어느 쪽이 진짜인지 헷갈린다.
