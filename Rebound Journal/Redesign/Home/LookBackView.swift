@@ -50,6 +50,9 @@ struct LookBackView: View {
                 .scrollIndicators(.hidden)
             }
         }
+        // 손잡이를 띄운다. 위쪽에 아무 표시가 없으면 시트가 아니라 그냥
+        // 위가 잘린 화면으로 읽힌다.
+        .presentationDragIndicator(.visible)
         .sheet(isPresented: $isAddingGoal) {
             AddGoalView()
         }
@@ -71,7 +74,7 @@ struct LookBackView: View {
             }
         }
         .padding(.horizontal, 18)
-        .padding(.top, 12)
+        .padding(.top, PebbleTheme.sheetHeaderTop)
     }
 
     // MARK: - 징검다리

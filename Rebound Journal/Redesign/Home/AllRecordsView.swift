@@ -103,7 +103,7 @@ struct AllRecordsView: View {
             }
         }
         .padding(.horizontal, 18)
-        .padding(.top, 12)
+        .padding(.top, PebbleTheme.sheetHeaderTop)
         .padding(.bottom, 4)
     }
 

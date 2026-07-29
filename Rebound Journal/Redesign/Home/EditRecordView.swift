@@ -48,7 +48,7 @@ struct EditRecordView: View {
                         emotionSection
                         textSection(
                             title: "다음에 해보기로 한 것",
-                            placeholder: "작을수록 좋아요.",
+                            placeholder: Phrasing.say("작을수록 좋아요.", "작을수록 좋아."),
                             text: $plan
                         )
                         Color.clear.frame(height: 16)
@@ -59,7 +59,7 @@ struct EditRecordView: View {
                 .scrollIndicators(.hidden)
 
                 ReplyOptions(choices: [
-                    ReplyChoice(id: "save", label: "이렇게 고칠게요", isPrimary: true)
+                    ReplyChoice(id: "save", label: Phrasing.say("이렇게 고칠게요", "이렇게 고칠게"), isPrimary: true)
                 ]) { _ in
                     save()
                     dismiss()
@@ -89,7 +89,7 @@ struct EditRecordView: View {
             }
         }
         .padding(.horizontal, 18)
-        .padding(.top, 12)
+        .padding(.top, PebbleTheme.sheetHeaderTop)
     }
 
     /// 어느 목표의 기록인지. 이건 고치지 않는다 — 목표를 바꾸면 다른 기록이 된다.

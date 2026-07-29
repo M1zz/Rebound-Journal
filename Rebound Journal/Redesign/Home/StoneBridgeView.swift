@@ -33,7 +33,7 @@ struct StoneBridgeView: View {
                 stream
                 stones
             }
-            .frame(height: 98)
+            .frame(height: 106)
         }
     }
 
@@ -77,7 +77,9 @@ struct StoneBridgeView: View {
                 RoundedRectangle(cornerRadius: 26, style: .continuous)
                     .strokeBorder(PebbleTheme.hairline.opacity(0.7), lineWidth: 1)
             }
-            .frame(height: 80)
+            // 돌을 위아래로 어긋나게 놓았으므로(±6/8) 개울이 그만큼 넓어야 한다.
+            // 딱 맞추면 올라간 돌과 그 햇빛이 윗변에 닿아, 돌이 카드에 끼인 것처럼 보인다.
+            .frame(height: 90)
     }
 
     // MARK: 돌
