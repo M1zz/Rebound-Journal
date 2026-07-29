@@ -139,7 +139,7 @@ struct LookBackView: View {
                             HStack(spacing: 8) {
                                 Circle()
                                     .fill(entry.note.reached
-                                          ? PebbleTheme.sunlight
+                                          ? PebbleTheme.key
                                           : PebbleTheme.inkFaint.opacity(0.4))
                                     .frame(width: 6, height: 6)
                                 Text(entry.goal)
@@ -250,12 +250,12 @@ struct LookBackView: View {
                 if isExpanded {
                     Image(systemName: "chevron.up")
                         .font(.system(size: 12, weight: .semibold))
-                        .foregroundStyle(PebbleTheme.sunlight)
+                        .foregroundStyle(PebbleTheme.key)
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(PebbleTheme.gutter)
-            .background(isExpanded ? PebbleTheme.sunlight.opacity(0.10) : PebbleTheme.surface)
+            .background(isExpanded ? PebbleTheme.key.opacity(0.10) : PebbleTheme.surface)
             // 펼쳐지면 아래로 기록이 붙으므로 아랫모서리를 각지게 둔다.
             .clipShape(
                 .rect(
@@ -275,7 +275,7 @@ struct LookBackView: View {
                     style: .continuous
                 )
                 .strokeBorder(
-                    isExpanded ? PebbleTheme.sunlight : PebbleTheme.hairline,
+                    isExpanded ? PebbleTheme.key : PebbleTheme.hairline,
                     lineWidth: isExpanded ? 1.5 : 1
                 )
             }
@@ -343,7 +343,7 @@ struct LookBackView: View {
     private func noteRow(_ note: PreviousNote) -> some View {
         HStack(alignment: .top, spacing: 12) {
             Circle()
-                .fill(note.reached ? PebbleTheme.sunlight : PebbleTheme.inkFaint.opacity(0.4))
+                .fill(note.reached ? PebbleTheme.key : PebbleTheme.inkFaint.opacity(0.4))
                 .frame(width: 6, height: 6)
                 .padding(.top, 6)
 
@@ -374,7 +374,7 @@ struct LookBackView: View {
         HStack(alignment: .top, spacing: 5) {
             Image(systemName: "arrow.turn.down.right")
                 .font(.system(size: 10))
-                .foregroundStyle(PebbleTheme.sunlight)
+                .foregroundStyle(PebbleTheme.key)
                 .padding(.top, 3)
             Text(plan)
                 .font(PebbleTheme.body(14))
@@ -395,7 +395,7 @@ struct LookBackView: View {
             .max { $0.dateUnwrapped < $1.dateUnwrapped }
         guard let latest else { return PebbleTheme.hairline }
         // 닿지 못한 기록도 회색일 뿐, 붉은색을 쓰지 않는다. 경고가 아니라 상태다.
-        return latest.isGoalInUnwrapped ? PebbleTheme.sunlight : PebbleTheme.inkFaint.opacity(0.45)
+        return latest.isGoalInUnwrapped ? PebbleTheme.key : PebbleTheme.inkFaint.opacity(0.45)
     }
 
     /// `RelativeDateTimeFormatter`를 그대로 쓰면 방금 만든 기록이 "0초 후에"로 나온다.

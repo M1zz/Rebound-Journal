@@ -144,7 +144,7 @@ struct AllRecordsView: View {
                     // 닿았는지는 점의 색으로만. 여기서도 붉은색을 쓰지 않는다 (§4).
                     Circle()
                         .fill(entry.isGoalInUnwrapped
-                              ? PebbleTheme.sunlight
+                              ? PebbleTheme.key
                               : PebbleTheme.inkFaint.opacity(0.4))
                         .frame(width: 7, height: 7)
 
@@ -179,7 +179,7 @@ struct AllRecordsView: View {
                     HStack(alignment: .top, spacing: 5) {
                         Image(systemName: "arrow.turn.down.right")
                             .font(.system(size: 10))
-                            .foregroundStyle(PebbleTheme.sunlight)
+                            .foregroundStyle(PebbleTheme.key)
                             .padding(.top, 3)
                         Text(plan)
                             .font(PebbleTheme.body(14))

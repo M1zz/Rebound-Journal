@@ -42,11 +42,11 @@ struct ChatBubble<Content: View>: View {
     }
 
     private var background: Color {
-        speaker == .pebble ? PebbleTheme.surface : PebbleTheme.sunlight.opacity(0.16)
+        speaker == .pebble ? PebbleTheme.surface : PebbleTheme.key.opacity(0.16)
     }
 
     private var border: Color {
-        speaker == .pebble ? PebbleTheme.hairline : PebbleTheme.sunlight.opacity(0.30)
+        speaker == .pebble ? PebbleTheme.hairline : PebbleTheme.key.opacity(0.30)
     }
 }
 
@@ -143,12 +143,12 @@ struct ReplyChip: View {
                 .multilineTextAlignment(.trailing)
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
-                .background(isPrimary ? PebbleTheme.sunlight : PebbleTheme.surface)
+                .background(isPrimary ? PebbleTheme.key : PebbleTheme.surface)
                 .clipShape(BubbleShape(pointingLeft: false))
                 .overlay {
                     BubbleShape(pointingLeft: false)
                         .strokeBorder(
-                            isPrimary ? Color.clear : PebbleTheme.sunlight.opacity(0.55),
+                            isPrimary ? Color.clear : PebbleTheme.key.opacity(0.55),
                             lineWidth: 1.5
                         )
                 }
@@ -244,7 +244,7 @@ struct TypewriterText: View {
 
         // 자리는 늘 차지하고 색만 바꾼다. 커서가 나타났다 사라지면 글자가 흔들린다.
         return shown + Text("|")
-            .foregroundStyle(caretOn ? PebbleTheme.sunlight : Color.clear)
+            .foregroundStyle(caretOn ? PebbleTheme.key : Color.clear)
     }
 
     private func reveal() async {

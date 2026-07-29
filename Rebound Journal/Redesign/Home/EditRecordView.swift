@@ -181,12 +181,12 @@ struct EditRecordView: View {
                 .foregroundStyle(PebbleTheme.ink)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 13)
-                .background(selected ? PebbleTheme.sunlight.opacity(0.18) : PebbleTheme.surface)
+                .background(selected ? PebbleTheme.key.opacity(0.18) : PebbleTheme.surface)
                 .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                 .overlay {
                     RoundedRectangle(cornerRadius: 14, style: .continuous)
                         .strokeBorder(
-                            selected ? PebbleTheme.sunlight : PebbleTheme.hairline,
+                            selected ? PebbleTheme.key : PebbleTheme.hairline,
                             lineWidth: selected ? 1.5 : 1
                         )
                 }
@@ -201,11 +201,11 @@ struct EditRecordView: View {
                 .foregroundStyle(PebbleTheme.ink)
                 .padding(.horizontal, 14)
                 .padding(.vertical, 9)
-                .background(selected ? PebbleTheme.sunlight.opacity(0.22) : PebbleTheme.surface)
+                .background(selected ? PebbleTheme.key.opacity(0.22) : PebbleTheme.surface)
                 .clipShape(Capsule())
                 .overlay {
                     Capsule().strokeBorder(
-                        selected ? PebbleTheme.sunlight : PebbleTheme.hairline,
+                        selected ? PebbleTheme.key : PebbleTheme.hairline,
                         lineWidth: 1
                     )
                 }

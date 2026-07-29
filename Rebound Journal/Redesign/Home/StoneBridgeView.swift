@@ -105,7 +105,7 @@ struct StoneBridgeView: View {
                         // 닿은 날에만 햇빛이 든다. 번지면 옆 돌과 뭉쳐 하나로 보이므로
                         // 돌 크기를 크게 벗어나지 않게 좁혀 둔다.
                         Ellipse()
-                            .fill(PebbleTheme.sunlight.opacity(0.22))
+                            .fill(PebbleTheme.key.opacity(0.22))
                             .frame(width: stoneWidth * 1.15, height: stoneWidth * 0.9)
                             .blur(radius: 4)
                     }
@@ -124,7 +124,7 @@ struct StoneBridgeView: View {
 
                     if isSelected(day) {
                         PebbleShape()
-                            .stroke(PebbleTheme.sunlight, lineWidth: 2)
+                            .stroke(PebbleTheme.key, lineWidth: 2)
                             .frame(width: stoneWidth * 1.28, height: stoneWidth * 0.98)
                     }
                 }
@@ -133,7 +133,7 @@ struct StoneBridgeView: View {
                 Text(day.weekdayLabel)
                     .font(PebbleTheme.label(11))
                     .foregroundStyle(
-                        day.isToday ? PebbleTheme.sunlight : PebbleTheme.inkFaint
+                        day.isToday ? PebbleTheme.key : PebbleTheme.inkFaint
                     )
             }
             .offset(y: drop)

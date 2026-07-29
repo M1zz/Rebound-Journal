@@ -206,7 +206,7 @@ struct ConversationView: View {
             }
             Image(systemName: "waveform")
                 .font(.system(size: 13))
-                .foregroundStyle(PebbleTheme.sunlight)
+                .foregroundStyle(PebbleTheme.key)
                 .symbolEffect(.variableColor, isActive: true)
         }
     }
@@ -299,7 +299,7 @@ struct ConversationView: View {
                             .font(.system(size: 15, weight: .bold))
                             .foregroundStyle(.white)
                             .frame(width: 32, height: 32)
-                            .background(PebbleTheme.sunlight)
+                            .background(PebbleTheme.key)
                             .clipShape(Circle())
                     }
                     .transition(.scale.combined(with: .opacity))
@@ -329,7 +329,7 @@ struct ConversationView: View {
                 .font(.system(size: 17, weight: .medium))
                 .foregroundStyle(speech.isListening ? .white : PebbleTheme.inkSoft)
                 .frame(width: 44, height: 44)
-                .background(speech.isListening ? PebbleTheme.sunlight : PebbleTheme.surfaceMuted)
+                .background(speech.isListening ? PebbleTheme.key : PebbleTheme.surfaceMuted)
                 .clipShape(Circle())
         }
         .accessibilityLabel(speech.isListening ? "그만 말하기" : "말로 답하기")
@@ -411,12 +411,12 @@ struct ConversationView: View {
                             .padding(.horizontal, 14)
                             .padding(.vertical, 8)
                             .background(selectedWord == word
-                                        ? PebbleTheme.sunlight.opacity(0.22)
+                                        ? PebbleTheme.key.opacity(0.22)
                                         : PebbleTheme.surface)
                             .clipShape(Capsule())
                             .overlay {
                                 Capsule().strokeBorder(
-                                    selectedWord == word ? PebbleTheme.sunlight : PebbleTheme.hairline,
+                                    selectedWord == word ? PebbleTheme.key : PebbleTheme.hairline,
                                     lineWidth: 1
                                 )
                             }

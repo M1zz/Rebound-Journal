@@ -14,25 +14,38 @@ enum PebbleTheme {
     // MARK: - 색
 
     /// 햇빛이 스며든 종이 같은 배경.
-    static let canvas = dynamic(light: 0xFDF8F1, dark: 0x15120F)
+    static let canvas = dynamic(light: 0xFBF8F3, dark: 0x141715)
     /// 카드처럼 한 겹 올라온 면.
-    static let surface = dynamic(light: 0xFFFFFF, dark: 0x211D18)
-    /// 배경 위에서 아주 살짝만 구분되는 면. 관찰 카드에 쓴다.
-    static let surfaceMuted = dynamic(light: 0xF6EEE2, dark: 0x1C1813)
+    static let surface = dynamic(light: 0xFFFFFF, dark: 0x1F2422)
+    /// 배경 위에서 아주 살짝만 구분되는 면.
+    static let surfaceMuted = dynamic(light: 0xF3EFE8, dark: 0x1A1F1D)
 
-    /// 조약돌 본체 (밝은 쪽 → 그늘 쪽).
-    static let pebbleLit = dynamic(light: 0xF2DCBE, dark: 0xDCC3A2)
-    static let pebbleMid = dynamic(light: 0xD9BC96, dark: 0xB59572)
-    static let pebbleShade = dynamic(light: 0xB08F68, dark: 0x8A6D4E)
+    /// 조약돌 본체 (밝은 쪽 → 그늘 쪽). 돌은 계속 따뜻하다.
+    static let pebbleLit = dynamic(light: 0xF1E3CB, dark: 0xDCC3A2)
+    static let pebbleMid = dynamic(light: 0xD6C0A0, dark: 0xB59572)
+    static let pebbleShade = dynamic(light: 0xAC9070, dark: 0x8A6D4E)
 
-    /// 햇빛. 조약돌 뒤 글로우와 강조 요소에 함께 쓴다.
+    /// 키 컬러 — 개울 물빛.
+    ///
+    /// 강조는 전부 이 색으로 한다. 답풍선, 고른 표시, 점, 커서.
+    ///
+    /// 차가운 키를 쓰는 이유는 두 가지다. 하나는 따뜻한 돌과 온도가 갈려야
+    /// 조약돌이 앞으로 나온다는 것 — 키와 돌이 같은 계열이면 서로 묻힌다.
+    /// 다른 하나는 이 앱이 개울을 건너는 이야기라는 것이다 (앱 이름 §4).
+    static let key = dynamic(light: 0x5F8F93, dark: 0x7FB3B6)
+
+    /// 조약돌에 드는 햇빛. **강조색이 아니다.**
+    ///
+    /// 예전에는 이 색 하나가 햇빛과 강조를 겸했고, 그래서 앰버 버튼이 화면을
+    /// 덮었다. 지금은 조약돌 뒤 후광과 돌 아래 반사광에만 쓴다. "햇빛에 달궈진
+    /// 작은 조약돌"(§10)은 캐릭터의 설정이라 여기까지 차갑게 만들면 안 된다.
     static let sunlight = dynamic(light: 0xE8A33D, dark: 0xE0A65A)
 
-    static let ink = dynamic(light: 0x2E2620, dark: 0xF0E7DA)
-    static let inkSoft = dynamic(light: 0x6B5B4C, dark: 0xB0A190)
-    static let inkFaint = dynamic(light: 0x9C8B7A, dark: 0x7E7264)
+    static let ink = dynamic(light: 0x27302F, dark: 0xE9EFEC)
+    static let inkSoft = dynamic(light: 0x5C6A68, dark: 0xA6B3B0)
+    static let inkFaint = dynamic(light: 0x8E9B99, dark: 0x74817E)
 
-    static let hairline = dynamic(light: 0xE7DACA, dark: 0x332C24)
+    static let hairline = dynamic(light: 0xDFE3E2, dark: 0x2C3331)
 
     // MARK: - 타이포
     //
