@@ -154,15 +154,16 @@ struct PreviousNote: Equatable {
 struct DayNote: Identifiable, Equatable {
     let goal: String
     let note: PreviousNote
-    /// 그때 고른 감정 낱말. 원본을 훑어볼 때는 이것도 기록의 일부다.
-    let emotion: String?
     var id: String { "\(goal)-\(note.date.timeIntervalSince1970)" }
 }
 
 /// 하루와 그날의 기록들.
-struct RecordedDay: Identifiable, Equatable {
+///
+/// 여기서는 값이 아니라 기록 자체를 들고 간다. 원본 목록에서는 고치고 지울 수
+/// 있어야 하는데, 값만 뽑아 넘기면 무엇을 고쳐야 하는지 되찾을 길이 없다.
+struct RecordedDay: Identifiable {
     let day: Date
-    let notes: [DayNote]
+    let entries: [JournalData]
     var id: Date { day }
 }
 
@@ -325,9 +326,7 @@ enum ProgressObserver {
             .map { day, entries in
                 RecordedDay(
                     day: day,
-                    notes: entries
-                        .sorted { $0.dateUnwrapped < $1.dateUnwrapped }
-                        .map(dayNote(from:))
+                    entries: entries.sorted { $0.dateUnwrapped < $1.dateUnwrapped }
                 )
             }
             .sorted { $0.day > $1.day }
@@ -341,8 +340,7 @@ enum ProgressObserver {
                 review: nonEmpty(journal.review),
                 plan: nonEmpty(journal.nextPlan),
                 reached: journal.isGoalInUnwrapped
-            ),
-            emotion: nonEmpty(journal.emotionText)
+            )
         )
     }
 

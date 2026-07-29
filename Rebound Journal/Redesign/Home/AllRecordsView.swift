@@ -19,7 +19,11 @@ import SwiftData
 struct AllRecordsView: View {
 
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var modelContext
     @Query private var journals: [JournalData]
+
+    @State private var editing: JournalData?
+    @State private var pendingDelete: JournalData?
 
     private var days: [RecordedDay] {
         ProgressObserver.allDays(journals: journals)
@@ -40,8 +44,8 @@ struct AllRecordsView: View {
                             ForEach(days) { day in
                                 Section {
                                     VStack(spacing: 10) {
-                                        ForEach(day.notes) { note in
-                                            row(note)
+                                        ForEach(day.entries, id: \.persistentModelID) { entry in
+                                            row(entry)
                                         }
                                     }
                                 } header: {
@@ -57,6 +61,30 @@ struct AllRecordsView: View {
                 }
             }
         }
+        .sheet(item: $editing) { record in
+            EditRecordView(record: record)
+        }
+        .confirmationDialog(
+            "이 기록을 지울까요?",
+            isPresented: Binding(
+                get: { pendingDelete != nil },
+                set: { if !$0 { pendingDelete = nil } }
+            ),
+            titleVisibility: .visible
+        ) {
+            Button("지우기", role: .destructive) {
+                if let pendingDelete { delete(pendingDelete) }
+                pendingDelete = nil
+            }
+            Button("그대로 둘게요", role: .cancel) { pendingDelete = nil }
+        } message: {
+            // 되돌릴 수 없다는 걸 미리 말한다. 여기 적힌 건 다시 쓰기 어려운 것들이다.
+            Text("지우면 되돌릴 수 없어요.")
+        }
+    }
+
+    private func delete(_ record: JournalData) {
+        modelContext.delete(record)
     }
 
     private var header: some View {
@@ -104,24 +132,29 @@ struct AllRecordsView: View {
         .background(PebbleTheme.canvas)
     }
 
-    private func row(_ entry: DayNote) -> some View {
-        SoftCard {
+    private func row(_ entry: JournalData) -> some View {
+        let review = text(entry.review)
+        let plan = text(entry.nextPlan)
+        let emotion = text(entry.emotionText)
+        let goal = text(entry.subGoal) ?? text(entry.mainGoal) ?? "적어둔 목표 없음"
+
+        return SoftCard {
             VStack(alignment: .leading, spacing: 8) {
                 HStack(spacing: 8) {
                     // 닿았는지는 점의 색으로만. 여기서도 붉은색을 쓰지 않는다 (§4).
                     Circle()
-                        .fill(entry.note.reached
+                        .fill(entry.isGoalInUnwrapped
                               ? PebbleTheme.sunlight
                               : PebbleTheme.inkFaint.opacity(0.4))
                         .frame(width: 7, height: 7)
 
-                    Text(entry.goal)
+                    Text(goal)
                         .font(PebbleTheme.label(14))
                         .foregroundStyle(PebbleTheme.inkSoft)
 
                     Spacer()
 
-                    if let emotion = entry.emotion {
+                    if let emotion {
                         Text(emotion)
                             .font(PebbleTheme.label(12))
                             .foregroundStyle(PebbleTheme.inkFaint)
@@ -130,16 +163,18 @@ struct AllRecordsView: View {
                             .background(PebbleTheme.surfaceMuted)
                             .clipShape(Capsule())
                     }
+
+                    menu(for: entry)
                 }
 
-                if let review = entry.note.review {
+                if let review {
                     Text(review)
                         .font(PebbleTheme.body(16))
                         .foregroundStyle(PebbleTheme.ink)
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
-                if let plan = entry.note.plan {
+                if let plan {
                     // 그때 스스로 정한 다음 걸음 (§6).
                     HStack(alignment: .top, spacing: 5) {
                         Image(systemName: "arrow.turn.down.right")
@@ -155,13 +190,54 @@ struct AllRecordsView: View {
 
                 // 적힌 말이 하나도 없는 기록도 지우지 않는다. 그날 뭔가 있었다는
                 // 사실 자체가 기록이다.
-                if entry.note.review == nil && entry.note.plan == nil {
-                    Text(entry.note.reached ? "닿았다고만 남겼어요." : "남긴 말은 없어요.")
+                if review == nil && plan == nil {
+                    Text(entry.isGoalInUnwrapped ? "닿았다고만 남겼어요." : "남긴 말은 없어요.")
                         .font(PebbleTheme.body(15))
                         .foregroundStyle(PebbleTheme.inkFaint)
                 }
             }
         }
+        // 길게 눌러도 같은 메뉴가 뜬다. 작은 점 세 개를 못 찾는 사람이 있다.
+        .contextMenu {
+            editButton(entry)
+            deleteButton(entry)
+        }
+    }
+
+    /// 기록마다의 손보기 메뉴.
+    private func menu(for entry: JournalData) -> some View {
+        Menu {
+            editButton(entry)
+            deleteButton(entry)
+        } label: {
+            Image(systemName: "ellipsis")
+                .font(.system(size: 13, weight: .semibold))
+                .foregroundStyle(PebbleTheme.inkFaint)
+                .frame(width: 28, height: 24)
+                .contentShape(Rectangle())
+        }
+    }
+
+    private func editButton(_ entry: JournalData) -> some View {
+        Button {
+            editing = entry
+        } label: {
+            Label("고치기", systemImage: "pencil")
+        }
+    }
+
+    private func deleteButton(_ entry: JournalData) -> some View {
+        Button(role: .destructive) {
+            pendingDelete = entry
+        } label: {
+            Label("지우기", systemImage: "trash")
+        }
+    }
+
+    private func text(_ value: String?) -> String? {
+        guard let value else { return nil }
+        let clean = value.trimmingCharacters(in: .whitespacesAndNewlines)
+        return clean.isEmpty ? nil : clean
     }
 
     private func title(for day: Date) -> String {
