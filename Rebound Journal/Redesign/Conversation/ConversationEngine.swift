@@ -195,14 +195,14 @@ final class ConversationEngine {
             facts: facts,
             emotion: emotionWord ?? currentEmotionLabel
         ))
-        response = .acknowledgement("네")
+        response = .acknowledgement(Phrasing.say("네", "응"))
     }
 
     private func showRecall(_ success: PastSuccess) {
         beat = .recall
         mood = .warm
         say(success.recollection)
-        response = .acknowledgement("그랬죠")
+        response = .acknowledgement(Phrasing.say("그랬죠", "그랬지"))
     }
 
     /// 여기가 §5의 "실패 직후에는 분석을 강요하지 말라"를 실행하는 지점이다.
@@ -244,8 +244,9 @@ final class ConversationEngine {
     }
 
     private var currentEmotionLabel: String {
-        guard let emotionValue else { return "그저 그래요" }
-        return ConversationScript.emotionSteps.first { $0.value == emotionValue }?.label ?? "그저 그래요"
+        let fallback = Phrasing.say("그저 그래요", "그저 그래")
+        guard let emotionValue else { return fallback }
+        return ConversationScript.emotionSteps.first { $0.value == emotionValue }?.label ?? fallback
     }
 
     // MARK: - 저장

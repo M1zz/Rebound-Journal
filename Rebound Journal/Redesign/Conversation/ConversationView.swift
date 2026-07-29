@@ -195,7 +195,7 @@ struct ConversationView: View {
     private var listeningBubbleContent: some View {
         HStack(spacing: 8) {
             if speech.displayText.isEmpty {
-                Text("듣고 있어요")
+                Text(Phrasing.say("듣고 있어요", "듣고 있어"))
                     .font(PebbleTheme.body(16))
                     .foregroundStyle(PebbleTheme.inkFaint)
             } else {
@@ -262,7 +262,7 @@ struct ConversationView: View {
         } else {
             VStack(spacing: 8) {
                 if isTidying {
-                    Text("정리하고 있어요…")
+                    Text(Phrasing.say("정리하고 있어요…", "정리하고 있어…"))
                         .font(PebbleTheme.label(13))
                         .foregroundStyle(PebbleTheme.inkFaint)
                 } else if case .unavailable(let note) = speech.phase {
@@ -340,7 +340,7 @@ struct ConversationView: View {
         VStack(spacing: 10) {
             SoftCard(background: PebbleTheme.surfaceMuted) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("혹시 이런 뜻인가요?")
+                    Text(Phrasing.say("혹시 이런 뜻인가요?", "혹시 이런 뜻이야?"))
                         .font(PebbleTheme.label(13))
                         .foregroundStyle(PebbleTheme.inkFaint)
                     Text(tidied)
@@ -351,8 +351,8 @@ struct ConversationView: View {
             }
 
             ReplyOptions(choices: [
-                ReplyChoice(id: "yes", label: "맞아요", isPrimary: true),
-                ReplyChoice(id: "edit", label: "조금 달라요")
+                ReplyChoice(id: "yes", label: Phrasing.say("맞아요", "맞아"), isPrimary: true),
+                ReplyChoice(id: "edit", label: Phrasing.say("조금 달라요", "조금 달라"))
             ]) { picked in
                 if picked.id == "yes" {
                     engine.submitFreeform(tidied)
@@ -428,7 +428,7 @@ struct ConversationView: View {
                 .frame(height: 38)
 
                 ReplyOptions(choices: [
-                    ReplyChoice(id: "done", label: "이걸로 할게요", isPrimary: true)
+                    ReplyChoice(id: "done", label: Phrasing.say("이걸로 할게요", "이걸로 할게"), isPrimary: true)
                 ]) { _ in
                     engine.submitEmotion(value: selectedEmotion, word: selectedWord)
                 }

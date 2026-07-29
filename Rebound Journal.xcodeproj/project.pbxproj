@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
+		9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */; };
 		215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BFD81E3954E97EE45C6A4 /* Phrasing.swift */; };
 		F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
@@ -99,6 +101,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTips.swift; sourceTree = "<group>"; };
+		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
 		E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
 		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
@@ -204,6 +208,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62173F9EBD4C53E4BB0ABD98 /* Guidance */ = {
+			isa = PBXGroup;
+			children = (
+			
+				AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */,);
+			path = Guidance;
+			sourceTree = "<group>";
+		};
 		12AC9953CF8C3B82C7052CE2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,7 +256,8 @@
 				979420319212C0F8FD12EB31 /* ConversationEngine.swift */,
 				C4793847AD7E6899F390C7B5 /* ConversationView.swift */,
 				D41606D32B4E15054B74956C /* ChatBubble.swift */,
-				753BFD81E3954E97EE45C6A4 /* Phrasing.swift */,);
+				753BFD81E3954E97EE45C6A4 /* Phrasing.swift */,
+				50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */,);
 			path = Conversation;
 			sourceTree = "<group>";
 		};
@@ -286,7 +299,8 @@
 				24B10987BE8A939853EC5FBD /* Conversation */,
 				A8D0DEC093A1C379B2A46325 /* Intelligence */,
 				37A6322C99CD327DC7B22EBD /* Voice */,
-				12AC9953CF8C3B82C7052CE2 /* Home */,);
+				12AC9953CF8C3B82C7052CE2 /* Home */,
+				62173F9EBD4C53E4BB0ABD98 /* Guidance */,);
 			path = Redesign;
 			sourceTree = "<group>";
 		};
@@ -751,7 +765,9 @@
 				4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */,
 				02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */,
 				F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */,
-				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,);
+				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,
+				9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */,
+				DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */

@@ -65,7 +65,7 @@ struct AllRecordsView: View {
             EditRecordView(record: record)
         }
         .confirmationDialog(
-            "이 기록을 지울까요?",
+            Phrasing.say("이 기록을 지울까요?", "이 기록을 지울까?"),
             isPresented: Binding(
                 get: { pendingDelete != nil },
                 set: { if !$0 { pendingDelete = nil } }
@@ -76,10 +76,10 @@ struct AllRecordsView: View {
                 if let pendingDelete { delete(pendingDelete) }
                 pendingDelete = nil
             }
-            Button("그대로 둘게요", role: .cancel) { pendingDelete = nil }
+            Button(Phrasing.say("그대로 둘게요", "그대로 둘게"), role: .cancel) { pendingDelete = nil }
         } message: {
             // 되돌릴 수 없다는 걸 미리 말한다. 여기 적힌 건 다시 쓰기 어려운 것들이다.
-            Text("지우면 되돌릴 수 없어요.")
+            Text(Phrasing.say("지우면 되돌릴 수 없어요.", "지우면 되돌릴 수 없어."))
         }
     }
 
@@ -111,7 +111,7 @@ struct AllRecordsView: View {
         VStack(spacing: 14) {
             Spacer()
             PebbleView(mood: .resting, size: 110)
-            Text("아직 남긴 게 없어요.")
+            Text(Phrasing.say("아직 남긴 게 없어요.", "아직 남긴 게 없어."))
                 .font(PebbleTheme.body(16))
                 .foregroundStyle(PebbleTheme.inkFaint)
             Spacer()
@@ -191,7 +191,9 @@ struct AllRecordsView: View {
                 // 적힌 말이 하나도 없는 기록도 지우지 않는다. 그날 뭔가 있었다는
                 // 사실 자체가 기록이다.
                 if review == nil && plan == nil {
-                    Text(entry.isGoalInUnwrapped ? "닿았다고만 남겼어요." : "남긴 말은 없어요.")
+                    Text(entry.isGoalInUnwrapped
+                        ? Phrasing.say("닿았다고만 남겼어요.", "닿았다고만 남겼어.")
+                        : Phrasing.say("남긴 말은 없어요.", "남긴 말은 없어."))
                         .font(PebbleTheme.body(15))
                         .foregroundStyle(PebbleTheme.inkFaint)
                 }

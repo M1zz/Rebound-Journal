@@ -69,7 +69,10 @@ struct AddGoalView: View {
 
                 if step == .smaller {
                     // 쪼개기를 강요하지 않는다. 지금 못 쪼개는 상태일 수도 있다.
-                    Text("떠오르지 않으면 비워둬도 돼요. 나중에 같이 찾아요.")
+                    Text(Phrasing.say(
+                        "떠오르지 않으면 비워둬도 돼요. 나중에 같이 찾아요.",
+                        "떠오르지 않으면 비워둬도 돼. 나중에 같이 찾자."
+                    ))
                         .font(PebbleTheme.label(13))
                         .foregroundStyle(PebbleTheme.inkFaint)
                 }
@@ -98,23 +101,28 @@ struct AddGoalView: View {
     private var question: String {
         switch step {
         case .direction:
-            "무엇을 향해 가고 있어요?"
+            Phrasing.say("무엇을 향해 가고 있어요?", "무엇을 향해 가고 있어?")
         case .smaller:
-            "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?"
+            Phrasing.say(
+                "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?",
+                "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?"
+            )
         }
     }
 
     private var placeholder: String {
         switch step {
-        case .direction: "크게 적어도 괜찮아요."
-        case .smaller: "작을수록 좋아요. 5분짜리여도 괜찮아요."
+        case .direction: Phrasing.say("크게 적어도 괜찮아요.", "크게 적어도 괜찮아.")
+        case .smaller: Phrasing.say("작을수록 좋아요. 5분짜리여도 괜찮아요.", "작을수록 좋아. 5분짜리여도 괜찮아.")
         }
     }
 
     private var primaryLabel: String {
         switch step {
         case .direction: "다음"
-        case .smaller: trimmed(smallest).isEmpty ? "이대로 둘게요" : "이걸로 시작할게요"
+        case .smaller: trimmed(smallest).isEmpty
+            ? Phrasing.say("이대로 둘게요", "이대로 둘게")
+            : Phrasing.say("이걸로 시작할게요", "이걸로 시작할게")
         }
     }
 

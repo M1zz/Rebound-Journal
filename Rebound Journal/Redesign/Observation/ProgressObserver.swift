@@ -40,51 +40,107 @@ struct GoalObservation: Equatable, Identifiable {
     var headline: String {
         switch kind {
         case .noGoalYet:
-            Phrasing.pick([
-                "무엇을 향해 가고 있는지 아직 못 들었어요.",
-                "아직 어디로 가는 중인지 못 들었어요.",
-                "향하는 곳을 아직 못 들었네요."
-            ], seed: Phrasing.today())
+            Phrasing.pick(
+                formal: [
+                    "무엇을 향해 가고 있는지 아직 못 들었어요.",
+                    "아직 어디로 가는 중인지 못 들었어요.",
+                    "향하는 곳을 아직 못 들었네요."
+                ],
+                casual: [
+                    "무엇을 향해 가고 있는지 아직 못 들었어.",
+                    "아직 어디로 가는 중인지 못 들었어.",
+                    "향하는 곳을 아직 못 들었네."
+                ],
+                seed: Phrasing.today()
+            )
 
         case .neverAttempted(let goal):
-            Phrasing.pick([
-                "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요.",
-                "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이에요.",
-                "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해요."
-            ], seed: Phrasing.today(with: goal))
+            Phrasing.pick(
+                formal: [
+                    "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요.",
+                    "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이에요.",
+                    "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해요."
+                ],
+                casual: [
+                    "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네.",
+                    "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이야.",
+                    "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해."
+                ],
+                seed: Phrasing.today(with: goal)
+            )
 
         case .reached(let goal, let daysAgo):
             daysAgo == 0
-                ? Phrasing.pick([
-                    "오늘 '\(goal)'에 닿았네요.",
-                    "오늘 '\(goal)', 해내셨네요.",
-                    "'\(goal)'에 닿은 하루였네요."
-                ], seed: Phrasing.today(with: goal))
-                : Phrasing.pick([
-                    "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요.",
-                    "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해내셨죠.",
-                    "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어요."
-                ], seed: Phrasing.today(with: goal))
+                ? Phrasing.pick(
+                    formal: [
+                        "오늘 '\(goal)'에 닿았네요.",
+                        "오늘 '\(goal)', 해내셨네요.",
+                        "'\(goal)'에 닿은 하루였네요."
+                    ],
+                    casual: [
+                        "오늘 '\(goal)'에 닿았네.",
+                        "오늘 '\(goal)', 해냈네.",
+                        "'\(goal)'에 닿은 하루였네."
+                    ],
+                    seed: Phrasing.today(with: goal)
+                )
+                : Phrasing.pick(
+                    formal: [
+                        "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요.",
+                        "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해내셨죠.",
+                        "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어요."
+                    ],
+                    casual: [
+                        "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어.",
+                        "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해냈지.",
+                        "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어."
+                    ],
+                    seed: Phrasing.today(with: goal)
+                )
 
         case .notReached(let goal, let daysAgo):
             daysAgo <= 1
-                ? Phrasing.pick([
-                    "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요.",
-                    "'\(goal)', 오늘은 아직이네요.",
-                    "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어요."
-                ], seed: Phrasing.today(with: goal))
-                : Phrasing.pick([
-                    "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요.",
-                    "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요.",
-                    "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어요."
-                ], seed: Phrasing.today(with: goal))
+                ? Phrasing.pick(
+                    formal: [
+                        "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요.",
+                        "'\(goal)', 오늘은 아직이네요.",
+                        "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어요."
+                    ],
+                    casual: [
+                        "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네.",
+                        "'\(goal)', 오늘은 아직이네.",
+                        "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어."
+                    ],
+                    seed: Phrasing.today(with: goal)
+                )
+                : Phrasing.pick(
+                    formal: [
+                        "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요.",
+                        "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요.",
+                        "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어요."
+                    ],
+                    casual: [
+                        "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어.",
+                        "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네.",
+                        "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어."
+                    ],
+                    seed: Phrasing.today(with: goal)
+                )
 
         case .quiet:
-            Phrasing.pick([
-                "오늘은 그냥 옆에 있을게요.",
-                "오늘은 조용히 있을게요.",
-                "딱히 할 말은 없어요. 그냥 여기 있어요."
-            ], seed: Phrasing.today())
+            Phrasing.pick(
+                formal: [
+                    "오늘은 그냥 옆에 있을게요.",
+                    "오늘은 조용히 있을게요.",
+                    "딱히 할 말은 없어요. 그냥 여기 있어요."
+                ],
+                casual: [
+                    "오늘은 그냥 옆에 있을게.",
+                    "오늘은 조용히 있을게.",
+                    "딱히 할 말은 없어. 그냥 여기 있어."
+                ],
+                seed: Phrasing.today()
+            )
         }
     }
 
@@ -100,22 +156,45 @@ struct GoalObservation: Equatable, Identifiable {
     var invitation: String? {
         switch kind {
         case .notReached(let goal, _):
-            Phrasing.pick([
-                "무슨 일이 있었는지 얘기하기",
-                "그때 얘기 해볼래요",
-                "잠깐 얘기해요"
-            ], seed: Phrasing.today(with: goal))
+            Phrasing.pick(
+                formal: [
+                    "무슨 일이 있었는지 얘기하기",
+                    "그때 얘기 해볼래요",
+                    "잠깐 얘기해요"
+                ],
+                casual: [
+                    "무슨 일이 있었는지 얘기하기",
+                    "그때 얘기 해볼래",
+                    "잠깐 얘기하자"
+                ],
+                seed: Phrasing.today(with: goal)
+            )
         case .reached(let goal, _):
-            Phrasing.pick([
-                "어떻게 됐는지 남기기",
-                "뭐가 통했는지 적어두기",
-                "잊기 전에 적어둘래요"
-            ], seed: Phrasing.today(with: goal))
+            Phrasing.pick(
+                formal: [
+                    "어떻게 됐는지 남기기",
+                    "뭐가 통했는지 적어두기",
+                    "잊기 전에 적어둘래요"
+                ],
+                casual: [
+                    "어떻게 됐는지 남기기",
+                    "뭐가 통했는지 적어두기",
+                    "잊기 전에 적어둘래"
+                ],
+                seed: Phrasing.today(with: goal)
+            )
         case .neverAttempted(let goal):
-            Phrasing.pick([
-                "지금 얘기해보기",
-                "여기서부터 얘기해요"
-            ], seed: Phrasing.today(with: goal))
+            Phrasing.pick(
+                formal: [
+                    "지금 얘기해보기",
+                    "여기서부터 얘기해요"
+                ],
+                casual: [
+                    "지금 얘기해보기",
+                    "여기서부터 얘기하자"
+                ],
+                seed: Phrasing.today(with: goal)
+            )
         case .noGoalYet, .quiet: nil
         }
     }
@@ -155,11 +234,19 @@ struct PastSuccess: Equatable {
         case 8...20: "지난주쯤"
         default: "얼마 전"
         }
-        return Phrasing.pick([
-            "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요.",
-            "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해내셨잖아요.",
-            "\(when)에는 '\(goal)'에 닿으셨고요."
-        ], seed: Phrasing.today(with: goal))
+        return Phrasing.pick(
+            formal: [
+                "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요.",
+                "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해내셨잖아요.",
+                "\(when)에는 '\(goal)'에 닿으셨고요."
+            ],
+            casual: [
+                "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해냈어.",
+                "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해냈잖아.",
+                "\(when)에는 '\(goal)'에 닿았고."
+            ],
+            seed: Phrasing.today(with: goal)
+        )
     }
 }
 
@@ -182,19 +269,35 @@ struct PreviousNote: Equatable {
             // "…부터 시작하기"처럼 사용자가 쓴 말에 이미 조사가 들어 있는 경우가 많다.
             // 여기서 또 "부터"를 붙이면 겹치므로 목적격 조사만 쓴다.
             let short = PreviousNote.condensed(plan)
-            return Phrasing.pick([
-                "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요.",
-                "지난번에 '\(short)'\(short.particle("으로", "로")) 정하셨었죠.",
-                "그때 '\(short)'\(short.particle("을", "를")) 해보자고 하셨어요."
-            ], seed: Phrasing.today(with: short))
+            return Phrasing.pick(
+                formal: [
+                    "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요.",
+                    "지난번에 '\(short)'\(short.particle("으로", "로")) 정하셨었죠.",
+                    "그때 '\(short)'\(short.particle("을", "를")) 해보자고 하셨어요."
+                ],
+                casual: [
+                    "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어.",
+                    "지난번에 '\(short)'\(short.particle("으로", "로")) 정했었지.",
+                    "그때 '\(short)'\(short.particle("을", "를")) 해보자고 했었어."
+                ],
+                seed: Phrasing.today(with: short)
+            )
         }
         if let review = PreviousNote.trimmed(review) {
             let short = PreviousNote.condensed(review)
-            return Phrasing.pick([
-                "지난번엔 '\(short)'라고 적으셨어요.",
-                "그때는 '\(short)'라고 하셨죠.",
-                "지난 기록엔 '\(short)'라고 남아 있어요."
-            ], seed: Phrasing.today(with: short))
+            return Phrasing.pick(
+                formal: [
+                    "지난번엔 '\(short)'라고 적으셨어요.",
+                    "그때는 '\(short)'라고 하셨죠.",
+                    "지난 기록엔 '\(short)'라고 남아 있어요."
+                ],
+                casual: [
+                    "지난번엔 '\(short)'라고 적었어.",
+                    "그때는 '\(short)'라고 했었지.",
+                    "지난 기록엔 '\(short)'라고 남아 있어."
+                ],
+                seed: Phrasing.today(with: short)
+            )
         }
         return nil
     }

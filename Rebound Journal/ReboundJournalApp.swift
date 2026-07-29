@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 import LeeoKit
 
 @main
@@ -17,6 +18,16 @@ struct ReboundJournalApp: App {
 
     init() {
         LeeoEngagement.shared.registerLaunch()
+
+        // 안내는 조건이 맞는 순간 바로 띄운다. TipKit의 기본값은 하루에 하나라,
+        // 그대로 두면 "대화를 한 번 끝냈을 때"라는 조건을 맞춰 놓고도 안내가
+        // 다음 날로 밀린다. 그때는 이미 그 안내가 필요한 순간이 아니다.
+        //
+        // 실패해도 앱은 그대로 돌아간다. 안내가 안 뜰 뿐이라 붙잡지 않는다.
+        try? Tips.configure([
+            .displayFrequency(.immediate),
+            .datastoreLocation(.applicationDefault)
+        ])
     }
 
     var sharedModelContainer: ModelContainer = {

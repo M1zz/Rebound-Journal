@@ -16,6 +16,7 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 struct TodayView: View {
 
@@ -41,6 +42,12 @@ struct TodayView: View {
     @State private var shownGreetings: Set<UUID> = []
     /// 지금 답을 기다리는 물음. 답하면 비운다.
     @State private var followUp: FollowUp?
+
+    /// 말투. 문구는 `SpeechStyle.current`가 알아서 읽어가지만, **바뀌었다는 걸
+    /// 화면이 알아야** 이미 찍어 놓은 말풍선을 다시 쓸 수 있다.
+    @AppStorage(SpeechStyle.storageKey) private var speechStyle = SpeechStyle.formal.rawValue
+
+    private let speechStyleTip = SpeechStyleTip()
 
     private var observation: GoalObservation {
         if let selectedGoal {
@@ -73,6 +80,9 @@ struct TodayView: View {
             // 고르게 두어야, 사용자가 고른 목표에 계속 매여 있지 않는다.
             selectedGoal = nil
             resetGreeting()
+            // 조약돌이 말하는 걸 한 번 겪었다. 이제 "말투를 바꿀 수 있다"는
+            // 안내가 뜻을 갖는다.
+            Task { await SpeechStyleTip.conversationFinished.donate() }
         } content: { observation in
             ConversationView(observation: observation, journals: journals)
         }
@@ -131,6 +141,13 @@ struct TodayView: View {
             .onChange(of: greeting.count) { _, _ in scrollToLatest(proxy, animated: true) }
             // 목표가 바뀌면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
             .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
+            // 말투가 바뀌면 처음부터 다시 인사한다.
+            //
+            // 이미 나온 말풍선의 글자만 조용히 갈아끼울 수도 있지만, 그러면
+            // 방금 읽은 문장이 눈앞에서 다른 문장으로 바뀐다. 다시 인사하게
+            // 두는 편이 낫다. 바뀐 말투를 곧바로 들려주는 자리도 되고,
+            // 되돌리고 싶으면 그 자리에서 판단할 수 있다.
+            .onChange(of: speechStyle) { _, _ in resetGreeting() }
         }
     }
 
@@ -161,16 +178,16 @@ struct TodayView: View {
             // 됐다/안 됐다로만 물으면 실제 상태가 안 담긴다. 안 된 이유가
             // 하나가 아니라서다 — 잊은 것과 미루는 것은 다른 얘기다.
             return [
-                ReplyChoice(id: "done", label: "했어요, 기록만 못 했고요"),
-                ReplyChoice(id: "forgot", label: "잊고 있었어요"),
-                ReplyChoice(id: "postponed", label: "자꾸 미루게 돼요"),
-                ReplyChoice(id: "later", label: "지금은 그냥 둘래요")
+                ReplyChoice(id: "done", label: Phrasing.say("했어요, 기록만 못 했고요", "했어, 기록만 못 했고")),
+                ReplyChoice(id: "forgot", label: Phrasing.say("잊고 있었어요", "잊고 있었어")),
+                ReplyChoice(id: "postponed", label: Phrasing.say("자꾸 미루게 돼요", "자꾸 미루게 돼")),
+                ReplyChoice(id: "later", label: Phrasing.say("지금은 그냥 둘래요", "지금은 그냥 둘래"))
             ]
         }
         if isFirstMeeting {
             // "나중에요"를 따로 두지 않는다. 눌러도 조약돌이 한마디 하고 끝이라
             // 아무 일도 일어나지 않는 장식이 된다. 안 누르는 것이 이미 나중이다.
-            return [ReplyChoice(id: "start", label: "적어볼게요", isPrimary: true)]
+            return [ReplyChoice(id: "start", label: Phrasing.say("적어볼게요", "적어볼게"), isPrimary: true)]
         }
         if let invitation = observation.invitation {
             return [ReplyChoice(id: "talk", label: invitation, isPrimary: true)]
@@ -365,6 +382,9 @@ struct TodayView: View {
                 Image(systemName: "ellipsis.circle")
                     .foregroundStyle(PebbleTheme.inkSoft)
             }
+            // 설정이 이 안에 있다는 걸 같이 알려준다. 안내만 읽고 어디로
+            // 가야 할지 모르면 안내가 아니라 광고가 된다.
+            .popoverTip(speechStyleTip)
         }
     }
 }

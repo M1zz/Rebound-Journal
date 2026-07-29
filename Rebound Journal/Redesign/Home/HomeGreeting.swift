@@ -67,10 +67,21 @@ enum HomeGreeting {
     /// 메타포는 설명하지 않는다 (§4). 징검다리가 어떻고 실패가 어떻고를 늘어놓지
     /// 않고, 이 앱이 실제로 하는 일만 말한다 — 내가 먼저 보고 말을 건다는 것.
     static func introduction() -> [GreetingLine] {
+        // 반말이어도 첫마디는 자기소개다. 말투가 가까워졌다고 해서 초면에
+        // 설명을 건너뛰면, 친근한 게 아니라 무례한 쪽으로 읽힌다.
         [
-            GreetingLine(text: "안녕하세요. 저는 징검돌이에요."),
-            GreetingLine(text: "무엇에 닿았고 무엇이 막혔는지, 제가 먼저 보고 말을 걸게요."),
-            GreetingLine(text: "지금 향하고 있는 게 있으면 하나만 들려주실래요?")
+            GreetingLine(text: Phrasing.say(
+                "안녕하세요. 저는 징검돌이에요.",
+                "안녕. 나는 징검돌이야."
+            )),
+            GreetingLine(text: Phrasing.say(
+                "무엇에 닿았고 무엇이 막혔는지, 제가 먼저 보고 말을 걸게요.",
+                "무엇에 닿았고 무엇이 막혔는지, 내가 먼저 보고 말을 걸게."
+            )),
+            GreetingLine(text: Phrasing.say(
+                "지금 향하고 있는 게 있으면 하나만 들려주실래요?",
+                "지금 향하고 있는 게 있으면 하나만 들려줄래?"
+            ))
         ]
     }
 
@@ -109,17 +120,33 @@ enum HomeGreeting {
     private static func statusLine(observation: GoalObservation, goalCount: Int) -> String? {
         switch observation.kind {
         case .reached:
-            Phrasing.pick([
-                "나머지도 천천히 보면 돼요.",
-                "다른 것들은 천천히 해요.",
-                "나머지는 서두르지 않아도 돼요."
-            ], seed: Phrasing.today())
+            Phrasing.pick(
+                formal: [
+                    "나머지도 천천히 보면 돼요.",
+                    "다른 것들은 천천히 해요.",
+                    "나머지는 서두르지 않아도 돼요."
+                ],
+                casual: [
+                    "나머지도 천천히 보면 돼.",
+                    "다른 것들은 천천히 하자.",
+                    "나머지는 서두르지 않아도 돼."
+                ],
+                seed: Phrasing.today()
+            )
         case .notReached, .neverAttempted:
-            Phrasing.pick([
-                "다른 것들은 그대로 두고, 이거 하나만 볼까요?",
-                "나머지는 접어두고 이것만 봐요.",
-                "오늘은 이거 하나면 충분해요."
-            ], seed: Phrasing.today())
+            Phrasing.pick(
+                formal: [
+                    "다른 것들은 그대로 두고, 이거 하나만 볼까요?",
+                    "나머지는 접어두고 이것만 봐요.",
+                    "오늘은 이거 하나면 충분해요."
+                ],
+                casual: [
+                    "다른 것들은 그대로 두고, 이거 하나만 볼까?",
+                    "나머지는 접어두고 이것만 보자.",
+                    "오늘은 이거 하나면 충분해."
+                ],
+                seed: Phrasing.today()
+            )
         case .noGoalYet, .quiet:
             nil
         }
@@ -139,27 +166,50 @@ enum HomeGreeting {
             // 어느 목표 얘기였는지 먼저 대고, 그때 사용자가 쓴 말을 그대로 인용한다.
             // 앱이 요약해 버리면 남의 말이 된다.
             let quote = condensed(blocked)
-            context = Phrasing.pick([
-                "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 하셨어요.",
-                "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남기셨죠.",
-                "'\(goal)'에 대해 \(when) '\(quote)'라고 적으셨어요."
-            ], seed: Phrasing.today(with: goal))
+            context = Phrasing.pick(
+                formal: [
+                    "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 하셨어요.",
+                    "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남기셨죠.",
+                    "'\(goal)'에 대해 \(when) '\(quote)'라고 적으셨어요."
+                ],
+                casual: [
+                    "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 했잖아.",
+                    "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남겼지.",
+                    "'\(goal)'에 대해 \(when) '\(quote)'라고 적었어."
+                ],
+                seed: Phrasing.today(with: goal)
+            )
         } else {
-            context = Phrasing.pick([
-                "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요.",
-                "\(when) '\(goal)'에서 걸렸다고 남기셨죠."
-            ], seed: Phrasing.today(with: goal))
+            context = Phrasing.pick(
+                formal: [
+                    "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요.",
+                    "\(when) '\(goal)'에서 걸렸다고 남기셨죠."
+                ],
+                casual: [
+                    "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 했잖아.",
+                    "\(when) '\(goal)'에서 걸렸다고 남겼지."
+                ],
+                seed: Phrasing.today(with: goal)
+            )
         }
 
         return FollowUp(
             journalID: id,
             goal: goal,
             context: context,
-            question: Phrasing.pick([
-                "그건 어떻게 됐어요?",
-                "그 뒤로는 어떻게 됐어요?",
-                "지금은 어떤가요?"
-            ], seed: Phrasing.today(with: goal))
+            question: Phrasing.pick(
+                formal: [
+                    "그건 어떻게 됐어요?",
+                    "그 뒤로는 어떻게 됐어요?",
+                    "지금은 어떤가요?"
+                ],
+                casual: [
+                    "그건 어떻게 됐어?",
+                    "그 뒤로는 어떻게 됐어?",
+                    "지금은 어때?"
+                ],
+                seed: Phrasing.today(with: goal)
+            )
         )
     }
 
@@ -168,30 +218,54 @@ enum HomeGreeting {
         let seed = Phrasing.today(with: goal)
         switch answer {
         case .done:
-            return Phrasing.pick([
-                "그럼 그건 끝난 얘기네요. 지금 적어둘게요.",
-                "잘됐네요. 지금 남겨둘게요.",
-                "그럼 매듭지어 둘게요."
-            ], seed: seed)
+            return Phrasing.pick(
+                formal: [
+                    "그럼 그건 끝난 얘기네요. 지금 적어둘게요.",
+                    "잘됐네요. 지금 남겨둘게요.",
+                    "그럼 매듭지어 둘게요."
+                ],
+                casual: [
+                    "그럼 그건 끝난 얘기네. 지금 적어둘게.",
+                    "잘됐네. 지금 남겨둘게.",
+                    "그럼 매듭지어 둘게."
+                ],
+                seed: seed
+            )
 
         case .forgot:
             // 잊은 걸 나무라지 않는다. 눈에 안 띄었던 것뿐이다.
-            return Phrasing.pick([
-                "그럴 수 있어요. 잊었다고 없어지는 건 아니니까요.",
-                "그럴 수 있죠. 잊은 건 잊은 거고요.",
-                "괜찮아요. 눈에 안 띄었을 뿐이에요."
-            ], seed: seed)
+            return Phrasing.pick(
+                formal: [
+                    "그럴 수 있어요. 잊었다고 없어지는 건 아니니까요.",
+                    "그럴 수 있죠. 잊은 건 잊은 거고요.",
+                    "괜찮아요. 눈에 안 띄었을 뿐이에요."
+                ],
+                casual: [
+                    "그럴 수 있어. 잊었다고 없어지는 건 아니니까.",
+                    "그럴 수 있지. 잊은 건 잊은 거고.",
+                    "괜찮아. 눈에 안 띄었을 뿐이야."
+                ],
+                seed: seed
+            )
 
         case .postponed:
             // 여기서는 대화가 열리므로 이 말은 쓰이지 않는다.
-            return "그럼 그 얘기를 해볼까요."
+            return Phrasing.say("그럼 그 얘기를 해볼까요.", "그럼 그 얘기를 해볼까.")
 
         case .later:
-            return Phrasing.pick([
-                "알겠어요. 여기 있을게요.",
-                "네, 그냥 둘게요.",
-                "그래요. 다음에 얘기해요."
-            ], seed: seed)
+            return Phrasing.pick(
+                formal: [
+                    "알겠어요. 여기 있을게요.",
+                    "네, 그냥 둘게요.",
+                    "그래요. 다음에 얘기해요."
+                ],
+                casual: [
+                    "알겠어. 여기 있을게.",
+                    "응, 그냥 둘게.",
+                    "그래. 다음에 얘기하자."
+                ],
+                seed: seed
+            )
         }
     }
 

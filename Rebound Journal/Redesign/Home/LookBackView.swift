@@ -129,7 +129,10 @@ struct LookBackView: View {
 
                 if entries.isEmpty {
                     // 빈 날을 나무라지 않는다. 돌은 그대로 거기 있다.
-                    Text("이날은 지나갔어요. 그래도 돌은 그대로 있어요.")
+                    Text(Phrasing.say(
+                        "이날은 지나갔어요. 그래도 돌은 그대로 있어요.",
+                        "이날은 지나갔어. 그래도 돌은 그대로 있어."
+                    ))
                         .font(PebbleTheme.body(15))
                         .foregroundStyle(PebbleTheme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
@@ -192,7 +195,7 @@ struct LookBackView: View {
             .padding(.horizontal, 4)
 
             if goals.isEmpty {
-                Text("아직 향하는 곳이 없어요.")
+                Text(Phrasing.say("아직 향하는 곳이 없어요.", "아직 향하는 곳이 없어."))
                     .font(PebbleTheme.body(15))
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .padding(.horizontal, 4)
@@ -295,7 +298,7 @@ struct LookBackView: View {
 
         VStack(alignment: .leading, spacing: 0) {
             if entries.isEmpty {
-                Text("아직 남긴 이야기가 없어요.")
+                Text(Phrasing.say("아직 남긴 이야기가 없어요.", "아직 남긴 이야기가 없어."))
                     .font(PebbleTheme.label(13))
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .padding(.horizontal, 22)
@@ -306,7 +309,10 @@ struct LookBackView: View {
                     noteRow(note)
                 }
                 if entries.count > Self.visibleNotes {
-                    Text("이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어요.")
+                    Text(Phrasing.say(
+                        "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어요.",
+                        "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어."
+                    ))
                         .font(PebbleTheme.label(12))
                         .foregroundStyle(PebbleTheme.inkFaint)
                         .padding(.horizontal, 22)
@@ -316,7 +322,7 @@ struct LookBackView: View {
 
             // 보다가 얘기하고 싶어지는 자리. 여기서 바로 대화로 넘어간다.
             ReplyOptions(choices: [
-                ReplyChoice(id: "talk", label: "이 얘기 할래요", isPrimary: true)
+                ReplyChoice(id: "talk", label: Phrasing.say("이 얘기 할래요", "이 얘기 할래"), isPrimary: true)
             ]) { _ in
                 onPickGoal(goal)
                 dismiss()
