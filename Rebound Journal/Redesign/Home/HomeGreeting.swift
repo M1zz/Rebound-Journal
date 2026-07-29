@@ -74,9 +74,6 @@ enum HomeGreeting {
         ]
     }
 
-    /// 첫 만남에서 "나중에요"라고 했을 때. 붙잡지 않는다.
-    static let introDeferred = "네, 그럼 그때 얘기해요. 여기 있을게요."
-
     /// 조약돌이 처음 건네는 말들.
     static func lines(
         observation: GoalObservation,

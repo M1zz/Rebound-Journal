@@ -40,8 +40,6 @@ struct TodayView: View {
     @State private var shownGreetings: Set<UUID> = []
     /// 지금 답을 기다리는 물음. 답하면 비운다.
     @State private var followUp: FollowUp?
-    /// 첫 만남에서 "나중에요"라고 했는지. 같은 권유를 다시 띄우지 않는다.
-    @State private var didDeferIntro = false
 
     private var observation: GoalObservation {
         if let selectedGoal {
@@ -165,13 +163,10 @@ struct TodayView: View {
                 ReplyChoice(id: "later", label: "지금은 그냥 둘래요")
             ]
         }
-        if didDeferIntro { return [] }
         if isFirstMeeting {
-            // 처음부터 빠져나갈 길을 함께 둔다. 첫 화면에서 요구만 남으면 닫게 된다 (§5).
-            return [
-                ReplyChoice(id: "start", label: "적어볼게요", isPrimary: true),
-                ReplyChoice(id: "notNow", label: "나중에요")
-            ]
+            // "나중에요"를 따로 두지 않는다. 눌러도 조약돌이 한마디 하고 끝이라
+            // 아무 일도 일어나지 않는 장식이 된다. 안 누르는 것이 이미 나중이다.
+            return [ReplyChoice(id: "start", label: "적어볼게요", isPrimary: true)]
         }
         if let invitation = observation.invitation {
             return [ReplyChoice(id: "talk", label: invitation, isPrimary: true)]
@@ -189,9 +184,6 @@ struct TodayView: View {
         case "postponed": handle(answer: .postponed)
         case "later": handle(answer: .later)
         case "start", "addGoal": isAddingGoal = true
-        case "notNow":
-            didDeferIntro = true
-            greeting.append(GreetingLine(text: HomeGreeting.introDeferred))
         default: conversation = observation
         }
     }
