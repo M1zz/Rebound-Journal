@@ -1,0 +1,42 @@
+{
+  "sourceLanguage": "ko",
+  "strings": {
+    "CFBundleDisplayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZinggumDol"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "징검돌"
+          }
+        }
+      },
+      "comment": "홈 화면에 뜨는 앱 이름"
+    },
+    "CFBundleName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZinggumDol"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "징검돌"
+          }
+        }
+      },
+      "comment": "표시 이름을 못 쓰는 자리의 짧은 이름"
+    }
+  },
+  "version": "1.0"
+}

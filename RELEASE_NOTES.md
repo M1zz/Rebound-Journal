@@ -91,7 +91,9 @@
 
 ### 올리기 전에 해야 할 것
 
-- [ ] **App Store Connect에서 앱 이름을 '징검돌'로 바꾼다.** 코드로는 할 수 없다. 표시 이름(`CFBundleDisplayName`)만 바뀌어 있고 스토어 이름은 그대로다.
+- [ ] **App Store Connect에서 스토어 이름을 바꾼다.** 한국어 '징검돌', 영어 'ZinggumDol'.
+      기기에 뜨는 이름은 코드로 언어별로 맞춰 뒀지만(`InfoPlist.xcstrings`), 스토어에
+      노출되는 이름은 별개라 App Store Connect에서 현지화별로 따로 넣어야 한다.
 - [ ] **App Group `group.com.leeo.ReboundJournal`을 등록한다.** Identifiers에 만들고 앱과 위젯 두 App ID에 체크. 없으면 위젯 서명이 실패한다. 시뮬레이터에서는 자동으로 만들어져 안 걸리고 넘어간다.
 - [ ] **스크린샷을 새로 찍는다.** 화면이 통째로 달라져서 지금 올라가 있는 것과 아무 관계가 없다.
 - [ ] 빌드 번호(`CURRENT_PROJECT_VERSION`)는 1 그대로다. 같은 버전으로 두 번 올리면 그때 올려야 한다.

@@ -106,6 +106,9 @@
 		5878968440883284892A95D6 /* PebbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F995B506A6AF31E454ED76 /* PebbleView.swift */; };
 		19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
 		0A631BB6EF320CA20927EC4B /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
+		DF4238037F15AECBA32209DE /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2A45CEB76FB938E172373472 /* InfoPlist.xcstrings */; };
+		F7558BD1606AB36D5F5F8F82 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */; };
+		0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 469FA349854C6890405976FC /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +235,9 @@
 		BDBF3899E539514D113B579B /* ReboundWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReboundWidget.entitlements; sourceTree = "<group>"; };
 		346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
 		F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundWidgetBundle.swift; sourceTree = "<group>"; };
+		2A45CEB76FB938E172373472 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		469FA349854C6890405976FC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +383,7 @@
 		586F227F2A33861C004C7410 = {
 			isa = PBXGroup;
 			children = (
+				2A45CEB76FB938E172373472 /* InfoPlist.xcstrings */,
 				C3B1B7AB2D9462140008E38D /* Localizable.xcstrings */,
 				C3B1B7AC2D9462140008E38D /* Rebound-Journal-Info.plist */,
 				586F228A2A33861C004C7410 /* Rebound Journal */,
@@ -662,6 +669,8 @@
 		D2A6396157B5A91A4951FC2D /* ReboundWidget */ = {
 			isa = PBXGroup;
 			children = (
+				469FA349854C6890405976FC /* Localizable.xcstrings */,
+				893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */,
 				346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */,
 				F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */,
 				2865C3F121BCA8EFE72A7C91 /* Info.plist */,
@@ -737,6 +746,7 @@
 			knownRegions = (
 				Base,
 				ko,
+				en,
 			);
 			mainGroup = 586F227F2A33861C004C7410;
 			packageReferences = (
@@ -757,6 +767,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4238037F15AECBA32209DE /* InfoPlist.xcstrings in Resources */,
 				586F22932A33861D004C7410 /* Preview Assets.xcassets in Resources */,
 				C3B1B7AD2D9462140008E38D /* Localizable.xcstrings in Resources */,
 				586F22902A33861D004C7410 /* Assets.xcassets in Resources */,
@@ -767,6 +778,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */,
+				F7558BD1606AB36D5F5F8F82 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
