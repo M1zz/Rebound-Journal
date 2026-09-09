@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
+		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
+		9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */; };
+		215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BFD81E3954E97EE45C6A4 /* Phrasing.swift */; };
+		F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */; };
+		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
+		4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174705416645E35FAB3931 /* LookBackView.swift */; };
+		34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */; };
+		B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F45927CE9303F8C2824F89 /* WeekStones.swift */; };
+		C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */; };
+		8A9CDD6B03CD60B458C42B02 /* HomeGreeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */; };
+		7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */; };
+		06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41606D32B4E15054B74956C /* ChatBubble.swift */; };
+		7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9637483D25A567BB2C364E /* RootView.swift */; };
+		1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF711FB488680547B2D7443 /* AddGoalView.swift */; };
+		8E5A6F4788FBCF515D6875D7 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF96E14F52D15708378F21 /* TodayView.swift */; };
+		D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */; };
+		7AD4B3AD16DEE51B757ED1D7 /* Paraphraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03344E1764A18AC8CCE0A91 /* Paraphraser.swift */; };
+		CE8613311D8C21A1850CFB35 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4793847AD7E6899F390C7B5 /* ConversationView.swift */; };
+		7F7EA0D7EF545F8E5796648B /* ConversationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979420319212C0F8FD12EB31 /* ConversationEngine.swift */; };
+		09C90182AB3E3A381FE6C20D /* ConversationScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */; };
+		C7A4812B83E1CF7E3F1F69CF /* ProgressObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B21196696E9C4AA400EB7 /* ProgressObserver.swift */; };
+		4A0B7EC081C07FD8AB6AD5FB /* PebbleVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE57171C6D211922D643B5 /* PebbleVoice.swift */; };
+		22CBAB9970D0BC7DD0391EC7 /* PebbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F995B506A6AF31E454ED76 /* PebbleView.swift */; };
+		01F995C513311A6681E79643 /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
+		19917646F34E9B4C8965EF04 /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		081494984EE84CA0951CC527 /* JournalTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3199CF6D8954C81AE25F64C /* JournalTimelineView.swift */; };
 		2A6B93451E3B406F95D289DF /* StatisticsAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */; };
 		2C9C4D31562B4B6CA0F195DC /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2F36562F24D3294AAC6F9 /* TimelineView.swift */; };
@@ -75,9 +101,69 @@
 		C3B1B7C12D9462140008E38D /* UsageReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1B7C02D9462140008E38D /* UsageReporting.swift */; };
 		E308811A2AEB4D4489616333 /* GrowthSummarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62A5E5AACE43B898ADB5D2 /* GrowthSummarySection.swift */; };
 		F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F796C4A4A4170BAA1A6EB /* NewChartView.swift */; };
+		46B781E09259FABE4C2E5E9D /* ReboundWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 008D539F940765D19E5B644C /* ReboundWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */; };
+		BF0FE3B79F7CCB0FFDAAE993 /* ReboundWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */; };
+		11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
+		5878968440883284892A95D6 /* PebbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F995B506A6AF31E454ED76 /* PebbleView.swift */; };
+		19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
+		0A631BB6EF320CA20927EC4B /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
+		DF4238037F15AECBA32209DE /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2A45CEB76FB938E172373472 /* InfoPlist.xcstrings */; };
+		F7558BD1606AB36D5F5F8F82 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */; };
+		0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 469FA349854C6890405976FC /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F7294EA2E61984123CAAC5DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586F22802A33861C004C7410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6197BA0BEE272FF88DD1207C;
+			remoteInfo = ReboundWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95B854224368979757E6BD8C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46B781E09259FABE4C2E5E9D /* ReboundWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSnapshot.swift; sourceTree = "<group>"; };
+		AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTips.swift; sourceTree = "<group>"; };
+		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
+		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
+		E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
+		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
+		51174705416645E35FAB3931 /* LookBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookBackView.swift; sourceTree = "<group>"; };
+		65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneBridgeView.swift; sourceTree = "<group>"; };
+		A7F45927CE9303F8C2824F89 /* WeekStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStones.swift; sourceTree = "<group>"; };
+		9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGreeting.swift; sourceTree = "<group>"; };
+		60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingFeedback.swift; sourceTree = "<group>"; };
+		D41606D32B4E15054B74956C /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		FA9637483D25A567BB2C364E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5EF711FB488680547B2D7443 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		BFEF96E14F52D15708378F21 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCapture.swift; sourceTree = "<group>"; };
+		E03344E1764A18AC8CCE0A91 /* Paraphraser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paraphraser.swift; sourceTree = "<group>"; };
+		C4793847AD7E6899F390C7B5 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		979420319212C0F8FD12EB31 /* ConversationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationEngine.swift; sourceTree = "<group>"; };
+		70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScript.swift; sourceTree = "<group>"; };
+		277B21196696E9C4AA400EB7 /* ProgressObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressObserver.swift; sourceTree = "<group>"; };
+		C1CE57171C6D211922D643B5 /* PebbleVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleVoice.swift; sourceTree = "<group>"; };
+		51F995B506A6AF31E454ED76 /* PebbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleView.swift; sourceTree = "<group>"; };
+		0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleMood.swift; sourceTree = "<group>"; };
+		E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTheme.swift; sourceTree = "<group>"; };
 		094F796C4A4A4170BAA1A6EB /* NewChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChartView.swift; sourceTree = "<group>"; };
 		1215AF43CDBE4028B67E81D4 /* ActiveReboundSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReboundSection.swift; sourceTree = "<group>"; };
 		2AEC7F09DD37474CA15D0439 /* SuccessFromReboundCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFromReboundCelebration.swift; sourceTree = "<group>"; };
@@ -148,6 +234,14 @@
 		DB6ED1906B3848C59CC05D05 /* GoalStatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStatusSection.swift; sourceTree = "<group>"; };
 		E5FC04D885E445EC93D1C15E /* StatisticsAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsAnalyzer.swift; sourceTree = "<group>"; };
 		F7C3B353F6B34696A8EA2B06 /* CollapsibleGoalSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleGoalSection.swift; sourceTree = "<group>"; };
+		008D539F940765D19E5B644C /* ReboundWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ReboundWidget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2865C3F121BCA8EFE72A7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBF3899E539514D113B579B /* ReboundWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReboundWidget.entitlements; sourceTree = "<group>"; };
+		346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
+		F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundWidgetBundle.swift; sourceTree = "<group>"; };
+		2A45CEB76FB938E172373472 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		469FA349854C6890405976FC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +253,121 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F663ECC3EFA7B9913BE6C741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40D9FD48113A2F1BCA71CB73 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			
+				D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */,);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		62173F9EBD4C53E4BB0ABD98 /* Guidance */ = {
+			isa = PBXGroup;
+			children = (
+			
+				AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */,);
+			path = Guidance;
+			sourceTree = "<group>";
+		};
+		12AC9953CF8C3B82C7052CE2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			
+				BFEF96E14F52D15708378F21 /* TodayView.swift */,
+				5EF711FB488680547B2D7443 /* AddGoalView.swift */,
+				FA9637483D25A567BB2C364E /* RootView.swift */,
+				CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */,
+				9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */,
+				65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */,
+				51174705416645E35FAB3931 /* LookBackView.swift */,
+				12B7A8A52995BD59714800CA /* AllRecordsView.swift */,
+				E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */,);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		37A6322C99CD327DC7B22EBD /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+			
+				0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */,);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		A8D0DEC093A1C379B2A46325 /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+			
+				E03344E1764A18AC8CCE0A91 /* Paraphraser.swift */,);
+			path = Intelligence;
+			sourceTree = "<group>";
+		};
+		24B10987BE8A939853EC5FBD /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+			
+				70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */,
+				979420319212C0F8FD12EB31 /* ConversationEngine.swift */,
+				C4793847AD7E6899F390C7B5 /* ConversationView.swift */,
+				D41606D32B4E15054B74956C /* ChatBubble.swift */,
+				753BFD81E3954E97EE45C6A4 /* Phrasing.swift */,
+				50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */,);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		0D464A7327077912F4691D4C /* Observation */ = {
+			isa = PBXGroup;
+			children = (
+			
+				277B21196696E9C4AA400EB7 /* ProgressObserver.swift */,
+				A7F45927CE9303F8C2824F89 /* WeekStones.swift */,);
+			path = Observation;
+			sourceTree = "<group>";
+		};
+		97A1F30FD65D76138B80FB02 /* Companion */ = {
+			isa = PBXGroup;
+			children = (
+			
+				0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */,
+				51F995B506A6AF31E454ED76 /* PebbleView.swift */,
+				C1CE57171C6D211922D643B5 /* PebbleVoice.swift */,
+				60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */,);
+			path = Companion;
+			sourceTree = "<group>";
+		};
+		5864DBE77DB32EDE15349E1F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+			
+				E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */,);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		BE3325E5AE7A34C1EC2F7A7F /* Redesign */ = {
+			isa = PBXGroup;
+			children = (
+			
+				5864DBE77DB32EDE15349E1F /* DesignSystem */,
+				97A1F30FD65D76138B80FB02 /* Companion */,
+				0D464A7327077912F4691D4C /* Observation */,
+				24B10987BE8A939853EC5FBD /* Conversation */,
+				A8D0DEC093A1C379B2A46325 /* Intelligence */,
+				37A6322C99CD327DC7B22EBD /* Voice */,
+				12AC9953CF8C3B82C7052CE2 /* Home */,
+				62173F9EBD4C53E4BB0ABD98 /* Guidance */,
+				40D9FD48113A2F1BCA71CB73 /* Widget */,);
+			path = Redesign;
+			sourceTree = "<group>";
+		};
 		05348D0C19664A14A45BD717 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,10 +388,12 @@
 		586F227F2A33861C004C7410 = {
 			isa = PBXGroup;
 			children = (
+				2A45CEB76FB938E172373472 /* InfoPlist.xcstrings */,
 				C3B1B7AB2D9462140008E38D /* Localizable.xcstrings */,
 				C3B1B7B02D9462140008E38D /* InfoPlist.xcstrings */,
 				C3B1B7AC2D9462140008E38D /* Rebound-Journal-Info.plist */,
 				586F228A2A33861C004C7410 /* Rebound Journal */,
+				D2A6396157B5A91A4951FC2D /* ReboundWidget */,
 				586F22892A33861C004C7410 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,6 +401,7 @@
 		586F22892A33861C004C7410 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				008D539F940765D19E5B644C /* ReboundWidget.appex */,
 				586F22882A33861C004C7410 /* Rebound Journal.app */,
 			);
 			name = Products;
@@ -214,7 +423,8 @@
 				586F228F2A33861D004C7410 /* Assets.xcassets */,
 				586F22912A33861D004C7410 /* Preview Content */,
 				A8CEB7F55F0C4DBCA5F58161 /* Rebound JournalSpec.swift */,
-			);
+			
+				BE3325E5AE7A34C1EC2F7A7F /* Redesign */,);
 			path = "Rebound Journal";
 			sourceTree = "<group>";
 		};
@@ -462,6 +672,19 @@
 			path = Creation;
 			sourceTree = "<group>";
 		};
+		D2A6396157B5A91A4951FC2D /* ReboundWidget */ = {
+			isa = PBXGroup;
+			children = (
+				469FA349854C6890405976FC /* Localizable.xcstrings */,
+				893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */,
+				346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */,
+				F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */,
+				2865C3F121BCA8EFE72A7C91 /* Info.plist */,
+				BDBF3899E539514D113B579B /* ReboundWidget.entitlements */,
+			);
+			path = ReboundWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -472,10 +695,12 @@
 				586F22842A33861C004C7410 /* Sources */,
 				586F22852A33861C004C7410 /* Frameworks */,
 				586F22862A33861C004C7410 /* Resources */,
+				95B854224368979757E6BD8C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7B674EB54D2867F9D4771C8 /* PBXTargetDependency */,
 			);
 			name = "Rebound Journal";
 			packageProductDependencies = (
@@ -484,6 +709,23 @@
 			productName = "Rebound Journal";
 			productReference = 586F22882A33861C004C7410 /* Rebound Journal.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6197BA0BEE272FF88DD1207C /* ReboundWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AAB1B02031CFA38800C53D /* Build configuration list for PBXNativeTarget "ReboundWidget" */;
+			buildPhases = (
+				A11D78B82E961502C7054877 /* Sources */,
+				F663ECC3EFA7B9913BE6C741 /* Frameworks */,
+				19A9DEF6A2FCC41ACCA158DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReboundWidget;
+			productName = ReboundWidget;
+			productReference = 008D539F940765D19E5B644C /* ReboundWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -498,6 +740,9 @@
 					586F22872A33861C004C7410 = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					6197BA0BEE272FF88DD1207C = {
+						CreatedOnToolsVersion = 26.0;
+					};
 				};
 			};
 			buildConfigurationList = 586F22832A33861C004C7410 /* Build configuration list for PBXProject "Rebound Journal" */;
@@ -511,13 +756,14 @@
 			);
 			mainGroup = 586F227F2A33861C004C7410;
 			packageReferences = (
-				A5D85644F35A779A501B5BF2 /* XCRemoteSwiftPackageReference "LeeoKit" */,
+				9F7E2A565A397F4410093BFF /* XCRemoteSwiftPackageReference "LeeoKit" */,
 			);
 			productRefGroup = 586F22892A33861C004C7410 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				586F22872A33861C004C7410 /* Rebound Journal */,
+				6197BA0BEE272FF88DD1207C /* ReboundWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -527,10 +773,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4238037F15AECBA32209DE /* InfoPlist.xcstrings in Resources */,
 				586F22932A33861D004C7410 /* Preview Assets.xcassets in Resources */,
 				C3B1B7AD2D9462140008E38D /* Localizable.xcstrings in Resources */,
 				C3B1B7B12D9462140008E38D /* InfoPlist.xcstrings in Resources */,
 				586F22902A33861D004C7410 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A9DEF6A2FCC41ACCA158DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */,
+				F7558BD1606AB36D5F5F8F82 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,10 +860,57 @@
 				F3017B44681D48F397F662E5 /* NewChartView.swift in Sources */,
 				CE51D846E3A44F0F87E4EFAE /* InteractiveJournalCreator.swift in Sources */,
 				429D1D50CB2D9041CDDED650 /* Rebound JournalSpec.swift in Sources */,
+			
+				19917646F34E9B4C8965EF04 /* PebbleTheme.swift in Sources */,
+				01F995C513311A6681E79643 /* PebbleMood.swift in Sources */,
+				22CBAB9970D0BC7DD0391EC7 /* PebbleView.swift in Sources */,
+				4A0B7EC081C07FD8AB6AD5FB /* PebbleVoice.swift in Sources */,
+				C7A4812B83E1CF7E3F1F69CF /* ProgressObserver.swift in Sources */,
+				09C90182AB3E3A381FE6C20D /* ConversationScript.swift in Sources */,
+				7F7EA0D7EF545F8E5796648B /* ConversationEngine.swift in Sources */,
+				CE8613311D8C21A1850CFB35 /* ConversationView.swift in Sources */,
+				7AD4B3AD16DEE51B757ED1D7 /* Paraphraser.swift in Sources */,
+				D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */,
+				8E5A6F4788FBCF515D6875D7 /* TodayView.swift in Sources */,
+				1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */,
+				7991A9EA17E66E2AC5591980 /* RootView.swift in Sources */,
+				06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */,
+				7C5D1506D2DDA03B9CD102BA /* TypingFeedback.swift in Sources */,
+				8A9CDD6B03CD60B458C42B02 /* HomeGreeting.swift in Sources */,
+				C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */,
+				B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */,
+				34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */,
+				4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */,
+				02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */,
+				F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */,
+				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,
+				9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */,
+				DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */,
+				9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11D78B82E961502C7054877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */,
+				BF0FE3B79F7CCB0FFDAAE993 /* ReboundWidgetBundle.swift in Sources */,
+				11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */,
+				5878968440883284892A95D6 /* PebbleView.swift in Sources */,
+				19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */,
+				0A631BB6EF320CA20927EC4B /* PebbleSnapshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7B674EB54D2867F9D4771C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6197BA0BEE272FF88DD1207C /* ReboundWidget */;
+			targetProxy = F7294EA2E61984123CAAC5DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		586F22942A33861D004C7410 /* Debug */ = {
@@ -662,7 +965,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -719,7 +1022,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -744,7 +1047,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rebound-Journal-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "리바운드 저널";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "이 식별자는 귀하에게 개인화된 알람을 제공하는 데 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -752,7 +1055,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -784,7 +1087,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Rebound-Journal-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "리바운드 저널";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "이 식별자는 귀하에게 개인화된 알람을 제공하는 데 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -792,7 +1095,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -807,6 +1110,65 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		51B53D6B0709BDDBAA01ECC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ReboundWidget/ReboundWidget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReboundWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal.ReboundWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F7C2E9C0FEBC52D681645F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ReboundWidget/ReboundWidget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReboundWidget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "징검돌";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal.ReboundWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
@@ -831,15 +1193,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		89AAB1B02031CFA38800C53D /* Build configuration list for PBXNativeTarget "ReboundWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B53D6B0709BDDBAA01ECC1 /* Debug */,
+				1F7C2E9C0FEBC52D681645F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
+
 /* Begin XCRemoteSwiftPackageReference section */
-		A5D85644F35A779A501B5BF2 /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
+		9F7E2A565A397F4410093BFF /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.0;
+				minimumVersion = 2.7.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -847,7 +1219,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		8F652E997127C9970155311C /* LeeoKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A5D85644F35A779A501B5BF2 /* XCRemoteSwiftPackageReference "LeeoKit" */;
+			package = 9F7E2A565A397F4410093BFF /* XCRemoteSwiftPackageReference "LeeoKit" */;
 			productName = LeeoKit;
 		};
 /* End XCSwiftPackageProductDependency section */

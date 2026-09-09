@@ -8,6 +8,7 @@
 import SwiftUI
 import StoreKit
 import MessageUI
+import TipKit
 import LeeoKit
 
 struct SettingsView: View {
@@ -16,6 +17,11 @@ struct SettingsView: View {
     @State private var didConfigureTime: Bool = false
     /// LeeoKit 과 같은 키. 설정의 "버전" 행을 7번 탭하면 켜진다.
     @AppStorage("dev.masterMode") private var devMode = false
+    @State private var voiceOn: Bool = true
+    @State private var hapticOn: Bool = true
+    @State private var speechStyle: SpeechStyle = .formal
+
+    private let speechStyleTip = SpeechStyleSettingTip()
     
     // MARK: - Main rendering function
     var body: some View {
@@ -148,11 +154,115 @@ struct SettingsView: View {
     // MARK: - App Custom settings
     private var AppCustomSettingsView: some View {
         VStack {
+            CustomHeader(title: "조약돌")
+            SpeechStyleView
+            CompanionFeedbackView
             CustomHeader(title: Constants.Strings.appPasscode)
             PasscodeView
             CustomHeader(title: Constants.Strings.dailyReminders)
             DailyRemindersView
         }
+    }
+
+    // MARK: - 조약돌 말투
+    //
+    // 고르는 자리에서 **실제로 어떻게 말하는지 들려준다.** "존댓말/반말"이라는
+    // 이름표만으로는 감이 오지 않고, 특히 반말은 낱말만 보면 무례하게 느껴져
+    // 골라보기 전에 접는 사람이 있다. 조약돌이 실제로 하는 말을 밑에 깔아 두면
+    // 고르기 전에 확인할 수 있다.
+    private var SpeechStyleView: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            TipView(speechStyleTip)
+                .tipBackground(Color(.systemBackground))
+
+            HStack {
+                Image(systemName: "quote.bubble")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 22, height: 22, alignment: .center)
+                Text("말투").font(.body)
+                Spacer()
+            }
+
+            Picker("말투", selection: $speechStyle) {
+                ForEach(SpeechStyle.allCases) { style in
+                    Text(style.name).tag(style)
+                }
+            }
+            .pickerStyle(.segmented)
+
+            // 고른 말투로 조약돌이 한마디 한다.
+            Text(speechStyle.sample)
+                .font(.system(size: 15, design: .serif))
+                .foregroundStyle(.secondary)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .animation(.easeOut(duration: 0.18), value: speechStyle)
+        }
+        .foregroundStyle(.primary)
+        .padding()
+        // 저장소가 UserDefaults라 관찰 대상이 아니다. 아래 소리·촉감 토글과
+        // 같은 이유로 화면 상태를 따로 들고 바뀔 때 옮겨 적는다.
+        .onAppear { speechStyle = SpeechStyle.current }
+        .onChange(of: speechStyle) { _, newValue in
+            SpeechStyle.current = newValue
+            // 고른 순간 한 번 울린다. 말투가 바뀌었다는 걸 손으로도 알린다.
+            TypingFeedback.shared.tap()
+        }
+        .padding([.top, .bottom], 5)
+        .background(Color(.systemGray6)
+            .cornerRadius(15)
+            .shadow(color: Color.primary.opacity(0.07),
+                    radius: 10))
+        .padding(.bottom, 40)
+    }
+
+    // MARK: - 조약돌 소리와 촉감
+    //
+    // 소리와 진동을 따로 둔다. 늦은 밤처럼 소리는 껐지만 촉감은 남기고 싶은
+    // 자리가 이 앱에서는 오히려 흔하다.
+    private var CompanionFeedbackView: some View {
+        VStack {
+            ToggleItem(title: "말할 때 소리", icon: "speaker.wave.2", isOn: $voiceOn)
+            Divider()
+                .padding(.horizontal)
+            ToggleItem(title: "말할 때 진동", icon: "hand.tap", isOn: $hapticOn)
+        }
+        // 저장소가 UserDefaults라 관찰 대상이 아니다. 화면 상태를 따로 들고
+        // 바뀔 때 옮겨 적는다. 계산 프로퍼티에 직접 Binding을 걸면 토글이
+        // 다시 그려지지 않아 눌러도 제자리로 튕긴다.
+        .onAppear {
+            voiceOn = PebbleVoice.shared.isEnabled
+            hapticOn = TypingFeedback.shared.isHapticEnabled
+        }
+        .onChange(of: voiceOn) { _, newValue in
+            PebbleVoice.shared.isEnabled = newValue
+        }
+        .onChange(of: hapticOn) { _, newValue in
+            TypingFeedback.shared.isHapticEnabled = newValue
+            // 켠 직후 한 번 울려 어떤 느낌인지 바로 알게 한다.
+            if newValue { TypingFeedback.shared.tap() }
+        }
+        .padding([.top, .bottom], 5)
+        .background(Color(.systemGray6)
+            .cornerRadius(15)
+            .shadow(color: Color.primary.opacity(0.07),
+                    radius: 10))
+        .padding(.bottom, 40)
+    }
+
+    /// 켜고 끄기만 하는 항목. 기존 `SettingsItem`은 알림 토글에 묶여 있어 재사용이 안 된다.
+    private func ToggleItem(title: String, icon: String, isOn: Binding<Bool>) -> some View {
+        HStack {
+            Image(systemName: icon)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 22, height: 22, alignment: .center)
+            Text(title).font(.body)
+            Spacer()
+            Toggle("", isOn: isOn).labelsHidden()
+        }
+        .foregroundStyle(.primary)
+        .padding()
     }
     
     // MARK: - Daily Reminders section

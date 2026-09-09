@@ -2,7 +2,7 @@
   "sourceLanguage": "ko",
   "strings": {
     "CFBundleDisplayName": {
-      "comment": "앱 이름 (홈 화면)",
+      "comment": "홈 화면에 뜨는 앱 이름",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -14,13 +14,13 @@
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "리바운드 저널"
+            "value": "징검돌"
           }
         }
       }
     },
     "CFBundleName": {
-      "comment": "앱 이름 (짧은 형태)",
+      "comment": "표시 이름을 못 쓰는 자리의 짧은 이름",
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -32,14 +32,50 @@
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "리바운드 저널"
+            "value": "징검돌"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription": {
+      "comment": "Privacy - Microphone Usage Description",
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "말로 편하게 돌아볼 수 있도록 마이크를 사용해요. 녹음은 저장되지 않고, 글로 옮긴 내용만 기기 안에 남습니다."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription": {
+      "comment": "Privacy - Speech Recognition Usage Description",
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "말한 내용을 글로 옮기기 위해 사용해요. 인식은 기기 안에서 이뤄지고 밖으로 나가지 않습니다."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used to turn what you say into text. Recognition happens on your device and never leaves it."
           }
         }
       }
     },
     "NSUserTrackingUsageDescription": {
-      "comment": "앱 추적 투명성(ATT) 안내 문구",
-      "extractionState": "manual",
+      "comment": "Privacy - Tracking Usage Description",
+      "extractionState": "extracted_with_value",
       "localizations": {
         "en": {
           "stringUnit": {

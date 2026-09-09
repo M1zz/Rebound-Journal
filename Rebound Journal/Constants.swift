@@ -117,7 +117,7 @@ struct Constants {
 
     struct Strings {
 
-        static let mainTitle = String(localized: "리바운드 저널")
+        static let mainTitle = String(localized: "징검돌")
 
         static let oops = String(localized: "이런!")
         static let reboundShootIn = String(localized: "리바운드 슛!")
