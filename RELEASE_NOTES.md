@@ -22,7 +22,7 @@ Fixed the blank passcode keypad.
 
 ### 개발 메모 (노출 안 함)
 
-- Localizable 559키 전부 ko/en. 조약돌 대화까지 영어로 나온다.
+- Localizable 558키 전부 ko/en. 조약돌 대화까지 영어로 나온다.
   - `Phrasing.say` / `pick` 이 한국어가 아닐 때 존댓말 원문을 키로 삼아
     `AppLanguage.localized` 로 번역문을 찾는다 (런타임 조회라 카탈로그에 수기 등록)
   - `String.particle` 은 한국어가 아니면 빈 문자열 — 영어 문장에 조사가 남지 않는다
@@ -36,6 +36,8 @@ Fixed the blank passcode keypad.
 - ⚠️ 액센트 색이 둘이다 — 리디자인 화면은 PebbleTheme.key(#5F8F93),
   설정·잠금 등 옛 화면은 AccentColor 에셋(#2F9E44). 하나로 맞춰야 한다.
 - ⚠️ 말풍선 전환 애니메이션 중 같은 말풍선이 겹쳐 그려지는 프레임이 있다.
+- 배포 설정: deploy.env / Config/Version.xcconfig / scripts/predeploy.sh 추가.
+  버전은 이제 xcconfig 한곳에서만 고친다 (앱·위젯 네 구성이 함께 따라온다).
 
 ## 2.0.0
 

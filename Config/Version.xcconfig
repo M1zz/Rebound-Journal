@@ -1,0 +1,19 @@
+//
+//  Version.xcconfig
+//  징검돌 (Rebound Journal)
+//
+//  앱 버전을 한곳에서 관리한다.
+//
+//  전에는 project.pbxproj 안에 타깃·구성별로 같은 값이 네 벌 흩어져 있었다.
+//  하나만 고치면 앱과 위젯의 버전이 어긋나고, 어긋난 채로 업로드하면
+//  App Store Connect 가 빌드를 거부한다. 여기 두 줄만 고치면 네 곳이 함께 바뀐다.
+//
+//  ⚠️ 이 값을 pbxproj 의 타깃 빌드 설정에 다시 적으면 그쪽이 이겨서
+//     이 파일이 무시된다. 버전은 여기서만 고친다.
+//
+
+// 스토어에 보이는 버전 (App Store Connect 의 '버전'). 예: 2.0.1
+MARKETING_VERSION = 2.0.1
+
+// 빌드 번호. 같은 MARKETING_VERSION 으로 다시 올릴 때마다 1씩 올린다.
+CURRENT_PROJECT_VERSION = 5
