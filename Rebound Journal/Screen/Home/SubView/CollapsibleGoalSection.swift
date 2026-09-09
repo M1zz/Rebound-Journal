@@ -57,12 +57,12 @@ struct CollapsibleGoalSection: View {
                     // 목표 없는 저널들을 위한 카테고리
                     let noGoalCount = journals.count(where: { $0.subGoal == nil || $0.subGoal?.isEmpty == true })
                     if noGoalCount > 0 {
-                        goalCell(["목표 없음": noGoalCount])
+                        goalCell([DataSentinel.noGoal: noGoalCount])
                     }
 
                     // 기존 목표들
                     ForEach(subGoals, id: \.self) { item in
-                        let text = item.goalText ?? "목표 없음"
+                        let text = item.goalText ?? DataSentinel.noGoal
                         let count = journals.count(where: { $0.subGoal == item.goalText })
                         goalCell([text: count])
                     }
@@ -177,7 +177,7 @@ struct AddGoalSheet: View {
                     .frame(maxWidth: .infinity)
                     .padding()
                     .background(Color.accentColor)
-                    .foregroundStyle(Color("TextColor"))
+                    .foregroundStyle(Color("OnAccent"))
                     .cornerRadius(10)
                     .disabled(newGoalText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 }

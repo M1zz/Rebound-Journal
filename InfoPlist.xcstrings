@@ -1,0 +1,60 @@
+{
+  "sourceLanguage": "ko",
+  "strings": {
+    "CFBundleDisplayName": {
+      "comment": "앱 이름 (홈 화면)",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rebound Journal"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리바운드 저널"
+          }
+        }
+      }
+    },
+    "CFBundleName": {
+      "comment": "앱 이름 (짧은 형태)",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rebound Journal"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리바운드 저널"
+          }
+        }
+      }
+    },
+    "NSUserTrackingUsageDescription": {
+      "comment": "앱 추적 투명성(ATT) 안내 문구",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This identifier is used to deliver reminders that are personalized for you."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 식별자는 귀하에게 개인화된 알람을 제공하는 데 사용됩니다."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

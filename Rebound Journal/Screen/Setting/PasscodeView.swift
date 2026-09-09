@@ -27,8 +27,10 @@ struct PasscodeView: View {
     
     /// Passcode view
     private var PasscodeView: some View {
-        var passcodeTitle = "\(setupPasscode.count == 4 ? "Confirm" : "Setup") Passcode"
-        if !setupMode { passcodeTitle = "Enter Passcode" }
+        var passcodeTitle = setupPasscode.count == 4
+            ? String(localized: "비밀번호 확인")
+            : String(localized: "비밀번호 설정")
+        if !setupMode { passcodeTitle = String(localized: "비밀번호 입력") }
         return VStack(spacing: 30) {
             Text(passcodeTitle).bold().font(.system(size: 22))
             HStack(spacing: 15) {
@@ -79,7 +81,7 @@ struct PasscodeView: View {
             }
         }, label: {
             ZStack {
-                Circle().foregroundColor(Color("BackgroundColor")).opacity(0.5)
+                Circle().foregroundColor(Color.accentColor).opacity(0.5)
                 Text("\(index)").font(.system(size: 35)).foregroundColor(Color("LightColor")).opacity(0.7)
             }
         })

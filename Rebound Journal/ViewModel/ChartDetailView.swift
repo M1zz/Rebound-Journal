@@ -13,7 +13,7 @@ struct ChartDetailView: View {
     
     var body: some View {
         ScrollView {
-            ModalHeaderBar(onBack: { isPresented = false }, title: viewModel.selectedDetailType ? "전체 골인" : "전체 리바운드")
+            ModalHeaderBar(onBack: { isPresented = false }, title: viewModel.selectedDetailType ? String(localized: "전체 골인") : String(localized: "전체 리바운드"))
             shootLog
         }
     }

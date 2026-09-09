@@ -22,7 +22,7 @@ struct NewChartView: View {
             ScrollView {
                 VStack(spacing: 20) {
                     // Header
-                    ModalHeaderBar(title: "통계") {
+                    ModalHeaderBar(title: String(localized: "통계")) {
                         manager.fullScreenMode = nil
                     }
 
@@ -106,28 +106,28 @@ struct NewChartView: View {
                 metricCard(
                     icon: "chart.line.uptrend.xyaxis",
                     iconColor: .green,
-                    title: "성공률",
+                    title: String(localized: "성공률"),
                     value: String(format: "%.1f%%", insight.successRate)
                 )
 
                 metricCard(
                     icon: "target",
                     iconColor: .blue,
-                    title: "전체 시도",
-                    value: "\(insight.totalAttempts)회"
+                    title: String(localized: "전체 시도"),
+                    value: String(localized: "\(insight.totalAttempts)회")
                 )
 
                 metricCard(
                     icon: "flame.fill",
                     iconColor: .orange,
-                    title: "도전 중",
-                    value: "\(insight.activeRebounds)개"
+                    title: String(localized: "도전 중"),
+                    value: String(localized: "\(insight.activeRebounds)개")
                 )
 
                 metricCard(
                     icon: "arrow.uturn.up.circle.fill",
                     iconColor: .purple,
-                    title: "극복률",
+                    title: String(localized: "극복률"),
                     value: String(format: "%.1f%%", insight.recoveryRate)
                 )
             }
@@ -174,7 +174,7 @@ struct NewChartView: View {
                     insightRow(
                         icon: "exclamationmark.triangle.fill",
                         iconColor: .orange,
-                        text: "가장 어려운 목표: \(topChallenge)"
+                        text: String(localized: "가장 어려운 목표: \(DisplayText.goalName(topChallenge))")
                     )
                 }
 
@@ -183,19 +183,19 @@ struct NewChartView: View {
                     insightRow(
                         icon: "star.fill",
                         iconColor: .yellow,
-                        text: "훌륭해요! 높은 성공률을 유지하고 있어요"
+                        text: String(localized: "훌륭해요! 높은 성공률을 유지하고 있어요")
                     )
                 } else if insight.successRate >= 50 {
                     insightRow(
                         icon: "hand.thumbsup.fill",
                         iconColor: .blue,
-                        text: "좋아요! 절반 이상 성공하고 있어요"
+                        text: String(localized: "좋아요! 절반 이상 성공하고 있어요")
                     )
                 } else if insight.totalAttempts > 0 {
                     insightRow(
                         icon: "leaf.fill",
                         iconColor: .green,
-                        text: "도전하는 용기가 성장의 시작이에요"
+                        text: String(localized: "도전하는 용기가 성장의 시작이에요")
                     )
                 }
             }
@@ -356,7 +356,7 @@ struct NewChartView: View {
                                     Image(systemName: item.isGoalIn ? "checkmark.circle.fill" : "arrow.counterclockwise.circle.fill")
                                         .foregroundStyle(item.isGoalIn ? .green : .orange)
 
-                                    Text(item.isGoalIn ? "골인" : "리바운드")
+                                    Text(item.isGoalIn ? String(localized: "골인") : String(localized: "리바운드"))
                                         .font(.system(size: 14, weight: .semibold))
                                         .foregroundStyle(.primary)
 

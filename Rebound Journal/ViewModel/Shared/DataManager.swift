@@ -218,8 +218,8 @@ extension DataManager {
         if enableReminders {
             removePendingNotifications()
             let notificationContent = UNMutableNotificationContent()
-            notificationContent.title = "리바운드 저널"
-            notificationContent.body = "오늘의 성공과 실패를 적는 것을 미루지 마세요!"
+            notificationContent.title = String(localized: "리바운드 저널")
+            notificationContent.body = String(localized: "오늘의 성공과 실패를 적는 것을 미루지 마세요!")
             notificationContent.sound = .default
             let trigger = UNCalendarNotificationTrigger(dateMatching: reminderTime.dateComponents, repeats: true)
             let request = UNNotificationRequest(identifier: "reminder", content: notificationContent, trigger: trigger)

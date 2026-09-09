@@ -15,20 +15,22 @@ extension Date {
     
     var headerTitle: String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR")
-        formatter.dateFormat = "MMMM d E"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("MMMMdEEE")
         return formatter.string(from: self)
     }
     
     var year: String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "y"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("y")
         return formatter.string(from: self)
     }
     
     var month: String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "MMMM"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("MMMM")
         return formatter.string(from: self)
     }
     
@@ -38,8 +40,8 @@ extension Date {
 
     private static let dayLabelFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR")
-        formatter.dateFormat = "M.d"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("Md")
         return formatter
     }()
 
@@ -62,11 +64,11 @@ extension Date {
 }
 
 extension DateFormatter {
-    // 한국어 로케일 및 "E" 형식(요일)으로 설정된 DateFormatter를 반환하는 static 메소드
-    static func koreanWeekdayFormatter() -> DateFormatter {
+    /// 사용자 로캘의 요일(E) 표기를 쓰는 DateFormatter
+    static func weekdayFormatter() -> DateFormatter {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR") // 한국어 로케일 설정
-        formatter.dateFormat = "E" // 요일만 표시
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("EEE")
         return formatter
     }
 }

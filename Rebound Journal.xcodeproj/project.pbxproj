@@ -65,6 +65,7 @@
 		C3A07BE32DBBCEE20057D3C3 /* EmotionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BCD2DBBCEE20057D3C3 /* EmotionText.swift */; };
 		C3A07BE92DBBF7120057D3C3 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3A07BE72DBBF7120057D3C3 /* Database.xcdatamodeld */; };
 		C3B1B7AD2D9462140008E38D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3B1B7AB2D9462140008E38D /* Localizable.xcstrings */; };
+		C3B1B7B12D9462140008E38D /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3B1B7B02D9462140008E38D /* InfoPlist.xcstrings */; };
 		C3BAA6C52DC88F4E00D17DD8 /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */; };
 		C3BAA6C72DC8FE8400D17DD8 /* SelectTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */; };
 		C3D6A50F2DAFBD9B0030FBC6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6A50E2DAFBD9A0030FBC6 /* Protocols.swift */; };
@@ -136,6 +137,7 @@
 		C3A07BD72DBBCEE20057D3C3 /* SelectShootTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectShootTypeView.swift; sourceTree = "<group>"; };
 		C3A07BE82DBBF7120057D3C3 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 		C3B1B7AB2D9462140008E38D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C3B1B7B02D9462140008E38D /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		C3B1B7AC2D9462140008E38D /* Rebound-Journal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rebound-Journal-Info.plist"; sourceTree = "<group>"; };
 		C3BAA6C42DC88F4E00D17DD8 /* CreateTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTargetView.swift; sourceTree = "<group>"; };
 		C3BAA6C62DC8FE8400D17DD8 /* SelectTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTargetView.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C3B1B7AB2D9462140008E38D /* Localizable.xcstrings */,
+				C3B1B7B02D9462140008E38D /* InfoPlist.xcstrings */,
 				C3B1B7AC2D9462140008E38D /* Rebound-Journal-Info.plist */,
 				586F228A2A33861C004C7410 /* Rebound Journal */,
 				586F22892A33861C004C7410 /* Products */,
@@ -501,6 +504,7 @@
 			knownRegions = (
 				Base,
 				ko,
+				en,
 			);
 			mainGroup = 586F227F2A33861C004C7410;
 			packageReferences = (
@@ -522,6 +526,7 @@
 			files = (
 				586F22932A33861D004C7410 /* Preview Assets.xcassets in Resources */,
 				C3B1B7AD2D9462140008E38D /* Localizable.xcstrings in Resources */,
+				C3B1B7B12D9462140008E38D /* InfoPlist.xcstrings in Resources */,
 				586F22902A33861D004C7410 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

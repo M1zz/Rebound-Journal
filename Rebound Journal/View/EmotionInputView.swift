@@ -40,7 +40,7 @@ struct EmotionInputView: View {
                 onNext: {
                     viewModel.currentStep = .review
                 },
-                nextButtonText: "다음으로"
+                nextButtonText: String(localized: "다음으로")
             )
         }
     }

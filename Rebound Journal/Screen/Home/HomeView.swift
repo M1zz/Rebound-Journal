@@ -145,7 +145,7 @@ struct HomeView: View {
                 .frame(height: 60)
                 .bold()
                 .background(.tint)
-                .foregroundStyle(Color("TextColor"))
+                .foregroundStyle(Color("OnAccent"))
                 .clipShape(RoundedRectangle(cornerRadius: 90))
                 .padding(.horizontal)
             // SE 대응 패딩

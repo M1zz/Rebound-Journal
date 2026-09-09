@@ -75,7 +75,7 @@ struct SelectTargetView: View {
                 onNext: {
                     onNextTapped()
                 },
-                nextButtonText: selectedGoal != nil ? "다음으로" : "건너뛰기"
+                nextButtonText: selectedGoal != nil ? String(localized: "다음으로") : String(localized: "건너뛰기")
             )
         }
         .padding()

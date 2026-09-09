@@ -64,11 +64,11 @@ struct ActiveReboundCard: View {
         guard let date = rebound.date else { return "" }
         let days = Calendar.current.dateComponents([.day], from: date, to: Date()).day ?? 0
         if days == 0 {
-            return "오늘"
+            return String(localized: "오늘")
         } else if days == 1 {
-            return "어제"
+            return String(localized: "어제")
         } else {
-            return "\(days)일 전"
+            return String(localized: "\(days)일 전")
         }
     }
 
@@ -127,10 +127,11 @@ struct ActiveReboundCard: View {
             }) {
                 HStack(spacing: 4) {
                     Image(systemName: "arrow.clockwise")
-                    Text("도전")
+                    // "도전"(횟수 라벨)과 뜻이 달라 키를 분리한다
+                    Text(String(localized: "activeRebound.retryButton", defaultValue: "도전"))
                 }
                 .font(.system(size: 12, weight: .semibold))
-                .foregroundStyle(Color("TextColor"))
+                .foregroundStyle(Color("OnAccent"))
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 6)
                 .background(freshnessColor)
@@ -161,11 +162,11 @@ struct ReboundDetailView: View {
         guard let date = rebound.date else { return "" }
         let days = Calendar.current.dateComponents([.day], from: date, to: Date()).day ?? 0
         if days == 0 {
-            return "오늘"
+            return String(localized: "오늘")
         } else if days == 1 {
-            return "어제"
+            return String(localized: "어제")
         } else {
-            return "\(days)일 전"
+            return String(localized: "\(days)일 전")
         }
     }
 
@@ -184,8 +185,8 @@ struct ReboundDetailView: View {
     var dateString: String {
         guard let date = rebound.date else { return "" }
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy년 M월 d일 (E)"
-        formatter.locale = Locale(identifier: "ko_KR")
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("yMMMdEEE")
         return formatter.string(from: date)
     }
 

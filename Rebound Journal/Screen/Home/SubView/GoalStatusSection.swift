@@ -52,12 +52,12 @@ struct GoalStatusSection: View {
                 // 목표 없는 저널들을 위한 카테고리
                 let noGoalCount = journals.count(where: { $0.subGoal == nil || $0.subGoal?.isEmpty == true })
                 if noGoalCount > 0 {
-                    goalCell(goalName: "목표 없음", count: noGoalCount)
+                    goalCell(goalName: DataSentinel.noGoal, count: noGoalCount)
                 }
 
                 // 시도 횟수가 많은 순서로 정렬된 목표들
                 ForEach(sortedGoals, id: \.self) { item in
-                    let text = item.goalText ?? "목표 없음"
+                    let text = item.goalText ?? DataSentinel.noGoal
                     let count = journals.count(where: { $0.subGoal == item.goalText })
                     goalCell(goalName: text, count: count)
                 }
@@ -117,7 +117,7 @@ struct GoalStatusSection: View {
         } label: {
             VStack(alignment: .leading, spacing: 8) {
                 // 목표 제목
-                Text(goalName)
+                Text(DisplayText.goalName(goalName))
                     .lineLimit(1)
                     .foregroundStyle(.dashboardTitle)
                     .font(.subheadline)
@@ -198,7 +198,7 @@ public struct GoalTimelineView: View {
     @EnvironmentObject var manager: DataManager
 
     var filteredJournals: [JournalData] {
-        if goalName == "목표 없음" {
+        if goalName == DataSentinel.noGoal {
             return journals.filter {
                 $0.isValidForDisplay &&
                 ($0.subGoal == nil || $0.subGoal?.isEmpty == true)
@@ -242,7 +242,7 @@ public struct GoalTimelineView: View {
                 Spacer()
 
                 VStack(spacing: 4) {
-                    Text(goalName)
+                    Text(DisplayText.goalName(goalName))
                         .font(.headline)
                         .foregroundStyle(.primary)
 
@@ -301,7 +301,7 @@ struct EmptyGoalTimelineView: View {
                 .font(.system(size: 60))
                 .foregroundStyle(.secondary.opacity(0.5))
 
-            Text("\(goalName)에 대한")
+            Text("\(DisplayText.goalName(goalName))에 대한")
                 .font(.body)
                 .foregroundStyle(.secondary)
 
@@ -327,8 +327,8 @@ struct GoalStatistics {
     let successCount: Int
     let failureCount: Int
     let successRate: Double
-    let recentStreak: (type: String, count: Int) // "성공" or "실패"
-    let recentTrend: String // "상승세", "하락세", "안정"
+    let recentStreak: (type: String, count: Int) // DataSentinel.success / .failure
+    let recentTrend: String // DataSentinel.uptrend / .downtrend / .steady
 
     init(journals: [JournalData]) {
         let sorted = journals.sorted { $0.dateUnwrapped < $1.dateUnwrapped }
@@ -343,7 +343,7 @@ struct GoalStatistics {
         var streakCount = 0
         if let lastJournal = sorted.last {
             let isSuccess = lastJournal.isGoalIn == true
-            streakType = isSuccess ? "성공" : "실패"
+            streakType = isSuccess ? DataSentinel.success : DataSentinel.failure
 
             for journal in sorted.reversed() {
                 if (journal.isGoalIn == true) == isSuccess {
@@ -364,24 +364,24 @@ struct GoalStatistics {
             let previousSuccessRate = Double(previous5.filter { $0.isGoalIn == true }.count) / 5.0
 
             if recentSuccessRate > previousSuccessRate + 0.2 {
-                self.recentTrend = "상승세"
+                self.recentTrend = DataSentinel.uptrend
             } else if recentSuccessRate < previousSuccessRate - 0.2 {
-                self.recentTrend = "하락세"
+                self.recentTrend = DataSentinel.downtrend
             } else {
-                self.recentTrend = "안정"
+                self.recentTrend = DataSentinel.steady
             }
         } else if sorted.count >= 3 {
             let recent = sorted.suffix(3)
             let successCount = recent.filter { $0.isGoalIn == true }.count
             if successCount >= 2 {
-                self.recentTrend = "상승세"
+                self.recentTrend = DataSentinel.uptrend
             } else if successCount == 0 {
-                self.recentTrend = "하락세"
+                self.recentTrend = DataSentinel.downtrend
             } else {
-                self.recentTrend = "안정"
+                self.recentTrend = DataSentinel.steady
             }
         } else {
-            self.recentTrend = "데이터 부족"
+            self.recentTrend = DataSentinel.notEnoughData
         }
     }
 }
@@ -392,16 +392,16 @@ struct GoalStatisticsView: View {
 
     var trendColor: Color {
         switch statistics.recentTrend {
-        case "상승세": return .green
-        case "하락세": return .red
+        case DataSentinel.uptrend: return .green
+        case DataSentinel.downtrend: return .red
         default: return .orange
         }
     }
 
     var trendIcon: String {
         switch statistics.recentTrend {
-        case "상승세": return "arrow.up.right"
-        case "하락세": return "arrow.down.right"
+        case DataSentinel.uptrend: return "arrow.up.right"
+        case DataSentinel.downtrend: return "arrow.down.right"
         default: return "arrow.right"
         }
     }
@@ -455,18 +455,18 @@ struct GoalStatisticsView: View {
                 VStack(alignment: .leading, spacing: 12) {
                     StatRow(icon: "checkmark.circle.fill",
                            iconColor: .green,
-                           label: "성공",
-                           value: "\(statistics.successCount)회")
+                           label: String(localized: "성공"),
+                           value: String(localized: "\(statistics.successCount)회"))
 
                     StatRow(icon: "xmark.circle.fill",
                            iconColor: .red,
-                           label: "실패",
-                           value: "\(statistics.failureCount)회")
+                           label: String(localized: "실패"),
+                           value: String(localized: "\(statistics.failureCount)회"))
 
                     StatRow(icon: "target",
                            iconColor: .blue,
-                           label: "총 시도",
-                           value: "\(statistics.totalAttempts)회")
+                           label: String(localized: "총 시도"),
+                           value: String(localized: "\(statistics.totalAttempts)회"))
                 }
             }
             .padding(.vertical, 8)
@@ -477,10 +477,10 @@ struct GoalStatisticsView: View {
                 HStack(spacing: 8) {
                     Image(systemName: "flame.fill")
                         .font(.subheadline)
-                        .foregroundStyle(statistics.recentStreak.type == "성공" ? .orange : .gray)
+                        .foregroundStyle(statistics.recentStreak.type == DataSentinel.success ? .orange : .gray)
 
                     VStack(alignment: .leading, spacing: 2) {
-                        Text("연속 \(statistics.recentStreak.type)")
+                        Text("연속 \(DisplayText.outcome(statistics.recentStreak.type))")
                             .font(.caption2)
                             .foregroundStyle(.secondary)
                         Text("\(statistics.recentStreak.count)회")
@@ -504,7 +504,7 @@ struct GoalStatisticsView: View {
                         Text("최근 추세")
                             .font(.caption2)
                             .foregroundStyle(.secondary)
-                        Text(statistics.recentTrend)
+                        Text(DisplayText.trend(statistics.recentTrend))
                             .font(.subheadline)
                             .fontWeight(.semibold)
                             .foregroundStyle(.primary)

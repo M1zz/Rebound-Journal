@@ -30,7 +30,7 @@ struct JournalList: View {
     }
     
     private func targetInfo(target: String?, type: Bool?, linkedReboundId: String?) -> some View {
-        let title = target ?? "목표 제목"
+        let title = target ?? String(localized: "목표 제목")
         let isGoal = type ?? false
         let hasLinkedRebound = !(linkedReboundId ?? "").isEmpty
 
@@ -61,13 +61,13 @@ struct JournalList: View {
                 .cornerRadius(8)
             }
 
-            Text(isGoal ? "골인" : "리바운드")
+            Text(isGoal ? String(localized: "골인") : String(localized: "리바운드"))
                 .font(.custom("Pretendard", size: 13).weight(.semibold))
                 .foregroundStyle(.accent)
                 .multilineTextAlignment(.center)
                 .padding(10)
                 .frame(height: 26, alignment: .center)
-                .background(Color(red: 1, green: 0.94, blue: 0.9))
+                .background(Color("GoalTypeBadgeBackground"))
                 .cornerRadius(8)
                 .shadow(color: .black.opacity(0.25), radius: 3, x: 0, y: 1)
         }
@@ -75,8 +75,8 @@ struct JournalList: View {
         .padding(.bottom, 8)
     }
     private func journalInfo(journal: String?, description: String?, date: Date?, linkedReboundId: String?) -> some View {
-        let title = journal ?? "저널 제목"
-        let desc = description ?? "느낀 점..."
+        let title = journal ?? String(localized: "저널 제목")
+        let desc = description ?? String(localized: "느낀 점...")
         let createdAt = date ?? Date()
         let hasLinkedRebound = !(linkedReboundId ?? "").isEmpty
 

@@ -50,12 +50,13 @@ struct DateSection: View {
     var dateLabel: String {
         let calendar = Calendar.current
         if calendar.isDateInToday(date) {
-            return "오늘"
+            return String(localized: "오늘")
         } else if calendar.isDateInYesterday(date) {
-            return "어제"
+            return String(localized: "어제")
         } else {
             let formatter = DateFormatter()
-            formatter.dateFormat = "M월 d일"
+            formatter.locale = .current
+            formatter.setLocalizedDateFormatFromTemplate("MMMd")
             return formatter.string(from: date)
         }
     }

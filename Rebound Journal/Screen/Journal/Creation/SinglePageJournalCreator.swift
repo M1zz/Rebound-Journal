@@ -95,12 +95,12 @@ struct SinglePageJournalCreator: View {
                 .font(.system(size: 22, weight: .bold))
 
             // 목표 없음 옵션
-            goalCell(text: "목표 없음", isSelected: viewModel.subGoal == "목표 없음") {
-                if viewModel.subGoal == "목표 없음" {
+            goalCell(text: DataSentinel.noGoal, isSelected: viewModel.subGoal == DataSentinel.noGoal) {
+                if viewModel.subGoal == DataSentinel.noGoal {
                     viewModel.subGoal = nil
                     selectedGoal = nil
                 } else {
-                    viewModel.subGoal = "목표 없음"
+                    viewModel.subGoal = DataSentinel.noGoal
                     selectedGoal = nil
                 }
             }
@@ -124,7 +124,7 @@ struct SinglePageJournalCreator: View {
 
     private func goalCell(text: String, isSelected: Bool, onTap: @escaping () -> Void) -> some View {
         HStack {
-            Text(text)
+            Text(DisplayText.goalName(text))
                 .padding()
                 .foregroundStyle(Color("Default"))
             Spacer()
@@ -149,14 +149,14 @@ struct SinglePageJournalCreator: View {
                 Button(action: {
                     viewModel.goalType = (viewModel.goalType == true) ? nil : true
                 }) {
-                    resultButton(image: .goalIn, title: "골인", isSelected: viewModel.goalType == true)
+                    resultButton(image: .goalIn, title: String(localized: "골인"), isSelected: viewModel.goalType == true)
                 }
 
                 // 리바운드 버튼
                 Button(action: {
                     viewModel.goalType = (viewModel.goalType == false) ? nil : false
                 }) {
-                    resultButton(image: .rebound, title: "리바운드", isSelected: viewModel.goalType == false)
+                    resultButton(image: .rebound, title: String(localized: "리바운드"), isSelected: viewModel.goalType == false)
                 }
             }
         }
@@ -212,7 +212,7 @@ struct SinglePageJournalCreator: View {
             }
 
             // 리뷰 입력
-            Text(viewModel.goalType == true ? "성공 경험을 기록해주세요" : "무엇이 문제였나요?")
+            Text(viewModel.goalType == true ? String(localized: "성공 경험을 기록해주세요") : String(localized: "무엇이 문제였나요?"))
                 .font(.system(size: 22, weight: .semibold))
 
             TextEditor(text: $reviewText)
@@ -227,7 +227,7 @@ struct SinglePageJournalCreator: View {
                 .cornerRadius(12)
                 .overlay(alignment: .topLeading) {
                     if reviewText.isEmpty {
-                        Text(viewModel.goalType == true ? "어떻게 성공하셨나요?" : "어떤 어려움이 있었나요?")
+                        Text(viewModel.goalType == true ? String(localized: "어떻게 성공하셨나요?") : String(localized: "어떤 어려움이 있었나요?"))
                             .foregroundStyle(.gray)
                             .padding(16)
                             .allowsHitTesting(false)
@@ -265,7 +265,7 @@ struct SinglePageJournalCreator: View {
         Button(action: saveJournal) {
             Text("저장")
                 .font(.system(size: 22, weight: .bold))
-                .foregroundStyle(Color("TextColor"))
+                .foregroundStyle(Color("OnAccent"))
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(canSave ? Color.accentColor : Color.gray)

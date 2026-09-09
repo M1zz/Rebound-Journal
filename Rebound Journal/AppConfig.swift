@@ -39,9 +39,25 @@ enum MoodLevel: Int, CaseIterable, Identifiable {
     var moodOptions: [String] {
         switch self {
         case .level1:
-            return ["깔끔하게 들어가서 기분좋아", "여러번만의 성공이라 신나", "다시 또 하고싶어", "왜 들어갔지? 아리송해" ,"발 뻗고 잘 수 있어", "내 자신이 자랑스러워", "이건 완전히 운이라고 생각해","완전히 에너지넘쳐"]
+            return [
+                String(localized: "깔끔하게 들어가서 기분좋아"),
+                String(localized: "여러번만의 성공이라 신나"),
+                String(localized: "다시 또 하고싶어"),
+                String(localized: "왜 들어갔지? 아리송해"),
+                String(localized: "발 뻗고 잘 수 있어"),
+                String(localized: "내 자신이 자랑스러워"),
+                String(localized: "이건 완전히 운이라고 생각해"),
+                String(localized: "완전히 에너지넘쳐")
+            ]
         case .level2:
-            return ["나 스스로에게 화가나", "아니야 괜찮아 한번 더!", "이쯤이야 예상했어", "자신이 실망스러워", " 다른사람이 질투나", "혼자인 것 같아 외로워"]
+            return [
+                String(localized: "나 스스로에게 화가나"),
+                String(localized: "아니야 괜찮아 한번 더!"),
+                String(localized: "이쯤이야 예상했어"),
+                String(localized: "자신이 실망스러워"),
+                String(localized: "다른사람이 질투나"),
+                String(localized: "혼자인 것 같아 외로워")
+            ]
 
         }
     }

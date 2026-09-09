@@ -13,8 +13,15 @@ struct GrowthSummarySection: View {
     @State private var selectedPeriod: Period = .monthly
 
     enum Period: String, CaseIterable {
-        case weekly = "주간"
-        case monthly = "월간"
+        case weekly
+        case monthly
+
+        var displayName: String {
+            switch self {
+            case .weekly: return String(localized: "주간")
+            case .monthly: return String(localized: "월간")
+            }
+        }
     }
 
     private var filteredJournals: [JournalData] {
@@ -66,7 +73,7 @@ struct GrowthSummarySection: View {
 
                 Picker("기간", selection: $selectedPeriod) {
                     ForEach(Period.allCases, id: \.self) { period in
-                        Text(period.rawValue).tag(period)
+                        Text(period.displayName).tag(period)
                     }
                 }
                 .pickerStyle(.segmented)
@@ -78,29 +85,29 @@ struct GrowthSummarySection: View {
                 summaryCard(
                     icon: "checkmark.circle.fill",
                     iconColor: .green,
-                    title: "성공",
-                    value: "\(successCount)개"
+                    title: String(localized: "성공"),
+                    value: String(localized: "\(successCount)개")
                 )
 
                 summaryCard(
                     icon: "arrow.counterclockwise.circle.fill",
                     iconColor: .orange,
-                    title: "도전",
-                    value: "\(failureCount)개"
+                    title: String(localized: "도전"),
+                    value: String(localized: "\(failureCount)개")
                 )
 
                 summaryCard(
                     icon: "leaf.fill",
                     iconColor: .blue,
-                    title: "성장의 실마리",
-                    value: "\(activeReboundsCount)개"
+                    title: String(localized: "성장의 실마리"),
+                    value: String(localized: "\(activeReboundsCount)개")
                 )
 
                 summaryCard(
                     icon: "flame.fill",
                     iconColor: .red,
-                    title: "연속 기록",
-                    value: "\(streakDays)일"
+                    title: String(localized: "연속 기록"),
+                    value: String(localized: "\(streakDays)일")
                 )
             }
         }

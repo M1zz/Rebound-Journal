@@ -89,7 +89,7 @@ class StatisticsAnalyzer {
             if let goal = journal.subGoal, !goal.isEmpty {
                 return goal
             }
-            return "목표 없음"
+            return DataSentinel.noGoal
         }
 
         // 각 목표의 성과 계산
@@ -120,7 +120,7 @@ class StatisticsAnalyzer {
 
         // 이전 월
         guard let previousMonth = calendar.date(byAdding: .month, value: -1, to: currentMonth) else {
-            return "계속 도전하세요! 🌱"
+            return String(localized: "계속 도전하세요! 🌱")
         }
         let previousYear = calendar.component(.year, from: previousMonth)
         let previousMonthNum = calendar.component(.month, from: previousMonth)
@@ -140,7 +140,7 @@ class StatisticsAnalyzer {
         }
 
         guard !currentData.isEmpty, !previousData.isEmpty else {
-            return "기록을 쌓아가고 있어요 💪"
+            return String(localized: "기록을 쌓아가고 있어요 💪")
         }
 
         let currentSuccessRate = Double(currentData.filter { $0.isGoalInUnwrapped }.count) / Double(currentData.count) * 100
@@ -149,13 +149,13 @@ class StatisticsAnalyzer {
         let difference = currentSuccessRate - previousSuccessRate
 
         if difference > 10 {
-            return "성공률이 \(Int(difference))% 증가했어요! 🚀"
+            return String(localized: "성공률이 \(Int(difference))% 증가했어요! 🚀")
         } else if difference > 0 {
-            return "꾸준히 성장하고 있어요 📈"
+            return String(localized: "꾸준히 성장하고 있어요 📈")
         } else if difference > -10 {
-            return "조금 어려웠지만 괜찮아요 💪"
+            return String(localized: "조금 어려웠지만 괜찮아요 💪")
         } else {
-            return "다시 일어설 수 있어요! 🌱"
+            return String(localized: "다시 일어설 수 있어요! 🌱")
         }
     }
 }

@@ -16,11 +16,11 @@ struct SuccessFromReboundCelebration: View {
         guard let date = rebound.date else { return "" }
         let days = Calendar.current.dateComponents([.day], from: date, to: Date()).day ?? 0
         if days == 0 {
-            return "오늘"
+            return String(localized: "오늘")
         } else if days == 1 {
-            return "어제"
+            return String(localized: "어제")
         } else {
-            return "\(days)일 전"
+            return String(localized: "\(days)일 전")
         }
     }
 
@@ -117,7 +117,7 @@ struct SuccessFromReboundCelebration: View {
                 Button(action: onDismiss) {
                     Text("확인")
                         .font(.system(size: 22, weight: .semibold))
-                        .foregroundStyle(Color("TextColor"))
+                        .foregroundStyle(Color("OnAccent"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 12)
                         .background(Color.accentColor)

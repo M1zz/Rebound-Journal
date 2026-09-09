@@ -57,7 +57,7 @@ struct ChartDateSelector: View {
                 
                 Picker("월", selection: $selectedMonth) {
                     ForEach(months, id: \.self) { month in
-                        Text("\(String(month))월").tag(month)
+                        Text(Self.monthName(month)).tag(month)
                     }
                 }
                 .pickerStyle(.wheel)
@@ -67,6 +67,15 @@ struct ChartDateSelector: View {
             
         }
         .padding()
+    }
+}
+
+extension ChartDateSelector {
+    /// 사용자 로캘의 월 이름 (한국어 "3월", 영어 "Mar")
+    static func monthName(_ month: Int) -> String {
+        let symbols = Calendar.current.shortMonthSymbols
+        guard (1...symbols.count).contains(month) else { return String(month) }
+        return symbols[month - 1]
     }
 }
 

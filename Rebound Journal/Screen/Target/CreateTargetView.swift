@@ -84,7 +84,7 @@ struct CreateTargetView: View {
                 onNext: {
                     onNextTapped()
                 },
-                nextButtonText: targetText.isEmpty ? "건너뛰기" : "저장하기"
+                nextButtonText: targetText.isEmpty ? String(localized: "건너뛰기") : String(localized: "저장하기")
             )
         }
         .padding()

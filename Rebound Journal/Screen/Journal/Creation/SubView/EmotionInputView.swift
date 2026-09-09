@@ -42,7 +42,7 @@ struct EmotionInputView: View {
                 onNext: {
                     onNextTapped()
                 },
-                nextButtonText: "다음으로"
+                nextButtonText: String(localized: "다음으로")
             )
             .padding()
         }

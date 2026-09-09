@@ -193,12 +193,12 @@ struct DashboardContentView: View {
             // 목표 없는 저널들을 위한 카테고리
             let noGoalCount = journals.count(where: { $0.subGoal == nil || $0.subGoal?.isEmpty == true })
             if noGoalCount > 0 {
-                goalCell(["목표 없음": noGoalCount])
+                goalCell([DataSentinel.noGoal: noGoalCount])
             }
 
             // 기존 목표들
             ForEach(subGoals, id: \.self) { item in
-                let text = item.goalText ?? "목표 없음"
+                let text = item.goalText ?? DataSentinel.noGoal
                 let count = journals.count(where: { $0.subGoal == item.goalText })
                 goalCell([text: count])
             }
@@ -232,7 +232,7 @@ struct DashboardContentView: View {
         return VStack(alignment: .leading) {
             if let goal = data.keys.first,
                let count = data.values.first {
-                Text(goal)
+                Text(DisplayText.goalName(goal))
                     .lineLimit(1)
 										.foregroundStyle(Color("DashboardTitle"))
                     .font(.system(size: 22))
@@ -284,7 +284,7 @@ struct DashboardContentView: View {
                 .frame(height: 60)
                 .bold()
                 .background(.tint)
-                .foregroundStyle(Color("TextColor"))
+                .foregroundStyle(Color("OnAccent"))
                 .clipShape(RoundedRectangle(cornerRadius: 90))
         }
         .padding(.horizontal, 24)

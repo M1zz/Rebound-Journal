@@ -34,7 +34,7 @@ struct ReviewPlanView: View {
     
     var body: some View {
             VStack(alignment: .leading) {
-                Text(viewModel.emotionText?.first ?? "감정태그")
+                Text(viewModel.emotionText?.first ?? String(localized: "감정태그"))
                     .font(.system(size: 22))
                     .fontWeight(.semibold)
                     .frame(height: 35)

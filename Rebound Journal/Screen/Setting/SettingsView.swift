@@ -155,7 +155,7 @@ struct SettingsView: View {
             if manager.enableReminders {
                 Divider()
                     .padding(.horizontal)
-                SettingsItem(title: "시간",
+                SettingsItem(title: String(localized: "시간"),
                              icon: "clock",
                              timePicker: true) { }
             }
@@ -178,10 +178,10 @@ struct SettingsView: View {
                 .padding(.horizontal)
             SettingsItem(title: Constants.Strings.disablePasscode,
                          icon: "lock.slash") {
-                presentAlert(title: "비밀번호 삭제",
-                             message: "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?",
-                             primaryAction: UIAlertAction(title: "취소", style: .cancel, handler: nil),
-                             secondaryAction: UIAlertAction(title: "비밀번호 삭제", style: .destructive, handler: { _ in
+                presentAlert(title: String(localized: "비밀번호 삭제"),
+                             message: String(localized: "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?"),
+                             primaryAction: UIAlertAction(title: String(localized: "취소"), style: .cancel, handler: nil),
+                             secondaryAction: UIAlertAction(title: String(localized: "비밀번호 삭제"), style: .destructive, handler: { _ in
                     manager.savedPasscode = ""
                 }))
             }

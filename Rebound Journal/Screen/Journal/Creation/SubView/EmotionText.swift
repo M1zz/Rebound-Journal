@@ -86,7 +86,7 @@ struct EmotionText: View {
         }
         .overlay(alignment: .top) {
             if showToast {
-                ToastView(message: "감정은 하나만 선택됩니다")
+                ToastView(message: String(localized: "감정은 하나만 선택됩니다"))
                     .transition(.move(edge: .top).combined(with: .opacity))
                     .zIndex(1)
                     .onAppear {
@@ -252,8 +252,8 @@ struct CreateEmotionView: View {
                     onConfirm(tempText)
                     isPresented = false
                 },
-                nextButtonText: "확인",
-                previousButtonText: "취소"
+                nextButtonText: String(localized: "확인"),
+                previousButtonText: String(localized: "취소")
             )
         }
         .padding()

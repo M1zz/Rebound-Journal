@@ -15,7 +15,7 @@ struct TimelineView: View {
     var body: some View {
         VStack(spacing: 0) {
             // 헤더
-            ModalHeaderBar(title: "타임라인") {
+            ModalHeaderBar(title: String(localized: "타임라인")) {
                 manager.fullScreenMode = nil
             }
 

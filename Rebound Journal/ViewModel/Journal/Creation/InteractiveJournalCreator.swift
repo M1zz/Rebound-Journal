@@ -37,12 +37,12 @@ struct InteractiveJournalCreator: View {
 
     // Failure trigger options
     let triggerOptions = [
-        "환경 (장소, 상황)",
-        "감정 (스트레스, 외로움)",
-        "피로 (몸이 힘들었음)",
-        "유혹 (보거나 냄새를 맡음)",
-        "준비 부족 (대안이 없었음)",
-        "습관 (무의식적으로)"
+        String(localized: "환경 (장소, 상황)"),
+        String(localized: "감정 (스트레스, 외로움)"),
+        String(localized: "피로 (몸이 힘들었음)"),
+        String(localized: "유혹 (보거나 냄새를 맡음)"),
+        String(localized: "준비 부족 (대안이 없었음)"),
+        String(localized: "습관 (무의식적으로)")
     ]
 
     enum Step {
@@ -195,8 +195,8 @@ struct InteractiveJournalCreator: View {
 
             VStack(spacing: 12) {
                 // 목표 없음
-                goalOptionButton(text: "목표 없음", isSelected: viewModel.subGoal == "목표 없음") {
-                    selectGoal("목표 없음")
+                goalOptionButton(text: DataSentinel.noGoal, isSelected: viewModel.subGoal == DataSentinel.noGoal) {
+                    selectGoal(DataSentinel.noGoal)
                 }
 
                 // 목표 리스트
@@ -214,7 +214,7 @@ struct InteractiveJournalCreator: View {
     private func goalOptionButton(text: String, isSelected: Bool, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             HStack {
-                Text(text)
+                Text(DisplayText.goalName(text))
                     .font(.body)
                     .foregroundStyle(.primary)
                 Spacer()
@@ -239,7 +239,7 @@ struct InteractiveJournalCreator: View {
             HStack(spacing: 16) {
                 resultOptionButton(
                     image: .goalIn,
-                    title: "골인",
+                    title: String(localized: "골인"),
                     isSelected: viewModel.goalType == true
                 ) {
                     selectResult(true)
@@ -247,7 +247,7 @@ struct InteractiveJournalCreator: View {
 
                 resultOptionButton(
                     image: .rebound,
-                    title: "리바운드",
+                    title: String(localized: "리바운드"),
                     isSelected: viewModel.goalType == false
                 ) {
                     selectResult(false)
@@ -645,7 +645,7 @@ struct InteractiveJournalCreator: View {
     private func triggerOptionButton(text: String, isSelected: Bool, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             HStack {
-                Text(text)
+                Text(DisplayText.goalName(text))
                     .font(.body)
                     .foregroundStyle(.primary)
                 Spacer()
@@ -859,15 +859,15 @@ struct InteractiveJournalCreator: View {
 
     private func selectGoal(_ goal: String) {
         viewModel.subGoal = goal
-        addAnsweredStep(question: "어떤 목표에 대한 기록인가요?", answer: goal, step: .goal)
+        addAnsweredStep(question: String(localized: "어떤 목표에 대한 기록인가요?"), answer: DisplayText.goalName(goal), step: .goal)
         moveToNextStep()
     }
 
     private func selectResult(_ isSuccess: Bool) {
         viewModel.goalType = isSuccess
         addAnsweredStep(
-            question: "결과가 어떠셨나요?",
-            answer: isSuccess ? "골인" : "리바운드",
+            question: String(localized: "결과가 어떠셨나요?"),
+            answer: isSuccess ? String(localized: "골인") : String(localized: "리바운드"),
             step: .result
         )
         moveToNextStep()
@@ -909,7 +909,7 @@ struct InteractiveJournalCreator: View {
             // Success path
             case .successEmotion:
                 addAnsweredStep(
-                    question: "어떤 기분이었나요?",
+                    question: String(localized: "어떤 기분이었나요?"),
                     answer: viewModel.emotionText?.first ?? "",
                     step: .successEmotion
                 )
@@ -917,7 +917,7 @@ struct InteractiveJournalCreator: View {
 
             case .successReview:
                 addAnsweredStep(
-                    question: "성공 경험을 기록해주세요",
+                    question: String(localized: "성공 경험을 기록해주세요"),
                     answer: successReviewText,
                     step: .successReview
                 )
@@ -925,7 +925,7 @@ struct InteractiveJournalCreator: View {
 
             case .successContinuation:
                 addAnsweredStep(
-                    question: "다음 성공을 위해",
+                    question: String(localized: "다음 성공을 위해"),
                     answer: successContinuationText,
                     step: .successContinuation
                 )
@@ -933,24 +933,26 @@ struct InteractiveJournalCreator: View {
 
             case .successReference:
                 addAnsweredStep(
-                    question: "나중을 위한 기록",
+                    question: String(localized: "나중을 위한 기록"),
                     answer: successReferenceText,
                     step: .successReference
                 )
                 // Combine success review + reference as nextPlan
-                viewModel.nextPlanText = """
-                [다음 성공을 위해]
-                \(successContinuationText)
+                viewModel.nextPlanText = String(
+                    localized: """
+                    [다음 성공을 위해]
+                    \(successContinuationText)
 
-                [성공 참고사항]
-                \(successReferenceText)
-                """
+                    [성공 참고사항]
+                    \(successReferenceText)
+                    """
+                )
                 currentStep = .complete
 
             // Failure path
             case .failureFacts:
                 addAnsweredStep(
-                    question: "무슨 일이 있었나요?",
+                    question: String(localized: "무슨 일이 있었나요?"),
                     answer: failureFactsText,
                     step: .failureFacts
                 )
@@ -958,7 +960,7 @@ struct InteractiveJournalCreator: View {
 
             case .failureEmotion:
                 addAnsweredStep(
-                    question: "어떤 기분이었나요?",
+                    question: String(localized: "어떤 기분이었나요?"),
                     answer: viewModel.emotionText?.first ?? "",
                     step: .failureEmotion
                 )
@@ -966,7 +968,7 @@ struct InteractiveJournalCreator: View {
 
             case .failureThoughts:
                 addAnsweredStep(
-                    question: "그때 무슨 생각을 했나요?",
+                    question: String(localized: "그때 무슨 생각을 했나요?"),
                     answer: failureThoughtsText,
                     step: .failureThoughts
                 )
@@ -974,7 +976,7 @@ struct InteractiveJournalCreator: View {
 
             case .failureTrigger:
                 addAnsweredStep(
-                    question: "무엇이 실패를 유발했나요?",
+                    question: String(localized: "무엇이 실패를 유발했나요?"),
                     answer: failureTrigger ?? "",
                     step: .failureTrigger
                 )
@@ -982,7 +984,7 @@ struct InteractiveJournalCreator: View {
 
             case .failureAlternative:
                 addAnsweredStep(
-                    question: "대신 무엇을 할 수 있었을까요?",
+                    question: String(localized: "대신 무엇을 할 수 있었을까요?"),
                     answer: failureAlternativeText,
                     step: .failureAlternative
                 )
@@ -990,23 +992,27 @@ struct InteractiveJournalCreator: View {
 
             case .failureActionPlan:
                 addAnsweredStep(
-                    question: "다음엔 구체적으로 어떻게 할까요?",
+                    question: String(localized: "다음엔 구체적으로 어떻게 할까요?"),
                     answer: failureActionPlanText,
                     step: .failureActionPlan
                 )
                 // Combine all failure reflection into viewModel
-                viewModel.reviewText = """
-                사실: \(failureFactsText)
+                viewModel.reviewText = String(
+                    localized: """
+                    사실: \(failureFactsText)
 
-                생각: \(failureThoughtsText)
+                    생각: \(failureThoughtsText)
 
-                원인: \(failureTrigger ?? "")
-                """
-                viewModel.nextPlanText = """
-                대안: \(failureAlternativeText)
+                    원인: \(failureTrigger ?? "")
+                    """
+                )
+                viewModel.nextPlanText = String(
+                    localized: """
+                    대안: \(failureAlternativeText)
 
-                계획: \(failureActionPlanText)
-                """
+                    계획: \(failureActionPlanText)
+                    """
+                )
                 currentStep = .complete
 
             case .complete:

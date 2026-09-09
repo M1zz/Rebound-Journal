@@ -22,7 +22,7 @@ struct ChartView: View {
         GeometryReader { proxy in
             ScrollView {
                 // Header
-                ModalHeaderBar(title: "통계") {
+                ModalHeaderBar(title: String(localized: "통계")) {
                     manager.fullScreenMode = nil
                 }
                 // 연속 일수
@@ -105,8 +105,8 @@ extension ChartView {
                 
                 Spacer()
                 
-                customChartLegend(circleColor: .goalInChart, text: "골인")
-                customChartLegend(circleColor: .reboundChart, text: "리바운드")
+                customChartLegend(circleColor: .goalInChart, text: String(localized: "골인"))
+                customChartLegend(circleColor: .reboundChart, text: String(localized: "리바운드"))
             }
             
             Chart {
