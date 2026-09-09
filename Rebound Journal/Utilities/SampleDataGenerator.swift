@@ -14,11 +14,11 @@ class SampleDataGenerator {
     /// 샘플 목표들 생성
     static func generateSampleGoals(context: ModelContext) {
         let goals = [
-            "야식 참기",
-            "운동하기",
-            "아침 일찍 일어나기",
-            "독서하기",
-            "영어 공부하기"
+            String(localized: "야식 참기"),
+            String(localized: "운동하기"),
+            String(localized: "아침 일찍 일어나기"),
+            String(localized: "독서하기"),
+            String(localized: "영어 공부하기")
         ]
 
         for goal in goals {
@@ -41,13 +41,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: true,
             emotionValue: 4,
-            emotionText: "뿌듯한",
-            review: "아침 일찍 일어나서 하루를 알차게 보냈어요!",
+            emotionText: String(localized: "뿌듯한"),
+            review: String(localized: "아침 일찍 일어나서 하루를 알차게 보냈어요!"),
             nextPlan: "",
             isRebounded: false,
-            purpose: "건강",
-            mainGoal: "규칙적인 생활",
-            subGoal: "아침 일찍 일어나기"
+            purpose: String(localized: "건강"),
+            mainGoal: String(localized: "규칙적인 생활"),
+            subGoal: String(localized: "아침 일찍 일어나기")
         )
         context.insert(todaySuccess)
 
@@ -59,13 +59,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: false,
             emotionValue: 2,
-            emotionText: "실망스러운",
-            review: "야식을 참지 못했어요. 배고파서 라면을 먹었습니다.",
-            nextPlan: "물을 많이 마시고 일찍 자기",
+            emotionText: String(localized: "실망스러운"),
+            review: String(localized: "야식을 참지 못했어요. 배고파서 라면을 먹었습니다."),
+            nextPlan: String(localized: "물을 많이 마시고 일찍 자기"),
             isRebounded: false,
-            purpose: "건강",
-            mainGoal: "다이어트",
-            subGoal: "야식 참기",
+            purpose: String(localized: "건강"),
+            mainGoal: String(localized: "다이어트"),
+            subGoal: String(localized: "야식 참기"),
             linkedReboundId: nil,
             isResolved: false
         )
@@ -79,13 +79,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: false,
             emotionValue: 1,
-            emotionText: "자책하는",
-            review: "운동하러 갔다가 중간에 포기하고 왔어요.",
-            nextPlan: "가벼운 스트레칭부터 시작하기",
+            emotionText: String(localized: "자책하는"),
+            review: String(localized: "운동하러 갔다가 중간에 포기하고 왔어요."),
+            nextPlan: String(localized: "가벼운 스트레칭부터 시작하기"),
             isRebounded: false,
-            purpose: "건강",
-            mainGoal: "체력 기르기",
-            subGoal: "운동하기",
+            purpose: String(localized: "건강"),
+            mainGoal: String(localized: "체력 기르기"),
+            subGoal: String(localized: "운동하기"),
             linkedReboundId: nil,
             isResolved: false
         )
@@ -99,13 +99,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: false,
             emotionValue: 2,
-            emotionText: "아쉬운",
-            review: "영어 공부를 하려다가 미루고 말았어요.",
-            nextPlan: "매일 10분씩 영어 팟캐스트 듣기",
+            emotionText: String(localized: "아쉬운"),
+            review: String(localized: "영어 공부를 하려다가 미루고 말았어요."),
+            nextPlan: String(localized: "매일 10분씩 영어 팟캐스트 듣기"),
             isRebounded: false,
-            purpose: "자기계발",
-            mainGoal: "영어 실력 향상",
-            subGoal: "영어 공부하기",
+            purpose: String(localized: "자기계발"),
+            mainGoal: String(localized: "영어 실력 향상"),
+            subGoal: String(localized: "영어 공부하기"),
             linkedReboundId: nil,
             isResolved: true,
             resolvedDate: calendar.date(byAdding: .day, value: -1, to: now)
@@ -120,13 +120,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: true,
             emotionValue: 5,
-            emotionText: "뿌듯한",
-            review: "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다.",
+            emotionText: String(localized: "뿌듯한"),
+            review: String(localized: "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다."),
             nextPlan: "",
             isRebounded: false,
-            purpose: "자기계발",
-            mainGoal: "영어 실력 향상",
-            subGoal: "영어 공부하기",
+            purpose: String(localized: "자기계발"),
+            mainGoal: String(localized: "영어 실력 향상"),
+            subGoal: String(localized: "영어 공부하기"),
             linkedReboundId: resolvedRebound.id,
             isResolved: false
         )
@@ -140,13 +140,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: true,
             emotionValue: 4,
-            emotionText: "만족스러운",
-            review: "책을 30분 읽었어요. 집중이 잘 됐습니다.",
+            emotionText: String(localized: "만족스러운"),
+            review: String(localized: "책을 30분 읽었어요. 집중이 잘 됐습니다."),
             nextPlan: "",
             isRebounded: false,
-            purpose: "자기계발",
-            mainGoal: "독서 습관 만들기",
-            subGoal: "독서하기"
+            purpose: String(localized: "자기계발"),
+            mainGoal: String(localized: "독서 습관 만들기"),
+            subGoal: String(localized: "독서하기")
         )
         context.insert(pastSuccess)
 
@@ -158,13 +158,13 @@ class SampleDataGenerator {
             hasDeleted: false,
             isGoalIn: false,
             emotionValue: 2,
-            emotionText: "아쉬운",
-            review: "아침에 일어나지 못하고 늦잠 잤어요.",
-            nextPlan: "밤 11시에 알람 설정하고 핸드폰 멀리 두기",
+            emotionText: String(localized: "아쉬운"),
+            review: String(localized: "아침에 일어나지 못하고 늦잠 잤어요."),
+            nextPlan: String(localized: "밤 11시에 알람 설정하고 핸드폰 멀리 두기"),
             isRebounded: false,
-            purpose: "건강",
-            mainGoal: "규칙적인 생활",
-            subGoal: "아침 일찍 일어나기",
+            purpose: String(localized: "건강"),
+            mainGoal: String(localized: "규칙적인 생활"),
+            subGoal: String(localized: "아침 일찍 일어나기"),
             linkedReboundId: nil,
             isResolved: false
         )

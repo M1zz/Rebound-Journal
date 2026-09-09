@@ -46,7 +46,10 @@ extension String {
     ///   - withFinal: 받침이 있을 때 (을/은/이/과/아)
     ///   - withoutFinal: 받침이 없을 때 (를/는/가/와/야)
     func particle(_ withFinal: String, _ withoutFinal: String) -> String {
-        hasFinalConsonant ? withFinal : withoutFinal
+        // 조사는 한국어에만 있다. 다른 언어에서는 붙이지 않는다 —
+        // 영어 문장에 "을/를"이 남으면 문장이 깨진 것으로 읽힌다.
+        guard AppLanguage.isKorean else { return "" }
+        return hasFinalConsonant ? withFinal : withoutFinal
     }
 
     /// 조사까지 붙인 문자열. 따옴표 없이 이름을 그대로 쓸 때.

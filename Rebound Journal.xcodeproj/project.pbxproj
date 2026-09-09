@@ -10,6 +10,7 @@
 		9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
 		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
 		9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */; };
+		C3B1B7D12D9462140008E38D /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1B7D02D9462140008E38D /* AppLanguage.swift */; };
 		215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BFD81E3954E97EE45C6A4 /* Phrasing.swift */; };
 		F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
@@ -141,6 +142,7 @@
 		D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSnapshot.swift; sourceTree = "<group>"; };
 		AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTips.swift; sourceTree = "<group>"; };
 		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
+		C3B1B7D02D9462140008E38D /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
 		E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
 		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
@@ -320,7 +322,8 @@
 				C4793847AD7E6899F390C7B5 /* ConversationView.swift */,
 				D41606D32B4E15054B74956C /* ChatBubble.swift */,
 				753BFD81E3954E97EE45C6A4 /* Phrasing.swift */,
-				50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */,);
+				50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */,
+				C3B1B7D02D9462140008E38D /* AppLanguage.swift */,);
 			path = Conversation;
 			sourceTree = "<group>";
 		};
@@ -885,6 +888,7 @@
 				F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */,
 				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,
 				9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */,
+				C3B1B7D12D9462140008E38D /* AppLanguage.swift in Sources */,
 				DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */,
 				9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1041,7 +1045,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Rebound Journal/Rebound Journal.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Rebound Journal/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
@@ -1081,7 +1085,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Rebound Journal/Rebound Journal.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Rebound Journal/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
@@ -1119,7 +1123,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ReboundWidget/ReboundWidget.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ReboundWidget/Info.plist";
@@ -1149,7 +1153,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ReboundWidget/ReboundWidget.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ReboundWidget/Info.plist";

@@ -154,8 +154,12 @@ struct SettingsView: View {
     // MARK: - App Custom settings
     private var AppCustomSettingsView: some View {
         VStack {
-            CustomHeader(title: "조약돌")
-            SpeechStyleView
+            CustomHeader(title: String(localized: "조약돌"))
+            // 존댓말·반말은 한국어에만 있는 구분이다. 다른 언어에서는
+            // 고를 것이 없으므로 아예 내보내지 않는다.
+            if AppLanguage.isKorean {
+                SpeechStyleView
+            }
             CompanionFeedbackView
             CustomHeader(title: Constants.Strings.appPasscode)
             PasscodeView
@@ -222,10 +226,10 @@ struct SettingsView: View {
     // 자리가 이 앱에서는 오히려 흔하다.
     private var CompanionFeedbackView: some View {
         VStack {
-            ToggleItem(title: "말할 때 소리", icon: "speaker.wave.2", isOn: $voiceOn)
+            ToggleItem(title: String(localized: "말할 때 소리"), icon: "speaker.wave.2", isOn: $voiceOn)
             Divider()
                 .padding(.horizontal)
-            ToggleItem(title: "말할 때 진동", icon: "hand.tap", isOn: $hapticOn)
+            ToggleItem(title: String(localized: "말할 때 진동"), icon: "hand.tap", isOn: $hapticOn)
         }
         // 저장소가 UserDefaults라 관찰 대상이 아니다. 화면 상태를 따로 들고
         // 바뀔 때 옮겨 적는다. 계산 프로퍼티에 직접 Binding을 걸면 토글이

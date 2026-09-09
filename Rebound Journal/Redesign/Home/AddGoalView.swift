@@ -104,8 +104,8 @@ struct AddGoalView: View {
             Phrasing.say("무엇을 향해 가고 있어요?", "무엇을 향해 가고 있어?")
         case .smaller:
             Phrasing.say(
-                "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?",
-                "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?"
+                String(localized: "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?"),
+                String(localized: "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?")
             )
         }
     }

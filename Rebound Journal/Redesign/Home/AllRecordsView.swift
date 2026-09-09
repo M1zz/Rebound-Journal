@@ -136,7 +136,7 @@ struct AllRecordsView: View {
         let review = text(entry.review)
         let plan = text(entry.nextPlan)
         let emotion = text(entry.emotionText)
-        let goal = text(entry.subGoal) ?? text(entry.mainGoal) ?? "적어둔 목표 없음"
+        let goal = text(entry.subGoal) ?? text(entry.mainGoal) ?? String(localized: "적어둔 목표 없음")
 
         return SoftCard {
             VStack(alignment: .leading, spacing: 8) {
@@ -244,14 +244,14 @@ struct AllRecordsView: View {
 
     private func title(for day: Date) -> String {
         let calendar = Calendar.current
-        if calendar.isDateInToday(day) { return "오늘" }
-        if calendar.isDateInYesterday(day) { return "어제" }
+        if calendar.isDateInToday(day) { return String(localized: "오늘") }
+        if calendar.isDateInYesterday(day) { return String(localized: "어제") }
 
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR")
-        formatter.dateFormat = calendar.isDate(day, equalTo: Date(), toGranularity: .year)
-            ? "M월 d일 EEEE"
-            : "yyyy년 M월 d일"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate(
+            calendar.isDate(day, equalTo: Date(), toGranularity: .year) ? "MMMdEEEE" : "yMMMd"
+        )
         return formatter.string(from: day)
     }
 }

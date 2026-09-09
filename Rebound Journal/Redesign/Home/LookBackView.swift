@@ -170,11 +170,11 @@ struct LookBackView: View {
 
     private func dayTitle(_ day: Date) -> String {
         let calendar = Calendar.current
-        if calendar.isDateInToday(day) { return "오늘" }
-        if calendar.isDateInYesterday(day) { return "어제" }
+        if calendar.isDateInToday(day) { return String(localized: "오늘") }
+        if calendar.isDateInYesterday(day) { return String(localized: "어제") }
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR")
-        formatter.dateFormat = "M월 d일 EEEE"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("MMMdEEEE")
         return formatter.string(from: day)
     }
 
@@ -313,8 +313,8 @@ struct LookBackView: View {
                 }
                 if entries.count > Self.visibleNotes {
                     Text(Phrasing.say(
-                        "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어요.",
-                        "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어."
+                        String(localized: "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어요."),
+                        String(localized: "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어.")
                     ))
                         .font(PebbleTheme.label(12))
                         .foregroundStyle(PebbleTheme.inkFaint)
@@ -411,8 +411,8 @@ struct LookBackView: View {
     /// 날짜 단위로 끊어서 사람이 말하듯 적는다.
     private func relative(_ date: Date) -> String {
         let calendar = Calendar.current
-        if calendar.isDateInToday(date) { return "오늘 남김" }
-        if calendar.isDateInYesterday(date) { return "어제 남김" }
+        if calendar.isDateInToday(date) { return String(localized: "오늘 남김") }
+        if calendar.isDateInYesterday(date) { return String(localized: "어제 남김") }
 
         let days = calendar.dateComponents(
             [.day],
@@ -421,10 +421,10 @@ struct LookBackView: View {
         ).day ?? 0
 
         return switch days {
-        case ..<0: "오늘 남김"
-        case 0..<7: "\(days)일 전에 남김"
-        case 7..<30: "\(days / 7)주 전에 남김"
-        default: "오래전에 남김"
+        case ..<0: String(localized: "오늘 남김")
+        case 0..<7: String(localized: "\(days)일 전에 남김")
+        case 7..<30: String(localized: "\(days / 7)주 전에 남김")
+        default: String(localized: "오래전에 남김")
         }
     }
 }

@@ -22,9 +22,10 @@ enum Phrasing {
     /// 여러 표현 중 하나를 고른다. 같은 씨앗이면 언제나 같은 것이 나온다.
     static func pick(_ options: [String], seed: String) -> String {
         guard let first = options.first else { return "" }
-        guard options.count > 1 else { return first }
+        guard options.count > 1 else { return AppLanguage.localized(first) }
         let index = Int(stableHash(seed) % UInt64(options.count))
-        return options[index]
+        // 한국어면 원문 그대로, 아니면 그 원문을 키로 번역문을 찾는다.
+        return AppLanguage.localized(options[index])
     }
 
     /// 오늘을 가리키는 씨앗. 날이 바뀌면 말도 바뀐다.

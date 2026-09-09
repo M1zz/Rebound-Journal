@@ -111,13 +111,13 @@ enum ConversationScript {
     static func factsPrompt(goal: String) -> String {
         Phrasing.pick(
             formal: [
-                "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?",
-                "'\(goal)' 앞에서 뭐가 걸렸어요?",
+                String(localized: "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?"),
+                String(localized: "'\(goal)' 앞에서 뭐가 걸렸어요?"),
                 "그때 무슨 일이 있었어요?"
             ],
             casual: [
-                "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 보자. 뭐가 막혔어?",
-                "'\(goal)' 앞에서 뭐가 걸렸어?",
+                String(localized: "'\(goal)'\(goal.particle("을", "를")) 하려던 때로 돌아가 보자. 뭐가 막혔어?"),
+                String(localized: "'\(goal)' 앞에서 뭐가 걸렸어?"),
                 "그때 무슨 일이 있었어?"
             ],
             seed: Phrasing.today(with: goal)
@@ -235,13 +235,15 @@ enum ConversationScript {
             emotion.particle("이야", "야")
         )
 
-        return """
-        \(opening)
-        막힌 건 '\(situation)'였고,
-        지금 기분은 '\(emotion)'\(ending).
+        return String(
+            localized: """
+            \(opening)
+            막힌 건 '\(situation)'였고,
+            지금 기분은 '\(emotion)'\(ending).
 
-        \(closing)
-        """
+            \(closing)
+            """
+        )
     }
 
     /// 감정이 바닥일 때의 마무리. 아무것도 더 묻지 않는다.

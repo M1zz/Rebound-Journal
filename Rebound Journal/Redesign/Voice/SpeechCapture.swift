@@ -57,7 +57,8 @@ final class SpeechCapture {
 
     // MARK: 내부
 
-    private let locale = Locale(identifier: "ko-KR")
+    // 받아쓰기는 사용자가 실제로 말하는 언어를 따른다.
+    private let locale = Locale.current
     private let audioEngine = AVAudioEngine()
     private var analyzer: SpeechAnalyzer?
     private var transcriber: SpeechTranscriber?
@@ -76,7 +77,7 @@ final class SpeechCapture {
 
         guard await requestPermission() else {
             // 권한이 없어도 대화는 계속된다. 텍스트 입력이 늘 열려 있다.
-            phase = .unavailable("마이크를 쓸 수 없어요. 적어주셔도 괜찮아요.")
+            phase = .unavailable(String(localized: "마이크를 쓸 수 없어요. 적어주셔도 괜찮아요."))
             return
         }
 
@@ -84,7 +85,7 @@ final class SpeechCapture {
             try await beginSession()
             phase = .listening
         } catch {
-            phase = .unavailable("지금은 듣기가 어려워요. 적어주셔도 괜찮아요.")
+            phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
         }
     }
 
@@ -181,7 +182,7 @@ final class SpeechCapture {
                 try await analyzer.start(inputSequence: stream)
                 try self.startTap()
             } catch {
-                self.phase = .unavailable("지금은 듣기가 어려워요. 적어주셔도 괜찮아요.")
+                self.phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
             }
         }
     }

@@ -168,26 +168,26 @@ enum HomeGreeting {
             let quote = condensed(blocked)
             context = Phrasing.pick(
                 formal: [
-                    "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 하셨어요.",
-                    "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남기셨죠.",
-                    "'\(goal)'에 대해 \(when) '\(quote)'라고 적으셨어요."
+                    String(localized: "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 하셨어요."),
+                    String(localized: "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남기셨죠."),
+                    String(localized: "'\(goal)'에 대해 \(when) '\(quote)'라고 적으셨어요.")
                 ],
                 casual: [
-                    "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 했잖아.",
-                    "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남겼지.",
-                    "'\(goal)'에 대해 \(when) '\(quote)'라고 적었어."
+                    String(localized: "\(when) '\(goal)'\(goal.particle("을", "를")) 두고 '\(quote)'라고 했잖아."),
+                    String(localized: "\(when) '\(goal)' 얘기하면서 '\(quote)'라고 남겼지."),
+                    String(localized: "'\(goal)'에 대해 \(when) '\(quote)'라고 적었어.")
                 ],
                 seed: Phrasing.today(with: goal)
             )
         } else {
             context = Phrasing.pick(
                 formal: [
-                    "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요.",
-                    "\(when) '\(goal)'에서 걸렸다고 남기셨죠."
+                    String(localized: "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 하셨어요."),
+                    String(localized: "\(when) '\(goal)'에서 걸렸다고 남기셨죠.")
                 ],
                 casual: [
-                    "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 했잖아.",
-                    "\(when) '\(goal)'에서 걸렸다고 남겼지."
+                    String(localized: "\(when) '\(goal)'\(goal.particle("이", "가")) 막혔다고 했잖아."),
+                    String(localized: "\(when) '\(goal)'에서 걸렸다고 남겼지.")
                 ],
                 seed: Phrasing.today(with: goal)
             )
@@ -280,11 +280,11 @@ enum HomeGreeting {
         ).day ?? 0
 
         return switch days {
-        case ...1: "어제"
-        case 2...6: "며칠 전에"
-        case 7...13: "지난주에"
-        case 14...30: "얼마 전에"
-        default: "한참 전에"
+        case ...1: String(localized: "어제")
+        case 2...6: String(localized: "며칠 전에")
+        case 7...13: String(localized: "지난주에")
+        case 14...30: String(localized: "얼마 전에")
+        default: String(localized: "한참 전에")
         }
     }
 

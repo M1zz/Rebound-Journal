@@ -57,14 +57,14 @@ struct GoalObservation: Equatable, Identifiable {
         case .neverAttempted(let goal):
             Phrasing.pick(
                 formal: [
-                    "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요.",
-                    "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이에요.",
-                    "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해요."
+                    String(localized: "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네요."),
+                    String(localized: "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이에요."),
+                    String(localized: "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해요.")
                 ],
                 casual: [
-                    "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네.",
-                    "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이야.",
-                    "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해."
+                    String(localized: "'\(goal)'\(goal.particle("을", "를")) 적어두고 아직 돌아본 적은 없네."),
+                    String(localized: "'\(goal)'\(goal.particle("은", "는")) 적어두기만 하고 아직이야."),
+                    String(localized: "'\(goal)'\(goal.particle("을", "를")) 적어둔 뒤로는 아직 조용해.")
                 ],
                 seed: Phrasing.today(with: goal)
             )
@@ -73,27 +73,27 @@ struct GoalObservation: Equatable, Identifiable {
             daysAgo == 0
                 ? Phrasing.pick(
                     formal: [
-                        "오늘 '\(goal)'에 닿았네요.",
-                        "오늘 '\(goal)', 해내셨네요.",
-                        "'\(goal)'에 닿은 하루였네요."
+                        String(localized: "오늘 '\(goal)'에 닿았네요."),
+                        String(localized: "오늘 '\(goal)', 해내셨네요."),
+                        String(localized: "'\(goal)'에 닿은 하루였네요.")
                     ],
                     casual: [
-                        "오늘 '\(goal)'에 닿았네.",
-                        "오늘 '\(goal)', 해냈네.",
-                        "'\(goal)'에 닿은 하루였네."
+                        String(localized: "오늘 '\(goal)'에 닿았네."),
+                        String(localized: "오늘 '\(goal)', 해냈네."),
+                        String(localized: "'\(goal)'에 닿은 하루였네.")
                     ],
                     seed: Phrasing.today(with: goal)
                 )
                 : Phrasing.pick(
                     formal: [
-                        "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요.",
-                        "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해내셨죠.",
-                        "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어요."
+                        String(localized: "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어요."),
+                        String(localized: "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해내셨죠."),
+                        String(localized: "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어요.")
                     ],
                     casual: [
-                        "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어.",
-                        "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해냈지.",
-                        "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어."
+                        String(localized: "\(Self.dayPhrase(daysAgo)) '\(goal)'에 닿았어."),
+                        String(localized: "\(Self.dayPhrase(daysAgo)) '\(goal)'\(goal.particle("을", "를")) 해냈지."),
+                        String(localized: "'\(goal)'에 닿은 게 \(Self.dayPhrase(daysAgo))였어.")
                     ],
                     seed: Phrasing.today(with: goal)
                 )
@@ -102,27 +102,27 @@ struct GoalObservation: Equatable, Identifiable {
             daysAgo <= 1
                 ? Phrasing.pick(
                     formal: [
-                        "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요.",
-                        "'\(goal)', 오늘은 아직이네요.",
-                        "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어요."
+                        String(localized: "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네요."),
+                        String(localized: "'\(goal)', 오늘은 아직이네요."),
+                        String(localized: "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어요.")
                     ],
                     casual: [
-                        "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네.",
-                        "'\(goal)', 오늘은 아직이네.",
-                        "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어."
+                        String(localized: "'\(goal)'\(goal.particle("은", "는")) 오늘 아직 닿지 않았네."),
+                        String(localized: "'\(goal)', 오늘은 아직이네."),
+                        String(localized: "오늘 '\(goal)'\(goal.particle("은", "는")) 아직 소식이 없어.")
                     ],
                     seed: Phrasing.today(with: goal)
                 )
                 : Phrasing.pick(
                     formal: [
-                        "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요.",
-                        "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요.",
-                        "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어요."
+                        String(localized: "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어요."),
+                        String(localized: "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요."),
+                        String(localized: "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어요.")
                     ],
                     casual: [
-                        "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어.",
-                        "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네.",
-                        "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어."
+                        String(localized: "'\(goal)'\(goal.particle("을", "를")) 돌아본 지 \(daysAgo)일 됐어."),
+                        String(localized: "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네."),
+                        String(localized: "'\(goal)' 얘기를 나눈 지 \(daysAgo)일이 지났어.")
                     ],
                     seed: Phrasing.today(with: goal)
                 )
@@ -209,11 +209,11 @@ struct GoalObservation: Equatable, Identifiable {
 
     private static func dayPhrase(_ days: Int) -> String {
         switch days {
-        case 0: "오늘"
-        case 1: "어제"
-        case 2...6: "\(days)일 전"
-        case 7...13: "지난주"
-        default: "얼마 전"
+        case 0: String(localized: "오늘")
+        case 1: String(localized: "어제")
+        case 2...6: String(localized: "\(days)일 전")
+        case 7...13: String(localized: "지난주")
+        default: String(localized: "얼마 전")
         }
     }
 }
@@ -229,21 +229,21 @@ struct PastSuccess: Equatable {
     var recollection: String {
         let days = Calendar.current.dateComponents([.day], from: date, to: Date()).day ?? 0
         let when: String = switch days {
-        case 0...1: "어제"
-        case 2...7: "며칠 전"
-        case 8...20: "지난주쯤"
-        default: "얼마 전"
+        case 0...1: String(localized: "어제")
+        case 2...7: String(localized: "며칠 전")
+        case 8...20: String(localized: "지난주쯤")
+        default: String(localized: "얼마 전")
         }
         return Phrasing.pick(
             formal: [
-                "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요.",
-                "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해내셨잖아요.",
-                "\(when)에는 '\(goal)'에 닿으셨고요."
+                String(localized: "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해내셨어요."),
+                String(localized: "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해내셨잖아요."),
+                String(localized: "\(when)에는 '\(goal)'에 닿으셨고요.")
             ],
             casual: [
-                "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해냈어.",
-                "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해냈잖아.",
-                "\(when)에는 '\(goal)'에 닿았고."
+                String(localized: "\(when)에는 '\(goal)'\(goal.particle("을", "를")) 해냈어."),
+                String(localized: "\(when)에 '\(goal)'\(goal.particle("은", "는")) 해냈잖아."),
+                String(localized: "\(when)에는 '\(goal)'에 닿았고.")
             ],
             seed: Phrasing.today(with: goal)
         )
@@ -271,14 +271,14 @@ struct PreviousNote: Equatable {
             let short = PreviousNote.condensed(plan)
             return Phrasing.pick(
                 formal: [
-                    "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요.",
-                    "지난번에 '\(short)'\(short.particle("으로", "로")) 정하셨었죠.",
-                    "그때 '\(short)'\(short.particle("을", "를")) 해보자고 하셨어요."
+                    String(localized: "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어요."),
+                    String(localized: "지난번에 '\(short)'\(short.particle("으로", "로")) 정하셨었죠."),
+                    String(localized: "그때 '\(short)'\(short.particle("을", "를")) 해보자고 하셨어요.")
                 ],
                 casual: [
-                    "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어.",
-                    "지난번에 '\(short)'\(short.particle("으로", "로")) 정했었지.",
-                    "그때 '\(short)'\(short.particle("을", "를")) 해보자고 했었어."
+                    String(localized: "지난번엔 '\(short)'\(short.particle("을", "를")) 해보기로 했었어."),
+                    String(localized: "지난번에 '\(short)'\(short.particle("으로", "로")) 정했었지."),
+                    String(localized: "그때 '\(short)'\(short.particle("을", "를")) 해보자고 했었어.")
                 ],
                 seed: Phrasing.today(with: short)
             )
@@ -287,14 +287,14 @@ struct PreviousNote: Equatable {
             let short = PreviousNote.condensed(review)
             return Phrasing.pick(
                 formal: [
-                    "지난번엔 '\(short)'라고 적으셨어요.",
-                    "그때는 '\(short)'라고 하셨죠.",
-                    "지난 기록엔 '\(short)'라고 남아 있어요."
+                    String(localized: "지난번엔 '\(short)'라고 적으셨어요."),
+                    String(localized: "그때는 '\(short)'라고 하셨죠."),
+                    String(localized: "지난 기록엔 '\(short)'라고 남아 있어요.")
                 ],
                 casual: [
-                    "지난번엔 '\(short)'라고 적었어.",
-                    "그때는 '\(short)'라고 했었지.",
-                    "지난 기록엔 '\(short)'라고 남아 있어."
+                    String(localized: "지난번엔 '\(short)'라고 적었어."),
+                    String(localized: "그때는 '\(short)'라고 했었지."),
+                    String(localized: "지난 기록엔 '\(short)'라고 남아 있어.")
                 ],
                 seed: Phrasing.today(with: short)
             )
@@ -499,7 +499,7 @@ enum ProgressObserver {
 
     private static func dayNote(from journal: JournalData) -> DayNote {
         DayNote(
-            goal: nonEmpty(journal.subGoal) ?? nonEmpty(journal.mainGoal) ?? "적어둔 목표 없음",
+            goal: nonEmpty(journal.subGoal) ?? nonEmpty(journal.mainGoal) ?? String(localized: "적어둔 목표 없음"),
             note: PreviousNote(
                 date: journal.dateUnwrapped,
                 review: nonEmpty(journal.review),

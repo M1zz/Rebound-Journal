@@ -44,13 +44,13 @@ final class Paraphraser {
         case .available:
             nil
         case .unavailable(.deviceNotEligible):
-            "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요."
+            String(localized: "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요.")
         case .unavailable(.appleIntelligenceNotEnabled):
-            "설정에서 Apple Intelligence를 켜면 말한 내용을 더 잘 정리해 드려요."
+            String(localized: "설정에서 Apple Intelligence를 켜면 말한 내용을 더 잘 정리해 드려요.")
         case .unavailable(.modelNotReady):
-            "정리 기능을 준비하고 있어요. 지금은 들린 대로 적어둘게요."
+            String(localized: "정리 기능을 준비하고 있어요. 지금은 들린 대로 적어둘게요.")
         case .unavailable:
-            "지금은 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요."
+            String(localized: "지금은 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요.")
         }
     }
 

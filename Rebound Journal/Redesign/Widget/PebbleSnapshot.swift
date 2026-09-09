@@ -51,8 +51,8 @@ struct PebbleSnapshot: Codable, Equatable {
     ///
     /// 빈 화면을 두지 않는다. 위젯을 막 올려놓은 순간에도 조약돌은 거기 있어야 한다.
     static let resting = PebbleSnapshot(
-        line: "여기 있어요.",
-        action: "오늘 남기러 가기",
+        line: String(localized: "여기 있어요."),
+        action: String(localized: "오늘 남기러 가기"),
         mood: .resting,
         updatedAt: .distantPast
     )

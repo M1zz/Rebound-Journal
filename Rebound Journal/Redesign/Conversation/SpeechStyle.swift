@@ -78,8 +78,13 @@ enum SpeechStyle: String, CaseIterable, Identifiable {
 extension Phrasing {
 
     /// 말투에 맞는 한 문장.
+    ///
+    /// 한국어가 아니면 말투를 고르지 않는다. 존댓말·반말은 한국어에만 있는
+    /// 구분이라 다른 언어에는 옮길 자리가 없다. 존댓말 원문을 키로 삼아
+    /// 번역문을 찾아 쓴다.
     static func say(_ formal: String, _ casual: String) -> String {
-        SpeechStyle.current == .casual ? casual : formal
+        guard AppLanguage.isKorean else { return AppLanguage.localized(formal) }
+        return SpeechStyle.current == .casual ? casual : formal
     }
 
     /// 말투를 고르고, 그 안에서 다시 표현 하나를 고른다.
@@ -93,6 +98,9 @@ extension Phrasing {
             formal.count == casual.count,
             "말투별 표현 수가 다르면 말투를 바꿀 때 내용까지 바뀐다"
         )
+        // 한국어가 아니면 말투를 고르지 않고 존댓말 쪽을 키로 쓴다.
+        // 번역은 pick(_:seed:) 가 맡는다.
+        guard AppLanguage.isKorean else { return pick(formal, seed: seed) }
         return pick(SpeechStyle.current == .casual ? casual : formal, seed: seed)
     }
 }

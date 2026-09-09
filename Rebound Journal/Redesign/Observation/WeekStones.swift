@@ -36,9 +36,10 @@ struct StoneDay: Identifiable, Equatable {
 
     /// 요일 한 글자.
     var weekdayLabel: String {
-        let symbols = ["일", "월", "화", "수", "목", "금", "토"]
+        // 로캘의 요일 약칭을 쓴다. 한국어 "월", 영어 "M".
+        let symbols = Calendar.current.veryShortWeekdaySymbols
         let index = Calendar.current.component(.weekday, from: date) - 1
-        return symbols[max(0, min(6, index))]
+        return symbols[max(0, min(symbols.count - 1, index))]
     }
 
     var dayNumber: Int {
@@ -46,12 +47,12 @@ struct StoneDay: Identifiable, Equatable {
     }
 
     var accessibilityDescription: String {
-        let day = "\(Calendar.current.component(.month, from: date))월 \(dayNumber)일"
+        let day = String(localized: "\(Calendar.current.component(.month, from: date))월 \(dayNumber)일")
         return switch state {
-        case .reached: "\(day), 목표에 닿은 날"
-        case .recorded: "\(day), 기록을 남긴 날"
-        case .untouched: "\(day), 남긴 기록 없음"
-        case .ahead: "\(day), 아직 오지 않은 날"
+        case .reached: String(localized: "\(day), 목표에 닿은 날")
+        case .recorded: String(localized: "\(day), 기록을 남긴 날")
+        case .untouched: String(localized: "\(day), 남긴 기록 없음")
+        case .ahead: String(localized: "\(day), 아직 오지 않은 날")
         }
     }
 }
@@ -113,17 +114,17 @@ enum WeekStones {
     /// 화면에 적을 주 이름.
     static func title(for start: Date, now: Date = Date(), calendar: Calendar = .current) -> String {
         if calendar.isDate(start, equalTo: startOfWeek(containing: now, calendar: calendar), toGranularity: .day) {
-            return "이번 주"
+            return String(localized: "이번 주")
         }
         let previous = startOfWeek(containing: calendar.date(byAdding: .weekOfYear, value: -1, to: now) ?? now,
                                    calendar: calendar)
         if calendar.isDate(start, equalTo: previous, toGranularity: .day) {
-            return "지난주"
+            return String(localized: "지난주")
         }
 
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR")
-        formatter.dateFormat = "M월 d일"
-        return formatter.string(from: start) + " 주"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("MMMd")
+        return String(localized: "\(formatter.string(from: start)) 주")
     }
 }

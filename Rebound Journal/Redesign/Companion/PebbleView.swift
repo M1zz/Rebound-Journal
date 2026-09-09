@@ -233,10 +233,10 @@ struct PebbleView: View {
 
     private var accessibilityMood: String {
         switch mood {
-        case .resting: "곁에 있어요"
-        case .listening: "듣고 있어요"
-        case .thinking: "생각하고 있어요"
-        case .warm: "기뻐하고 있어요"
+        case .resting: String(localized: "곁에 있어요")
+        case .listening: String(localized: "듣고 있어요")
+        case .thinking: String(localized: "생각하고 있어요")
+        case .warm: String(localized: "기뻐하고 있어요")
         }
     }
 }

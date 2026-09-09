@@ -6,45 +6,37 @@
 
 버전 2.0.1 / 라이트 모드 / 샘플 데이터
 
-## ko/ — 한국어 (제출 가능)
+## 두 언어 모두 제출 가능
 
-| 파일 | 화면 | 무엇을 보여주나 |
-|---|---|---|
-| 01-greeting.png | 첫 만남 | 조약돌이 먼저 말을 건다 |
-| 02-conversation.png | 대화 | 지난 기록을 기억하고 이어서 묻는다 |
-| 03-conversation-flow.png | 대화 (이어짐) | 재촉하지 않는 말투, 답을 고르는 방식 |
-| 04-stone-bridge.png | 지나온 길 | 한 주가 징검다리로, 밟지 않은 돌도 남는다 |
-| 05-records.png | 남긴 것들 | 날짜순 원본, 감정 태그, 대안 |
-| 06-settings.png | 설정 | 말투(존댓말/반말), 소리·진동 |
+| | ko/ | en/ | 화면 |
+|---|---|---|---|
+| 01 | 첫 만남 | Greeting | 조약돌이 먼저 말을 건다 |
+| 02 | 대화 | Conversation | 지난 기록을 기억하고 이어서 묻는다 |
+| 03 | 대화 이어짐 | Conversation flow | 재촉하지 않는 말투, 답을 고르는 방식 |
+| 04 | 지나온 길 | The way you've come | 한 주가 징검다리로, 밟지 않은 돌도 남는다 |
+| 05 | 남긴 것들 | What you've left | 날짜순 원본, 감정 태그, 대안 |
+| 06 | 설정 | Settings | 소리·진동, 비밀번호, 알림 |
 
-## en/ — 영어 (⚠️ 제출 불가, 현재 상태 증거)
+영어 화면은 샘플 데이터까지 영어다(`SampleDataGenerator` 현지화).
 
-영어 리스팅용으로 쓸 수 없다. **아래 두 장은 스크린샷이 아니라 근거 자료다.**
+## 영어 화면이 한국어와 다른 점
 
-| 파일 | 무엇을 보여주나 |
-|---|---|
-| 01-main-still-korean.png | 기기 언어를 영어로 두고 `-AppleLanguages "(en)"` 로 실행해도 메인 화면이 전부 한국어 |
-| 02-settings-mixed.png | 같은 화면에서 위쪽(리디자인 섹션)은 한국어, 아래쪽(현지화된 섹션)은 영어 — 섞여 있다 |
+**말투(존댓말/반말) 설정이 없다.** 영어에는 그 구분이 없어서
+`AppLanguage.isKorean` 이 아닐 때 설정에서 통째로 감춘다.
+그래서 ko/06 에는 있는 "말투" 칸이 en/06 에는 없다.
 
-### 왜 안 되나
-
-조약돌 대화 문구가 String Catalog 를 거치지 않는다.
-`Redesign/Conversation/ConversationScript.swift`, `Phrasing.swift`,
-`Redesign/Home/HomeGreeting.swift` 가 한국어 조사 처리
-(`goal.particle("을","를")`)로 문장을 조립하기 때문에
-번역을 채워 넣을 키 자체가 만들어지지 않는다.
-
-### 영어 스크린샷을 만들려면
-
-1. 위 세 파일의 문장 생성 방식을 언어별로 갈라지게 바꾼다
-   (조사 처리는 한국어 경로에만 두고, 영어는 별도 문장 템플릿을 쓴다)
-2. 새로 생기는 키를 카탈로그에 채운다
-3. 이 문서의 ko 목록과 같은 순서로 다시 캡처한다
+조약돌 문구는 존댓말 원문을 키로 삼아 번역문을 찾는다
+(`Phrasing.say` / `pick` → `AppLanguage.localized`).
+한국어 조사(`String.particle`)는 다른 언어에서 빈 문자열을 돌려준다.
 
 ## 다시 찍는 법
 
-1. 깨끗한 시뮬레이터에 설치 (다른 앱이 전면으로 올라오면 캡처가 방해받는다)
+1. 깨끗한 시뮬레이터에 설치 — 다른 앱이 전면으로 올라오면 캡처가 방해받는다
 2. 라이트 모드: `xcrun simctl ui <UDID> appearance light`
-3. 알림·추적 권한 팝업을 먼저 닫는다
-4. 우측 상단 `···` ▸ 개발용 ▸ 샘플 데이터 생성
-5. `xcrun simctl io <UDID> screenshot <파일>` 로 저장 후 1242×2688 로 변환
+3. 언어: `xcrun simctl spawn <UDID> defaults write "Apple Global Domain" AppleLanguages -array en-US`
+   (한국어는 `ko-KR`). 바꾼 뒤 앱을 지웠다 다시 설치해야 확실히 붙는다
+4. 알림·추적 권한 팝업을 먼저 닫는다
+5. 우측 상단 `···` ▸ 개발용 ▸ 샘플 데이터 생성
+6. 말풍선 타이핑 애니메이션이 끝날 때까지 기다린다 —
+   전환 중에 찍으면 같은 말풍선이 겹쳐 나온다
+7. `xcrun simctl io <UDID> screenshot <파일>` 로 저장 후 1242×2688 로 변환

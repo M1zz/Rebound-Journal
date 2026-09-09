@@ -98,7 +98,7 @@ struct EditRecordView: View {
             Text(when)
                 .font(PebbleTheme.label(12))
                 .foregroundStyle(PebbleTheme.inkFaint)
-            Text(record.subGoalUnwrapped.isEmpty ? "적어둔 목표 없음" : record.subGoalUnwrapped)
+            Text(record.subGoalUnwrapped.isEmpty ? String(localized: "적어둔 목표 없음") : record.subGoalUnwrapped)
                 .font(PebbleTheme.body(17))
                 .foregroundStyle(PebbleTheme.ink)
         }
@@ -215,8 +215,8 @@ struct EditRecordView: View {
 
     private var when: String {
         let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "ko_KR")
-        formatter.dateFormat = "yyyy년 M월 d일 EEEE"
+        formatter.locale = .current
+        formatter.setLocalizedDateFormatFromTemplate("yMMMdEEEE")
         return formatter.string(from: record.dateUnwrapped)
     }
 

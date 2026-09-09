@@ -6,35 +6,36 @@ App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 
 ## 2.0.1
 
-2.0.0(징검돌 리디자인) 위에 얹은 판.
-⚠️ 조약돌 대화·오늘 화면은 아직 한국어 전용이다. 아래 "개발 메모" 참고.
+2.0.0(징검돌 리디자인) 위에 영어를 얹은 판.
 
 ### 앱스토어 (한국어)
 
-설정과 통계 화면이 영어를 지원합니다.
+영어를 지원합니다.
 날짜 표기가 기기 언어를 따릅니다.
 비밀번호 화면의 숫자 버튼이 보이지 않던 문제를 고쳤습니다.
 
 ### App Store (English)
 
-Settings and stats are available in English.
+ZinggumDol now speaks English.
 Dates follow your device language.
 Fixed the blank passcode keypad.
 
 ### 개발 메모 (노출 안 함)
 
-- Localizable 326키 중 311키에 영어. 다만 **조약돌 대화의 문구는 카탈로그를 거치지
-  않는다** — ConversationScript / Phrasing / HomeGreeting 이 한국어 조사 처리
-  (`goal.particle("을","를")`)로 문장을 조립하므로 번역을 채워 넣을 자리가 없다.
-  전체 영어화를 하려면 그 세 파일의 문장 생성 방식부터 바꿔야 한다.
+- Localizable 559키 전부 ko/en. 조약돌 대화까지 영어로 나온다.
+  - `Phrasing.say` / `pick` 이 한국어가 아닐 때 존댓말 원문을 키로 삼아
+    `AppLanguage.localized` 로 번역문을 찾는다 (런타임 조회라 카탈로그에 수기 등록)
+  - `String.particle` 은 한국어가 아니면 빈 문자열 — 영어 문장에 조사가 남지 않는다
+  - 보간이 든 문구 74개는 `String(localized:)` 로 감싸 형식 문자열 키로 뽑았다
+  - 말투(존댓말/반말) 칸은 영어에서 감춘다. 그 구분이 없는 언어라서.
+  - ko_KR 로 고정돼 있던 DateFormatter·요일 기호·받아쓰기 로캘을 사용자 로캘로
+  - `SampleDataGenerator` 도 현지화 — 영어 스크린샷에 한국어 데이터가 안 나온다
 - 저장·비교용 값은 DataSentinel 로 원문 고정, 표시만 번역해 기존 기록 보존
-- ko_KR 로 고정돼 있던 DateFormatter 를 사용자 로캘 기준으로 변경
-- FeedbackHub 사용 통계(UsageSnapshot/UsageEvent) + 개발자 대시보드.
-  리디자인이 진입점을 바꿔서 RootView / ConversationEngine / AddGoalView /
-  TodayView 로 다시 연결했다.
+- FeedbackHub 사용 통계(UsageSnapshot/UsageEvent) + 개발자 대시보드
   ⚠️ CloudKit Console 에서 두 레코드 타입을 Production 에 배포해야 실제로 쌓인다
 - ⚠️ 액센트 색이 둘이다 — 리디자인 화면은 PebbleTheme.key(#5F8F93),
-  설정·잠금·통계 등 옛 화면은 AccentColor 에셋(#2F9E44). 하나로 맞춰야 한다.
+  설정·잠금 등 옛 화면은 AccentColor 에셋(#2F9E44). 하나로 맞춰야 한다.
+- ⚠️ 말풍선 전환 애니메이션 중 같은 말풍선이 겹쳐 그려지는 프레임이 있다.
 
 ## 2.0.0
 
