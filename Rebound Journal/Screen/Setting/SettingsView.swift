@@ -14,9 +14,18 @@ struct SettingsView: View {
     @EnvironmentObject var manager: DataManager
     @State private var remindersTime: Date = Date()
     @State private var didConfigureTime: Bool = false
+    /// LeeoKit 과 같은 키. 설정의 "버전" 행을 7번 탭하면 켜진다.
+    @AppStorage("dev.masterMode") private var devMode = false
     
     // MARK: - Main rendering function
     var body: some View {
+        // LeeoKit 지원 섹션과 사용 통계는 NavigationLink 로 열리므로 스택이 필요하다
+        NavigationStack {
+            settingsContent
+        }
+    }
+
+    private var settingsContent: some View {
         ZStack {
             VStack(alignment: .center, spacing: 0) {
                 Capsule()
@@ -239,16 +248,30 @@ struct SettingsView: View {
         )
     }
 
-    // MARK: - LeeoKit Support (feedback & review)
+    // MARK: - LeeoKit Support (feedback & review + 사용 통계)
     private var LeeoSupportView: some View {
         VStack {
             LeeoSupportSection<ReboundJournalSpec>()
                 .foregroundColor(Color("TextColor"))
                 .padding()
+            if devMode {
+                usageStatsRow
+                    .foregroundColor(Color("TextColor"))
+                    .padding()
+            }
         }.padding([.top, .bottom], 5).background(
             Color("DiarySecondary").cornerRadius(15)
                 .shadow(color: Color.primary.opacity(0.07), radius: 10)
         ).padding(.top, 40)
+    }
+
+    /// FeedbackHub 로 올라간 사용 통계 대시보드 (개발자 모드에서만 보인다)
+    private var usageStatsRow: some View {
+        NavigationLink {
+            LeeoUsageStatsView<ReboundJournalSpec>()
+        } label: {
+            Label(String(localized: "사용 통계 (개발자)"), systemImage: "chart.bar.doc.horizontal")
+        }
     }
 }
 

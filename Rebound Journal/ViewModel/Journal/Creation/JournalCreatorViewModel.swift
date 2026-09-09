@@ -62,6 +62,8 @@ class JournalCreatorViewModel: ObservableObject {
         )
         context.insert(journal) // 데이터 저장
 
+        UsageReporting.logShot(isGoalIn: goalType == true, resolvedRebound: linkedReboundId != nil)
+
         // 성공 시 축하 메시지 표시 플래그
         if goalType == true && retryingRebound != nil {
             showSuccessFromReboundCelebration = true

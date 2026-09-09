@@ -111,6 +111,8 @@ struct DashboardContentView: View {
             }
             // 중복되지 않는 CoreData를 SwiftData로 옮기는 함수
             manager.convertDupicateDataToSwiftData(nsContext: context, modelContext: modelContext)
+            // FeedbackHub 사용 통계 스냅샷 (LeeoKit이 12시간 간격으로 스로틀)
+            UsageReporting.reportSnapshot(journals: Array(journals), subGoals: Array(subGoals))
             // 작은 목표 유무에 따라 슛 생성 화면 상태값 수정
             
         }
@@ -293,6 +295,8 @@ struct DashboardContentView: View {
 
     /// 리바운드 재도전 처리
     private func handleRetryRebound(_ rebound: JournalData) {
+        UsageReporting.log(.retryStarted)
+
         // ViewModel에 재도전할 리바운드 설정
         journalCreatorViewModel.retryingRebound = rebound
         journalCreatorViewModel.subGoal = rebound.subGoalUnwrapped

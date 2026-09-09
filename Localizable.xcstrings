@@ -2602,6 +2602,22 @@
         }
       }
     },
+    "사용 통계 (개발자)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage stats (developer)"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사용 통계 (개발자)"
+          }
+        }
+      }
+    },
     "상세 기록": {
       "localizations": {
         "en": {

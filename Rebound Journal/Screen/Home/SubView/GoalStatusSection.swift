@@ -91,6 +91,8 @@ struct GoalStatusSection: View {
         modelContext.insert(newGoal)
         try? modelContext.save()
 
+        UsageReporting.log(.goalCreated)
+
         newGoalText = ""
         showAddGoalSheet = false
     }
