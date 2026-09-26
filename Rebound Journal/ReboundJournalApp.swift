@@ -15,6 +15,7 @@ struct ReboundJournalApp: App {
     // 데이터를 전체에서 쓸 방법
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var manager: DataManager = DataManager(preview: false)
+    @Environment(\.scenePhase) private var scenePhase
 
     init() {
         LeeoEngagement.shared.registerLaunch()
@@ -51,6 +52,15 @@ struct ReboundJournalApp: App {
                 .environment(\.managedObjectContext, manager.container.viewContext)
                 .modelContainer(sharedModelContainer)
                 .leeoSatisfactionCheck(ReboundJournalSpec.self)
+                // 이 설치가 지금 어떤 모습인지(개수뿐) 올리고, 앱을 연 날을 남긴다.
+                // 끈 사람에게는 아무것도 나가지 않는다 (→ Telemetry.swift).
+                .task {
+                    Telemetry.reportSnapshot(in: sharedModelContainer.mainContext)
+                    Telemetry.recordOpen()
+                }
+                .onChange(of: scenePhase) { _, phase in
+                    if phase == .active { Telemetry.recordOpen() }
+                }
         }
     }
 }

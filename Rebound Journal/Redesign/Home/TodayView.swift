@@ -85,6 +85,7 @@ struct TodayView: View {
             // 조약돌이 말하는 걸 한 번 겪었다. 이제 "말투를 바꿀 수 있다"는
             // 안내가 뜻을 갖는다.
             Task { await SpeechStyleTip.conversationFinished.donate() }
+            Telemetry.recordConversationFinished()
         } content: { observation in
             ConversationView(observation: observation, journals: journals)
         }

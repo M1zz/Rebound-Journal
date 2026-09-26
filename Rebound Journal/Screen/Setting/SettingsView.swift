@@ -17,6 +17,8 @@ struct SettingsView: View {
     @State private var didConfigureTime: Bool = false
     @State private var voiceOn: Bool = true
     @State private var hapticOn: Bool = true
+    /// 익명 사용 통계를 보내는가. 저장은 '끄기' 키라 뒤집어서 든다 (→ Telemetry.swift).
+    @AppStorage(Telemetry.optOutKey) private var usageOptOut = false
     @State private var speechStyle: SpeechStyle = .formal
 
     private let speechStyleTip = SpeechStyleSettingTip()
@@ -152,7 +154,31 @@ struct SettingsView: View {
             PasscodeView
             CustomHeader(title: Constants.Strings.dailyReminders)
             DailyRemindersView
+            CustomHeader(title: String(localized: "사용 통계"))
+            UsageSharingView
         }
+    }
+
+    // MARK: - 익명 사용 통계
+    //
+    // **무엇을 보내는지 먼저 말하고, 그 옆에서 끌 수 있게 한다.** 기본은 보냄이다.
+    private var UsageSharingView: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            ToggleItem(title: String(localized: "익명 사용 통계 보내기"),
+                       icon: "chart.bar",
+                       isOn: Binding(get: { !usageOptOut }, set: { usageOptOut = !$0 }))
+            Text("앱을 연 날, 대화를 끝낸 날, 기록과 목표의 개수만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다.")
+                .font(.body)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding([.horizontal, .bottom])
+        }
+        .padding([.top, .bottom], 5)
+        .background(Color(.systemGray6)
+            .cornerRadius(15)
+            .shadow(color: Color.primary.opacity(0.07),
+                    radius: 10))
+        .padding(.bottom, 40)
     }
 
     // MARK: - 조약돌 말투

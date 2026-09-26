@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0210F275BBAD19924F724809 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04744A2D15CCA372D1E2582 /* Telemetry.swift */; };
 		9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
 		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
 		9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */; };
@@ -136,6 +137,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D04744A2D15CCA372D1E2582 /* Telemetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
 		D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSnapshot.swift; sourceTree = "<group>"; };
 		AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTips.swift; sourceTree = "<group>"; };
 		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
@@ -259,6 +261,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612DFB1210B1D4C35ED06008 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+			
+				D04744A2D15CCA372D1E2582 /* Telemetry.swift */,);
+			path = Usage;
+			sourceTree = "<group>";
+		};
 		40D9FD48113A2F1BCA71CB73 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,7 +428,8 @@
 				586F22912A33861D004C7410 /* Preview Content */,
 				A8CEB7F55F0C4DBCA5F58161 /* Rebound JournalSpec.swift */,
 			
-				BE3325E5AE7A34C1EC2F7A7F /* Redesign */,);
+				BE3325E5AE7A34C1EC2F7A7F /* Redesign */,
+				612DFB1210B1D4C35ED06008 /* Usage */,);
 			path = "Rebound Journal";
 			sourceTree = "<group>";
 		};
@@ -878,7 +889,8 @@
 				215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */,
 				9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */,
 				DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */,
-				9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */,);
+				9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */,
+				0210F275BBAD19924F724809 /* Telemetry.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A11D78B82E961502C7054877 /* Sources */ = {

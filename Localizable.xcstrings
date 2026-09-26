@@ -1,6 +1,54 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "사용 통계" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usage statistics"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용 통계"
+          }
+        }
+      }
+    },
+    "익명 사용 통계 보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send anonymous usage statistics"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "익명 사용 통계 보내기"
+          }
+        }
+      }
+    },
+    "앱을 연 날, 대화를 끝낸 날, 기록과 목표의 개수만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only the days you opened the app or finished a conversation, and how many entries and goals you have, are sent. Nothing you write ever leaves, and senders are told apart only by a random number made on this device."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱을 연 날, 대화를 끝낸 날, 기록과 목표의 개수만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다."
+          }
+        }
+      }
+    },
     "" : {
 
     },
