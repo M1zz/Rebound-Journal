@@ -14,10 +14,6 @@ extension String {
         return formatter.date(from: self)
     }
     
-    var date: Date? {
-        date(format: "MM/dd/yyyy")
-    }
-    
     var time: Date? {
         date(format: "h:mm a")
     }

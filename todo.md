@@ -34,14 +34,14 @@
 | §10 | 햇빛에 달궈진 조약돌 | `PebbleView` (SwiftUI 드로잉) |
 
 ## 3. 구현
-- [x] 디자인 시스템 (따뜻한 흙색 팔레트) — `Redesign/DesignSystem/PebbleTheme.swift`
-- [x] 조약돌 캐릭터 뷰 + 표정/호흡 — `Redesign/Companion/PebbleView.swift`
-- [x] 조약돌 보이스 (Animalese) — `Redesign/Companion/PebbleVoice.swift`
-- [x] 관찰 계층 (앱이 먼저 인식) — `Redesign/Observation/ProgressObserver.swift`
-- [x] 대화 스크립트 + 엔진 — `Redesign/Conversation/`
-- [x] FoundationModels 패러프레이즈 재확인 — `Redesign/Intelligence/Paraphraser.swift`
-- [x] SpeechAnalyzer 음성 입력 — `Redesign/Voice/SpeechCapture.swift`
-- [x] 새 홈 화면 + 앱 진입점 교체 — `Redesign/Home/`
+- [x] 디자인 시스템 (따뜻한 흙색 팔레트) — `Features/DesignSystem/PebbleTheme.swift`
+- [x] 조약돌 캐릭터 뷰 + 표정/호흡 — `Features/Companion/PebbleView.swift`
+- [x] 조약돌 보이스 (Animalese) — `Features/Companion/PebbleVoice.swift`
+- [x] 관찰 계층 (앱이 먼저 인식) — `Features/Observation/ProgressObserver.swift`
+- [x] 대화 스크립트 + 엔진 — `Features/Conversation/`
+- [x] FoundationModels 패러프레이즈 재확인 — `Features/Intelligence/Paraphraser.swift`
+- [x] SpeechAnalyzer 음성 입력 — `Features/Voice/SpeechCapture.swift`
+- [x] 새 홈 화면 + 앱 진입점 교체 — `Features/Home/`
 - [x] 빌드 + 시뮬레이터 실행 검증
 
 ### 검증 중 고친 것
@@ -66,12 +66,12 @@
 날로 읽히므로, 돌을 어긋나게 놓아 개울을 건너는 그림으로 만든다. 밟지 않은
 돌도 지우지 않고 윤곽만 남긴다. 숫자(며칠/몇 %)는 어디에도 두지 않는다.
 
-## 7. 남은 판단 (사용자 결정 필요)
-- 옛 흐름 화면들이 컴파일 대상에 그대로 남아 있다 (`DashboardContentView`,
-  `HomeView`, `InteractiveJournalCreator`, `SinglePageJournalCreator`,
-  `SelectShootTypeView` 등). 진입 경로는 끊었지만 파일은 지우지 않았다.
-  차트·타임라인·설정은 계속 쓰이므로 한꺼번에 지우면 안 되고, 어디까지 정리할지는
-  직접 고르는 게 맞다고 판단.
+## 7. 옛 흐름 정리 (2026-09-27 완료)
+- 리디자인 이후 진입 경로가 끊겼던 옛 화면(대시보드·슛 기록·통계·타임라인·목표 선택 등)을
+  전부 지웠다. 프로젝트에 등록조차 안 돼 있던 파일 16개, 컴파일만 되던 파일 약 40개.
+- 폴더를 역할별로: `App/` `Model/` `Services/` `Extensions/` `Features/`(옛 `Redesign/`).
+- 쓰지 않던 에셋(농구공 일러스트·옛 색) 정리, 광고가 없는데 묻던 추적 권한(ATT) 제거.
+- CoreData 모델(`Model/Database.xcdatamodeld`)은 1.x 기록 이관 때문에 남긴다.
 
 ## 4. 유지 결정
 - SwiftData 스키마(`JournalData`/`SubGoalData`)는 **변경하지 않음** — 기존 사용자 데이터 보존.

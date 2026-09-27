@@ -6,3 +6,6 @@
 Rebound Journal.xcodeproj/xcuserdata/sukhyeonmacmini.xcuserdatad/xcschemes/xcschememanagement.plist
 
 Rebound Journal.xcodeproj/xcuserdata/sukhyeonmacmini.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+# 로컬 빌드 산출물
+build/

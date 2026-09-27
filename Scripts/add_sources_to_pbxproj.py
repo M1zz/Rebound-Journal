@@ -5,7 +5,7 @@ This project uses objectVersion 56 groups, so new files are invisible to the
 build until they appear in PBXFileReference / PBXBuildFile / PBXGroup /
 PBXSourcesBuildPhase. Running this again with the same paths is a no-op.
 
-    python3 Scripts/add_sources_to_pbxproj.py "Rebound Journal/Redesign/Foo.swift" ...
+    python3 Scripts/add_sources_to_pbxproj.py "Rebound Journal/Features/Foo.swift" ...
 
 Paths are relative to the repository root and must live under the
 "Rebound Journal" group.
