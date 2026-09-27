@@ -4,6 +4,39 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.1.0
+
+징검돌 프로(평생 1회 구매)와 리팩토링. 유료화 근거는 `docs/BUSINESS.md`.
+
+### 앱스토어 (한국어)
+
+징검돌 프로가 생겼어요. 한 번 사면 계속 써요.
+조약돌을 여섯 가지 결 중에서 고를 수 있어요.
+지나온 기록을 파일로 내보낼 수 있어요.
+목표를 길게 눌러 내려놓을 수 있어요.
+추적 허용을 더 이상 묻지 않아요.
+
+### App Store (English)
+
+ZinggumDol Pro is here. No subscription.
+Choose from six pebble finishes.
+Export your records as a text file.
+Long-press a goal to set it down.
+No more tracking permission prompt.
+
+### 개발 메모 (노출 안 함)
+
+- 수익모델: LeeoKit 3.x `freemium` — 상품 `com.leeo.ReboundJournal.pro`(비소모성)
+  - 게이트: 새 목표 3개까지 무료(`goal`), 조약돌 결·내보내기 프로 전용
+  - 페이월은 새 목표 적기·잠긴 결·내보내기·설정에서만. 대화 중에는 뜨지 않는다
+  - 페이월 퍼널 이벤트를 FeedbackHub 사용 통계로 보낸다
+- LeeoKit 2.7.0 → 3.x (legal/monetization 계약, App Store ID 6450388408)
+- 옛 흐름 코드 약 56개 파일, 쓰지 않던 에셋 55개 삭제. 폴더를 App/Model/Services/Features 로
+- 영어: 고치기 화면·닫기·목표 적기 버튼·위젯 문구 현지화, 영어 발화를 한국어로 다듬던 문제 수정,
+  영어 앱 이름을 스토어와 같은 ZinggumDol 로. 안 쓰는 카탈로그 키 235개 정리
+- ATT(추적 권한) 요청 제거 — 광고·추적이 없는 앱
+- 개인정보 처리방침·지원 페이지 `docs/` (GitHub Pages 켜야 열림)
+
 ## 2.0.1
 
 2.0.0(징검돌 리디자인) 위에 영어를 얹은 판.
