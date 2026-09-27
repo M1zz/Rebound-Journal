@@ -92,7 +92,7 @@ enum PebbleTheme {
 
     // MARK: - 유틸
 
-    private static func dynamic(light: UInt32, dark: UInt32) -> Color {
+    static func dynamic(light: UInt32, dark: UInt32) -> Color {
         Color(uiColor: UIColor { traits in
             traits.userInterfaceStyle == .dark ? UIColor(rgb: dark) : UIColor(rgb: light)
         })

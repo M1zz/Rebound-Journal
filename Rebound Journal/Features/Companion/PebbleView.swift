@@ -84,6 +84,7 @@ struct PebbleView: View {
     /// 말하는 중이면 입이 미세하게 움직인다(Animalese 재생과 맞물린다).
     var isSpeaking: Bool = false
 
+    @Environment(\.pebbleSkin) private var skin
     @State private var breathing = false
     @State private var blinking = false
 
@@ -111,10 +112,11 @@ struct PebbleView: View {
             value: breathing
         )
         .animation(.easeInOut(duration: 0.45), value: mood)
+        .animation(.easeInOut(duration: 0.45), value: skin)
         .onAppear { breathing = true }
         .task(id: mood) { await blinkLoop() }
         .accessibilityElement()
-        .accessibilityLabel("조약돌")
+        .accessibilityLabel(Text("조약돌"))
         .accessibilityValue(accessibilityMood)
     }
 
@@ -145,7 +147,7 @@ struct PebbleView: View {
             .fill(
                 // 왼쪽 위에서 해가 든다.
                 LinearGradient(
-                    colors: [PebbleTheme.pebbleLit, PebbleTheme.pebbleMid, PebbleTheme.pebbleShade],
+                    colors: [skin.lit, skin.mid, skin.shade],
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
                 )
@@ -191,11 +193,11 @@ struct PebbleView: View {
         if closed {
             // 웃거나 눈을 감은 상태 — 위로 볼록한 선(음수 곡률).
             FaceArc(curve: -0.75)
-                .stroke(PebbleTheme.pebbleShade, style: .init(lineWidth: size * 0.022, lineCap: .round))
+                .stroke(skin.face, style: .init(lineWidth: size * 0.022, lineCap: .round))
                 .frame(width: size * 0.10, height: size * 0.035)
         } else {
             Capsule()
-                .fill(PebbleTheme.pebbleShade)
+                .fill(skin.face)
                 .frame(width: size * 0.055, height: size * 0.075)
         }
     }
@@ -203,7 +205,7 @@ struct PebbleView: View {
     private var mouth: some View {
         FaceArc(curve: mood.mouthCurve)
             .stroke(
-                PebbleTheme.pebbleShade.opacity(0.85),
+                skin.face.opacity(0.85),
                 style: .init(lineWidth: size * 0.020, lineCap: .round)
             )
             .frame(

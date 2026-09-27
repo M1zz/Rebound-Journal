@@ -18,6 +18,7 @@ import SwiftData
 struct LookBackView: View {
 
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var modelContext
     @Query private var journals: [JournalData]
     @Query private var goals: [SubGoalData]
 
@@ -28,6 +29,7 @@ struct LookBackView: View {
     @State private var selectedDay: Date?
     @State private var expandedGoal: String?
     @State private var isAddingGoal = false
+    @State private var pendingRelease: SubGoalData?
 
     private static let visibleNotes = 4
 
@@ -56,6 +58,35 @@ struct LookBackView: View {
         .sheet(isPresented: $isAddingGoal) {
             AddGoalView()
         }
+        .confirmationDialog(
+            Phrasing.say("이 목표를 내려놓을까요?", "이 목표를 내려놓을까?"),
+            isPresented: Binding(
+                get: { pendingRelease != nil },
+                set: { if !$0 { pendingRelease = nil } }
+            ),
+            titleVisibility: .visible,
+            presenting: pendingRelease
+        ) { goal in
+            Button(String(localized: "내려놓기"), role: .destructive) {
+                release(goal)
+            }
+            Button(String(localized: "취소"), role: .cancel) { }
+        } message: { _ in
+            Text(Phrasing.say(
+                "남긴 기록은 그대로 둬요. 목록에서만 빠져요.",
+                "남긴 기록은 그대로 둘게. 목록에서만 빠져."
+            ))
+        }
+    }
+
+    /// 목표를 목록에서 뺀다. **기록은 지우지 않는다.**
+    ///
+    /// 향하던 곳을 바꾸는 건 실패가 아니다. 그때 남긴 이야기는 여전히 내 것이라
+    /// 지나온 기록과 내보내기에 그대로 남는다.
+    private func release(_ goal: SubGoalData) {
+        if expandedGoal == goal.goalText { expandedGoal = nil }
+        modelContext.delete(goal)
+        pendingRelease = nil
     }
 
     private var header: some View {
@@ -288,6 +319,14 @@ struct LookBackView: View {
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(isExpanded ? [.isSelected] : [])
+        // 길게 눌러 내려놓는다. 목록에 버튼을 늘어놓으면 '정리해야 할 일'처럼 보인다.
+        .contextMenu {
+            Button(role: .destructive) {
+                pendingRelease = goal
+            } label: {
+                Label(String(localized: "내려놓기"), systemImage: "hand.raised.slash")
+            }
+        }
     }
 
     /// 고른 목표의 기록을 펼친다.

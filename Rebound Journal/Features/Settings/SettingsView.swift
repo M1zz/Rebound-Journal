@@ -1,18 +1,23 @@
 //
-//  SettingView.swift
+//  SettingsView.swift
 //  Rebound Journal
 //
 //  Created by hyunho lee on 12/5/24.
 //
 
 import SwiftUI
+import SwiftData
 import StoreKit
-import MessageUI
 import TipKit
 import LeeoKit
 
 struct SettingsView: View {
-    @EnvironmentObject var manager: DataManager
+    @EnvironmentObject private var manager: DataManager
+    @EnvironmentObject private var store: LeeoStore
+    @Environment(\.openURL) private var openURL
+    @Environment(\.requestReview) private var requestReview
+    @Query private var journals: [JournalData]
+
     @State private var remindersTime: Date = Date()
     @State private var didConfigureTime: Bool = false
     /// LeeoKit 과 같은 키. 설정의 "버전" 행을 7번 탭하면 켜진다.
@@ -20,42 +25,79 @@ struct SettingsView: View {
     @State private var voiceOn: Bool = true
     @State private var hapticOn: Bool = true
     @State private var speechStyle: SpeechStyle = .formal
+    @AppStorage(PebbleSkin.storageKey) private var chosenSkin = PebbleSkin.free.rawValue
+    @State private var isConfirmingPasscodeRemoval = false
+
+    @State private var paywallFeature: ProFeature?
+    @State private var isShowingPaywall = false
+    @State private var exportFile: ExportFile?
+    @State private var exportFailed = false
 
     private let speechStyleTip = SpeechStyleSettingTip()
-    
-    // MARK: - Main rendering function
+
     var body: some View {
         // LeeoKit 지원 섹션과 사용 통계는 NavigationLink 로 열리므로 스택이 필요하다
         NavigationStack {
-            settingsContent
+            content
+        }
+        .proPaywall(isPresented: $isShowingPaywall, feature: paywallFeature)
+        .sheet(item: $exportFile) { file in
+            ShareSheet(items: [file.url])
+                .presentationDetents([.medium, .large])
+        }
+        .alert(String(localized: "기록을 내보내지 못했어요"), isPresented: $exportFailed) {
+            Button(String(localized: "확인"), role: .cancel) { }
+        } message: {
+            Text("잠시 후 다시 해 주세요.")
+        }
+        .confirmationDialog(
+            String(localized: "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?"),
+            isPresented: $isConfirmingPasscodeRemoval,
+            titleVisibility: .visible
+        ) {
+            Button(String(localized: "비밀번호 삭제"), role: .destructive) {
+                manager.savedPasscode = ""
+            }
+            Button(String(localized: "취소"), role: .cancel) { }
         }
     }
 
-    private var settingsContent: some View {
-        ZStack {
-            VStack(alignment: .center, spacing: 0) {
-                Capsule()
-                    .frame(width: 50, height: 5)
-                    .padding(12)
-                    .foregroundStyle(.secondary)
-                ScrollView(.vertical, showsIndicators: false) {
-                    Spacer(minLength: 5)
-                    VStack {
-                        //                        InAppPurchasesPromoBannerView
-                        //                        CustomHeader(title: "In-App Purchases")
-                        //                        InAppPurchasesView
-                        AppCustomSettingsView
-                        CustomHeader(title: Constants.Strings.spreadTheWord)
-                        RatingShareView
-                        CustomHeader(title: Constants.Strings.supportAndPrivacy)
-                        PrivacySupportView
-                        LeeoSupportView
+    private var content: some View {
+        VStack(alignment: .center, spacing: 0) {
+            Capsule()
+                .frame(width: 50, height: 5)
+                .padding(12)
+                .foregroundStyle(.secondary)
+            ScrollView(.vertical, showsIndicators: false) {
+                Spacer(minLength: 5)
+                VStack {
+                    proSection
+                    sectionHeader(String(localized: "조약돌"))
+                    if AppLanguage.isKorean {
+                        // 존댓말·반말은 한국어에만 있는 구분이다. 다른 언어에서는
+                        // 고를 것이 없으므로 아예 내보내지 않는다.
+                        speechStyleSection
                     }
-                    .padding(.horizontal, 20)
-                    Spacer(minLength: 100)
+                    skinSection
+                    companionFeedbackSection
+                    sectionHeader(String(localized: "기록"))
+                    recordsSection
+                    sectionHeader(String(localized: "앱 비밀번호"))
+                    passcodeSection
+                    sectionHeader(String(localized: "매일 알림"))
+                    dailyRemindersSection
+                    sectionHeader(String(localized: "소식을 퍼뜨리세요"))
+                    ratingShareSection
+                    sectionHeader(String(localized: "지원 및 개인정보 보호"))
+                    privacySupportSection
+                    leeoSupportSection
                 }
+                .padding(.horizontal, 20)
+                Spacer(minLength: 100)
             }
-        }.padding(.top, 5).onAppear {
+        }
+        .padding(.top, 5)
+        .onAppear {
             if !didConfigureTime {
                 didConfigureTime = true
                 if let storedTime = manager.reminderTime.time {
@@ -63,108 +105,140 @@ struct SettingsView: View {
                 }
             }
         }
-        
     }
-    
-    /// Create custom header view
-    private func CustomHeader(title: String) -> some View {
+
+    // MARK: - 공용 조각
+
+    private func sectionHeader(_ title: String) -> some View {
         HStack {
             Text(title)
                 .font(.system(size: 18, weight: .medium))
                 .foregroundStyle(Color("Default"))
-            
             Spacer()
         }
     }
-    
-    /// Custom settings item
-    private func SettingsItem(title: String, icon: String, remindersToggle: Bool = false, timePicker: Bool = false, action: @escaping() -> Void) -> some View {
-        func itemCellView() -> some View {
+
+    private func card<Content: View>(bottomPadding: CGFloat = 40, @ViewBuilder _ content: () -> Content) -> some View {
+        VStack { content() }
+            .padding([.top, .bottom], 5)
+            .background(Color(.systemGray6)
+                .cornerRadius(15)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10))
+            .padding(.bottom, bottomPadding)
+    }
+
+    private func row(_ title: String, icon: String, locked: Bool = false, action: @escaping () -> Void) -> some View {
+        Button {
+            UIImpactFeedbackGenerator().impactOccurred()
+            action()
+        } label: {
             HStack {
-                Image(systemName: icon).resizable().aspectRatio(contentMode: .fit)
-                    .frame(width: 22, height: 22, alignment: .center)
+                rowIcon(icon)
                 Text(title).font(.body)
                 Spacer()
-                if timePicker {
-                    DatePicker("", selection: $remindersTime.onChange({ date in
-                        manager.reminderTime = date.string(format: "h:mm a")
-                        manager.scheduleDailyReminderIfNeeded()
-                    }), displayedComponents: .hourAndMinute)
-                } else {
-                    if remindersToggle {
-                        Toggle("", isOn: $manager.enableReminders.onChange({ _ in
-                            manager.scheduleDailyReminderIfNeeded()
-                        })).labelsHidden()
-                    } else {
-                        Image(systemName: "chevron.right")
-                    }
+                if locked {
+                    proBadge
                 }
-            }.foregroundStyle(.primary).padding()
-        }
-        return ZStack {
-            if remindersToggle || timePicker {
-                itemCellView()
-            } else {
-                Button(action: {
-                    UIImpactFeedbackGenerator().impactOccurred()
-                    action()
-                }, label: {
-                    itemCellView()
-                })
+                Image(systemName: "chevron.right")
             }
+            .foregroundStyle(.primary)
+            .padding()
+            .contentShape(Rectangle())
         }
+        .buttonStyle(.plain)
     }
-    
-    //    // MARK: - In App Purchases
-    //    private var InAppPurchasesView: some View {
-    //        VStack {
-    //            SettingsItem(title: "Upgrade Premium", icon: "crown") {
-    //                manager.fullScreenMode = .premium
-    //            }
-    //            Color("TextColor").frame(height: 1).opacity(0.1)
-    //            SettingsItem(title: "Restore Purchases", icon: "arrow.clockwise") {
-    //                manager.fullScreenMode = .premium
-    //            }
-    //        }.padding([.top, .bottom], 5).background(
-    //            Color("Secondary").cornerRadius(15)
-    //                .shadow(color: Color.primary.opacity(0.07), radius: 10)
-    //        ).padding(.bottom, 40)
-    //    }
-    //
-    //    private var InAppPurchasesPromoBannerView: some View {
-    //        ZStack {
-    //            if manager.isPremiumUser == false {
-    //                ZStack {
-    //                    Color("BackgroundColor")
-    //                    HStack {
-    //                        VStack(alignment: .leading) {
-    //                            Text("Premium Version").bold().font(.system(size: 20))
-    //                            Text("- Enable App Passcode").font(.system(size: 15)).opacity(0.7)
-    //                            Text("- Add Photos to journal").font(.system(size: 15)).opacity(0.7)
-    //                            Text("- Remove ads").font(.system(size: 15)).opacity(0.7)
-    //                        }
-    //                        Spacer()
-    //                        Image(systemName: "crown.fill").font(.system(size: 45))
-    //                    }.foregroundColor(.white).padding([.leading, .trailing], 20)
-    //                }.frame(height: 110).cornerRadius(16).padding(.bottom, 5)
-    //            }
-    //        }
-    //    }
-    
-    // MARK: - App Custom settings
-    private var AppCustomSettingsView: some View {
-        VStack {
-            CustomHeader(title: String(localized: "조약돌"))
-            // 존댓말·반말은 한국어에만 있는 구분이다. 다른 언어에서는
-            // 고를 것이 없으므로 아예 내보내지 않는다.
-            if AppLanguage.isKorean {
-                SpeechStyleView
+
+    private func toggleRow(_ title: String, icon: String, isOn: Binding<Bool>) -> some View {
+        HStack {
+            rowIcon(icon)
+            Text(title).font(.body)
+            Spacer()
+            Toggle("", isOn: isOn).labelsHidden()
+        }
+        .foregroundStyle(.primary)
+        .padding()
+    }
+
+    private func rowIcon(_ name: String) -> some View {
+        Image(systemName: name)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 22, height: 22, alignment: .center)
+    }
+
+    private var proBadge: some View {
+        Text("프로")
+            .font(PebbleTheme.label(11))
+            .foregroundStyle(PebbleTheme.key)
+            .padding(.horizontal, 7)
+            .padding(.vertical, 3)
+            .overlay(Capsule().strokeBorder(PebbleTheme.key.opacity(0.6), lineWidth: 1))
+    }
+
+    private func openPaywall(for feature: ProFeature?) {
+        paywallFeature = feature
+        isShowingPaywall = true
+    }
+
+    // MARK: - 징검돌 프로
+
+    @ViewBuilder
+    private var proSection: some View {
+        if store.hasPro {
+            card {
+                HStack(spacing: 12) {
+                    Image(systemName: "leaf.fill")
+                        .foregroundStyle(PebbleTheme.key)
+                    Text("징검돌 프로를 쓰고 있어요. 고마워요.")
+                        .font(.body)
+                    Spacer()
+                }
+                .padding()
             }
-            CompanionFeedbackView
-            CustomHeader(title: Constants.Strings.appPasscode)
-            PasscodeView
-            CustomHeader(title: Constants.Strings.dailyReminders)
-            DailyRemindersView
+        } else {
+            card {
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("징검돌 프로")
+                        .font(PebbleTheme.title(20))
+                        .foregroundStyle(PebbleTheme.ink)
+                    Text("목표를 제한 없이 적고, 조약돌을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요.")
+                        .font(.subheadline)
+                        .foregroundStyle(PebbleTheme.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Button {
+                        openPaywall(for: nil)
+                    } label: {
+                        Text("알아보기")
+                            .font(PebbleTheme.label(15))
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 18)
+                            .padding(.vertical, 9)
+                            .background(PebbleTheme.key, in: Capsule())
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.top, 4)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+
+                Divider().padding(.horizontal)
+
+                Button {
+                    Task { await store.restore() }
+                } label: {
+                    HStack {
+                        rowIcon("arrow.clockwise")
+                        Text("구매 복원").font(.body)
+                        Spacer()
+                        if store.isRestoring { ProgressView() }
+                    }
+                    .foregroundStyle(.primary)
+                    .padding()
+                    .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .disabled(store.isRestoring)
+            }
         }
     }
 
@@ -174,36 +248,35 @@ struct SettingsView: View {
     // 이름표만으로는 감이 오지 않고, 특히 반말은 낱말만 보면 무례하게 느껴져
     // 골라보기 전에 접는 사람이 있다. 조약돌이 실제로 하는 말을 밑에 깔아 두면
     // 고르기 전에 확인할 수 있다.
-    private var SpeechStyleView: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            TipView(speechStyleTip)
-                .tipBackground(Color(.systemBackground))
+    private var speechStyleSection: some View {
+        card {
+            VStack(alignment: .leading, spacing: 12) {
+                TipView(speechStyleTip)
+                    .tipBackground(Color(.systemBackground))
 
-            HStack {
-                Image(systemName: "quote.bubble")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 22, height: 22, alignment: .center)
-                Text("말투").font(.body)
-                Spacer()
-            }
-
-            Picker("말투", selection: $speechStyle) {
-                ForEach(SpeechStyle.allCases) { style in
-                    Text(style.name).tag(style)
+                HStack {
+                    rowIcon("quote.bubble")
+                    Text("말투").font(.body)
+                    Spacer()
                 }
-            }
-            .pickerStyle(.segmented)
 
-            // 고른 말투로 조약돌이 한마디 한다.
-            Text(speechStyle.sample)
-                .font(.system(size: 15, design: .serif))
-                .foregroundStyle(.secondary)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .animation(.easeOut(duration: 0.18), value: speechStyle)
+                Picker("말투", selection: $speechStyle) {
+                    ForEach(SpeechStyle.allCases) { style in
+                        Text(style.name).tag(style)
+                    }
+                }
+                .pickerStyle(.segmented)
+
+                // 고른 말투로 조약돌이 한마디 한다.
+                Text(speechStyle.sample)
+                    .font(.system(size: 15, design: .serif))
+                    .foregroundStyle(.secondary)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .animation(.easeOut(duration: 0.18), value: speechStyle)
+            }
+            .foregroundStyle(.primary)
+            .padding()
         }
-        .foregroundStyle(.primary)
-        .padding()
         // 저장소가 UserDefaults라 관찰 대상이 아니다. 아래 소리·촉감 토글과
         // 같은 이유로 화면 상태를 따로 들고 바뀔 때 옮겨 적는다.
         .onAppear { speechStyle = SpeechStyle.current }
@@ -212,24 +285,85 @@ struct SettingsView: View {
             // 고른 순간 한 번 울린다. 말투가 바뀌었다는 걸 손으로도 알린다.
             TypingFeedback.shared.tap()
         }
-        .padding([.top, .bottom], 5)
-        .background(Color(.systemGray6)
-            .cornerRadius(15)
-            .shadow(color: Color.primary.opacity(0.07),
-                    radius: 10))
-        .padding(.bottom, 40)
+    }
+
+    // MARK: - 조약돌 결 (프로)
+    //
+    // 잠긴 결도 **그대로 보여 준다.** 무엇을 고를 수 있는지 봐야 고르고 싶어진다.
+    // 눌렀을 때만 페이월이 뜨고, 고른 결은 기억해 둔다 — 산 뒤에 다시 고르지 않아도 된다.
+    private var skinSection: some View {
+        card {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    rowIcon("paintpalette")
+                    Text("조약돌 고르기").font(.body)
+                    Spacer()
+                    if !store.hasPro { proBadge }
+                }
+
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 3), spacing: 12) {
+                    ForEach(PebbleSkin.allCases) { option in
+                        skinOption(option)
+                    }
+                }
+            }
+            .foregroundStyle(.primary)
+            .padding()
+        }
+    }
+
+    private func skinOption(_ option: PebbleSkin) -> some View {
+        let chosen = PebbleSkin(rawValue: chosenSkin) ?? .free
+        let isSelected = PebbleSkin.effective(chosen, hasPro: store.hasPro) == option
+        let isLocked = option.requiresPro && !store.hasPro
+        return Button {
+            // 잠긴 결을 눌러도 골라 둔다. 사고 나면 바로 그 돌이 된다.
+            chosenSkin = option.rawValue
+            if isLocked {
+                openPaywall(for: .pebbleSkin)
+            } else {
+                TypingFeedback.shared.tap()
+            }
+        } label: {
+            VStack(spacing: 6) {
+                PebbleView(mood: .resting, size: 46)
+                    .environment(\.pebbleSkin, option)
+                    .frame(height: 52)
+                HStack(spacing: 3) {
+                    if isLocked {
+                        Image(systemName: "lock.fill").font(.system(size: 9))
+                    }
+                    Text(option.name)
+                        .font(PebbleTheme.label(12))
+                }
+                .foregroundStyle(isSelected ? PebbleTheme.key : PebbleTheme.inkSoft)
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 8)
+            .background(
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .fill(isSelected ? PebbleTheme.key.opacity(0.10) : .clear)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .strokeBorder(isSelected ? PebbleTheme.key : .clear, lineWidth: 1.5)
+            )
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityAddTraits(isSelected ? [.isSelected] : [])
+        .accessibilityHint(isLocked ? Text("프로에서 열려요") : Text(""))
     }
 
     // MARK: - 조약돌 소리와 촉감
     //
     // 소리와 진동을 따로 둔다. 늦은 밤처럼 소리는 껐지만 촉감은 남기고 싶은
     // 자리가 이 앱에서는 오히려 흔하다.
-    private var CompanionFeedbackView: some View {
-        VStack {
-            ToggleItem(title: String(localized: "말할 때 소리"), icon: "speaker.wave.2", isOn: $voiceOn)
-            Divider()
-                .padding(.horizontal)
-            ToggleItem(title: String(localized: "말할 때 진동"), icon: "hand.tap", isOn: $hapticOn)
+    private var companionFeedbackSection: some View {
+        card {
+            toggleRow(String(localized: "말할 때 소리"), icon: "speaker.wave.2", isOn: $voiceOn)
+            Divider().padding(.horizontal)
+            toggleRow(String(localized: "말할 때 진동"), icon: "hand.tap", isOn: $hapticOn)
         }
         // 저장소가 UserDefaults라 관찰 대상이 아니다. 화면 상태를 따로 들고
         // 바뀔 때 옮겨 적는다. 계산 프로퍼티에 직접 Binding을 걸면 토글이
@@ -246,124 +380,112 @@ struct SettingsView: View {
             // 켠 직후 한 번 울려 어떤 느낌인지 바로 알게 한다.
             if newValue { TypingFeedback.shared.tap() }
         }
-        .padding([.top, .bottom], 5)
-        .background(Color(.systemGray6)
-            .cornerRadius(15)
-            .shadow(color: Color.primary.opacity(0.07),
-                    radius: 10))
-        .padding(.bottom, 40)
     }
 
-    /// 켜고 끄기만 하는 항목. 기존 `SettingsItem`은 알림 토글에 묶여 있어 재사용이 안 된다.
-    private func ToggleItem(title: String, icon: String, isOn: Binding<Bool>) -> some View {
-        HStack {
-            Image(systemName: icon)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 22, height: 22, alignment: .center)
-            Text(title).font(.body)
-            Spacer()
-            Toggle("", isOn: isOn).labelsHidden()
-        }
-        .foregroundStyle(.primary)
-        .padding()
-    }
-    
-    // MARK: - Daily Reminders section
-    private var DailyRemindersView: some View {
-        VStack {
-            SettingsItem(title: Constants.Strings.enableReminders,
-                         icon: "bell",
-                         remindersToggle: true) { }
-            if manager.enableReminders {
-                Divider()
-                    .padding(.horizontal)
-                SettingsItem(title: String(localized: "시간"),
-                             icon: "clock",
-                             timePicker: true) { }
+    // MARK: - 기록 내보내기 (프로)
+
+    private var recordsSection: some View {
+        card {
+            row(String(localized: "기록 내보내기"),
+                icon: "square.and.arrow.up",
+                locked: !store.hasPro) {
+                exportRecords()
             }
         }
-        .padding([.top, .bottom], 5)
-        .background(Color(.systemGray6)
-            .cornerRadius(15)
-            .shadow(color: Color.primary.opacity(0.07),
-                    radius: 10))
-        .padding(.bottom, 40)
     }
-    
-    // MARK: - Set and Reset passcode
-    private var PasscodeView: some View {
-        VStack {
-            SettingsItem(title: Constants.Strings.setPasscode, icon: "circle.grid.3x3") {
+
+    private func exportRecords() {
+        guard store.allows(.export) else {
+            openPaywall(for: .export)
+            return
+        }
+        do {
+            exportFile = ExportFile(url: try RecordExporter.file(journals: journals))
+        } catch {
+            exportFailed = true
+        }
+    }
+
+    // MARK: - 매일 알림
+
+    private var dailyRemindersSection: some View {
+        card {
+            toggleRow(String(localized: "알림 켜기"), icon: "bell",
+                      isOn: $manager.enableReminders.onChange { _ in
+                          manager.scheduleDailyReminderIfNeeded()
+                      })
+            if manager.enableReminders {
+                Divider().padding(.horizontal)
+                HStack {
+                    rowIcon("clock")
+                    Text("시간").font(.body)
+                    Spacer()
+                    DatePicker("", selection: $remindersTime.onChange { date in
+                        manager.reminderTime = date.string(format: "h:mm a")
+                        manager.scheduleDailyReminderIfNeeded()
+                    }, displayedComponents: .hourAndMinute)
+                    .labelsHidden()
+                }
+                .foregroundStyle(.primary)
+                .padding()
+            }
+        }
+    }
+
+    // MARK: - 비밀번호
+
+    private var passcodeSection: some View {
+        card {
+            row(String(localized: "비밀번호 설정"), icon: "circle.grid.3x3") {
                 manager.fullScreenMode = .setupPasscodeView
             }
-            Divider()
-                .padding(.horizontal)
-            SettingsItem(title: Constants.Strings.disablePasscode,
-                         icon: "lock.slash") {
-                presentAlert(title: String(localized: "비밀번호 삭제"),
-                             message: String(localized: "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?"),
-                             primaryAction: UIAlertAction(title: String(localized: "취소"), style: .cancel, handler: nil),
-                             secondaryAction: UIAlertAction(title: String(localized: "비밀번호 삭제"), style: .destructive, handler: { _ in
-                    manager.savedPasscode = ""
-                }))
+            Divider().padding(.horizontal)
+            row(String(localized: "비밀번호 삭제"), icon: "lock.slash") {
+                isConfirmingPasscodeRemoval = true
             }
-        }.padding([.top, .bottom], 5).background(
-            Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.primary.opacity(0.07), radius: 10)
-        ).padding(.bottom, 40)
-    }
-    
-    // MARK: - Rating and Share
-    private var RatingShareView: some View {
-        VStack {
-            SettingsItem(title: Constants.Strings.rateApp,
-                         icon: "star") {
-                if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-                    SKStoreReviewController.requestReview(in: windowScene)
-                }
-            }
-            Divider()
-                .padding(.horizontal)
-            SettingsItem(title: Constants.Strings.shareApp,
-                         icon: "square.and.arrow.up") {
-                let shareController = UIActivityViewController(activityItems: [AppConfig.yourAppURL], applicationActivities: nil)
-                rootController?.present(shareController, animated: true, completion: nil)
-            }
-        }.padding([.top, .bottom], 5).background(
-            Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.primary.opacity(0.07), radius: 10)
-        ).padding(.bottom, 40)
-    }
-    
-    // MARK: - Support & Privacy
-    private var PrivacySupportView: some View {
-        VStack {
-            SettingsItem(title: Constants.Strings.eMailUs,
-                         icon: "envelope.badge") {
-                EmailPresenter.shared.present()
-            }
-#warning("약관추가")
-            //            Divider()
-            //                .padding(.horizontal)
-            //            SettingsItem(title: Constants.Strings.privacyPolicy,
-            //                         icon: "hand.raised") {
-            //                UIApplication.shared.open(AppConfig.privacyURL, options: [:], completionHandler: nil)
-            //            }
-            //            Divider()
-            //                .padding(.horizontal)
-            //            SettingsItem(title: Constants.Strings.termsOfUse,
-            //                         icon: "doc.text") {
-            //                UIApplication.shared.open(AppConfig.termsAndConditionsURL, options: [:], completionHandler: nil)
-            //            }
-        }.padding([.top, .bottom], 5).background(
-            Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.primary.opacity(0.07), radius: 10)
-        )
+        }
     }
 
-    // MARK: - LeeoKit Support (feedback & review + 사용 통계)
-    private var LeeoSupportView: some View {
+    // MARK: - 평점과 공유
+
+    private var ratingShareSection: some View {
+        card {
+            row(String(localized: "평점주기"), icon: "star") {
+                requestReview()
+            }
+            Divider().padding(.horizontal)
+            ShareLink(item: AppConfig.appStoreURL) {
+                HStack {
+                    rowIcon("square.and.arrow.up")
+                    Text(String(localized: "앱 공유하기")).font(.body)
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                }
+                .foregroundStyle(.primary)
+                .padding()
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+        }
+    }
+
+    // MARK: - 지원과 개인정보
+
+    private var privacySupportSection: some View {
+        card(bottomPadding: 0) {
+            row(String(localized: "개발자에게 메일 보내기"), icon: "envelope.badge") {
+                openURL(AppConfig.supportMailURL)
+            }
+            Divider().padding(.horizontal)
+            row(String(localized: "개인정보 보호정책"), icon: "hand.raised") {
+                openURL(ReboundJournalSpec.legal.privacyURL)
+            }
+        }
+    }
+
+    // MARK: - LeeoKit 지원 (피드백·리뷰 + 사용 통계)
+
+    private var leeoSupportSection: some View {
         VStack {
             LeeoSupportSection<ReboundJournalSpec>()
                 .foregroundColor(Color("TextColor"))
@@ -373,10 +495,11 @@ struct SettingsView: View {
                     .foregroundColor(Color("TextColor"))
                     .padding()
             }
-        }.padding([.top, .bottom], 5).background(
-            Color("DiarySecondary").cornerRadius(15)
-                .shadow(color: Color.primary.opacity(0.07), radius: 10)
-        ).padding(.top, 40)
+        }
+        .padding([.top, .bottom], 5)
+        .background(Color("DiarySecondary").cornerRadius(15)
+            .shadow(color: Color.primary.opacity(0.07), radius: 10))
+        .padding(.top, 40)
     }
 
     /// FeedbackHub 로 올라간 사용 통계 대시보드 (개발자 모드에서만 보인다)
@@ -389,30 +512,27 @@ struct SettingsView: View {
     }
 }
 
-// MARK: - Preview UI
+// MARK: - 내보낸 파일
+
+private struct ExportFile: Identifiable {
+    let url: URL
+    var id: URL { url }
+}
+
+/// 파일을 넘기는 공유 시트. `ShareLink`는 누르기 전에 파일이 있어야 해서,
+/// 누른 뒤에 파일을 만드는 이 자리에는 맞지 않는다.
+private struct ShareSheet: UIViewControllerRepresentable {
+    let items: [Any]
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        UIActivityViewController(activityItems: items, applicationActivities: nil)
+    }
+
+    func updateUIViewController(_ controller: UIActivityViewController, context: Context) {}
+}
+
 #Preview {
     SettingsView()
         .environmentObject(DataManager(preview: true))
-        .environment(\.colorScheme, .dark)
-}
-
-// MARK: - Mail presenter for SwiftUI
-class EmailPresenter: NSObject, MFMailComposeViewControllerDelegate {
-    public static let shared = EmailPresenter()
-    private override init() { }
-    
-    func present() {
-        if !MFMailComposeViewController.canSendMail() {
-            presentAlert(title: "Email Client", message: "Your device must have the native iOS email app installed for this feature.")
-            return
-        }
-        let picker = MFMailComposeViewController()
-        picker.setToRecipients([AppConfig.emailSupport])
-        picker.mailComposeDelegate = self
-        rootController?.present(picker, animated: true, completion: nil)
-    }
-    
-    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-        rootController?.dismiss(animated: true, completion: nil)
-    }
+        .environmentObject(LeeoStore(config: ReboundJournalSpec.paywall!))
 }

@@ -1,0 +1,60 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "7C3E1A52",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "5900",
+      "familyShareable" : true,
+      "internalID" : "6E1B2C43",
+      "localizations" : [
+        {
+          "description" : "목표 제한 없이, 조약돌 고르기, 기록 내보내기",
+          "displayName" : "징검돌 프로 (평생)",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Unlimited goals, pebble finishes, record export",
+          "displayName" : "ZinggumDol Pro (Lifetime)",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.leeo.ReboundJournal.pro",
+      "referenceName" : "ZinggumDol Pro Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "QGAQ3AY3R3",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ko",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "KOR",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

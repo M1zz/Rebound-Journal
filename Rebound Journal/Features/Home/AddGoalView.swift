@@ -17,15 +17,22 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 struct AddGoalView: View {
 
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject private var store: LeeoStore
+    @Query private var goals: [SubGoalData]
 
-    private enum Step { case direction, smaller }
+    private enum Step { case full, direction, smaller }
 
     @State private var step: Step = .direction
+    /// 이번에 적는 목표가 무료로 적을 수 있는 마지막 것인지. 열 때 한 번 정한다 —
+    /// 저장하는 순간 개수가 늘어 닫히는 화면이 '가득 참'으로 바뀌면 안 된다.
+    @State private var isLastFreeGoal = false
+    @State private var isShowingPaywall = false
     @State private var direction: String = ""
     @State private var smallest: String = ""
     @FocusState private var isFocused: Bool
@@ -47,7 +54,7 @@ struct AddGoalView: View {
                     }
                 }
 
-                PebbleView(mood: step == .smaller ? .thinking : .resting, size: 96)
+                PebbleView(mood: step == .direction ? .resting : .thinking, size: 96)
                     .frame(maxWidth: .infinity)
 
                 Text(question)
@@ -57,49 +64,127 @@ struct AddGoalView: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .animation(.easeInOut(duration: 0.25), value: step)
 
-                SoftCard {
-                    TextField(placeholder, text: binding, axis: .vertical)
-                        .font(PebbleTheme.body(17))
-                        .foregroundStyle(PebbleTheme.ink)
-                        .textFieldStyle(.plain)
-                        .lineLimit(1...4)
-                        .focused($isFocused)
-                        .submitLabel(.done)
-                }
-
-                if step == .smaller {
-                    // 쪼개기를 강요하지 않는다. 지금 못 쪼개는 상태일 수도 있다.
-                    Text(Phrasing.say(
-                        "떠오르지 않으면 비워둬도 돼요. 나중에 같이 찾아요.",
-                        "떠오르지 않으면 비워둬도 돼. 나중에 같이 찾자."
-                    ))
-                        .font(PebbleTheme.label(13))
-                        .foregroundStyle(PebbleTheme.inkFaint)
-                }
-
-                Spacer()
-
-                // 다른 화면과 같은 말투. 여기도 조약돌이 묻고 내가 답하는 자리다.
-                if step == .direction && trimmed(direction).isEmpty {
-                    EmptyView()
+                if step == .full {
+                    fullNotice
                 } else {
-                    ReplyOptions(choices: [
-                        ReplyChoice(id: "next", label: primaryLabel, isPrimary: true)
-                    ]) { _ in
-                        advance()
-                    }
+                    writingArea
                 }
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 16)
         }
-        .onAppear { isFocused = true }
+        .onAppear(perform: checkRoom)
+        // 여기서 산 경우. 막혔던 자리에서 곧바로 이어 쓴다.
+        .onChange(of: store.hasPro) { _, hasPro in
+            if hasPro && step == .full {
+                withAnimation(.easeInOut(duration: 0.25)) { step = .direction }
+                isFocused = true
+            }
+        }
+        .proPaywall(isPresented: $isShowingPaywall, feature: .moreGoals)
+    }
+
+    // MARK: 적는 자리
+
+    @ViewBuilder
+    private var writingArea: some View {
+        SoftCard {
+            TextField(placeholder, text: binding, axis: .vertical)
+                .font(PebbleTheme.body(17))
+                .foregroundStyle(PebbleTheme.ink)
+                .textFieldStyle(.plain)
+                .lineLimit(1...4)
+                .focused($isFocused)
+                .submitLabel(.done)
+        }
+
+        if step == .smaller {
+            // 쪼개기를 강요하지 않는다. 지금 못 쪼개는 상태일 수도 있다.
+            Text(Phrasing.say(
+                "떠오르지 않으면 비워둬도 돼요. 나중에 같이 찾아요.",
+                "떠오르지 않으면 비워둬도 돼. 나중에 같이 찾자."
+            ))
+                .font(PebbleTheme.label(13))
+                .foregroundStyle(PebbleTheme.inkFaint)
+        }
+
+        if isLastFreeGoal && step == .direction {
+            // 막기 전에 미리 알린다. 부딪히고 나서 아는 것보다 덜 서운하다.
+            // ('세 개'는 ProFeature.freeGoalLimit 과 같이 바꾼다)
+            Text(Phrasing.say(
+                "무료로는 목표를 세 개까지 품을 수 있어요. 이게 세 번째예요.",
+                "무료로는 목표를 세 개까지 품을 수 있어. 이게 세 번째야."
+            ))
+            .font(PebbleTheme.label(12))
+            .foregroundStyle(PebbleTheme.inkFaint)
+        }
+
+        Spacer()
+
+        // 다른 화면과 같은 말투. 여기도 조약돌이 묻고 내가 답하는 자리다.
+        if step == .direction && trimmed(direction).isEmpty {
+            EmptyView()
+        } else {
+            ReplyOptions(choices: [
+                ReplyChoice(id: "next", label: primaryLabel, isPrimary: true)
+            ]) { _ in
+                advance()
+            }
+        }
+    }
+
+    // MARK: 가득 찼을 때
+    //
+    // 페이월부터 들이밀지 않는다. 조약돌이 지금 상태를 먼저 말하고, 무료로 할 수
+    // 있는 길(하나 내려놓기)을 같이 알려 준다. 프로는 그중 하나의 길일 뿐이다.
+
+    private var fullNotice: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            Text(Phrasing.say(
+                "'지나온 길'에서 목표 하나를 내려놓으면 새로 적을 수 있어요.",
+                "'지나온 길'에서 목표 하나를 내려놓으면 새로 적을 수 있어."
+            ))
+            .font(PebbleTheme.body(15))
+            .foregroundStyle(PebbleTheme.inkSoft)
+            .fixedSize(horizontal: false, vertical: true)
+
+            Spacer()
+
+            ReplyOptions(choices: [
+                ReplyChoice(id: "pro", label: Phrasing.say("프로로 더 적을래요", "프로로 더 적을래"), isPrimary: true),
+                ReplyChoice(id: "later", label: Phrasing.say("지금은 그냥 둘게요", "지금은 그냥 둘게"))
+            ]) { choice in
+                if choice.id == "pro" {
+                    isShowingPaywall = true
+                } else {
+                    dismiss()
+                }
+            }
+        }
+    }
+
+    private func checkRoom() {
+        switch store.evaluate(.moreGoals, current: goals.count) {
+        case .blocked:
+            step = .full
+            LeeoAnalyticsCenter.track(.gateBlocked(key: ProFeature.moreGoals.rawValue))
+        case .allowedNearLimit(let remaining):
+            isLastFreeGoal = remaining == 0
+            isFocused = true
+        case .allowed:
+            isFocused = true
+        }
     }
 
     // MARK: 문구
 
     private var question: String {
         switch step {
+        case .full:
+            Phrasing.say(
+                String(localized: "지금 향하는 곳이 벌써 \(goals.count)개예요."),
+                String(localized: "지금 향하는 곳이 벌써 \(goals.count)개야.")
+            )
         case .direction:
             Phrasing.say("무엇을 향해 가고 있어요?", "무엇을 향해 가고 있어?")
         case .smaller:
@@ -112,6 +197,7 @@ struct AddGoalView: View {
 
     private var placeholder: String {
         switch step {
+        case .full: ""
         case .direction: Phrasing.say("크게 적어도 괜찮아요.", "크게 적어도 괜찮아.")
         case .smaller: Phrasing.say("작을수록 좋아요. 5분짜리여도 괜찮아요.", "작을수록 좋아. 5분짜리여도 괜찮아.")
         }
@@ -119,7 +205,8 @@ struct AddGoalView: View {
 
     private var primaryLabel: String {
         switch step {
-        case .direction: "다음"
+        case .full: ""
+        case .direction: String(localized: "다음")
         case .smaller: trimmed(smallest).isEmpty
             ? Phrasing.say("이대로 둘게요", "이대로 둘게")
             : Phrasing.say("이걸로 시작할게요", "이걸로 시작할게")
@@ -134,6 +221,9 @@ struct AddGoalView: View {
 
     private func advance() {
         switch step {
+        case .full:
+            break
+
         case .direction:
             withAnimation(.easeInOut(duration: 0.25)) { step = .smaller }
             isFocused = true

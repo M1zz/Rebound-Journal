@@ -56,13 +56,17 @@ struct TodayWidgetView: View {
     let entry: PebbleEntry
 
     var body: some View {
-        switch family {
-        case .systemMedium: medium
-        case .accessoryRectangular: rectangular
-        case .accessoryCircular: circular
-        case .accessoryInline: Text(entry.snapshot.action)
-        default: small
+        Group {
+            switch family {
+            case .systemMedium: medium
+            case .accessoryRectangular: rectangular
+            case .accessoryCircular: circular
+            case .accessoryInline: Text(entry.snapshot.action)
+            default: small
+            }
         }
+        // 결도 앱이 정한 대로. 위젯은 권한을 따지지 않는다.
+        .environment(\.pebbleSkin, snapshot.skin ?? .free)
     }
 
     private var snapshot: PebbleSnapshot { entry.snapshot }

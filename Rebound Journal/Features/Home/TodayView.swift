@@ -22,6 +22,7 @@ import WidgetKit
 struct TodayView: View {
 
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.pebbleSkin) private var skin
     @Query private var journals: [JournalData]
     @Query private var goals: [SubGoalData]
 
@@ -30,6 +31,9 @@ struct TodayView: View {
     @State private var isShowingSettings = false
     @State private var isLookingBack = false
     @State private var isShowingAllRecords = false
+    #if DEBUG
+    @State private var isShowingDebugPaywall = false
+    #endif
 
     /// 지금 조약돌이 얘기하는 목표. nil이면 앱이 알아서 고른다.
     ///
@@ -72,6 +76,11 @@ struct TodayView: View {
                 }
             }
             .onOpenURL(perform: enter(from:))
+            #if DEBUG
+            // 확인·스크린샷용: 실행 인자 `-debug.open settings|addGoal|lookBack|records|paywall`
+            .task { openDebugScreen() }
+            .proPaywall(isPresented: $isShowingDebugPaywall)
+            #endif
             .navigationTitle("징검돌")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar { toolbarItems }
@@ -151,6 +160,7 @@ struct TodayView: View {
             .onChange(of: journals.count) { _, _ in publishToWidget() }
             .onChange(of: goals.count) { _, _ in publishToWidget() }
             .onChange(of: speechStyle) { _, _ in publishToWidget() }
+            .onChange(of: skin) { _, _ in publishToWidget() }
             .onChange(of: greeting.count) { _, _ in scrollToLatest(proxy, animated: true) }
             // 목표가 바뀌면 주제가 바뀐다. 다시 찍어서 바뀌었다는 걸 눈에 보이게 한다.
             .onChange(of: selectedGoal) { _, _ in rebuildForSelection() }
@@ -206,7 +216,7 @@ struct TodayView: View {
             return [ReplyChoice(id: "talk", label: invitation, isPrimary: true)]
         }
         if case .noGoalYet = observation.kind {
-            return [ReplyChoice(id: "addGoal", label: "목표 하나 적어두기", isPrimary: true)]
+            return [ReplyChoice(id: "addGoal", label: String(localized: "목표 하나 적어두기"), isPrimary: true)]
         }
         return []
     }
@@ -226,7 +236,8 @@ struct TodayView: View {
             line: current.headline,
             action: Phrasing.say("오늘 남기러 가기", "오늘 남기러 가자"),
             mood: current.pebbleMood,
-            updatedAt: Date()
+            updatedAt: Date(),
+            skin: skin
         )
         PebbleSnapshot.save(snapshot)
         WidgetCenter.shared.reloadAllTimelines()
@@ -437,4 +448,17 @@ struct TodayView: View {
             .popoverTip(speechStyleTip)
         }
     }
+
+    #if DEBUG
+    private func openDebugScreen() {
+        switch UserDefaults.standard.string(forKey: "debug.open") {
+        case "settings": isShowingSettings = true
+        case "addGoal": isAddingGoal = true
+        case "lookBack": isLookingBack = true
+        case "records": isShowingAllRecords = true
+        case "paywall": isShowingDebugPaywall = true
+        default: break
+        }
+    }
+    #endif
 }

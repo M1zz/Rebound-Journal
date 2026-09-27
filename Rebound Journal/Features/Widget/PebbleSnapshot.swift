@@ -32,6 +32,9 @@ struct PebbleSnapshot: Codable, Equatable {
     var mood: PebbleMood
     /// 이 장면을 적어둔 때. **지났는지 판단하는 데 쓴다.**
     var updatedAt: Date
+    /// 그릴 조약돌의 결. 프로 권한까지 따진 값을 앱이 적어 준다.
+    /// 옵셔널인 이유: 이 칸이 생기기 전에 저장된 장면도 그대로 읽혀야 한다.
+    var skin: PebbleSkin? = nil
 
     // MARK: - 오가는 곳
 
@@ -90,7 +93,8 @@ struct PebbleSnapshot: Codable, Equatable {
             line: PebbleSnapshot.resting.line,
             action: action,
             mood: .resting,
-            updatedAt: updatedAt
+            updatedAt: updatedAt,
+            skin: skin
         )
     }
 }

@@ -12,12 +12,29 @@ import LeeoKit
 
 @main
 struct ReboundJournalApp: App {
-    // 데이터를 전체에서 쓸 방법
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    @StateObject private var manager: DataManager = DataManager(preview: false)
+    @StateObject private var manager = DataManager(preview: false)
+    /// 징검돌 프로 권한. 앱 어디서든 `store.hasPro` 로 묻는다.
+    @StateObject private var store = LeeoStore(
+        config: ReboundJournalSpec.paywall!,
+        unlockOverride: ReboundJournalApp.debugProOverride
+    )
+
+    #if DEBUG
+    /// 확인·스크린샷용. 실행 인자 `-debug.pro YES` / `-debug.pro NO` 로 프로 권한을 못박는다.
+    /// 인자가 없으면 실제 구매로 판정한다. 배포 빌드에는 이 길이 없다.
+    private static let debugProOverride: (@MainActor () -> Bool?)? = {
+        // 실행 인자는 문자열("YES")로 들어온다. `as? Bool` 로는 읽히지 않는다.
+        UserDefaults.standard.string(forKey: "debug.pro").map { ($0 as NSString).boolValue }
+    }
+    #else
+    private static let debugProOverride: (@MainActor () -> Bool?)? = nil
+    #endif
 
     init() {
         LeeoEngagement.shared.registerLaunch()
+        // 페이월·구매 이벤트가 FeedbackHub 로 모이게 한다.
+        LeeoAnalyticsCenter.register(ReboundJournalSpec.self)
 
         // 안내는 조건이 맞는 순간 바로 띄운다. TipKit의 기본값은 하루에 하나라,
         // 그대로 두면 "대화를 한 번 끝냈을 때"라는 조건을 맞춰 놓고도 안내가
@@ -31,6 +48,7 @@ struct ReboundJournalApp: App {
     }
 
     var sharedModelContainer: ModelContainer = {
+        // ⚠️ 스키마를 바꾸지 않는다. 기존 사용자 기록이 이 두 모델에 있다.
         let schema = Schema([
             JournalData.self,
             SubGoalData.self
@@ -43,60 +61,32 @@ struct ReboundJournalApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-    
+
     var body: some Scene {
         WindowGroup {
-            RootView()
+            SkinnedRoot()
                 .environmentObject(manager)
+                .environmentObject(store)
                 .environment(\.managedObjectContext, manager.container.viewContext)
                 .modelContainer(sharedModelContainer)
                 .leeoSatisfactionCheck(ReboundJournalSpec.self)
+                .leeoStyle(.pebble)
         }
     }
 }
 
+/// 고른 조약돌 결을 앱 전체에 내려보낸다.
+///
+/// 프로 권한이 없으면(환불 등) 고른 값은 남겨 두고 기본 돌로 그린다.
+private struct SkinnedRoot: View {
+    @EnvironmentObject private var store: LeeoStore
+    @AppStorage(PebbleSkin.storageKey) private var chosenSkin = PebbleSkin.free.rawValue
 
-/// Create a shape with specific rounded corners
-struct RoundedCorner: Shape {
-    var radius: CGFloat = .infinity
-    var corners: UIRectCorner = .allCorners
-    func path(in rect: CGRect) -> Path {
-        let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
-        return Path(path.cgPath)
+    var body: some View {
+        RootView()
+            .environment(
+                \.pebbleSkin,
+                PebbleSkin.effective(PebbleSkin(rawValue: chosenSkin) ?? .free, hasPro: store.hasPro)
+            )
     }
-}
-
-/// Present an alert from anywhere in the app
-func presentAlert(title: String, message: String, primaryAction: UIAlertAction = .OK, secondaryAction: UIAlertAction? = nil, tertiaryAction: UIAlertAction? = nil) {
-    DispatchQueue.main.async {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(primaryAction)
-        if let secondary = secondaryAction { alert.addAction(secondary) }
-        if let tertiary = tertiaryAction { alert.addAction(tertiary) }
-        rootController?.present(alert, animated: true, completion: nil)
-    }
-}
-
-var rootController: UIViewController? {
-    guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
-        return nil
-    }
-    var root = scene.windows.first?.rootViewController
-    if let presenter = root?.presentedViewController {
-        root = presenter
-    }
-    return root
-}
-
-/// Blur background view
-struct BackgroundBlurView: UIViewRepresentable {
-    func makeUIView(context: Context) -> UIView {
-        let view = UIVisualEffectView(effect: UIBlurEffect(style: .light))
-        DispatchQueue.main.async {
-            view.superview?.superview?.backgroundColor = .clear
-        }
-        return view
-    }
-
-    func updateUIView(_ uiView: UIView, context: Context) {}
 }
