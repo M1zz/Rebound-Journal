@@ -41,13 +41,13 @@ struct EditRecordView: View {
                         goalLine
                         reachedSection
                         textSection(
-                            title: "무슨 일이 있었나요",
-                            placeholder: "짧아도 괜찮아요.",
+                            title: String(localized: "무슨 일이 있었나요"),
+                            placeholder: String(localized: "짧아도 괜찮아요."),
                             text: $review
                         )
                         emotionSection
                         textSection(
-                            title: "다음에 해보기로 한 것",
+                            title: String(localized: "다음에 해보기로 한 것"),
                             placeholder: Phrasing.say("작을수록 좋아요.", "작을수록 좋아."),
                             text: $plan
                         )
@@ -108,10 +108,10 @@ struct EditRecordView: View {
 
     private var reachedSection: some View {
         VStack(alignment: .leading, spacing: 10) {
-            label("그날 어땠나요")
+            label(String(localized: "그날 어땠나요"))
             HStack(spacing: 8) {
-                pick(title: "닿았어요", selected: reached) { reached = true }
-                pick(title: "닿지 않았어요", selected: !reached) { reached = false }
+                pick(title: String(localized: "닿았어요"), selected: reached) { reached = true }
+                pick(title: String(localized: "닿지 않았어요"), selected: !reached) { reached = false }
             }
         }
     }
@@ -131,7 +131,7 @@ struct EditRecordView: View {
 
     private var emotionSection: some View {
         VStack(alignment: .leading, spacing: 10) {
-            label("그때 기분")
+            label(String(localized: "그때 기분"))
 
             // 대화에서 쓰는 것과 같은 눈금·낱말을 쓴다. 다른 어휘를 두면
             // 같은 감정을 두 이름으로 적게 된다.

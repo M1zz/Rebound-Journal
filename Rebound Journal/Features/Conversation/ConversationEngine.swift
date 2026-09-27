@@ -226,7 +226,7 @@ final class ConversationEngine {
         beat = .close
         mood = newMood
         say(message)
-        response = .acknowledgement("닫기")
+        response = .acknowledgement(String(localized: "닫기"))
         isFinished = true
     }
 

@@ -1,102 +1,6 @@
 {
   "sourceLanguage": "ko",
   "strings": {
-    "\"%@\"": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"%@\""
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"%@\""
-          }
-        }
-      }
-    },
-    "\"11시에 배가 고팠다. 냉장고를 열었다. 치킨을 먹었다.\"": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"At 11 pm I got hungry. I opened the fridge. I ate fried chicken.\""
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"11시에 배가 고팠다. 냉장고를 열었다. 치킨을 먹었다.\""
-          }
-        }
-      }
-    },
-    "\"~할 때, ~하겠다\" 형식으로 계획을 세워보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Try a plan shaped like \"When X happens, I will Y\""
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"~할 때, ~하겠다\" 형식으로 계획을 세워보세요"
-          }
-        }
-      }
-    },
-    "\"물 마시기\", \"산책하기\", \"친구에게 전화하기\"": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"Drink water\", \"Take a walk\", \"Call a friend\""
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"물 마시기\", \"산책하기\", \"친구에게 전화하기\""
-          }
-        }
-      }
-    },
-    "\"배고플 때, 먼저 물 한 잔을 마시겠다\"\n\"야식 생각이 날 때, 양치질을 하겠다\"": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"When I get hungry, I will drink a glass of water first\"\n\"When I crave a late-night snack, I will brush my teeth\""
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"배고플 때, 먼저 물 한 잔을 마시겠다\"\n\"야식 생각이 날 때, 양치질을 하겠다\""
-          }
-        }
-      }
-    },
-    "\"오늘 하루만 괜찮겠지\", \"내일부터 하면 돼\"": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"Just for today\", \"I will start tomorrow\""
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "\"오늘 하루만 괜찮겠지\", \"내일부터 하면 돼\""
-          }
-        }
-      }
-    },
     "%@\n막힌 건 '%@'였고,\n지금 기분은 '%@'%@.\n\n%@": {
       "localizations": {
         "en": {
@@ -305,38 +209,6 @@
         }
       }
     },
-    "%@ - %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ - %2$@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ - %2$@"
-          }
-        }
-      }
-    },
-    "%@ • 성장의 실마리": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ • Seed of growth"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ • 성장의 실마리"
-          }
-        }
-      }
-    },
     "%@ 주": {
       "localizations": {
         "en": {
@@ -417,22 +289,6 @@
         }
       }
     },
-    "%@년": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@년"
-          }
-        }
-      }
-    },
     "%@에 '%@'%@ 해내셨잖아요.": {
       "localizations": {
         "en": {
@@ -461,22 +317,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@에 '%2$@'%3$@ 해냈잖아."
-          }
-        }
-      }
-    },
-    "%@에 대한": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "About %@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@에 대한"
           }
         }
       }
@@ -561,110 +401,6 @@
         }
       }
     },
-    "%lld%%": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld%%"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld%%"
-          }
-        }
-      }
-    },
-    "%lld/30": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/30"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld/30"
-          }
-        }
-      }
-    },
-    "%lld개": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld개"
-          }
-        }
-      }
-    },
-    "%lld개의 기록": {
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld record"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld records"
-                }
-              }
-            }
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld개의 기록"
-          }
-        }
-      }
-    },
-    "%lld번": {
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld time"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld times"
-                }
-              }
-            }
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld번"
-          }
-        }
-      }
-    },
     "%lld월 %lld일": {
       "localizations": {
         "en": {
@@ -677,34 +413,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$lld월 %2$lld일"
-          }
-        }
-      }
-    },
-    "%lld일": {
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld day"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld days"
-                }
-              }
-            }
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld일"
           }
         }
       }
@@ -733,34 +441,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld일 전"
-          }
-        }
-      }
-    },
-    "%lld일 전 실패를 극복했어요!": {
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "You bounced back from a miss %lld day ago!"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "You bounced back from a miss %lld days ago!"
-                }
-              }
-            }
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld일 전 실패를 극복했어요!"
           }
         }
       }
@@ -817,22 +497,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld주 전에 남김"
-          }
-        }
-      }
-    },
-    "%lld회": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld회"
           }
         }
       }
@@ -1253,119 +917,6 @@
         }
       }
     },
-    "Count": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Count"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Count"
-          }
-        }
-      }
-    },
-    "Date": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date"
-          }
-        }
-      }
-    },
-    "[%@]": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[%@]"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[%@]"
-          }
-        }
-      }
-    },
-    "[%@] 실패 😢": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[%@] Missed 😢"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[%@] 실패 😢"
-          }
-        }
-      }
-    },
-    "[다음 성공을 위해]\n%@\n\n[성공 참고사항]\n%@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[To keep it going]\n%1$@\n\n[Notes on this success]\n%2$@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[다음 성공을 위해]\n%1$@\n\n[성공 참고사항]\n%2$@"
-          }
-        }
-      }
-    },
-    "[오늘] 성공! 🎉": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[Today] Made it! 🎉"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[오늘] 성공! 🎉"
-          }
-        }
-      }
-    },
-    "activeRebound.retryButton": {
-      "comment": "활성 리바운드 카드의 재도전 버튼",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Try again"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도전"
-          }
-        }
-      }
-    },
     "|": {
       "localizations": {
         "en": {
@@ -1378,22 +929,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "|"
-          }
-        }
-      }
-    },
-    "·": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "·"
           }
         }
       }
@@ -1432,38 +967,6 @@
         }
       }
     },
-    "가장 어려운 목표: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Toughest goal: %@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "가장 어려운 목표: %@"
-          }
-        }
-      }
-    },
-    "가장 큰 원인을 선택해주세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pick the biggest cause"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "가장 큰 원인을 선택해주세요"
-          }
-        }
-      }
-    },
     "감사한": {
       "localizations": {
         "en": {
@@ -1476,102 +979,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "감사한"
-          }
-        }
-      }
-    },
-    "감정": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Emotion"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "감정"
-          }
-        }
-      }
-    },
-    "감정 (스트레스, 외로움)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Emotions (stress, loneliness)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "감정 (스트레스, 외로움)"
-          }
-        }
-      }
-    },
-    "감정은 하나만 선택됩니다": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You can pick only one emotion"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "감정은 하나만 선택됩니다"
-          }
-        }
-      }
-    },
-    "감정을 빼고 객관적인 사실만 적어주세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leave feelings out and write only the facts"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "감정을 빼고 객관적인 사실만 적어주세요"
-          }
-        }
-      }
-    },
-    "감정태그": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Emotion tag"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "감정태그"
-          }
-        }
-      }
-    },
-    "같이 붙일 사진이 있나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Any photos to attach?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "같이 붙일 사진이 있나요?"
           }
         }
       }
@@ -1640,38 +1047,6 @@
         }
       }
     },
-    "건너뛰기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skip"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "건너뛰기"
-          }
-        }
-      }
-    },
-    "결과가 어떠셨나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How did it go?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "결과가 어떠셨나요?"
-          }
-        }
-      }
-    },
     "곁에 있어요": {
       "localizations": {
         "en": {
@@ -1684,38 +1059,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "곁에 있어요"
-          }
-        }
-      }
-    },
-    "계속 도전하세요! 🌱": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keep at it! 🌱"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "계속 도전하세요! 🌱"
-          }
-        }
-      }
-    },
-    "계속 작성하기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keep writing"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "계속 작성하기"
           }
         }
       }
@@ -1748,54 +1091,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "골인"
-          }
-        }
-      }
-    },
-    "골인!\n지금 어떤 감정인가요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Made it!\nHow do you feel right now?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "골인!\n지금 어떤 감정인가요?"
-          }
-        }
-      }
-    },
-    "골인은 성공을, 리바운드는 아쉬운 실패를 뜻해요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Made it means a success, Rebound means a miss"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "골인은 성공을, 리바운드는 아쉬운 실패를 뜻해요"
-          }
-        }
-      }
-    },
-    "과거": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Past"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "과거"
           }
         }
       }
@@ -1852,22 +1147,6 @@
         }
       }
     },
-    "구체적인 실행 계획을 적어보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Write a concrete action plan"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구체적인 실행 계획을 적어보세요"
-          }
-        }
-      }
-    },
     "규칙적인 생활": {
       "localizations": {
         "en": {
@@ -1898,22 +1177,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "그 뒤로는 어떻게 됐어요?"
-          }
-        }
-      }
-    },
-    "그 순간 다른 선택지를 생각해보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Think of another option for that moment"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그 순간 다른 선택지를 생각해보세요"
           }
         }
       }
@@ -2004,38 +1267,6 @@
         }
       }
     },
-    "그때 느낀 감정을 선택해주세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pick how you felt at that moment"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그때 느낀 감정을 선택해주세요"
-          }
-        }
-      }
-    },
-    "그때 무슨 생각을 했나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What went through your mind?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그때 무슨 생각을 했나요?"
-          }
-        }
-      }
-    },
     "그때 무슨 일이 있었어요?": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -2100,38 +1331,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "그때는 '%@'라고 했었지."
-          }
-        }
-      }
-    },
-    "그래서 그 슛을 다시 쏘고난 지금 기분은 어때요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Now that you have taken the shot again, how do you feel?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그래서 그 슛을 다시 쏘고난 지금 기분은 어때요?"
-          }
-        }
-      }
-    },
-    "그래서 이 다음은 어떻게 되는거에요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "So what comes next?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그래서 이 다음은 어떻게 되는거에요?"
           }
         }
       }
@@ -2346,54 +1545,6 @@
         }
       }
     },
-    "극복률": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comeback rate"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "극복률"
-          }
-        }
-      }
-    },
-    "긍정": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Positive"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "긍정"
-          }
-        }
-      }
-    },
-    "기간": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Period"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "기간"
-          }
-        }
-      }
-    },
     "기대되는": {
       "localizations": {
         "en": {
@@ -2406,54 +1557,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "기대되는"
-          }
-        }
-      }
-    },
-    "기록을 쌓아가고 있어요 💪": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You are building up your records 💪"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "기록을 쌓아가고 있어요 💪"
-          }
-        }
-      }
-    },
-    "기록이 없어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No records yet"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "기록이 없어요"
-          }
-        }
-      }
-    },
-    "기록이 없어요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No records yet!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "기록이 없어요!"
           }
         }
       }
@@ -2490,38 +1593,6 @@
         }
       }
     },
-    "깔끔하게 들어가서 기분좋아": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nailed it cleanly, and it feels great"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "깔끔하게 들어가서 기분좋아"
-          }
-        }
-      }
-    },
-    "꾸준히 성장하고 있어요 📈": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You are growing steadily 📈"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "꾸준히 성장하고 있어요 📈"
-          }
-        }
-      }
-    },
     "끔찍한": {
       "localizations": {
         "en": {
@@ -2534,38 +1605,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "끔찍한"
-          }
-        }
-      }
-    },
-    "나 스스로에게 화가나": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I am angry at myself"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나 스스로에게 화가나"
-          }
-        }
-      }
-    },
-    "나가기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leave"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나가기"
           }
         }
       }
@@ -2624,86 +1663,6 @@
         }
       }
     },
-    "나의 성장": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "My growth"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나의 성장"
-          }
-        }
-      }
-    },
-    "나중에 성공으로 극복했어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You turned this into a success later"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나중에 성공으로 극복했어요"
-          }
-        }
-      }
-    },
-    "나중을 위한 기록": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notes for later"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나중을 위한 기록"
-          }
-        }
-      }
-    },
-    "날짜": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "날짜"
-          }
-        }
-      }
-    },
-    "날짜 선택": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select date"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "날짜 선택"
-          }
-        }
-      }
-    },
     "남겨뒀어요. 통했던 건 잊지 않게요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -2752,54 +1711,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "남긴 말은 없어요."
-          }
-        }
-      }
-    },
-    "내 다음 계획은 이래요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Here is my next plan"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "내 다음 계획은 이래요"
-          }
-        }
-      }
-    },
-    "내 자신이 자랑스러워": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I am proud of myself"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "내 자신이 자랑스러워"
-          }
-        }
-      }
-    },
-    "내가 쐈던 슛은 이랬어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Here is the shot I took"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "내가 쐈던 슛은 이랬어요"
           }
         }
       }
@@ -2910,38 +1821,6 @@
         }
       }
     },
-    "년도": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Year"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "년도"
-          }
-        }
-      }
-    },
-    "느낀 점...": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What I felt..."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "느낀 점..."
-          }
-        }
-      }
-    },
     "다른 것들은 그대로 두고, 이거 하나만 볼까요?": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -2978,102 +1857,6 @@
         }
       }
     },
-    "다른사람이 질투나": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I envy other people"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다른사람이 질투나"
-          }
-        }
-      }
-    },
-    "다시 또 하고싶어": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I want to do it again"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 또 하고싶어"
-          }
-        }
-      }
-    },
-    "다시 리바운드-!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rebound again!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 리바운드-!"
-          }
-        }
-      }
-    },
-    "다시 쏘았던 슛은 어땠나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How was the shot you took again?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 쏘았던 슛은 어땠나요?"
-          }
-        }
-      }
-    },
-    "다시 일어설 수 있어요! 🌱": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You can get back up! 🌱"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 일어설 수 있어요! 🌱"
-          }
-        }
-      }
-    },
-    "다시-쏘기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Shoot again"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시-쏘기"
-          }
-        }
-      }
-    },
     "다음": {
       "localizations": {
         "en": {
@@ -3086,70 +1869,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "다음"
-          }
-        }
-      }
-    },
-    "다음 성공을 위해": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "To keep it going"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음 성공을 위해"
-          }
-        }
-      }
-    },
-    "다음 슈팅 때 선택할 수 있어요.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You can pick it on your next shot."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음 슈팅 때 선택할 수 있어요."
-          }
-        }
-      }
-    },
-    "다음 시도를 위한 대안을 적어보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Write an alternative for your next try"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음 시도를 위한 대안을 적어보세요"
-          }
-        }
-      }
-    },
-    "다음 시도에서 성공했어요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You made it on the next try!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음 시도에서 성공했어요!"
           }
         }
       }
@@ -3168,54 +1887,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "다음에 또 쓸 수 있게 적어둘게요."
-          }
-        }
-      }
-    },
-    "다음엔 구체적으로 어떻게 할까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What exactly will you do next time?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음엔 구체적으로 어떻게 할까요?"
-          }
-        }
-      }
-    },
-    "다음엔 어떻게 할까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What will you do next time?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음엔 어떻게 할까요?"
-          }
-        }
-      }
-    },
-    "다음으로": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Next"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음으로"
           }
         }
       }
@@ -3266,214 +1937,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "닿았다고만 남겼어요."
-          }
-        }
-      }
-    },
-    "대단해요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Well done!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대단해요!"
-          }
-        }
-      }
-    },
-    "대신 무엇을 할 수 있었을까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What could you have done instead?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대신 무엇을 할 수 있었을까요?"
-          }
-        }
-      }
-    },
-    "대안 행동을 적어보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Write an alternative action"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대안 행동을 적어보세요"
-          }
-        }
-      }
-    },
-    "대안:": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alternative:"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대안:"
-          }
-        }
-      }
-    },
-    "대안: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alternative: %@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대안: %@"
-          }
-        }
-      }
-    },
-    "대안: %@\n\n계획: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alternative: %1$@\n\nPlan: %2$@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대안: %1$@\n\n계획: %2$@"
-          }
-        }
-      }
-    },
-    "더 나은 나를 위해 지금 슛을 쏴 보세요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take a shot for a better you!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "더 나은 나를 위해 지금 슛을 쏴 보세요!"
-          }
-        }
-      }
-    },
-    "데이터 부족": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Not enough data"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터 부족"
-          }
-        }
-      }
-    },
-    "데이터 없음": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No data"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터 없음"
-          }
-        }
-      }
-    },
-    "데이터를 불러오는 중...": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Loading data..."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터를 불러오는 중..."
-          }
-        }
-      }
-    },
-    "도전": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Challenges"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도전"
-          }
-        }
-      }
-    },
-    "도전 중": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "In progress"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도전 중"
-          }
-        }
-      }
-    },
-    "도전하는 용기가 성장의 시작이에요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The courage to try is where growth starts"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도전하는 용기가 성장의 시작이에요"
           }
         }
       }
@@ -3564,22 +2027,6 @@
         }
       }
     },
-    "또는 새로운 대안을 생각해보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Or think of a new alternative"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "또는 새로운 대안을 생각해보세요"
-          }
-        }
-      }
-    },
     "리바운드": {
       "localizations": {
         "en": {
@@ -3592,71 +2039,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "리바운드"
-          }
-        }
-      }
-    },
-    "리바운드 슛!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rebound shot!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "리바운드 슛!"
-          }
-        }
-      }
-    },
-    "리바운드 저널": {
-      "extractionState": "stale",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rebound Journal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "리바운드 저널"
-          }
-        }
-      }
-    },
-    "리바운드!\n지금 어떤 감정인가요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rebound!\nHow do you feel right now?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "리바운드!\n지금 어떤 감정인가요?"
-          }
-        }
-      }
-    },
-    "리바운드는 만족해요? 이 다음은 어떻게 할꺼에요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Happy with the rebound? What will you do next?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "리바운드는 만족해요? 이 다음은 어떻게 할꺼에요?"
           }
         }
       }
@@ -3705,22 +2087,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "만족한"
-          }
-        }
-      }
-    },
-    "만족해요? 이 다음은 어떻게 할꺼에요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Happy with it? What will you do next?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "만족해요? 이 다음은 어떻게 할꺼에요?"
           }
         }
       }
@@ -3893,22 +2259,6 @@
         }
       }
     },
-    "머릿속에 떠올랐던 생각이나 스스로에게 한 말": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The thoughts that came up, or what you told yourself"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "머릿속에 떠올랐던 생각이나 스스로에게 한 말"
-          }
-        }
-      }
-    },
     "며칠 전": {
       "localizations": {
         "en": {
@@ -3957,114 +2307,6 @@
         }
       }
     },
-    "모든 질문에 답변했어요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You answered every question!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "모든 질문에 답변했어요!"
-          }
-        }
-      }
-    },
-    "목적: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Purpose: %@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목적: %@"
-          }
-        }
-      }
-    },
-    "목표": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표"
-          }
-        }
-      }
-    },
-    "목표 %lld개": {
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld goal"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld goals"
-                }
-              }
-            }
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표 %lld개"
-          }
-        }
-      }
-    },
-    "목표 없음": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No goal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표 없음"
-          }
-        }
-      }
-    },
-    "목표 제목": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goal title"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표 제목"
-          }
-        }
-      }
-    },
     "목표 추가": {
       "localizations": {
         "en": {
@@ -4077,166 +2319,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "목표 추가"
-          }
-        }
-      }
-    },
-    "목표 통계": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goal stats"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표 통계"
-          }
-        }
-      }
-    },
-    "목표 현황 (%lld)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goals (%lld)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표 현황 (%lld)"
-          }
-        }
-      }
-    },
-    "목표(%lld)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goals (%lld)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표(%lld)"
-          }
-        }
-      }
-    },
-    "목표가 눈에 보이면, 동기부여의 효과가 있어요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keeping your goal in sight keeps you motivated!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표가 눈에 보이면, 동기부여의 효과가 있어요!"
-          }
-        }
-      }
-    },
-    "목표를 생성할까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Create a goal?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표를 생성할까요?"
-          }
-        }
-      }
-    },
-    "목표를 생성해주세요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Create a goal first!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표를 생성해주세요!"
-          }
-        }
-      }
-    },
-    "목표를 입력하세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter a goal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표를 입력하세요"
-          }
-        }
-      }
-    },
-    "목표를 적어주세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Write down your goal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표를 적어주세요"
-          }
-        }
-      }
-    },
-    "목표별 성과": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Performance by goal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표별 성과"
-          }
-        }
-      }
-    },
-    "목표에 대한 슛인가요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Which goal is this shot for?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "목표에 대한 슛인가요?"
           }
         }
       }
@@ -4321,22 +2403,6 @@
         }
       }
     },
-    "무슨 일이 있었나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What happened?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무슨 일이 있었나요?"
-          }
-        }
-      }
-    },
     "무슨 일이 있었는지 얘기하기": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -4405,38 +2471,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "무엇을 향해 가고 있어요?"
-          }
-        }
-      }
-    },
-    "무엇이 문제였나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What went wrong?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무엇이 문제였나요?"
-          }
-        }
-      }
-    },
-    "무엇이 실패를 유발했나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What triggered the miss?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무엇이 실패를 유발했나요?"
           }
         }
       }
@@ -4527,38 +2561,6 @@
         }
       }
     },
-    "미래": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Future"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "미래"
-          }
-        }
-      }
-    },
-    "발 뻗고 잘 수 있어": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I can sleep easy tonight"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "발 뻗고 잘 수 있어"
-          }
-        }
-      }
-    },
     "밤 11시에 알람 설정하고 핸드폰 멀리 두기": {
       "localizations": {
         "en": {
@@ -4587,22 +2589,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "보통의"
-          }
-        }
-      }
-    },
-    "부정": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Negative"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "부정"
           }
         }
       }
@@ -4719,22 +2705,6 @@
         }
       }
     },
-    "비슷한 실패": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Similar misses"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "비슷한 실패"
-          }
-        }
-      }
-    },
     "비참한": {
       "localizations": {
         "en": {
@@ -4767,22 +2737,6 @@
         }
       }
     },
-    "사실: %@\n\n생각: %@\n\n원인: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Facts: %1$@\n\nThoughts: %2$@\n\nCause: %3$@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사실: %1$@\n\n생각: %2$@\n\n원인: %3$@"
-          }
-        }
-      }
-    },
     "사용 통계 (개발자)": {
       "localizations": {
         "en": {
@@ -4795,38 +2749,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "사용 통계 (개발자)"
-          }
-        }
-      }
-    },
-    "상세 기록": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Details"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "상세 기록"
-          }
-        }
-      }
-    },
-    "상승세": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trending up"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "상승세"
           }
         }
       }
@@ -4879,22 +2801,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "상황이 막힌 거지, 사람이 문제인 게 아니에요."
-          }
-        }
-      }
-    },
-    "새로운 목표": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New goal"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "새로운 목표"
           }
         }
       }
@@ -4979,166 +2885,6 @@
         }
       }
     },
-    "성공": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Success"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성공"
-          }
-        }
-      }
-    },
-    "성공 경험을 기록해주세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Record what worked"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성공 경험을 기록해주세요"
-          }
-        }
-      }
-    },
-    "성공 비결을 적어보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Write down what made it work"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성공 비결을 적어보세요"
-          }
-        }
-      }
-    },
-    "성공률": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Success rate"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성공률"
-          }
-        }
-      }
-    },
-    "성공률이 %lld%% 증가했어요! 🚀": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your success rate is up %lld%%! 🚀"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성공률이 %lld%% 증가했어요! 🚀"
-          }
-        }
-      }
-    },
-    "성장을 위한 대안": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alternatives for growth"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성장을 위한 대안"
-          }
-        }
-      }
-    },
-    "성장의 실마리": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seeds of growth"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성장의 실마리"
-          }
-        }
-      }
-    },
-    "성장의 실마리 (%lld)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seeds of growth (%lld)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성장의 실마리 (%lld)"
-          }
-        }
-      }
-    },
-    "성장하기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Grow"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성장하기"
-          }
-        }
-      }
-    },
-    "세부 목표: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sub-goal: %@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "세부 목표: %@"
-          }
-        }
-      }
-    },
     "소식을 퍼뜨리세요": {
       "localizations": {
         "en": {
@@ -5155,118 +2901,6 @@
         }
       }
     },
-    "슈팅을 그만하시겠어요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stop this shot?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슈팅을 그만하시겠어요?"
-          }
-        }
-      }
-    },
-    "슈팅이 빗맞아도 괜찮아요.\n 리바운드로 실패를 기회로 바꾸면 되니까요.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "It is okay to miss.\n A rebound turns a miss into a chance."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슈팅이 빗맞아도 괜찮아요.\n 리바운드로 실패를 기회로 바꾸면 되니까요."
-          }
-        }
-      }
-    },
-    "슛 쏘기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take the shot"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슛 쏘기"
-          }
-        }
-      }
-    },
-    "슛-쏘기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take a shot"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슛-쏘기"
-          }
-        }
-      }
-    },
-    "슛-쏘기를 통해 첫 기록을 남겨보세요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take a shot and leave your first record!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슛-쏘기를 통해 첫 기록을 남겨보세요!"
-          }
-        }
-      }
-    },
-    "슛은 쏠 수 없어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You cannot take a shot"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슛은 쏠 수 없어요"
-          }
-        }
-      }
-    },
-    "슬라이더를 움직여\n감정을 표현해보세요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Move the slider\nto show how you feel"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "슬라이더를 움직여\n감정을 표현해보세요"
-          }
-        }
-      }
-    },
     "슬픈": {
       "localizations": {
         "en": {
@@ -5279,22 +2913,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "슬픈"
-          }
-        }
-      }
-    },
-    "습관 (무의식적으로)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Habit (did it without thinking)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "습관 (무의식적으로)"
           }
         }
       }
@@ -5363,22 +2981,6 @@
         }
       }
     },
-    "실패 극복": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bounced back"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "실패 극복"
-          }
-        }
-      }
-    },
     "쓸쓸한": {
       "localizations": {
         "en": {
@@ -5391,22 +2993,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "쓸쓸한"
-          }
-        }
-      }
-    },
-    "아니야 괜찮아 한번 더!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "It is fine, one more try!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "아니야 괜찮아 한번 더!"
           }
         }
       }
@@ -5443,22 +3029,6 @@
         }
       }
     },
-    "아직 기록이 없어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No records yet"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "아직 기록이 없어요"
-          }
-        }
-      }
-    },
     "아직 남긴 게 없어요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -5491,22 +3061,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "아직 남긴 이야기가 없어요."
-          }
-        }
-      }
-    },
-    "아직 슈팅 기록이 없어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No shots recorded yet"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "아직 슈팅 기록이 없어요"
           }
         }
       }
@@ -5613,22 +3167,6 @@
         }
       }
     },
-    "안정": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Steady"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "안정"
-          }
-        }
-      }
-    },
     "알겠어요. 여기 있을게요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -5659,22 +3197,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "알림 켜기"
-          }
-        }
-      }
-    },
-    "앞으로의 계획은 어떤 것인가요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What is your plan from here?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "앞으로의 계획은 어떤 것인가요?"
           }
         }
       }
@@ -5743,102 +3265,6 @@
         }
       }
     },
-    "어떤 기분이셨나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How did you feel?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떤 기분이셨나요?"
-          }
-        }
-      }
-    },
-    "어떤 기분이었나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How did you feel?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떤 기분이었나요?"
-          }
-        }
-      }
-    },
-    "어떤 목표에 대한 기록인가요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Which goal is this about?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떤 목표에 대한 기록인가요?"
-          }
-        }
-      }
-    },
-    "어떤 생각이 들었나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What were you thinking?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떤 생각이 들었나요?"
-          }
-        }
-      }
-    },
-    "어떤 슛을 남겨볼까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What shot will you record?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떤 슛을 남겨볼까요?"
-          }
-        }
-      }
-    },
-    "어떤 어려움이 있었나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What made it hard?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떤 어려움이 있었나요?"
-          }
-        }
-      }
-    },
     "어떻게 됐는지 남기기": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -5853,22 +3279,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "어떻게 됐는지 남기기"
-          }
-        }
-      }
-    },
-    "어떻게 성공하셨나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How did you pull it off?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어떻게 성공하셨나요?"
           }
         }
       }
@@ -5921,22 +3331,6 @@
         }
       }
     },
-    "언제, 어디서, 무엇을 했나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "When, where, and what did you do?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "언제, 어디서, 무엇을 했나요?"
-          }
-        }
-      }
-    },
     "언제든 다시 바꿀 수 있어요. 바꾸면 조약돌이 그 말투로 다시 인사해요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -5951,22 +3345,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "언제든 다시 바꿀 수 있어요. 바꾸면 조약돌이 그 말투로 다시 인사해요."
-          }
-        }
-      }
-    },
-    "언제든지 다시 확인할 수 있어요.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You can look back at it anytime."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "언제든지 다시 확인할 수 있어요."
           }
         }
       }
@@ -6073,98 +3451,6 @@
         }
       }
     },
-    "여기에 입력": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Type here"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "여기에 입력"
-          }
-        }
-      }
-    },
-    "여러번만의 성공이라 신나": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "It took a few tries, so it feels great"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "여러번만의 성공이라 신나"
-          }
-        }
-      }
-    },
-    "연속 %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ streak"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "연속 %@"
-          }
-        }
-      }
-    },
-    "연속 기록": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Streak"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "연속 기록"
-          }
-        }
-      }
-    },
-    "연속으로 %lld일째 기록 중이에요!": {
-      "localizations": {
-        "en": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "You are on a %lld-day streak!"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "You are on a %lld-day streak!"
-                }
-              }
-            }
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "연속으로 %lld일째 기록 중이에요!"
-          }
-        }
-      }
-    },
     "열정적인": {
       "localizations": {
         "en": {
@@ -6241,54 +3527,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다."
-          }
-        }
-      }
-    },
-    "예: 같은 시간에 계속하기, 환경 유지하기 등": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "e.g. keep the same time, keep the same setting"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "예: 같은 시간에 계속하기, 환경 유지하기 등"
-          }
-        }
-      }
-    },
-    "예: 이렇게 하니까 성공했어요, 이 마음가짐이 중요했어요 등": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "e.g. this is what worked, this mindset mattered"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "예: 이렇게 하니까 성공했어요, 이 마음가짐이 중요했어요 등"
-          }
-        }
-      }
-    },
-    "예시": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Example"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "예시"
           }
         }
       }
@@ -6439,38 +3677,6 @@
         }
       }
     },
-    "오늘 쏘았던 슛은 어땠나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How was the shot you took today?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오늘 쏘았던 슛은 어땠나요?"
-          }
-        }
-      }
-    },
-    "오늘 쏘았던 슛은 얼마나 멀리 날아갔는지 최대한 자세하게 설명해주세요.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Describe in as much detail as you can how far today's shot flew."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오늘 쏘았던 슛은 얼마나 멀리 날아갔는지 최대한 자세하게 설명해주세요."
-          }
-        }
-      }
-    },
     "오늘 어땠는지, 잠깐 같이 볼까요?": {
       "localizations": {
         "en": {
@@ -6483,22 +3689,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "오늘 어땠는지, 잠깐 같이 볼까요?"
-          }
-        }
-      }
-    },
-    "오늘 하루 어때요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How is your day going?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오늘 하루 어때요?"
           }
         }
       }
@@ -6517,22 +3707,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "오늘은 그냥 옆에 있을게요."
-          }
-        }
-      }
-    },
-    "오늘은 어떤 목표에 시도했나요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Which goal did you try today?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오늘은 어떤 목표에 시도했나요?"
           }
         }
       }
@@ -6609,23 +3783,6 @@
         }
       }
     },
-    "오늘의 성공과 실패를 적는 것을 미루지 마세요!": {
-      "extractionState": "stale",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Do not put off writing down today's hits and misses!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오늘의 성공과 실패를 적는 것을 미루지 마세요!"
-          }
-        }
-      }
-    },
     "오래전에 남김": {
       "localizations": {
         "en": {
@@ -6638,54 +3795,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "오래전에 남김"
-          }
-        }
-      }
-    },
-    "완료": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "완료"
-          }
-        }
-      }
-    },
-    "완전히 에너지넘쳐": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I am bursting with energy"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "완전히 에너지넘쳐"
-          }
-        }
-      }
-    },
-    "왜 들어갔지? 아리송해": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Why did that work? No idea"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "왜 들어갔지? 아리송해"
           }
         }
       }
@@ -6754,54 +3863,6 @@
         }
       }
     },
-    "월간": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Monthly"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "월간"
-          }
-        }
-      }
-    },
-    "월별 성과": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Monthly performance"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "월별 성과"
-          }
-        }
-      }
-    },
-    "유혹 (보거나 냄새를 맡음)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Temptation (saw it or smelled it)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "유혹 (보거나 냄새를 맡음)"
-          }
-        }
-      }
-    },
     "의욕적인": {
       "localizations": {
         "en": {
@@ -6852,22 +3913,6 @@
         }
       }
     },
-    "이 대안 적용하기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Use this alternative"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 대안 적용하기"
-          }
-        }
-      }
-    },
     "이 둘은 다른 얘기예요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -6886,22 +3931,6 @@
         }
       }
     },
-    "이 성공을 계속 이어가려면 무엇을 해야 할까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What will keep this success going?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 성공을 계속 이어가려면 무엇을 해야 할까요?"
-          }
-        }
-      }
-    },
     "이 얘기 할래요": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -6916,22 +3945,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 얘기 할래요"
-          }
-        }
-      }
-    },
-    "이건 완전히 운이라고 생각해": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I think that was pure luck"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이건 완전히 운이라고 생각해"
           }
         }
       }
@@ -7008,22 +4021,6 @@
         }
       }
     },
-    "이게 진짜 성장이에요 ⭐": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This is what real growth looks like ⭐"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이게 진짜 성장이에요 ⭐"
-          }
-        }
-      }
-    },
     "이날은 지나갔어요. 그래도 돌은 그대로 있어요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -7060,22 +4057,6 @@
         }
       }
     },
-    "이런!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oops!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이런!"
-          }
-        }
-      }
-    },
     "이렇게 고칠게요": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -7090,54 +4071,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "이렇게 고칠게요"
-          }
-        }
-      }
-    },
-    "이번 달 기록이 없어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No records this month"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이번 달 기록이 없어요"
-          }
-        }
-      }
-    },
-    "이번 달 데이터가 없어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No data for this month"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이번 달 데이터가 없어요"
-          }
-        }
-      }
-    },
-    "이번 슈팅에 대한": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "For this shot"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이번 슈팅에 대한"
           }
         }
       }
@@ -7172,86 +4105,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "이번엔 뭐가 달랐어요?"
-          }
-        }
-      }
-    },
-    "이용약관": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terms of Use"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이용약관"
-          }
-        }
-      }
-    },
-    "이전": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Back"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이전"
-          }
-        }
-      }
-    },
-    "이전 기록보기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "View past records"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이전 기록보기"
-          }
-        }
-      }
-    },
-    "이전 실패를 극복한 성공!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A success that beat an earlier miss!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이전 실패를 극복한 성공!"
-          }
-        }
-      }
-    },
-    "이전 실패를 극복한 성공이에요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This success beat an earlier miss!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이전 실패를 극복한 성공이에요!"
           }
         }
       }
@@ -7308,54 +4161,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "이전 이야기 %lld개는 접어뒀어요."
-          }
-        }
-      }
-    },
-    "이쯤이야 예상했어": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I saw this coming"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이쯤이야 예상했어"
-          }
-        }
-      }
-    },
-    "인사이트": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Insights"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "인사이트"
-          }
-        }
-      }
-    },
-    "인스타그램 DM (@lee25_ios)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Instagram DM (@lee25_ios)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "인스타그램 DM (@lee25_ios)"
           }
         }
       }
@@ -7494,22 +4299,6 @@
         }
       }
     },
-    "자신이 실망스러워": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I am disappointed in myself"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "자신이 실망스러워"
-          }
-        }
-      }
-    },
     "자책하는": {
       "localizations": {
         "en": {
@@ -7522,38 +4311,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "자책하는"
-          }
-        }
-      }
-    },
-    "작성완료": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "작성완료"
-          }
-        }
-      }
-    },
-    "작은 것부터 생각해보아도 좋아요.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Starting small is perfectly fine."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "작은 것부터 생각해보아도 좋아요."
           }
         }
       }
@@ -7648,54 +4405,6 @@
         }
       }
     },
-    "저널 제목": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Journal title"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "저널 제목"
-          }
-        }
-      }
-    },
-    "저장": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "저장"
-          }
-        }
-      }
-    },
-    "저장하기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "저장하기"
-          }
-        }
-      }
-    },
     "적어둔 목표 없음": {
       "localizations": {
         "en": {
@@ -7780,86 +4489,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "적어볼게요"
-          }
-        }
-      }
-    },
-    "전체 (%lld개)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "All (%lld)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "전체 (%lld개)"
-          }
-        }
-      }
-    },
-    "전체 골인": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "All made shots"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "전체 골인"
-          }
-        }
-      }
-    },
-    "전체 리바운드": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "All rebounds"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "전체 리바운드"
-          }
-        }
-      }
-    },
-    "전체 시도": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total attempts"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "전체 시도"
-          }
-        }
-      }
-    },
-    "전체 타임라인 보기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "View full timeline"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "전체 타임라인 보기"
           }
         }
       }
@@ -7966,22 +4595,6 @@
         }
       }
     },
-    "조금 어려웠지만 괜찮아요 💪": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A bit rough, but that is okay 💪"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "조금 어려웠지만 괜찮아요 💪"
-          }
-        }
-      }
-    },
     "조약돌": {
       "localizations": {
         "en": {
@@ -8050,22 +4663,6 @@
         }
       }
     },
-    "좋아요! 절반 이상 성공하고 있어요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nice! You are making more than half of your shots"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "좋아요! 절반 이상 성공하고 있어요"
-          }
-        }
-      }
-    },
     "좌절스러운": {
       "localizations": {
         "en": {
@@ -8082,54 +4679,6 @@
         }
       }
     },
-    "주간": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Weekly"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주간"
-          }
-        }
-      }
-    },
-    "주요 목표: %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Main goal: %@"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주요 목표: %@"
-          }
-        }
-      }
-    },
-    "준비 부족 (대안이 없었음)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unprepared (had no backup plan)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "준비 부족 (대안이 없었음)"
-          }
-        }
-      }
-    },
     "중립적인": {
       "localizations": {
         "en": {
@@ -8142,70 +4691,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "중립적인"
-          }
-        }
-      }
-    },
-    "지금 감정을 입력해봐요": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Put what you feel into words"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지금 감정을 입력해봐요"
-          }
-        }
-      }
-    },
-    "지금 나가시면 기록했던 내용들이\n모두 사라집니다.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "If you leave now, everything you wrote\nwill be lost."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지금 나가시면 기록했던 내용들이\n모두 사라집니다."
-          }
-        }
-      }
-    },
-    "지금 내 기분은": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "How I feel right now"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지금 내 기분은"
-          }
-        }
-      }
-    },
-    "지금 다시 도전하기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Try again now"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지금 다시 도전하기"
           }
         }
       }
@@ -8588,22 +5073,6 @@
         }
       }
     },
-    "직접 쓰기": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Write your own"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "직접 쓰기"
-          }
-        }
-      }
-    },
     "징검돌": {
       "localizations": {
         "en": {
@@ -8654,22 +5123,6 @@
         }
       }
     },
-    "짧아도 좋아요. 경험에 대해 적어봐요.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Short is fine. Write about what happened."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "짧아도 좋아요. 경험에 대해 적어봐요."
-          }
-        }
-      }
-    },
     "책을 30분 읽었어요. 집중이 잘 됐습니다.": {
       "localizations": {
         "en": {
@@ -8686,22 +5139,6 @@
         }
       }
     },
-    "첫 슛을 쏴보세요!": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take your first shot!"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "첫 슛을 쏴보세요!"
-          }
-        }
-      }
-    },
     "체력 기르기": {
       "localizations": {
         "en": {
@@ -8714,54 +5151,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "체력 기르기"
-          }
-        }
-      }
-    },
-    "총 시도": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total tries"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "총 시도"
-          }
-        }
-      }
-    },
-    "최근 추세": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recent trend"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "최근 추세"
-          }
-        }
-      }
-    },
-    "추가": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "추가"
           }
         }
       }
@@ -8796,38 +5185,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "크게 적어도 괜찮아요."
-          }
-        }
-      }
-    },
-    "타임라인": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Timeline"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "타임라인"
-          }
-        }
-      }
-    },
-    "통계": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stats"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "통계"
           }
         }
       }
@@ -8930,22 +5287,6 @@
         }
       }
     },
-    "피로 (몸이 힘들었음)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fatigue (my body was worn out)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "피로 (몸이 힘들었음)"
-          }
-        }
-      }
-    },
     "하나는 있었던 일이고, 하나는 지금 마음이에요.": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -8964,38 +5305,6 @@
         }
       }
     },
-    "하락세": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trending down"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "하락세"
-          }
-        }
-      }
-    },
-    "한 번도 쓧을 쏘지 않았는데\n슛-쏘기 버튼을 눌러서 슛 쏴보는건 어때요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You have not taken a single shot yet.\nTap Take a shot and give it a go?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "한 번도 쓧을 쏘지 않았는데\n슛-쏘기 버튼을 눌러서 슛 쏴보는건 어때요?"
-          }
-        }
-      }
-    },
     "한참 전에": {
       "localizations": {
         "en": {
@@ -9008,38 +5317,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "한참 전에"
-          }
-        }
-      }
-    },
-    "해결됨": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Resolved"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "해결됨"
-          }
-        }
-      }
-    },
-    "핵심 지표": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Key metrics"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "핵심 지표"
           }
         }
       }
@@ -9130,22 +5407,6 @@
         }
       }
     },
-    "혹시 다음에 실패한다면, 이번 성공에서 무엇을 참고하면 좋을까요?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "If you miss next time, what from this success should you remember?"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "혹시 다음에 실패한다면, 이번 성공에서 무엇을 참고하면 좋을까요?"
-          }
-        }
-      }
-    },
     "혹시 이런 뜻인가요?": {
       "comment": "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState": "manual",
@@ -9160,22 +5421,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "혹시 이런 뜻인가요?"
-          }
-        }
-      }
-    },
-    "혼자인 것 같아 외로워": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I feel alone"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "혼자인 것 같아 외로워"
           }
         }
       }
@@ -9196,82 +5441,512 @@
         }
       }
     },
-    "환경 (장소, 상황)": {
+    "  기분: %@": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Environment (place, situation)"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "환경 (장소, 상황)"
+            "value": "  Feeling: %@"
           }
         }
       }
     },
-    "훌륭해요! 높은 성공률을 유지하고 있어요": {
+    "  다음 걸음: %@": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Excellent! You are keeping a high success rate"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "훌륭해요! 높은 성공률을 유지하고 있어요"
+            "value": "  Next step: %@"
           }
         }
       }
     },
-    "🎉": {
+    "  있었던 일: %@": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "🎉"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "🎉"
+            "value": "  What happened: %@"
           }
         }
       }
     },
-    "💡": {
+    "'지나온 길'에서 목표 하나를 내려놓으면 새로 적을 수 있어요.": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "💡"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "💡"
+            "value": "Set one goal down in 'The way you've come,' and you can write a new one."
           }
         }
       }
     },
-    "💡 과거의 나는 이렇게 했어요": {
+    "강돌": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "💡 Here is what you did before"
+            "value": "River Slate"
           }
-        },
-        "ko": {
+        }
+      }
+    },
+    "구매 복원": {
+      "localizations": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "💡 과거의 나는 이렇게 했어요"
+            "value": "Restore Purchase"
+          }
+        }
+      }
+    },
+    "그날 어땠나요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How did that day go"
+          }
+        }
+      }
+    },
+    "그때 기분": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How you felt"
+          }
+        }
+      }
+    },
+    "기록": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Records"
+          }
+        }
+      }
+    },
+    "기록 내보내기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export records"
+          }
+        }
+      }
+    },
+    "기록을 내보내지 못했어요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't export your records"
+          }
+        }
+      }
+    },
+    "남긴 기록은 그대로 둬요. 목록에서만 빠져요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your records stay. It just leaves the list."
+          }
+        }
+      }
+    },
+    "내 조약돌 고르기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose your pebble"
+          }
+        }
+      }
+    },
+    "내려놓기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set Down"
+          }
+        }
+      }
+    },
+    "내보낸 날: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exported: %@"
+          }
+        }
+      }
+    },
+    "노을돌": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunset"
+          }
+        }
+      }
+    },
+    "다음에 해보기로 한 것": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What you'll try next"
+          }
+        }
+      }
+    },
+    "닿았어요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I got there"
+          }
+        }
+      }
+    },
+    "닿지 않았어요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I didn't get there"
+          }
+        }
+      }
+    },
+    "먹돌": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inkstone"
+          }
+        }
+      }
+    },
+    "모래알": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sand"
+          }
+        }
+      }
+    },
+    "목표 하나 적어두기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Write down a goal"
+          }
+        }
+      }
+    },
+    "목표를 개수 제한 없이 적어 둬요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep as many goals as you like"
+          }
+        }
+      }
+    },
+    "목표를 원하는 만큼": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As many goals as you like"
+          }
+        }
+      }
+    },
+    "목표를 제한 없이 적고, 조약돌을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep unlimited goals, choose your pebble, and export your records. Buy once, keep it for good."
+          }
+        }
+      }
+    },
+    "무료로는 목표를 세 개까지 품을 수 있어요. 이게 세 번째예요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The free version holds up to three goals. This is your third."
+          }
+        }
+      }
+    },
+    "무슨 일이 있었나요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What happened"
+          }
+        }
+      }
+    },
+    "아직 남긴 기록이 없어요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing written yet."
+          }
+        }
+      }
+    },
+    "알아보기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Learn more"
+          }
+        }
+      }
+    },
+    "이 목표를 내려놓을까요?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set this goal down?"
+          }
+        }
+      }
+    },
+    "이끼돌": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moss"
+          }
+        }
+      }
+    },
+    "잠시 후 다시 해 주세요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please try again in a moment."
+          }
+        }
+      }
+    },
+    "조가비": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seashell"
+          }
+        }
+      }
+    },
+    "조약돌 고르기": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pebble finish"
+          }
+        }
+      }
+    },
+    "지금 향하는 곳이 벌써 %lld개야.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're already heading toward %lld goals."
+          }
+        }
+      }
+    },
+    "지금 향하는 곳이 벌써 %lld개예요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're already heading toward %lld goals."
+          }
+        }
+      }
+    },
+    "지금은 그냥 둘게요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'll leave it for now"
+          }
+        }
+      }
+    },
+    "지나온 기록을 글 파일로 꺼내 간직해요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep everything you've written as a text file."
+          }
+        }
+      }
+    },
+    "지나온 기록을 파일로 내보내요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export your records as a file"
+          }
+        }
+      }
+    },
+    "징검돌 기록": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZinggumDol Records"
+          }
+        }
+      }
+    },
+    "징검돌 프로": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZinggumDol Pro"
+          }
+        }
+      }
+    },
+    "징검돌 프로를 쓰고 있어요. 고마워요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're using ZinggumDol Pro. Thank you."
+          }
+        }
+      }
+    },
+    "짧아도 괜찮아요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A few words is enough."
+          }
+        }
+      }
+    },
+    "프로": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        }
+      }
+    },
+    "프로로 더 적을래요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I'll add more with Pro"
+          }
+        }
+      }
+    },
+    "프로에서 열려요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlocks with Pro"
+          }
+        }
+      }
+    },
+    "한 번 사면 계속 써요. 구독이 아니에요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buy once, keep it for good. No subscription"
+          }
+        }
+      }
+    },
+    "향하는 곳이 여럿이어도 괜찮아요. 개수 제한 없이 적어 둘 수 있어요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It's okay to be heading in more than one direction. Keep as many goals as you need."
+          }
+        }
+      }
+    },
+    "무료로 쓰던 건 그대로, 몇 가지가 더 열려요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything free stays free. A few more things open up."
+          }
+        }
+      }
+    },
+    "조약돌의 결을 여섯 가지 중에서 골라요": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose from six pebble finishes"
+          }
+        }
+      }
+    },
+    "개울가에서 주운 듯한 돌 다섯 가지가 더 열려요.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Five more stones open up, like ones picked up by the stream."
           }
         }
       }

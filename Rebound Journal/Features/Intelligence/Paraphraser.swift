@@ -20,7 +20,7 @@ import Foundation
 
 @Generable
 struct TidiedUtterance {
-    @Guide(description: "사용자가 말한 내용을 자연스러운 한국어 한두 문장으로 정리한 것. 없는 내용을 지어내지 말 것.")
+    @Guide(description: "사용자가 말한 내용을, 사용자가 말한 언어 그대로 자연스러운 한두 문장으로 정리한 것. 번역하지 말고, 없는 내용을 지어내지 말 것.")
     var text: String
 
     @Guide(description: "정리에 확신이 있으면 true. 원문이 너무 짧거나 뜻을 알 수 없으면 false.")
@@ -71,6 +71,7 @@ final class Paraphraser {
             - 사용자가 말하지 않은 내용을 절대 추가하지 마세요.
             - 조언하거나 위로하거나 평가하지 마세요. 정리만 하세요.
             - 사용자의 1인칭 시점과 말투를 유지하세요.
+            - 사용자가 말한 언어 그대로 쓰세요. 영어로 말했으면 영어로 정리하고, 번역하지 마세요.
             - 군더더기(음, 어, 반복)를 덜어내고 문장을 완성하세요.
             - 한두 문장으로 짧게 유지하세요.
             - 뜻을 알 수 없으면 isConfident를 false로 두세요.
