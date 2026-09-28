@@ -31,6 +31,7 @@ struct TodayView: View {
     @State private var isShowingSettings = false
     @State private var isLookingBack = false
     @State private var isShowingAllRecords = false
+    @State private var isShowingGoals = false
     #if DEBUG
     @State private var isShowingDebugPaywall = false
     #endif
@@ -77,7 +78,7 @@ struct TodayView: View {
             }
             .onOpenURL(perform: enter(from:))
             #if DEBUG
-            // 확인·스크린샷용: 실행 인자 `-debug.open settings|addGoal|lookBack|records|paywall`
+            // 확인·스크린샷용: 실행 인자 `-debug.open settings|addGoal|lookBack|records|goals|paywall`
             .task { openDebugScreen() }
             .proPaywall(isPresented: $isShowingDebugPaywall)
             #endif
@@ -111,12 +112,17 @@ struct TodayView: View {
         .sheet(isPresented: $isShowingAllRecords) {
             AllRecordsView()
         }
+        .sheet(isPresented: $isShowingGoals) {
+            GoalsView { goal in
+                selectedGoal = goal
+            }
+        }
     }
 
     // MARK: - 조약돌
 
     private var companionArea: some View {
-        PebbleView(mood: observation.pebbleMood, size: 140)
+        InteractivePebble(mood: observation.pebbleMood, size: 140)
             .padding(.top, 8)
     }
 
@@ -404,6 +410,12 @@ struct TodayView: View {
 
         ToolbarItem(placement: .topBarTrailing) {
             Menu {
+                // 지금 향하는 곳들을 보고 이름을 고치거나 내려놓는 자리.
+                Button {
+                    isShowingGoals = true
+                } label: {
+                    Label("내 목표", systemImage: "flag")
+                }
                 Button {
                     isAddingGoal = true
                 } label: {
@@ -456,6 +468,7 @@ struct TodayView: View {
         case "addGoal": isAddingGoal = true
         case "lookBack": isLookingBack = true
         case "records": isShowingAllRecords = true
+        case "goals": isShowingGoals = true
         case "paywall": isShowingDebugPaywall = true
         default: break
         }

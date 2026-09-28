@@ -449,21 +449,6 @@ struct LookBackView: View {
     /// `RelativeDateTimeFormatter`를 그대로 쓰면 방금 만든 기록이 "0초 후에"로 나온다.
     /// 날짜 단위로 끊어서 사람이 말하듯 적는다.
     private func relative(_ date: Date) -> String {
-        let calendar = Calendar.current
-        if calendar.isDateInToday(date) { return String(localized: "오늘 남김") }
-        if calendar.isDateInYesterday(date) { return String(localized: "어제 남김") }
-
-        let days = calendar.dateComponents(
-            [.day],
-            from: calendar.startOfDay(for: date),
-            to: calendar.startOfDay(for: Date())
-        ).day ?? 0
-
-        return switch days {
-        case ..<0: String(localized: "오늘 남김")
-        case 0..<7: String(localized: "\(days)일 전에 남김")
-        case 7..<30: String(localized: "\(days / 7)주 전에 남김")
-        default: String(localized: "오래전에 남김")
-        }
+        LeftAgo.label(for: date)
     }
 }
