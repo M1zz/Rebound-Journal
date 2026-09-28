@@ -15,12 +15,14 @@
 		0A631BB6EF320CA20927EC4B /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
 		11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF711FB488680547B2D7443 /* AddGoalView.swift */; };
+		1443389351B86211E130710E /* InteractivePebble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C801681B2717EE30D8A22F /* InteractivePebble.swift */; };
 		148F814C5575C0FE8A6820CC /* PebbleSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813DACAB5E98893A5F94005 /* PebbleSkin.swift */; };
 		19917646F34E9B4C8965EF04 /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
 		215B69C2C647BB26F1EEEA31 /* Phrasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BFD81E3954E97EE45C6A4 /* Phrasing.swift */; };
 		22CBAB9970D0BC7DD0391EC7 /* PebbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F995B506A6AF31E454ED76 /* PebbleView.swift */; };
 		22F76D629E121E2FE4B45B3A /* EmotionVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B48FFA161DD5D71A536AA1A /* EmotionVocabulary.swift */; };
+		23AD4F6CE44CD9D53655A5A9 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE3CA0CD04357580CE6039 /* GoalsView.swift */; };
 		34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */; };
 		429D1D50CB2D9041CDDED650 /* ReboundJournalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CEB7F55F0C4DBCA5F58161 /* ReboundJournalSpec.swift */; };
 		4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174705416645E35FAB3931 /* LookBackView.swift */; };
@@ -38,6 +40,7 @@
 		58D670772BD01F0400F581E2 /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D670762BD01F0400F581E2 /* Binding+Extension.swift */; };
 		58FAF68D2D01F0C8008BE152 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68C2D01F0C8008BE152 /* SettingsView.swift */; };
 		58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */; };
+		5D6D3BFF2451BEC886B3D1DA /* DataEraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCB78F6E3C142BD77F217C /* DataEraser.swift */; };
 		64397E240888B4336D374D10 /* RecordExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D42F909752BBA4FA405C /* RecordExporter.swift */; };
 		69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */; };
 		76CCE816D1E2A31C5D918B96 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F652E997127C9970155311C /* LeeoKit */; };
@@ -50,6 +53,7 @@
 		8E5A6F4788FBCF515D6875D7 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF96E14F52D15708378F21 /* TodayView.swift */; };
 		9121B2F39A27B4C17AF5583C /* PebbleSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */; };
 		9C156C43E6C47FA0652034A7 /* SpeechStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */; };
+		A431489DD48483EAE4C42A2D /* LeftAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D851C813D0A61396CDC575 /* LeftAgo.swift */; };
 		B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F45927CE9303F8C2824F89 /* WeekStones.swift */; };
 		B32BFE0E8A87A4194AE1480A /* PebbleSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813DACAB5E98893A5F94005 /* PebbleSkin.swift */; };
 		BD5BF1B26932033262EC0AD8 /* ProFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875E6F72C2F6F8269A47228 /* ProFeature.swift */; };
@@ -101,6 +105,7 @@
 		0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCapture.swift; sourceTree = "<group>"; };
 		0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleMood.swift; sourceTree = "<group>"; };
 		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
+		16D851C813D0A61396CDC575 /* LeftAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeftAgo.swift; sourceTree = "<group>"; };
 		1875E6F72C2F6F8269A47228 /* ProFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProFeature.swift; sourceTree = "<group>"; };
 		1B48FFA161DD5D71A536AA1A /* EmotionVocabulary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmotionVocabulary.swift; sourceTree = "<group>"; };
 		277B21196696E9C4AA400EB7 /* ProgressObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressObserver.swift; sourceTree = "<group>"; };
@@ -128,6 +133,7 @@
 		5EF711FB488680547B2D7443 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 		60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingFeedback.swift; sourceTree = "<group>"; };
 		65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneBridgeView.swift; sourceTree = "<group>"; };
+		67C801681B2717EE30D8A22F /* InteractivePebble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InteractivePebble.swift; sourceTree = "<group>"; };
 		70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScript.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
 		893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 		A7F45927CE9303F8C2824F89 /* WeekStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStones.swift; sourceTree = "<group>"; };
 		A8CEB7F55F0C4DBCA5F58161 /* ReboundJournalSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReboundJournalSpec.swift; sourceTree = "<group>"; };
 		AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTips.swift; sourceTree = "<group>"; };
+		B2DE3CA0CD04357580CE6039 /* GoalsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
 		BDBF3899E539514D113B579B /* ReboundWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReboundWidget.entitlements; sourceTree = "<group>"; };
 		BFEF96E14F52D15708378F21 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		C1CE57171C6D211922D643B5 /* PebbleVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleVoice.swift; sourceTree = "<group>"; };
@@ -160,6 +167,7 @@
 		E953D42F909752BBA4FA405C /* RecordExporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordExporter.swift; sourceTree = "<group>"; };
 		F784A190DA8CA3ECBE8C758C /* ReboundWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReboundWidgetBundle.swift; sourceTree = "<group>"; };
 		FA9637483D25A567BB2C364E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FFDCB78F6E3C142BD77F217C /* DataEraser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataEraser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +204,7 @@
 				51F995B506A6AF31E454ED76 /* PebbleView.swift */,
 				C1CE57171C6D211922D643B5 /* PebbleVoice.swift */,
 				60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */,
+				67C801681B2717EE30D8A22F /* InteractivePebble.swift */,
 			);
 			path = Companion;
 			sourceTree = "<group>";
@@ -461,6 +470,8 @@
 				FA9637483D25A567BB2C364E /* RootView.swift */,
 				65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */,
 				BFEF96E14F52D15708378F21 /* TodayView.swift */,
+				B2DE3CA0CD04357580CE6039 /* GoalsView.swift */,
+				16D851C813D0A61396CDC575 /* LeftAgo.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -679,6 +690,7 @@
 				3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */,
 				C3B1B7C02D9462140008E38D /* UsageReporting.swift */,
 				5C662722CBA802959B9FE8E2 /* AudioSessionQueue.swift */,
+				FFDCB78F6E3C142BD77F217C /* DataEraser.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -842,6 +854,10 @@
 				64397E240888B4336D374D10 /* RecordExporter.swift in Sources */,
 				22F76D629E121E2FE4B45B3A /* EmotionVocabulary.swift in Sources */,
 				7AA013033C52E9098FE48081 /* AudioSessionQueue.swift in Sources */,
+				1443389351B86211E130710E /* InteractivePebble.swift in Sources */,
+				5D6D3BFF2451BEC886B3D1DA /* DataEraser.swift in Sources */,
+				23AD4F6CE44CD9D53655A5A9 /* GoalsView.swift in Sources */,
+				A431489DD48483EAE4C42A2D /* LeftAgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

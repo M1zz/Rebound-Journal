@@ -16,6 +16,7 @@ struct SettingsView: View {
     @EnvironmentObject private var store: LeeoStore
     @Environment(\.openURL) private var openURL
     @Environment(\.requestReview) private var requestReview
+    @Environment(\.modelContext) private var modelContext
     @Query private var journals: [JournalData]
 
     @State private var remindersTime: Date = Date()
@@ -33,6 +34,12 @@ struct SettingsView: View {
     @State private var exportFile: ExportFile?
     @State private var exportFailed = false
 
+    // 모든 기록 지우기 — 두 번 묻는다. 한 번은 무엇이 사라지는지, 한 번은 정말인지.
+    @State private var isConfirmingErase = false
+    @State private var isTypingEraseWord = false
+    @State private var eraseWord = ""
+    @State private var eraseResult: EraseResult?
+
     private let speechStyleTip = SpeechStyleSettingTip()
 
     var body: some View {
@@ -44,6 +51,33 @@ struct SettingsView: View {
         .sheet(item: $exportFile) { file in
             ShareSheet(items: [file.url])
                 .presentationDetents([.medium, .large])
+        }
+        .confirmationDialog(
+            String(localized: "모든 기록을 지울까요?"),
+            isPresented: $isConfirmingErase,
+            titleVisibility: .visible
+        ) {
+            Button(String(localized: "지우기"), role: .destructive) {
+                eraseWord = ""
+                isTypingEraseWord = true
+            }
+            if store.hasPro {
+                Button(String(localized: "먼저 내보내기")) { exportRecords() }
+            }
+            Button(String(localized: "취소"), role: .cancel) { }
+        } message: {
+            Text("목표와 남긴 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요.")
+        }
+        .alert(String(localized: "정말 지울까요?"), isPresented: $isTypingEraseWord) {
+            TextField(String(localized: "지우기"), text: $eraseWord)
+            Button(String(localized: "취소"), role: .cancel) { }
+            Button(String(localized: "모두 지우기"), role: .destructive) { eraseAll() }
+                .disabled(!isEraseWordTyped)
+        } message: {
+            Text("확인을 위해 '\(String(localized: "지우기"))'라고 적어 주세요.")
+        }
+        .alert(item: $eraseResult) { result in
+            Alert(title: Text(result.title))
         }
         .alert(String(localized: "기록을 내보내지 못했어요"), isPresented: $exportFailed) {
             Button(String(localized: "확인"), role: .cancel) { }
@@ -391,6 +425,26 @@ struct SettingsView: View {
                 locked: !store.hasPro) {
                 exportRecords()
             }
+            Divider().padding(.horizontal)
+            row(String(localized: "모든 기록 지우기"), icon: "trash") {
+                isConfirmingErase = true
+            }
+        }
+    }
+
+    /// 적은 낱말이 맞는지. 영어 화면에서는 번역된 낱말("Delete")을 적는다.
+    private var isEraseWordTyped: Bool {
+        let typed = eraseWord.trimmingCharacters(in: .whitespacesAndNewlines)
+        return typed == String(localized: "지우기") || typed == "지우기"
+    }
+
+    private func eraseAll() {
+        guard isEraseWordTyped else { return }
+        do {
+            try DataEraser.eraseAll(modelContext: modelContext, legacyContainer: manager.container)
+            eraseResult = .done
+        } catch {
+            eraseResult = .failed
         }
     }
 
@@ -508,6 +562,19 @@ struct SettingsView: View {
             LeeoUsageStatsView<ReboundJournalSpec>()
         } label: {
             Label(String(localized: "사용 통계 (개발자)"), systemImage: "chart.bar.doc.horizontal")
+        }
+    }
+}
+
+// MARK: - 지우기 결과
+
+private enum EraseResult: Identifiable {
+    case done, failed
+    var id: Self { self }
+    var title: String {
+        switch self {
+        case .done: String(localized: "모두 지웠어요.")
+        case .failed: String(localized: "지우지 못했어요. 잠시 후 다시 해 주세요.")
         }
     }
 }
