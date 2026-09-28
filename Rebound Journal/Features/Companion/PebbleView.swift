@@ -105,14 +105,19 @@ struct PebbleView: View {
             face
                 .offset(y: size * 0.04)
         }
-        .frame(width: footprint.width, height: footprint.height)
-        .scaleEffect(breathing ? 1.025 : 0.985, anchor: .bottom)
-        .animation(
-            .easeInOut(duration: mood.breathPeriod / 2).repeatForever(autoreverses: true),
-            value: breathing
-        )
+        // 표정·결이 바뀔 때의 전환은 그림 안쪽에만 건다.
         .animation(.easeInOut(duration: 0.45), value: mood)
         .animation(.easeInOut(duration: 0.45), value: skin)
+        .frame(width: footprint.width, height: footprint.height)
+        // 호흡의 무한 반복은 **크기에만** 건다.
+        //
+        // 예전에는 `.animation(repeatForever, value: breathing)`이 조약돌 전체에
+        // 걸려 있었다. 호흡이 시작되는 순간(시트가 올라오는 중, 목록이 자리를 잡는 중)
+        // 함께 바뀐 위치까지 무한 반복으로 잡혀서, 조약돌이 숨 쉬는 게 아니라 제자리를
+        // 벗어나 위아래로 널뛰었다. 조약돌이 여섯 개 모인 '조약돌 고르기'에서 특히 심했다.
+        .animation(.easeInOut(duration: mood.breathPeriod / 2).repeatForever(autoreverses: true)) { content in
+            content.scaleEffect(breathing ? 1.025 : 0.985, anchor: .bottom)
+        }
         .onAppear { breathing = true }
         .task(id: mood) { await blinkLoop() }
         .accessibilityElement()
