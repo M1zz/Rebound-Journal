@@ -94,7 +94,7 @@ struct ConversationView: View {
 
     /// 화면 위에 계속 머문다. 대화 상대가 누구인지 눈에서 사라지지 않아야 한다.
     private var companion: some View {
-        PebbleView(
+        InteractivePebble(
             mood: speech.isListening ? .listening : engine.mood,
             size: 92,
             isSpeaking: typingID != nil

@@ -54,7 +54,7 @@ struct AddGoalView: View {
                     }
                 }
 
-                PebbleView(mood: step == .direction ? .resting : .thinking, size: 96)
+                InteractivePebble(mood: step == .direction ? .resting : .thinking, size: 96)
                     .frame(maxWidth: .infinity)
 
                 Text(question)

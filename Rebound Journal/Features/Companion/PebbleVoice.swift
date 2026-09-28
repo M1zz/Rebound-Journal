@@ -110,6 +110,22 @@ final class PebbleVoice {
         player.scheduleBuffer(buffer, at: nil, options: [])
     }
 
+    /// 말풍선 없이 내는 짧은 소리. 조약돌을 만졌을 때 "응", "음" 하고 대답한다.
+    ///
+    /// 글자가 찍히는 것처럼 알갱이를 이어 붙인다. 짧아야 한다 — 만질 때마다
+    /// 길게 말하면 놀이가 아니라 소음이 된다.
+    func chirp(_ syllables: String, step: Double = 0.075) {
+        guard isEnabled else { return }
+        let characters = Array(syllables)
+        Task { @MainActor [weak self] in
+            for (index, character) in characters.enumerated() {
+                let progress = characters.count > 1 ? Double(index) / Double(characters.count - 1) : 0
+                self?.blip(for: character, progress: progress, step: step)
+                try? await Task.sleep(for: .seconds(step))
+            }
+        }
+    }
+
     func stop() {
         guard isWired else { return }
         player.stop()
