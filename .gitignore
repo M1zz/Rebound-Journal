@@ -9,3 +9,6 @@ Rebound Journal.xcodeproj/xcuserdata/sukhyeonmacmini.xcuserdatad/xcdebugger/Brea
 
 # 로컬 빌드 산출물
 build/
+
+# Xcode 개인 설정 (창 배치·스킴 순서·중단점) — 사람마다 달라 공유하지 않는다
+xcuserdata/
