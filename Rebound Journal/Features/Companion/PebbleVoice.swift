@@ -43,6 +43,13 @@ final class PebbleVoice {
     private let format = AVAudioFormat(standardFormatWithSampleRate: 44_100, channels: 1)!
     private var isWired = false
 
+    /// 오디오 세션을 여는 중인지. 세션 설정·활성화는 메인 스레드를 오래 붙잡을 수 있어서
+    /// (시스템이 "UI unresponsiveness" 경고를 낸다) `AudioSessionQueue`에서 한다.
+    private var isActivatingSession = false
+    /// 마지막으로 세션을 열지 못한 때. 다른 앱이 오디오를 쥐고 있으면 계속 실패하므로
+    /// 글자마다 다시 두드리지 않고 잠깐 쉰다.
+    private var lastSessionFailure: Date?
+
     /// TTS에서 잘라낸 소리 알갱이들. 글자마다 하나씩 골라 쓴다.
     private var grains: [AVAudioPCMBuffer] = []
     private var isRendering = false
@@ -56,6 +63,8 @@ final class PebbleVoice {
 
     /// 앱이 뜰 때 한 번 부른다. 첫 말풍선이 찍히기 전에 알갱이를 만들어 두기 위해서다.
     func prepare() {
+        // 세션도 미리 열어 둔다. 첫 글자가 찍힐 때 열기 시작하면 첫 마디가 조용하다.
+        if isEnabled { requestSessionIfNeeded() }
         guard grains.isEmpty, !isRendering else { return }
         isRendering = true
         Task { [weak self] in
@@ -78,10 +87,10 @@ final class PebbleVoice {
         guard isEnabled else { return }
         guard let tone = Self.tone(for: character, progress: progress) else { return }
 
-        do {
-            try wireIfNeeded()
-        } catch {
-            // 소리는 부가적인 요소다. 실패해도 대화는 그대로 진행되어야 한다.
+        // 세션이 준비되지 않았으면 이 글자는 조용히 넘긴다. 준비는 뒤에서 한다.
+        // 소리는 부가적인 요소다. 준비가 늦어도 대화는 그대로 진행되어야 한다.
+        guard isReadyToPlay else {
+            requestSessionIfNeeded()
             return
         }
 
@@ -108,31 +117,62 @@ final class PebbleVoice {
 
     // MARK: - 엔진
 
-    /// 세션을 열고, 그래프를 (한 번만) 세우고, 엔진을 돌린다.
+    /// 지금 바로 소리를 낼 수 있는지. 글자마다 불리므로 가벼운 확인만 한다.
     ///
-    /// 그래프 세우기와 엔진 켜기를 갈라 둔 이유가 있다. 예전에는 하나로 묶여 있어서
+    /// 음성 입력(`SpeechCapture`)이 끝나면 세션이 `.playAndRecord`로 바뀐 채 꺼진다.
+    /// 그래서 카테고리까지 본다 — 엔진만 보고 넘어가면 받아쓰기 뒤로 조약돌이 말이 없다.
+    private var isReadyToPlay: Bool {
+        isWired && engine.isRunning && AVAudioSession.sharedInstance().category == .playback
+    }
+
+    /// 세션을 전용 큐에서 열고, 다 열리면 메인에서 그래프를 세우고 엔진을 켠다.
+    ///
+    /// 예전에는 글자가 찍힐 때마다 메인 스레드에서 `setCategory`·`setActive`를 불렀다.
+    /// 한 문장이면 수십 번이고, 세션이 이미 켜져 있을 때 이 호출은 화면을 멈칫하게 만든다.
+    ///
+    /// 그래프 세우기와 엔진 켜기를 갈라 둔 이유도 있다. 예전에는 하나로 묶여 있어서
     /// `start()`가 한 번 실패하면 `isWired`가 서지 않았고, 그러면 다음 글자마다
-    /// 같은 노드를 또 attach하며 그래프를 덧쌓았다. 시작 실패 한 번이 수십 번의
-    /// 오류로 번지고 있었다.
-    private func wireIfNeeded() throws {
-        activateSession()
-        buildGraph()
-        if !engine.isRunning {
-            engine.prepare()
-            try engine.start()
+    /// 같은 노드를 또 attach하며 그래프를 덧쌓았다.
+    private func requestSessionIfNeeded() {
+        guard !isActivatingSession else { return }
+        // 받아쓰는 중에는 세션이 녹음용이다. 여기서 재생용으로 바꾸면 마이크가 끊긴다.
+        guard !AudioSessionQueue.isRecording else { return }
+        if let lastSessionFailure, Date().timeIntervalSince(lastSessionFailure) < 2 { return }
+        isActivatingSession = true
+
+        Task {
+            // .playback — 무음 스위치를 켜 두어도 들린다.
+            //
+            // .ambient로 두면 무음 모드에서 아무 소리도 나지 않는다. 대부분 무음으로
+            // 두고 쓰는데 그러면 이 기능이 있는 줄도 모르게 된다. 소리를 끄는 스위치는
+            // 설정 안에 따로 있으니, 그쪽을 진짜 스위치로 삼는다.
+            // .mixWithOthers를 함께 줘서 듣던 음악은 끊지 않는다.
+            let opened: Bool
+            do {
+                try await AudioSessionQueue.perform { session in
+                    try session.setCategory(.playback, mode: .default, options: [.mixWithOthers])
+                    try session.setActive(true, options: [])
+                }
+                opened = true
+            } catch {
+                opened = false
+            }
+            finishSessionRequest(opened: opened)
         }
     }
 
-    private func activateSession() {
-        // .playback — 무음 스위치를 켜 두어도 들린다.
-        //
-        // .ambient로 두면 무음 모드에서 아무 소리도 나지 않는다. 대부분 무음으로
-        // 두고 쓰는데 그러면 이 기능이 있는 줄도 모르게 된다. 소리를 끄는 스위치는
-        // 설정 안에 따로 있으니, 그쪽을 진짜 스위치로 삼는다.
-        // .mixWithOthers를 함께 줘서 듣던 음악은 끊지 않는다.
-        let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(.playback, mode: .default, options: [.mixWithOthers])
-        try? session.setActive(true, options: [])
+    private func finishSessionRequest(opened: Bool) {
+        isActivatingSession = false
+        guard opened else {
+            lastSessionFailure = Date()
+            return
+        }
+        lastSessionFailure = nil
+        buildGraph()
+        guard !engine.isRunning else { return }
+        engine.prepare()
+        // 실패해도 다음 글자에서 다시 시도한다. 붙잡지 않는다.
+        try? engine.start()
     }
 
     private func buildGraph() {
