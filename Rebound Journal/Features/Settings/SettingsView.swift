@@ -191,7 +191,8 @@ struct SettingsView: View {
             rowIcon(icon)
             Text(title).font(.body)
             Spacer()
-            Toggle("", isOn: isOn).labelsHidden()
+            // 제목은 옆 글자가 보여 주므로 감추되, VoiceOver 에는 읽히게 넘긴다.
+            Toggle(title, isOn: isOn).labelsHidden()
         }
         .foregroundStyle(.primary)
         .padding()
@@ -390,7 +391,7 @@ struct SettingsView: View {
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(isSelected ? [.isSelected] : [])
-        .accessibilityHint(isLocked ? Text("프로에서 열려요") : Text(""))
+        .accessibilityHint(isLocked ? Text("프로에서 열려요") : Text(verbatim: ""))
     }
 
     // MARK: - 조약돌 소리와 촉감
@@ -478,7 +479,7 @@ struct SettingsView: View {
                     rowIcon("clock")
                     Text("시간").font(.body)
                     Spacer()
-                    DatePicker("", selection: $remindersTime.onChange { date in
+                    DatePicker(String(localized: "시간"), selection: $remindersTime.onChange { date in
                         manager.reminderTime = date.string(format: "h:mm a")
                         manager.scheduleDailyReminderIfNeeded()
                     }, displayedComponents: .hourAndMinute)

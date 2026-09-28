@@ -448,6 +448,7 @@
       }
     },
     "'지나온 길'에서 목표 하나를 내려놓으면 새로 적을 수 있어요." : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -456,8 +457,7 @@
             "value" : "Set one goal down in 'The way you've come,' and you can write a new one."
           }
         }
-      },
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다"
+      }
     },
     "%@\n막힌 건 '%@'였고,\n지금 기분은 '%@'%@.\n\n%@" : {
       "localizations" : {
@@ -1035,7 +1035,18 @@
         }
       }
     },
+    "같은 이름의 목표가 이미 있어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A goal with that name already exists"
+          }
+        }
+      }
+    },
     "개발용" : {
+      "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1050,8 +1061,7 @@
             "value" : "개발용"
           }
         }
-      },
-      "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다"
+      }
     },
     "개발자에게 메일 보내기" : {
       "localizations" : {
@@ -1806,6 +1816,7 @@
       }
     },
     "남긴 기록은 그대로 둬요. 목록에서만 빠져요." : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1814,8 +1825,7 @@
             "value" : "Your records stay. It just leaves the list."
           }
         }
-      },
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다"
+      }
     },
     "남긴 말은 없어요." : {
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
@@ -1831,6 +1841,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "남긴 말은 없어요."
+          }
+        }
+      }
+    },
+    "내 목표" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Goals"
           }
         }
       }
@@ -2443,6 +2463,16 @@
         }
       }
     },
+    "먼저 내보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export First"
+          }
+        }
+      }
+    },
     "며칠 전" : {
       "localizations" : {
         "en" : {
@@ -2475,7 +2505,48 @@
         }
       }
     },
+    "모두 지우기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Everything"
+          }
+        }
+      }
+    },
+    "모두 지웠어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything has been deleted."
+          }
+        }
+      }
+    },
+    "모든 기록 지우기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete All Records"
+          }
+        }
+      }
+    },
+    "모든 기록을 지울까요?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete all records?"
+          }
+        }
+      }
+    },
     "모든 데이터 삭제" : {
+      "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -2490,8 +2561,7 @@
             "value" : "모든 데이터 삭제"
           }
         }
-      },
-      "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다"
+      }
     },
     "모래알" : {
       "localizations" : {
@@ -2499,6 +2569,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sand"
+          }
+        }
+      }
+    },
+    "목표" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goal"
           }
         }
       }
@@ -2555,6 +2635,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep unlimited goals, choose your pebble, and export your records. Buy once, keep it for good."
+          }
+        }
+      }
+    },
+    "목표와 남긴 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All your goals and records will be gone, and this can't be undone. They'll also be removed from your other devices through iCloud. Your settings and purchase stay."
           }
         }
       }
@@ -2634,6 +2724,7 @@
       }
     },
     "무료로는 목표를 세 개까지 품을 수 있어요. 이게 세 번째예요." : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -2642,8 +2733,7 @@
             "value" : "The free version holds up to three goals. This is your third."
           }
         }
-      },
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다"
+      }
     },
     "무서운" : {
       "localizations" : {
@@ -2829,6 +2919,18 @@
         }
       }
     },
+    "밀거나 길게 누르면 이름을 고치거나 내려놓을 수 있어요." : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swipe or long-press a goal to rename it or set it down."
+          }
+        }
+      }
+    },
     "밤 11시에 알람 설정하고 핸드폰 멀리 두기" : {
       "localizations" : {
         "en" : {
@@ -3005,6 +3107,16 @@
         }
       }
     },
+    "사용 통계" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usage statistics"
+          }
+        }
+      }
+    },
     "사용 통계 (개발자)" : {
       "localizations" : {
         "en" : {
@@ -3074,6 +3186,7 @@
       }
     },
     "샘플 데이터 생성" : {
+      "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -3088,8 +3201,7 @@
             "value" : "샘플 데이터 생성"
           }
         }
-      },
-      "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다"
+      }
     },
     "생각하고 있어요" : {
       "localizations" : {
@@ -3231,6 +3343,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "실망스러운"
+          }
+        }
+      }
+    },
+    "쓰다듬기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pet"
           }
         }
       }
@@ -3503,6 +3625,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱 비밀번호"
+          }
+        }
+      }
+    },
+    "앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only the days you opened the app or finished a conversation, the kinds of actions you took (like creating a goal), how many records and goals you have, and whether you saw the purchase screen are sent. Nothing you write ever leaves, and senders are told apart only by a random number made on this device."
           }
         }
       }
@@ -3917,22 +4049,6 @@
         }
       }
     },
-    "오늘 남김" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "left today"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "오늘 남김"
-          }
-        }
-      }
-    },
     "오늘 남기러 가기" : {
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
@@ -3947,6 +4063,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘 남기러 가기"
+          }
+        }
+      }
+    },
+    "오늘 남김" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "left today"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오늘 남김"
           }
         }
       }
@@ -4189,7 +4321,30 @@
         }
       }
     },
+    "이 목표로 남긴 기록도 새 이름을 따라가요." : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Records under this goal will follow the new name."
+          }
+        }
+      }
+    },
+    "이 목표로 이야기해요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Talk about this goal"
+          }
+        }
+      }
+    },
     "이 목표를 내려놓을까요?" : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -4198,8 +4353,7 @@
             "value" : "Set this goal down?"
           }
         }
-      },
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다"
+      }
     },
     "이 얘기 할래요" : {
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
@@ -4355,6 +4509,16 @@
         }
       }
     },
+    "이름 고치기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename"
+          }
+        }
+      }
+    },
     "이번 주" : {
       "localizations" : {
         "en" : {
@@ -4441,6 +4605,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이전 이야기 %lld개는 접어뒀어요."
+          }
+        }
+      }
+    },
+    "익명 사용 통계 보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send anonymous usage statistics"
           }
         }
       }
@@ -4867,6 +5041,16 @@
         }
       }
     },
+    "정말 지울까요?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete everything?"
+          }
+        }
+      }
+    },
     "조가비" : {
       "localizations" : {
         "en" : {
@@ -5088,6 +5272,7 @@
       }
     },
     "지금은 그냥 둘게요" : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -5096,8 +5281,7 @@
             "value" : "I'll leave it for now"
           }
         }
-      },
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다"
+      }
     },
     "지금은 그냥 둘래요" : {
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
@@ -5429,6 +5613,16 @@
         }
       }
     },
+    "지우지 못했어요. 잠시 후 다시 해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't delete. Please try again in a moment."
+          }
+        }
+      }
+    },
     "지원 및 개인정보 보호" : {
       "localizations" : {
         "en" : {
@@ -5601,6 +5795,16 @@
         }
       }
     },
+    "톡 건드리거나 문질러 쓰다듬을 수 있어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap it, or rub to pet it"
+          }
+        }
+      }
+    },
     "파괴적인" : {
       "localizations" : {
         "en" : {
@@ -5694,6 +5898,7 @@
       }
     },
     "프로로 더 적을래요" : {
+      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -5702,8 +5907,7 @@
             "value" : "I'll add more with Pro"
           }
         }
-      },
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다"
+      }
     },
     "프로에서 열려요" : {
       "localizations" : {
@@ -5905,180 +6109,6 @@
         }
       }
     },
-    "같은 이름의 목표가 이미 있어요" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A goal with that name already exists"
-          }
-        }
-      }
-    },
-    "내 목표" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My Goals"
-          }
-        }
-      }
-    },
-    "먼저 내보내기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Export First"
-          }
-        }
-      }
-    },
-    "모두 지우기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete Everything"
-          }
-        }
-      }
-    },
-    "모두 지웠어요." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Everything has been deleted."
-          }
-        }
-      }
-    },
-    "모든 기록 지우기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete All Records"
-          }
-        }
-      }
-    },
-    "모든 기록을 지울까요?" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete all records?"
-          }
-        }
-      }
-    },
-    "목표" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Goal"
-          }
-        }
-      }
-    },
-    "목표와 남긴 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All your goals and records will be gone, and this can't be undone. They'll also be removed from your other devices through iCloud. Your settings and purchase stay."
-          }
-        }
-      }
-    },
-    "쓰다듬기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pet"
-          }
-        }
-      }
-    },
-    "이 목표로 이야기해요" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Talk about this goal"
-          }
-        }
-      }
-    },
-    "이름 고치기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rename"
-          }
-        }
-      }
-    },
-    "정말 지울까요?" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete everything?"
-          }
-        }
-      }
-    },
-    "지우지 못했어요. 잠시 후 다시 해 주세요." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Couldn't delete. Please try again in a moment."
-          }
-        }
-      }
-    },
-    "톡 건드리거나 문질러 쓰다듬을 수 있어요" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tap it, or rub to pet it"
-          }
-        }
-      }
-    },
-    "이 목표로 남긴 기록도 새 이름을 따라가요." : {
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Records under this goal will follow the new name."
-          }
-        }
-      }
-    },
-    "밀거나 길게 누르면 이름을 고치거나 내려놓을 수 있어요." : {
-      "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swipe or long-press a goal to rename it or set it down."
-          }
-        }
-      }
-    },
     "확인을 위해 '%@'라고 적어 주세요." : {
       "localizations" : {
         "en" : {
@@ -6089,32 +6119,146 @@
         }
       }
     },
-    "사용 통계" : {
+    "헤헤" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usage statistics"
+            "value" : "Hehe"
           }
         }
       }
     },
-    "익명 사용 통계 보내기" : {
+    "응?" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Send anonymous usage statistics"
+            "value" : "Hm?"
           }
         }
       }
     },
-    "앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
+    "여기 있어요" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Only the days you opened the app or finished a conversation, the kinds of actions you took (like creating a goal), how many records and goals you have, and whether you saw the purchase screen are sent. Nothing you write ever leaves, and senders are told apart only by a random number made on this device."
+            "value" : "I'm here"
+          }
+        }
+      }
+    },
+    "불렀어요?" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You called?"
+          }
+        }
+      }
+    },
+    "히히, 간지러워요!" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hehe, that tickles!"
+          }
+        }
+      }
+    },
+    "간질간질해요" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tickly tickly"
+          }
+        }
+      }
+    },
+    "그만, 히히" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop, hehe"
+          }
+        }
+      }
+    },
+    "좋아요…" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "That's nice…"
+          }
+        }
+      }
+    },
+    "따뜻해요" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So warm"
+          }
+        }
+      }
+    },
+    "스르르…" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mmm…"
+          }
+        }
+      }
+    },
+    "어지러워요…" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm dizzy…"
+          }
+        }
+      }
+    },
+    "빙글빙글…" : {
+      "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spinny spinny…"
           }
         }
       }
