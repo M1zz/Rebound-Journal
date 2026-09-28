@@ -55,7 +55,7 @@
 
 ## 3. 가격
 
-**결정 (2026-09-28): ₩7,900** — 한국을 기준 국가로 두고, 다른 나라는 Apple 자동 환산(미국 약 $5.99).
+**결정 (2026-09-28): ₩7,900** — 한국을 기준 국가로 두고, 다른 나라는 Apple 자동 환산(미국 $4.99, 일본 ¥800).
 
 | | 값 | 근거 |
 |---|---|---|
@@ -90,14 +90,20 @@ FeedbackHub 사용 통계로 들어온다 (`ReboundJournalSpec.analytics` → `L
 3. 다음 프로 후보 (수요를 보고): 기록 PDF 내보내기, 조약돌 결 추가, 계절 한정 결.
    **대화 기능·기록 열람은 앞으로도 프로로 옮기지 않는다.**
 
-## 6. 출시 전 체크리스트 (사람이 할 일)
+## 6. 출시 전 체크리스트
 
-- [ ] App Store Connect ▸ 인앱 구매 ▸ 비소모성 `com.leeo.ReboundJournal.pro` 생성, 가격·현지화(ko/en)·심사용 스크린샷
-- [ ] 가족 공유 켜기
-- [ ] GitHub ▸ Rebound-Journal ▸ Settings ▸ Pages: `main` 브랜치 `/docs` 로 켜기
-      → https://m1zz.github.io/Rebound-Journal/privacy.html 이 열리는지 확인
-- [ ] App Store Connect ▸ 앱 정보 ▸ 개인정보 처리방침 URL 을 위 주소로
-- [ ] App 개인정보 보호 ▸ "추적" 항목에서 추적 없음 확인 (2.1.0 에서 ATT 요청 제거)
-- [ ] 2.1.0 심사 제출 시 인앱 구매를 함께 제출
-- [ ] Xcode 에서 스킴 실행 시 `Products.storekit` 으로 구매·복원 테스트
-      (디버그 빌드는 실행 인자 `-debug.pro YES|NO` 로 권한을 강제할 수 있다)
+App Store Connect (2026-09-28, API 로 처리):
+- [x] 인앱 구매 `com.leeo.ReboundJournal.pro` 생성 (Apple ID 6816963693, 비소모성, 가족 공유 켬)
+- [x] 현지화 ko「징검돌 프로 (평생)」/ en-US「ZinggumDol Pro (Lifetime)」
+- [x] 가격 ₩7,900 (기준 국가 한국, 나머지 자동 환산) · 판매 국가 175곳 전체 · 새 국가 자동 포함
+- [x] 심사 메모 (페이월 가는 길, 복원 위치)
+- [x] 버전 2.1.0 생성 (릴리즈 노트 칸은 비워 둠 — DeployBar 가 RELEASE_NOTES.md 로 채운다)
+- [x] 개인정보 처리방침 URL → https://m1zz.github.io/Rebound-Journal/privacy.html (GitHub Pages, main /docs)
+- [ ] 심사용 스크린샷 (상품이 뜬 페이월) — 올리면 인앱 구매 상태가 '제출 준비 완료'가 된다
+- [ ] App 개인정보 보호(영양 성분표) 확인: 추적 없음, 수집 항목에 '사용 데이터(제품 상호작용)'가
+      익명 통계로 들어가는지 (웹에서만 가능)
+- [ ] 2.1.0 심사 제출 때 버전 페이지의 '인앱 구입 및 구독'에서 이 상품을 **함께 선택**
+      (첫 인앱 구매는 새 버전과 같이 제출해야 한다. DeployBar 는 심사 제출을 하지 않는다)
+
+로컬 테스트: Xcode 에서 스킴을 실행하면 `Products.storekit` 으로 구매·복원을 시험할 수 있다.
+디버그 빌드는 실행 인자 `-debug.pro YES|NO` 로 권한을, `-debug.open paywall` 로 화면을 바로 연다.
