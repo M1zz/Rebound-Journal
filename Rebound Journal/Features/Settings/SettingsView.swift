@@ -26,6 +26,8 @@ struct SettingsView: View {
     @State private var voiceOn: Bool = true
     @State private var hapticOn: Bool = true
     @State private var speechStyle: SpeechStyle = .formal
+    /// 익명 사용 통계를 보내는가. 저장은 '끄기' 키라 뒤집어서 든다 (→ UsageReporting).
+    @AppStorage(UsageReporting.optOutKey) private var usageOptOut = false
     @AppStorage(PebbleSkin.storageKey) private var chosenSkin = PebbleSkin.free.rawValue
     @State private var isConfirmingPasscodeRemoval = false
 
@@ -120,6 +122,8 @@ struct SettingsView: View {
                     passcodeSection
                     sectionHeader(String(localized: "매일 알림"))
                     dailyRemindersSection
+                    sectionHeader(String(localized: "사용 통계"))
+                    usageSharingSection
                     sectionHeader(String(localized: "소식을 퍼뜨리세요"))
                     ratingShareSection
                     sectionHeader(String(localized: "지원 및 개인정보 보호"))
@@ -482,6 +486,24 @@ struct SettingsView: View {
                 }
                 .foregroundStyle(.primary)
                 .padding()
+            }
+        }
+    }
+
+    // MARK: - 익명 사용 통계
+    //
+    // **무엇을 보내는지 먼저 말하고, 그 옆에서 끌 수 있게 한다.** 기본은 보냄이다.
+
+    private var usageSharingSection: some View {
+        card {
+            VStack(alignment: .leading, spacing: 0) {
+                toggleRow(String(localized: "익명 사용 통계 보내기"), icon: "chart.bar",
+                          isOn: Binding(get: { !usageOptOut }, set: { usageOptOut = !$0 }))
+                Text("앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding([.horizontal, .bottom])
             }
         }
     }

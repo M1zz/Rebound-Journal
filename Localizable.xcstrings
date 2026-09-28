@@ -6088,6 +6088,36 @@
           }
         }
       }
+    },
+    "사용 통계" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usage statistics"
+          }
+        }
+      }
+    },
+    "익명 사용 통계 보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send anonymous usage statistics"
+          }
+        }
+      }
+    },
+    "앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only the days you opened the app or finished a conversation, the kinds of actions you took (like creating a goal), how many records and goals you have, and whether you saw the purchase screen are sent. Nothing you write ever leaves, and senders are told apart only by a random number made on this device."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

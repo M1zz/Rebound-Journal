@@ -8,6 +8,17 @@
 
 설계 근거: `회고-앱-설계-고찰.md`, `회고-앱-설계-대화-전문_1.md` (2026-07-25)
 
+## 8. 익명 사용 통계 · 제출 준비 (2026-09-26, 09-28 갱신)
+- [x] 익명 사용 통계 — 기본 켬, 설정 ▸ 사용 통계에서 끔 (`Services/UsageReporting.swift`)
+  - 브랜치의 `Telemetry.swift` 는 main 의 `UsageReporting`·LeeoKit 3.12 자동 app_open 과 겹쳐
+    그쪽에 합쳤다. 끄기 키 `usage.optOut` 그대로. 끄면 스냅샷·이벤트·app_open·결제 퍼널 모두 멈춤
+  - conversation_finished 하루 한 건
+- [x] 개인정보 처리방침: https://m1zz.github.io/Rebound-Journal/privacy.html (App Store Connect 반영)
+- [ ] App Store 개인정보 라벨: 사용 데이터(제품 상호작용) · 식별자 없음으로 갱신 (웹에서)
+- [ ] 스크린샷: 화면이 통째로 바뀌었으니 새로 찍어야 함
+- [ ] 최소 iOS 26.0 — 1.x 사용자 중 iOS 26 미만은 업데이트를 못 받음. 이대로 갈지 결정
+- [x] `redesign/pebble-conversation` → main 합치기 (2026-09-28)
+
 ## 0. 브랜치 정리
 - [x] `feature/1.0.11`(전 브랜치의 상위집합)을 `main`으로 fast-forward
 - [x] `origin/main` 푸시 (385bd43 → d81ec62, 220 커밋)

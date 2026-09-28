@@ -34,8 +34,11 @@ enum ReboundJournalSpec: LeeoAppSpec {
     )
 
     /// 페이월 퍼널(노출·게이트·구매 시도·완료·복원)을 FeedbackHub 사용 통계로 보낸다.
+    /// app_open 자동 전송도 통계 끄기를 따른다.
+    static var sendsDailyAppOpen: Bool { UsageReporting.isEnabled }
     /// 이벤트 이름만 올라가고 기록 내용은 나가지 않는다 (`UsageReporting` 과 같은 저장소).
-    static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: ReboundJournalSpec.self)
+    /// 설정에서 통계를 끄면 이것도 멈춘다 (`OptOutAwareAnalytics`).
+    static let analytics: any LeeoAnalytics = OptOutAwareAnalytics()
 
     /// 평생 이용권 상품 ID.
     /// ⚠️ App Store Connect·구매자 영수증과의 계약이다. 한 번 팔기 시작하면 바꾸지 않는다.
