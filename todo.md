@@ -16,6 +16,18 @@
 - [x] 개인정보 처리방침: https://m1zz.github.io/Rebound-Journal/privacy.html (App Store Connect 반영)
 - [ ] App Store 개인정보 라벨: 사용 데이터(제품 상호작용) · 식별자 없음으로 갱신 (웹에서)
 - [ ] 스크린샷: 화면이 통째로 바뀌었으니 새로 찍어야 함
+  - [x] 5.5인치(1242×2208) 한국어 6장 — iPhone SE(3세대) 시뮬레이터에서 찍어 확대. `~/Desktop/징검돌-스크린샷-5.5inch`
+  - [x] DEBUG 전용 `-shot <화면>` 실행 인자 (`Services/ScreenshotMode.swift`) — 데이터 심고 화면 바로 열기
+  - [ ] App Store Connect 미디어 관리자에서 5.5인치 교체 (영어 현지화에 옛 5.5인치가 있으면 그것도)
+  - [ ] 영어판 UI 번역 안 됨 (165개 중 3개) — 영어 스크린샷도 UI는 한국어로 나옴
+
+## 9. 2.1.0 (8) 리젝 대응 (2026-09-30)
+- [x] 2.3.3 — 5.5인치 스크린샷 새로 찍음 (위 §8)
+- [x] 5.1.2(i) — 추적 안 함. 쓰지도 않는 ATT 요청(`AppDelegate`)과 `NSUserTrackingUsageDescription` 제거
+- [x] 빌드 9 로 올림 (`Config/Version.xcconfig`) — ASC 가 '바이너리에 `NSUserTrackingUsageDescription` 있음'이라며 '추적 안 함' 라벨을 막는다. main 소스엔 빌드 8 전에 이미 키가 없었지만(61e8dde) 빌드 8 아카이브가 로컬에 없어 실제 바이너리는 확인 못 함 → 깨끗한 새 빌드로 덮는다
+- [ ] 빌드 9 아카이브 · 업로드 → 심사 중인 빌드를 9로 교체
+- [ ] App Store Connect 개인정보 라벨: '추적에 사용' 전부 해제 (기타 데이터 유형 · 기타 사용자 콘텐츠 포함)
+- [ ] 리뷰 답장: 추적하지 않음, 라벨 고쳤음
 - [ ] 최소 iOS 26.0 — 1.x 사용자 중 iOS 26 미만은 업데이트를 못 받음. 이대로 갈지 결정
 - [x] `redesign/pebble-conversation` → main 합치기 (2026-09-28)
 
