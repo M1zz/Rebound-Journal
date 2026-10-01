@@ -118,7 +118,26 @@ struct TodayView: View {
                 selectedGoal = goal
             }
         }
+        #if DEBUG
+        .task { await openScreenshotScene() }
+        #endif
     }
+
+    #if DEBUG
+    /// `-shot <화면>` 으로 켜면 그 화면을 연다 (→ ScreenshotMode.swift).
+    private func openScreenshotScene() async {
+        guard let scene = ScreenshotMode.scene, scene != "home" else { return }
+        try? await Task.sleep(for: .seconds(1))
+        switch scene {
+        case "conversation": conversation = observation
+        case "lookBack": isLookingBack = true
+        case "records": isShowingAllRecords = true
+        case "addGoal": isAddingGoal = true
+        case "settings": isShowingSettings = true
+        default: break
+        }
+    }
+    #endif
 
     // MARK: - 조약돌
 

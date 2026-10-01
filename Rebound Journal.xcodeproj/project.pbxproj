@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54C29520A0E09C2256F8E240 /* ScreenshotMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959FB2999C0F85A2C9E069F /* ScreenshotMode.swift */; };
 		01F995C513311A6681E79643 /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
 		0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 469FA349854C6890405976FC /* Localizable.xcstrings */; };
@@ -101,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5959FB2999C0F85A2C9E069F /* ScreenshotMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotMode.swift; sourceTree = "<group>"; };
 		008D539F940765D19E5B644C /* ReboundWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReboundWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCapture.swift; sourceTree = "<group>"; };
 		0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleMood.swift; sourceTree = "<group>"; };
@@ -691,7 +693,8 @@
 				C3B1B7C02D9462140008E38D /* UsageReporting.swift */,
 				5C662722CBA802959B9FE8E2 /* AudioSessionQueue.swift */,
 				FFDCB78F6E3C142BD77F217C /* DataEraser.swift */,
-			);
+			
+				5959FB2999C0F85A2C9E069F /* ScreenshotMode.swift */,);
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -858,7 +861,8 @@
 				5D6D3BFF2451BEC886B3D1DA /* DataEraser.swift in Sources */,
 				23AD4F6CE44CD9D53655A5A9 /* GoalsView.swift in Sources */,
 				A431489DD48483EAE4C42A2D /* LeftAgo.swift in Sources */,
-			);
+			
+				54C29520A0E09C2256F8E240 /* ScreenshotMode.swift in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A11D78B82E961502C7054877 /* Sources */ = {

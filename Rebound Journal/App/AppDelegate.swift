@@ -12,6 +12,10 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         UITextView.appearance().backgroundColor = .clear
         UNUserNotificationCenter.current().delegate = self
+        #if DEBUG
+        // 스크린샷에 알림 허락 창이 덮이지 않게.
+        if ScreenshotMode.isActive { return true }
+        #endif
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { _, _ in }
         // 추적 권한(ATT)은 묻지 않는다. 광고도 추적도 없는 앱이 그 창을 띄우면
         // 심사에서 사유 없는 요청으로 걸리고, 사용자에게는 괜한 의심만 남긴다.
