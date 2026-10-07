@@ -1,0 +1,42 @@
+/* 징검돌 · ZinggumDol — GitHub Pages 공용 스타일 */
+:root{--bg:#EFF3F3;--surface:#FCFDFD;--line:#DBE3E2;--text:#232C2B;--muted:#566564;--accent:#5F8F93;--on-accent:#fff}
+@media (prefers-color-scheme: dark){:root{--bg:#111717;--surface:#1C2323;--line:#28302F;--text:#E9EFEE;--muted:#A3B0AF;--accent:#7FB3B6;--on-accent:#111717}}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;
+     background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 70px}
+a{color:var(--accent)}
+
+/* 언어 전환 · 페이지 이동 */
+nav.langs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px}
+nav.langs a{border:1px solid var(--line);color:var(--muted);font-size:14px;padding:3px 12px;border-radius:999px;text-decoration:none}
+nav.langs a[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent);font-weight:600}
+nav.pages{display:flex;gap:18px;flex-wrap:wrap;margin:0 0 32px;font-size:15px}
+nav.pages a{color:var(--muted);text-decoration:none;border-bottom:2px solid transparent;padding-bottom:2px}
+nav.pages a[aria-current="page"]{color:var(--text);border-bottom-color:var(--accent);font-weight:600}
+
+/* 소개 페이지 */
+.icon{width:88px;height:88px;border-radius:20px;display:block;margin-bottom:18px}
+h1{font-size:28px;margin:0 0 6px;letter-spacing:-.4px}
+h1 .sub{color:var(--muted);font-weight:400}
+.lead{color:var(--muted);margin:0 0 24px;font-size:16.5px}
+h2{font-size:18px;margin:34px 0 10px;letter-spacing:-.3px}
+h3{font-size:16px;margin:0 0 4px}
+p,li{font-size:15.5px}
+ul{padding-left:20px}
+li{margin:7px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:14px 0}
+.card p{margin:0}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.features .card{margin:0}
+.shots{display:flex;gap:12px;overflow-x:auto;padding:4px 0 10px;scroll-snap-type:x mandatory}
+.shots img{width:200px;max-width:60vw;height:auto;border-radius:18px;border:1px solid var(--line);flex:0 0 auto;scroll-snap-align:start}
+.store{display:inline-block;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:600;
+       padding:10px 20px;border-radius:999px;margin:0 0 8px}
+
+/* 개인정보처리방침 */
+.upd{color:var(--muted);font-size:14px;margin:0 0 28px}
+.note{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:18px 0}
+
+footer{color:var(--muted);font-size:13px;margin-top:44px;border-top:1px solid var(--line);padding-top:20px}
+footer a{color:var(--muted)}

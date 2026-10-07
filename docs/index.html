@@ -3,46 +3,88 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>징검돌 · 지원</title>
-<meta name="description" content="징검돌(ZinggumDol) — 막힌 날을 조약돌과 함께 돌아보는 기록 앱. 지원 및 문의." />
-<style>
-  :root{--bg:#EFF3F3;--surface:#FCFDFD;--line:#DBE3E2;--text:#232C2B;--muted:#566564;--accent:#5F8F93}
-  @media (prefers-color-scheme: dark){:root{--bg:#111717;--surface:#1C2323;--line:#28302F;--text:#E9EFEE;--muted:#A3B0AF;--accent:#7FB3B6}}
-  *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;
-       background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:760px;margin:0 auto;padding:56px 20px 70px}
-  .icon{width:88px;height:88px;border-radius:20px;display:block;margin-bottom:18px}
-  h1{font-size:28px;margin:0 0 6px;letter-spacing:-.4px}
-  .lead{color:var(--muted);margin:0 0 30px}
-  h2{font-size:18px;margin:30px 0 10px}
-  p,li{font-size:15.5px}
-  a{color:var(--accent)}
-  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:14px 0}
-  footer{color:var(--muted);font-size:13px;margin-top:40px;border-top:1px solid var(--line);padding-top:20px}
-</style>
+<meta name="color-scheme" content="light dark" />
+<title>징검돌 — 막힌 날을 조약돌과 함께 돌아보는 기록 앱</title>
+<meta name="description" content="헛디뎌도 개울에 빠진 건 아니에요. 징검돌은 계획대로 되지 않은 날을 조약돌과 이야기하며 돌아보는 기록 앱입니다. 지원 및 문의." />
+<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/" />
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="icon" href="./icon.png" />
+<link rel="apple-touch-icon" href="./icon.png" />
 </head>
 <body>
 <div class="wrap">
-  <img class="icon" src="./icon.png" alt="" />
-  <h1>징검돌 <span style="color:var(--muted);font-weight:400">ZinggumDol</span></h1>
-  <p class="lead">헛디뎌도 개울에 빠진 건 아니에요. 막힌 날을 조약돌과 함께 돌아보는 기록 앱.<br />
-    <span lang="en">Missing a step doesn't mean you fell in. A gentle journal for the days that didn't go as planned.</span></p>
 
-  <div class="card">
-    <strong>문의 · Contact</strong><br />
-    <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />
-    앱의 설정 ▸ 의견 보내기로도 보낼 수 있어요. · You can also use Settings ▸ Send Feedback in the app.
+  <nav class="langs" aria-label="언어">
+    <a href="./" hreflang="ko" lang="ko" aria-current="true">한국어</a>
+    <a href="./en/" hreflang="en" lang="en">English</a>
+  </nav>
+
+  <nav class="pages" aria-label="페이지">
+    <a href="./" aria-current="page">소개 · 지원</a>
+    <a href="./privacy.html">개인정보처리방침</a>
+  </nav>
+
+  <img class="icon" src="./icon.png" alt="징검돌 앱 아이콘" />
+  <h1>징검돌 <span class="sub">ZinggumDol</span></h1>
+  <p class="lead">헛디뎌도 개울에 빠진 건 아니에요.<br />
+    계획대로 되지 않은 날을 조약돌과 이야기하며 돌아보는 기록 앱이에요.</p>
+
+  <a class="store" href="https://apps.apple.com/app/id6450388408">App Store에서 받기</a>
+
+  <h2>이런 앱이에요</h2>
+  <div class="features">
+    <div class="card">
+      <h3>조약돌과 나누는 이야기</h3>
+      <p>조약돌이 먼저 말을 걸어요. 지난번에 남긴 이야기를 기억했다가 그 뒤로 어땠는지 묻고, 답은 고르거나 직접 쓰면 돼요.</p>
+    </div>
+    <div class="card">
+      <h3>말로 편하게</h3>
+      <p>쓰기 어려운 날엔 말로 남겨요. 음성 인식은 기기 안에서 이뤄지고, 지원하는 기기에서는 말한 내용을 읽기 쉽게 다듬어 줘요.</p>
+    </div>
+    <div class="card">
+      <h3>지나온 길</h3>
+      <p>한 주가 징검다리로 놓여요. 밟지 않은 날의 돌도 지우지 않고 그대로 남겨 둬요.</p>
+    </div>
+    <div class="card">
+      <h3>남긴 것들</h3>
+      <p>그날 있었던 일, 기분, 다음에 해볼 일을 날짜순으로 다시 볼 수 있어요.</p>
+    </div>
+    <div class="card">
+      <h3>위젯과 알림</h3>
+      <p>홈 화면 위젯에서 조약돌의 한 마디를 보고, 정한 시간에 오늘 어땠는지 묻는 알림을 받을 수 있어요.</p>
+    </div>
+    <div class="card">
+      <h3>나만 보는 기록</h3>
+      <p>회원가입이 없어요. 기록은 기기와 내 iCloud에만 있고, 비밀번호로 잠글 수 있어요.</p>
+    </div>
   </div>
 
-  <h2>징검돌 프로 · ZinggumDol Pro</h2>
-  <p>한 번 사면 계속 쓰는 상품이에요. 구독이 아닙니다. 다른 기기나 앱을 다시 설치한 뒤에는 설정 ▸ 구매 복원을 눌러 주세요.<br />
-    <span lang="en">A one-time purchase, not a subscription. On a new device or after reinstalling, tap Settings ▸ Restore Purchase.</span></p>
+  <h2>화면</h2>
+  <div class="shots">
+    <img src="./screenshots/ko/01-greeting.png" alt="조약돌이 먼저 말을 거는 첫 화면" loading="lazy" width="1242" height="2688" />
+    <img src="./screenshots/ko/02-conversation.png" alt="지난 기록을 이어서 묻는 대화" loading="lazy" width="1242" height="2688" />
+    <img src="./screenshots/ko/04-stone-bridge.png" alt="한 주가 징검다리로 놓인 지나온 길" loading="lazy" width="1242" height="2688" />
+    <img src="./screenshots/ko/05-records.png" alt="날짜순으로 모인 남긴 것들" loading="lazy" width="1242" height="2688" />
+  </div>
 
-  <h2>개인정보 · Privacy</h2>
-  <p><a href="./privacy.html">개인정보처리방침 · Privacy Policy</a></p>
+  <h2>징검돌 프로</h2>
+  <p>한 번 사면 계속 쓰는 상품이에요. 구독이 아닙니다.
+     목표를 3개보다 많이 품을 수 있고, 조약돌을 여섯 가지 결 중에서 고를 수 있고, 지나온 기록을 글 파일로 내보낼 수 있어요.</p>
+  <p>다른 기기에서 쓰거나 앱을 다시 설치했다면 설정 ▸ 구매 복원을 눌러 주세요.</p>
 
-  <footer>© 2026 Leeo</footer>
+  <h2>문의</h2>
+  <div class="card">
+    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />
+    앱의 설정 ▸ 피드백 보내기로도 보낼 수 있어요.</p>
+  </div>
+
+  <h2>개인정보</h2>
+  <p>징검돌은 기록의 내용을 개발자에게 보내지 않아요. 자세한 내용은 <a href="./privacy.html">개인정보처리방침</a>을 확인해 주세요.</p>
+
+  <footer>© 2026 Leeo · <a href="./privacy.html">개인정보처리방침</a></footer>
 </div>
 </body>
 </html>
