@@ -8,12 +8,24 @@
             "state" : "translated",
             "value" : "River Slate"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "River Slate"
+          }
         }
       }
     },
     "곁에 있어요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beside you"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beside you"
@@ -28,12 +40,24 @@
             "state" : "translated",
             "value" : "Glad"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glad"
+          }
         }
       }
     },
     "노을돌" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunset"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
@@ -48,12 +72,24 @@
             "state" : "translated",
             "value" : "Listening"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening"
+          }
         }
       }
     },
     "먹돌" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkstone"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inkstone"
@@ -68,12 +104,24 @@
             "state" : "translated",
             "value" : "Sand"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sand"
+          }
         }
       }
     },
     "생각하고 있어요" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thinking"
@@ -88,12 +136,24 @@
             "state" : "translated",
             "value" : "I'm here."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm here."
+          }
         }
       }
     },
     "오늘 남기러 가기" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leave today's note"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave today's note"
@@ -108,12 +168,24 @@
             "state" : "translated",
             "value" : "Moss"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moss"
+          }
         }
       }
     },
     "조가비" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seashell"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seashell"
@@ -128,6 +200,12 @@
             "state" : "translated",
             "value" : "Pebble"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pebble"
+          }
         }
       }
     },
@@ -136,6 +214,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A word from the pebble. Tap to leave today's note."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A word from the pebble. Tap to leave today's note."
@@ -154,6 +238,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

@@ -11,6 +11,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24,6 +30,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -46,6 +58,12 @@
             "value" : "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58,6 +76,12 @@
       "comment" : "Privacy - Speech Recognition Usage Description",
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to turn what you say into text. Recognition happens on your device and never leaves it."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Used to turn what you say into text. Recognition happens on your device and never leaves it."

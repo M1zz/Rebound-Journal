@@ -24,6 +24,14 @@ Export your records as a text file.
 Long-press a goal to set it down.
 No more tracking permission prompt.
 
+### App Store (en-GB)
+
+ZinggumDol Pro is here. No subscription.
+Choose from six pebble finishes.
+Export your records as a text file.
+Long-press a goal to set it down.
+No more tracking permission prompt.
+
 ### 개발 메모 (노출 안 함)
 
 - 수익모델: LeeoKit 3.x `freemium` — 상품 `com.leeo.ReboundJournal.pro`(비소모성)
