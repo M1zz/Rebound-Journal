@@ -719,3 +719,60 @@ https://m1zz.github.io/Rebound-Journal/vi/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/vi/
+
+## cs
+
+### 이름
+
+ZinggumDol: deník nezdarů
+
+### 부제
+
+Povídání s oblázkem
+
+### 키워드
+
+sebereflexe,nálada,emoce,návyky,růst,stres,úzkost,chyby,odolnost,sebevědomí,mindfulness,vděčnost
+
+### 프로모션 텍스트
+
+Klopýtnutí neznamená, že jste spadli do potoka. Ohlédněte se za dny, které nedopadly podle plánu, s oblázkem, který promluví první a pamatuje si, co jste mu řekli.
+
+### 설명
+
+Klopýtnutí neznamená, že jste spadli do potoka. ZinggumDol je laskavý deník pro dny, které nedopadly podle představ: povídáte si s oblázkem a v klidu se ohlížíte za tím, co se stalo.
+
+Oblázek promluví první. Pamatuje si, co jste mu řekli minule, a zeptá se: „A jak to bylo potom?“ Vyberte odpověď, nebo napište vlastní. Zůstane zapsáno, co se stalo, jak vám bylo a co chcete zkusit dál.
+
+Povídání s oblázkem
+Stanovte si cíl a oblázek si všímá, kam jste se dostali a co vás zastavuje. Když se jeden den nepovede, zeptá se „Co vám stálo v cestě?“, ne „Co jste udělali špatně?“.
+
+Řekněte to nahlas
+V dnech, kdy je psaní příliš, stačí mluvit. Rozpoznávání řeči probíhá na vašem zařízení a nahrávka se neukládá. Na podporovaných zařízeních se navíc řečené upraví, aby se dobře četlo.
+
+Ušlá cesta
+Každý týden se seřadí jako řada kamenů přes potok. Dny, na které jste nešlápli, zůstávají na svém místě – nic se nemaže.
+
+Co jste zanechali
+Prohlížejte si podle data, co se stalo, jak vám bylo a co jste chtěli zkusit dál.
+
+Widget a upozornění
+Věta od oblázku na ploše a jemné upozornění v čas, který si vyberete, abyste se spolu podívali, jaký byl den.
+
+Jen pro vás
+Bez registrace a bez reklam. Záznamy zůstávají jen ve vašem zařízení a ve vašem vlastním iCloudu a aplikaci můžete zamknout kódem. To, co píšete, se vývojáři nikdy neposílá.
+
+ZINGGUMDOL PRO
+Zdarma lze mít až tři cíle. Jednorázový nákup (ne předplatné) odemkne cíle bez omezení, výběr z šesti povrchů oblázku a export záznamů do textového souboru.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/cs/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/cs/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/cs/

@@ -5,6 +5,12 @@
       "comment" : "홈 화면에 뜨는 앱 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +101,12 @@
       "comment" : "표시 이름을 못 쓰는 자리의 짧은 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -184,6 +196,12 @@
     "NSMicrophoneUsageDescription" : {
       "comment" : "Privacy - Microphone Usage Description",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon se používá, abyste si mohli den zrekapitulovat hlasem jako při rozhovoru. Nahrávky se neukládají; v zařízení zůstane jen přepsaný text."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -273,6 +291,12 @@
     "NSSpeechRecognitionUsageDescription" : {
       "comment" : "Privacy - Speech Recognition Usage Description",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slouží k převodu toho, co řeknete, na text. Rozpoznávání probíhá na vašem zařízení a nic z něj neodchází."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

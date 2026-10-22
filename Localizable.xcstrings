@@ -3,6 +3,12 @@
   "strings" : {
     "  기분: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Nálada: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -85,6 +91,12 @@
     },
     "  다음 걸음: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Další krok: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +179,12 @@
     },
     "  있었던 일: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Co se stalo: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -249,6 +267,12 @@
     },
     "'%@' 앞에서 뭐가 걸렸어?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co ti stálo v cestě u „%@“?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -337,6 +361,12 @@
     },
     "'%@' 앞에서 뭐가 걸렸어요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co vám stálo v cestě u „%@“?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -425,6 +455,12 @@
     },
     "'%@' 얘기를 나눈 지 %lld일이 지났어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od našeho rozhovoru o „%1$@“ uplynulo dní: %2$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -513,6 +549,12 @@
     },
     "'%@' 얘기를 나눈 지 %lld일이 지났어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od našeho rozhovoru o „%1$@“ uplynulo dní: %2$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -601,6 +643,12 @@
     },
     "'%@', 오늘은 아직이네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ – dnes zatím nic."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -689,6 +737,12 @@
     },
     "'%@', 오늘은 아직이네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ – dnes zatím nic."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -777,6 +831,12 @@
     },
     "'%@'%@ %lld일째 조용하네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ je ticho už dní: %3$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -865,6 +925,12 @@
     },
     "'%@'%@ %lld일째 조용하네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ je ticho už dní: %3$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -953,6 +1019,12 @@
     },
     "'%@'%@ 돌아본 지 %lld일 됐어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ naposledy ses na to díval před dny: %3$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1041,6 +1113,12 @@
     },
     "'%@'%@ 돌아본 지 %lld일 됐어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ naposledy jste se na to dívali před dny: %3$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1129,6 +1207,12 @@
     },
     "'%@'%@ 오늘 아직 닿지 않았네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ dnes ses tam ještě nedostal."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1217,6 +1301,12 @@
     },
     "'%@'%@ 오늘 아직 닿지 않았네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ dnes jste se tam ještě nedostali."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1305,6 +1395,12 @@
     },
     "'%@'%@ 적어두고 아직 돌아본 적은 없네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ zapsal sis to, ale ještě ses k tomu nevrátil."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1393,6 +1489,12 @@
     },
     "'%@'%@ 적어두고 아직 돌아본 적은 없네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ zapsali jste si to, ale ještě jste se k tomu nevrátili."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1481,6 +1583,12 @@
     },
     "'%@'%@ 적어두기만 하고 아직이야." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ jen jsi to zapsal a zatím je to tak."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1569,6 +1677,12 @@
     },
     "'%@'%@ 적어두기만 하고 아직이에요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ jen jste to zapsali a zatím je to tak."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1657,6 +1771,12 @@
     },
     "'%@'%@ 적어둔 뒤로는 아직 조용해." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ od zápisu je zatím ticho."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1745,6 +1865,12 @@
     },
     "'%@'%@ 적어둔 뒤로는 아직 조용해요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ od zápisu je zatím ticho."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1833,6 +1959,12 @@
     },
     "'%@'%@ 하려던 때로 돌아가 보자. 뭐가 막혔어?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ vraťme se k chvíli, kdy sis to chtěl udělat. Co se zaseklo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1921,6 +2053,12 @@
     },
     "'%@'%@ 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ vraťme se k chvíli, kdy jste si to chtěli udělat. Co se zaseklo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2009,6 +2147,12 @@
     },
     "'%@'에 닿은 게 %@였어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U „%1$@“ ses dostal až k: %2$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2097,6 +2241,12 @@
     },
     "'%@'에 닿은 게 %@였어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U „%1$@“ jste se dostali až k: %2$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2185,6 +2335,12 @@
     },
     "'%@'에 닿은 하루였네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To byl den, kdy ses dostal k „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2273,6 +2429,12 @@
     },
     "'%@'에 닿은 하루였네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To byl den, kdy jste se dostali k „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2361,6 +2523,12 @@
     },
     "'%@'에 대해 %@ '%@'라고 적었어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O „%1$@“ jsi %2$@ napsal: „%3$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2449,6 +2617,12 @@
     },
     "'%@'에 대해 %@ '%@'라고 적으셨어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O „%1$@“ jste %2$@ napsali: „%3$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2539,6 +2713,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pusťte jeden cíl v části „Ušlá cesta“ a můžete zapsat nový."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2621,6 +2801,12 @@
     },
     "%@\n막힌 건 '%@'였고,\n지금 기분은 '%@'%@.\n\n%@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nZaseklo se to na: „%2$@“,\na teď se cítíš: „%3$@“%4$@.\n\n%5$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2709,6 +2895,12 @@
     },
     "%@ '%@' 얘기하면서 '%@'라고 남겼지." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Když šlo o „%2$@“, nechal jsi tu: „%3$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2797,6 +2989,12 @@
     },
     "%@ '%@' 얘기하면서 '%@'라고 남기셨죠." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Když šlo o „%2$@“, nechali jste tu: „%3$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2885,6 +3083,12 @@
     },
     "%@ '%@'%@ 두고 '%@'라고 하셨어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ O „%2$@“%3$@ jste řekli: „%4$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2973,6 +3177,12 @@
     },
     "%@ '%@'%@ 두고 '%@'라고 했잖아." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ O „%2$@“%3$@ jsi řekl: „%4$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3061,6 +3271,12 @@
     },
     "%@ '%@'%@ 막혔다고 하셨어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Řekli jste, že se „%2$@“%3$@ zaseklo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3149,6 +3365,12 @@
     },
     "%@ '%@'%@ 막혔다고 했잖아." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Řekl jsi, že se „%2$@“%3$@ zaseklo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3237,6 +3459,12 @@
     },
     "%@ '%@'%@ 해내셨죠." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ se vám povedlo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3325,6 +3553,12 @@
     },
     "%@ '%@'%@ 해냈지." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ se ti povedlo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3413,6 +3647,12 @@
     },
     "%@ '%@'에 닿았어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ses dostal k „%2$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3501,6 +3741,12 @@
     },
     "%@ '%@'에 닿았어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ jste se dostali k „%2$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3589,6 +3835,12 @@
     },
     "%@ '%@'에서 걸렸다고 남겼지." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ sis poznamenal, že tě zastavilo „%2$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3677,6 +3929,12 @@
     },
     "%@ '%@'에서 걸렸다고 남기셨죠." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ jste si poznamenali, že vás zastavilo „%2$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3765,6 +4023,12 @@
     },
     "%@ 주" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Týden od %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3853,6 +4117,12 @@
     },
     "%@, 기록을 남긴 날" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, den se záznamem"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3941,6 +4211,12 @@
     },
     "%@, 남긴 기록 없음" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, bez záznamu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4029,6 +4305,12 @@
     },
     "%@, 목표에 닿은 날" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, den, kdy byl cíl splněn"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4117,6 +4399,12 @@
     },
     "%@, 아직 오지 않은 날" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, den, který ještě nenastal"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4205,6 +4493,12 @@
     },
     "%@에 '%@'%@ 해내셨잖아요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ se vám přece povedlo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4293,6 +4587,12 @@
     },
     "%@에 '%@'%@ 해냈잖아." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ se ti přece povedlo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4381,6 +4681,12 @@
     },
     "%@에는 '%@'%@ 해내셨어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ se vám povedlo „%2$@“%3$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4469,6 +4775,12 @@
     },
     "%@에는 '%@'%@ 해냈어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ se ti povedlo „%2$@“%3$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4557,6 +4869,12 @@
     },
     "%@에는 '%@'에 닿았고." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ses dostal k „%2$@“,"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4645,6 +4963,12 @@
     },
     "%@에는 '%@'에 닿으셨고요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ jste se dostali k „%2$@“,"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4733,6 +5057,12 @@
     },
     "%lld" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4821,6 +5151,12 @@
     },
     "%lld월 %lld일" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld. %1$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4909,6 +5245,36 @@
     },
     "%lld일 전" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Před %lld dnem"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Před %lld dny"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Před %lld dny"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Před %lld dny"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -5159,6 +5525,36 @@
     },
     "%lld일 전에 남김" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld dnem"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld dny"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld dny"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld dny"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -5409,6 +5805,36 @@
     },
     "%lld주 전에 남김" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld týdnem"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld týdny"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld týdny"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapsáno před %lld týdny"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -5659,6 +6085,12 @@
     },
     "|" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5749,6 +6181,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skleslost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5837,6 +6275,12 @@
     },
     "가벼운 스트레칭부터 시작하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít lehkým protažením"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5925,6 +6369,12 @@
     },
     "감사한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vděčnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6013,6 +6463,12 @@
     },
     "강돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Říční oblázek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6095,6 +6551,12 @@
     },
     "같은 이름의 목표가 이미 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cíl se stejným názvem už existuje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6179,6 +6641,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro vývojáře"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6267,6 +6735,12 @@
     },
     "개발자에게 메일 보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napsat vývojáři"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6355,6 +6829,12 @@
     },
     "개울가에서 주운 듯한 돌 다섯 가지가 더 열려요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odemkne se dalších pět kamenů, jako by je někdo posbíral u potoka."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6437,6 +6917,12 @@
     },
     "개인정보 보호정책" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zásady ochrany soukromí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6525,6 +7011,12 @@
     },
     "건강" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdraví"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6613,6 +7105,12 @@
     },
     "곁에 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po tvém boku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6701,6 +7199,12 @@
     },
     "고치기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upravit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6791,6 +7295,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V pohodě"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6881,6 +7391,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To nevadí. Jen si toho nikdo nevšiml."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6969,6 +7485,12 @@
     },
     "괴로운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trápení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7057,6 +7579,12 @@
     },
     "구매 복원" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obnovit nákupy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7139,6 +7667,12 @@
     },
     "규칙적인 생활" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pravidelný režim"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7229,6 +7763,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A jak to bylo potom?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7319,6 +7859,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To byla situace. A jak se cítíš teď?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7409,6 +7955,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak to dopadlo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7497,6 +8049,12 @@
     },
     "그날 어땠나요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaký byl ten den"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7581,6 +8139,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nechám to tak"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7669,6 +8233,12 @@
     },
     "그때 '%@'%@ 해보자고 하셨어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehdy jste říkali, že zkusíte „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7757,6 +8327,12 @@
     },
     "그때 '%@'%@ 해보자고 했었어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehdy jsi říkal, že zkusíš „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7845,6 +8421,12 @@
     },
     "그때 기분" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nálada tehdy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7929,6 +8511,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co se tehdy stalo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8019,6 +8607,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mluvit o tehdejší době"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8107,6 +8701,12 @@
     },
     "그때는 '%@'라고 하셨죠." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehdy jste řekli: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8195,6 +8795,12 @@
     },
     "그때는 '%@'라고 했었지." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehdy jsi řekl: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8285,6 +8891,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobře. Popovídáme si jindy."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8375,6 +8987,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak to bylo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8465,6 +9083,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To se stává. Že jste na to zapomněli, neznamená, že to zmizelo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8555,6 +9179,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To se stává. Zapomenuté je zapomenuté."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8643,6 +9273,12 @@
     },
     "그럼 '%@'%@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak co by bylo na cestě k „%1$@“%2$@ jednu malou věc, kterou zvládneš už zítra?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8731,6 +9367,12 @@
     },
     "그럼 '%@'%@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak co by bylo na cestě k „%1$@“%2$@ jedna malá věc, kterou zvládnete už zítra?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8821,6 +9463,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak si o tom promluvme."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8911,6 +9559,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pak je to uzavřené. Hned si to zapíšu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9001,6 +9655,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pak to uzavřu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9091,6 +9751,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co takhle: kdyby to bylo tak malé, že to zvládneš už zítra, co by to bylo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9179,6 +9845,12 @@
     },
     "그만 말하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zastavit čtení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9269,6 +9941,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ušlo to"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9357,6 +10035,12 @@
     },
     "기대되는" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natěšenost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9445,6 +10129,12 @@
     },
     "기록" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záznamy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9527,6 +10217,12 @@
     },
     "기록 내보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportovat záznamy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9609,6 +10305,12 @@
     },
     "기록을 내보내지 못했어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záznamy se nepodařilo exportovat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9691,6 +10393,12 @@
     },
     "기분이 좋은" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrá nálada"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9779,6 +10487,12 @@
     },
     "기뻐하고 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9867,6 +10581,12 @@
     },
     "끔찍한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příšerně"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9957,6 +10677,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S ostatním není kam spěchat."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10047,6 +10773,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatní odložíme a podíváme se jen na tohle."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10137,6 +10869,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na ostatní se můžeš podívat v klidu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10227,6 +10965,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uloženo, ať nezapomeneš, co zabralo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10315,6 +11059,12 @@
     },
     "남긴 것들" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co jste zanechali"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10405,6 +11155,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zanechané záznamy zůstanou. Zmizí jen ze seznamu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10489,6 +11245,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádná zanechaná slova."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10577,6 +11339,12 @@
     },
     "내 목표" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje cíle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10659,6 +11427,12 @@
     },
     "내 조약돌 고르기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrat můj oblázek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10741,6 +11515,12 @@
     },
     "내려놓기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pustit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10823,6 +11603,12 @@
     },
     "내보낸 날: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportováno: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10907,6 +11693,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdybyste zítra udělali jen jednu věc, jaká by to byla?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10995,6 +11787,12 @@
     },
     "냉정한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chlad"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11085,6 +11883,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ano"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11175,6 +11979,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ano, nechám to tak."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11265,6 +12075,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ano, nechám to tak. Jsem tu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11355,6 +12171,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobře, promluvíme si jindy."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11443,6 +12265,12 @@
     },
     "노을돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kámen soumraku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11527,6 +12355,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necháme ostatní být a podíváme se jen na tohle?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11617,6 +12451,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S ostatním v klidu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11705,6 +12545,12 @@
     },
     "다음" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11795,6 +12641,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapíšu si to, aby se to dalo příště využít."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11883,6 +12735,12 @@
     },
     "다음에 해보기로 한 것" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co zkusíte dál"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11965,6 +12823,12 @@
     },
     "다이어트" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieta"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12053,6 +12917,12 @@
     },
     "닫기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12143,6 +13013,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zůstalo jen zapsáno „dostal jsem se tam“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12231,6 +13107,12 @@
     },
     "닿았어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostal jsem se tam"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12313,6 +13195,12 @@
     },
     "닿지 않았어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedostal jsem se tam"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12395,6 +13283,12 @@
     },
     "독서 습관 만들기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořit si návyk čtení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12483,6 +13377,12 @@
     },
     "독서하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Číst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12573,6 +13473,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poslouchám"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12663,6 +13569,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Není moc co říct. Jsem tu prostě s vámi."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12753,6 +13665,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když nic nenapadá, nech to prázdné. Později to najdeme spolu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12841,6 +13759,12 @@
     },
     "마이크를 쓸 수 없어요. 적어주셔도 괜찮아요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon není k dispozici. Můžete to i napsat."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12929,6 +13853,12 @@
     },
     "만족스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spokojenost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13017,6 +13947,12 @@
     },
     "만족한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spokojený"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13107,6 +14043,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hodně těžké"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13195,6 +14137,12 @@
     },
     "말로 답하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpovědět hlasem"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13283,6 +14231,12 @@
     },
     "말투" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Způsob oslovení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13373,6 +14327,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Můžete si zvolit způsob oslovení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13461,6 +14421,12 @@
     },
     "말할 때 소리" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zvuk při mluvení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13549,6 +14515,12 @@
     },
     "말할 때 진동" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibrace při mluvení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13639,6 +14611,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přesně tak"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13729,6 +14707,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo, neudělal jsem to"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13817,6 +14801,12 @@
     },
     "매일 10분씩 영어 팟캐스트 듣기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poslouchat anglický podcast 10 minut denně"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13905,6 +14895,12 @@
     },
     "매일 알림" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denní upozornění"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13993,6 +14989,12 @@
     },
     "먹돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkoustový kámen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14075,6 +15077,12 @@
     },
     "먼저 내보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejdřív exportovat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14157,6 +15165,12 @@
     },
     "며칠 전" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Před pár dny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14245,6 +15259,12 @@
     },
     "며칠 전에" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Před pár dny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14333,6 +15353,12 @@
     },
     "모두 지우기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat vše"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14415,6 +15441,12 @@
     },
     "모두 지웠어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše smazáno."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14497,6 +15529,12 @@
     },
     "모든 기록 지우기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat všechny záznamy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14579,6 +15617,12 @@
     },
     "모든 기록을 지울까요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat všechny záznamy?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14663,6 +15707,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat všechna data"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14751,6 +15801,12 @@
     },
     "모래알" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrnko písku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14833,6 +15889,12 @@
     },
     "목표" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cíl"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14915,6 +15977,12 @@
     },
     "목표 추가" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat cíl"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15003,6 +16071,12 @@
     },
     "목표 하나 적어두기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat jeden cíl"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15085,6 +16159,12 @@
     },
     "목표를 개수 제한 없이 적어 둬요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisujte cíle bez omezení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15167,6 +16247,12 @@
     },
     "목표를 원하는 만큼" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tolik cílů, kolik chcete"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15249,6 +16335,12 @@
     },
     "목표를 제한 없이 적고, 조약돌을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisujte cíle bez omezení, vybírejte oblázky a ukládejte záznamy do souboru. Jednou koupíte, navždy používáte."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15331,6 +16423,12 @@
     },
     "목표와 남긴 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všechny vaše cíle a záznamy zmizí a nelze je obnovit. Smažou se i na dalších zařízeních propojených přes iCloud. Nastavení a nákupy zůstanou."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15413,6 +16511,12 @@
     },
     "무감각한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otupělost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15501,6 +16605,12 @@
     },
     "무관심한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhostejnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15589,6 +16699,12 @@
     },
     "무난한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Průměrnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15677,6 +16793,12 @@
     },
     "무력한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezmoc"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15765,6 +16887,12 @@
     },
     "무료로 쓰던 건 그대로, 몇 가지가 더 열려요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co bylo zdarma, zůstává zdarma, a odemknou se další věci."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15849,6 +16977,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdarma lze mít až tři cíle. Tohle je třetí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15931,6 +17065,12 @@
     },
     "무서운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strach"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16019,6 +17159,12 @@
     },
     "무슨 일이 있었나요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co se stalo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16103,6 +17249,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyprávět, co se stalo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16193,6 +17345,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejdřív se podívám, kam jste se dostali a co vás zastavilo, a pak vás osloví."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16283,6 +17441,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím nevím, kam směřujete."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16373,6 +17537,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kam směřujete?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16461,6 +17631,12 @@
     },
     "무표정한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezvýraznost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16549,6 +17725,12 @@
     },
     "물을 많이 마시고 일찍 자기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pít hodně vody a jít brzy spát"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16639,6 +17821,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co pomohlo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16729,6 +17917,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat, co zabralo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16819,6 +18013,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co zabralo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16909,6 +18109,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejetím nebo dlouhým stisknutím cíle ho můžete přejmenovat nebo pustit."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16991,6 +18197,12 @@
     },
     "밤 11시에 알람 설정하고 핸드폰 멀리 두기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavit budík na 23:00 a dát telefon dál od sebe"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17079,6 +18291,12 @@
     },
     "보통의" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obyčejně"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17167,6 +18385,12 @@
     },
     "분노스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vztek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17255,6 +18479,12 @@
     },
     "불만족스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nespokojenost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17343,6 +18573,12 @@
     },
     "불안한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neklid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17431,6 +18667,12 @@
     },
     "비밀번호 삭제" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat kód"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17519,6 +18761,12 @@
     },
     "비밀번호 설정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavit kód"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17607,6 +18855,12 @@
     },
     "비밀번호 입력" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadejte kód"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17695,6 +18949,12 @@
     },
     "비밀번호 확인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potvrďte kód"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17783,6 +19043,12 @@
     },
     "비참한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoufalství"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17871,6 +19137,12 @@
     },
     "뿌듯한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pýcha na sebe"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17959,6 +19231,12 @@
     },
     "사용 통계" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiky používání"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18041,6 +19319,12 @@
     },
     "사용 통계 (개발자)" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiky používání (vývojář)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18129,6 +19413,12 @@
     },
     "상쾌한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svěžest"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18219,6 +19509,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Situaci chápu. A jak se cítíte teď?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18309,6 +19605,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaseklo se to v situaci, ne že byste byli vy špatně."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18399,6 +19701,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořit ukázková data"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18487,6 +19795,12 @@
     },
     "생각하고 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přemýšlí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18575,6 +19889,12 @@
     },
     "설레는" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nadšení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18663,6 +19983,12 @@
     },
     "설정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18751,6 +20077,12 @@
     },
     "설정에서 Apple Intelligence를 켜면 말한 내용을 더 잘 정리해 드려요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapněte v „Nastavení“ Apple Intelligence a řečené dokážu lépe uspořádat."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18839,6 +20171,12 @@
     },
     "소식을 퍼뜨리세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pošlete to dál"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18927,6 +20265,12 @@
     },
     "슬픈" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smutek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19015,6 +20359,12 @@
     },
     "시간" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19103,6 +20453,12 @@
     },
     "신나는" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vzrušení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19191,6 +20547,12 @@
     },
     "실망스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zklamání"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19279,6 +20641,12 @@
     },
     "쓰다듬기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pohladit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19361,6 +20729,12 @@
     },
     "쓸쓸한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osamělost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19449,6 +20823,12 @@
     },
     "아쉬운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lítost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19537,6 +20917,12 @@
     },
     "아직 기록 없음" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím žádné záznamy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19627,6 +21013,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím jste nic nezanechali."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19715,6 +21107,12 @@
     },
     "아직 남긴 기록이 없어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím žádné záznamy."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19799,6 +21197,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím žádné zanechané příběhy."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19889,6 +21293,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím nevím, kam směřujete."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19979,6 +21389,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím nemáte žádný směr."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20067,6 +21483,12 @@
     },
     "아침 일찍 일어나기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vstávat brzy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20155,6 +21577,12 @@
     },
     "아침 일찍 일어나서 하루를 알차게 보냈어요!" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vstal jsem brzy a den jsem využil naplno!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20243,6 +21671,12 @@
     },
     "아침에 일어나지 못하고 늦잠 잤어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ráno jsem nevstal a zaspal jsem."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20333,6 +21767,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrý den. Jsem ZinggumDol."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20423,6 +21863,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobře. Jsem tu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20511,6 +21957,12 @@
     },
     "알림 켜기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapnout upozornění"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20599,6 +22051,12 @@
     },
     "알아보기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zjistit více"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20681,6 +22139,12 @@
     },
     "앱 공유하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet aplikaci"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20769,6 +22233,12 @@
     },
     "앱 비밀번호" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kód aplikace"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20857,6 +22327,12 @@
     },
     "앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odesílají se jen dny, kdy jste aplikaci otevřeli nebo ukončili rozhovor, druh akcí (třeba vytvoření cíle), počet záznamů a cílů a to, zda jste zobrazili obrazovku nákupu. Z toho, co píšete, neodchází ani písmeno a odesílatel se rozlišuje jen náhodným číslem vytvořeným na tomto zařízení."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20939,6 +22415,12 @@
     },
     "야식 참기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejíst v noci"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21027,6 +22509,12 @@
     },
     "야식을 참지 못했어요. 배고파서 라면을 먹었습니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevydržel jsem a v noci jsem jedl. Měl jsem hlad, tak jsem si uvařil nudle."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21117,6 +22605,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat, jak to dopadlo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21205,6 +22699,12 @@
     },
     "어수선한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmatek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21293,6 +22793,12 @@
     },
     "어제" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Včera"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21381,6 +22887,12 @@
     },
     "어제 남김" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsáno včera"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21471,6 +22983,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdykoli to můžete změnit. Po změně vás oblázek znovu pozdraví novým způsobem."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21559,6 +23077,12 @@
     },
     "얼마 전" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedávno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21647,6 +23171,12 @@
     },
     "얼마 전에" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedávno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21735,6 +23265,12 @@
     },
     "여기 있어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsem tu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21825,6 +23361,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro dnešek dost.\nPlány z unavených dnů málokdy vyjdou.\nUložilo se to, nic se neděje."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21915,6 +23457,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosud šlo o to, co se stalo. A jak je vám teď u srdce?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22005,6 +23553,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít odtud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22093,6 +23647,12 @@
     },
     "열정적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zápal"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22181,6 +23741,12 @@
     },
     "영어 공부를 하려다가 미루고 말았어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chtěl jsem se učit angličtinu, ale odložil jsem to."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22269,6 +23835,12 @@
     },
     "영어 공부하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Učit se anglicky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22357,6 +23929,12 @@
     },
     "영어 실력 향상" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zlepšit angličtinu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22445,6 +24023,12 @@
     },
     "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cestou do práce jsem poslouchal anglický podcast! Bylo to zábavnější, než jsem čekal."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22533,6 +24117,12 @@
     },
     "오늘" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22621,6 +24211,12 @@
     },
     "오늘 '%@', 해내셨네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes „%@“ – zvládli jste to."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22709,6 +24305,12 @@
     },
     "오늘 '%@', 해냈네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes „%@“ – zvládl jsi to."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22797,6 +24399,12 @@
     },
     "오늘 '%@'%@ 아직 소식이 없어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes o „%1$@“%2$@ zatím nic nevíme."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22885,6 +24493,12 @@
     },
     "오늘 '%@'%@ 아직 소식이 없어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes o „%1$@“%2$@ zatím nic nevíme."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22973,6 +24587,12 @@
     },
     "오늘 '%@'에 닿았네." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes ses dostal k „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23061,6 +24681,12 @@
     },
     "오늘 '%@'에 닿았네요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes jste se dostali k „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23151,6 +24777,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat dnešek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23239,6 +24871,12 @@
     },
     "오늘 남김" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsáno dnes"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23327,6 +24965,12 @@
     },
     "오늘 어땠는지, 잠깐 같이 볼까요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podíváme se spolu, jaký byl dnešek?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23417,6 +25061,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes jsem prostě jen s vámi."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23507,6 +25157,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro dnešek dost.\nTeď je odpočinek důležitější než hledat odpověď.\nJe to zapsané, nezmizí to."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23597,6 +25253,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro dnešek zastavíme.\nTeď není třeba odpověď vynucovat.\nJe to uložené, příště se na to podíváme spolu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23687,6 +25349,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro dnešek stačí tahle jedna věc."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23777,6 +25445,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dnes budu potichu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23865,6 +25539,12 @@
     },
     "오래전에 남김" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsáno dávno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23953,6 +25633,12 @@
     },
     "용기있는" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odvaha"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24041,6 +25727,12 @@
     },
     "운동하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cvičit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24129,6 +25821,12 @@
     },
     "운동하러 갔다가 중간에 포기하고 왔어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šel jsem cvičit, ale v půlce jsem to vzdal a vrátil se."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24217,6 +25915,12 @@
     },
     "의욕적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motivace"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24305,6 +26009,12 @@
     },
     "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na tomto zařízení není funkce uspořádání dostupná. Zapíšu to tak, jak to slyším."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24395,6 +26105,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat tento záznam?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24485,6 +26201,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tohle jsou dvě různé věci."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24575,6 +26297,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záznamy k tomuto cíli převezmou i nový název."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24657,6 +26385,12 @@
     },
     "이 목표로 이야기해요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mluvit o tomto cíli"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24741,6 +26475,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pustit tento cíl?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24825,6 +26565,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mluvit o tomhle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24915,6 +26661,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdybyste to rozdělili na menší kousky, co by to bylo?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25005,6 +26757,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začnu tímhle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25095,6 +26853,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapíšu to takhle. Zítra jen tohle."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25185,6 +26949,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vezmu tohle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25273,6 +27043,12 @@
     },
     "이끼돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mechový kámen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25357,6 +27133,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ten den už minul. Ale kámen tam pořád je."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25447,6 +27229,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nechám to tak"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25537,6 +27325,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opravit takto"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25625,6 +27419,12 @@
     },
     "이름 고치기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejmenovat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25707,6 +27507,12 @@
     },
     "이번 주" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tento týden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25797,6 +27603,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V čem bylo tentokrát něco jinak?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25885,6 +27697,36 @@
     },
     "이전 이야기 %lld개는 접어뒀어." : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -26135,6 +27977,36 @@
     },
     "이전 이야기 %lld개는 접어뒀어요." : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -26385,6 +28257,12 @@
     },
     "익명 사용 통계 보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odesílat anonymní statistiky používání"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26467,6 +28345,12 @@
     },
     "일반적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Běžnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26555,6 +28439,12 @@
     },
     "일상적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všednost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26645,6 +28535,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapomněl jsem"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26735,6 +28631,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapíšu si to, než zapomenu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26823,6 +28725,12 @@
     },
     "자기계발" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seberozvoj"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26913,6 +28821,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pořád to odkládám"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27001,6 +28915,12 @@
     },
     "자랑스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hrdost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27089,6 +29009,12 @@
     },
     "자신감이 생긴" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebejistota"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27177,6 +29103,12 @@
     },
     "자책하는" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebeobviňování"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27267,6 +29199,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čím menší, tím lepší."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27357,6 +29295,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čím menší, tím lepší. I pět minut stačí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27447,6 +29391,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hezky zapsáno. Až se příště zaseknete, vytáhnu to."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27537,6 +29487,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výborně. Hned to zanechám."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27627,6 +29583,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pojďme si chvíli popovídat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27715,6 +29677,12 @@
     },
     "잠시 후 다시 해 주세요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkuste to prosím za chvíli znovu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27797,6 +29765,12 @@
     },
     "적어둔 목표 없음" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádné zapsané cíle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27887,6 +29861,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsáno. Zítra jen tolik."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27977,6 +29957,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsáno. Ukážu vám to, až se zaseknete na něčem podobném."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28067,6 +30053,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsáno. Přesně tolik stačí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28157,6 +30149,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napíšu to sám"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28245,6 +30243,12 @@
     },
     "절망적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beznaděj"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28333,6 +30337,12 @@
     },
     "정리 기능을 준비하고 있어요. 지금은 들린 대로 적어둘게요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připravuji funkci uspořádání. Zatím to zapíšu tak, jak to slyším."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28423,6 +30433,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uspořádávám…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28513,6 +30529,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkusím to uspořádat."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28601,6 +30623,12 @@
     },
     "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opravdu chcete smazat kód a snížit zabezpečení?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28689,6 +30717,12 @@
     },
     "정말 지울까요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opravdu smazat?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28771,6 +30805,12 @@
     },
     "조가비" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mušle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28855,6 +30895,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Není to úplně ono"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28943,6 +30989,12 @@
     },
     "조약돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oblázek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29031,6 +31083,12 @@
     },
     "조약돌 고르기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výběr oblázku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29113,6 +31171,12 @@
     },
     "조약돌의 결을 여섯 가지 중에서 골라요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte si z šesti povrchů oblázku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29195,6 +31259,12 @@
     },
     "조약돌이 생각하고 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oblázek přemýšlí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29285,6 +31355,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V „Nastavení“ určíte, zda vám oblázek vyká, nebo tyká."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29375,6 +31451,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobré"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29463,6 +31545,12 @@
     },
     "좌절스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frustrace"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29551,6 +31639,12 @@
     },
     "중립적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyrovnanost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29641,6 +31735,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promluvit si hned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29731,6 +31831,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud někam směřujete, řeknete mi o jedné věci?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29819,6 +31925,12 @@
     },
     "지금 향하는 곳" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kam směřujete"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29907,6 +32019,12 @@
     },
     "지금 향하는 곳이 벌써 %lld개야." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Už teď směřuješ k počtu cílů: %lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29989,6 +32107,12 @@
     },
     "지금 향하는 곳이 벌써 %lld개예요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Už teď směřujete k počtu cílů: %lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30073,6 +32197,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím to nechám"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30157,6 +32287,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím to chci nechat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30245,6 +32381,12 @@
     },
     "지금은 듣기가 어려워요. 적어주셔도 괜찮아요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teď je špatně slyšet. Můžete to i napsat."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30335,6 +32477,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A jak je to teď?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30423,6 +32571,12 @@
     },
     "지금은 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkce uspořádání teď není dostupná. Zapíšu to tak, jak to slyším."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30511,6 +32665,12 @@
     },
     "지나온 길" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ušlá cesta"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30599,6 +32759,12 @@
     },
     "지나온 기록을 글 파일로 꺼내 간직해요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložte všechny své záznamy do textového souboru."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30681,6 +32847,12 @@
     },
     "지나온 기록을 파일로 내보내요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportovat záznamy do souboru"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30763,6 +32935,12 @@
     },
     "지난 기록엔 '%@'라고 남아 있어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V minulém záznamu stojí: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30851,6 +33029,12 @@
     },
     "지난 기록엔 '%@'라고 남아 있어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V minulém záznamu stojí: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30939,6 +33123,12 @@
     },
     "지난번에 '%@'%@ 정하셨었죠." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minule jste se rozhodli pro „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31027,6 +33217,12 @@
     },
     "지난번에 '%@'%@ 정했었지." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minule ses rozhodl pro „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31115,6 +33311,12 @@
     },
     "지난번엔 '%@'%@ 해보기로 했었어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minule jsi chtěl zkusit „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31203,6 +33405,12 @@
     },
     "지난번엔 '%@'%@ 해보기로 했었어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minule jste chtěli zkusit „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31291,6 +33499,12 @@
     },
     "지난번엔 '%@'라고 적었어." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minule jsi napsal: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31379,6 +33593,12 @@
     },
     "지난번엔 '%@'라고 적으셨어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minule jste napsali: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31467,6 +33687,12 @@
     },
     "지난주" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minulý týden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31555,6 +33781,12 @@
     },
     "지난주에" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minulý týden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31643,6 +33875,12 @@
     },
     "지난주쯤" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zhruba minulý týden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31731,6 +33969,12 @@
     },
     "지루한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuda"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31819,6 +34063,12 @@
     },
     "지우기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31909,6 +34159,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po smazání už to nejde vrátit."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31997,6 +34253,12 @@
     },
     "지우지 못했어요. 잠시 후 다시 해 주세요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazání se nepodařilo. Zkuste to prosím za chvíli znovu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32079,6 +34341,12 @@
     },
     "지원 및 개인정보 보호" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpora a soukromí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32167,6 +34435,12 @@
     },
     "징검돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32255,6 +34529,12 @@
     },
     "징검돌 기록" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záznamy ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32337,6 +34617,12 @@
     },
     "징검돌 프로" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32419,6 +34705,12 @@
     },
     "징검돌 프로를 쓰고 있어요. 고마워요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Používáte ZinggumDol Pro. Děkujeme."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32501,6 +34793,12 @@
     },
     "짜증나는" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podrážděnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32589,6 +34887,12 @@
     },
     "짧아도 괜찮아요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stačí stručně."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32673,6 +34977,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stačí stručně – jen to, co se tehdy stalo."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32761,6 +35071,12 @@
     },
     "책을 30분 읽었어요. 집중이 잘 됐습니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Četl jsem 30 minut. Dobře jsem se soustředil."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32849,6 +35165,12 @@
     },
     "체력 기르기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zlepšit kondici"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32937,6 +35259,12 @@
     },
     "취소" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33027,6 +35355,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klidně pište i velkými písmeny."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33115,6 +35449,12 @@
     },
     "톡 건드리거나 문질러 쓰다듬을 수 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepnutím nebo třením ho pohladíte"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33197,6 +35537,12 @@
     },
     "파괴적인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ničivost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33285,6 +35631,12 @@
     },
     "편안한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uvolněnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33375,6 +35727,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak vám to vyhovuje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33463,6 +35821,12 @@
     },
     "평범한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obyčejnost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33551,6 +35915,12 @@
     },
     "평점주기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohodnotit aplikaci"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33639,6 +36009,12 @@
     },
     "프로" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33723,6 +36099,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat víc s Pro"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33805,6 +36187,12 @@
     },
     "프로에서 열려요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odemčeno v Pro"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33887,6 +36275,12 @@
     },
     "피곤한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Únava"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33977,6 +36371,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedno je to, co se stalo, druhé je, jak vám je teď."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34065,6 +36465,12 @@
     },
     "한 번 사면 계속 써요. 구독이 아니에요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jednou koupíte, navždy používáte. Není to předplatné"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34147,6 +36553,12 @@
     },
     "한참 전에" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dávno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34237,6 +36649,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udělal jsem to, ale nezapsal"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34327,6 +36745,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udělal jsem to, jen jsem to nezapsal"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34415,6 +36839,12 @@
     },
     "행복한" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Štěstí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34505,6 +36935,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ještě jsem neslyšel, kam směřujete."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34593,6 +37029,12 @@
     },
     "향하는 곳이 여럿이어도 괜찮아요. 개수 제한 없이 적어 둘 수 있어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevadí, že směřujete k více cílům. Zapisovat je můžete bez omezení."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34675,6 +37117,12 @@
     },
     "혐오스러운" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Znechucení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34765,6 +37213,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myslíte tohle?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34853,6 +37307,12 @@
     },
     "확인" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34941,6 +37401,12 @@
     },
     "확인을 위해 '%@'라고 적어 주세요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro potvrzení napište „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35025,6 +37491,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35109,6 +37581,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35193,6 +37671,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsem tu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35277,6 +37761,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volali jste mě?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35361,6 +37851,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, to lechtá!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35445,6 +37941,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lechtá to"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35529,6 +38031,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nech toho, hihi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35613,6 +38121,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To je příjemné…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35697,6 +38211,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teploučko"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35781,6 +38301,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavírají se mi oči…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35865,6 +38391,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Točí se mi hlava…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35949,6 +38481,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Točí se to dokola…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

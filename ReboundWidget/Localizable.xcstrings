@@ -3,6 +3,12 @@
   "strings" : {
     "강돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Říční oblázek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -85,6 +91,12 @@
     },
     "곁에 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po vašem boku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +179,12 @@
     },
     "기뻐하고 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radost"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -249,6 +267,12 @@
     },
     "노을돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kámen soumraku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -331,6 +355,12 @@
     },
     "듣고 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poslouchám"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -413,6 +443,12 @@
     },
     "먹돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkoustový kámen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -495,6 +531,12 @@
     },
     "모래알" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrnko písku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -577,6 +619,12 @@
     },
     "생각하고 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přemýšlí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -659,6 +707,12 @@
     },
     "여기 있어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsem tu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -741,6 +795,12 @@
     },
     "오늘 남기러 가기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat dnešek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -823,6 +883,12 @@
     },
     "이끼돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mechový kámen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -905,6 +971,12 @@
     },
     "조가비" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mušle"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -987,6 +1059,12 @@
     },
     "조약돌" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oblázek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1071,6 +1149,12 @@
       "comment" : "위젯 갤러리의 설명",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo od oblázku. Klepnutím zapíšete dnešek."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1161,6 +1245,12 @@
       "comment" : "위젯 갤러리의 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
