@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "  心情：%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  心情：%@"
+          }
         }
       }
     },
@@ -38,6 +44,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  下一步：%@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "  下一步：%@"
@@ -63,6 +75,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  发生的事：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  發生的事：%@"
           }
         }
       }
@@ -92,6 +110,12 @@
             "state" : "translated",
             "value" : "「%@」这件事，是什么绊住了你？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」這件事，是什麼絆住了你？"
+          }
         }
       }
     },
@@ -119,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「%@」这件事，是什么绊住了你？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」這件事，是什麼絆住了你？"
           }
         }
       }
@@ -148,6 +178,12 @@
             "state" : "translated",
             "value" : "距离我们聊「%1$@」已经过去 %2$lld 天了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "距離我們聊「%1$@」已經過去 %2$lld 天了。"
+          }
         }
       }
     },
@@ -175,6 +211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "距离我们聊「%1$@」已经过去 %2$lld 天了。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "距離我們聊「%1$@」已經過去 %2$lld 天了。"
           }
         }
       }
@@ -204,6 +246,12 @@
             "state" : "translated",
             "value" : "「%@」，今天还没有动静。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」，今天還沒有動靜。"
+          }
         }
       }
     },
@@ -231,6 +279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「%@」，今天还没有动静。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」，今天還沒有動靜。"
           }
         }
       }
@@ -260,6 +314,12 @@
             "state" : "translated",
             "value" : "「%1$@」已经安静 %3$lld 天了。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」已經安靜 %3$lld 天了。%2$@"
+          }
         }
       }
     },
@@ -287,6 +347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「%1$@」已经安静 %3$lld 天了。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」已經安靜 %3$lld 天了。%2$@"
           }
         }
       }
@@ -316,6 +382,12 @@
             "state" : "translated",
             "value" : "距离你上次回看「%1$@」已经 %3$lld 天了。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "距離你上次回看「%1$@」已經 %3$lld 天了。%2$@"
+          }
         }
       }
     },
@@ -343,6 +415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "距离你上次回看「%1$@」已经 %3$lld 天了。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "距離你上次回看「%1$@」已經 %3$lld 天了。%2$@"
           }
         }
       }
@@ -372,6 +450,12 @@
             "state" : "translated",
             "value" : "今天你还没有走到「%1$@」。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天你還沒有走到「%1$@」。%2$@"
+          }
         }
       }
     },
@@ -399,6 +483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天你还没有走到「%1$@」。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天你還沒有走到「%1$@」。%2$@"
           }
         }
       }
@@ -428,6 +518,12 @@
             "state" : "translated",
             "value" : "你写下了「%1$@」，但还没回头看过。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你寫下了「%1$@」，但還沒回頭看過。%2$@"
+          }
         }
       }
     },
@@ -455,6 +551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你写下了「%1$@」，但还没回头看过。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你寫下了「%1$@」，但還沒回頭看過。%2$@"
           }
         }
       }
@@ -484,6 +586,12 @@
             "state" : "translated",
             "value" : "「%1$@」写下之后，还没有后续。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」寫下之後，還沒有後續。%2$@"
+          }
         }
       }
     },
@@ -511,6 +619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「%1$@」写下之后，还没有后续。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」寫下之後，還沒有後續。%2$@"
           }
         }
       }
@@ -540,6 +654,12 @@
             "state" : "translated",
             "value" : "自从写下「%1$@」，一直很安静。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自從寫下「%1$@」，一直很安靜。%2$@"
+          }
         }
       }
     },
@@ -567,6 +687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自从写下「%1$@」，一直很安静。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自從寫下「%1$@」，一直很安靜。%2$@"
           }
         }
       }
@@ -596,6 +722,12 @@
             "state" : "translated",
             "value" : "回到你打算做「%1$@」的那个时候吧。是什么卡住了？%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回到你打算做「%1$@」的那個時候吧。是什麼卡住了？%2$@"
+          }
         }
       }
     },
@@ -624,6 +756,12 @@
             "state" : "translated",
             "value" : "回到你打算做「%1$@」的那个时候吧。是什么卡住了？%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回到你打算做「%1$@」的那個時候吧。是什麼卡住了？%2$@"
+          }
         }
       }
     },
@@ -648,6 +786,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你在「%1$@」上走到了 %2$@。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "你在「%1$@」上走到了 %2$@。"
@@ -680,6 +824,12 @@
             "state" : "translated",
             "value" : "你在「%1$@」上走到了 %2$@。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你在「%1$@」上走到了 %2$@。"
+          }
         }
       }
     },
@@ -704,6 +854,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那是你走到「%@」的一天。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "那是你走到「%@」的一天。"
@@ -736,6 +892,12 @@
             "state" : "translated",
             "value" : "那是你走到「%@」的一天。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那是你走到「%@」的一天。"
+          }
         }
       }
     },
@@ -763,6 +925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$@你写下关于「%1$@」的话：「%3$@」。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@你寫下關於「%1$@」的話：「%3$@」。"
           }
         }
       }
@@ -792,6 +960,12 @@
             "state" : "translated",
             "value" : "%2$@你写下关于「%1$@」的话：「%3$@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@你寫下關於「%1$@」的話：「%3$@」。"
+          }
         }
       }
     },
@@ -815,6 +989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在「走过的路」里放下一个目标，就可以写新的目标了。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在「走過的路」裡放下一個目標，就可以寫新的目標了。"
           }
         }
       }
@@ -844,6 +1024,12 @@
             "state" : "translated",
             "value" : "%1$@\n卡住你的是「%2$@」，\n现在的心情是「%3$@」%4$@。\n\n%5$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\n卡住你的是「%2$@」，\n現在的心情是「%3$@」%4$@。\n\n%5$@"
+          }
         }
       }
     },
@@ -871,6 +1057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@聊到「%2$@」时，你留下了「%3$@」。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@聊到「%2$@」時，你留下了「%3$@」。"
           }
         }
       }
@@ -900,6 +1092,12 @@
             "state" : "translated",
             "value" : "%1$@聊到「%2$@」时，你留下了「%3$@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@聊到「%2$@」時，你留下了「%3$@」。"
+          }
         }
       }
     },
@@ -927,6 +1125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你谈起「%2$@」，说过「%4$@」。%3$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你談起「%2$@」，說過「%4$@」。%3$@"
           }
         }
       }
@@ -956,6 +1160,12 @@
             "state" : "translated",
             "value" : "%1$@你谈起「%2$@」，说过「%4$@」。%3$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你談起「%2$@」，說過「%4$@」。%3$@"
+          }
         }
       }
     },
@@ -983,6 +1193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你说「%2$@」卡住了。%3$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你說「%2$@」卡住了。%3$@"
           }
         }
       }
@@ -1012,6 +1228,12 @@
             "state" : "translated",
             "value" : "%1$@你说「%2$@」卡住了。%3$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你說「%2$@」卡住了。%3$@"
+          }
         }
       }
     },
@@ -1036,6 +1258,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你完成了「%2$@」。%3$@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你完成了「%2$@」。%3$@"
@@ -1068,6 +1296,12 @@
             "state" : "translated",
             "value" : "%1$@你完成了「%2$@」。%3$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你完成了「%2$@」。%3$@"
+          }
         }
       }
     },
@@ -1092,6 +1326,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你走到了「%2$@」。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你走到了「%2$@」。"
@@ -1124,6 +1364,12 @@
             "state" : "translated",
             "value" : "%1$@你走到了「%2$@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你走到了「%2$@」。"
+          }
         }
       }
     },
@@ -1151,6 +1397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你留言说被「%2$@」绊住了。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你留言說被「%2$@」絆住了。"
           }
         }
       }
@@ -1180,6 +1432,12 @@
             "state" : "translated",
             "value" : "%1$@你留言说被「%2$@」绊住了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你留言說被「%2$@」絆住了。"
+          }
         }
       }
     },
@@ -1207,6 +1465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@那一周"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@那一週"
           }
         }
       }
@@ -1236,6 +1500,12 @@
             "state" : "translated",
             "value" : "%@，留下记录的一天"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，留下記錄的一天"
+          }
         }
       }
     },
@@ -1263,6 +1533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@，没有留下记录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，沒有留下記錄"
           }
         }
       }
@@ -1292,6 +1568,12 @@
             "state" : "translated",
             "value" : "%@，走到目标的一天"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，走到目標的一天"
+          }
         }
       }
     },
@@ -1320,6 +1602,12 @@
             "state" : "translated",
             "value" : "%@，还没到来的一天"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@，還沒到來的一天"
+          }
         }
       }
     },
@@ -1344,6 +1632,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你完成了「%2$@」。%3$@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你完成了「%2$@」。%3$@"
@@ -1376,6 +1670,12 @@
             "state" : "translated",
             "value" : "%1$@你完成了「%2$@」。%3$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你完成了「%2$@」。%3$@"
+          }
         }
       }
     },
@@ -1400,6 +1700,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你完成了「%2$@」。%3$@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你完成了「%2$@」。%3$@"
@@ -1432,6 +1738,12 @@
             "state" : "translated",
             "value" : "%1$@你完成了「%2$@」。%3$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你完成了「%2$@」。%3$@"
+          }
         }
       }
     },
@@ -1456,6 +1768,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你走到了「%2$@」，"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@你走到了「%2$@」，"
@@ -1488,6 +1806,12 @@
             "state" : "translated",
             "value" : "%1$@你走到了「%2$@」，"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@你走到了「%2$@」，"
+          }
         }
       }
     },
@@ -1516,6 +1840,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
         }
       }
     },
@@ -1540,6 +1870,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld月%2$lld日"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld月%2$lld日"
@@ -1592,6 +1928,18 @@
           }
         },
         "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 天前"
+                }
+              }
+            }
+          }
+        },
+        "zh-Hant" : {
           "variations" : {
             "plural" : {
               "other" : {
@@ -1660,6 +2008,18 @@
               }
             }
           }
+        },
+        "zh-Hant" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 天前留下"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1718,6 +2078,18 @@
               }
             }
           }
+        },
+        "zh-Hant" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 周前留下"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1742,6 +2114,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "|"
@@ -1776,6 +2154,12 @@
             "state" : "translated",
             "value" : "有点低落"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有點低落"
+          }
         }
       }
     },
@@ -1803,6 +2187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先从轻轻拉伸开始"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先從輕輕拉伸開始"
           }
         }
       }
@@ -1832,6 +2222,12 @@
             "state" : "translated",
             "value" : "感恩"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "感恩"
+          }
         }
       }
     },
@@ -1850,6 +2246,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "河石"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "河石"
@@ -1875,6 +2277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已经有同名的目标了"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已經有同名的目標了"
           }
         }
       }
@@ -1906,6 +2314,12 @@
             "state" : "translated",
             "value" : "开发者专用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開發者專用"
+          }
         }
       }
     },
@@ -1934,6 +2348,12 @@
             "state" : "translated",
             "value" : "给开发者发邮件"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "給開發者發郵件"
+          }
         }
       }
     },
@@ -1955,6 +2375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "又会多出五块像是在溪边捡来的石头。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "又會多出五塊像是在溪邊撿來的石頭。"
           }
         }
       }
@@ -1984,6 +2410,12 @@
             "state" : "translated",
             "value" : "隐私政策"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隱私權政策"
+          }
         }
       }
     },
@@ -2008,6 +2440,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健康"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "健康"
@@ -2040,6 +2478,12 @@
             "state" : "translated",
             "value" : "陪在你身边"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "陪在你身邊"
+          }
         }
       }
     },
@@ -2067,6 +2511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "编辑"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯"
           }
         }
       }
@@ -2098,6 +2548,12 @@
             "state" : "translated",
             "value" : "还好"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還好"
+          }
         }
       }
     },
@@ -2128,6 +2584,12 @@
             "state" : "translated",
             "value" : "没关系，只是刚好没被注意到。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒關係，只是剛好沒被注意到。"
+          }
         }
       }
     },
@@ -2156,6 +2618,12 @@
             "state" : "translated",
             "value" : "痛苦"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "痛苦"
+          }
         }
       }
     },
@@ -2177,6 +2645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "恢复购买"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回復購買項目"
           }
         }
       }
@@ -2205,6 +2679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "规律的生活"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規律的生活"
           }
         }
       }
@@ -2236,6 +2716,12 @@
             "state" : "translated",
             "value" : "那之后怎么样了？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那之後怎麼樣了？"
+          }
         }
       }
     },
@@ -2265,6 +2751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "那是当时的情况。现在你的心情怎么样？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那是當時的情況。現在你的心情怎麼樣？"
           }
         }
       }
@@ -2296,6 +2788,12 @@
             "state" : "translated",
             "value" : "后来怎么样了？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "後來怎麼樣了？"
+          }
         }
       }
     },
@@ -2317,6 +2815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "那天过得怎么样"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那天過得怎麼樣"
           }
         }
       }
@@ -2348,6 +2852,12 @@
             "state" : "translated",
             "value" : "保持原样"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保持原樣"
+          }
         }
       }
     },
@@ -2375,6 +2885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当时你说过要试试「%1$@」。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時你說過要試試「%1$@」。%2$@"
           }
         }
       }
@@ -2404,6 +2920,12 @@
             "state" : "translated",
             "value" : "当时你说过要试试「%1$@」。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時你說過要試試「%1$@」。%2$@"
+          }
         }
       }
     },
@@ -2425,6 +2947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当时的心情"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時的心情"
           }
         }
       }
@@ -2456,6 +2984,12 @@
             "state" : "translated",
             "value" : "当时发生了什么？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時發生了什麼？"
+          }
         }
       }
     },
@@ -2486,6 +3020,12 @@
             "state" : "translated",
             "value" : "聊聊那时候吧"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聊聊那時候吧"
+          }
         }
       }
     },
@@ -2513,6 +3053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当时你说的是「%@」。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時你說的是「%@」。"
           }
         }
       }
@@ -2542,6 +3088,12 @@
             "state" : "translated",
             "value" : "当时你说的是「%@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時你說的是「%@」。"
+          }
         }
       }
     },
@@ -2568,6 +3120,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好的，下次再聊。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "好的，下次再聊。"
@@ -2602,6 +3160,12 @@
             "state" : "translated",
             "value" : "没错"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒錯"
+          }
         }
       }
     },
@@ -2631,6 +3195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这很正常。忘记了，事情也不会因此消失。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這很正常。忘記了，事情也不會因此消失。"
           }
         }
       }
@@ -2662,6 +3232,12 @@
             "state" : "translated",
             "value" : "这很正常。忘记了就是忘记了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這很正常。忘記了就是忘記了。"
+          }
         }
       }
     },
@@ -2690,6 +3266,12 @@
             "state" : "translated",
             "value" : "那么，朝着「%1$@」，\n有什么小到明天就能做完的一件事？%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那麼，朝著「%1$@」，\n有什麼小到明天就能做完的一件事？%2$@"
+          }
         }
       }
     },
@@ -2717,6 +3299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "那么，朝着「%1$@」，\n有什么小到明天就能做完的一件事？%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那麼，朝著「%1$@」，\n有什麼小到明天就能做完的一件事？%2$@"
           }
         }
       }
@@ -2748,6 +3336,12 @@
             "state" : "translated",
             "value" : "那我们就聊聊这件事吧。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那我們就聊聊這件事吧。"
+          }
         }
       }
     },
@@ -2777,6 +3371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "那这件事就算结束了。我现在就记下来。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那這件事就算結束了。我現在就記下來。"
           }
         }
       }
@@ -2808,6 +3408,12 @@
             "state" : "translated",
             "value" : "那我就把它收个尾。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那我就把它收個尾。"
+          }
         }
       }
     },
@@ -2838,6 +3444,12 @@
             "state" : "translated",
             "value" : "那这样呢？如果把它缩小到明天就能做完，会是什么？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "那這樣呢？如果把它縮小到明天就能做完，會是什麼？"
+          }
         }
       }
     },
@@ -2866,6 +3478,12 @@
             "state" : "translated",
             "value" : "停止朗读"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止朗讀"
+          }
         }
       }
     },
@@ -2892,6 +3510,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般般"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "一般般"
@@ -2924,6 +3548,12 @@
             "state" : "translated",
             "value" : "期待"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "期待"
+          }
         }
       }
     },
@@ -2945,6 +3575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "记录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記錄"
           }
         }
       }
@@ -2968,6 +3604,12 @@
             "state" : "translated",
             "value" : "导出记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匯出記錄"
+          }
         }
       }
     },
@@ -2989,6 +3631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无法导出你的记录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法匯出你的記錄"
           }
         }
       }
@@ -3018,6 +3666,12 @@
             "state" : "translated",
             "value" : "心情不错"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "心情不錯"
+          }
         }
       }
     },
@@ -3046,6 +3700,12 @@
             "state" : "translated",
             "value" : "开心"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開心"
+          }
         }
       }
     },
@@ -3070,6 +3730,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "糟透了"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "糟透了"
@@ -3104,6 +3770,12 @@
             "state" : "translated",
             "value" : "其余的不用着急。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其餘的不用著急。"
+          }
         }
       }
     },
@@ -3133,6 +3805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先把其余的收起来，只看这一件。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先把其餘的收起來，只看這一件。"
           }
         }
       }
@@ -3164,6 +3842,12 @@
             "state" : "translated",
             "value" : "其余的可以慢慢看。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其餘的可以慢慢看。"
+          }
         }
       }
     },
@@ -3194,6 +3878,12 @@
             "state" : "translated",
             "value" : "留下了，这样有用的办法就不会被忘记。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留下了，這樣有用的辦法就不會被忘記。"
+          }
         }
       }
     },
@@ -3222,6 +3912,12 @@
             "state" : "translated",
             "value" : "你留下的"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你留下的"
+          }
         }
       }
     },
@@ -3245,6 +3941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "留下的记录会保留，只是从列表中移除。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留下的記錄會保留，只是從列表中移除。"
           }
         }
       }
@@ -3276,6 +3978,12 @@
             "state" : "translated",
             "value" : "没有留下话语。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有留下話語。"
+          }
         }
       }
     },
@@ -3297,6 +4005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我的目标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的目標"
           }
         }
       }
@@ -3320,6 +4034,12 @@
             "state" : "translated",
             "value" : "挑选我的小石子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "挑選我的小石子"
+          }
         }
       }
     },
@@ -3338,6 +4058,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放下"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "放下"
@@ -3363,6 +4089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "导出日期：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匯出日期：%@"
           }
         }
       }
@@ -3394,6 +4126,12 @@
             "state" : "translated",
             "value" : "如果明天只做一件事，你会做什么？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果明天只做一件事，你會做什麼？"
+          }
         }
       }
     },
@@ -3418,6 +4156,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷漠"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "冷漠"
@@ -3452,6 +4196,12 @@
             "state" : "translated",
             "value" : "是"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是"
+          }
         }
       }
     },
@@ -3481,6 +4231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "好，先放着。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好，先放著。"
           }
         }
       }
@@ -3512,6 +4268,12 @@
             "state" : "translated",
             "value" : "好，先放着。我在这儿。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好，先放著。我在這兒。"
+          }
         }
       }
     },
@@ -3542,6 +4304,12 @@
             "state" : "translated",
             "value" : "好，那下次再聊。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好，那下次再聊。"
+          }
         }
       }
     },
@@ -3560,6 +4328,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "晚霞石"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "晚霞石"
@@ -3594,6 +4368,12 @@
             "state" : "translated",
             "value" : "其他的先放一放，只看这一个好吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他的先放一放，只看這一個好嗎？"
+          }
         }
       }
     },
@@ -3624,6 +4404,12 @@
             "state" : "translated",
             "value" : "其他的慢慢来。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他的慢慢來。"
+          }
         }
       }
     },
@@ -3648,6 +4434,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一步"
@@ -3682,6 +4474,12 @@
             "state" : "translated",
             "value" : "下次还能用，我先记下来。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下次還能用，我先記下來。"
+          }
         }
       }
     },
@@ -3703,6 +4501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "接下来想尝试的"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接下來想嘗試的"
           }
         }
       }
@@ -3732,6 +4536,12 @@
             "state" : "translated",
             "value" : "减肥塑形"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "減肥塑形"
+          }
         }
       }
     },
@@ -3759,6 +4569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
           }
         }
       }
@@ -3790,6 +4606,12 @@
             "state" : "translated",
             "value" : "只留下了「走到了」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只留下了「走到了」。"
+          }
         }
       }
     },
@@ -3808,6 +4630,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我走到了"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "我走到了"
@@ -3833,6 +4661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我没走到"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我沒走到"
           }
         }
       }
@@ -3862,6 +4696,12 @@
             "state" : "translated",
             "value" : "养成阅读习惯"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "養成閱讀習慣"
+          }
         }
       }
     },
@@ -3889,6 +4729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "阅读"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閱讀"
           }
         }
       }
@@ -3920,6 +4766,12 @@
             "state" : "translated",
             "value" : "我在听"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在聽"
+          }
         }
       }
     },
@@ -3949,6 +4801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没什么好说的，我就在这儿。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒什麼好說的，我就在這兒。"
           }
         }
       }
@@ -3980,6 +4838,12 @@
             "state" : "translated",
             "value" : "想不起来就留空吧，以后我们一起找。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "想不起來就留空吧，以後我們一起找。"
+          }
         }
       }
     },
@@ -4007,6 +4871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "麦克风无法使用。直接写下来也可以。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麥克風無法使用。直接寫下來也可以。"
           }
         }
       }
@@ -4036,6 +4906,12 @@
             "state" : "translated",
             "value" : "满足"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "滿足"
+          }
         }
       }
     },
@@ -4063,6 +4939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "满足"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "滿足"
           }
         }
       }
@@ -4094,6 +4976,12 @@
             "state" : "translated",
             "value" : "真的很难受"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "真的很難受"
+          }
         }
       }
     },
@@ -4122,6 +5010,12 @@
             "state" : "translated",
             "value" : "用语音回答"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用語音回答"
+          }
         }
       }
     },
@@ -4149,6 +5043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "语气"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "語氣"
           }
         }
       }
@@ -4180,6 +5080,12 @@
             "state" : "translated",
             "value" : "你可以选择说话的语气"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你可以選擇說話的語氣"
+          }
         }
       }
     },
@@ -4208,6 +5114,12 @@
             "state" : "translated",
             "value" : "说话时的声音"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說話時的聲音"
+          }
         }
       }
     },
@@ -4235,6 +5147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "说话时的震动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說話時的震動"
           }
         }
       }
@@ -4266,6 +5184,12 @@
             "state" : "translated",
             "value" : "就是这样"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就是這樣"
+          }
         }
       }
     },
@@ -4296,6 +5220,12 @@
             "state" : "translated",
             "value" : "对，我没做"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "對，我沒做"
+          }
         }
       }
     },
@@ -4323,6 +5253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每天听十分钟英语播客"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每天聽十分鐘英語播客"
           }
         }
       }
@@ -4352,6 +5288,12 @@
             "state" : "translated",
             "value" : "每日提醒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每日提醒"
+          }
         }
       }
     },
@@ -4370,6 +5312,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "墨石"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "墨石"
@@ -4395,6 +5343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先导出"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先匯出"
           }
         }
       }
@@ -4424,6 +5378,12 @@
             "state" : "translated",
             "value" : "几天前"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幾天前"
+          }
         }
       }
     },
@@ -4452,6 +5412,12 @@
             "state" : "translated",
             "value" : "几天前"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幾天前"
+          }
         }
       }
     },
@@ -4473,6 +5439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "全部删除"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部刪除"
           }
         }
       }
@@ -4496,6 +5468,12 @@
             "state" : "translated",
             "value" : "已全部删除。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已全部刪除。"
+          }
         }
       }
     },
@@ -4518,6 +5496,12 @@
             "state" : "translated",
             "value" : "删除所有记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除所有記錄"
+          }
         }
       }
     },
@@ -4539,6 +5523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要删除所有记录吗？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要刪除所有記錄嗎？"
           }
         }
       }
@@ -4570,6 +5560,12 @@
             "state" : "translated",
             "value" : "删除所有数据"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除所有資料"
+          }
         }
       }
     },
@@ -4588,6 +5584,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沙粒"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "沙粒"
@@ -4613,6 +5615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "目标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標"
           }
         }
       }
@@ -4642,6 +5650,12 @@
             "state" : "translated",
             "value" : "添加目标"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增目標"
+          }
         }
       }
     },
@@ -4663,6 +5677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写下一个目标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寫下一個目標"
           }
         }
       }
@@ -4686,6 +5706,12 @@
             "state" : "translated",
             "value" : "目标数量不限"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標數量不限"
+          }
         }
       }
     },
@@ -4707,6 +5733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "想要多少目标都可以"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "想要多少目標都可以"
           }
         }
       }
@@ -4730,6 +5762,12 @@
             "state" : "translated",
             "value" : "不限数量地写下目标，挑选小石子，把记录保存成文件。一次购买，长久使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不限數量地寫下目標，挑選小石子，把記錄儲存成檔案。一次購買，長久使用。"
+          }
         }
       }
     },
@@ -4751,6 +5789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你的所有目标和记录都会消失，并且无法恢复。通过 iCloud 同步的其他设备上的内容也会被删除。设置和购买记录会保留。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你的所有目標和記錄都會消失，並且無法恢復。透過 iCloud 同步的其他裝置上的內容也會被刪除。設定和購買記錄會保留。"
           }
         }
       }
@@ -4776,6 +5820,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "麻木"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "麻木"
@@ -4808,6 +5858,12 @@
             "state" : "translated",
             "value" : "冷淡"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷淡"
+          }
         }
       }
     },
@@ -4832,6 +5888,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "一般"
@@ -4864,6 +5926,12 @@
             "state" : "translated",
             "value" : "无力"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無力"
+          }
         }
       }
     },
@@ -4885,6 +5953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "免费功能依然免费，另外还会解锁一些内容。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "免費功能依然免費，另外還會解鎖一些內容。"
           }
         }
       }
@@ -4909,6 +5983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "免费版最多可以放三个目标。这是第三个。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "免費版最多可以放三個目標。這是第三個。"
           }
         }
       }
@@ -4938,6 +6018,12 @@
             "state" : "translated",
             "value" : "害怕"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "害怕"
+          }
         }
       }
     },
@@ -4959,6 +6045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发生了什么"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發生了什麼"
           }
         }
       }
@@ -4990,6 +6082,12 @@
             "state" : "translated",
             "value" : "聊聊发生了什么"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聊聊發生了什麼"
+          }
         }
       }
     },
@@ -5019,6 +6117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我会留意你走到了哪里、被什么卡住了，并主动和你说话。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我會留意你走到了哪裡、被什麼卡住了，並主動和你說話。"
           }
         }
       }
@@ -5050,6 +6154,12 @@
             "state" : "translated",
             "value" : "我还不知道你正朝着什么前进。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我還不知道你正朝著什麼前進。"
+          }
         }
       }
     },
@@ -5080,6 +6190,12 @@
             "state" : "translated",
             "value" : "你正朝着什么前进？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你正朝著什麼前進？"
+          }
         }
       }
     },
@@ -5108,6 +6224,12 @@
             "state" : "translated",
             "value" : "面无表情"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "面無表情"
+          }
         }
       }
     },
@@ -5135,6 +6257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "多喝水，早点睡"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "多喝水，早點睡"
           }
         }
       }
@@ -5166,6 +6294,12 @@
             "state" : "translated",
             "value" : "是什么帮到了你？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是什麼幫到了你？"
+          }
         }
       }
     },
@@ -5195,6 +6329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "记下有用的办法"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記下有用的辦法"
           }
         }
       }
@@ -5226,6 +6366,12 @@
             "state" : "translated",
             "value" : "什么有用？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "什麼有用？"
+          }
         }
       }
     },
@@ -5249,6 +6395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "滑动或长按目标，可以修改名称或放下它。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "滑動或長按目標，可以修改名稱或放下它。"
           }
         }
       }
@@ -5278,6 +6430,12 @@
             "state" : "translated",
             "value" : "晚上 11 点设闹钟，把手机放远一点"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "晚上 11 點設鬧鐘，把手機放遠一點"
+          }
         }
       }
     },
@@ -5302,6 +6460,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "普通"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "普通"
@@ -5334,6 +6498,12 @@
             "state" : "translated",
             "value" : "愤怒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "憤怒"
+          }
         }
       }
     },
@@ -5362,6 +6532,12 @@
             "state" : "translated",
             "value" : "不满意"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不滿意"
+          }
         }
       }
     },
@@ -5386,6 +6562,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不安"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不安"
@@ -5418,6 +6600,12 @@
             "state" : "translated",
             "value" : "删除密码"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除密碼"
+          }
         }
       }
     },
@@ -5445,6 +6633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设置密码"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定密碼"
           }
         }
       }
@@ -5474,6 +6668,12 @@
             "state" : "translated",
             "value" : "输入密码"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輸入密碼"
+          }
         }
       }
     },
@@ -5501,6 +6701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "确认密码"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認密碼"
           }
         }
       }
@@ -5530,6 +6736,12 @@
             "state" : "translated",
             "value" : "凄惨"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悽慘"
+          }
         }
       }
     },
@@ -5558,6 +6770,12 @@
             "state" : "translated",
             "value" : "充实"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充實"
+          }
         }
       }
     },
@@ -5579,6 +6797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用统计"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用統計"
           }
         }
       }
@@ -5608,6 +6832,12 @@
             "state" : "translated",
             "value" : "使用统计（开发者）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用統計（開發者）"
+          }
         }
       }
     },
@@ -5632,6 +6862,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清爽"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "清爽"
@@ -5666,6 +6902,12 @@
             "state" : "translated",
             "value" : "情况我明白了。那你现在心情怎么样？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "情況我明白了。那你現在心情怎麼樣？"
+          }
         }
       }
     },
@@ -5695,6 +6937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "是情况卡住了，不是你这个人有问题。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是情況卡住了，不是你這個人有問題。"
           }
         }
       }
@@ -5726,6 +6974,12 @@
             "state" : "translated",
             "value" : "生成示例数据"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生成示例資料"
+          }
         }
       }
     },
@@ -5750,6 +7004,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在想"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "在想"
@@ -5782,6 +7042,12 @@
             "state" : "translated",
             "value" : "激动"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "激動"
+          }
         }
       }
     },
@@ -5809,6 +7075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         }
       }
@@ -5838,6 +7110,12 @@
             "state" : "translated",
             "value" : "在「设置」中打开 Apple 智能，我就能更好地整理你说的话。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在「設定」中開啟 Apple Intelligence，我就能更好地整理你說的話。"
+          }
         }
       }
     },
@@ -5865,6 +7143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把消息传出去"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把訊息傳出去"
           }
         }
       }
@@ -5894,6 +7178,12 @@
             "state" : "translated",
             "value" : "悲伤"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悲傷"
+          }
         }
       }
     },
@@ -5921,6 +7211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間"
           }
         }
       }
@@ -5950,6 +7246,12 @@
             "state" : "translated",
             "value" : "兴奋"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "興奮"
+          }
         }
       }
     },
@@ -5978,6 +7280,12 @@
             "state" : "translated",
             "value" : "失望"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失望"
+          }
         }
       }
     },
@@ -5996,6 +7304,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摸一摸"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "摸一摸"
@@ -6028,6 +7342,12 @@
             "state" : "translated",
             "value" : "孤单"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "孤單"
+          }
         }
       }
     },
@@ -6056,6 +7376,12 @@
             "state" : "translated",
             "value" : "遗憾"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遺憾"
+          }
         }
       }
     },
@@ -6083,6 +7409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "暂无记录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫無記錄"
           }
         }
       }
@@ -6114,6 +7446,12 @@
             "state" : "translated",
             "value" : "还没有留下什么。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有留下什麼。"
+          }
         }
       }
     },
@@ -6135,6 +7473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "还没有写下记录。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有寫下記錄。"
           }
         }
       }
@@ -6166,6 +7510,12 @@
             "state" : "translated",
             "value" : "还没有留下故事。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有留下故事。"
+          }
         }
       }
     },
@@ -6195,6 +7545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我还不知道你要去哪里。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我還不知道你要去哪裡。"
           }
         }
       }
@@ -6226,6 +7582,12 @@
             "state" : "translated",
             "value" : "你还没有前进的方向。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你還沒有前進的方向。"
+          }
         }
       }
     },
@@ -6250,6 +7612,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "早起"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "早起"
@@ -6282,6 +7650,12 @@
             "state" : "translated",
             "value" : "早起了，把一天过得很充实！"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "早起了，把一天過得很充實！"
+          }
         }
       }
     },
@@ -6310,6 +7684,12 @@
             "state" : "translated",
             "value" : "没能起床，睡过头了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒能起床，睡過頭了。"
+          }
         }
       }
     },
@@ -6336,6 +7716,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你好，我是 ZinggumDol。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "你好，我是 ZinggumDol。"
@@ -6370,6 +7756,12 @@
             "state" : "translated",
             "value" : "好的，我在这儿。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好的，我在這兒。"
+          }
         }
       }
     },
@@ -6398,6 +7790,12 @@
             "state" : "translated",
             "value" : "打开提醒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟提醒"
+          }
         }
       }
     },
@@ -6419,6 +7817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "了解更多"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "瞭解更多"
           }
         }
       }
@@ -6444,6 +7848,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享 App"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "分享 App"
@@ -6476,6 +7886,12 @@
             "state" : "translated",
             "value" : "App 密码"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 密碼"
+          }
         }
       }
     },
@@ -6497,6 +7913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "只会发送你打开 App 或结束对话的日期、创建目标等操作的类型、记录和目标的数量，以及是否查看过购买页面。你写下的内容一个字都不会外传，发送者仅通过在本设备上生成的随机编号来区分。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只會傳送你開啟 App 或結束對話的日期、建立目標等操作的型別、記錄和目標的數量，以及是否檢視過購買頁面。你寫下的內容一個字都不會外傳，傳送者僅透過在本裝置上生成的隨機編號來區分。"
           }
         }
       }
@@ -6522,6 +7944,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不吃夜宵"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不吃夜宵"
@@ -6554,6 +7982,12 @@
             "state" : "translated",
             "value" : "没忍住吃了夜宵。饿了，吃了拉面。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒忍住吃了夜宵。餓了，吃了拉麵。"
+          }
         }
       }
     },
@@ -6584,6 +8018,12 @@
             "state" : "translated",
             "value" : "记下结果如何"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記下結果如何"
+          }
         }
       }
     },
@@ -6611,6 +8051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "杂乱"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雜亂"
           }
         }
       }
@@ -6640,6 +8086,12 @@
             "state" : "translated",
             "value" : "昨天"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昨天"
+          }
         }
       }
     },
@@ -6664,6 +8116,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昨天留下"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "昨天留下"
@@ -6698,6 +8156,12 @@
             "state" : "translated",
             "value" : "你可以随时更改。更改后，小石子会用新的语气重新跟你打招呼。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你可以隨時更改。更改後，小石子會用新的語氣重新跟你打招呼。"
+          }
         }
       }
     },
@@ -6722,6 +8186,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不久前"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不久前"
@@ -6754,6 +8224,12 @@
             "state" : "translated",
             "value" : "不久前"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不久前"
+          }
         }
       }
     },
@@ -6781,6 +8257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我在这儿。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在這兒。"
           }
         }
       }
@@ -6812,6 +8294,12 @@
             "state" : "translated",
             "value" : "今天就到这里。\n心累的日子定的计划，往往很难坚持。\n已经留下了，没关系。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天就到這裡。\n心累的日子定的計劃，往往很難堅持。\n已經留下了，沒關係。"
+          }
         }
       }
     },
@@ -6841,6 +8329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刚才说的是发生了什么。现在心里是什么感觉？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剛才說的是發生了什麼。現在心裡是什麼感覺？"
           }
         }
       }
@@ -6872,6 +8366,12 @@
             "state" : "translated",
             "value" : "从这里聊起"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從這裡聊起"
+          }
         }
       }
     },
@@ -6899,6 +8399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "热情"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱情"
           }
         }
       }
@@ -6928,6 +8434,12 @@
             "state" : "translated",
             "value" : "想学英语，结果拖着没学。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "想學英語，結果拖著沒學。"
+          }
         }
       }
     },
@@ -6955,6 +8467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "学英语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "學英語"
           }
         }
       }
@@ -6984,6 +8502,12 @@
             "state" : "translated",
             "value" : "提高英语水平"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提高英語水平"
+          }
         }
       }
     },
@@ -7012,6 +8536,12 @@
             "state" : "translated",
             "value" : "边听英语播客边上班！比想象中有意思。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "邊聽英語播客邊上班！比想象中有意思。"
+          }
         }
       }
     },
@@ -7036,6 +8566,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天"
@@ -7068,6 +8604,12 @@
             "state" : "translated",
             "value" : "今天「%@」，你做到了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天「%@」，你做到了。"
+          }
         }
       }
     },
@@ -7092,6 +8634,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天「%@」，你做到了。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天「%@」，你做到了。"
@@ -7124,6 +8672,12 @@
             "state" : "translated",
             "value" : "今天还没有关于「%1$@」的消息。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天還沒有關於「%1$@」的訊息。%2$@"
+          }
         }
       }
     },
@@ -7151,6 +8705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天还没有关于「%1$@」的消息。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天還沒有關於「%1$@」的訊息。%2$@"
           }
         }
       }
@@ -7180,6 +8740,12 @@
             "state" : "translated",
             "value" : "今天你走到了「%@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天你走到了「%@」。"
+          }
         }
       }
     },
@@ -7204,6 +8770,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天你走到了「%@」。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天你走到了「%@」。"
@@ -7238,6 +8810,12 @@
             "state" : "translated",
             "value" : "去留下今天的记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "去留下今天的記錄"
+          }
         }
       }
     },
@@ -7262,6 +8840,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天留下"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天留下"
@@ -7294,6 +8878,12 @@
             "state" : "translated",
             "value" : "我们回头看看今天过得怎么样好吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們回頭看看今天過得怎麼樣好嗎？"
+          }
         }
       }
     },
@@ -7323,6 +8913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天我就安安静静陪在你身边。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天我就安安靜靜陪在你身邊。"
           }
         }
       }
@@ -7354,6 +8950,12 @@
             "state" : "translated",
             "value" : "今天就到这里吧。\n现在休息比找答案更重要。\n已经写下来了，不会消失的。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天就到這裡吧。\n現在休息比找答案更重要。\n已經寫下來了，不會消失的。"
+          }
         }
       }
     },
@@ -7383,6 +8985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今天就在这里停一停。\n现在不用硬想出答案。\n已经保存好了，下次我们一起看。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天就在這裡停一停。\n現在不用硬想出答案。\n已經儲存好了，下次我們一起看。"
           }
         }
       }
@@ -7414,6 +9022,12 @@
             "state" : "translated",
             "value" : "今天有这一件就足够了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天有這一件就足夠了。"
+          }
         }
       }
     },
@@ -7444,6 +9058,12 @@
             "state" : "translated",
             "value" : "今天我安静待着。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今天我安靜待著。"
+          }
         }
       }
     },
@@ -7468,6 +9088,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "很久以前留下"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "很久以前留下"
@@ -7500,6 +9126,12 @@
             "state" : "translated",
             "value" : "勇敢"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "勇敢"
+          }
         }
       }
     },
@@ -7527,6 +9159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "运动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動"
           }
         }
       }
@@ -7556,6 +9194,12 @@
             "state" : "translated",
             "value" : "去运动了，但中途放弃回来了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "去運動了，但中途放棄回來了。"
+          }
         }
       }
     },
@@ -7584,6 +9228,12 @@
             "state" : "translated",
             "value" : "干劲十足"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幹勁十足"
+          }
         }
       }
     },
@@ -7611,6 +9261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这台设备上无法使用整理功能。我会按听到的原样记下来。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這臺裝置上無法使用整理功能。我會按聽到的原樣記下來。"
           }
         }
       }
@@ -7642,6 +9298,12 @@
             "state" : "translated",
             "value" : "要删除这条记录吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要刪除這條記錄嗎？"
+          }
         }
       }
     },
@@ -7672,6 +9334,12 @@
             "state" : "translated",
             "value" : "这是两回事。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是兩回事。"
+          }
         }
       }
     },
@@ -7696,6 +9364,12 @@
             "state" : "translated",
             "value" : "这个目标下留下的记录也会跟着新名称。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這個目標下留下的記錄也會跟著新名稱。"
+          }
         }
       }
     },
@@ -7717,6 +9391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "聊聊这个目标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聊聊這個目標"
           }
         }
       }
@@ -7741,6 +9421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要放下这个目标吗？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要放下這個目標嗎？"
           }
         }
       }
@@ -7772,6 +9458,12 @@
             "state" : "translated",
             "value" : "聊聊这件事"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聊聊這件事"
+          }
         }
       }
     },
@@ -7801,6 +9493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把它再拆小一点，会是什么？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把它再拆小一點，會是什麼？"
           }
         }
       }
@@ -7832,6 +9530,12 @@
             "state" : "translated",
             "value" : "从这个开始"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從這個開始"
+          }
         }
       }
     },
@@ -7861,6 +9565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "就用这个记下来。明天只做到这里。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就用這個記下來。明天只做到這裡。"
           }
         }
       }
@@ -7892,6 +9602,12 @@
             "state" : "translated",
             "value" : "就用这个"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就用這個"
+          }
         }
       }
     },
@@ -7913,6 +9629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "苔藓石"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "苔蘚石"
           }
         }
       }
@@ -7944,6 +9666,12 @@
             "state" : "translated",
             "value" : "这一天过去了。不过石头还在原地。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這一天過去了。不過石頭還在原地。"
+          }
         }
       }
     },
@@ -7973,6 +9701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保持原样"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保持原樣"
           }
         }
       }
@@ -8004,6 +9738,12 @@
             "state" : "translated",
             "value" : "这样修改"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這樣修改"
+          }
         }
       }
     },
@@ -8025,6 +9765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重命名"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新命名"
           }
         }
       }
@@ -8053,6 +9799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本周"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本週"
           }
         }
       }
@@ -8083,6 +9835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这次有什么不一样？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這次有什麼不一樣？"
           }
         }
       }
@@ -8138,6 +9896,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld 条更早的记录已折叠。"
+                }
+              }
+            }
+          }
+        },
+        "zh-Hant" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 條更早的記錄已摺疊。"
                 }
               }
             }
@@ -8200,6 +9970,18 @@
               }
             }
           }
+        },
+        "zh-Hant" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 條更早的記錄已摺疊。"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -8221,6 +10003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发送匿名使用统计"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳送匿名使用統計"
           }
         }
       }
@@ -8250,6 +10038,12 @@
             "state" : "translated",
             "value" : "一般"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
         }
       }
     },
@@ -8274,6 +10068,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日常"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "日常"
@@ -8308,6 +10108,12 @@
             "state" : "translated",
             "value" : "我忘了"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我忘了"
+          }
         }
       }
     },
@@ -8338,6 +10144,12 @@
             "state" : "translated",
             "value" : "趁没忘先记下来"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "趁沒忘先記下來"
+          }
         }
       }
     },
@@ -8362,6 +10174,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自我提升"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自我提升"
@@ -8396,6 +10214,12 @@
             "state" : "translated",
             "value" : "总是忍不住拖延"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "總是忍不住拖延"
+          }
         }
       }
     },
@@ -8420,6 +10244,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自豪"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自豪"
@@ -8452,6 +10282,12 @@
             "state" : "translated",
             "value" : "有了自信"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有了自信"
+          }
         }
       }
     },
@@ -8480,6 +10316,12 @@
             "state" : "translated",
             "value" : "自责"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自責"
+          }
         }
       }
     },
@@ -8506,6 +10348,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再小也好。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "再小也好。"
@@ -8540,6 +10388,12 @@
             "state" : "translated",
             "value" : "越小越好。5 分钟也没关系。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "越小越好。5 分鐘也沒關係。"
+          }
         }
       }
     },
@@ -8569,6 +10423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已经好好记下了。下次再卡住时，我会把它拿出来给你看。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已經好好記下了。下次再卡住時，我會把它拿出來給你看。"
           }
         }
       }
@@ -8600,6 +10460,12 @@
             "state" : "translated",
             "value" : "太好了。我现在就留下。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "太好了。我現在就留下。"
+          }
         }
       }
     },
@@ -8630,6 +10496,12 @@
             "state" : "translated",
             "value" : "聊一会儿吧"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聊一會兒吧"
+          }
         }
       }
     },
@@ -8651,6 +10523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请稍后再试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請稍後再試。"
           }
         }
       }
@@ -8679,6 +10557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有写下的目标"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有寫下的目標"
           }
         }
       }
@@ -8710,6 +10594,12 @@
             "state" : "translated",
             "value" : "已记下。明天就做这么多吧。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已記下。明天就做這麼多吧。"
+          }
         }
       }
     },
@@ -8739,6 +10629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已记下。下次在类似的地方卡住时，我会拿给你看。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已記下。下次在類似的地方卡住時，我會拿給你看。"
           }
         }
       }
@@ -8770,6 +10666,12 @@
             "state" : "translated",
             "value" : "已记下。就这么多就够了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已記下。就這麼多就夠了。"
+          }
         }
       }
     },
@@ -8800,6 +10702,12 @@
             "state" : "translated",
             "value" : "我来写"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我來寫"
+          }
         }
       }
     },
@@ -8827,6 +10735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "绝望"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絕望"
           }
         }
       }
@@ -8856,6 +10770,12 @@
             "state" : "translated",
             "value" : "我正在准备整理功能。现在先按听到的原样记下来。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我正在準備整理功能。現在先按聽到的原樣記下來。"
+          }
         }
       }
     },
@@ -8882,6 +10802,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在整理……"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在整理……"
@@ -8916,6 +10842,12 @@
             "state" : "translated",
             "value" : "我来整理一下。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我來整理一下。"
+          }
         }
       }
     },
@@ -8944,6 +10876,12 @@
             "state" : "translated",
             "value" : "真的要删除密码并降低安全性吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "真的要刪除密碼並降低安全性嗎？"
+          }
         }
       }
     },
@@ -8966,6 +10904,12 @@
             "state" : "translated",
             "value" : "真的要全部删除吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "真的要全部刪除嗎？"
+          }
         }
       }
     },
@@ -8987,6 +10931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "贝壳"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貝殼"
           }
         }
       }
@@ -9018,6 +10968,12 @@
             "state" : "translated",
             "value" : "不太对"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不太對"
+          }
         }
       }
     },
@@ -9046,6 +11002,12 @@
             "state" : "translated",
             "value" : "小石子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石子"
+          }
         }
       }
     },
@@ -9068,6 +11030,12 @@
             "state" : "translated",
             "value" : "挑选小石子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "挑選小石子"
+          }
         }
       }
     },
@@ -9089,6 +11057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以从六种小石子质感中挑选"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以從六種小石子質感中挑選"
           }
         }
       }
@@ -9114,6 +11088,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石子在思考"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "小石子在思考"
@@ -9148,6 +11128,12 @@
             "state" : "translated",
             "value" : "你可以在「设置」中决定小石子对你说话的语气。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你可以在「設定」中決定小石子對你說話的語氣。"
+          }
         }
       }
     },
@@ -9174,6 +11160,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "好"
@@ -9206,6 +11198,12 @@
             "state" : "translated",
             "value" : "受挫"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "受挫"
+          }
         }
       }
     },
@@ -9233,6 +11231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "平静"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平靜"
           }
         }
       }
@@ -9264,6 +11268,12 @@
             "state" : "translated",
             "value" : "现在就聊聊"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在就聊聊"
+          }
         }
       }
     },
@@ -9294,6 +11304,12 @@
             "state" : "translated",
             "value" : "如果有正朝着前进的事，可以讲一件给我听吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果有正朝著前進的事，可以講一件給我聽嗎？"
+          }
         }
       }
     },
@@ -9322,6 +11338,12 @@
             "state" : "translated",
             "value" : "正在前进的方向"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在前進的方向"
+          }
         }
       }
     },
@@ -9344,6 +11366,12 @@
             "state" : "translated",
             "value" : "你已经在朝着 %lld 个方向前进了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你已經在朝著 %lld 個方向前進了。"
+          }
         }
       }
     },
@@ -9365,6 +11393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你已经在朝着 %lld 个方向前进了。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你已經在朝著 %lld 個方向前進了。"
           }
         }
       }
@@ -9389,6 +11423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先放着吧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先放著吧"
           }
         }
       }
@@ -9420,6 +11460,12 @@
             "state" : "translated",
             "value" : "我想先放着"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我想先放著"
+          }
         }
       }
     },
@@ -9447,6 +11493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "现在听不清楚。直接写下来也可以。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在聽不清楚。直接寫下來也可以。"
           }
         }
       }
@@ -9478,6 +11530,12 @@
             "state" : "translated",
             "value" : "现在怎么样了？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在怎麼樣了？"
+          }
         }
       }
     },
@@ -9505,6 +11563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "现在无法使用整理功能。我会按听到的原样记下来。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在無法使用整理功能。我會按聽到的原樣記下來。"
           }
         }
       }
@@ -9534,6 +11598,12 @@
             "state" : "translated",
             "value" : "走过的路"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "走過的路"
+          }
         }
       }
     },
@@ -9556,6 +11626,12 @@
             "state" : "translated",
             "value" : "把写下的所有记录保存为文本文件。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把寫下的所有記錄儲存為文字檔。"
+          }
         }
       }
     },
@@ -9577,6 +11653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "把记录导出为文件"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把記錄匯出為檔案"
           }
         }
       }
@@ -9606,6 +11688,12 @@
             "state" : "translated",
             "value" : "你上次的记录里写着「%@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你上次的記錄裡寫著「%@」。"
+          }
         }
       }
     },
@@ -9633,6 +11721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你上次的记录里写着「%@」。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你上次的記錄裡寫著「%@」。"
           }
         }
       }
@@ -9662,6 +11756,12 @@
             "state" : "translated",
             "value" : "上次你决定了「%1$@」。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次你決定了「%1$@」。%2$@"
+          }
         }
       }
     },
@@ -9689,6 +11789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上次你决定了「%1$@」。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次你決定了「%1$@」。%2$@"
           }
         }
       }
@@ -9718,6 +11824,12 @@
             "state" : "translated",
             "value" : "上次你打算试试「%1$@」。%2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次你打算試試「%1$@」。%2$@"
+          }
         }
       }
     },
@@ -9745,6 +11857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上次你打算试试「%1$@」。%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次你打算試試「%1$@」。%2$@"
           }
         }
       }
@@ -9774,6 +11892,12 @@
             "state" : "translated",
             "value" : "上次你写的是「%@」。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次你寫的是「%@」。"
+          }
         }
       }
     },
@@ -9801,6 +11925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上次你写的是「%@」。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次你寫的是「%@」。"
           }
         }
       }
@@ -9830,6 +11960,12 @@
             "state" : "translated",
             "value" : "上周"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上週"
+          }
         }
       }
     },
@@ -9857,6 +11993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上周"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上週"
           }
         }
       }
@@ -9886,6 +12028,12 @@
             "state" : "translated",
             "value" : "上周前后"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上週前後"
+          }
         }
       }
     },
@@ -9914,6 +12062,12 @@
             "state" : "translated",
             "value" : "无聊"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無聊"
+          }
         }
       }
     },
@@ -9941,6 +12095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
           }
         }
       }
@@ -9972,6 +12132,12 @@
             "state" : "translated",
             "value" : "删除后无法恢复。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除後無法恢復。"
+          }
         }
       }
     },
@@ -9993,6 +12159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除失败。请稍后再试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除失敗。請稍後再試。"
           }
         }
       }
@@ -10022,6 +12194,12 @@
             "state" : "translated",
             "value" : "支持与隐私"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援與隱私"
+          }
         }
       }
     },
@@ -10050,6 +12228,12 @@
             "state" : "translated",
             "value" : "ZinggumDol"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
         }
       }
     },
@@ -10072,6 +12256,12 @@
             "state" : "translated",
             "value" : "ZinggumDol 记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol 記錄"
+          }
         }
       }
     },
@@ -10090,6 +12280,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -10115,6 +12311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你正在使用 ZinggumDol Pro。谢谢你。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你正在使用 ZinggumDol Pro。謝謝你。"
           }
         }
       }
@@ -10144,6 +12346,12 @@
             "state" : "translated",
             "value" : "烦躁"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煩躁"
+          }
         }
       }
     },
@@ -10165,6 +12373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "几个字就够了。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幾個字就夠了。"
           }
         }
       }
@@ -10196,6 +12410,12 @@
             "state" : "translated",
             "value" : "几个字也没关系，只写当时发生了什么。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幾個字也沒關係，只寫當時發生了什麼。"
+          }
         }
       }
     },
@@ -10223,6 +12443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "读了 30 分钟书，很专注。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讀了 30 分鐘書，很專注。"
           }
         }
       }
@@ -10252,6 +12478,12 @@
             "state" : "translated",
             "value" : "锻炼体力"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍛鍊體力"
+          }
         }
       }
     },
@@ -10276,6 +12508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -10310,6 +12548,12 @@
             "state" : "translated",
             "value" : "写得大一点也没关系。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寫得大一點也沒關係。"
+          }
         }
       }
     },
@@ -10331,6 +12575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "轻点，或来回摩挲，就能摸摸它"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輕點，或來回摩挲，就能摸摸它"
           }
         }
       }
@@ -10360,6 +12610,12 @@
             "state" : "translated",
             "value" : "具有破坏性"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "具有破壞性"
+          }
         }
       }
     },
@@ -10387,6 +12643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放松"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放鬆"
           }
         }
       }
@@ -10418,6 +12680,12 @@
             "state" : "translated",
             "value" : "按你觉得舒服的来"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按你覺得舒服的來"
+          }
         }
       }
     },
@@ -10442,6 +12710,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "普通"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "普通"
@@ -10474,6 +12748,12 @@
             "state" : "translated",
             "value" : "为 App 评分"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為 App 評分"
+          }
         }
       }
     },
@@ -10492,6 +12772,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -10520,6 +12806,12 @@
             "state" : "translated",
             "value" : "想要添加更多，就用 Pro"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "想要新增更多，就用 Pro"
+          }
         }
       }
     },
@@ -10541,6 +12833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro 版解锁"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro 版解鎖"
           }
         }
       }
@@ -10569,6 +12867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "疲惫"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "疲憊"
           }
         }
       }
@@ -10600,6 +12904,12 @@
             "state" : "translated",
             "value" : "一件是发生的事，一件是现在的心情。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一件是發生的事，一件是現在的心情。"
+          }
         }
       }
     },
@@ -10621,6 +12931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一次购买，长久使用。不是订阅"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次購買，長久使用。不是訂閱"
           }
         }
       }
@@ -10646,6 +12962,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "很久以前"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "很久以前"
@@ -10680,6 +13002,12 @@
             "state" : "translated",
             "value" : "做了，只是没记下来"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做了，只是沒記下來"
+          }
         }
       }
     },
@@ -10710,6 +13038,12 @@
             "state" : "translated",
             "value" : "做了，只是没记下来"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "做了，只是沒記下來"
+          }
         }
       }
     },
@@ -10734,6 +13068,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幸福"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "幸福"
@@ -10768,6 +13108,12 @@
             "state" : "translated",
             "value" : "我还没听到你前进的方向呢。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我還沒聽到你前進的方向呢。"
+          }
         }
       }
     },
@@ -10789,6 +13135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "朝着多个方向前进也没关系。目标的数量不限。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝著多個方向前進也沒關係。目標的數量不限。"
           }
         }
       }
@@ -10817,6 +13169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "厌恶"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "厭惡"
           }
         }
       }
@@ -10848,6 +13206,12 @@
             "state" : "translated",
             "value" : "你是不是想说这个意思？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是不是想說這個意思？"
+          }
         }
       }
     },
@@ -10876,6 +13240,12 @@
             "state" : "translated",
             "value" : "确定"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確定"
+          }
         }
       }
     },
@@ -10898,6 +13268,12 @@
             "state" : "translated",
             "value" : "请输入「%@」以确认。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入「%@」以確認。"
+          }
         }
       }
     },
@@ -10918,6 +13294,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嘿嘿"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "嘿嘿"
@@ -10946,6 +13328,12 @@
             "state" : "translated",
             "value" : "嗯？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嗯？"
+          }
         }
       }
     },
@@ -10969,6 +13357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我在这儿"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在這兒"
           }
         }
       }
@@ -10994,6 +13388,12 @@
             "state" : "translated",
             "value" : "叫我吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "叫我嗎？"
+          }
         }
       }
     },
@@ -11017,6 +13417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "嘻嘻，好痒！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嘻嘻，好癢！"
           }
         }
       }
@@ -11042,6 +13448,12 @@
             "state" : "translated",
             "value" : "痒痒的"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "癢癢的"
+          }
         }
       }
     },
@@ -11066,6 +13478,12 @@
             "state" : "translated",
             "value" : "别闹了，嘻嘻"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別鬧了，嘻嘻"
+          }
         }
       }
     },
@@ -11086,6 +13504,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好舒服……"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "好舒服……"
@@ -11114,6 +13538,12 @@
             "state" : "translated",
             "value" : "温暖"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫暖"
+          }
         }
       }
     },
@@ -11134,6 +13564,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "晃晃悠悠……"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "晃晃悠悠……"
@@ -11162,6 +13598,12 @@
             "state" : "translated",
             "value" : "头好晕……"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "頭好暈……"
+          }
         }
       }
     },
@@ -11185,6 +13627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "转啊转……"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉啊轉……"
           }
         }
       }

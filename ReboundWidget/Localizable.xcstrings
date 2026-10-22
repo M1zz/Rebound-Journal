@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "河石"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "河石"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "陪在你身边"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "陪在你身邊"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state" : "translated",
             "value" : "开心"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開心"
+          }
         }
       }
     },
@@ -82,6 +100,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "晚霞石"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "晚霞石"
@@ -108,6 +132,12 @@
             "state" : "translated",
             "value" : "我在听"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在聽"
+          }
         }
       }
     },
@@ -126,6 +156,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "墨石"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "墨石"
@@ -152,6 +188,12 @@
             "state" : "translated",
             "value" : "沙粒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沙粒"
+          }
         }
       }
     },
@@ -170,6 +212,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在想"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "在想"
@@ -196,6 +244,12 @@
             "state" : "translated",
             "value" : "我在这儿。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在這兒。"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "去留下今天的记录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "去留下今天的記錄"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state" : "translated",
             "value" : "苔藓石"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "苔蘚石"
+          }
         }
       }
     },
@@ -262,6 +328,12 @@
             "state" : "translated",
             "value" : "贝壳"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貝殼"
+          }
         }
       }
     },
@@ -280,6 +352,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石子"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "小石子"
@@ -314,6 +392,12 @@
             "state" : "translated",
             "value" : "小石子带来的一句话。轻点即可留下今天的记录。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石子帶來的一句話。輕點即可留下今天的記錄。"
+          }
         }
       }
     },
@@ -340,6 +424,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
