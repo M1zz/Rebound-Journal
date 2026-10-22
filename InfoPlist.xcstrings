@@ -11,6 +11,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -102,6 +108,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -202,6 +214,12 @@
             "value" : "Mikrofon se používá, abyste si mohli den zrekapitulovat hlasem jako při rozhovoru. Nahrávky se neukládají; v zařízení zůstane jen přepsaný text."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen bruges, så du let kan se tilbage på dagen med stemmen, som i en samtale. Optagelser gemmes ikke; kun den transskriberede tekst bliver på din enhed."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -295,6 +313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slouží k převodu toho, co řeknete, na text. Rozpoznávání probíhá na vašem zařízení a nic z něj neodchází."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruges til at omsætte det, du siger, til tekst. Genkendelsen sker på din enhed og forlader den ikke."
           }
         },
         "de" : {

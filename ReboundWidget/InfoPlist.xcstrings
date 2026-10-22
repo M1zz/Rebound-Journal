@@ -10,6 +10,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -100,6 +106,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

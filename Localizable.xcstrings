@@ -9,6 +9,12 @@
             "value" : "  Nálada: %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Humør: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Další krok: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Næste skridt: %@"
           }
         },
         "de" : {
@@ -185,6 +197,12 @@
             "value" : "  Co se stalo: %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Hvad der skete: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -271,6 +289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co ti stálo v cestě u „%@“?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad kom i vejen ved „%@“?"
           }
         },
         "de" : {
@@ -367,6 +391,12 @@
             "value" : "Co vám stálo v cestě u „%@“?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad kom i vejen ved „%@“?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -459,6 +489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Od našeho rozhovoru o „%1$@“ uplynulo dní: %2$lld."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er gået %2$lld dage, siden vi talte om „%1$@“."
           }
         },
         "de" : {
@@ -555,6 +591,12 @@
             "value" : "Od našeho rozhovoru o „%1$@“ uplynulo dní: %2$lld."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er gået %2$lld dage, siden vi talte om „%1$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -647,6 +689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%@“ – dnes zatím nic."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ – der er stadig ingenting i dag."
           }
         },
         "de" : {
@@ -743,6 +791,12 @@
             "value" : "„%@“ – dnes zatím nic."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ – der er stadig ingenting i dag."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -835,6 +889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ je ticho už dní: %3$lld."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ der har været stille i %3$lld dage."
           }
         },
         "de" : {
@@ -931,6 +991,12 @@
             "value" : "„%1$@“%2$@ je ticho už dní: %3$lld."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ der har været stille i %3$lld dage."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1023,6 +1089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ naposledy ses na to díval před dny: %3$lld."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du har ikke kigget på det i %3$lld dage."
           }
         },
         "de" : {
@@ -1119,6 +1191,12 @@
             "value" : "„%1$@“%2$@ naposledy jste se na to dívali před dny: %3$lld."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ det er %3$lld dage siden, du sidst kiggede på det."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1211,6 +1289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ dnes ses tam ještě nedostal."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du er ikke nået dertil endnu i dag."
           }
         },
         "de" : {
@@ -1307,6 +1391,12 @@
             "value" : "„%1$@“%2$@ dnes jste se tam ještě nedostali."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du er ikke nået dertil endnu i dag."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1399,6 +1489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ zapsal sis to, ale ještě ses k tomu nevrátil."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du har skrevet det ned, men ikke set på det igen."
           }
         },
         "de" : {
@@ -1495,6 +1591,12 @@
             "value" : "„%1$@“%2$@ zapsali jste si to, ale ještě jste se k tomu nevrátili."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du har skrevet det ned, men ikke set på det igen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1587,6 +1689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ jen jsi to zapsal a zatím je to tak."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du har kun skrevet det ned, og så er der ikke sket mere."
           }
         },
         "de" : {
@@ -1683,6 +1791,12 @@
             "value" : "„%1$@“%2$@ jen jste to zapsali a zatím je to tak."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du har kun skrevet det ned, og så er der ikke sket mere."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1775,6 +1889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ od zápisu je zatím ticho."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ siden du skrev det ned, har der været stille."
           }
         },
         "de" : {
@@ -1871,6 +1991,12 @@
             "value" : "„%1$@“%2$@ od zápisu je zatím ticho."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ siden du skrev det ned, har der været stille."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1963,6 +2089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ vraťme se k chvíli, kdy sis to chtěl udělat. Co se zaseklo?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ lad os gå tilbage til dengang, du ville til det. Hvad gik i stå?"
           }
         },
         "de" : {
@@ -2059,6 +2191,12 @@
             "value" : "„%1$@“%2$@ vraťme se k chvíli, kdy jste si to chtěli udělat. Co se zaseklo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ lad os gå tilbage til det tidspunkt, hvor du ville i gang. Hvad gik i stå?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2151,6 +2289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "U „%1$@“ ses dostal až k: %2$@."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved „%1$@“ nåede du til %2$@."
           }
         },
         "de" : {
@@ -2247,6 +2391,12 @@
             "value" : "U „%1$@“ jste se dostali až k: %2$@."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved „%1$@“ nåede du til %2$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2339,6 +2489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To byl den, kdy ses dostal k „%@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var dagen, du nåede „%@“."
           }
         },
         "de" : {
@@ -2435,6 +2591,12 @@
             "value" : "To byl den, kdy jste se dostali k „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var dagen, du nåede „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2529,6 +2691,12 @@
             "value" : "O „%1$@“ jsi %2$@ napsal: „%3$@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om „%1$@“ skrev du %2$@: „%3$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2621,6 +2789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O „%1$@“ jste %2$@ napsali: „%3$@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om „%1$@“ skrev du %2$@: „%3$@“."
           }
         },
         "de" : {
@@ -2719,6 +2893,12 @@
             "value" : "Pusťte jeden cíl v části „Ušlá cesta“ a můžete zapsat nový."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slip ét mål under „Vejen hidtil“, så kan du skrive et nyt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2805,6 +2985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nZaseklo se to na: „%2$@“,\na teď se cítíš: „%3$@“%4$@.\n\n%5$@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nDet, der stod i vejen, var „%2$@“,\nog lige nu føler du dig „%3$@“%4$@.\n\n%5$@"
           }
         },
         "de" : {
@@ -2901,6 +3087,12 @@
             "value" : "%1$@ Když šlo o „%2$@“, nechal jsi tu: „%3$@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Da du talte om „%2$@“, efterlod du: „%3$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2993,6 +3185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Když šlo o „%2$@“, nechali jste tu: „%3$@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Da du talte om „%2$@“, efterlod du: „%3$@“."
           }
         },
         "de" : {
@@ -3089,6 +3287,12 @@
             "value" : "%1$@ O „%2$@“%3$@ jste řekli: „%4$@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Om „%2$@“%3$@ sagde du: „%4$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3181,6 +3385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ O „%2$@“%3$@ jsi řekl: „%4$@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Om „%2$@“%3$@ sagde du jo: „%4$@“."
           }
         },
         "de" : {
@@ -3277,6 +3487,12 @@
             "value" : "%1$@ Řekli jste, že se „%2$@“%3$@ zaseklo."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du sagde, at „%2$@“%3$@ gik i hårdknude."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3369,6 +3585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Řekl jsi, že se „%2$@“%3$@ zaseklo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du sagde jo, at „%2$@“%3$@ gik i hårdknude."
           }
         },
         "de" : {
@@ -3465,6 +3687,12 @@
             "value" : "%1$@ „%2$@“%3$@ se vám povedlo."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarede „%2$@“%3$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3557,6 +3785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ „%2$@“%3$@ se ti povedlo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarede da „%2$@“%3$@."
           }
         },
         "de" : {
@@ -3653,6 +3887,12 @@
             "value" : "%1$@ ses dostal k „%2$@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nåede du „%2$@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3745,6 +3985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ jste se dostali k „%2$@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nåede du „%2$@“."
           }
         },
         "de" : {
@@ -3841,6 +4087,12 @@
             "value" : "%1$@ sis poznamenal, že tě zastavilo „%2$@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ skrev du, at „%2$@“ stod i vejen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3933,6 +4185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ jste si poznamenali, že vás zastavilo „%2$@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ skrev du, at „%2$@“ stod i vejen."
           }
         },
         "de" : {
@@ -4029,6 +4287,12 @@
             "value" : "Týden od %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ugen fra %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4121,6 +4385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, den se záznamem"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag med notat"
           }
         },
         "de" : {
@@ -4217,6 +4487,12 @@
             "value" : "%@, bez záznamu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, intet notat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4309,6 +4585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, den, kdy byl cíl splněn"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag hvor målet blev nået"
           }
         },
         "de" : {
@@ -4405,6 +4687,12 @@
             "value" : "%@, den, který ještě nenastal"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag der ikke er kommet endnu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4497,6 +4785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ „%2$@“%3$@ se vám přece povedlo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarede da „%2$@“%3$@."
           }
         },
         "de" : {
@@ -4593,6 +4887,12 @@
             "value" : "%1$@ „%2$@“%3$@ se ti přece povedlo."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarede jo „%2$@“%3$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4685,6 +4985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ se vám povedlo „%2$@“%3$@."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ klarede du „%2$@“%3$@."
           }
         },
         "de" : {
@@ -4781,6 +5087,12 @@
             "value" : "%1$@ se ti povedlo „%2$@“%3$@."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ klarede du „%2$@“%3$@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4873,6 +5185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ ses dostal k „%2$@“,"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nåede du „%2$@“,"
           }
         },
         "de" : {
@@ -4969,6 +5287,12 @@
             "value" : "%1$@ jste se dostali k „%2$@“,"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nåede du „%2$@“,"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5058,6 +5382,12 @@
     "%lld" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -5155,6 +5485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld. %1$lld."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
           }
         },
         "de" : {
@@ -5270,6 +5606,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Před %lld dny"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "For %lld dag siden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "For %lld dage siden"
                 }
               }
             }
@@ -5555,6 +5909,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld dag siden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld dage siden"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -5835,6 +6207,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld uge siden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld uger siden"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -6091,6 +6481,12 @@
             "value" : "|"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6187,6 +6583,12 @@
             "value" : "Skleslost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lidt nede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6279,6 +6681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začít lehkým protažením"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starte med lidt blid udstrækning"
           }
         },
         "de" : {
@@ -6375,6 +6783,12 @@
             "value" : "Vděčnost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taknemmelig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6469,6 +6883,12 @@
             "value" : "Říční oblázek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flodsten"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6555,6 +6975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cíl se stejným názvem už existuje"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der findes allerede et mål med det navn"
           }
         },
         "de" : {
@@ -6645,6 +7071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro vývojáře"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Til udvikleren"
           }
         },
         "de" : {
@@ -6741,6 +7173,12 @@
             "value" : "Napsat vývojáři"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv til udvikleren"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6835,6 +7273,12 @@
             "value" : "Odemkne se dalších pět kamenů, jako by je někdo posbíral u potoka."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fem sten mere bliver låst op, som var de samlet op ved bækken."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6921,6 +7365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zásady ochrany soukromí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privatlivspolitik"
           }
         },
         "de" : {
@@ -7017,6 +7467,12 @@
             "value" : "Zdraví"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sundhed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7111,6 +7567,12 @@
             "value" : "Po tvém boku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved din side"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7203,6 +7665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upravit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger"
           }
         },
         "de" : {
@@ -7301,6 +7769,12 @@
             "value" : "V pohodě"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okay"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7397,6 +7871,12 @@
             "value" : "To nevadí. Jen si toho nikdo nevšiml."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er helt i orden. Det faldt bare ikke i øjnene."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7489,6 +7969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trápení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plaget"
           }
         },
         "de" : {
@@ -7585,6 +8071,12 @@
             "value" : "Obnovit nákupy"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gendan køb"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7671,6 +8163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pravidelný režim"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regelmæssigt liv"
           }
         },
         "de" : {
@@ -7769,6 +8267,12 @@
             "value" : "A jak to bylo potom?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan gik det så bagefter?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7863,6 +8367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To byla situace. A jak se cítíš teď?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var situationen. Hvordan har du det nu?"
           }
         },
         "de" : {
@@ -7961,6 +8471,12 @@
             "value" : "Jak to dopadlo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan endte det?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8055,6 +8571,12 @@
             "value" : "Jaký byl ten den"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan var dagen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8143,6 +8665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nechám to tak"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lader det være"
           }
         },
         "de" : {
@@ -8239,6 +8767,12 @@
             "value" : "Tehdy jste říkali, že zkusíte „%1$@“.%2$@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengang sagde du, at du ville prøve „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8331,6 +8865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tehdy jsi říkal, že zkusíš „%1$@“.%2$@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengang sagde du, at du ville prøve „%1$@“.%2$@"
           }
         },
         "de" : {
@@ -8427,6 +8967,12 @@
             "value" : "Nálada tehdy"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humøret dengang"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8515,6 +9061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co se tehdy stalo?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad skete der dengang?"
           }
         },
         "de" : {
@@ -8613,6 +9165,12 @@
             "value" : "Mluvit o tehdejší době"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tale om dengang"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8707,6 +9265,12 @@
             "value" : "Tehdy jste řekli: „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengang sagde du: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8799,6 +9363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tehdy jsi řekl: „%@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengang sagde du: „%@“."
           }
         },
         "de" : {
@@ -8897,6 +9467,12 @@
             "value" : "Dobře. Popovídáme si jindy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okay. Vi snakker en anden gang."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8991,6 +9567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tak to bylo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan var det"
           }
         },
         "de" : {
@@ -9089,6 +9671,12 @@
             "value" : "To se stává. Že jste na to zapomněli, neznamená, že to zmizelo."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan ske. At glemme betyder ikke, at det forsvinder."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9185,6 +9773,12 @@
             "value" : "To se stává. Zapomenuté je zapomenuté."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan ske. Glemt er glemt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9279,6 +9873,12 @@
             "value" : "Tak co je na cestě k „%1$@“%2$@ jedna malá věc, kterou zvládneš už zítra?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvilken ene lille ting på vejen mod „%1$@“%2$@ kan du nå allerede i morgen?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9371,6 +9971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tak co je na cestě k „%1$@“%2$@ jedna malá věc, kterou zvládnete už zítra?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvilken ene lille ting på vejen mod „%1$@“%2$@ kan du nå allerede i morgen?"
           }
         },
         "de" : {
@@ -9469,6 +10075,12 @@
             "value" : "Tak si o tom promluvme."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så lad os tale om det."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9563,6 +10175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pak je to uzavřené. Hned si to zapíšu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så er det afsluttet. Jeg skriver det ned nu."
           }
         },
         "de" : {
@@ -9661,6 +10279,12 @@
             "value" : "Pak to uzavřu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så runder jeg det af."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9757,6 +10381,12 @@
             "value" : "Co takhle: kdyby to bylo tak malé, že to zvládneš už zítra, co by to bylo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad med dette: hvis du gjorde det så lille, at du kunne klare det allerede i morgen, hvad ville det så være?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9849,6 +10479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zastavit čtení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop oplæsning"
           }
         },
         "de" : {
@@ -9947,6 +10583,12 @@
             "value" : "Ušlo to"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan lidt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10039,6 +10681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Natěšenost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forventningsfuld"
           }
         },
         "de" : {
@@ -10135,6 +10783,12 @@
             "value" : "Záznamy"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10221,6 +10875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportovat záznamy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportér noter"
           }
         },
         "de" : {
@@ -10311,6 +10971,12 @@
             "value" : "Záznamy se nepodařilo exportovat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine noter kunne ikke eksporteres"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10397,6 +11063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dobrá nálada"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godt humør"
           }
         },
         "de" : {
@@ -10493,6 +11165,12 @@
             "value" : "Radost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glad"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10585,6 +11263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Příšerně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forfærdelig"
           }
         },
         "de" : {
@@ -10683,6 +11367,12 @@
             "value" : "S ostatním není kam spěchat."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten haster ikke."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10777,6 +11467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ostatní odložíme a podíváme se jen na tohle."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi lægger resten væk og ser kun på det her."
           }
         },
         "de" : {
@@ -10875,6 +11571,12 @@
             "value" : "Na ostatní se můžeš podívat v klidu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten kan du se på i ro og mag."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10971,6 +11673,12 @@
             "value" : "Uloženo, ať nezapomeneš, co zabralo."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemt, så vi ikke glemmer det, der virkede."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11063,6 +11771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co jste zanechali"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det, du har efterladt"
           }
         },
         "de" : {
@@ -11161,6 +11875,12 @@
             "value" : "Zanechané záznamy zůstanou. Zmizí jen ze seznamu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efterladte noter bliver, som de er. Det forsvinder kun fra listen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11249,6 +11969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádná zanechaná slova."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen efterladte ord."
           }
         },
         "de" : {
@@ -11345,6 +12071,12 @@
             "value" : "Moje cíle"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mine mål"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11431,6 +12163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat můj oblázek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg min sten"
           }
         },
         "de" : {
@@ -11521,6 +12259,12 @@
             "value" : "Pustit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slip"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11607,6 +12351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportováno: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporteret: %@"
           }
         },
         "de" : {
@@ -11697,6 +12447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kdybyste zítra udělali jen jednu věc, jaká by to byla?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du i morgen kun gjorde én ting, hvad ville det så være?"
           }
         },
         "de" : {
@@ -11791,6 +12547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chlad"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kold"
           }
         },
         "de" : {
@@ -11889,6 +12651,12 @@
             "value" : "Ano"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11983,6 +12751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ano, nechám to tak."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jeg lader det være."
           }
         },
         "de" : {
@@ -12081,6 +12855,12 @@
             "value" : "Ano, nechám to tak. Jsem tu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jeg lader det være. Jeg er her."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12177,6 +12957,12 @@
             "value" : "Dobře, promluvíme si jindy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okay, så snakker vi en anden gang."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12271,6 +13057,12 @@
             "value" : "Kámen soumraku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aftenrødsten"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12359,6 +13151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Necháme ostatní být a podíváme se jen na tohle?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skal vi lade resten ligge og kun se på det her?"
           }
         },
         "de" : {
@@ -12457,6 +13255,12 @@
             "value" : "S ostatním v klidu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten tager vi i ro og mag."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12549,6 +13353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
           }
         },
         "de" : {
@@ -12647,6 +13457,12 @@
             "value" : "Zapíšu si to, aby se to dalo příště využít."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det ned, så det kan bruges igen næste gang."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12741,6 +13557,12 @@
             "value" : "Co zkusíte dál"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det, du vil prøve næste gang"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12827,6 +13649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieta"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slankekur"
           }
         },
         "de" : {
@@ -12921,6 +13749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zavřít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
           }
         },
         "de" : {
@@ -13019,6 +13853,12 @@
             "value" : "Zůstalo jen zapsáno „dostal jsem se tam“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der stod kun „nåede det“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13113,6 +13953,12 @@
             "value" : "Dostal jsem se tam"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg nåede det"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13201,6 +14047,12 @@
             "value" : "Nedostal jsem se tam"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg nåede det ikke"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13287,6 +14139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit si návyk čtení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en læsevane"
           }
         },
         "de" : {
@@ -13381,6 +14239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Číst"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læse"
           }
         },
         "de" : {
@@ -13479,6 +14343,12 @@
             "value" : "Poslouchám"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lytter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13573,6 +14443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Není moc co říct. Jsem tu prostě s vámi."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er ikke så meget at sige. Jeg er bare her."
           }
         },
         "de" : {
@@ -13671,6 +14547,12 @@
             "value" : "Když nic nenapadá, nech to prázdné. Později to najdeme spolu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du ikke kan komme i tanker om noget, kan du lade det stå tomt. Vi finder det sammen senere."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13763,6 +14645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mikrofon není k dispozici. Můžete to i napsat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen kan ikke bruges. Du kan også skrive."
           }
         },
         "de" : {
@@ -13859,6 +14747,12 @@
             "value" : "Spokojenost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilfreds"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13951,6 +14845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spokojený"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilfreds"
           }
         },
         "de" : {
@@ -14049,6 +14949,12 @@
             "value" : "Hodně těžké"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rigtig svært"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14143,6 +15049,12 @@
             "value" : "Odpovědět hlasem"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar med stemmen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14235,6 +15147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Způsob oslovení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiltaleform"
           }
         },
         "de" : {
@@ -14333,6 +15251,12 @@
             "value" : "Můžete si zvolit způsob oslovení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan vælge, hvordan der tales til dig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14427,6 +15351,12 @@
             "value" : "Zvuk při mluvení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyd ved tale"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14519,6 +15449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibrace při mluvení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibration ved tale"
           }
         },
         "de" : {
@@ -14617,6 +15553,12 @@
             "value" : "Přesně tak"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Præcis"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14713,6 +15655,12 @@
             "value" : "Jo, neudělal jsem to"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, det gjorde jeg ikke"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14805,6 +15753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poslouchat anglický podcast 10 minut denně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyt til en engelsk podcast i 10 minutter hver dag"
           }
         },
         "de" : {
@@ -14901,6 +15855,12 @@
             "value" : "Denní upozornění"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daglig påmindelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14995,6 +15955,12 @@
             "value" : "Inkoustový kámen"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blækssten"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15083,6 +16049,12 @@
             "value" : "Nejdřív exportovat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportér først"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15169,6 +16141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Před pár dny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For nogle dage siden"
           }
         },
         "de" : {
@@ -15265,6 +16243,12 @@
             "value" : "Před pár dny"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For nogle dage siden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15359,6 +16343,12 @@
             "value" : "Smazat vše"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15445,6 +16435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vše smazáno."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er slettet."
           }
         },
         "de" : {
@@ -15535,6 +16531,12 @@
             "value" : "Smazat všechny záznamy"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle noter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15621,6 +16623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat všechny záznamy?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle noter?"
           }
         },
         "de" : {
@@ -15711,6 +16719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat všechna data"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle data"
           }
         },
         "de" : {
@@ -15807,6 +16821,12 @@
             "value" : "Zrnko písku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15895,6 +16915,12 @@
             "value" : "Cíl"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15981,6 +17007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat cíl"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj mål"
           }
         },
         "de" : {
@@ -16077,6 +17109,12 @@
             "value" : "Zapsat jeden cíl"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ét mål ned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16163,6 +17201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisujte cíle bez omezení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv mål ned uden begrænsning"
           }
         },
         "de" : {
@@ -16253,6 +17297,12 @@
             "value" : "Tolik cílů, kolik chcete"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så mange mål, du vil"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16339,6 +17389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisujte cíle bez omezení, vybírejte oblázky a ukládejte záznamy do souboru. Jednou koupíte, navždy používáte."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv mål ned uden grænse, vælg din sten, og gem dine noter i en fil. Køb én gang, brug for altid."
           }
         },
         "de" : {
@@ -16429,6 +17485,12 @@
             "value" : "Všechny vaše cíle a záznamy zmizí a nelze je obnovit. Smažou se i na dalších zařízeních propojených přes iCloud. Nastavení a nákupy zůstanou."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle dine mål og noter forsvinder og kan ikke gendannes. De slettes også på dine andre enheder, der er forbundet via iCloud. Indstillinger og køb bevares."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16515,6 +17577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otupělost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Følelsesløs"
           }
         },
         "de" : {
@@ -16611,6 +17679,12 @@
             "value" : "Lhostejnost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligeglad"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16703,6 +17777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Průměrnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan nogenlunde"
           }
         },
         "de" : {
@@ -16799,6 +17879,12 @@
             "value" : "Bezmoc"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magtesløs"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16893,6 +17979,12 @@
             "value" : "Co bylo zdarma, zůstává zdarma, a odemknou se další věci."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det, der var gratis, forbliver gratis, og der bliver låst lidt mere op."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16983,6 +18075,12 @@
             "value" : "Zdarma lze mít až tři cíle. Tohle je třetí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den gratis version rummer op til tre mål. Det her er det tredje."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17069,6 +18167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strach"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bange"
           }
         },
         "de" : {
@@ -17165,6 +18269,12 @@
             "value" : "Co se stalo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad skete der"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17253,6 +18363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyprávět, co se stalo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortæl, hvad der skete"
           }
         },
         "de" : {
@@ -17351,6 +18467,12 @@
             "value" : "Nejdřív se podívám, kam jste se dostali a co vás zastavilo, a pak vás osloví."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg ser først på, hvor langt du er nået, og hvad der stod i vejen, og så tager jeg fat i dig."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17445,6 +18567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím nevím, kam směřujete."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg ved endnu ikke, hvad du er på vej mod."
           }
         },
         "de" : {
@@ -17543,6 +18671,12 @@
             "value" : "Kam směřujete?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad er du på vej mod?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17637,6 +18771,12 @@
             "value" : "Bezvýraznost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udtryksløs"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17729,6 +18869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pít hodně vody a jít brzy spát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drikke masser af vand og gå tidligt i seng"
           }
         },
         "de" : {
@@ -17827,6 +18973,12 @@
             "value" : "Co pomohlo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad hjalp?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17921,6 +19073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapsat, co zabralo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned, hvad der virkede"
           }
         },
         "de" : {
@@ -18019,6 +19177,12 @@
             "value" : "Co zabralo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad virkede?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18115,6 +19279,12 @@
             "value" : "Přejetím nebo dlouhým stisknutím cíle ho můžete přejmenovat nebo pustit."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stryg eller hold nede på et mål for at omdøbe det eller slippe det."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18201,6 +19371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavit budík na 23:00 a dát telefon dál od sebe"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sætte en alarm til kl. 23 og lægge telefonen langt væk"
           }
         },
         "de" : {
@@ -18297,6 +19473,12 @@
             "value" : "Obyčejně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Almindelig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18389,6 +19571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vztek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vred"
           }
         },
         "de" : {
@@ -18485,6 +19673,12 @@
             "value" : "Nespokojenost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilfreds"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18577,6 +19771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neklid"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urolig"
           }
         },
         "de" : {
@@ -18673,6 +19873,12 @@
             "value" : "Smazat kód"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet kode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18765,6 +19971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavit kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstil kode"
           }
         },
         "de" : {
@@ -18861,6 +20073,12 @@
             "value" : "Zadejte kód"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indtast kode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18953,6 +20171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potvrďte kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekræft kode"
           }
         },
         "de" : {
@@ -19049,6 +20273,12 @@
             "value" : "Zoufalství"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elendig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19141,6 +20371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pýcha na sebe"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolt af sig selv"
           }
         },
         "de" : {
@@ -19237,6 +20473,12 @@
             "value" : "Statistiky používání"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brugsstatistik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19323,6 +20565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statistiky používání (vývojář)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brugsstatistik (udvikler)"
           }
         },
         "de" : {
@@ -19417,6 +20665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Svěžest"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veloplagt"
           }
         },
         "de" : {
@@ -19515,6 +20769,12 @@
             "value" : "Situaci chápu. A jak se cítíte teď?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg forstår situationen. Men hvordan har du det nu?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19609,6 +20869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaseklo se to v situaci, ne že byste byli vy špatně."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er situationen, der sidder fast, ikke dig, der er noget galt med."
           }
         },
         "de" : {
@@ -19707,6 +20973,12 @@
             "value" : "Vytvořit ukázková data"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret eksempeldata"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19799,6 +21071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přemýšlí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tænker"
           }
         },
         "de" : {
@@ -19895,6 +21173,12 @@
             "value" : "Nadšení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spændt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19987,6 +21271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
           }
         },
         "de" : {
@@ -20083,6 +21373,12 @@
             "value" : "Zapněte v „Nastavení“ Apple Intelligence a řečené dokážu lépe uspořádat."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå Apple Intelligence til i „Indstillinger“, så kan jeg bedre samle op på det, du siger."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20175,6 +21471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pošlete to dál"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spred budskabet"
           }
         },
         "de" : {
@@ -20271,6 +21573,12 @@
             "value" : "Smutek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trist"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20363,6 +21671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čas"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid"
           }
         },
         "de" : {
@@ -20459,6 +21773,12 @@
             "value" : "Vzrušení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begejstret"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20551,6 +21871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zklamání"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skuffet"
           }
         },
         "de" : {
@@ -20647,6 +21973,12 @@
             "value" : "Pohladit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klap"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20733,6 +22065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Osamělost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensom"
           }
         },
         "de" : {
@@ -20829,6 +22167,12 @@
             "value" : "Lítost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vemodig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20921,6 +22265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím žádné záznamy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endnu ingen noter"
           }
         },
         "de" : {
@@ -21019,6 +22369,12 @@
             "value" : "Zatím jste nic nezanechali."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har ikke efterladt noget endnu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21113,6 +22469,12 @@
             "value" : "Zatím žádné záznamy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er endnu ingen noter."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21201,6 +22563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím žádné zanechané příběhy."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er endnu ingen efterladte historier."
           }
         },
         "de" : {
@@ -21299,6 +22667,12 @@
             "value" : "Zatím nevím, kam směřujete."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg ved endnu ikke, hvor du er på vej hen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21395,6 +22769,12 @@
             "value" : "Zatím nemáte žádný směr."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har endnu ikke en retning."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21487,6 +22867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vstávat brzy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stå tidligt op"
           }
         },
         "de" : {
@@ -21583,6 +22969,12 @@
             "value" : "Vstal jsem brzy a den jsem využil naplno!"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg stod tidligt op og fik dagen godt udnyttet!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21675,6 +23067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ráno jsem nevstal a zaspal jsem."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg kunne ikke komme op om morgenen og sov for længe."
           }
         },
         "de" : {
@@ -21773,6 +23171,12 @@
             "value" : "Dobrý den. Jsem ZinggumDol."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hej. Jeg er ZinggumDol."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21869,6 +23273,12 @@
             "value" : "Dobře. Jsem tu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okay. Jeg er her."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21961,6 +23371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapnout upozornění"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå påmindelser til"
           }
         },
         "de" : {
@@ -22057,6 +23473,12 @@
             "value" : "Zjistit více"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læs mere"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22143,6 +23565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet aplikaci"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del appen"
           }
         },
         "de" : {
@@ -22239,6 +23667,12 @@
             "value" : "Kód aplikace"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appens kode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22333,6 +23767,12 @@
             "value" : "Odesílají se jen dny, kdy jste aplikaci otevřeli nebo ukončili rozhovor, druh akcí (třeba vytvoření cíle), počet záznamů a cílů a to, zda jste zobrazili obrazovku nákupu. Z toho, co píšete, neodchází ani písmeno a odesílatel se rozlišuje jen náhodným číslem vytvořeným na tomto zařízení."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der sendes kun de dage, hvor du åbnede appen eller afsluttede en samtale, hvilken slags handlinger der er tale om (fx at oprette et mål), antallet af noter og mål og om du har set købsskærmen. Ikke et eneste bogstav af det, du skriver, forlader din enhed, og afsenderen skelnes kun ved et tilfældigt nummer, der er oprettet på denne enhed."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22419,6 +23859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejíst v noci"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade være med natmad"
           }
         },
         "de" : {
@@ -22513,6 +23959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nevydržel jsem a v noci jsem jedl. Měl jsem hlad, tak jsem si uvařil nudle."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg kunne ikke lade være med natmaden. Jeg var sulten og spiste nudler."
           }
         },
         "de" : {
@@ -22611,6 +24063,12 @@
             "value" : "Zapsat, jak to dopadlo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned, hvordan det gik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22703,6 +24161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zmatek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rodet"
           }
         },
         "de" : {
@@ -22799,6 +24263,12 @@
             "value" : "Včera"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I går"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22891,6 +24361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapsáno včera"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet i går"
           }
         },
         "de" : {
@@ -22989,6 +24465,12 @@
             "value" : "Kdykoli to můžete změnit. Po změně vás oblázek znovu pozdraví novým způsobem."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan altid ændre det. Når du gør, hilser stenen på dig igen på den måde."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23081,6 +24563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nedávno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For nylig"
           }
         },
         "de" : {
@@ -23177,6 +24665,12 @@
             "value" : "Nedávno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For nylig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23269,6 +24763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jsem tu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er her."
           }
         },
         "de" : {
@@ -23367,6 +24867,12 @@
             "value" : "Pro dnešek dost.\nPlány z unavených dnů málokdy vyjdou.\nUložilo se to, nic se neděje."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad os stoppe her for i dag.\nPlaner, man lægger på trætte dage, holder sjældent.\nDet er gemt, så det er helt i orden."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23461,6 +24967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dosud šlo o to, co se stalo. A jak je vám teď u srdce?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indtil nu handlede det om, hvad der skete. Hvordan har du det inderst inde nu?"
           }
         },
         "de" : {
@@ -23559,6 +25071,12 @@
             "value" : "Začít odtud"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tal herfra"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23651,6 +25169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zápal"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passioneret"
           }
         },
         "de" : {
@@ -23747,6 +25271,12 @@
             "value" : "Chtěl jsem se učit angličtinu, ale odložil jsem to."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg ville læse engelsk, men udsatte det."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23839,6 +25369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Učit se anglicky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læse engelsk"
           }
         },
         "de" : {
@@ -23935,6 +25471,12 @@
             "value" : "Zlepšit angličtinu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blive bedre til engelsk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24027,6 +25569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cestou do práce jsem poslouchal anglický podcast! Bylo to zábavnější, než jsem čekal."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lyttede til en engelsk podcast på vej på arbejde! Det var sjovere, end jeg troede."
           }
         },
         "de" : {
@@ -24123,6 +25671,12 @@
             "value" : "Dnes"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24215,6 +25769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dnes „%@“ – zvládli jste to."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag „%@“ – du klarede det."
           }
         },
         "de" : {
@@ -24311,6 +25871,12 @@
             "value" : "Dnes „%@“ – zvládl jsi to."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag „%@“ – du klarede det."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24403,6 +25969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dnes o „%1$@“%2$@ zatím nic nevíme."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er der endnu ingen nyt om „%1$@“.%2$@"
           }
         },
         "de" : {
@@ -24499,6 +26071,12 @@
             "value" : "Dnes o „%1$@“%2$@ zatím nic nevíme."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er der endnu ingen nyt om „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24593,6 +26171,12 @@
             "value" : "Dnes ses dostal k „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag nåede du „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24685,6 +26269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dnes jste se dostali k „%@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag nåede du „%@“."
           }
         },
         "de" : {
@@ -24783,6 +26373,12 @@
             "value" : "Zapsat dnešek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå og skriv dagen ned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24877,6 +26473,12 @@
             "value" : "Zapsáno dnes"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet i dag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24969,6 +26571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podíváme se spolu, jaký byl dnešek?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skal vi se sammen på, hvordan dagen gik?"
           }
         },
         "de" : {
@@ -25067,6 +26675,12 @@
             "value" : "Dnes jsem prostě jen s vámi."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er jeg bare ved din side."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25161,6 +26775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro dnešek dost.\nTeď je odpočinek důležitější než hledat odpověď.\nJe to zapsané, nezmizí to."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad os stoppe her for i dag.\nLige nu er hvile bedre end at lede efter et svar.\nDet er skrevet ned og forsvinder ikke."
           }
         },
         "de" : {
@@ -25259,6 +26879,12 @@
             "value" : "Pro dnešek zastavíme.\nTeď není třeba odpověď vynucovat.\nJe to uložené, příště se na to podíváme spolu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad os stoppe her i dag.\nDu behøver ikke at presse et svar frem nu.\nDet er gemt, så ser vi på det sammen næste gang."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25353,6 +26979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro dnešek stačí tahle jedna věc."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er det nok med den ene ting."
           }
         },
         "de" : {
@@ -25451,6 +27083,12 @@
             "value" : "Dnes budu potichu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er jeg stille."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25543,6 +27181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapsáno dávno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet for længe siden"
           }
         },
         "de" : {
@@ -25639,6 +27283,12 @@
             "value" : "Odvaha"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25731,6 +27381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cvičit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Træne"
           }
         },
         "de" : {
@@ -25827,6 +27483,12 @@
             "value" : "Šel jsem cvičit, ale v půlce jsem to vzdal a vrátil se."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg tog ud for at træne, men gav op undervejs og tog hjem igen."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25921,6 +27583,12 @@
             "value" : "Motivace"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motiveret"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26013,6 +27681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na tomto zařízení není funkce uspořádání dostupná. Zapíšu to tak, jak to slyším."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På denne enhed kan oprydningsfunktionen ikke bruges. Jeg skriver det ned, som jeg hører det."
           }
         },
         "de" : {
@@ -26111,6 +27785,12 @@
             "value" : "Smazat tento záznam?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet denne note?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26205,6 +27885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tohle jsou dvě různé věci."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er to forskellige ting."
           }
         },
         "de" : {
@@ -26303,6 +27989,12 @@
             "value" : "Záznamy k tomuto cíli převezmou i nový název."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter, der er knyttet til dette mål, følger også med det nye navn."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26389,6 +28081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mluvit o tomto cíli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tal om dette mål"
           }
         },
         "de" : {
@@ -26481,6 +28179,12 @@
             "value" : "Pustit tento cíl?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slip dette mål?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26569,6 +28273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mluvit o tomhle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tal om det her"
           }
         },
         "de" : {
@@ -26667,6 +28377,12 @@
             "value" : "Kdybyste to rozdělili na menší kousky, co by to bylo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du delte det op i noget mindre, hvad ville det så være?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26761,6 +28477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začnu tímhle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg starter med det her"
           }
         },
         "de" : {
@@ -26859,6 +28581,12 @@
             "value" : "Zapíšu to takhle. Zítra jen tohle."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det ned sådan her. I morgen kun så langt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26955,6 +28683,12 @@
             "value" : "Vezmu tohle"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg tager det her"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27049,6 +28783,12 @@
             "value" : "Mechový kámen"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mosesten"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27137,6 +28877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ten den už minul. Ale kámen tam pořád je."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den dag er gået. Men stenen ligger der stadig."
           }
         },
         "de" : {
@@ -27235,6 +28981,12 @@
             "value" : "Nechám to tak"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lader det være"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27331,6 +29083,12 @@
             "value" : "Opravit takto"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ret det sådan her"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27425,6 +29183,12 @@
             "value" : "Přejmenovat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omdøb"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27511,6 +29275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tento týden"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne uge"
           }
         },
         "de" : {
@@ -27607,6 +29377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V čem bylo tentokrát něco jinak?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad var anderledes denne gang?"
           }
         },
         "de" : {
@@ -27722,6 +29498,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Sbalené dřívější příběhy: %lld"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historie er foldet sammen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historier er foldet sammen"
                 }
               }
             }
@@ -28007,6 +29801,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historie er foldet sammen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historier er foldet sammen"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -28263,6 +30075,12 @@
             "value" : "Odesílat anonymní statistiky používání"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send anonym brugsstatistik"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28349,6 +30167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Běžnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Almindelig"
           }
         },
         "de" : {
@@ -28443,6 +30267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všednost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hverdagsagtig"
           }
         },
         "de" : {
@@ -28541,6 +30371,12 @@
             "value" : "Zapomněl jsem"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg havde glemt det"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28637,6 +30473,12 @@
             "value" : "Zapíšu si to, než zapomenu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det ned, før jeg glemmer det"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28729,6 +30571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seberozvoj"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personlig udvikling"
           }
         },
         "de" : {
@@ -28827,6 +30675,12 @@
             "value" : "Pořád to odkládám"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg bliver ved med at udsætte det"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28919,6 +30773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hrdost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolt"
           }
         },
         "de" : {
@@ -29015,6 +30875,12 @@
             "value" : "Sebejistota"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fået selvtillid"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29107,6 +30973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sebeobviňování"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selvbebrejdende"
           }
         },
         "de" : {
@@ -29205,6 +31077,12 @@
             "value" : "Čím menší, tím lepší."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo mindre, jo bedre."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29299,6 +31177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čím menší, tím lepší. I pět minut stačí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo mindre, jo bedre. Selv fem minutter er fint."
           }
         },
         "de" : {
@@ -29397,6 +31281,12 @@
             "value" : "Hezky zapsáno. Až se příště zaseknete, vytáhnu to."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godt noteret. Næste gang du sidder fast, finder jeg det frem."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29491,6 +31381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Výborně. Hned to zanechám."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dejligt. Jeg gemmer det nu."
           }
         },
         "de" : {
@@ -29589,6 +31485,12 @@
             "value" : "Pojďme si chvíli popovídat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad os tale lidt sammen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29683,6 +31585,12 @@
             "value" : "Zkuste to prosím za chvíli znovu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igen om lidt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29769,6 +31677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné zapsané cíle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen mål skrevet ned"
           }
         },
         "de" : {
@@ -29867,6 +31781,12 @@
             "value" : "Zapsáno. Zítra jen tolik."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet ned. I morgen kun så meget."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29961,6 +31881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapsáno. Ukážu vám to, až se zaseknete na něčem podobném."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet ned. Jeg viser det, når du sidder fast på noget lignende."
           }
         },
         "de" : {
@@ -30059,6 +31985,12 @@
             "value" : "Zapsáno. Přesně tolik stačí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet ned. Det er lige tilstrækkeligt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30155,6 +32087,12 @@
             "value" : "Napíšu to sám"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det selv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30249,6 +32187,12 @@
             "value" : "Beznaděj"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortvivlet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30341,6 +32285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připravuji funkci uspořádání. Zatím to zapíšu tak, jak to slyším."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg gør oprydningsfunktionen klar. Indtil videre skriver jeg det ned, som jeg hører det."
           }
         },
         "de" : {
@@ -30439,6 +32389,12 @@
             "value" : "Uspořádávám…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rydder op…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30535,6 +32491,12 @@
             "value" : "Zkusím to uspořádat."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg samler op på det."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30627,6 +32589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opravdu chcete smazat kód a snížit zabezpečení?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du virkelig slette koden og sænke sikkerheden?"
           }
         },
         "de" : {
@@ -30723,6 +32691,12 @@
             "value" : "Opravdu smazat?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du virkelig slette?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30809,6 +32783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mušle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Musling"
           }
         },
         "de" : {
@@ -30899,6 +32879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Není to úplně ono"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke helt"
           }
         },
         "de" : {
@@ -30995,6 +32981,12 @@
             "value" : "Oblázek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sten"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31089,6 +33081,12 @@
             "value" : "Výběr oblázku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg sten"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31177,6 +33175,12 @@
             "value" : "Vyberte si z šesti povrchů oblázku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg mellem seks overflader til stenen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31263,6 +33267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oblázek přemýšlí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stenen tænker"
           }
         },
         "de" : {
@@ -31361,6 +33371,12 @@
             "value" : "V „Nastavení“ určíte, zda vám oblázek vyká, nebo tyká."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I „Indstillinger“ kan du vælge, om stenen taler formelt eller afslappet til dig."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31457,6 +33473,12 @@
             "value" : "Dobré"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31551,6 +33573,12 @@
             "value" : "Frustrace"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frustreret"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31643,6 +33671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyrovnanost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutral"
           }
         },
         "de" : {
@@ -31741,6 +33775,12 @@
             "value" : "Promluvit si hned"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tal om det nu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31837,6 +33877,12 @@
             "value" : "Pokud někam směřujete, řeknete mi o jedné věci?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis der er noget, du er på vej mod, vil du så fortælle om én ting?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31929,6 +33975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kam směřujete"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvor du er på vej hen"
           }
         },
         "de" : {
@@ -32025,6 +34077,12 @@
             "value" : "Už teď směřuješ k počtu cílů: %lld."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er allerede på vej mod %lld mål."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32111,6 +34169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Už teď směřujete k počtu cílů: %lld."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er allerede på vej mod %lld mål."
           }
         },
         "de" : {
@@ -32203,6 +34267,12 @@
             "value" : "Zatím to nechám"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lader det være for nu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32291,6 +34361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím to chci nechat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg vil lade det være for nu"
           }
         },
         "de" : {
@@ -32385,6 +34461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teď je špatně slyšet. Můžete to i napsat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er svært at høre lige nu. Du kan også skrive."
           }
         },
         "de" : {
@@ -32483,6 +34565,12 @@
             "value" : "A jak je to teď?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan er det nu?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32575,6 +34663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Funkce uspořádání teď není dostupná. Zapíšu to tak, jak to slyším."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oprydningsfunktionen kan ikke bruges lige nu. Jeg skriver det ned, som jeg hører det."
           }
         },
         "de" : {
@@ -32671,6 +34765,12 @@
             "value" : "Ušlá cesta"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vejen hidtil"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32765,6 +34865,12 @@
             "value" : "Uložte všechny své záznamy do textového souboru."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem alle dine noter i en tekstfil."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32853,6 +34959,12 @@
             "value" : "Exportovat záznamy do souboru"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportér dine noter til en fil"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32939,6 +35051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V minulém záznamu stojí: „%@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den seneste note står der: „%@“."
           }
         },
         "de" : {
@@ -33035,6 +35153,12 @@
             "value" : "V minulém záznamu stojí: „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den seneste note står der: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33127,6 +35251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minule jste se rozhodli pro „%1$@“.%2$@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidst besluttede du: „%1$@“.%2$@"
           }
         },
         "de" : {
@@ -33223,6 +35353,12 @@
             "value" : "Minule ses rozhodl pro „%1$@“.%2$@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidst besluttede du: „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33315,6 +35451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minule jsi chtěl zkusit „%1$@“.%2$@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidst ville du prøve „%1$@“.%2$@"
           }
         },
         "de" : {
@@ -33411,6 +35553,12 @@
             "value" : "Minule jste chtěli zkusit „%1$@“.%2$@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidst ville du prøve „%1$@“.%2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33503,6 +35651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minule jsi napsal: „%@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidst skrev du: „%@“."
           }
         },
         "de" : {
@@ -33599,6 +35753,12 @@
             "value" : "Minule jste napsali: „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidst skrev du: „%@“."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33691,6 +35851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minulý týden"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I sidste uge"
           }
         },
         "de" : {
@@ -33787,6 +35953,12 @@
             "value" : "Minulý týden"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I sidste uge"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33879,6 +36051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zhruba minulý týden"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omkring sidste uge"
           }
         },
         "de" : {
@@ -33975,6 +36153,12 @@
             "value" : "Nuda"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kedet"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34067,6 +36251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
           }
         },
         "de" : {
@@ -34165,6 +36355,12 @@
             "value" : "Po smazání už to nejde vrátit."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når noget er slettet, kan det ikke fortrydes."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34259,6 +36455,12 @@
             "value" : "Smazání se nepodařilo. Zkuste to prosím za chvíli znovu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det lykkedes ikke at slette. Prøv igen om lidt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34345,6 +36547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora a soukromí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support og privatliv"
           }
         },
         "de" : {
@@ -34436,6 +36644,12 @@
     "징검돌" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -34535,6 +36749,12 @@
             "value" : "Záznamy ZinggumDol"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol-noter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34618,6 +36838,12 @@
     "징검돌 프로" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -34711,6 +36937,12 @@
             "value" : "Používáte ZinggumDol Pro. Děkujeme."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du bruger ZinggumDol Pro. Tak."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34797,6 +37029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podrážděnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irriteret"
           }
         },
         "de" : {
@@ -34893,6 +37131,12 @@
             "value" : "Stačí stručně."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort er helt fint."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34981,6 +37225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stačí stručně – jen to, co se tehdy stalo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort er helt fint – bare hvad der skete dengang."
           }
         },
         "de" : {
@@ -35077,6 +37327,12 @@
             "value" : "Četl jsem 30 minut. Dobře jsem se soustředil."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg læste i 30 minutter. Det gik godt med at koncentrere sig."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35171,6 +37427,12 @@
             "value" : "Zlepšit kondici"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opbygge kondition"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35263,6 +37525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrušit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
           }
         },
         "de" : {
@@ -35361,6 +37629,12 @@
             "value" : "Klidně pište i velkými písmeny."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du må også gerne skrive stort."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35455,6 +37729,12 @@
             "value" : "Klepnutím nebo třením ho pohladíte"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk eller gnid for at klappe den"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35541,6 +37821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ničivost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ødelæggende"
           }
         },
         "de" : {
@@ -35635,6 +37921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uvolněnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afslappet"
           }
         },
         "de" : {
@@ -35733,6 +38025,12 @@
             "value" : "Jak vám to vyhovuje"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan som du har det bedst med"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35825,6 +38123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obyčejnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gennemsnitlig"
           }
         },
         "de" : {
@@ -35921,6 +38225,12 @@
             "value" : "Ohodnotit aplikaci"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedøm appen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36010,6 +38320,12 @@
     "프로" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -36105,6 +38421,12 @@
             "value" : "Zapsat víc s Pro"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv flere med Pro"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36193,6 +38515,12 @@
             "value" : "Odemčeno v Pro"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låses op med Pro"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36279,6 +38607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Únava"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Træt"
           }
         },
         "de" : {
@@ -36377,6 +38711,12 @@
             "value" : "Jedno je to, co se stalo, druhé je, jak vám je teď."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det ene er, hvad der skete, det andet er, hvordan du har det nu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36471,6 +38811,12 @@
             "value" : "Jednou koupíte, navždy používáte. Není to předplatné"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køb én gang, brug for altid. Det er ikke et abonnement"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36557,6 +38903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dávno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For meget længe siden"
           }
         },
         "de" : {
@@ -36655,6 +39007,12 @@
             "value" : "Udělal jsem to, ale nezapsal"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjort, men ikke skrevet ned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36751,6 +39109,12 @@
             "value" : "Udělal jsem to, jen jsem to nezapsal"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjort, bare ikke skrevet ned"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36843,6 +39207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Štěstí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lykkelig"
           }
         },
         "de" : {
@@ -36941,6 +39311,12 @@
             "value" : "Ještě jsem neslyšel, kam směřujete."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg har endnu ikke hørt, hvad du er på vej mod."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37035,6 +39411,12 @@
             "value" : "Nevadí, že směřujete k více cílům. Zapisovat je můžete bez omezení."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er fint at være på vej mod flere mål. Du kan skrive dem ned uden begrænsning."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37121,6 +39503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Znechucení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Væmmet"
           }
         },
         "de" : {
@@ -37219,6 +39607,12 @@
             "value" : "Myslíte tohle?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mener du det her?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37308,6 +39702,12 @@
     "확인" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -37407,6 +39807,12 @@
             "value" : "Pro potvrzení napište „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv „%@“ for at bekræfte."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37492,6 +39898,12 @@
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi"
@@ -37587,6 +39999,12 @@
             "value" : "Hm?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37675,6 +40093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jsem tu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er her"
           }
         },
         "de" : {
@@ -37767,6 +40191,12 @@
             "value" : "Volali jste mě?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaldte du på mig?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37855,6 +40285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi, to lechtá!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, det kildrer!"
           }
         },
         "de" : {
@@ -37947,6 +40383,12 @@
             "value" : "Lechtá to"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kildrer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38035,6 +40477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nech toho, hihi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold nu op, hihi"
           }
         },
         "de" : {
@@ -38127,6 +40575,12 @@
             "value" : "To je příjemné…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er dejligt…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38215,6 +40669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teploučko"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dejlig varm"
           }
         },
         "de" : {
@@ -38307,6 +40767,12 @@
             "value" : "Zavírají se mi oči…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg bliver søvnig…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38397,6 +40863,12 @@
             "value" : "Točí se mi hlava…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er svimmel…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38485,6 +40957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Točí se to dokola…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rundt og rundt…"
           }
         },
         "de" : {
