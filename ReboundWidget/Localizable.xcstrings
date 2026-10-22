@@ -45,6 +45,12 @@
             "value" : "川石"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedra de rio"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "そばにいます"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ao seu lado"
           }
         },
         "ru" : {
@@ -173,6 +185,12 @@
             "value" : "喜んでいます"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feliz"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -235,6 +253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夕焼け石"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedra do entardecer"
           }
         },
         "ru" : {
@@ -301,6 +325,12 @@
             "value" : "聞いています"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvindo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -363,6 +393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "墨石"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedra de tinta"
           }
         },
         "ru" : {
@@ -429,6 +465,12 @@
             "value" : "砂つぶ"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grão de areia"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -491,6 +533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "考えています"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensando"
           }
         },
         "ru" : {
@@ -557,6 +605,12 @@
             "value" : "ここにいます。"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estou aqui."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -619,6 +673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今日の分を残しに行く"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir anotar o dia de hoje"
           }
         },
         "ru" : {
@@ -685,6 +745,12 @@
             "value" : "苔石"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedra de musgo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -749,6 +815,12 @@
             "value" : "貝がら"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -811,6 +883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小石"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedrinha"
           }
         },
         "ru" : {
@@ -885,6 +963,12 @@
             "value" : "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma frase da pedrinha. Toque para anotar o dia de hoje."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -955,6 +1039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "징검돌"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
         "ru" : {

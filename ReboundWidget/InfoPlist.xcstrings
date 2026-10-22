@@ -52,6 +52,12 @@
             "value" : "징검돌"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "징검돌"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
         "ru" : {

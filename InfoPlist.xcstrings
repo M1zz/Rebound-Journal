@@ -53,6 +53,12 @@
             "value" : "징검돌"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "징검돌"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
         "ru" : {
@@ -196,6 +208,12 @@
             "value" : "말로 편하게 돌아볼 수 있도록 마이크를 사용해요. 녹음은 저장되지 않고, 글로 옮긴 내용만 기기 안에 남습니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O microfone é usado para você poder revisar o dia falando, como numa conversa. As gravações não são salvas; só o texto transcrito fica no seu dispositivo."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -265,6 +283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말한 내용을 글로 옮기기 위해 사용해요. 인식은 기기 안에서 이뤄지고 밖으로 나가지 않습니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usado para transformar o que você diz em texto. O reconhecimento acontece no seu dispositivo e não sai dele."
           }
         },
         "ru" : {

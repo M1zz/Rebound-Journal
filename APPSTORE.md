@@ -548,3 +548,60 @@ https://m1zz.github.io/Rebound-Journal/it/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/it/
+
+## pt-BR
+
+### 이름
+
+ZinggumDol: diário de tropeços
+
+### 부제
+
+Converse com uma pedrinha
+
+### 키워드
+
+reflexão,humor,emoções,hábitos,crescimento,estresse,ansiedade,erros,resiliência,autoestima
+
+### 프로모션 텍스트
+
+Um passo em falso não é cair no riacho. Revisite os dias que não saíram como planejado com uma pedrinha que puxa a conversa e lembra do que você contou.
+
+### 설명
+
+Um passo em falso não é cair no riacho. O ZinggumDol é um diário gentil para os dias que não saíram como você queria: você conversa com uma pedrinha e relembra com calma o que aconteceu.
+
+A pedrinha fala primeiro. Ela lembra o que você contou da última vez e pergunta: «E o que aconteceu depois?» Escolha uma resposta ou escreva a sua. Ficam registrados o que aconteceu, como você se sentiu e o que quer tentar em seguida.
+
+Converse com a pedrinha
+Defina uma meta e a pedrinha acompanha até onde você chegou e o que travou. Se um dia escapou, ela pergunta «o que atrapalhou?», e não «o que você fez de errado?».
+
+Fale em voz alta
+Nos dias em que escrever pesa, basta falar. O reconhecimento de voz acontece no seu dispositivo e a gravação não é salva. Em dispositivos compatíveis, o que você diz também é organizado para ficar mais fácil de ler.
+
+Caminho percorrido
+Cada semana vira uma fileira de pedras para atravessar o riacho. Os dias em que você não pisou continuam lá; nada é apagado.
+
+O que você deixou
+Revise por data o que aconteceu, como você se sentiu e o que queria tentar depois.
+
+Widget e lembretes
+Uma frase da pedrinha na tela de início e um lembrete suave no horário que você escolher, para olharem juntos como foi o dia.
+
+Só seu
+Sem cadastro e sem anúncios. Seus registros ficam apenas no seu dispositivo e no seu próprio iCloud, e você pode bloquear o app com um código. O que você escreve nunca é enviado ao desenvolvedor.
+
+ZINGGUMDOL PRO
+A versão grátis permite até três metas. Com uma compra única (não é assinatura), você anota metas sem limite, escolhe entre seis acabamentos de pedrinha e exporta seus registros em um arquivo de texto.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/pt-BR/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/pt-BR/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/pt-BR/
