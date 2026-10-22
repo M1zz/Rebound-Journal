@@ -46,6 +46,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -148,6 +154,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

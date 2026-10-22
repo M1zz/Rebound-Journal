@@ -45,6 +45,12 @@
             "value" : "  Ánimo: %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Mieliala: %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -143,6 +149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Próximo paso: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Seuraava askel: %@"
           }
         },
         "fr" : {
@@ -245,6 +257,12 @@
             "value" : "  Lo que pasó: %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Mitä tapahtui: %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -343,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué se interpuso con «%@»?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä tuli vastaan kohdassa ”%@”?"
           }
         },
         "fr" : {
@@ -451,6 +475,12 @@
             "value" : "¿Qué se interpuso con «%@»?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä tuli vastaan kohdassa ”%@”?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -555,6 +585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Han pasado %2$lld días desde que hablamos de «%1$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siitä, kun puhuimme aiheesta ”%1$@”, on kulunut %2$lld päivää."
           }
         },
         "fr" : {
@@ -663,6 +699,12 @@
             "value" : "Han pasado %2$lld días desde que hablamos de «%1$@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siitä, kun puhuimme aiheesta ”%1$@”, on kulunut %2$lld päivää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -767,6 +809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@»: hoy todavía no."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” – tänään ei vielä mitään."
           }
         },
         "fr" : {
@@ -875,6 +923,12 @@
             "value" : "«%@»: hoy todavía no."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” – tänään ei vielä mitään."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -979,6 +1033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ lleva %3$lld días en silencio."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ on ollut hiljaista jo %3$lld päivää."
           }
         },
         "fr" : {
@@ -1087,6 +1147,12 @@
             "value" : "«%1$@»%2$@ lleva %3$lld días en silencio."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ on ollut hiljaista jo %3$lld päivää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1191,6 +1257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ hace %3$lld días que no lo revisas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ viimeisestä katsomiskerrasta on %3$lld päivää."
           }
         },
         "fr" : {
@@ -1299,6 +1371,12 @@
             "value" : "«%1$@»%2$@ hace %3$lld días que no lo revisa."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ viimeisestä katsomiskerrasta on %3$lld päivää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1403,6 +1481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ hoy todavía no has llegado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ et ole vielä tänään päässyt sinne."
           }
         },
         "fr" : {
@@ -1511,6 +1595,12 @@
             "value" : "«%1$@»%2$@ hoy todavía no ha llegado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ ette ole vielä tänään päässeet sinne."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1615,6 +1705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ lo anotaste, pero aún no lo has revisado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ kirjasit sen ylös, mutta et ole palannut siihen."
           }
         },
         "fr" : {
@@ -1723,6 +1819,12 @@
             "value" : "«%1$@»%2$@ lo anotó, pero aún no lo ha revisado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ kirjasitte sen ylös, mutta ette ole palanneet siihen."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1827,6 +1929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ solo lo anotaste y ahí quedó."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ kirjasit sen vain ylös, eikä sen jälkeen ole tapahtunut mitään."
           }
         },
         "fr" : {
@@ -1935,6 +2043,12 @@
             "value" : "«%1$@»%2$@ solo lo anotó y ahí quedó."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ kirjasitte sen vain ylös, eikä sen jälkeen ole tapahtunut mitään."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2039,6 +2153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ desde que lo anotaste, todo sigue en silencio."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ ylöskirjaamisen jälkeen on ollut hiljaista."
           }
         },
         "fr" : {
@@ -2147,6 +2267,12 @@
             "value" : "«%1$@»%2$@ desde que lo anotó, todo sigue en silencio."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ ylöskirjaamisen jälkeen on ollut hiljaista."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2251,6 +2377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ volvamos al momento en que ibas a hacerlo. ¿Qué te frenó?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ palataan hetkeen, kun aioit tehdä sen. Mikä jäi päälle?"
           }
         },
         "fr" : {
@@ -2359,6 +2491,12 @@
             "value" : "«%1$@»%2$@ volvamos al momento en que iba a hacerlo. ¿Qué lo frenó?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ palataan hetkeen, kun aioitte tehdä sen. Mikä jäi päälle?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2463,6 +2601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En «%1$@» llegaste hasta %2$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohteessa ”%1$@” pääsit pisteeseen: %2$@."
           }
         },
         "fr" : {
@@ -2571,6 +2715,12 @@
             "value" : "En «%1$@» llegó hasta %2$@."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohteessa ”%1$@” pääsitte pisteeseen: %2$@."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2675,6 +2825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fue el día en que llegaste a «%@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se oli päivä, jona pääsit kohteeseen ”%@”."
           }
         },
         "fr" : {
@@ -2783,6 +2939,12 @@
             "value" : "Fue el día en que llegó a «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se oli päivä, jona pääsitte kohteeseen ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2889,6 +3051,12 @@
             "value" : "Sobre «%1$@» %2$@ escribiste: «%3$@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiheesta ”%1$@” kirjoitit %2$@: ”%3$@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2993,6 +3161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sobre «%1$@» %2$@ escribió: «%3$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiheesta ”%1$@” kirjoititte %2$@: ”%3$@”."
           }
         },
         "fr" : {
@@ -3103,6 +3277,12 @@
             "value" : "Suelta una meta en «Camino recorrido» y podrás escribir otra nueva."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päästä irti yhdestä tavoitteesta kohdassa ”Kuljettu matka”, niin voit kirjoittaa uuden."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3201,6 +3381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nTe frenó «%2$@»,\ny ahora te sientes «%3$@»%4$@.\n\n%5$@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nSe, mikä tuli vastaan, oli ”%2$@”,\nja nyt olo on ”%3$@”%4$@.\n\n%5$@"
           }
         },
         "fr" : {
@@ -3309,6 +3495,12 @@
             "value" : "%1$@ Al hablar de «%2$@», dejaste escrito: «%3$@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Kun puhuit aiheesta ”%2$@”, jätit viestin: ”%3$@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3413,6 +3605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Al hablar de «%2$@», dejó escrito: «%3$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Kun puhuitte aiheesta ”%2$@”, jätitte viestin: ”%3$@”."
           }
         },
         "fr" : {
@@ -3521,6 +3719,12 @@
             "value" : "%1$@ Sobre «%2$@»%3$@ dijo: «%4$@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Aiheesta ”%2$@”%3$@ sanoitte: ”%4$@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3625,6 +3829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Sobre «%2$@»%3$@ dijiste: «%4$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Aiheesta ”%2$@”%3$@ sanoit: ”%4$@”."
           }
         },
         "fr" : {
@@ -3733,6 +3943,12 @@
             "value" : "%1$@ Dijo que «%2$@»%3$@ se le había atascado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Sanoitte, että ”%2$@”%3$@ jumiutui."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3837,6 +4053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Dijiste que «%2$@»%3$@ se te había atascado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Sanoit, että ”%2$@”%3$@ jumiutui."
           }
         },
         "fr" : {
@@ -3945,6 +4167,12 @@
             "value" : "%1$@ Lo logró: «%2$@»%3$@."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Onnistuitte: ”%2$@”%3$@."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4049,6 +4277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Lo lograste: «%2$@»%3$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Onnistuit: ”%2$@”%3$@."
           }
         },
         "fr" : {
@@ -4157,6 +4391,12 @@
             "value" : "%1$@ llegaste a «%2$@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ pääsit kohteeseen ”%2$@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4261,6 +4501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ llegó a «%2$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ pääsitte kohteeseen ”%2$@”."
           }
         },
         "fr" : {
@@ -4369,6 +4615,12 @@
             "value" : "%1$@ dejaste una nota: te frenó «%2$@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kirjasit, että ”%2$@” tuli vastaan."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4473,6 +4725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ dejó una nota: lo frenó «%2$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kirjasitte, että ”%2$@” tuli vastaan."
           }
         },
         "fr" : {
@@ -4581,6 +4839,12 @@
             "value" : "Semana de %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viikko: %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4685,6 +4949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, día con registro"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, päivä, jolta on merkintä"
           }
         },
         "fr" : {
@@ -4793,6 +5063,12 @@
             "value" : "%@, sin registro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ei merkintää"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4897,6 +5173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, día en que llegaste a tu meta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, päivä, jona tavoite saavutettiin"
           }
         },
         "fr" : {
@@ -5005,6 +5287,12 @@
             "value" : "%@, día que aún no llega"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, päivä, joka ei ole vielä tullut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5109,6 +5397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Lo logró: «%2$@»%3$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Onnistuittehan te: ”%2$@”%3$@."
           }
         },
         "fr" : {
@@ -5217,6 +5511,12 @@
             "value" : "%1$@ Lo lograste: «%2$@»%3$@."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Onnistuithan sinä: ”%2$@”%3$@."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5321,6 +5621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ logró «%2$@»%3$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ onnistuitte: ”%2$@”%3$@."
           }
         },
         "fr" : {
@@ -5429,6 +5735,12 @@
             "value" : "%1$@ lograste «%2$@»%3$@."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ onnistuit: ”%2$@”%3$@."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5533,6 +5845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ llegaste a «%2$@»,"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ pääsit kohteeseen ”%2$@”,"
           }
         },
         "fr" : {
@@ -5641,6 +5959,12 @@
             "value" : "%1$@ llegó a «%2$@»,"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ pääsitte kohteeseen ”%2$@”,"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5742,6 +6066,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -5851,6 +6181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld/%2$lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
           }
         },
         "fr" : {
@@ -6056,6 +6392,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Hace %lld días"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld päivä sitten"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld päivää sitten"
                 }
               }
             }
@@ -6377,6 +6731,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Kirjattu %lld päivä sitten"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Kirjattu %lld päivää sitten"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -6693,6 +7065,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Kirjattu %lld viikko sitten"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Kirjattu %lld viikkoa sitten"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -6907,6 +7297,12 @@
             "value" : "|"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7015,6 +7411,12 @@
             "value" : "Bajón"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matala mieli"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7119,6 +7521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empezar con un estiramiento suave"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita kevyellä venyttelyllä"
           }
         },
         "fr" : {
@@ -7227,6 +7635,12 @@
             "value" : "Agradecimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiitollisuus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7333,6 +7747,12 @@
             "value" : "Canto de río"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jokikivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7431,6 +7851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya existe una meta con ese nombre"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samanniminen tavoite on jo olemassa"
           }
         },
         "fr" : {
@@ -7533,6 +7959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Para desarrollo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kehittäjälle"
           }
         },
         "fr" : {
@@ -7641,6 +8073,12 @@
             "value" : "Escribir al desarrollador"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä viesti kehittäjälle"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7747,6 +8185,12 @@
             "value" : "Se desbloquean cinco piedras más, como recogidas junto al arroyo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viisi kiveä lisää avautuu, kuin ojan varrelta poimittuina."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7845,6 +8289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Política de privacidad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tietosuojakäytäntö"
           }
         },
         "fr" : {
@@ -7953,6 +8403,12 @@
             "value" : "Salud"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terveys"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8059,6 +8515,12 @@
             "value" : "A tu lado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rinnallasi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8163,6 +8625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa"
           }
         },
         "fr" : {
@@ -8273,6 +8741,12 @@
             "value" : "Bien"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihan ok"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8381,6 +8855,12 @@
             "value" : "No pasa nada. Simplemente no se notó."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei se mitään. Se vain ei osunut silmään."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8485,6 +8965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angustia"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piinaantunut"
           }
         },
         "fr" : {
@@ -8593,6 +9079,12 @@
             "value" : "Restaurar compras"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta ostokset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8691,6 +9183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vida ordenada"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säännöllinen elämä"
           }
         },
         "fr" : {
@@ -8801,6 +9299,12 @@
             "value" : "¿Y qué pasó después?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miten se meni sen jälkeen?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8907,6 +9411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eso fue la situación. ¿Cómo te sientes ahora?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se oli tilanne. Miltä sinusta tuntuu nyt?"
           }
         },
         "fr" : {
@@ -9017,6 +9527,12 @@
             "value" : "¿En qué quedó eso?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miten se päättyi?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9123,6 +9639,12 @@
             "value" : "Cómo fue ese día"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Millainen se päivä oli"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9223,6 +9745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo dejo así"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätän sen tähän"
           }
         },
         "fr" : {
@@ -9331,6 +9859,12 @@
             "value" : "Entonces dijo que probaría «%1$@».%2$@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silloin sanoitte kokeilevanne: ”%1$@”.%2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9435,6 +9969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces dijiste que probarías «%1$@».%2$@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silloin sanoit kokeilevasi: ”%1$@”.%2$@"
           }
         },
         "fr" : {
@@ -9543,6 +10083,12 @@
             "value" : "Cómo te sentías"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mieliala silloin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9643,6 +10189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué pasó entonces?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä silloin tapahtui?"
           }
         },
         "fr" : {
@@ -9753,6 +10305,12 @@
             "value" : "Hablar de aquel momento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhutaan siitä ajasta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9859,6 +10417,12 @@
             "value" : "Entonces dijo: «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silloin sanoitte: ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9963,6 +10527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces dijiste: «%@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silloin sanoit: ”%@”."
           }
         },
         "fr" : {
@@ -10073,6 +10643,12 @@
             "value" : "De acuerdo. Hablamos en otro momento."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selvä. Jutellaan toiste."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10179,6 +10755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Así fue"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niin se oli"
           }
         },
         "fr" : {
@@ -10289,6 +10871,12 @@
             "value" : "Puede pasar. Que se olvide no significa que desaparezca."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niin voi käydä. Unohtaminen ei tee asiasta olematonta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10397,6 +10985,12 @@
             "value" : "Puede pasar. Lo olvidado, olvidado está."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niin voi käydä. Unohdettu on unohdettu."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10503,6 +11097,12 @@
             "value" : "Entonces, rumbo a «%1$@»%2$@ ¿qué cosa tan pequeña podrías hacer mañana mismo?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä olisi sitten matkalla kohti ”%1$@”%2$@ yksi niin pieni asia, että ehdit tehdä sen jo huomenna?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10607,6 +11207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces, rumbo a «%1$@»%2$@ ¿qué cosa tan pequeña podría hacer mañana mismo?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä olisi sitten matkalla kohti ”%1$@”%2$@ yksi niin pieni asia, että ehditte tehdä sen jo huomenna?"
           }
         },
         "fr" : {
@@ -10717,6 +11323,12 @@
             "value" : "Entonces hablemos de eso."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhutaan siitä sitten."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10823,6 +11435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces eso ya está cerrado. Lo anoto ahora."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitten se on loppuun käsitelty. Kirjaan sen ylös nyt."
           }
         },
         "fr" : {
@@ -10933,6 +11551,12 @@
             "value" : "Entonces lo dejo cerrado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitten päätän sen tähän."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11041,6 +11665,12 @@
             "value" : "¿Y si lo haces tan pequeño que mañana mismo puedas lograrlo? ¿Qué sería?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä jos tekisit siitä niin pienen, että onnistut jo huomenna – mitä se olisi?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11145,6 +11775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejar de hablar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta ääneen lukeminen"
           }
         },
         "fr" : {
@@ -11255,6 +11891,12 @@
             "value" : "Regular"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavallinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11359,6 +12001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ilusión"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odottava"
           }
         },
         "fr" : {
@@ -11467,6 +12115,12 @@
             "value" : "Registros"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkinnät"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11565,6 +12219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportar registros"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie merkinnät"
           }
         },
         "fr" : {
@@ -11667,6 +12327,12 @@
             "value" : "No se pudieron exportar tus registros"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkintöjen vienti epäonnistui"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11765,6 +12431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De buen ánimo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hyvä mieli"
           }
         },
         "fr" : {
@@ -11873,6 +12545,12 @@
             "value" : "Contento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iloinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11977,6 +12655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fatal"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamala"
           }
         },
         "fr" : {
@@ -12087,6 +12771,12 @@
             "value" : "Lo demás no corre prisa."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muilla ei ole kiire."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12193,6 +12883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardemos lo demás y miremos solo esto."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätetään muut sivuun ja katsotaan vain tätä."
           }
         },
         "fr" : {
@@ -12303,6 +12999,12 @@
             "value" : "Lo demás se puede ver con calma."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muita voi katsoa rauhassa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12411,6 +13113,12 @@
             "value" : "Guardado. Para no olvidar lo que funcionó."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennettu, jottei unohdu, mikä auttoi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12515,6 +13223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que dejaste"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jättämäsi asiat"
           }
         },
         "fr" : {
@@ -12625,6 +13339,12 @@
             "value" : "Los registros se conservan. Solo sale de la lista."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätetyt merkinnät säilyvät. Vain tavoite poistuu luettelosta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12725,6 +13445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay palabras guardadas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei jätettyjä sanoja."
           }
         },
         "fr" : {
@@ -12833,6 +13559,12 @@
             "value" : "Mis metas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavoitteeni"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12931,6 +13663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir mi guijarro"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kiveni"
           }
         },
         "fr" : {
@@ -13033,6 +13771,12 @@
             "value" : "Soltar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päästä irti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13131,6 +13875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportado el: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viety: %@"
           }
         },
         "fr" : {
@@ -13233,6 +13983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si mañana solo hicieras una cosa, ¿cuál sería?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos huomenna tekisit vain yhden asian, mikä se olisi?"
           }
         },
         "fr" : {
@@ -13339,6 +14095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frialdad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kylmyys"
           }
         },
         "fr" : {
@@ -13449,6 +14211,12 @@
             "value" : "Sí"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyllä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13555,6 +14323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sí, lo dejo así."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyllä, jätän sen tähän."
           }
         },
         "fr" : {
@@ -13665,6 +14439,12 @@
             "value" : "Sí, lo dejo así. Aquí estoy."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyllä, jätän sen tähän. Olen tässä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13773,6 +14553,12 @@
             "value" : "Vale, hablamos en otro momento."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selvä, jutellaan toiste."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13879,6 +14665,12 @@
             "value" : "Piedra del ocaso"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auringonlaskukivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13979,6 +14771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Dejamos lo demás y miramos solo esto?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätetäänkö muu sivuun ja katsotaan vain tätä?"
           }
         },
         "fr" : {
@@ -14089,6 +14887,12 @@
             "value" : "Lo demás, con calma."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muu rauhassa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14193,6 +14997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
           }
         },
         "fr" : {
@@ -14303,6 +15113,12 @@
             "value" : "Lo anoto para poder usarlo otra vez."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaan sen ylös, jotta sen voi ottaa uudelleen käyttöön."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14409,6 +15225,12 @@
             "value" : "Lo que probarás"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä kokeilen seuraavaksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14507,6 +15329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laihdutus"
           }
         },
         "fr" : {
@@ -14613,6 +15441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
           }
         },
         "fr" : {
@@ -14723,6 +15557,12 @@
             "value" : "Solo quedó anotado «llegué»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkittynä oli vain ”pääsin perille”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14829,6 +15669,12 @@
             "value" : "Llegué"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pääsin perille"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14929,6 +15775,12 @@
             "value" : "No llegué"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En päässyt perille"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15027,6 +15879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear el hábito de leer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukutottumuksen luominen"
           }
         },
         "fr" : {
@@ -15133,6 +15991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukeminen"
           }
         },
         "fr" : {
@@ -15243,6 +16107,12 @@
             "value" : "Escuchando"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuuntelen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15349,6 +16219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay mucho que decir. Solo estoy aquí."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei ole paljon sanottavaa. Olen vain tässä."
           }
         },
         "fr" : {
@@ -15459,6 +16335,12 @@
             "value" : "Si no se te ocurre nada, puedes dejarlo en blanco. Lo buscamos luego juntos."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos mitään ei tule mieleen, voit jättää tyhjäksi. Etsitään yhdessä myöhemmin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15563,6 +16445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No puedo usar el micrófono. También puedes escribir."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonia ei voi käyttää. Voit myös kirjoittaa."
           }
         },
         "fr" : {
@@ -15671,6 +16559,12 @@
             "value" : "Satisfacción"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyytyväisyys"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15775,6 +16669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Satisfecho"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyytyväinen"
           }
         },
         "fr" : {
@@ -15885,6 +16785,12 @@
             "value" : "Muy difícil"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todella raskasta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15991,6 +16897,12 @@
             "value" : "Responder hablando"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vastaa puhumalla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16095,6 +17007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trato"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhuttelutapa"
           }
         },
         "fr" : {
@@ -16205,6 +17123,12 @@
             "value" : "Puedes elegir cómo te habla"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit valita puhuttelutavan"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16311,6 +17235,12 @@
             "value" : "Sonido al hablar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ääni puhuttaessa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16415,6 +17345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibración al hablar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värinä puhuttaessa"
           }
         },
         "fr" : {
@@ -16525,6 +17461,12 @@
             "value" : "Así es"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juuri niin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16633,6 +17575,12 @@
             "value" : "Sí, no lo hice"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyllä, en tehnyt sitä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16737,6 +17685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escuchar un pódcast en inglés 10 minutos al día"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuuntele englanninkielistä podcastia 10 minuuttia päivässä"
           }
         },
         "fr" : {
@@ -16845,6 +17799,12 @@
             "value" : "Aviso diario"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivittäinen muistutus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16951,6 +17911,12 @@
             "value" : "Piedra de tinta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mustekivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17051,6 +18017,12 @@
             "value" : "Exportar primero"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie ensin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17149,6 +18121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hace unos días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muutama päivä sitten"
           }
         },
         "fr" : {
@@ -17257,6 +18235,12 @@
             "value" : "Hace unos días"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muutama päivä sitten"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17363,6 +18347,12 @@
             "value" : "Borrar todo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17461,6 +18451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todo borrado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki poistettu."
           }
         },
         "fr" : {
@@ -17563,6 +18559,12 @@
             "value" : "Borrar todos los registros"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki merkinnät"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17661,6 +18663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Borrar todos los registros?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko kaikki merkinnät?"
           }
         },
         "fr" : {
@@ -17763,6 +18771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar todos los datos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tiedot"
           }
         },
         "fr" : {
@@ -17871,6 +18885,12 @@
             "value" : "Grano de arena"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiekanjyvä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17971,6 +18991,12 @@
             "value" : "Meta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavoite"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18069,6 +19095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir meta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää tavoite"
           }
         },
         "fr" : {
@@ -18177,6 +19209,12 @@
             "value" : "Anota una meta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa yksi tavoite"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18275,6 +19313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anota metas sin límite"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa tavoitteita rajoituksetta"
           }
         },
         "fr" : {
@@ -18377,6 +19421,12 @@
             "value" : "Todas las metas que quieras"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niin monta tavoitetta kuin haluat"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18475,6 +19525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anota metas sin límite, elige tu guijarro y guarda tus registros en un archivo. Se compra una vez y se usa siempre."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa tavoitteita rajoituksetta, valitse kivesi ja säilytä merkinnät tiedostossa. Osta kerran, käytä aina."
           }
         },
         "fr" : {
@@ -18577,6 +19633,12 @@
             "value" : "Todas tus metas y registros desaparecerán y no se podrán recuperar. También se borrarán en tus otros dispositivos conectados con iCloud. Los ajustes y las compras se conservan."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki tavoitteesi ja merkintäsi katoavat, eikä niitä voi palauttaa. Ne poistuvat myös muilta iCloudilla yhdistetyiltä laitteilta. Asetukset ja ostokset säilyvät."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18675,6 +19737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insensibilidad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnoton"
           }
         },
         "fr" : {
@@ -18783,6 +19851,12 @@
             "value" : "Indiferencia"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välinpitämätön"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18887,6 +19961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aceptable"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohtalainen"
           }
         },
         "fr" : {
@@ -18995,6 +20075,12 @@
             "value" : "Impotencia"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voimaton"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19101,6 +20187,12 @@
             "value" : "Lo gratuito sigue igual, y se desbloquean algunas cosas más."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmaiseksi käyttämäsi pysyy ennallaan, ja lisää avautuu."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19203,6 +20295,12 @@
             "value" : "La versión gratuita admite hasta tres metas. Esta es la tercera."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmaisversiossa voi olla enintään kolme tavoitetta. Tämä on kolmas."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19301,6 +20399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Miedo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pelokas"
           }
         },
         "fr" : {
@@ -19409,6 +20513,12 @@
             "value" : "Qué pasó"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä tapahtui"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19509,6 +20619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contar lo que pasó"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerro, mitä tapahtui"
           }
         },
         "fr" : {
@@ -19619,6 +20735,12 @@
             "value" : "Veré hasta dónde llegaste y qué te frenó, y te hablaré yo primero."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katson ensin, mihin pääsit ja mikä tuli vastaan, ja otan sitten puheeksi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19725,6 +20847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todavía no sé hacia dónde vas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En vielä tiedä, mitä kohti olet matkalla."
           }
         },
         "fr" : {
@@ -19835,6 +20963,12 @@
             "value" : "¿Hacia dónde vas?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä kohti olet matkalla?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19941,6 +21075,12 @@
             "value" : "Inexpresivo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmeetön"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20045,6 +21185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beber mucha agua y acostarme temprano"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juo paljon vettä ja mene ajoissa nukkumaan"
           }
         },
         "fr" : {
@@ -20155,6 +21301,12 @@
             "value" : "¿Qué te ayudó?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä auttoi?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20261,6 +21413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotar lo que funcionó"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa ylös, mikä toimi"
           }
         },
         "fr" : {
@@ -20371,6 +21529,12 @@
             "value" : "¿Qué funcionó?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä toimi?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20479,6 +21643,12 @@
             "value" : "Desliza o mantén pulsada una meta para cambiarle el nombre o soltarla."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pyyhkäise tai paina pitkään tavoitetta nimetäksesi sen uudelleen tai päästääksesi siitä irti."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20577,6 +21747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poner la alarma a las 11 de la noche y dejar el móvil lejos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laita herätys kello 23 ja pidä puhelin kaukana"
           }
         },
         "fr" : {
@@ -20685,6 +21861,12 @@
             "value" : "Normal"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavallinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20789,6 +21971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enfado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vihainen"
           }
         },
         "fr" : {
@@ -20897,6 +22085,12 @@
             "value" : "Insatisfacción"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyytymättömyys"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21001,6 +22195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inquietud"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levoton"
           }
         },
         "fr" : {
@@ -21109,6 +22309,12 @@
             "value" : "Eliminar código"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista koodi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21213,6 +22419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configurar código"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aseta koodi"
           }
         },
         "fr" : {
@@ -21321,6 +22533,12 @@
             "value" : "Introduce el código"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anna koodi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21425,6 +22643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirma el código"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vahvista koodi"
           }
         },
         "fr" : {
@@ -21533,6 +22757,12 @@
             "value" : "Desolación"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21637,6 +22867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orgullo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ylpeä itsestään"
           }
         },
         "fr" : {
@@ -21745,6 +22981,12 @@
             "value" : "Estadísticas de uso"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käyttötilastot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21843,6 +23085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estadísticas de uso (desarrollador)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käyttötilastot (kehittäjä)"
           }
         },
         "fr" : {
@@ -21949,6 +23197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frescura"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virkistynyt"
           }
         },
         "fr" : {
@@ -22059,6 +23313,12 @@
             "value" : "Entiendo la situación. ¿Y cómo te sientes ahora?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilanne on selvä. Miltä sinusta tuntuu nyt?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22165,6 +23425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que se atascó fue la situación, no tú."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilanne on jumissa, ei vika ole sinussa."
           }
         },
         "fr" : {
@@ -22275,6 +23541,12 @@
             "value" : "Crear datos de ejemplo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luo esimerkkitiedot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22379,6 +23651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mietin"
           }
         },
         "fr" : {
@@ -22487,6 +23765,12 @@
             "value" : "Emoción"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innostunut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22591,6 +23875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
           }
         },
         "fr" : {
@@ -22699,6 +23989,12 @@
             "value" : "Activa Apple Intelligence en «Ajustes» y podré ordenar mejor lo que dices."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota Apple Intelligence käyttöön kohdassa ”Asetukset”, niin osaan jäsentää sanomasi paremmin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22803,6 +24099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corre la voz"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Levitä sanaa"
           }
         },
         "fr" : {
@@ -22911,6 +24213,12 @@
             "value" : "Tristeza"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Surullinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23015,6 +24323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aika"
           }
         },
         "fr" : {
@@ -23123,6 +24437,12 @@
             "value" : "Entusiasmo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haltioitunut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23227,6 +24547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Decepción"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pettynyt"
           }
         },
         "fr" : {
@@ -23335,6 +24661,12 @@
             "value" : "Acariciar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silitä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23433,6 +24765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soledad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksinäinen"
           }
         },
         "fr" : {
@@ -23541,6 +24879,12 @@
             "value" : "Pena"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haikea"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23645,6 +24989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay registros"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä merkintöjä"
           }
         },
         "fr" : {
@@ -23755,6 +25105,12 @@
             "value" : "Todavía no has dejado nada."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et ole vielä jättänyt mitään."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23861,6 +25217,12 @@
             "value" : "Todavía no hay registros."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä merkintöjä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23961,6 +25323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todavía no hay historias guardadas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä jätettyjä tarinoita."
           }
         },
         "fr" : {
@@ -24071,6 +25439,12 @@
             "value" : "Todavía no sé adónde te diriges."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En vielä tiedä, minne olet menossa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24179,6 +25553,12 @@
             "value" : "Todavía no tienes un rumbo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinulla ei ole vielä suuntaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24283,6 +25663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Madrugar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikainen herääminen"
           }
         },
         "fr" : {
@@ -24391,6 +25777,12 @@
             "value" : "¡Me levanté temprano y aproveché el día!"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heräsin aikaisin ja sain päivän hyvin käytettyä!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24495,6 +25887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No pude levantarme por la mañana y dormí de más."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En päässyt aamulla ylös ja nukuin pitkään."
           }
         },
         "fr" : {
@@ -24605,6 +26003,12 @@
             "value" : "Hola. Soy ZinggumDol."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hei. Minä olen ZinggumDol."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24713,6 +26117,12 @@
             "value" : "Vale. Aquí estaré."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selvä. Olen tässä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24817,6 +26227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activar avisos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota muistutukset käyttöön"
           }
         },
         "fr" : {
@@ -24925,6 +26341,12 @@
             "value" : "Más información"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lue lisää"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25023,6 +26445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartir la app"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa sovellus"
           }
         },
         "fr" : {
@@ -25131,6 +26559,12 @@
             "value" : "Código de la app"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sovelluksen koodi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25237,6 +26671,12 @@
             "value" : "Solo se envían los días en que abriste la app o terminaste una conversación, el tipo de acciones (como crear una meta), el número de registros y metas, y si viste la pantalla de compra. Nada de lo que escribes sale de tu dispositivo, y quien envía se distingue solo por un número aleatorio creado en este dispositivo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetetään vain päivät, jolloin avasit sovelluksen tai lopetit keskustelun, toimintojen tyyppi (esim. tavoitteen luominen), merkintöjen ja tavoitteiden määrä sekä se, näitkö ostonäkymän. Kirjoittamastasi ei lähde yhtäkään kirjainta, ja lähettäjä erotetaan vain tällä laitteella luodusta satunnaisluvusta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25335,6 +26775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No picar de noche"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei yösyöntiä"
           }
         },
         "fr" : {
@@ -25441,6 +26887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No aguanté y piqué de noche. Tenía hambre y comí ramen."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En pysynyt erossa yösyönnistä. Oli nälkä ja söin nuudeleita."
           }
         },
         "fr" : {
@@ -25551,6 +27003,12 @@
             "value" : "Anotar cómo fue"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa, miten kävi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25655,6 +27113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desorden"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekainen"
           }
         },
         "fr" : {
@@ -25763,6 +27227,12 @@
             "value" : "Ayer"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eilen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25867,6 +27337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotado ayer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjattu eilen"
           }
         },
         "fr" : {
@@ -25977,6 +27453,12 @@
             "value" : "Puedes cambiarlo cuando quieras. Al cambiarlo, el guijarro te saludará de nuevo con ese trato."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit vaihtaa tämän milloin tahansa. Vaihdon jälkeen kivi tervehtii sinua uudelleen uudella tavalla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26081,6 +27563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hace poco"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiljattain"
           }
         },
         "fr" : {
@@ -26189,6 +27677,12 @@
             "value" : "Hace poco"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiljattain"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26293,6 +27787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aquí estoy."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olen tässä."
           }
         },
         "fr" : {
@@ -26403,6 +27903,12 @@
             "value" : "Dejémoslo aquí por hoy.\nLos planes hechos en días de cansancio suelen no salir bien.\nYa quedó guardado, tranquilo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopetetaan tältä päivältä.\nUupuneina päivinä tehdyt suunnitelmat harvoin pitävät.\nSe on tallessa, ei hätää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26509,6 +28015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eso fue lo que pasó. ¿Cómo te sientes ahora?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tähän asti puhuttiin siitä, mitä tapahtui. Miltä sinusta tuntuu nyt?"
           }
         },
         "fr" : {
@@ -26619,6 +28131,12 @@
             "value" : "Hablar desde aquí"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita tästä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26723,6 +28241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasión"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intohimoinen"
           }
         },
         "fr" : {
@@ -26831,6 +28355,12 @@
             "value" : "Quise estudiar inglés, pero lo dejé para después."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aioin opiskella englantia, mutta lykkäsin sitä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26935,6 +28465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estudiar inglés"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englannin opiskelu"
           }
         },
         "fr" : {
@@ -27043,6 +28579,12 @@
             "value" : "Mejorar mi inglés"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englannin taidon parantaminen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27147,6 +28689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Fui al trabajo escuchando un pódcast en inglés! Fue más divertido de lo que esperaba."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuuntelin töihin mennessä englanninkielistä podcastia! Se oli hauskempaa kuin luulin."
           }
         },
         "fr" : {
@@ -27255,6 +28803,12 @@
             "value" : "Hoy"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27359,6 +28913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy «%@»: lo logró."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään ”%@” – onnistuitte."
           }
         },
         "fr" : {
@@ -27467,6 +29027,12 @@
             "value" : "Hoy «%@»: lo lograste."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään ”%@” – onnistuit."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27571,6 +29137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy aún no hay noticias de «%1$@».%2$@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään ei ole vielä uutisia aiheesta ”%1$@”.%2$@"
           }
         },
         "fr" : {
@@ -27679,6 +29251,12 @@
             "value" : "Hoy aún no hay noticias de «%1$@».%2$@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään ei ole vielä uutisia aiheesta ”%1$@”.%2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27785,6 +29363,12 @@
             "value" : "Hoy llegaste a «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään pääsit kohteeseen ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27889,6 +29473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy llegó a «%@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään pääsitte kohteeseen ”%@”."
           }
         },
         "fr" : {
@@ -27999,6 +29589,12 @@
             "value" : "Ir a anotar lo de hoy"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mene kirjaamaan tämä päivä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28105,6 +29701,12 @@
             "value" : "Anotado hoy"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjattu tänään"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28209,6 +29811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Vemos juntos cómo te fue hoy?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katsotaanko yhdessä, millainen päivä oli?"
           }
         },
         "fr" : {
@@ -28319,6 +29927,12 @@
             "value" : "Hoy me quedo a tu lado, sin más."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään olen vain vierellä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28425,6 +30039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejémoslo aquí por hoy.\nAhora es mejor descansar que buscar una respuesta.\nYa quedó anotado, no se pierde."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopetetaan tältä päivältä.\nNyt lepo on tärkeämpää kuin vastauksen etsiminen.\nSe on kirjattu, eikä katoa."
           }
         },
         "fr" : {
@@ -28535,6 +30155,12 @@
             "value" : "Paremos aquí por hoy.\nNo hace falta forzar una respuesta ahora.\nQuedó guardado; lo miramos juntos la próxima vez."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pysähdytään tähän tältä päivältä.\nVastausta ei tarvitse pakottaa nyt.\nSe on tallessa, katsotaan yhdessä ensi kerralla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28641,6 +30267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy con esto es suficiente."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään riittää tämä yksi asia."
           }
         },
         "fr" : {
@@ -28751,6 +30383,12 @@
             "value" : "Hoy me quedo en silencio."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänään olen hiljaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28855,6 +30493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotado hace mucho"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjattu kauan sitten"
           }
         },
         "fr" : {
@@ -28963,6 +30607,12 @@
             "value" : "Valentía"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rohkea"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29067,6 +30717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacer ejercicio"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liikunta"
           }
         },
         "fr" : {
@@ -29175,6 +30831,12 @@
             "value" : "Fui a hacer ejercicio, pero lo dejé a medias y volví."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menin liikkumaan, mutta luovutin kesken ja tulin takaisin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29281,6 +30943,12 @@
             "value" : "Motivación"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motivoitunut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29385,6 +31053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En este dispositivo no se puede usar la función de ordenar. Lo anoto tal como lo oigo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tällä laitteella jäsennystoimintoa ei voi käyttää. Kirjaan sen ylös sellaisena kuin kuulen."
           }
         },
         "fr" : {
@@ -29495,6 +31169,12 @@
             "value" : "¿Borrar este registro?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko tämä merkintä?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29601,6 +31281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Son dos cosas distintas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nämä ovat kaksi eri asiaa."
           }
         },
         "fr" : {
@@ -29711,6 +31397,12 @@
             "value" : "Los registros de esta meta también tomarán el nuevo nombre."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämän tavoitteen merkinnät seuraavat myös uutta nimeä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29809,6 +31501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hablar de esta meta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhu tästä tavoitteesta"
           }
         },
         "fr" : {
@@ -29913,6 +31611,12 @@
             "value" : "¿Soltar esta meta?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päästetäänkö tästä tavoitteesta irti?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30013,6 +31717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hablar de esto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhutaan tästä"
           }
         },
         "fr" : {
@@ -30123,6 +31833,12 @@
             "value" : "Si lo dividieras en algo más pequeño, ¿qué sería?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos pilkkoisit tämän pienemmäksi, mitä se olisi?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30229,6 +31945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empiezo con esto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloitan tästä"
           }
         },
         "fr" : {
@@ -30339,6 +32061,12 @@
             "value" : "Lo anoto así. Mañana, solo hasta aquí."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaan sen näin. Huomenna vain tähän asti."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30447,6 +32175,12 @@
             "value" : "Me quedo con esto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitsen tämän"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30553,6 +32287,12 @@
             "value" : "Piedra de musgo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammalkivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30653,6 +32393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ese día ya pasó. Pero la piedra sigue ahí."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se päivä on mennyt. Mutta kivi on yhä paikallaan."
           }
         },
         "fr" : {
@@ -30763,6 +32509,12 @@
             "value" : "Lo dejo así"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätän sen tähän"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30871,6 +32623,12 @@
             "value" : "Corregir así"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korjataan näin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30977,6 +32735,12 @@
             "value" : "Cambiar nombre"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimeä uudelleen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31075,6 +32839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esta semana"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä viikko"
           }
         },
         "fr" : {
@@ -31183,6 +32953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué fue distinto esta vez?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikä oli tällä kertaa toisin?"
           }
         },
         "fr" : {
@@ -31388,6 +33164,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Se han plegado %lld historias anteriores"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld aiempi tarina on tiivistetty"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld aiempaa tarinaa on tiivistetty"
                 }
               }
             }
@@ -31709,6 +33503,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld aiempi tarina on tiivistetty"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld aiempaa tarinaa on tiivistetty"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -31923,6 +33735,12 @@
             "value" : "Enviar estadísticas de uso anónimas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä anonyymejä käyttötilastoja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32021,6 +33839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corriente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavanomainen"
           }
         },
         "fr" : {
@@ -32127,6 +33951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cotidiano"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkinen"
           }
         },
         "fr" : {
@@ -32237,6 +34067,12 @@
             "value" : "Se me había olvidado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olin unohtanut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32345,6 +34181,12 @@
             "value" : "Quiero anotarlo antes de olvidarlo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haluan kirjata sen ennen kuin unohdan"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32449,6 +34291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Superación personal"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itsensä kehittäminen"
           }
         },
         "fr" : {
@@ -32559,6 +34407,12 @@
             "value" : "Lo voy posponiendo siempre"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lykkään koko ajan"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32663,6 +34517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orgullo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ylpeys"
           }
         },
         "fr" : {
@@ -32771,6 +34631,12 @@
             "value" : "Con confianza"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itseluottamus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32875,6 +34741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Autorreproche"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itsensä syyttäminen"
           }
         },
         "fr" : {
@@ -32985,6 +34857,12 @@
             "value" : "Cuanto más pequeño, mejor."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä pienempi, sen parempi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33091,6 +34969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuanto más pequeño, mejor. Incluso cinco minutos valen."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä pienempi, sen parempi. Viisi minuuttiakin riittää."
           }
         },
         "fr" : {
@@ -33201,6 +35085,12 @@
             "value" : "Bien anotado. La próxima vez que te atasques, lo sacaré para ti."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hyvin kirjattu. Kun seuraavan kerran jumitat, otan tämän esiin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33307,6 +35197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qué bien. Lo anoto ahora."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienoa. Jätän sen talteen nyt."
           }
         },
         "fr" : {
@@ -33417,6 +35313,12 @@
             "value" : "Hablemos un rato"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jutellaan hetki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33523,6 +35425,12 @@
             "value" : "Inténtalo de nuevo en un momento."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritä hetken kuluttua uudelleen."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33621,6 +35529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin metas anotadas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei kirjattuja tavoitteita"
           }
         },
         "fr" : {
@@ -33731,6 +35645,12 @@
             "value" : "Anotado. Mañana, solo hasta aquí."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjattu. Huomenna vain tämän verran."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33837,6 +35757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotado. Te lo mostraré cuando te atasques en algo parecido."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjattu. Näytän sen, kun jumitat jossakin samankaltaisessa."
           }
         },
         "fr" : {
@@ -33947,6 +35873,12 @@
             "value" : "Anotado. Con esto basta."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjattu. Tämän verran riittää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34055,6 +35987,12 @@
             "value" : "Lo escribo yo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoitan itse"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34161,6 +36099,12 @@
             "value" : "Desesperanza"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Epätoivoinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34265,6 +36209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estoy preparando la función de ordenar. Por ahora lo anoto tal como lo oigo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmistelen jäsennystoimintoa. Toistaiseksi kirjaan sen ylös sellaisena kuin kuulen."
           }
         },
         "fr" : {
@@ -34375,6 +36325,12 @@
             "value" : "Ordenando…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jäsennetään…"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34483,6 +36439,12 @@
             "value" : "Voy a ordenarlo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritän jäsentää tämän."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34587,6 +36549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Seguro que quieres eliminar el código y reducir la seguridad?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haluatko varmasti poistaa koodin ja heikentää suojausta?"
           }
         },
         "fr" : {
@@ -34695,6 +36663,12 @@
             "value" : "¿Seguro que quieres borrarlo?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko varmasti?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34793,6 +36767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concha"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpukankuori"
           }
         },
         "fr" : {
@@ -34895,6 +36875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No es del todo así"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei ihan"
           }
         },
         "fr" : {
@@ -35003,6 +36989,12 @@
             "value" : "Guijarro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35109,6 +37101,12 @@
             "value" : "Elegir guijarro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35209,6 +37207,12 @@
             "value" : "Elige entre seis acabados de guijarro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kuudesta kiven pinnasta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35307,6 +37311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El guijarro está pensando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kivi miettii"
           }
         },
         "fr" : {
@@ -35417,6 +37427,12 @@
             "value" : "En «Ajustes» puedes decidir si el guijarro te habla de tú o de usted."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohdassa ”Asetukset” voit valita, teitittelekö vai sinutteleeko kivi sinua."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35525,6 +37541,12 @@
             "value" : "Bien"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hyvä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35631,6 +37653,12 @@
             "value" : "Frustración"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lannistunut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35735,6 +37763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calma"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasainen"
           }
         },
         "fr" : {
@@ -35845,6 +37879,12 @@
             "value" : "Hablar ahora"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhu nyt"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35953,6 +37993,12 @@
             "value" : "Si hay algo hacia lo que vayas ahora, ¿me cuentas una cosa?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos jokin asia on matkallasi, kerrotko yhden?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36057,6 +38103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacia dónde vas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minne olet menossa"
           }
         },
         "fr" : {
@@ -36165,6 +38217,12 @@
             "value" : "Ya vas hacia %lld metas."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olet jo matkalla kohti %lld tavoitetta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36263,6 +38321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya va hacia %lld metas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olette jo matkalla kohti %lld tavoitetta."
           }
         },
         "fr" : {
@@ -36367,6 +38431,12 @@
             "value" : "Lo dejo por ahora"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätän tämän toistaiseksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36467,6 +38537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prefiero dejarlo por ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haluan jättää tämän toistaiseksi"
           }
         },
         "fr" : {
@@ -36573,6 +38649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahora cuesta oír bien. También puedes escribir."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt on vaikea kuulla. Voit myös kirjoittaa."
           }
         },
         "fr" : {
@@ -36683,6 +38765,12 @@
             "value" : "¿Y ahora cómo está?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entä nyt?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36787,6 +38875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahora no se puede usar la función de ordenar. Lo anoto tal como lo oigo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jäsennystoimintoa ei voi nyt käyttää. Kirjaan sen ylös sellaisena kuin kuulen."
           }
         },
         "fr" : {
@@ -36895,6 +38989,12 @@
             "value" : "Camino recorrido"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuljettu matka"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37001,6 +39101,12 @@
             "value" : "Guarda todo lo que has escrito en un archivo de texto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna kaikki merkintäsi tekstitiedostoon."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37101,6 +39207,12 @@
             "value" : "Exporta tus registros a un archivo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie merkinnät tiedostoon"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37199,6 +39311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En el registro anterior quedó escrito: «%@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edellisessä merkinnässä lukee: ”%@”."
           }
         },
         "fr" : {
@@ -37307,6 +39425,12 @@
             "value" : "En el registro anterior quedó escrito: «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edellisessä merkinnässä lukee: ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37411,6 +39535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última vez usted decidió «%1$@».%2$@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeksi päätitte: ”%1$@”.%2$@"
           }
         },
         "fr" : {
@@ -37519,6 +39649,12 @@
             "value" : "La última vez decidiste «%1$@».%2$@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeksi päätit: ”%1$@”.%2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37623,6 +39759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última vez habías pensado probar «%1$@».%2$@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeksi aioit kokeilla: ”%1$@”.%2$@"
           }
         },
         "fr" : {
@@ -37731,6 +39873,12 @@
             "value" : "La última vez había pensado probar «%1$@».%2$@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeksi aioitte kokeilla: ”%1$@”.%2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37835,6 +39983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última vez escribiste: «%@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeksi kirjoitit: ”%@”."
           }
         },
         "fr" : {
@@ -37943,6 +40097,12 @@
             "value" : "La última vez escribió: «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeksi kirjoititte: ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38047,6 +40207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La semana pasada"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viime viikolla"
           }
         },
         "fr" : {
@@ -38155,6 +40321,12 @@
             "value" : "La semana pasada"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viime viikolla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38259,6 +40431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacia la semana pasada"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noin viime viikolla"
           }
         },
         "fr" : {
@@ -38367,6 +40545,12 @@
             "value" : "Aburrimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pitkästynyt"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38471,6 +40655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borrar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
           }
         },
         "fr" : {
@@ -38581,6 +40771,12 @@
             "value" : "Una vez borrado, no se puede recuperar."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistamista ei voi perua."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38687,6 +40883,12 @@
             "value" : "No se pudo borrar. Inténtalo de nuevo en un momento."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistaminen epäonnistui. Yritä hetken kuluttua uudelleen."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38785,6 +40987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ayuda y privacidad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuki ja tietosuoja"
           }
         },
         "fr" : {
@@ -38888,6 +41096,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -38999,6 +41213,12 @@
             "value" : "Registros de ZinggumDol"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol-merkinnät"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39094,6 +41314,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -39199,6 +41425,12 @@
             "value" : "Estás usando ZinggumDol Pro. Gracias."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytät ZinggumDol Prota. Kiitos."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39297,6 +41529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Irritación"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ärtynyt"
           }
         },
         "fr" : {
@@ -39405,6 +41643,12 @@
             "value" : "Con poco basta."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyhytkin riittää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39505,6 +41749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con poco basta: solo lo que pasó entonces."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyhytkin riittää – vain se, mitä silloin tapahtui."
           }
         },
         "fr" : {
@@ -39613,6 +41863,12 @@
             "value" : "Leí 30 minutos. Me concentré bien."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luin 30 minuuttia. Keskittyminen onnistui hyvin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39719,6 +41975,12 @@
             "value" : "Ganar resistencia física"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunnon kohottaminen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39823,6 +42085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
           }
         },
         "fr" : {
@@ -39933,6 +42201,12 @@
             "value" : "También puedes escribir en grande."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit kirjoittaa myös isolla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40039,6 +42313,12 @@
             "value" : "Toca o frota para acariciarlo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta tai hankaa silittääksesi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40137,6 +42417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destrucción"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuhoava"
           }
         },
         "fr" : {
@@ -40243,6 +42529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Relajación"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rento"
           }
         },
         "fr" : {
@@ -40353,6 +42645,12 @@
             "value" : "Como te resulte más cómodo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miten itsellesi sopii"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40457,6 +42755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corriente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavallinen"
           }
         },
         "fr" : {
@@ -40565,6 +42869,12 @@
             "value" : "Valorar la app"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arvioi sovellus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40666,6 +42976,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -40773,6 +43089,12 @@
             "value" : "Quiero anotar más con Pro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa lisää Prolla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40873,6 +43195,12 @@
             "value" : "Se desbloquea con Pro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avautuu Prossa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40971,6 +43299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cansancio"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väsynyt"
           }
         },
         "fr" : {
@@ -41081,6 +43415,12 @@
             "value" : "Una cosa es lo que pasó y otra, cómo te sientes ahora."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toinen on se, mitä tapahtui, toinen on se, miltä nyt tuntuu."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41187,6 +43527,12 @@
             "value" : "Se compra una vez y se usa siempre. No es una suscripción"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osta kerran, käytä aina. Ei tilaus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41285,6 +43631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hace mucho"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kauan sitten"
           }
         },
         "fr" : {
@@ -41395,6 +43747,12 @@
             "value" : "Lo hice, pero no lo anoté"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tein sen, mutta en kirjannut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41503,6 +43861,12 @@
             "value" : "Lo hice, solo que no lo anoté"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tein sen, en vain kirjannut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41607,6 +43971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Felicidad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onnellinen"
           }
         },
         "fr" : {
@@ -41717,6 +44087,12 @@
             "value" : "Todavía no he oído hacia dónde vas."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En ole vielä kuullut, mitä kohti olet matkalla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41823,6 +44199,12 @@
             "value" : "No pasa nada por ir hacia varias metas. Puedes anotarlas sin límite."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On ihan ok olla matkalla kohti useita tavoitteita. Voit kirjata ne rajoituksetta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41921,6 +44303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Asco"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhoava"
           }
         },
         "fr" : {
@@ -42031,6 +44419,12 @@
             "value" : "¿Quieres decir esto?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkoititko tätä?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42135,6 +44529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aceptar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         },
         "fr" : {
@@ -42243,6 +44643,12 @@
             "value" : "Escribe «%@» para confirmar."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vahvista kirjoittamalla ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42343,6 +44749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeje"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
           }
         },
         "fr" : {
@@ -42447,6 +44859,12 @@
             "value" : "¿Eh?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hä?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42547,6 +44965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aquí estoy"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olen tässä"
           }
         },
         "fr" : {
@@ -42651,6 +45075,12 @@
             "value" : "¿Me llamabas?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutsuitko?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42751,6 +45181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Ji, ji, qué cosquillas!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, kutittaa!"
           }
         },
         "fr" : {
@@ -42855,6 +45291,12 @@
             "value" : "Cosquillas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutittaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42955,6 +45397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basta, ji, ji"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta, hihi"
           }
         },
         "fr" : {
@@ -43059,6 +45507,12 @@
             "value" : "Qué gusto…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mukavaa…"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43159,6 +45613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calentito"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämmin"
           }
         },
         "fr" : {
@@ -43263,6 +45723,12 @@
             "value" : "Me va entrando el sueño…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silmät painuvat kiinni…"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43365,6 +45831,12 @@
             "value" : "Qué mareo…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pyörryttää…"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43465,6 +45937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vueltas y vueltas…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pyörii ja pyörii…"
           }
         },
         "fr" : {

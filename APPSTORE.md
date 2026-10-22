@@ -890,3 +890,60 @@ https://m1zz.github.io/Rebound-Journal/el/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/el/
+
+## fi
+
+### 이름
+
+ZinggumDol: päiväkirja
+
+### 부제
+
+Juttele pienen kiven kanssa
+
+### 키워드
+
+reflektio,mieliala,tunteet,tavat,kasvu,stressi,ahdistus,virheet,sinnikkyys,itsetunto,mindfulness
+
+### 프로모션 텍스트
+
+Harha-askel ei tarkoita, että putosit puroon. Katso taaksepäin päiviin, jotka eivät menneet suunnitelmien mukaan, kiven kanssa, joka puhuu ensin ja muistaa kertomasi.
+
+### 설명
+
+Harha-askel ei tarkoita, että putosit puroon. ZinggumDol on lempeä päiväkirja päiville, jotka eivät menneet suunnitelmien mukaan: juttelet pienen kiven kanssa ja katsot rauhassa taaksepäin sitä, mitä tapahtui.
+
+Kivi puhuu ensin. Se muistaa, mitä kerroit viimeksi, ja kysyy: ”Miten se meni sen jälkeen?” Valitse vastaus tai kirjoita oma. Talteen jäävät se, mitä tapahtui, miltä tuntui ja mitä aiot kokeilla seuraavaksi.
+
+Juttele kiven kanssa
+Aseta tavoite, ja kivi pitää silmällä, mihin olet päässyt ja mikä on tullut vastaan. Jos päivä jää väliin, se kysyy ”Mikä tuli vastaan?”, ei ”Mitä teit väärin?”.
+
+Sano se ääneen
+Päivinä, kun kirjoittaminen tuntuu liialta, riittää että puhut. Puheentunnistus tapahtuu laitteellasi, eikä äänitettä tallenneta. Tuetuilla laitteilla sanomasi lisäksi jäsennetään helppolukuiseksi.
+
+Kuljettu matka
+Jokainen viikko asettuu kivirivistöksi puron yli. Päivät, joille et astunut, pysyvät siinä – mitään ei pyyhitä pois.
+
+Jättämäsi asiat
+Selaa päivämäärän mukaan, mitä tapahtui, miltä tuntui ja mitä halusit kokeilla seuraavaksi.
+
+Widget ja muistutukset
+Kiven sana Koti-valikossa ja hellä muistutus valitsemanasi aikana, jotta voitte katsoa yhdessä, millainen päivä oli.
+
+Vain sinun
+Ei rekisteröitymistä eikä mainoksia. Merkintäsi pysyvät vain laitteellasi ja omassa iCloudissasi, ja sovelluksen voi lukita koodilla. Kirjoittamaasi ei koskaan lähetetä kehittäjälle.
+
+ZINGGUMDOL PRO
+Ilmaisversiossa voi olla enintään kolme tavoitetta. Kertaostoksella (ei tilaus) voit kirjata tavoitteita rajoituksetta, valita kuudesta kiven pinnasta ja viedä merkinnät tekstitiedostoon.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/fi/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/fi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/fi/

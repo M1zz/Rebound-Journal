@@ -45,6 +45,12 @@
             "value" : "Canto de río"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jokikivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -143,6 +149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A tu lado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rinnallasi"
           }
         },
         "fr" : {
@@ -245,6 +257,12 @@
             "value" : "Contento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iloinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -343,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Piedra del ocaso"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auringonlaskukivi"
           }
         },
         "fr" : {
@@ -445,6 +469,12 @@
             "value" : "Escuchando"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuuntelen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -543,6 +573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Piedra de tinta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mustekivi"
           }
         },
         "fr" : {
@@ -645,6 +681,12 @@
             "value" : "Grano de arena"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiekanjyvä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mietin"
           }
         },
         "fr" : {
@@ -845,6 +893,12 @@
             "value" : "Aquí estoy."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olen tässä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -943,6 +997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ir a anotar lo de hoy"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mene kirjaamaan tämä päivä"
           }
         },
         "fr" : {
@@ -1045,6 +1105,12 @@
             "value" : "Piedra de musgo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammalkivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1143,6 +1209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concha"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpukankuori"
           }
         },
         "fr" : {
@@ -1245,6 +1317,12 @@
             "value" : "Guijarro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1345,6 +1423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una frase del guijarro. Toca para anotar lo de hoy."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiven sana. Napauta kirjataksesi tämän päivän."
           }
         },
         "fr" : {
@@ -1450,6 +1534,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

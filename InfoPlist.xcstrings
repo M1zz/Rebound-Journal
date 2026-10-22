@@ -47,6 +47,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -150,6 +156,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -262,6 +274,12 @@
             "value" : "Se usa el micrófono para que puedas repasar tu día hablando, como en una conversación. Las grabaciones no se guardan; en tu dispositivo solo queda el texto transcrito."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonia käytetään, jotta voit käydä päivääsi läpi puhumalla kuin keskustelussa. Äänitteitä ei tallenneta; laitteelle jää vain litteroitu teksti."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -367,6 +385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se usa para convertir en texto lo que dices. El reconocimiento se hace en tu dispositivo y no sale de él."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytetään puheesi muuntamiseen tekstiksi. Tunnistus tapahtuu laitteellasi, eikä se lähde sieltä minnekään."
           }
         },
         "fr" : {
