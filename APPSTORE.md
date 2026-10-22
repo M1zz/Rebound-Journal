@@ -1118,3 +1118,60 @@ https://m1zz.github.io/Rebound-Journal/nl/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/nl/
+
+## pl
+
+### 이름
+
+ZinggumDol: dziennik
+
+### 부제
+
+Rozmowy z małym kamykiem
+
+### 키워드
+
+refleksja,nastrój,emocje,nawyki,rozwój,stres,lęk,błędy,odporność,samoocena,uważność,wdzięczność
+
+### 프로모션 텍스트
+
+Potknięcie nie znaczy, że wpadłeś do strumyka. Spójrz na dni, które nie poszły po Twojej myśli, razem z kamykiem, który odzywa się pierwszy i pamięta, co mu powiedziano.
+
+### 설명
+
+Potknięcie nie znaczy, że wpadłeś do strumyka. ZinggumDol to łagodny dziennik na dni, które nie poszły po Twojej myśli: rozmawiasz z kamykiem i w spokoju wracasz do tego, co się wydarzyło.
+
+Kamyk odzywa się pierwszy. Pamięta, co opowiadano mu ostatnio, i pyta: „A jak było potem?” Wybierz odpowiedź albo napisz własną. Zapisują się to, co się wydarzyło, nastrój i to, co chcesz spróbować dalej.
+
+Rozmowa z kamykiem
+Wyznacz cel, a kamyk będzie zauważał, dokąd udało się dojść i co stanęło na drodze. Gdy jakiś dzień się nie uda, zapyta „Co stanęło na drodze?”, a nie „Co zrobiono źle?”.
+
+Powiedz to na głos
+W dni, gdy pisanie to za dużo, wystarczy mówić. Rozpoznawanie mowy działa na Twoim urządzeniu, a nagranie nie jest zapisywane. Na obsługiwanych urządzeniach to, co mówisz, jest dodatkowo porządkowane, by łatwo się czytało.
+
+Przebyta droga
+Każdy tydzień układa się w rząd kamieni do przejścia przez strumyk. Dni, na które nie stanięto, też tam zostają – nic nie jest wymazywane.
+
+To, co zostawiono
+Przeglądaj według dat, co się wydarzyło, jaki był nastrój i co chciano spróbować dalej.
+
+Widżet i przypomnienia
+Słowo od kamyka na ekranie początkowym i delikatne przypomnienie o wybranej porze, by razem spojrzeć, jak minął dzień.
+
+Tylko Twoje
+Bez rejestracji i bez reklam. Wpisy są przechowywane tylko na Twoim urządzeniu i w Twoim własnym iCloud, a aplikację można zablokować kodem. To, co piszesz, nigdy nie trafia do programisty.
+
+ZINGGUMDOL PRO
+Wersja darmowa mieści do trzech celów. Jednorazowy zakup (to nie subskrypcja) pozwala zapisywać cele bez limitu, wybierać spośród sześciu faktur kamyka i eksportować wpisy do pliku tekstowego.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/pl/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/pl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/pl/

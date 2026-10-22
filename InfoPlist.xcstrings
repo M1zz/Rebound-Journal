@@ -95,6 +95,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -222,6 +228,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -358,6 +370,12 @@
             "value" : "De microfoon wordt gebruikt zodat u de dag met uw stem kunt terugblikken, als in een gesprek. Opnamen worden niet bewaard; alleen de uitgeschreven tekst blijft op uw apparaat."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon służy do tego, żeby można było podsumować dzień głosem, jak w rozmowie. Nagrania nie są zapisywane; na urządzeniu zostaje tylko przepisany tekst."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -487,6 +505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wordt gebruikt om wat u zegt om te zetten in tekst. De herkenning gebeurt op uw apparaat en verlaat het niet."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Służy do zamiany tego, co mówisz, na tekst. Rozpoznawanie odbywa się na Twoim urządzeniu i nigdzie stąd nie wychodzi."
           }
         },
         "pt-BR" : {

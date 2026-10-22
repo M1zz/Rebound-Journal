@@ -87,6 +87,12 @@
             "value" : "  Stemming: %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Nastrój: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +217,12 @@
             "value" : "  Volgende stap: %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Następny krok: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -333,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Wat er gebeurde: %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Co się wydarzyło: %@"
           }
         },
         "pt-BR" : {
@@ -465,6 +483,12 @@
             "value" : "Wat zat je dwars bij ‘%@’?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co stanęło Ci na drodze przy „%@”?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -593,6 +617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat zat u dwars bij ‘%@’?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co stanęło na drodze przy „%@”?"
           }
         },
         "pt-BR" : {
@@ -725,6 +755,12 @@
             "value" : "Er zijn %2$lld dagen voorbij sinds we het over ‘%1$@’ hadden."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od naszej rozmowy o „%1$@” minęło dni: %2$lld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -853,6 +889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er zijn %2$lld dagen voorbij sinds we het over ‘%1$@’ hadden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od naszej rozmowy o „%1$@” minęło dni: %2$lld."
           }
         },
         "pt-BR" : {
@@ -985,6 +1027,12 @@
             "value" : "‘%@’ – vandaag nog niets."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@” – dziś jeszcze nic."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1113,6 +1161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%@’ – vandaag nog niets."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@” – dziś jeszcze nic."
           }
         },
         "pt-BR" : {
@@ -1245,6 +1299,12 @@
             "value" : "‘%1$@’%2$@ het is al %3$lld dagen stil."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ cisza trwa już dni: %3$lld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1373,6 +1433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ het is al %3$lld dagen stil."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ cisza trwa już dni: %3$lld."
           }
         },
         "pt-BR" : {
@@ -1505,6 +1571,12 @@
             "value" : "‘%1$@’%2$@ je hebt er %3$lld dagen niet meer naar gekeken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ od ostatniego spojrzenia minęło dni: %3$lld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1633,6 +1705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ u hebt er %3$lld dagen niet meer naar gekeken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ od ostatniego spojrzenia minęło dni: %3$lld."
           }
         },
         "pt-BR" : {
@@ -1765,6 +1843,12 @@
             "value" : "‘%1$@’%2$@ je bent er vandaag nog niet aangekomen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ dziś jeszcze Ci się to nie udało."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1893,6 +1977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ u bent er vandaag nog niet aangekomen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ dziś jeszcze się tam nie dotarło."
           }
         },
         "pt-BR" : {
@@ -2025,6 +2115,12 @@
             "value" : "‘%1$@’%2$@ je hebt het opgeschreven, maar er nog niet naar teruggekeken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ zapisane, ale jeszcze nie wracało się do tego."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2153,6 +2249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ u hebt het opgeschreven, maar er nog niet naar teruggekeken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ zapisane, ale jeszcze nie wracało się do tego."
           }
         },
         "pt-BR" : {
@@ -2285,6 +2387,12 @@
             "value" : "‘%1$@’%2$@ je hebt het alleen opgeschreven, en daar bleef het bij."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ zostało tylko zapisane i na tym koniec."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2413,6 +2521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ u hebt het alleen opgeschreven, en daar bleef het bij."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ zostało tylko zapisane i na tym koniec."
           }
         },
         "pt-BR" : {
@@ -2545,6 +2659,12 @@
             "value" : "‘%1$@’%2$@ sinds je het opschreef, is het stil gebleven."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ od zapisania jest cicho."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2673,6 +2793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ sinds u het opschreef, is het stil gebleven."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ od zapisania jest cicho."
           }
         },
         "pt-BR" : {
@@ -2805,6 +2931,12 @@
             "value" : "‘%1$@’%2$@ laten we teruggaan naar het moment dat je eraan wilde beginnen. Waar liep het vast?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ wróćmy do momentu, w którym przychodziła chęć, by się za to zabrać. Co się zacięło?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2933,6 +3065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%1$@’%2$@ laten we teruggaan naar het moment dat u eraan wilde beginnen. Waar liep het vast?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@”%2$@ wróćmy do chwili, gdy zamierzano się za to zabrać. Co się zacięło?"
           }
         },
         "pt-BR" : {
@@ -3065,6 +3203,12 @@
             "value" : "Bij ‘%1$@’ kwam je tot %2$@."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy „%1$@” Udało Ci się dojść do: %2$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3193,6 +3337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bij ‘%1$@’ kwam u tot %2$@."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy „%1$@” udało się dojść do: %2$@."
           }
         },
         "pt-BR" : {
@@ -3325,6 +3475,12 @@
             "value" : "Dat was de dag dat je ‘%@’ bereikte."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To był dzień, w którym udało Ci się dotrzeć do „%@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3453,6 +3609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dat was de dag dat u ‘%@’ bereikte."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To był dzień, w którym udało się dotrzeć do „%@”."
           }
         },
         "pt-BR" : {
@@ -3585,6 +3747,12 @@
             "value" : "Over ‘%1$@’ schreef je %2$@: ‘%3$@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O „%1$@” %2$@ napisano: „%3$@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3715,6 +3883,12 @@
             "value" : "Over ‘%1$@’ schreef u %2$@: ‘%3$@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O „%1$@” %2$@ napisano: „%3$@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3839,6 +4013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laat één doel los onder ‘Afgelegde weg’, dan kun je een nieuw doel opschrijven."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpuść jeden cel w „Przebytej drodze”, a będzie można zapisać nowy."
           }
         },
         "pt-BR" : {
@@ -3971,6 +4151,12 @@
             "value" : "%1$@\nWat je dwarszat, was ‘%2$@’,\nen nu voel je je ‘%3$@’%4$@.\n\n%5$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nNa drodze stanęło: „%2$@”,\na teraz nastrój to: „%3$@”%4$@.\n\n%5$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4099,6 +4285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Toen het over ‘%2$@’ ging, liet je achter: ‘%3$@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Przy rozmowie o „%2$@” zostawiono: „%3$@”."
           }
         },
         "pt-BR" : {
@@ -4231,6 +4423,12 @@
             "value" : "%1$@ Toen het over ‘%2$@’ ging, liet u achter: ‘%3$@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Przy rozmowie o „%2$@” zostawiono: „%3$@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4359,6 +4557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Over ‘%2$@’%3$@ zei u: ‘%4$@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ O „%2$@”%3$@ powiedziano: „%4$@”."
           }
         },
         "pt-BR" : {
@@ -4491,6 +4695,12 @@
             "value" : "%1$@ Over ‘%2$@’%3$@ zei je: ‘%4$@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ O „%2$@”%3$@ padło z Twojej strony: „%4$@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4619,6 +4829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ U zei dat ‘%2$@’%3$@ vastliep."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Powiedziano, że „%2$@”%3$@ się zacięło."
           }
         },
         "pt-BR" : {
@@ -4751,6 +4967,12 @@
             "value" : "%1$@ Je zei dat ‘%2$@’%3$@ vastliep."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Mówiło się, że „%2$@”%3$@ się zacięło."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4879,6 +5101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ U hebt ‘%2$@’%3$@ gedaan."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Udało się: „%2$@”%3$@."
           }
         },
         "pt-BR" : {
@@ -5011,6 +5239,12 @@
             "value" : "%1$@ Je hebt ‘%2$@’%3$@ gedaan."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Udało Ci się: „%2$@”%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5139,6 +5373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ bereikte je ‘%2$@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ udało Ci się dotrzeć do „%2$@”."
           }
         },
         "pt-BR" : {
@@ -5271,6 +5511,12 @@
             "value" : "%1$@ bereikte u ‘%2$@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ udało się dotrzeć do „%2$@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5399,6 +5645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ schreef je op dat ‘%2$@’ je dwarszat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ zapisano, że „%2$@” stanęło na drodze."
           }
         },
         "pt-BR" : {
@@ -5531,6 +5783,12 @@
             "value" : "%1$@ schreef u op dat ‘%2$@’ u dwarszat."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ zapisano, że „%2$@” stanęło na drodze."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5659,6 +5917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Week van %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tydzień od %@"
           }
         },
         "pt-BR" : {
@@ -5791,6 +6055,12 @@
             "value" : "%@, dag met notitie"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dzień z wpisem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5919,6 +6189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, geen notitie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, brak wpisu"
           }
         },
         "pt-BR" : {
@@ -6051,6 +6327,12 @@
             "value" : "%@, dag waarop het doel is bereikt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dzień, w którym cel został osiągnięty"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6179,6 +6461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, dag die nog niet is aangebroken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dzień, który jeszcze nie nadszedł"
           }
         },
         "pt-BR" : {
@@ -6311,6 +6599,12 @@
             "value" : "%1$@ U hebt toch ‘%2$@’%3$@ gedaan."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Przecież udało się: „%2$@”%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6439,6 +6733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Je hebt toch ‘%2$@’%3$@ gedaan."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Przecież Ci się udało: „%2$@”%3$@."
           }
         },
         "pt-BR" : {
@@ -6571,6 +6871,12 @@
             "value" : "%1$@ lukte het u om ‘%2$@’%3$@."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ udało się: „%2$@”%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6699,6 +7005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ lukte het je om ‘%2$@’%3$@."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ udało Ci się: „%2$@”%3$@."
           }
         },
         "pt-BR" : {
@@ -6831,6 +7143,12 @@
             "value" : "%1$@ bereikte je ‘%2$@’,"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ udało Ci się dotrzeć do „%2$@”,"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6961,6 +7279,12 @@
             "value" : "%1$@ bereikte u ‘%2$@’,"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ udało się dotrzeć do „%2$@”,"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7086,6 +7410,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -7219,6 +7549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld-%1$lld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld"
           }
         },
         "pt-BR" : {
@@ -7532,6 +7868,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld dagen geleden"
+                }
+              }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dzień temu"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dni temu"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dni temu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dni temu"
                 }
               }
             }
@@ -7919,6 +8285,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld dzień temu"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld dni temu"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld dni temu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld dni temu"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -8301,6 +8697,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld tyg. temu"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld tyg. temu"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld tyg. temu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zapisano %lld tyg. temu"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -8497,6 +8923,12 @@
             "value" : "|"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8629,6 +9061,12 @@
             "value" : "Een beetje down"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przygnębienie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8757,6 +9195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beginnen met wat lichte rek- en strekoefeningen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zacząć od lekkiego rozciągania"
           }
         },
         "pt-BR" : {
@@ -8889,6 +9333,12 @@
             "value" : "Dankbaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wdzięczność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9013,6 +9463,12 @@
             "value" : "Rivierkei"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień rzeczny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9135,6 +9591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er bestaat al een doel met die naam"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cel o tej nazwie już istnieje"
           }
         },
         "pt-BR" : {
@@ -9269,6 +9731,12 @@
             "value" : "Voor de ontwikkelaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dla programisty"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9399,6 +9867,12 @@
             "value" : "E-mail de ontwikkelaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napisz do programisty"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9521,6 +9995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er komen vijf stenen bij, alsof ze langs de beek zijn opgeraapt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odblokuje się jeszcze pięć kamieni, jakby zebranych nad strumykiem."
           }
         },
         "pt-BR" : {
@@ -9653,6 +10133,12 @@
             "value" : "Privacybeleid"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polityka prywatności"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9781,6 +10267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gezondheid"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdrowie"
           }
         },
         "pt-BR" : {
@@ -9913,6 +10405,12 @@
             "value" : "Naast je"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy Tobie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10041,6 +10539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wijzig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edytuj"
           }
         },
         "pt-BR" : {
@@ -10175,6 +10679,12 @@
             "value" : "Prima"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W porządku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10307,6 +10817,12 @@
             "value" : "Geen probleem. Het viel alleen niet op."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nic się nie stało. Po prostu nie rzuciło się w oczy."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10437,6 +10953,12 @@
             "value" : "Gekweld"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cierpienie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10559,6 +11081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aankopen herstellen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przywróć zakupy"
           }
         },
         "pt-BR" : {
@@ -10689,6 +11217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regelmatig leven"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regularne życie"
           }
         },
         "pt-BR" : {
@@ -10823,6 +11357,12 @@
             "value" : "En hoe ging het daarna?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A jak było potem?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10953,6 +11493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dat was de situatie. En hoe voel je je nu?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To była sytuacja. A jak się teraz czujesz?"
           }
         },
         "pt-BR" : {
@@ -11087,6 +11633,12 @@
             "value" : "Hoe liep dat af?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak to się skończyło?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11209,6 +11761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoe was die dag"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaki był ten dzień"
           }
         },
         "pt-BR" : {
@@ -11343,6 +11901,12 @@
             "value" : "Ik laat het zo"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostawię tak"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11471,6 +12035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toen zei u dat u ‘%1$@’ wilde proberen.%2$@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wtedy mówiło się o próbie: „%1$@”.%2$@"
           }
         },
         "pt-BR" : {
@@ -11603,6 +12173,12 @@
             "value" : "Toen zei je dat je ‘%1$@’ wilde proberen.%2$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wtedy padło, że spróbujesz: „%1$@”.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11725,6 +12301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoe je je toen voelde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastrój wtedy"
           }
         },
         "pt-BR" : {
@@ -11859,6 +12441,12 @@
             "value" : "Wat gebeurde er toen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co się wtedy wydarzyło?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11991,6 +12579,12 @@
             "value" : "Praten over toen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porozmawiać o tamtym czasie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12121,6 +12715,12 @@
             "value" : "Toen zei u: ‘%@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wtedy powiedziano: „%@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12249,6 +12849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toen zei je: ‘%@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wtedy padło: „%@”."
           }
         },
         "pt-BR" : {
@@ -12383,6 +12989,12 @@
             "value" : "Goed. Een andere keer praten we verder."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrze. Porozmawiamy innym razem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12513,6 +13125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zo was het"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak było"
           }
         },
         "pt-BR" : {
@@ -12647,6 +13265,12 @@
             "value" : "Dat kan gebeuren. Vergeten betekent niet dat het verdwijnt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdarza się. Zapomnienie nie sprawia, że sprawa znika."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12779,6 +13403,12 @@
             "value" : "Dat kan gebeuren. Vergeten is vergeten."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdarza się. Co zapomniane, to zapomniane."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12909,6 +13539,12 @@
             "value" : "Wat is dan op weg naar ‘%1$@’%2$@ één klein ding dat je al morgen kunt doen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To co jest na drodze do „%1$@”%2$@ jedną tak małą rzeczą, którą zrobisz już jutro?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13037,6 +13673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat is dan op weg naar ‘%1$@’%2$@ één klein ding dat u al morgen kunt doen?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To co jest na drodze do „%1$@”%2$@ jedną tak małą rzeczą, którą można zrobić już jutro?"
           }
         },
         "pt-BR" : {
@@ -13171,6 +13813,12 @@
             "value" : "Laten we er dan over praten."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porozmawiajmy więc o tym."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13301,6 +13949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dan is dat afgerond. Ik schrijf het nu op."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W takim razie to zamknięte. Zapiszę to teraz."
           }
         },
         "pt-BR" : {
@@ -13435,6 +14089,12 @@
             "value" : "Dan rond ik het af."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W takim razie zamknę ten temat."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13567,6 +14227,12 @@
             "value" : "Wat dacht je hiervan: als je het zo klein maakte dat je het morgen al kon doen, wat zou het dan zijn?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A co powiesz na to: gdyby zrobić to tak małym, żeby dało się już jutro – czym by to było?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13695,6 +14361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop met voorlezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatrzymaj czytanie"
           }
         },
         "pt-BR" : {
@@ -13829,6 +14501,12 @@
             "value" : "Gaat wel"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak sobie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13959,6 +14637,12 @@
             "value" : "Verwachtingsvol"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyczekiwanie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14081,6 +14765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notities"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisy"
           }
         },
         "pt-BR" : {
@@ -14207,6 +14897,12 @@
             "value" : "Notities exporteren"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuj wpisy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14329,6 +15025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je notities konden niet worden geëxporteerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się wyeksportować wpisów"
           }
         },
         "pt-BR" : {
@@ -14461,6 +15163,12 @@
             "value" : "Goed gehumeurd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobry nastrój"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14591,6 +15299,12 @@
             "value" : "Blij"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radość"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14719,6 +15433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verschrikkelijk"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okropnie"
           }
         },
         "pt-BR" : {
@@ -14853,6 +15573,12 @@
             "value" : "De rest heeft geen haast."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Z resztą nie trzeba się spieszyć."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14983,6 +15709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "We leggen de rest even weg en kijken alleen naar dit."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resztę odłóżmy i zajmijmy się tylko tym."
           }
         },
         "pt-BR" : {
@@ -15117,6 +15849,12 @@
             "value" : "De rest kun je rustig bekijken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resztę można obejrzeć spokojnie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15249,6 +15987,12 @@
             "value" : "Bewaard, zodat we niet vergeten wat werkte."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisane, żeby nie zapomnieć, co pomogło."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15379,6 +16123,12 @@
             "value" : "Wat je hebt achtergelaten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To, co zostawiono"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15503,6 +16253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Achtergelaten notities blijven bewaard. Het verdwijnt alleen uit de lijst."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostawione wpisy zostają. Znika tylko z listy."
           }
         },
         "pt-BR" : {
@@ -15637,6 +16393,12 @@
             "value" : "Geen woorden achtergelaten."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie zostawiono żadnych słów."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15759,6 +16521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mijn doelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje cele"
           }
         },
         "pt-BR" : {
@@ -15885,6 +16653,12 @@
             "value" : "Kies mijn kiezel"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz mój kamyk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16009,6 +16783,12 @@
             "value" : "Loslaten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpuść"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16131,6 +16911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geëxporteerd op: %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyeksportowano: %@"
           }
         },
         "pt-BR" : {
@@ -16265,6 +17051,12 @@
             "value" : "Als u morgen maar één ding zou doen, wat zou dat dan zijn?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdyby jutro zrobić tylko jedną rzecz, jaka by to była?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16393,6 +17185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kil"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chłód"
           }
         },
         "pt-BR" : {
@@ -16527,6 +17325,12 @@
             "value" : "Ja"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16657,6 +17461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ja, ik laat het zo."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak, zostawię tak."
           }
         },
         "pt-BR" : {
@@ -16791,6 +17601,12 @@
             "value" : "Ja, ik laat het zo. Ik ben er."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak, zostawię tak. Jestem tu."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16923,6 +17739,12 @@
             "value" : "Goed, een andere keer praten we verder."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrze, porozmawiamy innym razem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17045,6 +17867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zonsondergangsteen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień zachodu słońca"
           }
         },
         "pt-BR" : {
@@ -17179,6 +18007,12 @@
             "value" : "Zullen we de rest laten liggen en alleen hiernaar kijken?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostawimy resztę i zajmiemy się tylko tym?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17311,6 +18145,12 @@
             "value" : "De rest rustig aan."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resztą spokojnie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17439,6 +18279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volgende"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalej"
           }
         },
         "pt-BR" : {
@@ -17573,6 +18419,12 @@
             "value" : "Ik schrijf het op, zodat het een volgende keer weer van pas komt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapiszę to, żeby można było użyć tego ponownie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17695,6 +18547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat je hierna wilt proberen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co spróbować dalej"
           }
         },
         "pt-BR" : {
@@ -17827,6 +18685,12 @@
             "value" : "Dieet"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieta"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17955,6 +18819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sluit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamknij"
           }
         },
         "pt-BR" : {
@@ -18089,6 +18959,12 @@
             "value" : "Alleen ‘bereikt’ is genoteerd."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisano tylko „udało się dotrzeć”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18213,6 +19089,12 @@
             "value" : "Ik ben er"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udało się dotrzeć"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18335,6 +19217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik ben er niet"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się dotrzeć"
           }
         },
         "pt-BR" : {
@@ -18467,6 +19355,12 @@
             "value" : "Een leesgewoonte opbouwen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyrobić nawyk czytania"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18595,6 +19489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czytanie"
           }
         },
         "pt-BR" : {
@@ -18729,6 +19629,12 @@
             "value" : "Luistert"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słucham"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18859,6 +19765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er valt niet veel te zeggen. Ik ben er gewoon."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie ma wiele do powiedzenia. Jestem po prostu tu."
           }
         },
         "pt-BR" : {
@@ -18993,6 +19905,12 @@
             "value" : "Als je niets bedenkt, mag je het leeg laten. We zoeken het later samen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli nic nie przychodzi do głowy, zostaw puste. Poszukamy razem później."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19121,6 +20039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De microfoon is niet beschikbaar. Schrijven mag ook."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon jest niedostępny. Możesz też napisać."
           }
         },
         "pt-BR" : {
@@ -19253,6 +20177,12 @@
             "value" : "Tevreden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadowolenie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19381,6 +20311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voldaan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadowolony"
           }
         },
         "pt-BR" : {
@@ -19515,6 +20451,12 @@
             "value" : "Heel zwaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bardzo ciężko"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19645,6 +20587,12 @@
             "value" : "Antwoord met je stem"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpowiedz głosem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19773,6 +20721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aanspreekvorm"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sposób zwracania się"
           }
         },
         "pt-BR" : {
@@ -19907,6 +20861,12 @@
             "value" : "Je kunt de aanspreekvorm kiezen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz wybrać sposób zwracania się"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20037,6 +20997,12 @@
             "value" : "Geluid tijdens het praten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dźwięk podczas mówienia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20165,6 +21131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trilling tijdens het praten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wibracja podczas mówienia"
           }
         },
         "pt-BR" : {
@@ -20299,6 +21271,12 @@
             "value" : "Precies"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokładnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20431,6 +21409,12 @@
             "value" : "Ja, dat heb ik niet gedaan"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak, nie udało się tego zrobić"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20559,6 +21543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elke dag 10 minuten naar een Engelse podcast luisteren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słuchać angielskiego podcastu 10 minut dziennie"
           }
         },
         "pt-BR" : {
@@ -20691,6 +21681,12 @@
             "value" : "Dagelijkse herinnering"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codzienne przypomnienie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20815,6 +21811,12 @@
             "value" : "Inktsteen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień atramentowy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20937,6 +21939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eerst exporteren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najpierw wyeksportuj"
           }
         },
         "pt-BR" : {
@@ -21069,6 +22077,12 @@
             "value" : "Een paar dagen geleden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilka dni temu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21199,6 +22213,12 @@
             "value" : "Een paar dagen geleden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilka dni temu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21321,6 +22341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles wissen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń wszystko"
           }
         },
         "pt-BR" : {
@@ -21447,6 +22473,12 @@
             "value" : "Alles is gewist."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystko usunięto."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21571,6 +22603,12 @@
             "value" : "Alle notities wissen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń wszystkie wpisy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21693,6 +22731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle notities wissen?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunąć wszystkie wpisy?"
           }
         },
         "pt-BR" : {
@@ -21827,6 +22871,12 @@
             "value" : "Alle gegevens verwijderen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń wszystkie dane"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21951,6 +23001,12 @@
             "value" : "Zandkorrel"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziarnko piasku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22073,6 +23129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cel"
           }
         },
         "pt-BR" : {
@@ -22205,6 +23267,12 @@
             "value" : "Doel toevoegen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj cel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22327,6 +23395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schrijf een doel op"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz jeden cel"
           }
         },
         "pt-BR" : {
@@ -22453,6 +23527,12 @@
             "value" : "Schrijf doelen op zonder limiet"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisuj cele bez ograniczeń"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22575,6 +23655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zoveel doelen als je wilt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyle celów, ile chcesz"
           }
         },
         "pt-BR" : {
@@ -22701,6 +23787,12 @@
             "value" : "Schrijf onbeperkt doelen op, kies je kiezel en bewaar je notities in een bestand. Eén keer kopen, altijd gebruiken."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisuj cele bez limitu, wybieraj kamyki i zachowuj wpisy w pliku. Kupujesz raz, używasz zawsze."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22823,6 +23915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Al je doelen en notities verdwijnen en kunnen niet worden hersteld. Ze worden ook gewist op je andere apparaten die via iCloud zijn verbonden. Instellingen en aankopen blijven behouden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystkie cele i wpisy znikną bez możliwości przywrócenia. Zostaną też usunięte na innych urządzeniach połączonych przez iCloud. Ustawienia i zakupy pozostaną."
           }
         },
         "pt-BR" : {
@@ -22955,6 +24053,12 @@
             "value" : "Afgestompt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odrętwienie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23083,6 +24187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Onverschillig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obojętność"
           }
         },
         "pt-BR" : {
@@ -23215,6 +24325,12 @@
             "value" : "Redelijk"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciętnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23345,6 +24461,12 @@
             "value" : "Machteloos"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezsilność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23467,6 +24589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat gratis was, blijft gratis, en er komt nog wat bij."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To, co było darmowe, takie zostaje, a odblokuje się coś jeszcze."
           }
         },
         "pt-BR" : {
@@ -23593,6 +24721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De gratis versie biedt plek voor maximaal drie doelen. Dit is het derde."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wersja darmowa mieści do trzech celów. To jest trzeci."
           }
         },
         "pt-BR" : {
@@ -23725,6 +24859,12 @@
             "value" : "Bang"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strach"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23847,6 +24987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat er gebeurde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co się wydarzyło"
           }
         },
         "pt-BR" : {
@@ -23981,6 +25127,12 @@
             "value" : "Vertel wat er gebeurde"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opowiedz, co się wydarzyło"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24111,6 +25263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik kijk eerst hoe ver u bent gekomen en wat u dwarszat, en spreek u dan aan."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najpierw sprawdzę, dokąd udało się dojść i co stanęło na drodze, a potem sam zagadam."
           }
         },
         "pt-BR" : {
@@ -24245,6 +25403,12 @@
             "value" : "Ik weet nog niet waar u naartoe op weg bent."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeszcze nie wiem, dokąd zmierzasz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24377,6 +25541,12 @@
             "value" : "Waar bent u naartoe op weg?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokąd zmierzasz?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24507,6 +25677,12 @@
             "value" : "Uitdrukkingsloos"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beznamiętność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24635,6 +25811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veel water drinken en vroeg naar bed gaan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pić dużo wody i wcześnie kłaść się spać"
           }
         },
         "pt-BR" : {
@@ -24769,6 +25951,12 @@
             "value" : "Wat heeft geholpen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co pomogło?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24899,6 +26087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schrijf op wat werkte"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz, co zadziałało"
           }
         },
         "pt-BR" : {
@@ -25033,6 +26227,12 @@
             "value" : "Wat werkte?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co zadziałało?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25157,6 +26357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veeg of houd een doel ingedrukt om het een andere naam te geven of los te laten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przesuń lub przytrzymaj cel, aby zmienić jego nazwę lub go odpuścić."
           }
         },
         "pt-BR" : {
@@ -25289,6 +26495,12 @@
             "value" : "Een wekker zetten op 23.00 uur en mijn telefoon ver weg leggen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawić budzik na 23:00 i odłożyć telefon daleko"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25417,6 +26629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gewoon"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwyczajnie"
           }
         },
         "pt-BR" : {
@@ -25549,6 +26767,12 @@
             "value" : "Boos"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Złość"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25677,6 +26901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ontevreden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niezadowolenie"
           }
         },
         "pt-BR" : {
@@ -25809,6 +27039,12 @@
             "value" : "Onrustig"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niepokój"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25937,6 +27173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Code verwijderen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń kod"
           }
         },
         "pt-BR" : {
@@ -26069,6 +27311,12 @@
             "value" : "Code instellen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustaw kod"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26197,6 +27445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voer de code in"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisz kod"
           }
         },
         "pt-BR" : {
@@ -26329,6 +27583,12 @@
             "value" : "Bevestig de code"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potwierdź kod"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26457,6 +27717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ellendig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nędza"
           }
         },
         "pt-BR" : {
@@ -26589,6 +27855,12 @@
             "value" : "Trots op jezelf"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duma z siebie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26711,6 +27983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebruiksstatistieken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statystyki użycia"
           }
         },
         "pt-BR" : {
@@ -26843,6 +28121,12 @@
             "value" : "Gebruiksstatistieken (ontwikkelaar)"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statystyki użycia (programista)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26971,6 +28255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verfrist"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rześkość"
           }
         },
         "pt-BR" : {
@@ -27105,6 +28395,12 @@
             "value" : "Ik begrijp de situatie. En hoe voelt u zich nu?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sytuację rozumiem. A jak się teraz czujesz?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27235,6 +28531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De situatie zit vast, niet u bent het probleem."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To sytuacja się zacięła, a nie z Tobą jest coś nie tak."
           }
         },
         "pt-BR" : {
@@ -27369,6 +28671,12 @@
             "value" : "Voorbeeldgegevens maken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utwórz dane przykładowe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27497,6 +28805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denkt na"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myślę"
           }
         },
         "pt-BR" : {
@@ -27629,6 +28943,12 @@
             "value" : "Opgewonden"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podekscytowanie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27757,6 +29077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instellingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
           }
         },
         "pt-BR" : {
@@ -27889,6 +29215,12 @@
             "value" : "Zet Apple Intelligence aan in ‘Instellingen’, dan kan ik wat u zegt beter ordenen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Włącz Apple Intelligence w „Ustawieniach”, a lepiej uporządkuję to, co mówisz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28017,6 +29349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vertel het door"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiedz innym"
           }
         },
         "pt-BR" : {
@@ -28149,6 +29487,12 @@
             "value" : "Verdrietig"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smutek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28277,6 +29621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tijd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godzina"
           }
         },
         "pt-BR" : {
@@ -28409,6 +29759,12 @@
             "value" : "Enthousiast"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entuzjazm"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28539,6 +29895,12 @@
             "value" : "Teleurgesteld"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozczarowanie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28661,6 +30023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aaien"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pogłaszcz"
           }
         },
         "pt-BR" : {
@@ -28793,6 +30161,12 @@
             "value" : "Eenzaam"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samotność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28923,6 +30297,12 @@
             "value" : "Weemoedig"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Żal"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29051,6 +30431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nog geen notities"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak wpisów"
           }
         },
         "pt-BR" : {
@@ -29185,6 +30571,12 @@
             "value" : "U hebt nog niets achtergelaten."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nic jeszcze nie zostawiono."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29307,6 +30699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er zijn nog geen notities."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak wpisów."
           }
         },
         "pt-BR" : {
@@ -29441,6 +30839,12 @@
             "value" : "Er zijn nog geen achtergelaten verhalen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak zapisanych historii."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29571,6 +30975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik weet nog niet waar u naartoe gaat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeszcze nie wiem, dokąd zmierzasz."
           }
         },
         "pt-BR" : {
@@ -29705,6 +31115,12 @@
             "value" : "U hebt nog geen richting."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie ma jeszcze kierunku."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29833,6 +31249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vroeg opstaan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wstawać wcześnie"
           }
         },
         "pt-BR" : {
@@ -29965,6 +31387,12 @@
             "value" : "Ik stond vroeg op en heb de dag goed benut!"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wstałem wcześnie i dobrze wykorzystałem dzień!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30093,6 +31521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik kwam ’s ochtends niet uit bed en heb me verslapen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rano nie udało się wstać, więc zaspałem."
           }
         },
         "pt-BR" : {
@@ -30227,6 +31661,12 @@
             "value" : "Hallo. Ik ben ZinggumDol."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cześć. Jestem ZinggumDol."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30359,6 +31799,12 @@
             "value" : "Goed. Ik ben er."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrze. Jestem tu."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30489,6 +31935,12 @@
             "value" : "Herinneringen aanzetten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Włącz przypomnienia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30611,6 +32063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meer informatie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dowiedz się więcej"
           }
         },
         "pt-BR" : {
@@ -30743,6 +32201,12 @@
             "value" : "De app delen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udostępnij aplikację"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30873,6 +32337,12 @@
             "value" : "Appcode"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kod aplikacji"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30995,6 +32465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er worden alleen de dagen verstuurd waarop u de app opende of een gesprek afrondde, het soort acties (zoals een doel aanmaken), het aantal notities en doelen en of u het aankoopscherm hebt gezien. Geen enkele letter van wat u schrijft verlaat het apparaat, en de verzender wordt alleen onderscheiden met een willekeurig nummer dat op dit apparaat is gemaakt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wysyłane są tylko dni, w których otwarto aplikację lub zakończono rozmowę, rodzaje działań (np. utworzenie celu), liczba wpisów i celów oraz informacja, czy wyświetlono ekran zakupu. Z tego, co piszesz, nie wychodzi ani jedna litera, a nadawca jest rozróżniany jedynie po losowym numerze utworzonym na tym urządzeniu."
           }
         },
         "pt-BR" : {
@@ -31127,6 +32603,12 @@
             "value" : "Geen nachtelijke snacks"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie podjadać w nocy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31255,6 +32737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik kon de nachtelijke snack niet laten staan. Ik had honger en at noedels."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie wytrzymałem i podjadłem w nocy. Byłem głodny i zjadłem makaron."
           }
         },
         "pt-BR" : {
@@ -31389,6 +32877,12 @@
             "value" : "Noteer hoe het ging"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz, jak poszło"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31517,6 +33011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rommelig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bałagan"
           }
         },
         "pt-BR" : {
@@ -31649,6 +33149,12 @@
             "value" : "Gisteren"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wczoraj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31777,6 +33283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gisteren genoteerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisano wczoraj"
           }
         },
         "pt-BR" : {
@@ -31911,6 +33423,12 @@
             "value" : "U kunt dit altijd wijzigen. Daarna begroet de kiezel u opnieuw op die manier."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz to zmienić w każdej chwili. Po zmianie kamyk przywita Cię ponownie w nowy sposób."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32039,6 +33557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Onlangs"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedawno"
           }
         },
         "pt-BR" : {
@@ -32171,6 +33695,12 @@
             "value" : "Onlangs"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedawno"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32299,6 +33829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik ben er."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jestem tu."
           }
         },
         "pt-BR" : {
@@ -32433,6 +33969,12 @@
             "value" : "Laten we het voor vandaag hierbij laten.\nPlannen die je op vermoeide dagen maakt, lukken zelden.\nHet is bewaard, dus geen zorgen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na dziś wystarczy.\nPlany robione w zmęczone dni rzadko się udają.\nZapisane, nic się nie stało."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32563,6 +34105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tot hier ging het over wat er gebeurde. En hoe voelt u zich nu?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do tej pory było o tym, co się wydarzyło. A co masz teraz na sercu?"
           }
         },
         "pt-BR" : {
@@ -32697,6 +34245,12 @@
             "value" : "Praten vanaf hier"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zacznij od tego miejsca"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32825,6 +34379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gepassioneerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapał"
           }
         },
         "pt-BR" : {
@@ -32957,6 +34517,12 @@
             "value" : "Ik wilde Engels leren, maar heb het uitgesteld."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chciałem uczyć się angielskiego, ale odłożyłem to na później."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33085,6 +34651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Engels leren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nauka angielskiego"
           }
         },
         "pt-BR" : {
@@ -33217,6 +34789,12 @@
             "value" : "Mijn Engels verbeteren"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poprawić angielski"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33345,6 +34923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik luisterde op weg naar mijn werk naar een Engelse podcast! Het was leuker dan ik dacht."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jechałem do pracy, słuchając angielskiego podcastu! Było ciekawiej, niż myślałem."
           }
         },
         "pt-BR" : {
@@ -33477,6 +35061,12 @@
             "value" : "Vandaag"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33605,6 +35195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vandaag ‘%@’ – het is u gelukt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj „%@” – udało się."
           }
         },
         "pt-BR" : {
@@ -33737,6 +35333,12 @@
             "value" : "Vandaag ‘%@’ – het is je gelukt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj „%@” – udało Ci się."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33865,6 +35467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vandaag is er nog geen nieuws over ‘%1$@’.%2$@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj o „%1$@”%2$@ jeszcze nie ma wieści."
           }
         },
         "pt-BR" : {
@@ -33997,6 +35605,12 @@
             "value" : "Vandaag is er nog geen nieuws over ‘%1$@’.%2$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj o „%1$@”%2$@ jeszcze nie ma wieści."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34127,6 +35741,12 @@
             "value" : "Vandaag bereikte je ‘%@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj udało Ci się dotrzeć do „%@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34255,6 +35875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vandaag bereikte u ‘%@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj udało się dotrzeć do „%@”."
           }
         },
         "pt-BR" : {
@@ -34389,6 +36015,12 @@
             "value" : "Vandaag vastleggen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz dzisiejszy dzień"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34519,6 +36151,12 @@
             "value" : "Vandaag genoteerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisano dzisiaj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34647,6 +36285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zullen we samen kijken hoe de dag was?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spojrzymy razem, jak minął dzień?"
           }
         },
         "pt-BR" : {
@@ -34781,6 +36425,12 @@
             "value" : "Vandaag ben ik er gewoon naast."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dziś jestem po prostu obok."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34911,6 +36561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laten we het voor vandaag hierbij laten.\nNu is rusten belangrijker dan een antwoord zoeken.\nHet is genoteerd en gaat niet verloren."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na dziś wystarczy.\nTeraz odpoczynek jest ważniejszy niż szukanie odpowiedzi.\nZapisane, nie zniknie."
           }
         },
         "pt-BR" : {
@@ -35045,6 +36701,12 @@
             "value" : "Laten we hier vandaag stoppen.\nU hoeft nu geen antwoord te forceren.\nHet is bewaard, de volgende keer kijken we er samen naar."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatrzymajmy się na dziś.\nNie trzeba teraz wymuszać odpowiedzi.\nZapisane – obejrzymy to razem następnym razem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35175,6 +36837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voor vandaag is dit ene ding genoeg."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na dziś wystarczy ta jedna rzecz."
           }
         },
         "pt-BR" : {
@@ -35309,6 +36977,12 @@
             "value" : "Vandaag houd ik me stil."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dziś będę cicho."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35437,6 +37111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lang geleden genoteerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisano dawno temu"
           }
         },
         "pt-BR" : {
@@ -35569,6 +37249,12 @@
             "value" : "Moedig"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odwaga"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35697,6 +37383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sporten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ćwiczenia"
           }
         },
         "pt-BR" : {
@@ -35829,6 +37521,12 @@
             "value" : "Ik ging sporten, maar gaf halverwege op en ging naar huis."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poszedłem ćwiczyć, ale zrezygnowałem w połowie i wróciłem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35959,6 +37657,12 @@
             "value" : "Gemotiveerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motywacja"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36087,6 +37791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Op dit apparaat is de ordenfunctie niet beschikbaar. Ik schrijf het op zoals ik het hoor."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na tym urządzeniu funkcja porządkowania jest niedostępna. Zapiszę tak, jak usłyszę."
           }
         },
         "pt-BR" : {
@@ -36221,6 +37931,12 @@
             "value" : "Deze notitie wissen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunąć ten wpis?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36353,6 +38069,12 @@
             "value" : "Dit zijn twee verschillende dingen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To są dwie różne sprawy."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36479,6 +38201,12 @@
             "value" : "Notities bij dit doel nemen ook de nieuwe naam over."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisy przy tym celu też przejmą nową nazwę."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36601,6 +38329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Praten over dit doel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porozmawiaj o tym celu"
           }
         },
         "pt-BR" : {
@@ -36727,6 +38461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dit doel loslaten?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpuścić ten cel?"
           }
         },
         "pt-BR" : {
@@ -36861,6 +38601,12 @@
             "value" : "Hierover praten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porozmawiać o tym"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36991,6 +38737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als u dit in iets kleiners opdeelde, wat zou het dan zijn?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdyby podzielić to na coś mniejszego, czym by to było?"
           }
         },
         "pt-BR" : {
@@ -37125,6 +38877,12 @@
             "value" : "Ik begin hiermee"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zacznę od tego"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37255,6 +39013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik schrijf het zo op. Morgen alleen tot hier."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapiszę tak. Jutro tylko tyle."
           }
         },
         "pt-BR" : {
@@ -37389,6 +39153,12 @@
             "value" : "Ik neem dit"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybieram to"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37511,6 +39281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mossteen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień omszały"
           }
         },
         "pt-BR" : {
@@ -37645,6 +39421,12 @@
             "value" : "Die dag is voorbij. Maar de steen ligt er nog."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ten dzień minął. Ale kamień wciąż tam leży."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37775,6 +39557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik laat het zo"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostawię tak"
           }
         },
         "pt-BR" : {
@@ -37909,6 +39697,12 @@
             "value" : "Zo aanpassen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Popraw tak"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38031,6 +39825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hernoemen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmień nazwę"
           }
         },
         "pt-BR" : {
@@ -38163,6 +39963,12 @@
             "value" : "Deze week"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W tym tygodniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38293,6 +40099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat was er deze keer anders?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co było inaczej tym razem?"
           }
         },
         "pt-BR" : {
@@ -38606,6 +40418,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld eerdere verhalen zijn ingeklapt"
+                }
+              }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
                 }
               }
             }
@@ -38993,6 +40835,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zwinięte wcześniejsze historie: %lld"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -39183,6 +41055,12 @@
             "value" : "Anonieme gebruiksstatistieken versturen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wysyłaj anonimowe statystyki użycia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39313,6 +41191,12 @@
             "value" : "Gebruikelijk"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwyczajność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39441,6 +41325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alledaags"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codzienność"
           }
         },
         "pt-BR" : {
@@ -39575,6 +41465,12 @@
             "value" : "Ik was het vergeten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapomniałem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39707,6 +41603,12 @@
             "value" : "Ik schrijf het op voordat ik het vergeet"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapiszę to, zanim zapomnę"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39835,6 +41737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Persoonlijke ontwikkeling"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozwój osobisty"
           }
         },
         "pt-BR" : {
@@ -39969,6 +41877,12 @@
             "value" : "Ik blijf het uitstellen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciągle odkładam"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40097,6 +42011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trots"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duma"
           }
         },
         "pt-BR" : {
@@ -40229,6 +42149,12 @@
             "value" : "Zelfverzekerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pewność siebie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40357,6 +42283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zelfverwijt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obwinianie się"
           }
         },
         "pt-BR" : {
@@ -40491,6 +42423,12 @@
             "value" : "Hoe kleiner, hoe beter."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im mniejsze, tym lepsze."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40621,6 +42559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoe kleiner, hoe beter. Zelfs vijf minuten is prima."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im mniejsze, tym lepsze. Nawet pięć minut wystarczy."
           }
         },
         "pt-BR" : {
@@ -40755,6 +42699,12 @@
             "value" : "Netjes genoteerd. De volgende keer dat u vastloopt, haal ik dit tevoorschijn."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrze zapisane. Kiedy następnym razem utkniesz, wyciągnę to dla Ciebie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40885,6 +42835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fijn. Ik bewaar het nu."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Super. Zapiszę to teraz."
           }
         },
         "pt-BR" : {
@@ -41019,6 +42975,12 @@
             "value" : "Laten we even praten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porozmawiajmy chwilę"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41141,6 +43103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Probeer het over een ogenblik opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spróbuj ponownie za chwilę."
           }
         },
         "pt-BR" : {
@@ -41271,6 +43239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geen doelen genoteerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak zapisanych celów"
           }
         },
         "pt-BR" : {
@@ -41405,6 +43379,12 @@
             "value" : "Genoteerd. Morgen maar zoveel."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisane. Jutro tylko tyle."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41535,6 +43515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Genoteerd. Ik laat het zien als u bij iets soortgelijks vastloopt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisane. Pokażę to, gdy utkniesz w czymś podobnym."
           }
         },
         "pt-BR" : {
@@ -41669,6 +43655,12 @@
             "value" : "Genoteerd. Zoveel is genoeg."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisane. Tyle wystarczy."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41801,6 +43793,12 @@
             "value" : "Ik schrijf het zelf"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napiszę sam"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41931,6 +43929,12 @@
             "value" : "Wanhopig"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozpacz"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42059,6 +44063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik bereid de ordenfunctie voor. Voorlopig schrijf ik het op zoals ik het hoor."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przygotowuję funkcję porządkowania. Na razie zapiszę tak, jak usłyszę."
           }
         },
         "pt-BR" : {
@@ -42193,6 +44203,12 @@
             "value" : "Ordenen…"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porządkuję…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42325,6 +44341,12 @@
             "value" : "Ik ga het ordenen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spróbuję to uporządkować."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42455,6 +44477,12 @@
             "value" : "Weet u zeker dat u de code wilt verwijderen en de beveiliging wilt verlagen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czy na pewno usunąć kod i obniżyć poziom zabezpieczeń?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42579,6 +44607,12 @@
             "value" : "Weet u het zeker?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na pewno usunąć?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42701,6 +44735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schelp"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muszla"
           }
         },
         "pt-BR" : {
@@ -42835,6 +44875,12 @@
             "value" : "Niet helemaal"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie do końca"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42965,6 +45011,12 @@
             "value" : "Kiezel"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamyk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43089,6 +45141,12 @@
             "value" : "Kiezel kiezen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz kamyk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43211,6 +45269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kies uit zes kieseluitvoeringen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz jedną z sześciu faktur kamyka"
           }
         },
         "pt-BR" : {
@@ -43341,6 +45405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De kiezel denkt na"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamyk myśli"
           }
         },
         "pt-BR" : {
@@ -43475,6 +45545,12 @@
             "value" : "In ‘Instellingen’ kiest u of de kiezel u met ‘u’ of ‘je’ aanspreekt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W „Ustawieniach” możesz wybrać, czy kamyk zwraca się do Ciebie oficjalnie, czy swobodnie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43607,6 +45683,12 @@
             "value" : "Goed"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobrze"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43737,6 +45819,12 @@
             "value" : "Ontmoedigd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zniechęcenie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43865,6 +45953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neutraal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spokój"
           }
         },
         "pt-BR" : {
@@ -43999,6 +46093,12 @@
             "value" : "Nu praten"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porozmawiaj teraz"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44131,6 +46231,12 @@
             "value" : "Als u ergens naartoe op weg bent, wilt u mij dan over één ding vertellen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli zmierzasz do czegoś, opowiesz mi o jednej rzeczy?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44261,6 +46367,12 @@
             "value" : "Waar u naartoe op weg bent"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokąd zmierzasz"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44383,6 +46495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je bent al op weg naar %lld doelen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmierzasz już do celów: %lld."
           }
         },
         "pt-BR" : {
@@ -44509,6 +46627,12 @@
             "value" : "U bent al op weg naar %lld doelen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmierzasz już do celów: %lld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44633,6 +46757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voorlopig laat ik het zo"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na razie zostawię"
           }
         },
         "pt-BR" : {
@@ -44767,6 +46897,12 @@
             "value" : "Voorlopig laat ik het liever zo"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na razie wolę zostawić"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44895,6 +47031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Op dit moment is het moeilijk te verstaan. Schrijven mag ook."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teraz trudno coś usłyszeć. Możesz też napisać."
           }
         },
         "pt-BR" : {
@@ -45029,6 +47171,12 @@
             "value" : "En hoe is het nu?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A jak jest teraz?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45157,6 +47305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De ordenfunctie is nu niet beschikbaar. Ik schrijf het op zoals ik het hoor."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkcja porządkowania jest teraz niedostępna. Zapiszę tak, jak usłyszę."
           }
         },
         "pt-BR" : {
@@ -45289,6 +47443,12 @@
             "value" : "Afgelegde weg"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przebyta droga"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45413,6 +47573,12 @@
             "value" : "Bewaar al je notities in een tekstbestand."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj wszystkie wpisy w pliku tekstowym."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45535,6 +47701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporteer je notities naar een bestand"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuj wpisy do pliku"
           }
         },
         "pt-BR" : {
@@ -45667,6 +47839,12 @@
             "value" : "In de vorige notitie staat: ‘%@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W poprzednim wpisie zostało: „%@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45795,6 +47973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In de vorige notitie staat: ‘%@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W poprzednim wpisie zostało: „%@”."
           }
         },
         "pt-BR" : {
@@ -45927,6 +48111,12 @@
             "value" : "De vorige keer besloot u: ‘%1$@’.%2$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnio postanowiono: „%1$@”.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46055,6 +48245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De vorige keer besloot je: ‘%1$@’.%2$@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnio padło postanowienie: „%1$@”.%2$@"
           }
         },
         "pt-BR" : {
@@ -46187,6 +48383,12 @@
             "value" : "De vorige keer wilde je ‘%1$@’ proberen.%2$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnio w planach było spróbować: „%1$@”.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46315,6 +48517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De vorige keer wilde u ‘%1$@’ proberen.%2$@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnio chciano spróbować: „%1$@”.%2$@"
           }
         },
         "pt-BR" : {
@@ -46447,6 +48655,12 @@
             "value" : "De vorige keer schreef je: ‘%@’."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnio zapisano: „%@”."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46575,6 +48789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De vorige keer schreef u: ‘%@’."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnio napisano: „%@”."
           }
         },
         "pt-BR" : {
@@ -46707,6 +48927,12 @@
             "value" : "Vorige week"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W zeszłym tygodniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46835,6 +49061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorige week"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W zeszłym tygodniu"
           }
         },
         "pt-BR" : {
@@ -46967,6 +49199,12 @@
             "value" : "Ongeveer vorige week"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mniej więcej w zeszłym tygodniu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47097,6 +49335,12 @@
             "value" : "Verveeld"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuda"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47225,6 +49469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wissen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń"
           }
         },
         "pt-BR" : {
@@ -47359,6 +49609,12 @@
             "value" : "Wat gewist is, kan niet worden teruggehaald."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po usunięciu nie można tego przywrócić."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47481,6 +49737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wissen is niet gelukt. Probeer het over een ogenblik opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się usunąć. Spróbuj ponownie za chwilę."
           }
         },
         "pt-BR" : {
@@ -47613,6 +49875,12 @@
             "value" : "Support en privacy"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wsparcie i prywatność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47743,6 +50011,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47867,6 +50141,12 @@
             "value" : "ZinggumDol-notities"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpisy ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47986,6 +50266,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -48113,6 +50399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "U gebruikt ZinggumDol Pro. Bedankt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korzystasz z ZinggumDol Pro. Dziękujemy."
           }
         },
         "pt-BR" : {
@@ -48245,6 +50537,12 @@
             "value" : "Geïrriteerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irytacja"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48367,6 +50665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kort is prima."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krótko też jest dobrze."
           }
         },
         "pt-BR" : {
@@ -48501,6 +50805,12 @@
             "value" : "Kort is prima – alleen wat er toen gebeurde."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krótko też jest dobrze – tylko co się wtedy wydarzyło."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48629,6 +50939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik heb 30 minuten gelezen. Ik kon me goed concentreren."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czytałem 30 minut. Dobrze się skupiłem."
           }
         },
         "pt-BR" : {
@@ -48761,6 +51077,12 @@
             "value" : "Conditie opbouwen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zbudować kondycję"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48889,6 +51211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuleer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
           }
         },
         "pt-BR" : {
@@ -49023,6 +51351,12 @@
             "value" : "Groot schrijven mag ook."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz też pisać dużymi literami."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49145,6 +51479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik of wrijf om het te aaien"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dotknij lub potrzyj, aby pogłaskać"
           }
         },
         "pt-BR" : {
@@ -49277,6 +51617,12 @@
             "value" : "Vernietigend"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destrukcyjność"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49405,6 +51751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ontspannen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozluźnienie"
           }
         },
         "pt-BR" : {
@@ -49539,6 +51891,12 @@
             "value" : "Zoals het voor u het prettigst is"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak, jak jest Ci wygodnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49667,6 +52025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doorsnee"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwyczajnie"
           }
         },
         "pt-BR" : {
@@ -49799,6 +52163,12 @@
             "value" : "De app beoordelen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oceń aplikację"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49918,6 +52288,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -50049,6 +52425,12 @@
             "value" : "Meer noteren met Pro"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chcę zapisać więcej z Pro"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50171,6 +52553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beschikbaar met Pro"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępne w Pro"
           }
         },
         "pt-BR" : {
@@ -50301,6 +52689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moe"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmęczenie"
           }
         },
         "pt-BR" : {
@@ -50435,6 +52829,12 @@
             "value" : "Het ene is wat er gebeurde, het andere is hoe u zich nu voelt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedno to to, co się wydarzyło, drugie – jak się teraz czujesz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50557,6 +52957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eén keer kopen, altijd gebruiken. Geen abonnement"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kupujesz raz, używasz zawsze. To nie subskrypcja"
           }
         },
         "pt-BR" : {
@@ -50687,6 +53093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heel lang geleden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bardzo dawno temu"
           }
         },
         "pt-BR" : {
@@ -50821,6 +53233,12 @@
             "value" : "Gedaan, maar niet genoteerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrobiłem, ale nie zapisałem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50953,6 +53371,12 @@
             "value" : "Gedaan, alleen niet genoteerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrobiłem, tylko nie zapisałem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51081,6 +53505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gelukkig"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szczęście"
           }
         },
         "pt-BR" : {
@@ -51215,6 +53645,12 @@
             "value" : "Ik heb nog niet gehoord waar u naartoe op weg bent."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeszcze nie słyszałem, dokąd zmierzasz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51337,6 +53773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Het is prima om naar meerdere doelen toe te werken. U kunt ze onbeperkt noteren."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Można zmierzać do kilku celów naraz. Zapisywać je można bez ograniczeń."
           }
         },
         "pt-BR" : {
@@ -51467,6 +53909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Walging"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wstręt"
           }
         },
         "pt-BR" : {
@@ -51601,6 +54049,12 @@
             "value" : "Bedoelt u dit?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czy chodzi o to?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51731,6 +54185,12 @@
             "value" : "OK"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51853,6 +54313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typ ‘%@’ ter bevestiging."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby potwierdzić, wpisz „%@”."
           }
         },
         "pt-BR" : {
@@ -51981,6 +54447,12 @@
             "value" : "Hihi"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hehe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52105,6 +54577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hè?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
           }
         },
         "pt-BR" : {
@@ -52233,6 +54711,12 @@
             "value" : "Ik ben er"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jestem tu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52357,6 +54841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Riep je me?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zawołano mnie?"
           }
         },
         "pt-BR" : {
@@ -52485,6 +54975,12 @@
             "value" : "Hihi, dat kietelt!"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, łaskocze!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52609,6 +55105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Het kietelt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łaskocze"
           }
         },
         "pt-BR" : {
@@ -52737,6 +55239,12 @@
             "value" : "Hou op, hihi"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przestań, hihi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52861,6 +55369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heerlijk…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak miło…"
           }
         },
         "pt-BR" : {
@@ -52989,6 +55503,12 @@
             "value" : "Lekker warm"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciepło"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53113,6 +55633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ik word slaperig…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zasypiam…"
           }
         },
         "pt-BR" : {
@@ -53241,6 +55767,12 @@
             "value" : "Ik word duizelig…"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kręci mi się w głowie…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53365,6 +55897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rond en rond…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kręcę się i kręcę…"
           }
         },
         "pt-BR" : {

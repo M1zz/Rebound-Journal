@@ -87,6 +87,12 @@
             "value" : "Rivierkei"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień rzeczny"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naast je"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy Tobie"
           }
         },
         "pt-BR" : {
@@ -335,6 +347,12 @@
             "value" : "Blij"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radość"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -457,6 +475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zonsondergangsteen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień zachodu słońca"
           }
         },
         "pt-BR" : {
@@ -583,6 +607,12 @@
             "value" : "Luistert"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słucham"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -705,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inktsteen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień atramentowy"
           }
         },
         "pt-BR" : {
@@ -831,6 +867,12 @@
             "value" : "Zandkorrel"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziarnko piasku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -953,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denkt na"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myślę"
           }
         },
         "pt-BR" : {
@@ -1079,6 +1127,12 @@
             "value" : "Ik ben er."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jestem tu."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,6 +1255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vandaag vastleggen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz dzisiejszy dzień"
           }
         },
         "pt-BR" : {
@@ -1327,6 +1387,12 @@
             "value" : "Mossteen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamień omszały"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1451,6 +1517,12 @@
             "value" : "Schelp"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muszla"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1573,6 +1645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kiezel"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamyk"
           }
         },
         "pt-BR" : {
@@ -1707,6 +1785,12 @@
             "value" : "Een woordje van de kiezel. Tik om vandaag vast te leggen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słowo od kamyka. Dotknij, aby zapisać dzisiejszy dzień."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1834,6 +1918,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
