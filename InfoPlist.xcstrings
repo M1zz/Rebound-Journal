@@ -5,6 +5,12 @@
       "comment" : "홈 화면에 뜨는 앱 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59,6 +65,12 @@
       "comment" : "표시 이름을 못 쓰는 자리의 짧은 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -112,6 +124,12 @@
     "NSMicrophoneUsageDescription" : {
       "comment" : "Privacy - Microphone Usage Description",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Mikrofon wird verwendet, damit du den Tag ganz einfach per Sprache Revue passieren lassen kannst. Aufnahmen werden nicht gespeichert; auf deinem Gerät bleibt nur der transkribierte Text."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,6 +183,12 @@
     "NSSpeechRecognitionUsageDescription" : {
       "comment" : "Privacy - Speech Recognition Usage Description",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird verwendet, um Gesprochenes in Text umzuwandeln. Die Erkennung erfolgt auf deinem Gerät und verlässt es nicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

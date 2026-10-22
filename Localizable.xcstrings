@@ -3,6 +3,12 @@
   "strings" : {
     "  기분: %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Stimmung: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49,6 +55,12 @@
     },
     "  다음 걸음: %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Nächster Schritt: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +107,12 @@
     },
     "  있었던 일: %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Was passiert ist: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -141,6 +159,12 @@
     },
     "'%@' 앞에서 뭐가 걸렸어?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ist dir bei „%@“ in die Quere gekommen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -193,6 +217,12 @@
     },
     "'%@' 앞에서 뭐가 걸렸어요?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ist Ihnen bei „%@“ in die Quere gekommen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +275,12 @@
     },
     "'%@' 얘기를 나눈 지 %lld일이 지났어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seit unserem Gespräch über „%1$@“ sind %2$lld Tage vergangen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -297,6 +333,12 @@
     },
     "'%@' 얘기를 나눈 지 %lld일이 지났어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seit unserem Gespräch über „%1$@“ sind %2$lld Tage vergangen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -349,6 +391,12 @@
     },
     "'%@', 오늘은 아직이네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ – heute noch nichts."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -401,6 +449,12 @@
     },
     "'%@', 오늘은 아직이네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ – heute noch nichts."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -453,6 +507,12 @@
     },
     "'%@'%@ %lld일째 조용하네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ ist seit %3$lld Tagen still."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -505,6 +565,12 @@
     },
     "'%@'%@ %lld일째 조용하네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ ist seit %3$lld Tagen still."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -557,6 +623,12 @@
     },
     "'%@'%@ 돌아본 지 %lld일 됐어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du hast vor %3$lld Tagen zuletzt zurückgeschaut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -609,6 +681,12 @@
     },
     "'%@'%@ 돌아본 지 %lld일 됐어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ Sie haben vor %3$lld Tagen zuletzt zurückgeschaut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -661,6 +739,12 @@
     },
     "'%@'%@ 오늘 아직 닿지 않았네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ heute bist du noch nicht dort angekommen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -713,6 +797,12 @@
     },
     "'%@'%@ 오늘 아직 닿지 않았네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ heute sind Sie noch nicht dort angekommen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -765,6 +855,12 @@
     },
     "'%@'%@ 적어두고 아직 돌아본 적은 없네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du hast es notiert, aber noch nicht zurückgeschaut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -817,6 +913,12 @@
     },
     "'%@'%@ 적어두고 아직 돌아본 적은 없네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ Sie haben es notiert, aber noch nicht zurückgeschaut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -869,6 +971,12 @@
     },
     "'%@'%@ 적어두기만 하고 아직이야." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ du hast es nur notiert, mehr ist noch nicht passiert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -921,6 +1029,12 @@
     },
     "'%@'%@ 적어두기만 하고 아직이에요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ Sie haben es nur notiert, mehr ist noch nicht passiert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -973,6 +1087,12 @@
     },
     "'%@'%@ 적어둔 뒤로는 아직 조용해." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ seit du es notiert hast, ist es still geblieben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1025,6 +1145,12 @@
     },
     "'%@'%@ 적어둔 뒤로는 아직 조용해요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ seit Sie es notiert haben, ist es still geblieben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1077,6 +1203,12 @@
     },
     "'%@'%@ 하려던 때로 돌아가 보자. 뭐가 막혔어?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ gehen wir zurück zu dem Moment, als du es vorhattest. Was hat dich aufgehalten?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1129,6 +1261,12 @@
     },
     "'%@'%@ 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“%2$@ gehen wir zurück zu dem Moment, als Sie es vorhatten. Was hat Sie aufgehalten?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1181,6 +1319,12 @@
     },
     "'%@'에 닿은 게 %@였어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei „%1$@“ bist du bis %2$@ gekommen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1233,6 +1377,12 @@
     },
     "'%@'에 닿은 게 %@였어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei „%1$@“ sind Sie bis %2$@ gekommen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1285,6 +1435,12 @@
     },
     "'%@'에 닿은 하루였네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das war der Tag, an dem du „%@“ erreicht hast."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1337,6 +1493,12 @@
     },
     "'%@'에 닿은 하루였네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das war der Tag, an dem Sie „%@“ erreicht haben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1389,6 +1551,12 @@
     },
     "'%@'에 대해 %@ '%@'라고 적었어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu „%1$@“ hast du %2$@ geschrieben: „%3$@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1441,6 +1609,12 @@
     },
     "'%@'에 대해 %@ '%@'라고 적으셨어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu „%1$@“ haben Sie %2$@ geschrieben: „%3$@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1495,6 +1669,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lass unter „Zurückgelegter Weg“ ein Ziel los, dann kannst du ein neues anlegen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1541,6 +1721,12 @@
     },
     "%@\n막힌 건 '%@'였고,\n지금 기분은 '%@'%@.\n\n%@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nAufgehalten hat dich „%2$@“,\nund gerade fühlst du dich „%3$@“%4$@.\n\n%5$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1593,6 +1779,12 @@
     },
     "%@ '%@' 얘기하면서 '%@'라고 남겼지." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Als es um „%2$@“ ging, hast du „%3$@“ hinterlassen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1645,6 +1837,12 @@
     },
     "%@ '%@' 얘기하면서 '%@'라고 남기셨죠." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Als es um „%2$@“ ging, haben Sie „%3$@“ hinterlassen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1697,6 +1895,12 @@
     },
     "%@ '%@'%@ 두고 '%@'라고 하셨어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Zu „%2$@“%3$@ sagten Sie: „%4$@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1749,6 +1953,12 @@
     },
     "%@ '%@'%@ 두고 '%@'라고 했잖아." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Zu „%2$@“%3$@ hast du gesagt: „%4$@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1801,6 +2011,12 @@
     },
     "%@ '%@'%@ 막혔다고 하셨어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Sie sagten, „%2$@“%3$@ habe gehakt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1853,6 +2069,12 @@
     },
     "%@ '%@'%@ 막혔다고 했잖아." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du hast gesagt, „%2$@“%3$@ habe gehakt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1905,6 +2127,12 @@
     },
     "%@ '%@'%@ 해내셨죠." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ haben Sie geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1957,6 +2185,12 @@
     },
     "%@ '%@'%@ 해냈지." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ hast du geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2009,6 +2243,12 @@
     },
     "%@ '%@'에 닿았어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ hast du „%2$@“ erreicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2061,6 +2301,12 @@
     },
     "%@ '%@'에 닿았어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ haben Sie „%2$@“ erreicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2113,6 +2359,12 @@
     },
     "%@ '%@'에서 걸렸다고 남겼지." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ hast du notiert, dass dich „%2$@“ aufgehalten hat."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2165,6 +2417,12 @@
     },
     "%@ '%@'에서 걸렸다고 남기셨죠." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ haben Sie notiert, dass Sie „%2$@“ aufgehalten hat."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2217,6 +2475,12 @@
     },
     "%@ 주" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woche vom %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2269,6 +2533,12 @@
     },
     "%@, 기록을 남긴 날" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, Tag mit Eintrag"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2321,6 +2591,12 @@
     },
     "%@, 남긴 기록 없음" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, kein Eintrag"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2373,6 +2649,12 @@
     },
     "%@, 목표에 닿은 날" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, Tag, an dem das Ziel erreicht wurde"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2425,6 +2707,12 @@
     },
     "%@, 아직 오지 않은 날" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, Tag, der noch nicht gekommen ist"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2477,6 +2765,12 @@
     },
     "%@에 '%@'%@ 해내셨잖아요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ haben Sie doch geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2529,6 +2823,12 @@
     },
     "%@에 '%@'%@ 해냈잖아." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ „%2$@“%3$@ hast du doch geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2581,6 +2881,12 @@
     },
     "%@에는 '%@'%@ 해내셨어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ haben Sie „%2$@“%3$@ geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2633,6 +2939,12 @@
     },
     "%@에는 '%@'%@ 해냈어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ hast du „%2$@“%3$@ geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2685,6 +2997,12 @@
     },
     "%@에는 '%@'에 닿았고." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ hast du „%2$@“ erreicht,"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2737,6 +3055,12 @@
     },
     "%@에는 '%@'에 닿으셨고요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ haben Sie „%2$@“ erreicht,"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2789,6 +3113,12 @@
     },
     "%lld" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2841,6 +3171,12 @@
     },
     "%lld월 %lld일" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2893,6 +3229,24 @@
     },
     "%lld일 전" : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vor %lld Tag"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vor %lld Tagen"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -3029,6 +3383,24 @@
     },
     "%lld일 전에 남김" : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vor %lld Tag notiert"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vor %lld Tagen notiert"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -3165,6 +3537,24 @@
     },
     "%lld주 전에 남김" : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vor %lld Woche notiert"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vor %lld Wochen notiert"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -3301,6 +3691,12 @@
     },
     "|" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3355,6 +3751,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedergeschlagen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3407,6 +3809,12 @@
     },
     "가벼운 스트레칭부터 시작하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit leichtem Dehnen anfangen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3459,6 +3867,12 @@
     },
     "감사한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dankbar"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3511,6 +3925,12 @@
     },
     "강돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flussstein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3557,6 +3977,12 @@
     },
     "같은 이름의 목표가 이미 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Ziel mit diesem Namen gibt es schon"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3605,6 +4031,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für Entwickler"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3657,6 +4089,12 @@
     },
     "개발자에게 메일 보내기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-Mail an den Entwickler"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3709,6 +4147,12 @@
     },
     "개울가에서 주운 듯한 돌 다섯 가지가 더 열려요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fünf weitere Steine werden frei, wie am Bachufer aufgelesen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3755,6 +4199,12 @@
     },
     "개인정보 보호정책" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datenschutzerklärung"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3807,6 +4257,12 @@
     },
     "건강" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesundheit"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3859,6 +4315,12 @@
     },
     "곁에 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei dir"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3911,6 +4373,12 @@
     },
     "고치기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearbeiten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3965,6 +4433,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okay"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4019,6 +4493,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schon gut. Es ist nur nicht aufgefallen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4071,6 +4551,12 @@
     },
     "괴로운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gequält"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4123,6 +4609,12 @@
     },
     "구매 복원" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käufe wiederherstellen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4169,6 +4661,12 @@
     },
     "규칙적인 생활" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regelmäßiger Alltag"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4223,6 +4721,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie ging es danach weiter?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4277,6 +4781,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das war die Situation. Wie fühlst du dich jetzt?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4331,6 +4841,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie ist es damit ausgegangen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4383,6 +4899,12 @@
     },
     "그날 어땠나요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie war der Tag"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4431,6 +4953,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich lasse es so"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4483,6 +5011,12 @@
     },
     "그때 '%@'%@ 해보자고 하셨어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damals wollten Sie „%1$@“ ausprobieren.%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4535,6 +5069,12 @@
     },
     "그때 '%@'%@ 해보자고 했었어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damals wolltest du „%1$@“ ausprobieren.%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4587,6 +5127,12 @@
     },
     "그때 기분" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stimmung damals"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4635,6 +5181,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ist damals passiert?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4689,6 +5241,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über damals sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4741,6 +5299,12 @@
     },
     "그때는 '%@'라고 하셨죠." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damals sagten Sie: „%@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4793,6 +5357,12 @@
     },
     "그때는 '%@'라고 했었지." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damals hast du gesagt: „%@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4847,6 +5417,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut. Wir sprechen ein andermal darüber."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4901,6 +5477,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stimmt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4955,6 +5537,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das kann passieren. Vergessen heißt nicht, dass es verschwindet."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5009,6 +5597,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kann passieren. Vergessen ist vergessen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5061,6 +5655,12 @@
     },
     "그럼 '%@'%@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Und was wäre auf dem Weg zu „%1$@“%2$@ eine Sache, die so klein ist, dass du sie gleich morgen schaffst?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5113,6 +5713,12 @@
     },
     "그럼 '%@'%@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Und was wäre auf dem Weg zu „%1$@“%2$@ eine Sache, die so klein ist, dass Sie sie gleich morgen schaffen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5167,6 +5773,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dann sprechen wir darüber."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5221,6 +5833,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dann ist das erledigt. Ich notiere es jetzt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5275,6 +5893,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dann schließe ich das ab."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5329,6 +5953,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie wäre das: Wenn du es so klein machst, dass du es morgen gleich schaffst, was wäre es?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5381,6 +6011,12 @@
     },
     "그만 말하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorlesen beenden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5435,6 +6071,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naja"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5487,6 +6129,12 @@
     },
     "기대되는" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorfreude"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5539,6 +6187,12 @@
     },
     "기록" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einträge"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5585,6 +6239,12 @@
     },
     "기록 내보내기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einträge exportieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5631,6 +6291,12 @@
     },
     "기록을 내보내지 못했어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einträge konnten nicht exportiert werden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5677,6 +6343,12 @@
     },
     "기분이 좋은" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut gelaunt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5729,6 +6401,12 @@
     },
     "기뻐하고 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Freut sich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5781,6 +6459,12 @@
     },
     "끔찍한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrecklich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5835,6 +6519,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um den Rest musst du dich nicht beeilen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5889,6 +6579,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Rest klappen wir zu und sehen uns nur das an."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5943,6 +6639,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Rest kannst du dir in Ruhe ansehen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5997,6 +6699,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeichert, damit nicht vergessen geht, was geholfen hat."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6049,6 +6757,12 @@
     },
     "남긴 것들" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was du hinterlassen hast"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6103,6 +6817,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinterlassene Einträge bleiben erhalten. Nur aus der Liste verschwindet das Ziel."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6151,6 +6871,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Worte hinterlassen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6203,6 +6929,12 @@
     },
     "내 목표" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine Ziele"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6249,6 +6981,12 @@
     },
     "내 조약돌 고르기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meinen Kiesel wählen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6295,6 +7033,12 @@
     },
     "내려놓기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loslassen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6341,6 +7085,12 @@
     },
     "내보낸 날: %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportiert am: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6389,6 +7139,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn du morgen nur eine Sache tun würdest, welche wäre es?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6441,6 +7197,12 @@
     },
     "냉정한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kühl"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6495,6 +7257,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6549,6 +7317,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, ich lasse es so."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6603,6 +7377,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, ich lasse es so. Ich bin hier."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6657,6 +7437,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut, dann sprechen wir ein andermal."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6709,6 +7495,12 @@
     },
     "노을돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abendrotstein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6757,6 +7549,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lassen wir alles andere und sehen uns nur das an?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6811,6 +7609,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles andere in Ruhe."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6863,6 +7667,12 @@
     },
     "다음" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6917,6 +7727,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich notiere es, damit es beim nächsten Mal hilft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6969,6 +7785,12 @@
     },
     "다음에 해보기로 한 것" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was du als Nächstes ausprobieren willst"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7015,6 +7837,12 @@
     },
     "다이어트" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diät"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7067,6 +7895,12 @@
     },
     "닫기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7121,6 +7955,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur „erreicht“ wurde notiert."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7173,6 +8013,12 @@
     },
     "닿았어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreicht"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7219,6 +8065,12 @@
     },
     "닿지 않았어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht erreicht"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7265,6 +8117,12 @@
     },
     "독서 습관 만들기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesegewohnheit aufbauen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7317,6 +8175,12 @@
     },
     "독서하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7371,6 +8235,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hört zu"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7425,6 +8295,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es gibt nicht viel zu sagen. Ich bin einfach hier."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7479,6 +8355,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fällt dir nichts ein, lass es leer. Wir suchen später gemeinsam."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7531,6 +8413,12 @@
     },
     "마이크를 쓸 수 없어요. 적어주셔도 괜찮아요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Mikrofon ist nicht verfügbar. Du kannst auch schreiben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7583,6 +8471,12 @@
     },
     "만족스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zufrieden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7635,6 +8529,12 @@
     },
     "만족한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zufrieden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7689,6 +8589,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehr schwer"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7741,6 +8647,12 @@
     },
     "말로 답하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per Sprache antworten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7793,6 +8705,12 @@
     },
     "말투" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anrede"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7847,6 +8765,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst die Anrede wählen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7899,6 +8823,12 @@
     },
     "말할 때 소리" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ton beim Sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7951,6 +8881,12 @@
     },
     "말할 때 진동" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibration beim Sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8005,6 +8941,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genau"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8059,6 +9001,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stimmt, habe ich nicht gemacht"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8111,6 +9059,12 @@
     },
     "매일 10분씩 영어 팟캐스트 듣기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeden Tag 10 Minuten englischen Podcast hören"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8163,6 +9117,12 @@
     },
     "매일 알림" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tägliche Erinnerung"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8215,6 +9175,12 @@
     },
     "먹돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuschestein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8261,6 +9227,12 @@
     },
     "먼저 내보내기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erst exportieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8307,6 +9279,12 @@
     },
     "며칠 전" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor ein paar Tagen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8359,6 +9337,12 @@
     },
     "며칠 전에" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor ein paar Tagen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8411,6 +9395,12 @@
     },
     "모두 지우기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles löschen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8457,6 +9447,12 @@
     },
     "모두 지웠어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles gelöscht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8503,6 +9499,12 @@
     },
     "모든 기록 지우기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Einträge löschen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8549,6 +9551,12 @@
     },
     "모든 기록을 지울까요?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Einträge löschen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8597,6 +9605,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Daten löschen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8649,6 +9663,12 @@
     },
     "모래알" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8695,6 +9715,12 @@
     },
     "목표" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziel"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8741,6 +9767,12 @@
     },
     "목표 추가" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziel hinzufügen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8793,6 +9825,12 @@
     },
     "목표 하나 적어두기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Ziel notieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8839,6 +9877,12 @@
     },
     "목표를 개수 제한 없이 적어 둬요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziele ohne Begrenzung notieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8885,6 +9929,12 @@
     },
     "목표를 원하는 만큼" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So viele Ziele, wie du willst"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8931,6 +9981,12 @@
     },
     "목표를 제한 없이 적고, 조약돌을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziele ohne Limit notieren, Kiesel auswählen und Einträge als Datei sichern. Einmal kaufen, immer nutzen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8977,6 +10033,12 @@
     },
     "목표와 남긴 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Ziele und Einträge verschwinden und lassen sich nicht wiederherstellen. Auch auf anderen Geräten mit iCloud werden sie gelöscht. Einstellungen und Käufe bleiben erhalten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9023,6 +10085,12 @@
     },
     "무감각한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abgestumpft"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9075,6 +10143,12 @@
     },
     "무관심한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gleichgültig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9127,6 +10201,12 @@
     },
     "무난한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unauffällig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9179,6 +10259,12 @@
     },
     "무력한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Machtlos"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9231,6 +10317,12 @@
     },
     "무료로 쓰던 건 그대로, 몇 가지가 더 열려요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was kostenlos war, bleibt es – und einiges kommt dazu."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9279,6 +10371,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kostenlos sind bis zu drei Ziele möglich. Das ist das dritte."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9325,6 +10423,12 @@
     },
     "무서운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ängstlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9377,6 +10481,12 @@
     },
     "무슨 일이 있었나요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ist passiert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9425,6 +10535,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erzählen, was passiert ist"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9479,6 +10595,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich sehe zuerst nach, was du erreicht hast und was dich aufgehalten hat, und spreche dich dann an."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9533,6 +10655,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich weiß noch nicht, worauf du zusteuerst."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9587,6 +10715,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Worauf steuerst du zu?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9639,6 +10773,12 @@
     },
     "무표정한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausdruckslos"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9691,6 +10831,12 @@
     },
     "물을 많이 마시고 일찍 자기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viel Wasser trinken und früh schlafen gehen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9745,6 +10891,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was hat geholfen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9799,6 +10951,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notieren, was geholfen hat"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9853,6 +11011,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was hat funktioniert?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9907,6 +11071,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wische oder halte ein Ziel gedrückt, um es umzubenennen oder loszulassen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9953,6 +11123,12 @@
     },
     "밤 11시에 알람 설정하고 핸드폰 멀리 두기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um 23 Uhr einen Wecker stellen und das Handy weglegen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10005,6 +11181,12 @@
     },
     "보통의" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gewöhnlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10057,6 +11239,12 @@
     },
     "분노스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wütend"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10109,6 +11297,12 @@
     },
     "불만족스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unzufrieden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10161,6 +11355,12 @@
     },
     "불안한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unruhig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10213,6 +11413,12 @@
     },
     "비밀번호 삭제" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code löschen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10265,6 +11471,12 @@
     },
     "비밀번호 설정" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code festlegen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10317,6 +11529,12 @@
     },
     "비밀번호 입력" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code eingeben"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10369,6 +11587,12 @@
     },
     "비밀번호 확인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code bestätigen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10421,6 +11645,12 @@
     },
     "비참한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elend"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10473,6 +11703,12 @@
     },
     "뿌듯한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolz auf sich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10525,6 +11761,12 @@
     },
     "사용 통계" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsstatistik"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10571,6 +11813,12 @@
     },
     "사용 통계 (개발자)" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsstatistik (Entwickler)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10623,6 +11871,12 @@
     },
     "상쾌한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfrischt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10677,6 +11931,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Situation habe ich verstanden. Wie fühlst du dich jetzt?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10731,6 +11991,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Situation hat sich festgefahren, nicht du bist das Problem."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10785,6 +12051,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beispieldaten erstellen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10837,6 +12109,12 @@
     },
     "생각하고 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denkt nach"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10889,6 +12167,12 @@
     },
     "설레는" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufgeregt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10941,6 +12225,12 @@
     },
     "설정" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10993,6 +12283,12 @@
     },
     "설정에서 Apple Intelligence를 켜면 말한 내용을 더 잘 정리해 드려요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schalte in den „Einstellungen“ Apple Intelligence ein, dann kann ich das Gesagte besser ordnen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11045,6 +12341,12 @@
     },
     "소식을 퍼뜨리세요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erzähl es weiter"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11097,6 +12399,12 @@
     },
     "슬픈" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traurig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11149,6 +12457,12 @@
     },
     "시간" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeit"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11201,6 +12515,12 @@
     },
     "신나는" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begeistert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11253,6 +12573,12 @@
     },
     "실망스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enttäuscht"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11305,6 +12631,12 @@
     },
     "쓰다듬기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streicheln"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11351,6 +12683,12 @@
     },
     "쓸쓸한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einsam"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11403,6 +12741,12 @@
     },
     "아쉬운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wehmütig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11455,6 +12799,12 @@
     },
     "아직 기록 없음" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Einträge"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11509,6 +12859,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nichts hinterlassen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11561,6 +12917,12 @@
     },
     "아직 남긴 기록이 없어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Einträge vorhanden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11609,6 +12971,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Geschichten hinterlassen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11663,6 +13031,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich weiß noch nicht, wohin du unterwegs bist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11717,6 +13091,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch kein Ziel in Sicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11769,6 +13149,12 @@
     },
     "아침 일찍 일어나기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Früh aufstehen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11821,6 +13207,12 @@
     },
     "아침 일찍 일어나서 하루를 알차게 보냈어요!" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Früh aufgestanden und den Tag gut genutzt!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11873,6 +13265,12 @@
     },
     "아침에 일어나지 못하고 늦잠 잤어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgens nicht aus dem Bett gekommen und verschlafen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11927,6 +13325,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo. Ich bin ZinggumDol."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11981,6 +13385,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles klar. Ich bin hier."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12033,6 +13443,12 @@
     },
     "알림 켜기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erinnerungen aktivieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12085,6 +13501,12 @@
     },
     "알아보기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr erfahren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12131,6 +13553,12 @@
     },
     "앱 공유하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App teilen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12183,6 +13611,12 @@
     },
     "앱 비밀번호" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App-Code"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12235,6 +13669,12 @@
     },
     "앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesendet werden nur die Tage, an denen du die App geöffnet oder ein Gespräch beendet hast, die Art von Aktionen wie „Ziel angelegt“, die Anzahl von Einträgen und Zielen und ob du den Kaufbildschirm gesehen hast. Von dem, was du schreibst, verlässt kein einziges Zeichen dein Gerät, und wer sendet, wird nur über eine zufällige, auf diesem Gerät erzeugte Nummer unterschieden."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12281,6 +13721,12 @@
     },
     "야식 참기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachts nichts essen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12333,6 +13779,12 @@
     },
     "야식을 참지 못했어요. 배고파서 라면을 먹었습니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich konnte nicht widerstehen. Ich hatte Hunger und habe Instantnudeln gegessen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12387,6 +13839,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notieren, wie es ausgegangen ist"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12439,6 +13897,12 @@
     },
     "어수선한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durcheinander"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12491,6 +13955,12 @@
     },
     "어제" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestern"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12543,6 +14013,12 @@
     },
     "어제 남김" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestern notiert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12597,6 +14073,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst das jederzeit ändern. Danach begrüßt dich der Kiesel in der neuen Anrede."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12649,6 +14131,12 @@
     },
     "얼마 전" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor Kurzem"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12701,6 +14189,12 @@
     },
     "얼마 전에" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor Kurzem"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12753,6 +14247,12 @@
     },
     "여기 있어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bin hier."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12807,6 +14307,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für heute reicht es.\nPläne, die man an müden Tagen macht, gehen selten auf.\nEs ist gespeichert, alles gut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12861,6 +14367,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bis hier ging es darum, was passiert ist. Wie fühlst du dich jetzt?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12915,6 +14427,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier anfangen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12967,6 +14485,12 @@
     },
     "열정적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leidenschaftlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13019,6 +14543,12 @@
     },
     "영어 공부를 하려다가 미루고 말았어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich wollte Englisch lernen, habe es aber verschoben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13071,6 +14601,12 @@
     },
     "영어 공부하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englisch lernen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13123,6 +14659,12 @@
     },
     "영어 실력 향상" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besser Englisch sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13175,6 +14717,12 @@
     },
     "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich habe auf dem Weg zur Arbeit einen englischen Podcast gehört! Es hat mehr Spaß gemacht als gedacht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13227,6 +14775,12 @@
     },
     "오늘" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13279,6 +14833,12 @@
     },
     "오늘 '%@', 해내셨네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute „%@“ – das haben Sie geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13331,6 +14891,12 @@
     },
     "오늘 '%@', 해냈네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute „%@“ – das hast du geschafft."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13383,6 +14949,12 @@
     },
     "오늘 '%@'%@ 아직 소식이 없어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute gibt es zu „%1$@“%2$@ noch keine Neuigkeiten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13435,6 +15007,12 @@
     },
     "오늘 '%@'%@ 아직 소식이 없어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute gibt es zu „%1$@“%2$@ noch keine Neuigkeiten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13487,6 +15065,12 @@
     },
     "오늘 '%@'에 닿았네." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute hast du „%@“ erreicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13539,6 +15123,12 @@
     },
     "오늘 '%@'에 닿았네요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute haben Sie „%@“ erreicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13593,6 +15183,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute festhalten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13645,6 +15241,12 @@
     },
     "오늘 남김" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute notiert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13697,6 +15299,12 @@
     },
     "오늘 어땠는지, 잠깐 같이 볼까요?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sollen wir gemeinsam anschauen, wie der Tag war?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13751,6 +15359,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute bin ich einfach nur bei dir."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13805,6 +15419,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für heute reicht es.\nJetzt ist Ausruhen wichtiger, als eine Antwort zu finden.\nEs ist notiert und geht nicht verloren."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13859,6 +15479,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hören wir für heute hier auf.\nDu musst jetzt keine Antwort erzwingen.\nEs ist gespeichert, wir sehen es uns beim nächsten Mal gemeinsam an."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13913,6 +15539,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für heute genügt das eine."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13967,6 +15599,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute bin ich still."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14019,6 +15657,12 @@
     },
     "오래전에 남김" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor langer Zeit notiert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14071,6 +15715,12 @@
     },
     "용기있는" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mutig"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14123,6 +15773,12 @@
     },
     "운동하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport machen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14175,6 +15831,12 @@
     },
     "운동하러 갔다가 중간에 포기하고 왔어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich war beim Sport, habe aber mittendrin aufgegeben und bin zurückgekommen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14227,6 +15889,12 @@
     },
     "의욕적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motiviert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14279,6 +15947,12 @@
     },
     "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf diesem Gerät ist das Ordnen nicht verfügbar. Ich notiere es, wie ich es höre."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14333,6 +16007,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Eintrag löschen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14387,6 +16067,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das sind zwei verschiedene Dinge."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14441,6 +16127,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auch die zu diesem Ziel hinterlassenen Einträge übernehmen den neuen Namen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14487,6 +16179,12 @@
     },
     "이 목표로 이야기해요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über dieses Ziel sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14535,6 +16233,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Ziel loslassen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14583,6 +16287,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darüber sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14637,6 +16347,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn du das noch kleiner aufteilst, was wäre es?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14691,6 +16407,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Damit fange ich an"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14745,6 +16467,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich notiere es so. Für morgen nur bis hierher."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14799,6 +16527,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das nehme ich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14851,6 +16585,12 @@
     },
     "이끼돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moosstein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14899,6 +16639,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Tag ist vorbei. Aber der Stein liegt noch da."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14953,6 +16699,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich lasse es so"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15007,6 +16759,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So korrigieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15059,6 +16817,12 @@
     },
     "이름 고치기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umbenennen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15105,6 +16869,12 @@
     },
     "이번 주" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Woche"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15159,6 +16929,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was war diesmal anders?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15211,6 +16987,24 @@
     },
     "이전 이야기 %lld개는 접어뒀어." : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld frühere Geschichte eingeklappt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld frühere Geschichten eingeklappt"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -15347,6 +17141,24 @@
     },
     "이전 이야기 %lld개는 접어뒀어요." : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld frühere Geschichte eingeklappt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld frühere Geschichten eingeklappt"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -15483,6 +17295,12 @@
     },
     "익명 사용 통계 보내기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anonyme Nutzungsstatistik senden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15529,6 +17347,12 @@
     },
     "일반적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gewöhnlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15581,6 +17405,12 @@
     },
     "일상적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alltäglich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15635,6 +17465,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich hatte es vergessen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15689,6 +17525,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich notiere es lieber, bevor ich es vergesse"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15741,6 +17583,12 @@
     },
     "자기계발" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selbstentwicklung"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15795,6 +17643,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich schiebe es ständig auf"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15847,6 +17701,12 @@
     },
     "자랑스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolz"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15899,6 +17759,12 @@
     },
     "자신감이 생긴" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selbstbewusst"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15951,6 +17817,12 @@
     },
     "자책하는" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selbstvorwürfe"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16005,6 +17877,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kleiner, desto besser."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16059,6 +17937,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kleiner, desto besser. Selbst fünf Minuten sind gut."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16113,6 +17997,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut notiert. Wenn du das nächste Mal feststeckst, hole ich es hervor."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16167,6 +18057,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schön. Ich halte es jetzt fest."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16221,6 +18117,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lass uns kurz reden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16273,6 +18175,12 @@
     },
     "잠시 후 다시 해 주세요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte versuche es gleich noch einmal."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16319,6 +18227,12 @@
     },
     "적어둔 목표 없음" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Ziele notiert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16373,6 +18287,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiert. Morgen genau so viel."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16427,6 +18347,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiert. Ich zeige es dir, wenn du an etwas Ähnlichem hängst."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16481,6 +18407,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notiert. Genau so viel reicht."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16535,6 +18467,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich schreibe es selbst"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16587,6 +18525,12 @@
     },
     "절망적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verzweifelt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16639,6 +18583,12 @@
     },
     "정리 기능을 준비하고 있어요. 지금은 들린 대로 적어둘게요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bereite die Ordnungsfunktion vor. Vorerst notiere ich es, wie ich es höre."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16693,6 +18643,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird geordnet …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16747,6 +18703,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich ordne das mal."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16799,6 +18761,12 @@
     },
     "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Möchten Sie den Code wirklich löschen und die Sicherheit verringern?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16851,6 +18819,12 @@
     },
     "정말 지울까요?" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wirklich löschen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16897,6 +18871,12 @@
     },
     "조가비" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muschel"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16945,6 +18925,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht ganz"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16997,6 +18983,12 @@
     },
     "조약돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiesel"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17049,6 +19041,12 @@
     },
     "조약돌 고르기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiesel wählen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17095,6 +19093,12 @@
     },
     "조약돌의 결을 여섯 가지 중에서 골라요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle den Kiesel aus sechs Oberflächen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17141,6 +19145,12 @@
     },
     "조약돌이 생각하고 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Kiesel denkt nach"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17195,6 +19205,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In den „Einstellungen“ legst du fest, ob der Kiesel dich siezt oder duzt."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17249,6 +19265,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17301,6 +19323,12 @@
     },
     "좌절스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frustriert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17353,6 +19381,12 @@
     },
     "중립적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutral"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17407,6 +19441,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt darüber sprechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17461,6 +19501,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn du gerade auf etwas zusteuerst, erzählst du mir von einer Sache?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17513,6 +19559,12 @@
     },
     "지금 향하는 곳" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wohin du unterwegs bist"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17565,6 +19617,12 @@
     },
     "지금 향하는 곳이 벌써 %lld개야." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast schon %lld Ziele im Blick."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17611,6 +19669,12 @@
     },
     "지금 향하는 곳이 벌써 %lld개예요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie haben schon %lld Ziele im Blick."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17659,6 +19723,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich lasse es erst mal"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17707,6 +19777,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich lasse es erst mal"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17759,6 +19835,12 @@
     },
     "지금은 듣기가 어려워요. 적어주셔도 괜찮아요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerade ist es schwer zu hören. Du kannst auch schreiben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17813,6 +19895,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Und wie ist es jetzt?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17865,6 +19953,12 @@
     },
     "지금은 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Ordnen ist gerade nicht verfügbar. Ich notiere es, wie ich es höre."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17917,6 +20011,12 @@
     },
     "지나온 길" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurückgelegter Weg"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17969,6 +20069,12 @@
     },
     "지나온 기록을 글 파일로 꺼내 간직해요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichere alle deine Einträge als Textdatei."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18015,6 +20121,12 @@
     },
     "지나온 기록을 파일로 내보내요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einträge als Datei exportieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18061,6 +20173,12 @@
     },
     "지난 기록엔 '%@'라고 남아 있어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im letzten Eintrag steht: „%@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18113,6 +20231,12 @@
     },
     "지난 기록엔 '%@'라고 남아 있어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im letzten Eintrag steht: „%@“."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18165,6 +20289,12 @@
     },
     "지난번에 '%@'%@ 정하셨었죠." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Mal haben Sie „%1$@“ beschlossen.%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18217,6 +20347,12 @@
     },
     "지난번에 '%@'%@ 정했었지." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Mal hast du „%1$@“ beschlossen.%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18269,6 +20405,12 @@
     },
     "지난번엔 '%@'%@ 해보기로 했었어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Mal wolltest du „%1$@“ ausprobieren.%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18321,6 +20463,12 @@
     },
     "지난번엔 '%@'%@ 해보기로 했었어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Mal wollten Sie „%1$@“ ausprobieren.%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18373,6 +20521,12 @@
     },
     "지난번엔 '%@'라고 적었어." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Mal hast du „%@“ geschrieben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18425,6 +20579,12 @@
     },
     "지난번엔 '%@'라고 적으셨어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letztes Mal haben Sie „%@“ geschrieben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18477,6 +20637,12 @@
     },
     "지난주" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Woche"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18529,6 +20695,12 @@
     },
     "지난주에" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Woche"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18581,6 +20753,12 @@
     },
     "지난주쯤" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etwa letzte Woche"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18633,6 +20811,12 @@
     },
     "지루한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelangweilt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18685,6 +20869,12 @@
     },
     "지우기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18739,6 +20929,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelöschtes lässt sich nicht wiederherstellen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18791,6 +20987,12 @@
     },
     "지우지 못했어요. 잠시 후 다시 해 주세요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen fehlgeschlagen. Bitte versuche es gleich noch einmal."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18837,6 +21039,12 @@
     },
     "지원 및 개인정보 보호" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support und Datenschutz"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18889,6 +21097,12 @@
     },
     "징검돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18941,6 +21155,12 @@
     },
     "징검돌 기록" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol-Einträge"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18987,6 +21207,12 @@
     },
     "징검돌 프로" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19033,6 +21259,12 @@
     },
     "징검돌 프로를 쓰고 있어요. 고마워요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du nutzt ZinggumDol Pro. Danke dir."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19079,6 +21311,12 @@
     },
     "짜증나는" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genervt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19131,6 +21369,12 @@
     },
     "짧아도 괜찮아요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurz ist völlig in Ordnung."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19179,6 +21423,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurz ist völlig in Ordnung – nur was damals passiert ist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19231,6 +21481,12 @@
     },
     "책을 30분 읽었어요. 집중이 잘 됐습니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich habe 30 Minuten gelesen. Ich konnte mich gut konzentrieren."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19283,6 +21539,12 @@
     },
     "체력 기르기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausdauer aufbauen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19335,6 +21597,12 @@
     },
     "취소" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19389,6 +21657,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du darfst auch groß schreiben."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19441,6 +21715,12 @@
     },
     "톡 건드리거나 문질러 쓰다듬을 수 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tippen oder darüberreiben, um es zu streicheln"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19487,6 +21767,12 @@
     },
     "파괴적인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zerstörerisch"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19539,6 +21825,12 @@
     },
     "편안한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entspannt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19593,6 +21885,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie es sich für dich gut anfühlt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19645,6 +21943,12 @@
     },
     "평범한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durchschnittlich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19697,6 +22001,12 @@
     },
     "평점주기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App bewerten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19749,6 +22059,12 @@
     },
     "프로" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19797,6 +22113,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Pro mehr notieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19843,6 +22165,12 @@
     },
     "프로에서 열려요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Pro verfügbar"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19889,6 +22217,12 @@
     },
     "피곤한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Müde"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19943,6 +22277,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das eine ist, was passiert ist, das andere, wie dir jetzt zumute ist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19995,6 +22335,12 @@
     },
     "한 번 사면 계속 써요. 구독이 아니에요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einmal kaufen, immer nutzen. Kein Abo"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20041,6 +22387,12 @@
     },
     "한참 전에" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor sehr langer Zeit"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20095,6 +22447,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemacht, aber nicht festgehalten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20149,6 +22507,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemacht, nur nicht notiert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20201,6 +22565,12 @@
     },
     "행복한" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glücklich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20255,6 +22625,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich habe noch nicht gehört, wohin du unterwegs bist."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20307,6 +22683,12 @@
     },
     "향하는 곳이 여럿이어도 괜찮아요. 개수 제한 없이 적어 둘 수 있어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es ist in Ordnung, mehrere Ziele zu haben. Du kannst sie ohne Limit notieren."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20353,6 +22735,12 @@
     },
     "혐오스러운" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angewidert"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20407,6 +22795,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meinst du das hier?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20459,6 +22853,12 @@
     },
     "확인" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20511,6 +22911,12 @@
     },
     "확인을 위해 '%@'라고 적어 주세요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib zur Bestätigung „%@“ ein."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20559,6 +22965,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20607,6 +23019,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20655,6 +23073,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bin hier"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20703,6 +23127,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hast du mich gerufen?"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20751,6 +23181,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, das kitzelt!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20799,6 +23235,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das kitzelt"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20847,6 +23289,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hör auf, hihi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20895,6 +23343,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das tut gut …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20943,6 +23397,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schön warm"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20991,6 +23451,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mir fallen die Augen zu …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21039,6 +23505,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mir ist schwindelig …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21087,6 +23559,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dreh dich, dreh dich …"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

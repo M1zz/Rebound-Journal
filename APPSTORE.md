@@ -377,3 +377,60 @@ https://m1zz.github.io/Rebound-Journal/es/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/es/
+
+## de
+
+### 이름
+
+ZinggumDol: Tagebuch
+
+### 부제
+
+Im Gespräch mit einem Kiesel
+
+### 키워드
+
+Rückblick,Reflexion,Stimmung,Gefühle,Gewohnheiten,Wachstum,Stress,Angst,Fehler,Resilienz,Selbstliebe
+
+### 프로모션 텍스트
+
+Ein Fehltritt heißt nicht, dass du in den Bach gefallen bist. Blicke auf Tage zurück, die anders liefen – mit einem Kiesel, der zuerst fragt und sich erinnert.
+
+### 설명
+
+Ein Fehltritt heißt nicht, dass du in den Bach gefallen bist. ZinggumDol ist ein sanftes Tagebuch für die Tage, die anders gelaufen sind als geplant: Du sprichst mit einem Kiesel und schaust in Ruhe auf das, was passiert ist.
+
+Der Kiesel spricht zuerst. Er erinnert sich an das, was du ihm zuletzt erzählt hast, und fragt: „Wie ging es danach weiter?“ Wähle eine Antwort oder schreibe selbst. Festgehalten werden, was passiert ist, wie du dich gefühlt hast und was du als Nächstes ausprobieren möchtest.
+
+Im Gespräch mit dem Kiesel
+Lege ein Ziel fest, und der Kiesel achtet darauf, wie weit du gekommen bist und was dich aufhält. Wenn ein Tag ausfällt, fragt er „Was ist dir in die Quere gekommen?“ – nicht „Was hast du falsch gemacht?“.
+
+Einfach aussprechen
+An Tagen, an denen Schreiben zu viel ist, sprichst du einfach. Die Spracherkennung läuft auf deinem Gerät, die Aufnahme wird nicht gespeichert. Auf unterstützten Geräten wird das Gesagte zusätzlich so geordnet, dass es sich gut liest.
+
+Zurückgelegter Weg
+Jede Woche reiht sich zu Trittsteinen aneinander. Auch Tage, auf die du nicht getreten bist, bleiben dort – nichts wird gelöscht.
+
+Was du hinterlassen hast
+Sieh dir nach Datum an, was passiert ist, wie du dich gefühlt hast und was du als Nächstes ausprobieren wolltest.
+
+Widget und Erinnerungen
+Ein Satz vom Kiesel auf dem Home-Bildschirm und eine sanfte Erinnerung zu der Zeit, die du wählst, um gemeinsam auf den Tag zu schauen.
+
+Nur für dich
+Keine Registrierung, keine Werbung. Deine Einträge liegen nur auf deinem Gerät und in deinem eigenen iCloud, und die App lässt sich mit einem Code sperren. Was du schreibst, wird nie an den Entwickler gesendet.
+
+ZINGGUMDOL PRO
+Kostenlos sind bis zu drei Ziele möglich. Mit einem einmaligen Kauf (kein Abo) notierst du Ziele ohne Limit, wählst aus sechs Kiesel-Oberflächen und exportierst deine Einträge als Textdatei.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/de/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/de/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/de/

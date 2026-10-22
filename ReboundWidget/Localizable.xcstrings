@@ -3,6 +3,12 @@
   "strings" : {
     "강돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flussstein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49,6 +55,12 @@
     },
     "곁에 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei dir"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +107,12 @@
     },
     "기뻐하고 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Freut sich"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -141,6 +159,12 @@
     },
     "노을돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abendrotstein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -187,6 +211,12 @@
     },
     "듣고 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hört zu"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -233,6 +263,12 @@
     },
     "먹돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuschestein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -279,6 +315,12 @@
     },
     "모래알" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -325,6 +367,12 @@
     },
     "생각하고 있어요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denkt nach"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -371,6 +419,12 @@
     },
     "여기 있어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich bin hier."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -417,6 +471,12 @@
     },
     "오늘 남기러 가기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute festhalten"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -463,6 +523,12 @@
     },
     "이끼돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moosstein"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -509,6 +575,12 @@
     },
     "조가비" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muschel"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -555,6 +627,12 @@
     },
     "조약돌" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiesel"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -603,6 +681,12 @@
       "comment" : "위젯 갤러리의 설명",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Satz vom Kiesel. Tippe, um heute etwas festzuhalten."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -657,6 +741,12 @@
       "comment" : "위젯 갤러리의 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
