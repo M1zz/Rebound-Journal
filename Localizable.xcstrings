@@ -57,6 +57,12 @@
             "value" : "  Настроение: %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  อารมณ์: %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -127,6 +133,12 @@
             "value" : "  Следующий шаг: %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  ก้าวต่อไป: %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -195,6 +207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Что было: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  สิ่งที่เกิดขึ้น: %@"
           }
         },
         "zh-Hans" : {
@@ -273,6 +291,12 @@
             "value" : "Что помешало с «%@»?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อะไรสะดุดเรื่อง “%@” นะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -347,6 +371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что помешало с «%@»?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อะไรที่ทำให้คุณสะดุดเรื่อง “%@” คะ"
           }
         },
         "zh-Hans" : {
@@ -425,6 +455,12 @@
             "value" : "С нашего разговора о «%1$@» прошло дней: %2$lld."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ่านมา %2$lld วันแล้วนะ นับจากที่เราคุยเรื่อง “%1$@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -499,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С нашего разговора о «%1$@» прошло дней: %2$lld."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ่านมา %2$lld วันแล้ว นับจากที่เราคุยเรื่อง “%1$@”"
           }
         },
         "zh-Hans" : {
@@ -577,6 +619,12 @@
             "value" : "«%@» — сегодня пока тихо."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” วันนี้ยังเงียบอยู่เลยนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -651,6 +699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» — сегодня пока тихо."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” วันนี้ยังเงียบอยู่ค่ะ"
           }
         },
         "zh-Hans" : {
@@ -729,6 +783,12 @@
             "value" : "«%1$@»%2$@ тишина длится уже дней: %3$lld."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ เงียบมา %3$lld วันแล้วนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -803,6 +863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ тишина длится уже дней: %3$lld."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ เงียบมา %3$lld วันแล้วค่ะ"
           }
         },
         "zh-Hans" : {
@@ -881,6 +947,12 @@
             "value" : "«%1$@»%2$@ с твоего последнего просмотра прошло дней: %3$lld."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ ไม่ได้กลับไปดูมา %3$lld วันแล้วนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -955,6 +1027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ с вашего последнего просмотра прошло дней: %3$lld."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ ผ่านมา %3$lld วันแล้วตั้งแต่ครั้งล่าสุดที่คุณย้อนดู"
           }
         },
         "zh-Hans" : {
@@ -1033,6 +1111,12 @@
             "value" : "«%1$@»%2$@ сегодня ты пока не дошёл до этого."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ วันนี้ยังไปไม่ถึงนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1107,6 +1191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ сегодня вы пока не дошли до этого."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ วันนี้ยังไปไม่ถึงค่ะ"
           }
         },
         "zh-Hans" : {
@@ -1185,6 +1275,12 @@
             "value" : "«%1$@»%2$@ записано, но ты ещё не возвращался к этому."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ จดไว้แล้ว แต่ยังไม่ได้กลับไปดูเลยนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1259,6 +1355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ записано, но вы ещё не возвращались к этому."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ คุณจดไว้แล้ว แต่ยังไม่ได้กลับไปดูค่ะ"
           }
         },
         "zh-Hans" : {
@@ -1337,6 +1439,12 @@
             "value" : "«%1$@»%2$@ только записано, и пока всё."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ จดไว้อย่างเดียว แล้วก็ยังนิ่งอยู่นะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1411,6 +1519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ только записано, и пока всё."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ จดไว้อย่างเดียว แล้วก็ยังนิ่งอยู่ค่ะ"
           }
         },
         "zh-Hans" : {
@@ -1489,6 +1603,12 @@
             "value" : "«%1$@»%2$@ после записи пока тихо."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ ตั้งแต่จดไว้ก็ยังเงียบอยู่นะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1563,6 +1683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ после записи пока тихо."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ ตั้งแต่จดไว้ก็ยังเงียบอยู่ค่ะ"
           }
         },
         "zh-Hans" : {
@@ -1641,6 +1767,12 @@
             "value" : "«%1$@»%2$@ вернёмся к тому моменту, когда ты собирался. Что застопорилось?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ ลองย้อนกลับไปตอนที่กำลังจะทำกันนะ ติดอะไรอยู่เหรอ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1715,6 +1847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ вернёмся к тому моменту, когда вы собирались. Что застопорилось?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”%2$@ ขอย้อนกลับไปตอนที่คุณกำลังจะทำนะคะ ติดขัดเรื่องอะไรคะ"
           }
         },
         "zh-Hans" : {
@@ -1793,6 +1931,12 @@
             "value" : "С «%1$@» тебе удалось дойти до: %2$@."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กับ “%1$@” เธอไปถึง %2$@ แล้วนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1867,6 +2011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С «%1$@» вам удалось дойти до: %2$@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กับ “%1$@” คุณไปถึง %2$@ แล้วค่ะ"
           }
         },
         "zh-Hans" : {
@@ -1945,6 +2095,12 @@
             "value" : "Это был день, когда ты дошёл до «%@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนั้นเป็นวันที่เธอไปถึง “%@” นะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2019,6 +2175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это был день, когда вы дошли до «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนั้นเป็นวันที่คุณไปถึง “%@” ค่ะ"
           }
         },
         "zh-Hans" : {
@@ -2097,6 +2259,12 @@
             "value" : "О «%1$@» %2$@ ты написал: «%3$@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่อง “%1$@” %2$@ เธอเขียนไว้ว่า “%3$@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2173,6 +2341,12 @@
             "value" : "О «%1$@» %2$@ вы написали: «%3$@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่อง “%1$@” %2$@ คุณเขียนไว้ว่า “%3$@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2243,6 +2417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отпустите одну цель в разделе «Пройденный путь» — и можно будет записать новую."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางเป้าหมายหนึ่งลงใน “เส้นทางที่ผ่านมา” แล้วจะเขียนเป้าหมายใหม่ได้"
           }
         },
         "zh-Hans" : {
@@ -2321,6 +2501,12 @@
             "value" : "%1$@\nПомешало: «%2$@»,\nсейчас настроение: «%3$@»%4$@.\n\n%5$@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nสิ่งที่ติดขัดคือ “%2$@”\nและตอนนี้รู้สึก “%3$@”%4$@\n\n%5$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2395,6 +2581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Говоря о «%2$@», ты оставил: «%3$@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ตอนคุยเรื่อง “%2$@” เธอทิ้งไว้ว่า “%3$@”"
           }
         },
         "zh-Hans" : {
@@ -2473,6 +2665,12 @@
             "value" : "%1$@ Говоря о «%2$@», вы оставили: «%3$@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ตอนคุยเรื่อง “%2$@” คุณทิ้งไว้ว่า “%3$@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2547,6 +2745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ О «%2$@»%3$@ вы сказали: «%4$@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เรื่อง “%2$@”%3$@ คุณเคยบอกว่า “%4$@”"
           }
         },
         "zh-Hans" : {
@@ -2625,6 +2829,12 @@
             "value" : "%1$@ О «%2$@»%3$@ ты говорил: «%4$@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เรื่อง “%2$@”%3$@ เธอเคยบอกว่า “%4$@” ไง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2699,6 +2909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Вы говорили, что «%2$@»%3$@ застопорилось."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณบอกว่า “%2$@”%3$@ ติดขัด"
           }
         },
         "zh-Hans" : {
@@ -2777,6 +2993,12 @@
             "value" : "%1$@ Ты говорил, что «%2$@»%3$@ застопорилось."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอบอกว่า “%2$@”%3$@ ติดขัดไง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2851,6 +3073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ «%2$@»%3$@ — получилось у вас."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณทำ “%2$@”%3$@ สำเร็จแล้ว"
           }
         },
         "zh-Hans" : {
@@ -2929,6 +3157,12 @@
             "value" : "%1$@ «%2$@»%3$@ — получилось у тебя."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอทำ “%2$@”%3$@ สำเร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3003,6 +3237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ ты дошёл до «%2$@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอไปถึง “%2$@” แล้ว"
           }
         },
         "zh-Hans" : {
@@ -3081,6 +3321,12 @@
             "value" : "%1$@ вы дошли до «%2$@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณไปถึง “%2$@” แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3155,6 +3401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ ты оставил заметку, что споткнулся на «%2$@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอจดไว้ว่าสะดุดที่ “%2$@”"
           }
         },
         "zh-Hans" : {
@@ -3233,6 +3485,12 @@
             "value" : "%1$@ вы оставили заметку, что споткнулись на «%2$@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณจดไว้ว่าสะดุดที่ “%2$@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3307,6 +3565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Неделя: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สัปดาห์ของ %@"
           }
         },
         "zh-Hans" : {
@@ -3385,6 +3649,12 @@
             "value" : "%@, день с записью"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ วันที่มีบันทึก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3459,6 +3729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, записей нет"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ไม่มีบันทึก"
           }
         },
         "zh-Hans" : {
@@ -3537,6 +3813,12 @@
             "value" : "%@, день, когда цель достигнута"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ วันที่ไปถึงเป้าหมาย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3611,6 +3893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, день ещё не наступил"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ วันที่ยังมาไม่ถึง"
           }
         },
         "zh-Hans" : {
@@ -3689,6 +3977,12 @@
             "value" : "%1$@ «%2$@»%3$@ — у вас же получилось."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณทำ “%2$@”%3$@ สำเร็จแล้วนี่คะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3763,6 +4057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ «%2$@»%3$@ — у тебя же получилось."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอทำ “%2$@”%3$@ สำเร็จแล้วไง"
           }
         },
         "zh-Hans" : {
@@ -3841,6 +4141,12 @@
             "value" : "%1$@ вам удалось: «%2$@»%3$@."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณทำ “%2$@”%3$@ สำเร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3915,6 +4221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ тебе удалось: «%2$@»%3$@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอทำ “%2$@”%3$@ สำเร็จแล้ว"
           }
         },
         "zh-Hans" : {
@@ -3993,6 +4305,12 @@
             "value" : "%1$@ ты дошёл до «%2$@»,"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ เธอไปถึง “%2$@” แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4069,6 +4387,12 @@
             "value" : "%1$@ вы дошли до «%2$@»,"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ คุณไปถึง “%2$@” แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4140,6 +4464,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -4219,6 +4549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld.%1$lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
           }
         },
         "zh-Hans" : {
@@ -4430,6 +4766,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld дн. назад"
+                }
+              }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld วันที่แล้ว"
                 }
               }
             }
@@ -4661,6 +5009,18 @@
             }
           }
         },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "จดไว้เมื่อ %lld วันที่แล้ว"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "variations" : {
             "plural" : {
@@ -4887,6 +5247,18 @@
             }
           }
         },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "จดไว้เมื่อ %lld สัปดาห์ที่แล้ว"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "variations" : {
             "plural" : {
@@ -4975,6 +5347,12 @@
             "value" : "|"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5053,6 +5431,12 @@
             "value" : "Грустно"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หม่นๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5127,6 +5511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начать с лёгкой растяжки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มจากยืดเส้นเบาๆ"
           }
         },
         "zh-Hans" : {
@@ -5205,6 +5595,12 @@
             "value" : "Благодарность"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอบคุณ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5275,6 +5671,12 @@
             "value" : "Речной камень"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หินแม่น้ำ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5343,6 +5745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цель с таким названием уже есть"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีเป้าหมายชื่อนี้อยู่แล้ว"
           }
         },
         "zh-Hans" : {
@@ -5423,6 +5831,12 @@
             "value" : "Для разработчика"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำหรับนักพัฒนา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5499,6 +5913,12 @@
             "value" : "Написать разработчику"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งอีเมลถึงนักพัฒนา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5567,6 +5987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Откроются ещё пять камней, будто найденных у ручья."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปลดล็อกหินเพิ่มอีกห้าก้อน เหมือนเก็บมาจากริมลำธาร"
           }
         },
         "zh-Hans" : {
@@ -5645,6 +6071,12 @@
             "value" : "Политика конфиденциальности"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นโยบายความเป็นส่วนตัว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5719,6 +6151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Здоровье"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สุขภาพ"
           }
         },
         "zh-Hans" : {
@@ -5797,6 +6235,12 @@
             "value" : "Рядом с вами"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อยู่ข้างๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5871,6 +6315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไข"
           }
         },
         "zh-Hans" : {
@@ -5951,6 +6401,12 @@
             "value" : "Нормально"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โอเค"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6029,6 +6485,12 @@
             "value" : "Ничего страшного. Просто это не бросилось в глаза."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่เป็นไรนะ แค่ไม่ทันสังเกตเท่านั้นเอง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6105,6 +6567,12 @@
             "value" : "Мучительно"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทรมาน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6173,6 +6641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Восстановить покупки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กู้คืนการซื้อ"
           }
         },
         "zh-Hans" : {
@@ -6249,6 +6723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Регулярный режим"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชีวิตที่เป็นระเบียบ"
           }
         },
         "zh-Hans" : {
@@ -6329,6 +6809,12 @@
             "value" : "А что было потом?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แล้วหลังจากนั้นเป็นยังไงบ้าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6405,6 +6891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это была ситуация. А какое сейчас настроение?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นั่นคือสถานการณ์ แล้วตอนนี้รู้สึกยังไงบ้าง"
           }
         },
         "zh-Hans" : {
@@ -6485,6 +6977,12 @@
             "value" : "Чем это закончилось?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่องนั้นจบลงยังไง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6553,6 +7051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Как прошёл тот день"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนั้นเป็นยังไงบ้าง"
           }
         },
         "zh-Hans" : {
@@ -6633,6 +7137,12 @@
             "value" : "Оставлю как есть"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอปล่อยไว้แบบนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6707,6 +7217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда вы решили попробовать «%1$@».%2$@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนั้นคุณบอกว่าจะลอง “%1$@” ดู%2$@"
           }
         },
         "zh-Hans" : {
@@ -6785,6 +7301,12 @@
             "value" : "Тогда ты решил попробовать «%1$@».%2$@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนั้นเธอบอกว่าจะลอง “%1$@” ดู%2$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6853,6 +7375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настроение тогда"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความรู้สึกตอนนั้น"
           }
         },
         "zh-Hans" : {
@@ -6933,6 +7461,12 @@
             "value" : "Что тогда произошло?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนั้นเกิดอะไรขึ้นบ้าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7011,6 +7545,12 @@
             "value" : "Поговорить о том времени"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุยเรื่องตอนนั้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7087,6 +7627,12 @@
             "value" : "Тогда вы сказали: «%@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนั้นคุณพูดว่า “%@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7161,6 +7707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда ты сказал: «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนั้นเธอพูดว่า “%@”"
           }
         },
         "zh-Hans" : {
@@ -7241,6 +7793,12 @@
             "value" : "Хорошо. Поговорим в другой раз."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้เลย ไว้คุยกันคราวหน้านะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7317,6 +7875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Да, так и было"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช่แล้ว"
           }
         },
         "zh-Hans" : {
@@ -7397,6 +7961,12 @@
             "value" : "Бывает. Забытое не исчезает само по себе."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป็นเรื่องปกติ ลืมไปไม่ได้แปลว่าเรื่องนั้นหายไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7475,6 +8045,12 @@
             "value" : "Бывает. Забыл — значит забыл."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป็นเรื่องปกติ ลืมก็คือลืม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7551,6 +8127,12 @@
             "value" : "Тогда на пути к «%1$@»%2$@ какое одно дело настолько мало, что его можно сделать уже завтра?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งั้นถ้าจะมุ่งไปที่ “%1$@”%2$@ อะไรคือเรื่องเล็กๆ ที่เธอทำได้ทันทีพรุ่งนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7625,6 +8207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда на пути к «%1$@»%2$@ какое одно дело настолько мало, что его можно сделать уже завтра?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งั้นถ้าจะมุ่งไปที่ “%1$@”%2$@ อะไรคือเรื่องเล็กๆ ที่คุณทำได้ทันทีพรุ่งนี้คะ"
           }
         },
         "zh-Hans" : {
@@ -7705,6 +8293,12 @@
             "value" : "Тогда давайте поговорим об этом."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งั้นมาคุยเรื่องนี้กันเถอะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7781,6 +8375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда с этим всё. Сейчас запишу."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งั้นเรื่องนี้ก็จบแล้ว ขอจดไว้เดี๋ยวนี้เลย"
           }
         },
         "zh-Hans" : {
@@ -7861,6 +8461,12 @@
             "value" : "Тогда давайте поставим точку."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งั้นขอปิดเรื่องนี้ไว้ก่อนนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7939,6 +8545,12 @@
             "value" : "А так: если сделать это совсем маленьким, чтобы справиться уже завтра, что получится?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองแบบนี้ไหม ถ้าทำให้เล็กจนทำได้ทันทีพรุ่งนี้ จะเป็นอะไร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8013,6 +8625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Остановить озвучивание"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดอ่านออกเสียง"
           }
         },
         "zh-Hans" : {
@@ -8093,6 +8711,12 @@
             "value" : "Так себе"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฉยๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8169,6 +8793,12 @@
             "value" : "В предвкушении"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งตารอ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8237,6 +8867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записи"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
           }
         },
         "zh-Hans" : {
@@ -8309,6 +8945,12 @@
             "value" : "Экспорт записей"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกบันทึก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8377,6 +9019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось экспортировать записи"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกบันทึกไม่สำเร็จ"
           }
         },
         "zh-Hans" : {
@@ -8455,6 +9103,12 @@
             "value" : "Хорошее настроение"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อารมณ์ดี"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8531,6 +9185,12 @@
             "value" : "Радуюсь"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดีใจ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8605,6 +9265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ужасно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แย่มาก"
           }
         },
         "zh-Hans" : {
@@ -8685,6 +9351,12 @@
             "value" : "С остальным можно не спешить."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ที่เหลือไม่ต้องรีบนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8761,6 +9433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Остальное свернём, посмотрим только на это."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บที่เหลือไว้ก่อน ดูแค่เรื่องนี้เรื่องเดียวกัน"
           }
         },
         "zh-Hans" : {
@@ -8841,6 +9519,12 @@
             "value" : "К остальному можно вернуться не спеша."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ที่เหลือค่อยๆ ดูก็ได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8919,6 +9603,12 @@
             "value" : "Сохранил. Чтобы не забыть, что помогло."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บไว้แล้ว จะได้ไม่ลืมสิ่งที่ได้ผล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8995,6 +9685,12 @@
             "value" : "Что вы оставили"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่ทิ้งไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9065,6 +9761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставленные записи не пропадут. Цель лишь уйдёт из списка."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกที่ทิ้งไว้ยังอยู่เหมือนเดิม แค่หายไปจากรายการ"
           }
         },
         "zh-Hans" : {
@@ -9145,6 +9847,12 @@
             "value" : "Слов не оставлено."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีคำที่ทิ้งไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9213,6 +9921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мои цели"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป้าหมายของฉัน"
           }
         },
         "zh-Hans" : {
@@ -9285,6 +9999,12 @@
             "value" : "Выбрать камешек"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกก้อนหินของฉัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9355,6 +10075,12 @@
             "value" : "Отпустить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางลง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9423,6 +10149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дата экспорта: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันที่ส่งออก: %@"
           }
         },
         "zh-Hans" : {
@@ -9503,6 +10235,12 @@
             "value" : "Если завтра сделать только одно дело, какое?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าพรุ่งนี้ทำได้แค่อย่างเดียว จะทำอะไร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9577,6 +10315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Холодность"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เย็นชา"
           }
         },
         "zh-Hans" : {
@@ -9657,6 +10401,12 @@
             "value" : "Да"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9733,6 +10483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Хорошо, оставлю как есть."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้ ขอปล่อยไว้แบบนี้"
           }
         },
         "zh-Hans" : {
@@ -9813,6 +10569,12 @@
             "value" : "Хорошо, оставлю как есть. Я рядом."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้ ขอปล่อยไว้แบบนี้ ฉันอยู่ตรงนี้นะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9891,6 +10653,12 @@
             "value" : "Хорошо, тогда поговорим в другой раз."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้เลย ไว้คุยกันคราวหน้านะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9959,6 +10727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закатный камень"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หินยามเย็น"
           }
         },
         "zh-Hans" : {
@@ -10039,6 +10813,12 @@
             "value" : "Оставим остальное и посмотрим только на это?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางเรื่องอื่นไว้ก่อน ดูแค่เรื่องนี้ดีไหม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10117,6 +10897,12 @@
             "value" : "Остальное — не торопясь."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่องอื่นค่อยๆ ทำนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10191,6 +10977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Далее"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
           }
         },
         "zh-Hans" : {
@@ -10271,6 +11063,12 @@
             "value" : "Запишу, чтобы можно было использовать это в следующий раз."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอจดไว้ จะได้ใช้ได้อีกในครั้งหน้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10339,6 +11137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что попробовать дальше"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่จะลองต่อไป"
           }
         },
         "zh-Hans" : {
@@ -10417,6 +11221,12 @@
             "value" : "Диета"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดน้ำหนัก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10491,6 +11301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
           }
         },
         "zh-Hans" : {
@@ -10571,6 +11387,12 @@
             "value" : "Осталась только отметка «дошёл»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้เพียงว่า “ไปถึงแล้ว”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10641,6 +11463,12 @@
             "value" : "Дошёл"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปถึงแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10709,6 +11537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не дошёл"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไปไม่ถึง"
           }
         },
         "zh-Hans" : {
@@ -10787,6 +11621,12 @@
             "value" : "Привычка читать"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างนิสัยรักการอ่าน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10861,6 +11701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чтение"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านหนังสือ"
           }
         },
         "zh-Hans" : {
@@ -10941,6 +11787,12 @@
             "value" : "Слушаю"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังฟัง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11017,6 +11869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Особо нечего сказать. Я просто рядом."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีอะไรจะพูดมากนัก แค่อยู่ตรงนี้"
           }
         },
         "zh-Hans" : {
@@ -11097,6 +11955,12 @@
             "value" : "Если ничего не приходит в голову, можно оставить пустым. Найдём позже вместе."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้านึกไม่ออกก็เว้นว่างไว้ได้ เดี๋ยวไว้ช่วยกันหาทีหลัง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11171,6 +12035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Микрофон недоступен. Можно написать текстом."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ไมโครโฟนไม่ได้ เขียนบอกก็ได้นะ"
           }
         },
         "zh-Hans" : {
@@ -11249,6 +12119,12 @@
             "value" : "Удовлетворение"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พึงพอใจ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11323,6 +12199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доволен"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พอใจ"
           }
         },
         "zh-Hans" : {
@@ -11403,6 +12285,12 @@
             "value" : "Очень тяжело"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลำบากมาก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11479,6 +12367,12 @@
             "value" : "Ответить голосом"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอบด้วยเสียง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11553,6 +12447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Стиль общения"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำเสียง"
           }
         },
         "zh-Hans" : {
@@ -11633,6 +12533,12 @@
             "value" : "Можно выбрать стиль общения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกน้ำเสียงในการพูดได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11709,6 +12615,12 @@
             "value" : "Звук при речи"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียงตอนพูด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11783,6 +12695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вибрация при речи"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การสั่นตอนพูด"
           }
         },
         "zh-Hans" : {
@@ -11863,6 +12781,12 @@
             "value" : "Да, всё так"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช่เลย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11941,6 +12865,12 @@
             "value" : "Да, не сделал"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช่ ไม่ได้ทำ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12015,6 +12945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Слушать английский подкаст по 10 минут в день"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟังพอดแคสต์ภาษาอังกฤษวันละ 10 นาที"
           }
         },
         "zh-Hans" : {
@@ -12093,6 +13029,12 @@
             "value" : "Ежедневное напоминание"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การแจ้งเตือนรายวัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12163,6 +13105,12 @@
             "value" : "Чёрный камень"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หินหมึก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12231,6 +13179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала экспортировать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกก่อน"
           }
         },
         "zh-Hans" : {
@@ -12309,6 +13263,12 @@
             "value" : "Несколько дней назад"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่กี่วันก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12385,6 +13345,12 @@
             "value" : "Несколько дней назад"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อไม่กี่วันก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12453,6 +13419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить всё"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบทั้งหมด"
           }
         },
         "zh-Hans" : {
@@ -12525,6 +13497,12 @@
             "value" : "Всё удалено."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบทั้งหมดแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12595,6 +13573,12 @@
             "value" : "Удалить все записи"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบบันทึกทั้งหมด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12663,6 +13647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить все записи?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบบันทึกทั้งหมดไหม"
           }
         },
         "zh-Hans" : {
@@ -12743,6 +13733,12 @@
             "value" : "Удалить все данные"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบข้อมูลทั้งหมด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12813,6 +13809,12 @@
             "value" : "Песчинка"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เม็ดทราย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12881,6 +13883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цель"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป้าหมาย"
           }
         },
         "zh-Hans" : {
@@ -12959,6 +13967,12 @@
             "value" : "Добавить цель"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มเป้าหมาย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13027,6 +14041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записать одну цель"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดเป้าหมายหนึ่งข้อ"
           }
         },
         "zh-Hans" : {
@@ -13099,6 +14119,12 @@
             "value" : "Записывайте цели без ограничений"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดเป้าหมายได้ไม่จำกัดจำนวน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13167,6 +14193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Столько целей, сколько нужно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป้าหมายกี่ข้อก็ได้"
           }
         },
         "zh-Hans" : {
@@ -13239,6 +14271,12 @@
             "value" : "Записывайте цели без ограничений, выбирайте камешки и сохраняйте записи в файл. Одна покупка — навсегда."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดเป้าหมายได้ไม่จำกัด เลือกก้อนหิน และเก็บบันทึกเป็นไฟล์ ซื้อครั้งเดียวใช้ได้ตลอด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13307,6 +14345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все цели и записи исчезнут без возможности восстановления. На других устройствах с iCloud они тоже будут удалены. Настройки и покупки сохранятся."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป้าหมายและบันทึกทั้งหมดจะหายไปและกู้คืนไม่ได้ อุปกรณ์อื่นที่เชื่อมต่อด้วย iCloud ก็จะถูกลบด้วย การตั้งค่าและการซื้อจะยังอยู่"
           }
         },
         "zh-Hans" : {
@@ -13385,6 +14429,12 @@
             "value" : "Оцепенение"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชาชิน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13459,6 +14509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Безразличие"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมินเฉย"
           }
         },
         "zh-Hans" : {
@@ -13537,6 +14593,12 @@
             "value" : "Нормально"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรียบๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13613,6 +14675,12 @@
             "value" : "Бессилие"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมดแรง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13681,6 +14749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всё бесплатное остаётся, а кое-что добавится."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่ใช้ฟรีอยู่ยังคงเหมือนเดิม และมีอีกหลายอย่างให้ปลดล็อก"
           }
         },
         "zh-Hans" : {
@@ -13753,6 +14827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В бесплатной версии можно вести до трёх целей. Это третья."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชันฟรีมีเป้าหมายได้สูงสุดสามข้อ นี่คือข้อที่สาม"
           }
         },
         "zh-Hans" : {
@@ -13831,6 +14911,12 @@
             "value" : "Страх"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลัว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13899,6 +14985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что произошло"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดอะไรขึ้น"
           }
         },
         "zh-Hans" : {
@@ -13979,6 +15071,12 @@
             "value" : "Рассказать, что произошло"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เล่าว่าเกิดอะไรขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14055,6 +15153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я сам загляну, до чего вы дошли и что вас остановило, и начну разговор."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันจะดูก่อนว่าคุณไปถึงไหนและติดขัดตรงไหน แล้วจะเข้าไปคุยด้วย"
           }
         },
         "zh-Hans" : {
@@ -14135,6 +15239,12 @@
             "value" : "Я ещё не знаю, к чему вы идёте."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันยังไม่รู้เลยว่าคุณกำลังมุ่งไปทางไหน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14213,6 +15323,12 @@
             "value" : "К чему вы идёте?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณกำลังมุ่งไปทางไหน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14289,6 +15405,12 @@
             "value" : "Невозмутимость"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไร้ความรู้สึก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14363,6 +15485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пить больше воды и ложиться пораньше"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดื่มน้ำเยอะๆ และเข้านอนแต่หัวค่ำ"
           }
         },
         "zh-Hans" : {
@@ -14443,6 +15571,12 @@
             "value" : "Что помогло?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อะไรช่วยได้บ้าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14519,6 +15653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записать, что сработало"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดสิ่งที่ได้ผล"
           }
         },
         "zh-Hans" : {
@@ -14599,6 +15739,12 @@
             "value" : "Что сработало?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อะไรได้ผล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14669,6 +15815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Смахните или удерживайте цель, чтобы переименовать её или отпустить."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปัดหรือกดค้างที่เป้าหมายเพื่อเปลี่ยนชื่อหรือวางลง"
           }
         },
         "zh-Hans" : {
@@ -14747,6 +15899,12 @@
             "value" : "Ставить будильник на 11 вечера и класть телефон подальше"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งนาฬิกาปลุกตอนห้าทุ่มและวางโทรศัพท์ไว้ไกลตัว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14821,6 +15979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обычное"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ธรรมดา"
           }
         },
         "zh-Hans" : {
@@ -14899,6 +16063,12 @@
             "value" : "Злость"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โกรธ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14973,6 +16143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Неудовлетворённость"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่พอใจ"
           }
         },
         "zh-Hans" : {
@@ -15051,6 +16227,12 @@
             "value" : "Тревога"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กังวล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15125,6 +16307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить код-пароль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบรหัสผ่าน"
           }
         },
         "zh-Hans" : {
@@ -15203,6 +16391,12 @@
             "value" : "Установить код-пароль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งรหัสผ่าน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15277,6 +16471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Введите код-пароль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่รหัสผ่าน"
           }
         },
         "zh-Hans" : {
@@ -15355,6 +16555,12 @@
             "value" : "Подтвердите код-пароль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยันรหัสผ่าน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15429,6 +16635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подавленность"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ้นหวัง"
           }
         },
         "zh-Hans" : {
@@ -15507,6 +16719,12 @@
             "value" : "Гордость за себя"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภูมิใจ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15575,6 +16793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Статистика использования"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถิติการใช้งาน"
           }
         },
         "zh-Hans" : {
@@ -15653,6 +16877,12 @@
             "value" : "Статистика использования (для разработчика)"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถิติการใช้งาน (นักพัฒนา)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15727,6 +16957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Бодрость"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สดชื่น"
           }
         },
         "zh-Hans" : {
@@ -15807,6 +17043,12 @@
             "value" : "Ситуация понятна. А что вы чувствуете сейчас?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าใจสถานการณ์แล้ว แล้วตอนนี้รู้สึกยังไง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15883,6 +17125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это ситуация зашла в тупик, а не вы виноваты."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถานการณ์ต่างหากที่ติดขัด ไม่ใช่ตัวคุณที่มีปัญหา"
           }
         },
         "zh-Hans" : {
@@ -15963,6 +17211,12 @@
             "value" : "Создать тестовые данные"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างข้อมูลตัวอย่าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16037,6 +17291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Думаю"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังคิด"
           }
         },
         "zh-Hans" : {
@@ -16115,6 +17375,12 @@
             "value" : "Волнение"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตื่นเต้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16189,6 +17455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
           }
         },
         "zh-Hans" : {
@@ -16267,6 +17539,12 @@
             "value" : "Включите Apple Intelligence в «Настройках» — и я смогу лучше упорядочивать сказанное."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด Apple Intelligence ในการตั้งค่า แล้วฉันจะเรียบเรียงสิ่งที่คุณพูดได้ดีขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16341,6 +17619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Расскажите другим"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บอกต่อ"
           }
         },
         "zh-Hans" : {
@@ -16419,6 +17703,12 @@
             "value" : "Грусть"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เศร้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16493,6 +17783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลา"
           }
         },
         "zh-Hans" : {
@@ -16571,6 +17867,12 @@
             "value" : "Воодушевление"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สนุกสนาน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16647,6 +17949,12 @@
             "value" : "Разочарование"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผิดหวัง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16715,6 +18023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Погладить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลูบหัว"
           }
         },
         "zh-Hans" : {
@@ -16793,6 +18107,12 @@
             "value" : "Одиночество"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหงา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16869,6 +18189,12 @@
             "value" : "Сожаление"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสียดาย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16943,6 +18269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записей пока нет"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีบันทึก"
           }
         },
         "zh-Hans" : {
@@ -17023,6 +18355,12 @@
             "value" : "Пока ничего не оставлено."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่ได้ทิ้งอะไรไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17091,6 +18429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока нет записей."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีบันทึก"
           }
         },
         "zh-Hans" : {
@@ -17171,6 +18515,12 @@
             "value" : "Пока нет сохранённых историй."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีเรื่องราวที่ทิ้งไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17247,6 +18597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я ещё не знаю, куда вы направляетесь."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันยังไม่รู้เลยว่าคุณกำลังจะไปทางไหน"
           }
         },
         "zh-Hans" : {
@@ -17327,6 +18683,12 @@
             "value" : "Пока нет цели, к которой вы идёте."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีทิศทางที่มุ่งไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17401,6 +18763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вставать пораньше"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตื่นเช้า"
           }
         },
         "zh-Hans" : {
@@ -17479,6 +18847,12 @@
             "value" : "Встал рано и провёл день с пользой!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตื่นเช้าและใช้ทั้งวันได้อย่างคุ้มค่า!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17553,6 +18927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не смог встать утром, проспал."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตื่นไม่ไหวตอนเช้าเลยนอนเกินเวลา"
           }
         },
         "zh-Hans" : {
@@ -17633,6 +19013,12 @@
             "value" : "Здравствуйте. Я ZinggumDol."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สวัสดี ฉันคือ ZinggumDol"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17711,6 +19097,12 @@
             "value" : "Хорошо. Я рядом."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าใจแล้ว ฉันอยู่ตรงนี้นะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17787,6 +19179,12 @@
             "value" : "Включить напоминания"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดการแจ้งเตือน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17855,6 +19253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Узнать больше"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูเพิ่มเติม"
           }
         },
         "zh-Hans" : {
@@ -17933,6 +19337,12 @@
             "value" : "Поделиться приложением"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์แอป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18009,6 +19419,12 @@
             "value" : "Код-пароль приложения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รหัสผ่านแอป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18077,6 +19493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отправляются только даты, когда вы открывали приложение или завершали разговор, типы действий (например, создание цели), количество записей и целей и факт просмотра экрана покупки. Ни одного слова из написанного вами не уходит наружу, а отправитель определяется только случайным номером, созданным на этом устройстве."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จะส่งเฉพาะวันที่เปิดแอปหรือจบบทสนทนา ประเภทของการกระทำ เช่น การสร้างเป้าหมาย จำนวนบันทึกและเป้าหมาย และว่าเคยเห็นหน้าจอการซื้อหรือไม่ สิ่งที่คุณเขียนจะไม่ถูกส่งออกไปแม้แต่ตัวอักษรเดียว และผู้ส่งจะแยกแยะได้ด้วยหมายเลขสุ่มที่สร้างบนอุปกรณ์เครื่องนี้เท่านั้น"
           }
         },
         "zh-Hans" : {
@@ -18155,6 +19577,12 @@
             "value" : "Не есть по ночам"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งดกินมื้อดึก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18229,6 +19657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удержался и поел ночью. Проголодался и съел лапшу."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อดกินมื้อดึกไม่ไหว หิวเลยกินราเม็ง"
           }
         },
         "zh-Hans" : {
@@ -18309,6 +19743,12 @@
             "value" : "Записать, чем всё закончилось"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดว่าเป็นอย่างไรบ้าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18383,6 +19823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сумбур"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สับสนวุ่นวาย"
           }
         },
         "zh-Hans" : {
@@ -18461,6 +19907,12 @@
             "value" : "Вчера"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อวาน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18535,6 +19987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записано вчера"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้เมื่อวาน"
           }
         },
         "zh-Hans" : {
@@ -18615,6 +20073,12 @@
             "value" : "Это можно изменить в любой момент. Камешек поприветствует вас уже в новом стиле."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนได้ทุกเมื่อ เมื่อเปลี่ยนแล้ว ก้อนหินจะทักทายอีกครั้งด้วยน้ำเสียงนั้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18689,6 +20153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Недавно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อไม่นานมานี้"
           }
         },
         "zh-Hans" : {
@@ -18767,6 +20237,12 @@
             "value" : "Недавно"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อไม่นานมานี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18841,6 +20317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я здесь."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันอยู่ตรงนี้"
           }
         },
         "zh-Hans" : {
@@ -18921,6 +20403,12 @@
             "value" : "На сегодня хватит.\nПланы, составленные в усталые дни, редко получаются.\nЗапись сохранена, всё в порядке."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้พอแค่นี้นะ\nแผนที่วางไว้ในวันที่เหนื่อยมักไม่ค่อยเป็นไปตามนั้น\nจดไว้แล้ว ไม่เป็นไรนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18997,6 +20485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это было о том, что случилось. А что у вас на душе сейчас?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ที่ผ่านมาคือเรื่องที่เกิดขึ้น แล้วตอนนี้ในใจรู้สึกยังไง"
           }
         },
         "zh-Hans" : {
@@ -19077,6 +20571,12 @@
             "value" : "Начать отсюда"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มคุยจากตรงนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19151,6 +20651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Увлечённость"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีไฟ"
           }
         },
         "zh-Hans" : {
@@ -19229,6 +20735,12 @@
             "value" : "Хотел позаниматься английским, но отложил."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตั้งใจจะเรียนภาษาอังกฤษ แต่เลื่อนไปก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19303,6 +20815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заниматься английским"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรียนภาษาอังกฤษ"
           }
         },
         "zh-Hans" : {
@@ -19381,6 +20899,12 @@
             "value" : "Улучшить английский"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พัฒนาภาษาอังกฤษ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19455,6 +20979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ехал на работу, слушая английский подкаст! Оказалось интереснее, чем думал."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟังพอดแคสต์ภาษาอังกฤษระหว่างไปทำงาน! สนุกกว่าที่คิด"
           }
         },
         "zh-Hans" : {
@@ -19533,6 +21063,12 @@
             "value" : "Сегодня"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19607,6 +21143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сегодня «%@» — у вас получилось."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้ “%@” คุณทำสำเร็จแล้ว"
           }
         },
         "zh-Hans" : {
@@ -19685,6 +21227,12 @@
             "value" : "Сегодня «%@» — у тебя получилось."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้ “%@” เธอทำสำเร็จแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19759,6 +21307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сегодня о «%1$@»%2$@ пока нет вестей."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้ “%1$@”%2$@ ยังไม่มีข่าวเลยนะ"
           }
         },
         "zh-Hans" : {
@@ -19837,6 +21391,12 @@
             "value" : "Сегодня о «%1$@»%2$@ пока нет вестей."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้ “%1$@”%2$@ ยังไม่มีข่าวเลยค่ะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19913,6 +21473,12 @@
             "value" : "Сегодня ты дошёл до «%@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้เธอไปถึง “%@” แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19987,6 +21553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сегодня вы дошли до «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้คุณไปถึง “%@” แล้ว"
           }
         },
         "zh-Hans" : {
@@ -20067,6 +21639,12 @@
             "value" : "Записать сегодняшний день"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปจดของวันนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20143,6 +21721,12 @@
             "value" : "Записано сегодня"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้วันนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20217,6 +21801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Давайте вместе посмотрим, как прошёл день?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มาดูด้วยกันไหมว่าวันนี้เป็นยังไงบ้าง"
           }
         },
         "zh-Hans" : {
@@ -20297,6 +21887,12 @@
             "value" : "Сегодня я просто побуду рядом."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้ฉันจะอยู่ข้างๆ เฉยๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20373,6 +21969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На сегодня хватит.\nСейчас важнее отдохнуть, чем искать ответ.\nЗапись сохранена, она не пропадёт."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้พอแค่นี้นะ\nตอนนี้การพักสำคัญกว่าการหาคำตอบ\nจดไว้แล้ว ไม่หายไปไหน"
           }
         },
         "zh-Hans" : {
@@ -20453,6 +22055,12 @@
             "value" : "Давайте на сегодня остановимся здесь.\nСейчас не нужно выжимать из себя ответ.\nВсё сохранено — посмотрим вместе в следующий раз."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้หยุดแค่นี้ก่อนนะ\nตอนนี้ไม่ต้องฝืนหาคำตอบ\nบันทึกไว้แล้ว ไว้ดูด้วยกันคราวหน้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20529,6 +22137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На сегодня достаточно и одного."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้แค่เรื่องเดียวก็เพียงพอแล้ว"
           }
         },
         "zh-Hans" : {
@@ -20609,6 +22223,12 @@
             "value" : "Сегодня помолчу."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนี้ฉันจะอยู่เงียบๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20683,6 +22303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записано давно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้นานมาแล้ว"
           }
         },
         "zh-Hans" : {
@@ -20761,6 +22387,12 @@
             "value" : "Смелость"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กล้าหาญ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20835,6 +22467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заниматься спортом"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกกำลังกาย"
           }
         },
         "zh-Hans" : {
@@ -20913,6 +22551,12 @@
             "value" : "Пошёл на тренировку, но бросил на полпути и вернулся."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปออกกำลังกาย แต่ล้มเลิกกลางคันแล้วกลับมา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20989,6 +22633,12 @@
             "value" : "Мотивация"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีแรงบันดาลใจ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21063,6 +22713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На этом устройстве функция упорядочивания недоступна. Запишу как услышал."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุปกรณ์เครื่องนี้ใช้ฟังก์ชันเรียบเรียงไม่ได้ ฉันจะจดตามที่ได้ยิน"
           }
         },
         "zh-Hans" : {
@@ -21143,6 +22799,12 @@
             "value" : "Удалить эту запись?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบบันทึกนี้ไหม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21221,6 +22883,12 @@
             "value" : "Это две разные вещи."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สองเรื่องนี้ไม่เหมือนกัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21293,6 +22961,12 @@
             "value" : "Записи по этой цели тоже получат новое название."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกที่จดไว้ในเป้าหมายนี้จะเปลี่ยนตามชื่อใหม่ด้วย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21361,6 +23035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поговорить об этой цели"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุยเรื่องเป้าหมายนี้"
           }
         },
         "zh-Hans" : {
@@ -21433,6 +23113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отпустить эту цель?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางเป้าหมายนี้ลงไหม"
           }
         },
         "zh-Hans" : {
@@ -21513,6 +23199,12 @@
             "value" : "Поговорить об этом"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุยเรื่องนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21589,6 +23281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если разбить это на части поменьше, что получится?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าแบ่งให้เล็กลงอีก จะเป็นอะไร"
           }
         },
         "zh-Hans" : {
@@ -21669,6 +23367,12 @@
             "value" : "Начну с этого"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มจากอันนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21745,6 +23449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишу так. На завтра — только это."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดแบบนี้ไว้ พรุ่งนี้ทำแค่นี้พอ"
           }
         },
         "zh-Hans" : {
@@ -21825,6 +23535,12 @@
             "value" : "Пусть будет это"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เอาอันนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21893,6 +23609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мшистый камень"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หินมอส"
           }
         },
         "zh-Hans" : {
@@ -21973,6 +23695,12 @@
             "value" : "Этот день прошёл. Но камень остался на месте."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันนั้นผ่านไปแล้ว แต่ก้อนหินยังอยู่ที่เดิม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22049,6 +23777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставлю как есть"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปล่อยไว้แบบนี้"
           }
         },
         "zh-Hans" : {
@@ -22129,6 +23863,12 @@
             "value" : "Исправлю так"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้เป็นแบบนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22197,6 +23937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Переименовать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนชื่อ"
           }
         },
         "zh-Hans" : {
@@ -22275,6 +24021,12 @@
             "value" : "На этой неделе"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สัปดาห์นี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22351,6 +24103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что в этот раз было иначе?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งนี้ต่างไปอย่างไร"
           }
         },
         "zh-Hans" : {
@@ -22562,6 +24320,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Свёрнуто прежних историй: %lld."
+                }
+              }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "พับเรื่องราวก่อนหน้าไว้แล้ว: %lld"
                 }
               }
             }
@@ -22793,6 +24563,18 @@
             }
           }
         },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "พับเรื่องราวก่อนหน้าไว้แล้ว: %lld"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "variations" : {
             "plural" : {
@@ -22875,6 +24657,12 @@
             "value" : "Отправлять анонимную статистику"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งสถิติการใช้งานแบบไม่ระบุตัวตน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22951,6 +24739,12 @@
             "value" : "Обыденность"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทั่วไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23025,6 +24819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повседневность"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่อยๆ"
           }
         },
         "zh-Hans" : {
@@ -23105,6 +24905,12 @@
             "value" : "Я забыл"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลืมไปแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23183,6 +24989,12 @@
             "value" : "Хочу записать, пока не забыл"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอจดก่อนลืม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23257,6 +25069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Саморазвитие"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พัฒนาตนเอง"
           }
         },
         "zh-Hans" : {
@@ -23337,6 +25155,12 @@
             "value" : "Всё время откладываю"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลื่อนไปเรื่อย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23411,6 +25235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Гордость"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภูมิใจ"
           }
         },
         "zh-Hans" : {
@@ -23489,6 +25319,12 @@
             "value" : "Уверенность"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มั่นใจขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23563,6 +25399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Самобичевание"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โทษตัวเอง"
           }
         },
         "zh-Hans" : {
@@ -23643,6 +25485,12 @@
             "value" : "Чем меньше, тем лучше."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยิ่งเล็กยิ่งดี"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23719,6 +25567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чем меньше, тем лучше. Даже пять минут — хорошо."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยิ่งเล็กยิ่งดี แค่ห้านาทีก็ไม่เป็นไร"
           }
         },
         "zh-Hans" : {
@@ -23799,6 +25653,12 @@
             "value" : "Хорошо записано. В следующий раз, когда застрянете, достану это."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้เรียบร้อย ครั้งหน้าที่ติดขัด ฉันจะหยิบมาให้ดู"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23875,6 +25735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Здорово. Оставлю это сейчас."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดีจังเลย ขอจดไว้เดี๋ยวนี้"
           }
         },
         "zh-Hans" : {
@@ -23955,6 +25821,12 @@
             "value" : "Давайте немного поговорим"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มาคุยกันสักครู่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24023,6 +25895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повторите попытку чуть позже."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรดลองอีกครั้งในอีกสักครู่"
           }
         },
         "zh-Hans" : {
@@ -24099,6 +25977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Целей пока нет"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีเป้าหมายที่จดไว้"
           }
         },
         "zh-Hans" : {
@@ -24179,6 +26063,12 @@
             "value" : "Записано. Завтра сделаем вот столько."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้แล้ว พรุ่งนี้ทำแค่นี้พอ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24255,6 +26145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записано. Покажу, когда в следующий раз застрянете на похожем месте."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้แล้ว ถ้าครั้งหน้าติดขัดในเรื่องคล้ายกัน ฉันจะเอาให้ดู"
           }
         },
         "zh-Hans" : {
@@ -24335,6 +26231,12 @@
             "value" : "Записано. Этого достаточно."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้แล้ว แค่นี้ก็พอ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24413,6 +26315,12 @@
             "value" : "Напишу сам"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอเขียนเอง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24489,6 +26397,12 @@
             "value" : "Отчаяние"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ้นหวัง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24563,6 +26477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готовлю функцию упорядочивания. Пока запишу как услышал."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเตรียมฟังก์ชันเรียบเรียง ตอนนี้ฉันจะจดตามที่ได้ยิน"
           }
         },
         "zh-Hans" : {
@@ -24643,6 +26563,12 @@
             "value" : "Упорядочиваю…"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเรียบเรียง…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24721,6 +26647,12 @@
             "value" : "Сейчас упорядочу."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองเรียบเรียงดูนะ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24797,6 +26729,12 @@
             "value" : "Действительно удалить код-пароль и снизить защиту?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องการลบรหัสผ่านและลดความปลอดภัยจริงหรือไม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24867,6 +26805,12 @@
             "value" : "Точно удалить?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบจริงหรือไม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24935,6 +26879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ракушка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลือกหอย"
           }
         },
         "zh-Hans" : {
@@ -25015,6 +26965,12 @@
             "value" : "Не совсем так"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่ค่อยใช่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25091,6 +27047,12 @@
             "value" : "Камешек"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก้อนหิน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25161,6 +27123,12 @@
             "value" : "Выбор камешка"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกก้อนหิน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25229,6 +27197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Шесть фактур камешка на выбор"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกพื้นผิวก้อนหินได้หกแบบ"
           }
         },
         "zh-Hans" : {
@@ -25305,6 +27279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Камешек думает"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก้อนหินกำลังคิด"
           }
         },
         "zh-Hans" : {
@@ -25385,6 +27365,12 @@
             "value" : "В «Настройках» можно выбрать, обращается ли камешек к вам на «вы» или на «ты»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในการตั้งค่า คุณเลือกได้ว่าก้อนหินจะพูดสุภาพหรือพูดสบายๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25463,6 +27449,12 @@
             "value" : "Хорошо"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดี"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25539,6 +27531,12 @@
             "value" : "Разочарование"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ท้อแท้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25613,6 +27611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Спокойствие"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป็นกลาง"
           }
         },
         "zh-Hans" : {
@@ -25693,6 +27697,12 @@
             "value" : "Поговорить сейчас"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุยตอนนี้เลย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25771,6 +27781,12 @@
             "value" : "Если есть то, к чему вы сейчас идёте, расскажете об одном?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้ามีสิ่งที่กำลังมุ่งไป ช่วยเล่าให้ฟังสักเรื่องได้ไหม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25847,6 +27863,12 @@
             "value" : "Куда вы идёте"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่กำลังมุ่งไป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25915,6 +27937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Направлений, к которым ты идёшь: уже %lld."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้เธอมุ่งไปแล้ว %lld เรื่อง"
           }
         },
         "zh-Hans" : {
@@ -25987,6 +28015,12 @@
             "value" : "Направлений, к которым вы идёте: уже %lld."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้คุณมุ่งไปแล้ว %lld เรื่อง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26057,6 +28091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока оставлю"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขอปล่อยไว้ก่อน"
           }
         },
         "zh-Hans" : {
@@ -26137,6 +28177,12 @@
             "value" : "Пока оставлю"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อยากปล่อยไว้ก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26211,6 +28257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас плохо слышно. Можно написать текстом."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้ฟังยาก เขียนบอกก็ได้นะ"
           }
         },
         "zh-Hans" : {
@@ -26291,6 +28343,12 @@
             "value" : "А как сейчас?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้เป็นอย่างไรบ้าง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26365,6 +28423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас функция упорядочивания недоступна. Запишу как услышал."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้ใช้ฟังก์ชันเรียบเรียงไม่ได้ ฉันจะจดตามที่ได้ยิน"
           }
         },
         "zh-Hans" : {
@@ -26443,6 +28507,12 @@
             "value" : "Пройденный путь"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เส้นทางที่ผ่านมา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26513,6 +28583,12 @@
             "value" : "Сохраните все записи в текстовый файл."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บบันทึกที่เขียนไว้ทั้งหมดเป็นไฟล์ข้อความ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26581,6 +28657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Экспорт записей в файл"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกบันทึกเป็นไฟล์"
           }
         },
         "zh-Hans" : {
@@ -26659,6 +28741,12 @@
             "value" : "В прошлой записи осталось: «%@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในบันทึกครั้งก่อนมีเขียนไว้ว่า “%@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26733,6 +28821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлой записи осталось: «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในบันทึกครั้งก่อนมีเขียนไว้ว่า “%@”"
           }
         },
         "zh-Hans" : {
@@ -26811,6 +28905,12 @@
             "value" : "В прошлый раз вы решили: «%1$@».%2$@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งก่อนคุณตัดสินใจว่า “%1$@”%2$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26885,6 +28985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлый раз ты решил: «%1$@».%2$@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งก่อนเธอตัดสินใจว่า “%1$@”%2$@"
           }
         },
         "zh-Hans" : {
@@ -26963,6 +29069,12 @@
             "value" : "В прошлый раз ты собирался попробовать «%1$@».%2$@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งก่อนเธอตั้งใจจะลอง “%1$@”%2$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27037,6 +29149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлый раз вы собирались попробовать «%1$@».%2$@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งก่อนคุณตั้งใจจะลอง “%1$@”%2$@"
           }
         },
         "zh-Hans" : {
@@ -27115,6 +29233,12 @@
             "value" : "В прошлый раз ты написал: «%@»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งก่อนเธอเขียนไว้ว่า “%@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27189,6 +29313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлый раз вы написали: «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครั้งก่อนคุณเขียนไว้ว่า “%@”"
           }
         },
         "zh-Hans" : {
@@ -27267,6 +29397,12 @@
             "value" : "На прошлой неделе"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สัปดาห์ที่แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27341,6 +29477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На прошлой неделе"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อสัปดาห์ที่แล้ว"
           }
         },
         "zh-Hans" : {
@@ -27419,6 +29561,12 @@
             "value" : "Около прошлой недели"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ราวสัปดาห์ที่แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27495,6 +29643,12 @@
             "value" : "Скука"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เบื่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27569,6 +29723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ"
           }
         },
         "zh-Hans" : {
@@ -27649,6 +29809,12 @@
             "value" : "После удаления восстановить нельзя."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อลบแล้วจะกู้คืนไม่ได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27717,6 +29883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось удалить. Повторите попытку позже."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบไม่สำเร็จ โปรดลองอีกครั้งในอีกสักครู่"
           }
         },
         "zh-Hans" : {
@@ -27795,6 +29967,12 @@
             "value" : "Поддержка и конфиденциальность"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การสนับสนุนและความเป็นส่วนตัว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27871,6 +30049,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27941,6 +30125,12 @@
             "value" : "Записи ZinggumDol"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก ZinggumDol"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28006,6 +30196,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -28079,6 +30275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы пользуетесь ZinggumDol Pro. Спасибо."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณกำลังใช้ ZinggumDol Pro ขอบคุณนะ"
           }
         },
         "zh-Hans" : {
@@ -28157,6 +30359,12 @@
             "value" : "Раздражение"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หงุดหงิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28225,6 +30433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно коротко."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั้นๆ ก็ไม่เป็นไร"
           }
         },
         "zh-Hans" : {
@@ -28305,6 +30519,12 @@
             "value" : "Можно коротко — только что тогда произошло."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั้นๆ ก็ไม่เป็นไร แค่เรื่องที่เกิดขึ้นตอนนั้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28379,6 +30599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Читал книгу 30 минут. Хорошо сосредоточился."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านหนังสือ 30 นาที มีสมาธิดี"
           }
         },
         "zh-Hans" : {
@@ -28457,6 +30683,12 @@
             "value" : "Набраться сил"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างความแข็งแรง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28531,6 +30763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отмена"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
           }
         },
         "zh-Hans" : {
@@ -28611,6 +30849,12 @@
             "value" : "Можно написать и покрупнее."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนตัวใหญ่ๆ ก็ไม่เป็นไร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28679,6 +30923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь или проведите пальцем, чтобы погладить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะหรือถูเบาๆ เพื่อลูบหัว"
           }
         },
         "zh-Hans" : {
@@ -28757,6 +31007,12 @@
             "value" : "Разрушительность"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อยากทำลาย"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28831,6 +31087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Спокойствие"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ่อนคลาย"
           }
         },
         "zh-Hans" : {
@@ -28911,6 +31173,12 @@
             "value" : "Как вам удобнее"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกแบบที่สบายใจ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28985,6 +31253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обычное"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ธรรมดา"
           }
         },
         "zh-Hans" : {
@@ -29063,6 +31337,12 @@
             "value" : "Оценить приложение"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ให้คะแนนแอป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29128,6 +31408,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -29205,6 +31491,12 @@
             "value" : "Больше целей — с Pro"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อยากจดเพิ่มด้วย Pro"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29273,6 +31565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступно в Pro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปลดล็อกด้วย Pro"
           }
         },
         "zh-Hans" : {
@@ -29349,6 +31647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Усталость"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหนื่อย"
           }
         },
         "zh-Hans" : {
@@ -29429,6 +31733,12 @@
             "value" : "Одно — о том, что было, другое — о том, что на душе сейчас."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หนึ่งคือเรื่องที่เกิดขึ้น อีกหนึ่งคือความรู้สึกตอนนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29497,6 +31807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Одна покупка — навсегда. Это не подписка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซื้อครั้งเดียวใช้ได้ตลอด ไม่ใช่การสมัครสมาชิก"
           }
         },
         "zh-Hans" : {
@@ -29573,6 +31889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Давным-давно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นานมาแล้ว"
           }
         },
         "zh-Hans" : {
@@ -29653,6 +31975,12 @@
             "value" : "Сделал, но не записал"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำแล้ว แต่ไม่ได้จดไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29731,6 +32059,12 @@
             "value" : "Сделал, просто не записал"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำแล้ว แค่ไม่ได้จด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29805,6 +32139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Счастье"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีความสุข"
           }
         },
         "zh-Hans" : {
@@ -29885,6 +32225,12 @@
             "value" : "Я ещё не слышал, куда вы идёте."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันยังไม่ได้ฟังเลยว่าคุณกำลังมุ่งไปทางไหน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29953,6 +32299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно идти сразу к нескольким целям. Количество не ограничено."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มุ่งไปหลายเรื่องก็ไม่เป็นไร จดได้ไม่จำกัดจำนวน"
           }
         },
         "zh-Hans" : {
@@ -30029,6 +32381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отвращение"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รังเกียจ"
           }
         },
         "zh-Hans" : {
@@ -30109,6 +32467,12 @@
             "value" : "Вы имели в виду это?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมายความว่าแบบนี้หรือเปล่า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30185,6 +32549,12 @@
             "value" : "OK"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตกลง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30253,6 +32623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Для подтверждения введите «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พิมพ์ “%@” เพื่อยืนยัน"
           }
         },
         "zh-Hans" : {
@@ -30327,6 +32703,12 @@
             "value" : "Хе-хе"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฮะๆ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30397,6 +32779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "А?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หืม"
           }
         },
         "zh-Hans" : {
@@ -30471,6 +32859,12 @@
             "value" : "Я тут"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อยู่นี่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30541,6 +32935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Звали?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรียกเหรอ"
           }
         },
         "zh-Hans" : {
@@ -30615,6 +33015,12 @@
             "value" : "Хи-хи, щекотно!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จั๊กจี้จัง!"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30685,6 +33091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Щекочет"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จั๊กจี้"
           }
         },
         "zh-Hans" : {
@@ -30759,6 +33171,12 @@
             "value" : "Ну всё, хи-хи"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พอแล้ว หึหึ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30829,6 +33247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приятно…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สบายจัง…"
           }
         },
         "zh-Hans" : {
@@ -30903,6 +33327,12 @@
             "value" : "Тепло"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อุ่นจัง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30973,6 +33403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Засыпаю…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ง่วงแล้ว…"
           }
         },
         "zh-Hans" : {
@@ -31047,6 +33483,12 @@
             "value" : "Голова кружится…"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มึนหัวจัง…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31117,6 +33559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Кручусь-верчусь…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมุนติ้ว…"
           }
         },
         "zh-Hans" : {
