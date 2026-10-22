@@ -15,6 +15,12 @@
             "value" : "River Slate"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canto de río"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53,6 +59,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beside you"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A tu lado"
           }
         },
         "ja" : {
@@ -95,6 +107,12 @@
             "value" : "Glad"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -133,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piedra del ocaso"
           }
         },
         "ja" : {
@@ -175,6 +199,12 @@
             "value" : "Listening"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escuchando"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -213,6 +243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inkstone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piedra de tinta"
           }
         },
         "ja" : {
@@ -255,6 +291,12 @@
             "value" : "Sand"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grano de arena"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -293,6 +335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thinking"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensando"
           }
         },
         "ja" : {
@@ -335,6 +383,12 @@
             "value" : "I'm here."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquí estoy."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -373,6 +427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave today's note"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir a anotar lo de hoy"
           }
         },
         "ja" : {
@@ -415,6 +475,12 @@
             "value" : "Moss"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piedra de musgo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -453,6 +519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seashell"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concha"
           }
         },
         "ja" : {
@@ -495,6 +567,12 @@
             "value" : "Pebble"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guijarro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -535,6 +613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A word from the pebble. Tap to leave today's note."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una frase del guijarro. Toca para anotar lo de hoy."
           }
         },
         "ja" : {
@@ -580,6 +664,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

@@ -17,6 +17,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60,6 +66,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -112,6 +124,12 @@
             "value" : "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa el micrófono para que puedas repasar tu día hablando, como en una conversación. Las grabaciones no se guardan; en tu dispositivo solo queda el texto transcrito."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -157,6 +175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Used to turn what you say into text. Recognition happens on your device and never leaves it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa para convertir en texto lo que dices. El reconocimiento se hace en tu dispositivo y no sale de él."
           }
         },
         "ja" : {

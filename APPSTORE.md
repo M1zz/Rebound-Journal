@@ -320,3 +320,60 @@ https://m1zz.github.io/Rebound-Journal/ru/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/ru/
+
+## es
+
+### 이름
+
+ZinggumDol: diario de fallos
+
+### 부제
+
+Habla con un guijarro
+
+### 키워드
+
+reflexión,autoestima,emociones,hábitos,crecimiento,estrés,ansiedad,errores,resiliencia,mindfulness
+
+### 프로모션 텍스트
+
+Dar un mal paso no es caer al arroyo. Repasa los días que no salieron como querías con un guijarro que te habla primero y recuerda lo que le contaste.
+
+### 설명
+
+Dar un mal paso no es caer al arroyo. ZinggumDol es un diario amable para los días que no salieron como querías: charlas con un guijarro y, poco a poco, repasas lo que pasó.
+
+El guijarro habla primero. Recuerda lo que le contaste la última vez y te pregunta: «¿Y qué pasó después?». Elige una respuesta o escribe la tuya. Quedan anotados lo que pasó, cómo te sentías y lo que quieres probar a continuación.
+
+Charla con el guijarro
+Fija una meta y el guijarro se fijará en hasta dónde llegas y qué te frena. Si un día se te escapa, te preguntará «¿qué se interpuso?», no «¿qué hiciste mal?».
+
+Dilo en voz alta
+En los días en que escribir pesa, basta con hablar. El reconocimiento de voz se hace en tu dispositivo y la grabación no se guarda. En los dispositivos compatibles, lo que dices además se ordena para que se lea mejor.
+
+Camino recorrido
+Cada semana se coloca como una hilera de piedras para cruzar el arroyo. Los días en que no pisaste siguen ahí; no se borra nada.
+
+Lo que dejaste
+Revisa por fecha lo que pasó, cómo te sentías y lo que querías probar después.
+
+Widget y avisos
+Una frase del guijarro en la pantalla de inicio y un aviso suave a la hora que elijas para ver juntos cómo te fue el día.
+
+Solo tuyo
+Sin registro y sin anuncios. Tus registros se guardan solo en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código. Lo que escribes nunca se envía al desarrollador.
+
+ZINGGUMDOL PRO
+La versión gratuita admite hasta tres metas. Con una compra única (no es una suscripción) tienes metas sin límite, eliges entre seis acabados de guijarro y exportas tus registros a un archivo de texto.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/es/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/es/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/es/
