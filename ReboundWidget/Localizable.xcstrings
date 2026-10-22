@@ -81,6 +81,12 @@
             "value" : "Elvestein"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rivierkei"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -197,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ved din side"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naast je"
           }
         },
         "pt-BR" : {
@@ -317,6 +329,12 @@
             "value" : "Glad"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blij"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -433,6 +451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solnedgangsstein"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zonsondergangsteen"
           }
         },
         "pt-BR" : {
@@ -553,6 +577,12 @@
             "value" : "Lytter"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luistert"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -669,6 +699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blekkstein"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inktsteen"
           }
         },
         "pt-BR" : {
@@ -789,6 +825,12 @@
             "value" : "Sandkorn"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zandkorrel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -905,6 +947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tenker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denkt na"
           }
         },
         "pt-BR" : {
@@ -1025,6 +1073,12 @@
             "value" : "Jeg er her."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ben er."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1141,6 +1195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gå og skriv ned i dag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag vastleggen"
           }
         },
         "pt-BR" : {
@@ -1261,6 +1321,12 @@
             "value" : "Mosestein"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mossteen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1379,6 +1445,12 @@
             "value" : "Skjell"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schelp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1495,6 +1567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stein"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiezel"
           }
         },
         "pt-BR" : {
@@ -1623,6 +1701,12 @@
             "value" : "Et ord fra steinen. Trykk for å skrive ned i dag."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een woordje van de kiezel. Tik om vandaag vast te leggen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1744,6 +1828,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

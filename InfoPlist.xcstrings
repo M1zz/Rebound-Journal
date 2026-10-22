@@ -89,6 +89,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -210,6 +216,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -340,6 +352,12 @@
             "value" : "Mikrofonen brukes slik at du kan se tilbake på dagen med stemmen, som i en samtale. Opptak lagres ikke; bare den transkriberte teksten blir på enheten din."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De microfoon wordt gebruikt zodat u de dag met uw stem kunt terugblikken, als in een gesprek. Opnamen worden niet bewaard; alleen de uitgeschreven tekst blijft op uw apparaat."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -463,6 +481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brukes til å gjøre om det du sier til tekst. Gjenkjenningen skjer på enheten din og forlater den ikke."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wordt gebruikt om wat u zegt om te zetten in tekst. De herkenning gebeurt op uw apparaat en verlaat het niet."
           }
         },
         "pt-BR" : {

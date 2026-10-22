@@ -81,6 +81,12 @@
             "value" : "  Humør: %@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Stemming: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -199,6 +205,12 @@
             "value" : "  Neste steg: %@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Volgende stap: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -315,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Hva som skjedde: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Wat er gebeurde: %@"
           }
         },
         "pt-BR" : {
@@ -441,6 +459,12 @@
             "value" : "Hva sto i veien ved «%@»?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat zat je dwars bij ‘%@’?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -563,6 +587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva sto i veien ved «%@»?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat zat u dwars bij ‘%@’?"
           }
         },
         "pt-BR" : {
@@ -689,6 +719,12 @@
             "value" : "Det har gått %2$lld dager siden vi snakket om «%1$@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er zijn %2$lld dagen voorbij sinds we het over ‘%1$@’ hadden."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -811,6 +847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det har gått %2$lld dager siden vi snakket om «%1$@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er zijn %2$lld dagen voorbij sinds we het over ‘%1$@’ hadden."
           }
         },
         "pt-BR" : {
@@ -937,6 +979,12 @@
             "value" : "«%@» – ingenting ennå i dag."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ – vandaag nog niets."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1059,6 +1107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» – ingenting ennå i dag."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ – vandaag nog niets."
           }
         },
         "pt-BR" : {
@@ -1185,6 +1239,12 @@
             "value" : "«%1$@»%2$@ det har vært stille i %3$lld dager."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ het is al %3$lld dagen stil."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1307,6 +1367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ det har vært stille i %3$lld dager."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ het is al %3$lld dagen stil."
           }
         },
         "pt-BR" : {
@@ -1433,6 +1499,12 @@
             "value" : "«%1$@»%2$@ du har ikke sett på det på %3$lld dager."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ je hebt er %3$lld dagen niet meer naar gekeken."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1555,6 +1627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ det er %3$lld dager siden sist du så på det."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ u hebt er %3$lld dagen niet meer naar gekeken."
           }
         },
         "pt-BR" : {
@@ -1681,6 +1759,12 @@
             "value" : "«%1$@»%2$@ du har ikke kommet dit ennå i dag."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ je bent er vandaag nog niet aangekomen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1803,6 +1887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ du har ikke kommet dit ennå i dag."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ u bent er vandaag nog niet aangekomen."
           }
         },
         "pt-BR" : {
@@ -1929,6 +2019,12 @@
             "value" : "«%1$@»%2$@ du skrev det ned, men har ikke sett på det igjen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ je hebt het opgeschreven, maar er nog niet naar teruggekeken."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2051,6 +2147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ du skrev det ned, men har ikke sett på det igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ u hebt het opgeschreven, maar er nog niet naar teruggekeken."
           }
         },
         "pt-BR" : {
@@ -2177,6 +2279,12 @@
             "value" : "«%1$@»%2$@ du har bare skrevet det ned, og så har det stoppet der."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ je hebt het alleen opgeschreven, en daar bleef het bij."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2299,6 +2407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ du har bare skrevet det ned, og så har det stoppet der."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ u hebt het alleen opgeschreven, en daar bleef het bij."
           }
         },
         "pt-BR" : {
@@ -2425,6 +2539,12 @@
             "value" : "«%1$@»%2$@ siden du skrev det ned, har det vært stille."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ sinds je het opschreef, is het stil gebleven."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2547,6 +2667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ siden du skrev det ned, har det vært stille."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ sinds u het opschreef, is het stil gebleven."
           }
         },
         "pt-BR" : {
@@ -2673,6 +2799,12 @@
             "value" : "«%1$@»%2$@ la oss gå tilbake til da du skulle gjøre det. Hva stoppet opp?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ laten we teruggaan naar het moment dat je eraan wilde beginnen. Waar liep het vast?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2795,6 +2927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ la oss gå tilbake til da du skulle gjøre det. Hva stoppet opp?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%1$@’%2$@ laten we teruggaan naar het moment dat u eraan wilde beginnen. Waar liep het vast?"
           }
         },
         "pt-BR" : {
@@ -2921,6 +3059,12 @@
             "value" : "Ved «%1$@» kom du til %2$@."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij ‘%1$@’ kwam je tot %2$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3043,6 +3187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ved «%1$@» kom du til %2$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij ‘%1$@’ kwam u tot %2$@."
           }
         },
         "pt-BR" : {
@@ -3169,6 +3319,12 @@
             "value" : "Det var dagen du nådde «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dat was de dag dat je ‘%@’ bereikte."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3291,6 +3447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det var dagen du nådde «%@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dat was de dag dat u ‘%@’ bereikte."
           }
         },
         "pt-BR" : {
@@ -3417,6 +3579,12 @@
             "value" : "Om «%1$@» skrev du %2$@: «%3$@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Over ‘%1$@’ schreef je %2$@: ‘%3$@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3541,6 +3709,12 @@
             "value" : "Om «%1$@» skrev du %2$@: «%3$@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Over ‘%1$@’ schreef u %2$@: ‘%3$@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3659,6 +3833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slipp ett mål under «Veien så langt», så kan du skrive et nytt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat één doel los onder ‘Afgelegde weg’, dan kun je een nieuw doel opschrijven."
           }
         },
         "pt-BR" : {
@@ -3785,6 +3965,12 @@
             "value" : "%1$@\nDet som sto i veien, var «%2$@»,\nog akkurat nå føler du deg «%3$@»%4$@.\n\n%5$@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nWat je dwarszat, was ‘%2$@’,\nen nu voel je je ‘%3$@’%4$@.\n\n%5$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3907,6 +4093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Da du snakket om «%2$@», la du igjen: «%3$@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Toen het over ‘%2$@’ ging, liet je achter: ‘%3$@’."
           }
         },
         "pt-BR" : {
@@ -4033,6 +4225,12 @@
             "value" : "%1$@ Da du snakket om «%2$@», la du igjen: «%3$@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Toen het over ‘%2$@’ ging, liet u achter: ‘%3$@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4155,6 +4353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Om «%2$@»%3$@ sa du: «%4$@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Over ‘%2$@’%3$@ zei u: ‘%4$@’."
           }
         },
         "pt-BR" : {
@@ -4281,6 +4485,12 @@
             "value" : "%1$@ Om «%2$@»%3$@ sa du jo: «%4$@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Over ‘%2$@’%3$@ zei je: ‘%4$@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4403,6 +4613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Du sa at «%2$@»%3$@ stoppet opp."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ U zei dat ‘%2$@’%3$@ vastliep."
           }
         },
         "pt-BR" : {
@@ -4529,6 +4745,12 @@
             "value" : "%1$@ Du sa jo at «%2$@»%3$@ stoppet opp."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Je zei dat ‘%2$@’%3$@ vastliep."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4651,6 +4873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Du klarte «%2$@»%3$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ U hebt ‘%2$@’%3$@ gedaan."
           }
         },
         "pt-BR" : {
@@ -4777,6 +5005,12 @@
             "value" : "%1$@ Du klarte jo «%2$@»%3$@."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Je hebt ‘%2$@’%3$@ gedaan."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4899,6 +5133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ nådde du «%2$@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ bereikte je ‘%2$@’."
           }
         },
         "pt-BR" : {
@@ -5025,6 +5265,12 @@
             "value" : "%1$@ nådde du «%2$@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ bereikte u ‘%2$@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5147,6 +5393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ skrev du at «%2$@» sto i veien."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ schreef je op dat ‘%2$@’ je dwarszat."
           }
         },
         "pt-BR" : {
@@ -5273,6 +5525,12 @@
             "value" : "%1$@ skrev du at «%2$@» sto i veien."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ schreef u op dat ‘%2$@’ u dwarszat."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5395,6 +5653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uken fra %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Week van %@"
           }
         },
         "pt-BR" : {
@@ -5521,6 +5785,12 @@
             "value" : "%@, dag med notat"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag met notitie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5643,6 +5913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, ingen notat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, geen notitie"
           }
         },
         "pt-BR" : {
@@ -5769,6 +6045,12 @@
             "value" : "%@, dag da målet ble nådd"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag waarop het doel is bereikt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5891,6 +6173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, dag som ikke har kommet ennå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag die nog niet is aangebroken"
           }
         },
         "pt-BR" : {
@@ -6017,6 +6305,12 @@
             "value" : "%1$@ Du klarte jo «%2$@»%3$@."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ U hebt toch ‘%2$@’%3$@ gedaan."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6139,6 +6433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Du klarte jo «%2$@»%3$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Je hebt toch ‘%2$@’%3$@ gedaan."
           }
         },
         "pt-BR" : {
@@ -6265,6 +6565,12 @@
             "value" : "%1$@ klarte du «%2$@»%3$@."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ lukte het u om ‘%2$@’%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6387,6 +6693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ klarte du «%2$@»%3$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ lukte het je om ‘%2$@’%3$@."
           }
         },
         "pt-BR" : {
@@ -6513,6 +6825,12 @@
             "value" : "%1$@ nådde du «%2$@»,"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ bereikte je ‘%2$@’,"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6637,6 +6955,12 @@
             "value" : "%1$@ nådde du «%2$@»,"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ bereikte u ‘%2$@’,"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6756,6 +7080,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -6883,6 +7213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld.%1$lld."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld-%1$lld"
           }
         },
         "pt-BR" : {
@@ -7178,6 +7514,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "For %lld dager siden"
+                }
+              }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dag geleden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dagen geleden"
                 }
               }
             }
@@ -7547,6 +7901,24 @@
             }
           }
         },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dag geleden genoteerd"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dagen geleden genoteerd"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -7911,6 +8283,24 @@
             }
           }
         },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld week geleden genoteerd"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weken geleden genoteerd"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -8101,6 +8491,12 @@
             "value" : "|"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8227,6 +8623,12 @@
             "value" : "Litt nedfor"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een beetje down"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8349,6 +8751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Begynne med lett tøying"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beginnen met wat lichte rek- en strekoefeningen"
           }
         },
         "pt-BR" : {
@@ -8475,6 +8883,12 @@
             "value" : "Takknemlig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dankbaar"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8593,6 +9007,12 @@
             "value" : "Elvestein"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rivierkei"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8709,6 +9129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det finnes allerede et mål med det navnet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er bestaat al een doel met die naam"
           }
         },
         "pt-BR" : {
@@ -8837,6 +9263,12 @@
             "value" : "For utvikleren"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor de ontwikkelaar"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8961,6 +9393,12 @@
             "value" : "Send e-post til utvikleren"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-mail de ontwikkelaar"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9077,6 +9515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fem steiner til låses opp, som om de var plukket ved bekken."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er komen vijf stenen bij, alsof ze langs de beek zijn opgeraapt."
           }
         },
         "pt-BR" : {
@@ -9203,6 +9647,12 @@
             "value" : "Personvernerklæring"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacybeleid"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9325,6 +9775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gezondheid"
           }
         },
         "pt-BR" : {
@@ -9451,6 +9907,12 @@
             "value" : "Ved din side"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naast je"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9573,6 +10035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rediger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijzig"
           }
         },
         "pt-BR" : {
@@ -9701,6 +10169,12 @@
             "value" : "Greit"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9827,6 +10301,12 @@
             "value" : "Det går bra. Det falt bare ikke i øynene."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen probleem. Het viel alleen niet op."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9951,6 +10431,12 @@
             "value" : "Plaget"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gekweld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10067,6 +10553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gjenopprett kjøp"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aankopen herstellen"
           }
         },
         "pt-BR" : {
@@ -10191,6 +10683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regelmessig liv"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regelmatig leven"
           }
         },
         "pt-BR" : {
@@ -10319,6 +10817,12 @@
             "value" : "Hvordan gikk det etterpå?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En hoe ging het daarna?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10443,6 +10947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det var situasjonen. Hvordan har du det nå?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dat was de situatie. En hoe voel je je nu?"
           }
         },
         "pt-BR" : {
@@ -10571,6 +11081,12 @@
             "value" : "Hvordan endte det?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoe liep dat af?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10687,6 +11203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvordan var dagen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoe was die dag"
           }
         },
         "pt-BR" : {
@@ -10815,6 +11337,12 @@
             "value" : "Jeg lar det være"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik laat het zo"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10937,6 +11465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Da sa du at du ville prøve «%1$@».%2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toen zei u dat u ‘%1$@’ wilde proberen.%2$@"
           }
         },
         "pt-BR" : {
@@ -11063,6 +11597,12 @@
             "value" : "Da sa du at du ville prøve «%1$@».%2$@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toen zei je dat je ‘%1$@’ wilde proberen.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11179,6 +11719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Humøret da"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoe je je toen voelde"
           }
         },
         "pt-BR" : {
@@ -11307,6 +11853,12 @@
             "value" : "Hva skjedde da?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat gebeurde er toen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11433,6 +11985,12 @@
             "value" : "Snakke om den gangen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Praten over toen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11557,6 +12115,12 @@
             "value" : "Da sa du: «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toen zei u: ‘%@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11679,6 +12243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Da sa du: «%@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toen zei je: ‘%@’."
           }
         },
         "pt-BR" : {
@@ -11807,6 +12377,12 @@
             "value" : "Greit. Vi snakker en annen gang."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed. Een andere keer praten we verder."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11931,6 +12507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slik var det"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zo was het"
           }
         },
         "pt-BR" : {
@@ -12059,6 +12641,12 @@
             "value" : "Det kan skje. Å glemme betyr ikke at det forsvinner."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dat kan gebeuren. Vergeten betekent niet dat het verdwijnt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12185,6 +12773,12 @@
             "value" : "Det kan skje. Glemt er glemt."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dat kan gebeuren. Vergeten is vergeten."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12309,6 +12903,12 @@
             "value" : "Hva er da én liten ting på veien mot «%1$@»%2$@ som du kan klare allerede i morgen?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat is dan op weg naar ‘%1$@’%2$@ één klein ding dat je al morgen kunt doen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12431,6 +13031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva er da én liten ting på veien mot «%1$@»%2$@ som du kan klare allerede i morgen?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat is dan op weg naar ‘%1$@’%2$@ één klein ding dat u al morgen kunt doen?"
           }
         },
         "pt-BR" : {
@@ -12559,6 +13165,12 @@
             "value" : "Da snakker vi om det."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laten we er dan over praten."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12683,6 +13295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Da er det avsluttet. Jeg skriver det ned nå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dan is dat afgerond. Ik schrijf het nu op."
           }
         },
         "pt-BR" : {
@@ -12811,6 +13429,12 @@
             "value" : "Da runder jeg av."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dan rond ik het af."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12937,6 +13561,12 @@
             "value" : "Hva med dette: Hvis du gjorde det så lite at du kunne klare det allerede i morgen, hva ville det være?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat dacht je hiervan: als je het zo klein maakte dat je het morgen al kon doen, wat zou het dan zijn?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13059,6 +13689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stopp opplesing"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop met voorlezen"
           }
         },
         "pt-BR" : {
@@ -13187,6 +13823,12 @@
             "value" : "Sånn passe"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gaat wel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13311,6 +13953,12 @@
             "value" : "Forventningsfull"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwachtingsvol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13427,6 +14075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities"
           }
         },
         "pt-BR" : {
@@ -13547,6 +14201,12 @@
             "value" : "Eksporter notater"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities exporteren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13663,6 +14323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notatene dine kunne ikke eksporteres"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je notities konden niet worden geëxporteerd"
           }
         },
         "pt-BR" : {
@@ -13789,6 +14455,12 @@
             "value" : "I godt humør"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed gehumeurd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13913,6 +14585,12 @@
             "value" : "Glad"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blij"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14035,6 +14713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forferdelig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verschrikkelijk"
           }
         },
         "pt-BR" : {
@@ -14163,6 +14847,12 @@
             "value" : "Resten haster ikke."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De rest heeft geen haast."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14287,6 +14977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vi legger resten bort og ser bare på dette."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We leggen de rest even weg en kijken alleen naar dit."
           }
         },
         "pt-BR" : {
@@ -14415,6 +15111,12 @@
             "value" : "Resten kan du se på i ro og mak."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De rest kun je rustig bekijken."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14541,6 +15243,12 @@
             "value" : "Lagret, så det som fungerte ikke blir glemt."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaard, zodat we niet vergeten wat werkte."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14665,6 +15373,12 @@
             "value" : "Det du har lagt igjen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat je hebt achtergelaten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14783,6 +15497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notater du har lagt igjen, blir værende. Det forsvinner bare fra listen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achtergelaten notities blijven bewaard. Het verdwijnt alleen uit de lijst."
           }
         },
         "pt-BR" : {
@@ -14911,6 +15631,12 @@
             "value" : "Ingen ord er lagt igjen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen woorden achtergelaten."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15027,6 +15753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Målene mine"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn doelen"
           }
         },
         "pt-BR" : {
@@ -15147,6 +15879,12 @@
             "value" : "Velg steinen min"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies mijn kiezel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15265,6 +16003,12 @@
             "value" : "Slipp"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loslaten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15381,6 +16125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eksportert: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geëxporteerd op: %@"
           }
         },
         "pt-BR" : {
@@ -15509,6 +16259,12 @@
             "value" : "Hvis du bare gjorde én ting i morgen, hva ville det vært?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als u morgen maar één ding zou doen, wat zou dat dan zijn?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15633,6 +16389,12 @@
             "value" : "Kald"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kil"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15754,6 +16516,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ja"
@@ -15885,6 +16653,12 @@
             "value" : "Ja, jeg lar det være."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, ik laat het zo."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16009,6 +16783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ja, jeg lar det være. Jeg er her."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, ik laat het zo. Ik ben er."
           }
         },
         "pt-BR" : {
@@ -16137,6 +16917,12 @@
             "value" : "Greit, vi snakker en annen gang."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed, een andere keer praten we verder."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16253,6 +17039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solnedgangsstein"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zonsondergangsteen"
           }
         },
         "pt-BR" : {
@@ -16381,6 +17173,12 @@
             "value" : "Skal vi la resten ligge og bare se på dette?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zullen we de rest laten liggen en alleen hiernaar kijken?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16507,6 +17305,12 @@
             "value" : "Resten i ro og mak."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De rest rustig aan."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16629,6 +17433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neste"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende"
           }
         },
         "pt-BR" : {
@@ -16757,6 +17567,12 @@
             "value" : "Jeg skriver det ned, så det kan brukes igjen neste gang."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik schrijf het op, zodat het een volgende keer weer van pas komt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16873,6 +17689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det du vil prøve neste gang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat je hierna wilt proberen"
           }
         },
         "pt-BR" : {
@@ -16999,6 +17821,12 @@
             "value" : "Slanking"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieet"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17121,6 +17949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lukk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit"
           }
         },
         "pt-BR" : {
@@ -17249,6 +18083,12 @@
             "value" : "Bare «kom meg dit» ble skrevet ned."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alleen ‘bereikt’ is genoteerd."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17367,6 +18207,12 @@
             "value" : "Jeg kom dit"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ben er"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17483,6 +18329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg kom ikke dit"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ben er niet"
           }
         },
         "pt-BR" : {
@@ -17609,6 +18461,12 @@
             "value" : "Få en leserutine"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een leesgewoonte opbouwen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17731,6 +18589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lese"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lezen"
           }
         },
         "pt-BR" : {
@@ -17859,6 +18723,12 @@
             "value" : "Lytter"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luistert"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17983,6 +18853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det er ikke så mye å si. Jeg er bare her."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er valt niet veel te zeggen. Ik ben er gewoon."
           }
         },
         "pt-BR" : {
@@ -18111,6 +18987,12 @@
             "value" : "Hvis du ikke kommer på noe, kan du la det stå tomt. Vi finner det sammen senere."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je niets bedenkt, mag je het leeg laten. We zoeken het later samen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18233,6 +19115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mikrofonen kan ikke brukes. Du kan også skrive."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De microfoon is niet beschikbaar. Schrijven mag ook."
           }
         },
         "pt-BR" : {
@@ -18359,6 +19247,12 @@
             "value" : "Tilfreds"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tevreden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18481,6 +19375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fornøyd"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voldaan"
           }
         },
         "pt-BR" : {
@@ -18609,6 +19509,12 @@
             "value" : "Veldig tungt"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heel zwaar"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18733,6 +19639,12 @@
             "value" : "Svar med stemmen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antwoord met je stem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18855,6 +19767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiltaleform"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aanspreekvorm"
           }
         },
         "pt-BR" : {
@@ -18983,6 +19901,12 @@
             "value" : "Du kan velge hvordan det snakkes til deg"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kunt de aanspreekvorm kiezen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19107,6 +20031,12 @@
             "value" : "Lyd ved tale"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geluid tijdens het praten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19229,6 +20159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibrasjon ved tale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trilling tijdens het praten"
           }
         },
         "pt-BR" : {
@@ -19357,6 +20293,12 @@
             "value" : "Akkurat"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Precies"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19483,6 +20425,12 @@
             "value" : "Ja, jeg gjorde det ikke"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, dat heb ik niet gedaan"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19605,6 +20553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lytte til en engelsk podkast i 10 minutter hver dag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elke dag 10 minuten naar een Engelse podcast luisteren"
           }
         },
         "pt-BR" : {
@@ -19731,6 +20685,12 @@
             "value" : "Daglig påminnelse"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagelijkse herinnering"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19849,6 +20809,12 @@
             "value" : "Blekkstein"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inktsteen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19965,6 +20931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eksporter først"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eerst exporteren"
           }
         },
         "pt-BR" : {
@@ -20091,6 +21063,12 @@
             "value" : "For noen dager siden"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een paar dagen geleden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20215,6 +21193,12 @@
             "value" : "For noen dager siden"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een paar dagen geleden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20331,6 +21315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett alt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles wissen"
           }
         },
         "pt-BR" : {
@@ -20451,6 +21441,12 @@
             "value" : "Alt er slettet."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles is gewist."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20569,6 +21565,12 @@
             "value" : "Slett alle notater"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle notities wissen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20685,6 +21687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slette alle notater?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle notities wissen?"
           }
         },
         "pt-BR" : {
@@ -20813,6 +21821,12 @@
             "value" : "Slett alle data"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle gegevens verwijderen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20931,6 +21945,12 @@
             "value" : "Sandkorn"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zandkorrel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21047,6 +22067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doel"
           }
         },
         "pt-BR" : {
@@ -21173,6 +22199,12 @@
             "value" : "Legg til mål"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doel toevoegen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21289,6 +22321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv ned ett mål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf een doel op"
           }
         },
         "pt-BR" : {
@@ -21409,6 +22447,12 @@
             "value" : "Skriv ned mål uten begrensning"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf doelen op zonder limiet"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21525,6 +22569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Så mange mål du vil"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoveel doelen als je wilt"
           }
         },
         "pt-BR" : {
@@ -21645,6 +22695,12 @@
             "value" : "Skriv ned mål uten grense, velg steinen din og ta vare på notatene i en fil. Kjøp én gang, bruk for alltid."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf onbeperkt doelen op, kies je kiezel en bewaar je notities in een bestand. Eén keer kopen, altijd gebruiken."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21761,6 +22817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle målene og notatene dine forsvinner og kan ikke gjenopprettes. De slettes også på andre enheter koblet til via iCloud. Innstillinger og kjøp beholdes."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al je doelen en notities verdwijnen en kunnen niet worden hersteld. Ze worden ook gewist op je andere apparaten die via iCloud zijn verbonden. Instellingen en aankopen blijven behouden."
           }
         },
         "pt-BR" : {
@@ -21887,6 +22949,12 @@
             "value" : "Følelsesløs"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afgestompt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22009,6 +23077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Likegyldig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onverschillig"
           }
         },
         "pt-BR" : {
@@ -22135,6 +23209,12 @@
             "value" : "Helt greit"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redelijk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22259,6 +23339,12 @@
             "value" : "Maktesløs"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Machteloos"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22375,6 +23461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det som var gratis, forblir gratis, og litt til låses opp."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat gratis was, blijft gratis, en er komt nog wat bij."
           }
         },
         "pt-BR" : {
@@ -22495,6 +23587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gratisversjonen rommer opptil tre mål. Dette er det tredje."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De gratis versie biedt plek voor maximaal drie doelen. Dit is het derde."
           }
         },
         "pt-BR" : {
@@ -22621,6 +23719,12 @@
             "value" : "Redd"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bang"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22737,6 +23841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva skjedde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat er gebeurde"
           }
         },
         "pt-BR" : {
@@ -22865,6 +23975,12 @@
             "value" : "Fortell hva som skjedde"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertel wat er gebeurde"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22989,6 +24105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg ser først på hvor langt du har kommet og hva som sto i veien, og så tar jeg kontakt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik kijk eerst hoe ver u bent gekomen en wat u dwarszat, en spreek u dan aan."
           }
         },
         "pt-BR" : {
@@ -23117,6 +24239,12 @@
             "value" : "Jeg vet ikke ennå hva du er på vei mot."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik weet nog niet waar u naartoe op weg bent."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23243,6 +24371,12 @@
             "value" : "Hva er du på vei mot?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waar bent u naartoe op weg?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23367,6 +24501,12 @@
             "value" : "Uttrykksløs"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitdrukkingsloos"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23489,6 +24629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drikke mye vann og legge meg tidlig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veel water drinken en vroeg naar bed gaan"
           }
         },
         "pt-BR" : {
@@ -23617,6 +24763,12 @@
             "value" : "Hva hjalp?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat heeft geholpen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23741,6 +24893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv ned det som fungerte"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf op wat werkte"
           }
         },
         "pt-BR" : {
@@ -23869,6 +25027,12 @@
             "value" : "Hva fungerte?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat werkte?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23987,6 +25151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sveip eller hold inne på et mål for å gi det nytt navn eller slippe det."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veeg of houd een doel ingedrukt om het een andere naam te geven of los te laten."
           }
         },
         "pt-BR" : {
@@ -24113,6 +25283,12 @@
             "value" : "Stille alarmen på kl. 23 og legge telefonen langt unna"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een wekker zetten op 23.00 uur en mijn telefoon ver weg leggen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24235,6 +25411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vanlig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gewoon"
           }
         },
         "pt-BR" : {
@@ -24361,6 +25543,12 @@
             "value" : "Sint"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boos"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24483,6 +25671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Misfornøyd"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontevreden"
           }
         },
         "pt-BR" : {
@@ -24609,6 +25803,12 @@
             "value" : "Urolig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onrustig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24731,6 +25931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett kode"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code verwijderen"
           }
         },
         "pt-BR" : {
@@ -24857,6 +26063,12 @@
             "value" : "Angi kode"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code instellen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24979,6 +26191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv inn kode"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voer de code in"
           }
         },
         "pt-BR" : {
@@ -25105,6 +26323,12 @@
             "value" : "Bekreft kode"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bevestig de code"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25227,6 +26451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elendig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ellendig"
           }
         },
         "pt-BR" : {
@@ -25353,6 +26583,12 @@
             "value" : "Stolt av seg selv"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trots op jezelf"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25469,6 +26705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruksstatistikk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruiksstatistieken"
           }
         },
         "pt-BR" : {
@@ -25595,6 +26837,12 @@
             "value" : "Bruksstatistikk (utvikler)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruiksstatistieken (ontwikkelaar)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25717,6 +26965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opplagt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verfrist"
           }
         },
         "pt-BR" : {
@@ -25845,6 +27099,12 @@
             "value" : "Jeg forstår situasjonen. Hvordan har du det nå?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik begrijp de situatie. En hoe voelt u zich nu?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25969,6 +27229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det er situasjonen som har kjørt seg fast, ikke du som er problemet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De situatie zit vast, niet u bent het probleem."
           }
         },
         "pt-BR" : {
@@ -26097,6 +27363,12 @@
             "value" : "Opprett eksempeldata"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorbeeldgegevens maken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26219,6 +27491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tenker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denkt na"
           }
         },
         "pt-BR" : {
@@ -26345,6 +27623,12 @@
             "value" : "Spent"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgewonden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26467,6 +27751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Innstillinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
           }
         },
         "pt-BR" : {
@@ -26593,6 +27883,12 @@
             "value" : "Slå på Apple Intelligence i «Innstillinger», så kan jeg rydde bedre i det du sier."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zet Apple Intelligence aan in ‘Instellingen’, dan kan ik wat u zegt beter ordenen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26715,6 +28011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spre budskapet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertel het door"
           }
         },
         "pt-BR" : {
@@ -26841,6 +28143,12 @@
             "value" : "Trist"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verdrietig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26963,6 +28271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tid"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijd"
           }
         },
         "pt-BR" : {
@@ -27089,6 +28403,12 @@
             "value" : "Begeistret"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthousiast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27213,6 +28533,12 @@
             "value" : "Skuffet"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teleurgesteld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27329,6 +28655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klapp"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aaien"
           }
         },
         "pt-BR" : {
@@ -27455,6 +28787,12 @@
             "value" : "Ensom"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eenzaam"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27579,6 +28917,12 @@
             "value" : "Vemodig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weemoedig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27701,6 +29045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen notater ennå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nog geen notities"
           }
         },
         "pt-BR" : {
@@ -27829,6 +29179,12 @@
             "value" : "Du har ikke lagt igjen noe ennå."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U hebt nog niets achtergelaten."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27945,6 +29301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen notater ennå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er zijn nog geen notities."
           }
         },
         "pt-BR" : {
@@ -28073,6 +29435,12 @@
             "value" : "Ingen historier er lagt igjen ennå."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er zijn nog geen achtergelaten verhalen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28197,6 +29565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg vet ikke ennå hvor du er på vei."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik weet nog niet waar u naartoe gaat."
           }
         },
         "pt-BR" : {
@@ -28325,6 +29699,12 @@
             "value" : "Du har ingen retning ennå."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U hebt nog geen richting."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28447,6 +29827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stå tidlig opp"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vroeg opstaan"
           }
         },
         "pt-BR" : {
@@ -28573,6 +29959,12 @@
             "value" : "Jeg sto tidlig opp og fikk brukt dagen godt!"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik stond vroeg op en heb de dag goed benut!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28695,6 +30087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg klarte ikke å stå opp om morgenen og sov for lenge."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik kwam ’s ochtends niet uit bed en heb me verslapen."
           }
         },
         "pt-BR" : {
@@ -28823,6 +30221,12 @@
             "value" : "Hei. Jeg er ZinggumDol."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo. Ik ben ZinggumDol."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28949,6 +30353,12 @@
             "value" : "Greit. Jeg er her."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed. Ik ben er."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29073,6 +30483,12 @@
             "value" : "Slå på påminnelser"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herinneringen aanzetten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29189,6 +30605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les mer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer informatie"
           }
         },
         "pt-BR" : {
@@ -29315,6 +30737,12 @@
             "value" : "Del appen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De app delen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29439,6 +30867,12 @@
             "value" : "Appkode"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appcode"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29555,6 +30989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det som sendes, er bare dagene du åpnet appen eller avsluttet en samtale, hva slags handlinger det er snakk om (for eksempel å opprette et mål), antall notater og mål, og om du har sett kjøpsskjermen. Ikke en eneste bokstav av det du skriver, forlater enheten, og avsenderen skilles bare ut med et tilfeldig nummer som er laget på denne enheten."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er worden alleen de dagen verstuurd waarop u de app opende of een gesprek afrondde, het soort acties (zoals een doel aanmaken), het aantal notities en doelen en of u het aankoopscherm hebt gezien. Geen enkele letter van wat u schrijft verlaat het apparaat, en de verzender wordt alleen onderscheiden met een willekeurig nummer dat op dit apparaat is gemaakt."
           }
         },
         "pt-BR" : {
@@ -29681,6 +31121,12 @@
             "value" : "Ikke spise nattmat"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen nachtelijke snacks"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29803,6 +31249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg klarte ikke la være å spise nattmat. Jeg var sulten og spiste nudler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik kon de nachtelijke snack niet laten staan. Ik had honger en at noedels."
           }
         },
         "pt-BR" : {
@@ -29931,6 +31383,12 @@
             "value" : "Skriv ned hvordan det gikk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noteer hoe het ging"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30053,6 +31511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rotete"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rommelig"
           }
         },
         "pt-BR" : {
@@ -30179,6 +31643,12 @@
             "value" : "I går"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gisteren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30301,6 +31771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skrevet i går"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gisteren genoteerd"
           }
         },
         "pt-BR" : {
@@ -30429,6 +31905,12 @@
             "value" : "Du kan endre det når som helst. Når du gjør det, hilser steinen på deg igjen på den måten."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U kunt dit altijd wijzigen. Daarna begroet de kiezel u opnieuw op die manier."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30551,6 +32033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "For en tid siden"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onlangs"
           }
         },
         "pt-BR" : {
@@ -30677,6 +32165,12 @@
             "value" : "For en tid siden"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onlangs"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30799,6 +32293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg er her."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ben er."
           }
         },
         "pt-BR" : {
@@ -30927,6 +32427,12 @@
             "value" : "La oss stoppe her for i dag.\nPlaner man legger på slitne dager, holder sjelden.\nDet er lagret, så det går bra."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laten we het voor vandaag hierbij laten.\nPlannen die je op vermoeide dagen maakt, lukken zelden.\nHet is bewaard, dus geen zorgen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31051,6 +32557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frem til nå handlet det om hva som skjedde. Hvordan har du det inni deg nå?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tot hier ging het over wat er gebeurde. En hoe voelt u zich nu?"
           }
         },
         "pt-BR" : {
@@ -31179,6 +32691,12 @@
             "value" : "Snakk herfra"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Praten vanaf hier"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31301,6 +32819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Engasjert"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gepassioneerd"
           }
         },
         "pt-BR" : {
@@ -31427,6 +32951,12 @@
             "value" : "Jeg skulle lese engelsk, men utsatte det."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik wilde Engels leren, maar heb het uitgesteld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31549,6 +33079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Studere engelsk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engels leren"
           }
         },
         "pt-BR" : {
@@ -31675,6 +33211,12 @@
             "value" : "Bli bedre i engelsk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn Engels verbeteren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31797,6 +33339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg hørte på en engelsk podkast på vei til jobb! Det var morsommere enn jeg trodde."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik luisterde op weg naar mijn werk naar een Engelse podcast! Het was leuker dan ik dacht."
           }
         },
         "pt-BR" : {
@@ -31923,6 +33471,12 @@
             "value" : "I dag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32045,6 +33599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I dag «%@» – du klarte det."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag ‘%@’ – het is u gelukt."
           }
         },
         "pt-BR" : {
@@ -32171,6 +33731,12 @@
             "value" : "I dag «%@» – du klarte det."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag ‘%@’ – het is je gelukt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32293,6 +33859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I dag er det ennå ingen nyheter om «%1$@».%2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag is er nog geen nieuws over ‘%1$@’.%2$@"
           }
         },
         "pt-BR" : {
@@ -32419,6 +33991,12 @@
             "value" : "I dag er det ennå ingen nyheter om «%1$@».%2$@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag is er nog geen nieuws over ‘%1$@’.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32543,6 +34121,12 @@
             "value" : "I dag nådde du «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag bereikte je ‘%@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32665,6 +34249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I dag nådde du «%@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag bereikte u ‘%@’."
           }
         },
         "pt-BR" : {
@@ -32793,6 +34383,12 @@
             "value" : "Gå og skriv ned i dag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag vastleggen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32917,6 +34513,12 @@
             "value" : "Skrevet i dag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag genoteerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33039,6 +34641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skal vi se sammen på hvordan dagen gikk?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zullen we samen kijken hoe de dag was?"
           }
         },
         "pt-BR" : {
@@ -33167,6 +34775,12 @@
             "value" : "I dag er jeg bare ved din side."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag ben ik er gewoon naast."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33291,6 +34905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La oss stoppe her for i dag.\nNå er hvile viktigere enn å lete etter et svar.\nDet er skrevet ned og forsvinner ikke."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laten we het voor vandaag hierbij laten.\nNu is rusten belangrijker dan een antwoord zoeken.\nHet is genoteerd en gaat niet verloren."
           }
         },
         "pt-BR" : {
@@ -33419,6 +35039,12 @@
             "value" : "La oss stoppe her i dag.\nDu trenger ikke presse frem et svar nå.\nDet er lagret, så ser vi på det sammen neste gang."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laten we hier vandaag stoppen.\nU hoeft nu geen antwoord te forceren.\nHet is bewaard, de volgende keer kijken we er samen naar."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33543,6 +35169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I dag er den ene tingen nok."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor vandaag is dit ene ding genoeg."
           }
         },
         "pt-BR" : {
@@ -33671,6 +35303,12 @@
             "value" : "I dag er jeg stille."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag houd ik me stil."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33793,6 +35431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skrevet for lenge siden"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lang geleden genoteerd"
           }
         },
         "pt-BR" : {
@@ -33919,6 +35563,12 @@
             "value" : "Modig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moedig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34041,6 +35691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trene"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sporten"
           }
         },
         "pt-BR" : {
@@ -34167,6 +35823,12 @@
             "value" : "Jeg dro for å trene, men ga opp underveis og dro hjem."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ging sporten, maar gaf halverwege op en ging naar huis."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34291,6 +35953,12 @@
             "value" : "Motivert"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemotiveerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34413,6 +36081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "På denne enheten kan ikke ryddefunksjonen brukes. Jeg skriver det ned slik jeg hører det."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Op dit apparaat is de ordenfunctie niet beschikbaar. Ik schrijf het op zoals ik het hoor."
           }
         },
         "pt-BR" : {
@@ -34541,6 +36215,12 @@
             "value" : "Slette dette notatet?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze notitie wissen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34667,6 +36347,12 @@
             "value" : "Dette er to forskjellige ting."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit zijn twee verschillende dingen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34787,6 +36473,12 @@
             "value" : "Notater lagt igjen på dette målet følger også det nye navnet."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities bij dit doel nemen ook de nieuwe naam over."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34903,6 +36595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snakk om dette målet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Praten over dit doel"
           }
         },
         "pt-BR" : {
@@ -35023,6 +36721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slippe dette målet?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit doel loslaten?"
           }
         },
         "pt-BR" : {
@@ -35151,6 +36855,12 @@
             "value" : "Snakke om dette"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hierover praten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35275,6 +36985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvis du delte det opp i noe mindre, hva ville det vært?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als u dit in iets kleiners opdeelde, wat zou het dan zijn?"
           }
         },
         "pt-BR" : {
@@ -35403,6 +37119,12 @@
             "value" : "Jeg begynner med dette"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik begin hiermee"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35527,6 +37249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg skriver det ned slik. I morgen bare så langt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik schrijf het zo op. Morgen alleen tot hier."
           }
         },
         "pt-BR" : {
@@ -35655,6 +37383,12 @@
             "value" : "Jeg tar dette"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik neem dit"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35771,6 +37505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mosestein"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mossteen"
           }
         },
         "pt-BR" : {
@@ -35899,6 +37639,12 @@
             "value" : "Den dagen er over. Men steinen ligger fortsatt der."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die dag is voorbij. Maar de steen ligt er nog."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36023,6 +37769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg lar det være"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik laat het zo"
           }
         },
         "pt-BR" : {
@@ -36151,6 +37903,12 @@
             "value" : "Rett det slik"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zo aanpassen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36267,6 +38025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gi nytt navn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hernoemen"
           }
         },
         "pt-BR" : {
@@ -36393,6 +38157,12 @@
             "value" : "Denne uken"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze week"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36517,6 +38287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva var annerledes denne gangen?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat was er deze keer anders?"
           }
         },
         "pt-BR" : {
@@ -36812,6 +38588,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld tidligere historier er brettet sammen"
+                }
+              }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld eerder verhaal is ingeklapt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld eerdere verhalen zijn ingeklapt"
                 }
               }
             }
@@ -37181,6 +38975,24 @@
             }
           }
         },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld eerder verhaal is ingeklapt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld eerdere verhalen zijn ingeklapt"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -37365,6 +39177,12 @@
             "value" : "Send anonym bruksstatistikk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anonieme gebruiksstatistieken versturen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37489,6 +39307,12 @@
             "value" : "Alminnelig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruikelijk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37611,6 +39435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hverdagslig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alledaags"
           }
         },
         "pt-BR" : {
@@ -37739,6 +39569,12 @@
             "value" : "Jeg hadde glemt det"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik was het vergeten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37865,6 +39701,12 @@
             "value" : "Jeg skriver det ned før jeg glemmer det"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik schrijf het op voordat ik het vergeet"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37987,6 +39829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selvutvikling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Persoonlijke ontwikkeling"
           }
         },
         "pt-BR" : {
@@ -38115,6 +39963,12 @@
             "value" : "Jeg utsetter det hele tiden"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik blijf het uitstellen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38237,6 +40091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stolt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trots"
           }
         },
         "pt-BR" : {
@@ -38363,6 +40223,12 @@
             "value" : "Fått selvtillit"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelfverzekerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38485,6 +40351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selvbebreidende"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelfverwijt"
           }
         },
         "pt-BR" : {
@@ -38613,6 +40485,12 @@
             "value" : "Jo mindre, desto bedre."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoe kleiner, hoe beter."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38737,6 +40615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jo mindre, desto bedre. Selv fem minutter er greit."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoe kleiner, hoe beter. Zelfs vijf minuten is prima."
           }
         },
         "pt-BR" : {
@@ -38865,6 +40749,12 @@
             "value" : "Godt notert. Neste gang du står fast, henter jeg det frem."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netjes genoteerd. De volgende keer dat u vastloopt, haal ik dit tevoorschijn."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38989,6 +40879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Så bra. Jeg lagrer det nå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fijn. Ik bewaar het nu."
           }
         },
         "pt-BR" : {
@@ -39117,6 +41013,12 @@
             "value" : "La oss snakke litt sammen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laten we even praten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39233,6 +41135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prøv igjen om litt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probeer het over een ogenblik opnieuw."
           }
         },
         "pt-BR" : {
@@ -39357,6 +41265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen mål skrevet ned"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen doelen genoteerd"
           }
         },
         "pt-BR" : {
@@ -39485,6 +41399,12 @@
             "value" : "Skrevet ned. I morgen bare så mye."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genoteerd. Morgen maar zoveel."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39609,6 +41529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skrevet ned. Jeg viser det når du står fast på noe lignende."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genoteerd. Ik laat het zien als u bij iets soortgelijks vastloopt."
           }
         },
         "pt-BR" : {
@@ -39737,6 +41663,12 @@
             "value" : "Skrevet ned. Det er akkurat nok."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genoteerd. Zoveel is genoeg."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39863,6 +41795,12 @@
             "value" : "Jeg skriver selv"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik schrijf het zelf"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39987,6 +41925,12 @@
             "value" : "Fortvilet"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wanhopig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40109,6 +42053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg gjør ryddefunksjonen klar. Foreløpig skriver jeg det ned slik jeg hører det."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik bereid de ordenfunctie voor. Voorlopig schrijf ik het op zoals ik het hoor."
           }
         },
         "pt-BR" : {
@@ -40237,6 +42187,12 @@
             "value" : "Rydder…"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordenen…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40363,6 +42319,12 @@
             "value" : "Jeg skal rydde i det."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ga het ordenen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40487,6 +42449,12 @@
             "value" : "Vil du virkelig slette koden og redusere sikkerheten?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weet u zeker dat u de code wilt verwijderen en de beveiliging wilt verlagen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40605,6 +42573,12 @@
             "value" : "Vil du virkelig slette?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weet u het zeker?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40721,6 +42695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skjell"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schelp"
           }
         },
         "pt-BR" : {
@@ -40849,6 +42829,12 @@
             "value" : "Ikke helt"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niet helemaal"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40973,6 +42959,12 @@
             "value" : "Stein"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiezel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41091,6 +43083,12 @@
             "value" : "Velg stein"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiezel kiezen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41207,6 +43205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg blant seks overflater til steinen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies uit zes kieseluitvoeringen"
           }
         },
         "pt-BR" : {
@@ -41331,6 +43335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Steinen tenker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De kiezel denkt na"
           }
         },
         "pt-BR" : {
@@ -41459,6 +43469,12 @@
             "value" : "I «Innstillinger» kan du velge om steinen snakker formelt eller avslappet til deg."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In ‘Instellingen’ kiest u of de kiezel u met ‘u’ of ‘je’ aanspreekt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41585,6 +43601,12 @@
             "value" : "Bra"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41709,6 +43731,12 @@
             "value" : "Motløs"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontmoedigd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41831,6 +43859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nøytral"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutraal"
           }
         },
         "pt-BR" : {
@@ -41959,6 +43993,12 @@
             "value" : "Snakk om det nå"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu praten"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42085,6 +44125,12 @@
             "value" : "Hvis det er noe du er på vei mot, vil du fortelle om én ting?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als u ergens naartoe op weg bent, wilt u mij dan over één ding vertellen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42209,6 +44255,12 @@
             "value" : "Hvor du er på vei"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waar u naartoe op weg bent"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42325,6 +44377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du er allerede på vei mot %lld mål."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent al op weg naar %lld doelen."
           }
         },
         "pt-BR" : {
@@ -42445,6 +44503,12 @@
             "value" : "Du er allerede på vei mot %lld mål."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U bent al op weg naar %lld doelen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42563,6 +44627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg lar det være for nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorlopig laat ik het zo"
           }
         },
         "pt-BR" : {
@@ -42691,6 +44761,12 @@
             "value" : "Jeg vil la det være for nå"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorlopig laat ik het liever zo"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42813,6 +44889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det er vanskelig å høre akkurat nå. Du kan også skrive."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Op dit moment is het moeilijk te verstaan. Schrijven mag ook."
           }
         },
         "pt-BR" : {
@@ -42941,6 +45023,12 @@
             "value" : "Hvordan er det nå?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En hoe is het nu?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43063,6 +45151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ryddefunksjonen kan ikke brukes akkurat nå. Jeg skriver det ned slik jeg hører det."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ordenfunctie is nu niet beschikbaar. Ik schrijf het op zoals ik het hoor."
           }
         },
         "pt-BR" : {
@@ -43189,6 +45283,12 @@
             "value" : "Veien så langt"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afgelegde weg"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43307,6 +45407,12 @@
             "value" : "Lagre alle notatene dine i en tekstfil."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar al je notities in een tekstbestand."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43423,6 +45529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eksporter notatene dine til en fil"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporteer je notities naar een bestand"
           }
         },
         "pt-BR" : {
@@ -43549,6 +45661,12 @@
             "value" : "I forrige notat står det: «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In de vorige notitie staat: ‘%@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43671,6 +45789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I forrige notat står det: «%@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In de vorige notitie staat: ‘%@’."
           }
         },
         "pt-BR" : {
@@ -43797,6 +45921,12 @@
             "value" : "Sist bestemte du: «%1$@».%2$@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De vorige keer besloot u: ‘%1$@’.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43919,6 +46049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sist bestemte du: «%1$@».%2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De vorige keer besloot je: ‘%1$@’.%2$@"
           }
         },
         "pt-BR" : {
@@ -44045,6 +46181,12 @@
             "value" : "Sist ville du prøve «%1$@».%2$@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De vorige keer wilde je ‘%1$@’ proberen.%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44167,6 +46309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sist ville du prøve «%1$@».%2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De vorige keer wilde u ‘%1$@’ proberen.%2$@"
           }
         },
         "pt-BR" : {
@@ -44293,6 +46441,12 @@
             "value" : "Sist skrev du: «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De vorige keer schreef je: ‘%@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44415,6 +46569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sist skrev du: «%@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De vorige keer schreef u: ‘%@’."
           }
         },
         "pt-BR" : {
@@ -44541,6 +46701,12 @@
             "value" : "Forrige uke"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorige week"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44663,6 +46829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forrige uke"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorige week"
           }
         },
         "pt-BR" : {
@@ -44789,6 +46961,12 @@
             "value" : "Omtrent forrige uke"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ongeveer vorige week"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44913,6 +47091,12 @@
             "value" : "Lei"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verveeld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45035,6 +47219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wissen"
           }
         },
         "pt-BR" : {
@@ -45163,6 +47353,12 @@
             "value" : "Når noe er slettet, kan det ikke angres."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat gewist is, kan niet worden teruggehaald."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45279,6 +47475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kunne ikke slette. Prøv igjen om litt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wissen is niet gelukt. Probeer het over een ogenblik opnieuw."
           }
         },
         "pt-BR" : {
@@ -45405,6 +47607,12 @@
             "value" : "Støtte og personvern"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support en privacy"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45529,6 +47737,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45647,6 +47861,12 @@
             "value" : "ZinggumDol-notater"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol-notities"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45760,6 +47980,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -45881,6 +48107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du bruker ZinggumDol Pro. Takk."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U gebruikt ZinggumDol Pro. Bedankt."
           }
         },
         "pt-BR" : {
@@ -46007,6 +48239,12 @@
             "value" : "Irritert"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geïrriteerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46123,6 +48361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kort er helt greit."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort is prima."
           }
         },
         "pt-BR" : {
@@ -46251,6 +48495,12 @@
             "value" : "Kort er helt greit – bare det som skjedde da."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort is prima – alleen wat er toen gebeurde."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46373,6 +48623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg leste i 30 minutter. Jeg konsentrerte meg godt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik heb 30 minuten gelezen. Ik kon me goed concentreren."
           }
         },
         "pt-BR" : {
@@ -46499,6 +48755,12 @@
             "value" : "Bygge kondisjon"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conditie opbouwen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46621,6 +48883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbryt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleer"
           }
         },
         "pt-BR" : {
@@ -46749,6 +49017,12 @@
             "value" : "Du kan også skrive stort."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groot schrijven mag ook."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46865,6 +49139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trykk eller gni for å klappe den"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik of wrijf om het te aaien"
           }
         },
         "pt-BR" : {
@@ -46991,6 +49271,12 @@
             "value" : "Ødeleggende"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vernietigend"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47113,6 +49399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avslappet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontspannen"
           }
         },
         "pt-BR" : {
@@ -47241,6 +49533,12 @@
             "value" : "Slik det passer deg best"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoals het voor u het prettigst is"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47363,6 +49661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gjennomsnittlig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doorsnee"
           }
         },
         "pt-BR" : {
@@ -47489,6 +49793,12 @@
             "value" : "Gi appen en vurdering"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De app beoordelen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47602,6 +49912,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -47727,6 +50043,12 @@
             "value" : "Skriv flere med Pro"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer noteren met Pro"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47843,6 +50165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Låses opp med Pro"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschikbaar met Pro"
           }
         },
         "pt-BR" : {
@@ -47967,6 +50295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sliten"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moe"
           }
         },
         "pt-BR" : {
@@ -48095,6 +50429,12 @@
             "value" : "Det ene er det som skjedde, det andre er hvordan du har det nå."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het ene is wat er gebeurde, het andere is hoe u zich nu voelt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48211,6 +50551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kjøp én gang, bruk for alltid. Det er ikke et abonnement"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eén keer kopen, altijd gebruiken. Geen abonnement"
           }
         },
         "pt-BR" : {
@@ -48335,6 +50681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "For veldig lenge siden"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heel lang geleden"
           }
         },
         "pt-BR" : {
@@ -48463,6 +50815,12 @@
             "value" : "Gjort, men ikke skrevet ned"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gedaan, maar niet genoteerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48589,6 +50947,12 @@
             "value" : "Gjort, bare ikke skrevet ned"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gedaan, alleen niet genoteerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48711,6 +51075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lykkelig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelukkig"
           }
         },
         "pt-BR" : {
@@ -48839,6 +51209,12 @@
             "value" : "Jeg har ikke hørt ennå hva du er på vei mot."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik heb nog niet gehoord waar u naartoe op weg bent."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48955,6 +51331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det er greit å være på vei mot flere mål. Du kan skrive dem ned uten begrensning."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het is prima om naar meerdere doelen toe te werken. U kunt ze onbeperkt noteren."
           }
         },
         "pt-BR" : {
@@ -49079,6 +51461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avsky"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Walging"
           }
         },
         "pt-BR" : {
@@ -49207,6 +51595,12 @@
             "value" : "Mener du dette?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedoelt u dit?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49331,6 +51725,12 @@
             "value" : "OK"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49449,6 +51849,12 @@
             "value" : "Skriv «%@» for å bekrefte."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ ‘%@’ ter bevestiging."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49564,6 +51970,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi"
@@ -49689,6 +52101,12 @@
             "value" : "Hm?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hè?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49807,6 +52225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeg er her"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ben er"
           }
         },
         "pt-BR" : {
@@ -49929,6 +52353,12 @@
             "value" : "Ropte du på meg?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riep je me?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50047,6 +52477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi, det kiler!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, dat kietelt!"
           }
         },
         "pt-BR" : {
@@ -50169,6 +52605,12 @@
             "value" : "Det kiler"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het kietelt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50287,6 +52729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hold opp, hihi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hou op, hihi"
           }
         },
         "pt-BR" : {
@@ -50409,6 +52857,12 @@
             "value" : "Det er deilig…"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heerlijk…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50527,6 +52981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deilig varm"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lekker warm"
           }
         },
         "pt-BR" : {
@@ -50649,6 +53109,12 @@
             "value" : "Jeg blir søvnig…"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik word slaperig…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50769,6 +53235,12 @@
             "value" : "Jeg blir svimmel…"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik word duizelig…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50887,6 +53359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rundt og rundt…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rond en rond…"
           }
         },
         "pt-BR" : {

@@ -1061,3 +1061,60 @@ https://m1zz.github.io/Rebound-Journal/nb/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/nb/
+
+## nl
+
+### 이름
+
+ZinggumDol: dagboek
+
+### 부제
+
+Praat met een kleine kiezel
+
+### 키워드
+
+reflectie,stemming,emoties,gewoontes,groei,stress,angst,fouten,veerkracht,zelfvertrouwen,mindfulness
+
+### 프로모션 텍스트
+
+Een misstap betekent niet dat u in de beek bent gevallen. Blik terug op dagen die anders liepen, met een kiezel die als eerste praat en onthoudt wat u vertelde.
+
+### 설명
+
+Een misstap betekent niet dat u in de beek bent gevallen. ZinggumDol is een zacht dagboek voor de dagen die anders liepen dan gepland: u praat met een kiezel en kijkt rustig terug op wat er gebeurde.
+
+De kiezel begint te praten. Hij onthoudt wat u de vorige keer vertelde en vraagt: “En hoe ging het daarna?” Kies een antwoord of schrijf zelf iets. Wat er gebeurde, hoe u zich voelde en wat u hierna wilt proberen, wordt vastgelegd.
+
+Praat met de kiezel
+Stel een doel en de kiezel let op hoe ver u bent gekomen en wat u dwarszit. Als een dag misloopt, vraagt hij “Wat zat u dwars?”, niet “Wat deed u fout?”.
+
+Zeg het hardop
+Op dagen dat schrijven te veel is, volstaat praten. Spraakherkenning gebeurt op uw apparaat en de opname wordt niet bewaard. Op ondersteunde apparaten wordt wat u zegt bovendien geordend zodat het prettig leest.
+
+Afgelegde weg
+Elke week wordt een rij stapstenen. Dagen waarop u niet stapte, blijven gewoon liggen – er wordt niets gewist.
+
+Wat u hebt achtergelaten
+Blader op datum door wat er gebeurde, hoe u zich voelde en wat u wilde proberen.
+
+Widget en herinneringen
+Een zin van de kiezel op uw beginscherm en een zachte herinnering op een tijdstip naar keuze om samen terug te kijken op de dag.
+
+Alleen van u
+Geen account en geen advertenties. Uw notities staan alleen op uw apparaat en in uw eigen iCloud, en u kunt de app met een code vergrendelen. Wat u schrijft, wordt nooit naar de ontwikkelaar gestuurd.
+
+ZINGGUMDOL PRO
+In de gratis versie passen maximaal drie doelen. Met een eenmalige aankoop (geen abonnement) noteert u onbeperkt doelen, kiest u uit zes kieseluitvoeringen en exporteert u uw notities naar een tekstbestand.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/nl/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/nl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/nl/
