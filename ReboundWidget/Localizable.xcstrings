@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "River Slate"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "河石"
+          }
         }
       }
     },
@@ -29,6 +35,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beside you"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "陪在你身边"
           }
         }
       }
@@ -46,6 +58,12 @@
             "state" : "translated",
             "value" : "Glad"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开心"
+          }
         }
       }
     },
@@ -61,6 +79,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "晚霞石"
           }
         }
       }
@@ -78,6 +102,12 @@
             "state" : "translated",
             "value" : "Listening"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在听"
+          }
         }
       }
     },
@@ -93,6 +123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inkstone"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "墨石"
           }
         }
       }
@@ -110,6 +146,12 @@
             "state" : "translated",
             "value" : "Sand"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沙粒"
+          }
         }
       }
     },
@@ -125,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thinking"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在想"
           }
         }
       }
@@ -142,6 +190,12 @@
             "state" : "translated",
             "value" : "I'm here."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我在这儿。"
+          }
         }
       }
     },
@@ -157,6 +211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave today's note"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "去留下今天的记录"
           }
         }
       }
@@ -174,6 +234,12 @@
             "state" : "translated",
             "value" : "Moss"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "苔藓石"
+          }
         }
       }
     },
@@ -190,6 +256,12 @@
             "state" : "translated",
             "value" : "Seashell"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "贝壳"
+          }
         }
       }
     },
@@ -205,6 +277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pebble"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石子"
           }
         }
       }
@@ -230,6 +308,12 @@
             "state" : "translated",
             "value" : "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石子带来的一句话。轻点即可留下今天的记录。"
+          }
         }
       }
     },
@@ -253,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "징검돌"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         }
       }

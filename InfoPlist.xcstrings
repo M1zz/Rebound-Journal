@@ -22,6 +22,12 @@
             "state" : "translated",
             "value" : "징검돌"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
         }
       }
     },
@@ -46,6 +52,12 @@
             "state" : "translated",
             "value" : "징검돌"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
         }
       }
     },
@@ -69,6 +81,12 @@
             "state" : "translated",
             "value" : "말로 편하게 돌아볼 수 있도록 마이크를 사용해요. 녹음은 저장되지 않고, 글로 옮긴 내용만 기기 안에 남습니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用麦克风,是为了让你可以轻松地用说话的方式回顾。录音不会被保存,只有转写出的文字会留在你的设备上。"
+          }
         }
       }
     },
@@ -91,6 +109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말한 내용을 글로 옮기기 위해 사용해요. 인식은 기기 안에서 이뤄지고 밖으로 나가지 않습니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用于把你说的话转成文字。识别在你的设备上完成,不会传到设备之外。"
           }
         }
       }

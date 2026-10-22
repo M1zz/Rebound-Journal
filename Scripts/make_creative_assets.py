@@ -36,6 +36,7 @@ SEARCH = {
     "ko": ("실패 기록 일기", "조약돌이<br>먼저 말을 걸어요", "무엇에 닿았고 무엇이 막혔는지<br>대화하듯 남겨요"),
     "en": ("Failure journal", "A pebble that<br>asks first", "Talk through what worked<br>and what got stuck"),
     "en-GB": ("Failure journal", "A pebble that<br>asks first", "Talk through what worked<br>and what got stuck"),
+    "zh-Hans": ("失败日记", "小石子<br>会先开口", "像聊天一样记下<br>走到了哪里、被什么卡住"),
 }
 
 # 헤더는 처음 온 사람에게 **한 가지 약속**만 한다(Apple: 단일한 생각, 빽빽하지 않게).
@@ -45,6 +46,7 @@ HEADER = {
     "ko": ("막힌 날을 돌아보는 기록", "헛디뎌도<br>개울에 빠진 건 아니에요"),
     "en": ("A gentle failure journal", "Missing a step doesn't<br>mean you fell in"),
     "en-GB": ("A gentle failure journal", "Missing a step doesn't<br>mean you fell in"),
+    "zh-Hans": ("回顾受阻日子的温柔日记", "踏空一步<br>并不等于掉进了溪水里"),
 }
 
 # ⚠️ 바탕 · 글자색은 기존 스크린샷(make_marketing_screenshots.py)과 같다. 다르면 페이지에서
