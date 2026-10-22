@@ -21,6 +21,12 @@
             "value" : "  Stimmung: %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Διάθεση: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -113,6 +119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Nächster Schritt: %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Επόμενο βήμα: %@"
           }
         },
         "en" : {
@@ -209,6 +221,12 @@
             "value" : "  Was passiert ist: %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Τι έγινε: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -301,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Was ist dir bei „%@“ in die Quere gekommen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι σε εμπόδισε με το «%@»;"
           }
         },
         "en" : {
@@ -403,6 +427,12 @@
             "value" : "Was ist Ihnen bei „%@“ in die Quere gekommen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι σας εμπόδισε με το «%@»;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -501,6 +531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seit unserem Gespräch über „%1$@“ sind %2$lld Tage vergangen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέρασαν %2$lld ημέρες από τότε που μιλήσαμε για το «%1$@»."
           }
         },
         "en" : {
@@ -603,6 +639,12 @@
             "value" : "Seit unserem Gespräch über „%1$@“ sind %2$lld Tage vergangen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέρασαν %2$lld ημέρες από τότε που μιλήσαμε για το «%1$@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -701,6 +743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%@“ – heute noch nichts."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» – σήμερα ακόμη τίποτα."
           }
         },
         "en" : {
@@ -803,6 +851,12 @@
             "value" : "„%@“ – heute noch nichts."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» – σήμερα ακόμη τίποτα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -901,6 +955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ ist seit %3$lld Tagen still."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ έχει ησυχία εδώ και %3$lld ημέρες."
           }
         },
         "en" : {
@@ -1003,6 +1063,12 @@
             "value" : "„%1$@“%2$@ ist seit %3$lld Tagen still."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ έχει ησυχία εδώ και %3$lld ημέρες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1101,6 +1167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ du hast vor %3$lld Tagen zuletzt zurückgeschaut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ έχουν περάσει %3$lld ημέρες από την τελευταία φορά που το κοίταξες."
           }
         },
         "en" : {
@@ -1203,6 +1275,12 @@
             "value" : "„%1$@“%2$@ Sie haben vor %3$lld Tagen zuletzt zurückgeschaut."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ έχουν περάσει %3$lld ημέρες από την τελευταία φορά που το κοιτάξατε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1301,6 +1379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ heute bist du noch nicht dort angekommen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ σήμερα δεν έφτασες ακόμη εκεί."
           }
         },
         "en" : {
@@ -1403,6 +1487,12 @@
             "value" : "„%1$@“%2$@ heute sind Sie noch nicht dort angekommen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ σήμερα δεν φτάσατε ακόμη εκεί."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1501,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ du hast es notiert, aber noch nicht zurückgeschaut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ το σημείωσες, αλλά δεν το ξανακοίταξες."
           }
         },
         "en" : {
@@ -1603,6 +1699,12 @@
             "value" : "„%1$@“%2$@ Sie haben es notiert, aber noch nicht zurückgeschaut."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ το σημειώσατε, αλλά δεν το ξανακοιτάξατε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1701,6 +1803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ du hast es nur notiert, mehr ist noch nicht passiert."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ το σημείωσες μόνο, και μέχρι εκεί."
           }
         },
         "en" : {
@@ -1803,6 +1911,12 @@
             "value" : "„%1$@“%2$@ Sie haben es nur notiert, mehr ist noch nicht passiert."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ το σημειώσατε μόνο, και μέχρι εκεί."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1901,6 +2015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ seit du es notiert hast, ist es still geblieben."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ από τότε που το σημείωσες, έχει ησυχία."
           }
         },
         "en" : {
@@ -2003,6 +2123,12 @@
             "value" : "„%1$@“%2$@ seit Sie es notiert haben, ist es still geblieben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ από τότε που το σημειώσατε, έχει ησυχία."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2101,6 +2227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%1$@“%2$@ gehen wir zurück zu dem Moment, als du es vorhattest. Was hat dich aufgehalten?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ ας γυρίσουμε στη στιγμή που ήθελες να το κάνεις. Τι κόλλησε;"
           }
         },
         "en" : {
@@ -2203,6 +2335,12 @@
             "value" : "„%1$@“%2$@ gehen wir zurück zu dem Moment, als Sie es vorhatten. Was hat Sie aufgehalten?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ ας γυρίσουμε στη στιγμή που θέλατε να το κάνετε. Τι κόλλησε;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2301,6 +2439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bei „%1$@“ bist du bis %2$@ gekommen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με το «%1$@» έφτασες μέχρι το %2$@."
           }
         },
         "en" : {
@@ -2403,6 +2547,12 @@
             "value" : "Bei „%1$@“ sind Sie bis %2$@ gekommen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με το «%1$@» φτάσατε μέχρι το %2$@."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2501,6 +2651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das war der Tag, an dem du „%@“ erreicht hast."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήταν η μέρα που έφτασες στο «%@»."
           }
         },
         "en" : {
@@ -2603,6 +2759,12 @@
             "value" : "Das war der Tag, an dem Sie „%@“ erreicht haben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήταν η μέρα που φτάσατε στο «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2703,6 +2865,12 @@
             "value" : "Zu „%1$@“ hast du %2$@ geschrieben: „%3$@“."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Για το «%1$@» %2$@ έγραψες: «%3$@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2801,6 +2969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zu „%1$@“ haben Sie %2$@ geschrieben: „%3$@“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Για το «%1$@» %2$@ γράψατε: «%3$@»."
           }
         },
         "en" : {
@@ -2905,6 +3079,12 @@
             "value" : "Lass unter „Zurückgelegter Weg“ ein Ziel los, dann kannst du ein neues anlegen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε έναν στόχο στο «Διαδρομή που έχετε διανύσει» και θα μπορείτε να γράψετε νέο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2997,6 +3177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nAufgehalten hat dich „%2$@“,\nund gerade fühlst du dich „%3$@“%4$@.\n\n%5$@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nΑυτό που σε εμπόδισε ήταν το «%2$@»,\nκαι τώρα νιώθεις «%3$@»%4$@.\n\n%5$@"
           }
         },
         "en" : {
@@ -3099,6 +3285,12 @@
             "value" : "%1$@ Als es um „%2$@“ ging, hast du „%3$@“ hinterlassen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Μιλώντας για το «%2$@», άφησες: «%3$@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3197,6 +3389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Als es um „%2$@“ ging, haben Sie „%3$@“ hinterlassen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Μιλώντας για το «%2$@», αφήσατε: «%3$@»."
           }
         },
         "en" : {
@@ -3299,6 +3497,12 @@
             "value" : "%1$@ Zu „%2$@“%3$@ sagten Sie: „%4$@“."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Για το «%2$@»%3$@ είπατε: «%4$@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3397,6 +3601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Zu „%2$@“%3$@ hast du gesagt: „%4$@“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Για το «%2$@»%3$@ είπες: «%4$@»."
           }
         },
         "en" : {
@@ -3499,6 +3709,12 @@
             "value" : "%1$@ Sie sagten, „%2$@“%3$@ habe gehakt."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Είπατε ότι το «%2$@»%3$@ κόλλησε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3597,6 +3813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Du hast gesagt, „%2$@“%3$@ habe gehakt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Είπες ότι το «%2$@»%3$@ κόλλησε."
           }
         },
         "en" : {
@@ -3699,6 +3921,12 @@
             "value" : "%1$@ „%2$@“%3$@ haben Sie geschafft."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Καταφέρατε το «%2$@»%3$@."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3797,6 +4025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ „%2$@“%3$@ hast du geschafft."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Κατάφερες το «%2$@»%3$@."
           }
         },
         "en" : {
@@ -3899,6 +4133,12 @@
             "value" : "%1$@ hast du „%2$@“ erreicht."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ έφτασες στο «%2$@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3997,6 +4237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ haben Sie „%2$@“ erreicht."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ φτάσατε στο «%2$@»."
           }
         },
         "en" : {
@@ -4099,6 +4345,12 @@
             "value" : "%1$@ hast du notiert, dass dich „%2$@“ aufgehalten hat."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ σημείωσες ότι σε εμπόδισε το «%2$@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4197,6 +4449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ haben Sie notiert, dass Sie „%2$@“ aufgehalten hat."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ σημειώσατε ότι σας εμπόδισε το «%2$@»."
           }
         },
         "en" : {
@@ -4299,6 +4557,12 @@
             "value" : "Woche vom %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εβδομάδα του %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4397,6 +4661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, Tag mit Eintrag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ημέρα με σημείωση"
           }
         },
         "en" : {
@@ -4499,6 +4769,12 @@
             "value" : "%@, kein Eintrag"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, χωρίς σημείωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4597,6 +4873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, Tag, an dem das Ziel erreicht wurde"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ημέρα που επιτεύχθηκε ο στόχος"
           }
         },
         "en" : {
@@ -4699,6 +4981,12 @@
             "value" : "%@, Tag, der noch nicht gekommen ist"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ημέρα που δεν έχει έρθει ακόμη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4797,6 +5085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ „%2$@“%3$@ haben Sie doch geschafft."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Καταφέρατε το «%2$@»%3$@, θυμάστε;"
           }
         },
         "en" : {
@@ -4899,6 +5193,12 @@
             "value" : "%1$@ „%2$@“%3$@ hast du doch geschafft."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Κατάφερες το «%2$@»%3$@, θυμάσαι;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4997,6 +5297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ haben Sie „%2$@“%3$@ geschafft."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ καταφέρατε το «%2$@»%3$@."
           }
         },
         "en" : {
@@ -5099,6 +5405,12 @@
             "value" : "%1$@ hast du „%2$@“%3$@ geschafft."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ κατάφερες το «%2$@»%3$@."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5197,6 +5509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ hast du „%2$@“ erreicht,"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ έφτασες στο «%2$@»,"
           }
         },
         "en" : {
@@ -5299,6 +5617,12 @@
             "value" : "%1$@ haben Sie „%2$@“ erreicht,"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ φτάσατε στο «%2$@»,"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5394,6 +5718,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -5497,6 +5827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld.%1$lld."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
           }
         },
         "en" : {
@@ -5642,6 +5978,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Vor %lld Tagen"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Πριν από %lld ημέρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Πριν από %lld ημέρες"
                 }
               }
             }
@@ -5945,6 +6299,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Σημειώθηκε πριν από %lld ημέρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Σημειώθηκε πριν από %lld ημέρες"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -6243,6 +6615,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Σημειώθηκε πριν από %lld εβδομάδα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Σημειώθηκε πριν από %lld εβδομάδες"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -6493,6 +6883,12 @@
             "value" : "|"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6595,6 +6991,12 @@
             "value" : "Niedergeschlagen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πεσμένος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6693,6 +7095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit leichtem Dehnen anfangen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να ξεκινήσω με ένα ελαφρύ τέντωμα"
           }
         },
         "en" : {
@@ -6795,6 +7203,12 @@
             "value" : "Dankbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ευγνωμοσύνη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6895,6 +7309,12 @@
             "value" : "Flussstein"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ποτάμιο βότσαλο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6987,6 +7407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ein Ziel mit diesem Namen gibt es schon"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπάρχει ήδη στόχος με αυτό το όνομα"
           }
         },
         "en" : {
@@ -7083,6 +7509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Für Entwickler"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Για τον προγραμματιστή"
           }
         },
         "en" : {
@@ -7185,6 +7617,12 @@
             "value" : "E-Mail an den Entwickler"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποστολή email στον προγραμματιστή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7285,6 +7723,12 @@
             "value" : "Fünf weitere Steine werden frei, wie am Bachufer aufgelesen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκλειδώνουν άλλες πέντε πέτρες, σαν να τις μάζεψες δίπλα στο ρυάκι."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7377,6 +7821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datenschutzerklärung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πολιτική απορρήτου"
           }
         },
         "en" : {
@@ -7479,6 +7929,12 @@
             "value" : "Gesundheit"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υγεία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7579,6 +8035,12 @@
             "value" : "Bei dir"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δίπλα σου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7677,6 +8139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bearbeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία"
           }
         },
         "en" : {
@@ -7781,6 +8249,12 @@
             "value" : "Okay"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7883,6 +8357,12 @@
             "value" : "Schon gut. Es ist nur nicht aufgefallen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν πειράζει. Απλώς δεν είχε τραβήξει την προσοχή."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7981,6 +8461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gequält"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βασανισμένος"
           }
         },
         "en" : {
@@ -8083,6 +8569,12 @@
             "value" : "Käufe wiederherstellen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά αγορών"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8175,6 +8667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regelmäßiger Alltag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τακτική ζωή"
           }
         },
         "en" : {
@@ -8279,6 +8777,12 @@
             "value" : "Wie ging es danach weiter?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Και πώς πήγε μετά;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8379,6 +8883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das war die Situation. Wie fühlst du dich jetzt?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτό ήταν η κατάσταση. Και πώς νιώθεις τώρα;"
           }
         },
         "en" : {
@@ -8483,6 +8993,12 @@
             "value" : "Wie ist es damit ausgegangen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πώς κατέληξε αυτό;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8583,6 +9099,12 @@
             "value" : "Wie war der Tag"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πώς ήταν εκείνη η μέρα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8677,6 +9199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich lasse es so"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα το αφήσω έτσι"
           }
         },
         "en" : {
@@ -8779,6 +9307,12 @@
             "value" : "Damals wollten Sie „%1$@“ ausprobieren.%2$@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε είχατε πει ότι θα δοκιμάσετε το «%1$@».%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8877,6 +9411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Damals wolltest du „%1$@“ ausprobieren.%2$@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε είχες πει ότι θα δοκιμάσεις το «%1$@».%2$@"
           }
         },
         "en" : {
@@ -8979,6 +9519,12 @@
             "value" : "Stimmung damals"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η διάθεση τότε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9073,6 +9619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Was ist damals passiert?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι έγινε τότε;"
           }
         },
         "en" : {
@@ -9177,6 +9729,12 @@
             "value" : "Über damals sprechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να μιλήσουμε για τότε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9277,6 +9835,12 @@
             "value" : "Damals sagten Sie: „%@“."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε είχατε πει: «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9375,6 +9939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Damals hast du gesagt: „%@“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε είχες πει: «%@»."
           }
         },
         "en" : {
@@ -9479,6 +10049,12 @@
             "value" : "Gut. Wir sprechen ein andermal darüber."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εντάξει. Θα τα πούμε μια άλλη φορά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9579,6 +10155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stimmt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έτσι ήταν"
           }
         },
         "en" : {
@@ -9683,6 +10265,12 @@
             "value" : "Das kann passieren. Vergessen heißt nicht, dass es verschwindet."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συμβαίνει. Το ότι το ξεχάσατε δεν σημαίνει ότι χάθηκε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9785,6 +10373,12 @@
             "value" : "Kann passieren. Vergessen ist vergessen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συμβαίνει. Ό,τι ξεχάστηκε, ξεχάστηκε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9885,6 +10479,12 @@
             "value" : "Und was wäre auf dem Weg zu „%1$@“%2$@ eine Sache, die so klein ist, dass du sie gleich morgen schaffst?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε, προς το «%1$@»%2$@ ποιο είναι ένα τόσο μικρό πράγμα που μπορείς να κάνεις ήδη αύριο;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9983,6 +10583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Und was wäre auf dem Weg zu „%1$@“%2$@ eine Sache, die so klein ist, dass Sie sie gleich morgen schaffen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε, προς το «%1$@»%2$@ ποιο είναι ένα τόσο μικρό πράγμα που μπορείτε να κάνετε ήδη αύριο;"
           }
         },
         "en" : {
@@ -10087,6 +10693,12 @@
             "value" : "Dann sprechen wir darüber."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε ας μιλήσουμε γι' αυτό."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10187,6 +10799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dann ist das erledigt. Ich notiere es jetzt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε αυτό έληξε. Θα το σημειώσω τώρα."
           }
         },
         "en" : {
@@ -10291,6 +10909,12 @@
             "value" : "Dann schließe ich das ab."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τότε θα το κλείσω."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10393,6 +11017,12 @@
             "value" : "Wie wäre das: Wenn du es so klein machst, dass du es morgen gleich schaffst, was wäre es?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να δούμε το εξής: αν το έκανες τόσο μικρό ώστε να το καταφέρεις ήδη αύριο, τι θα ήταν;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10491,6 +11121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorlesen beenden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακοπή ανάγνωσης"
           }
         },
         "en" : {
@@ -10595,6 +11231,12 @@
             "value" : "Naja"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έτσι κι έτσι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10693,6 +11335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorfreude"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσμονή"
           }
         },
         "en" : {
@@ -10795,6 +11443,12 @@
             "value" : "Einträge"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10887,6 +11541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einträge exportieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή σημειώσεων"
           }
         },
         "en" : {
@@ -10983,6 +11643,12 @@
             "value" : "Einträge konnten nicht exportiert werden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατή η εξαγωγή των σημειώσεών σας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11075,6 +11741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gut gelaunt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλή διάθεση"
           }
         },
         "en" : {
@@ -11177,6 +11849,12 @@
             "value" : "Freut sich"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χαρούμενος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11275,6 +11953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schrecklich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φρικτή"
           }
         },
         "en" : {
@@ -11379,6 +12063,12 @@
             "value" : "Um den Rest musst du dich nicht beeilen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα υπόλοιπα δεν βιάζονται."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11479,6 +12169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den Rest klappen wir zu und sehen uns nur das an."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήνουμε τα υπόλοιπα στην άκρη και κοιτάμε μόνο αυτό."
           }
         },
         "en" : {
@@ -11583,6 +12279,12 @@
             "value" : "Den Rest kannst du dir in Ruhe ansehen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα υπόλοιπα μπορείτε να τα δείτε με την ησυχία σας."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11685,6 +12387,12 @@
             "value" : "Gespeichert, damit nicht vergessen geht, was geholfen hat."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκεύτηκε, για να μη ξεχάσουμε ό,τι δούλεψε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11783,6 +12491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Was du hinterlassen hast"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσα αφήσατε"
           }
         },
         "en" : {
@@ -11887,6 +12601,12 @@
             "value" : "Hinterlassene Einträge bleiben erhalten. Nur aus der Liste verschwindet das Ziel."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι σημειώσεις που αφήσατε μένουν. Αφαιρείται μόνο από τη λίστα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11981,6 +12701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine Worte hinterlassen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν λόγια που να έχουν αφεθεί."
           }
         },
         "en" : {
@@ -12083,6 +12809,12 @@
             "value" : "Meine Ziele"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι στόχοι μου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12175,6 +12907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meinen Kiesel wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή του βότσαλού μου"
           }
         },
         "en" : {
@@ -12271,6 +13009,12 @@
             "value" : "Loslassen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άφησέ το"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12363,6 +13107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportiert am: %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή στις: %@"
           }
         },
         "en" : {
@@ -12459,6 +13209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wenn du morgen nur eine Sache tun würdest, welche wäre es?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν αύριο κάνατε μόνο ένα πράγμα, ποιο θα ήταν;"
           }
         },
         "en" : {
@@ -12559,6 +13315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kühl"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψυχρότητα"
           }
         },
         "en" : {
@@ -12663,6 +13425,12 @@
             "value" : "Ja"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ναι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12763,6 +13531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ja, ich lasse es so."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ναι, θα το αφήσω έτσι."
           }
         },
         "en" : {
@@ -12867,6 +13641,12 @@
             "value" : "Ja, ich lasse es so. Ich bin hier."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ναι, θα το αφήσω έτσι. Είμαι εδώ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12969,6 +13749,12 @@
             "value" : "Gut, dann sprechen wir ein andermal."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εντάξει, θα τα πούμε άλλη φορά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13069,6 +13855,12 @@
             "value" : "Abendrotstein"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέτρα του ηλιοβασιλέματος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13163,6 +13955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lassen wir alles andere und sehen uns nur das an?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να αφήσουμε τα υπόλοιπα και να δούμε μόνο αυτό;"
           }
         },
         "en" : {
@@ -13267,6 +14065,12 @@
             "value" : "Alles andere in Ruhe."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα υπόλοιπα με την ησυχία μας."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13365,6 +14169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επόμενο"
           }
         },
         "en" : {
@@ -13469,6 +14279,12 @@
             "value" : "Ich notiere es, damit es beim nächsten Mal hilft."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα το σημειώσω για να το χρησιμοποιήσουμε ξανά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13569,6 +14385,12 @@
             "value" : "Was du als Nächstes ausprobieren willst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι θα δοκιμάσετε στη συνέχεια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13661,6 +14483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diät"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δίαιτα"
           }
         },
         "en" : {
@@ -13761,6 +14589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
           }
         },
         "en" : {
@@ -13865,6 +14699,12 @@
             "value" : "Nur „erreicht“ wurde notiert."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε μόνο το «έφτασα»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13965,6 +14805,12 @@
             "value" : "Erreicht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έφτασα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14059,6 +14905,12 @@
             "value" : "Nicht erreicht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έφτασα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14151,6 +15003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lesegewohnheit aufbauen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να αποκτήσω τη συνήθεια της ανάγνωσης"
           }
         },
         "en" : {
@@ -14251,6 +15109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lesen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάβασμα"
           }
         },
         "en" : {
@@ -14355,6 +15219,12 @@
             "value" : "Hört zu"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακούω"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14455,6 +15325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Es gibt nicht viel zu sagen. Ich bin einfach hier."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έχω πολλά να πω. Απλώς είμαι εδώ."
           }
         },
         "en" : {
@@ -14559,6 +15435,12 @@
             "value" : "Fällt dir nichts ein, lass es leer. Wir suchen später gemeinsam."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν δεν σου έρχεται τίποτα, άφησέ το κενό. Θα το βρούμε μαζί αργότερα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14657,6 +15539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das Mikrofon ist nicht verfügbar. Du kannst auch schreiben."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το μικρόφωνο δεν είναι διαθέσιμο. Μπορείτε και να γράψετε."
           }
         },
         "en" : {
@@ -14759,6 +15647,12 @@
             "value" : "Zufrieden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ικανοποίηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14857,6 +15751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zufrieden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ικανοποιημένος"
           }
         },
         "en" : {
@@ -14961,6 +15861,12 @@
             "value" : "Sehr schwer"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πολύ δύσκολα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15061,6 +15967,12 @@
             "value" : "Per Sprache antworten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απάντηση με φωνή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15159,6 +16071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anrede"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τρόπος προσφώνησης"
           }
         },
         "en" : {
@@ -15263,6 +16181,12 @@
             "value" : "Du kannst die Anrede wählen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να επιλέξετε τον τρόπο προσφώνησης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15363,6 +16287,12 @@
             "value" : "Ton beim Sprechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήχος κατά την ομιλία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15461,6 +16391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibration beim Sprechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δόνηση κατά την ομιλία"
           }
         },
         "en" : {
@@ -15565,6 +16501,12 @@
             "value" : "Genau"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακριβώς"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15667,6 +16609,12 @@
             "value" : "Stimmt, habe ich nicht gemacht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ναι, δεν το έκανα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15765,6 +16713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeden Tag 10 Minuten englischen Podcast hören"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να ακούω ένα αγγλικό podcast 10 λεπτά την ημέρα"
           }
         },
         "en" : {
@@ -15867,6 +16821,12 @@
             "value" : "Tägliche Erinnerung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καθημερινή υπενθύμιση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15967,6 +16927,12 @@
             "value" : "Tuschestein"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέτρα μελανιού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16061,6 +17027,12 @@
             "value" : "Erst exportieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα εξαγωγή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16153,6 +17125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vor ein paar Tagen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πριν από λίγες ημέρες"
           }
         },
         "en" : {
@@ -16255,6 +17233,12 @@
             "value" : "Vor ein paar Tagen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πριν από λίγες ημέρες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16355,6 +17339,12 @@
             "value" : "Alles löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16447,6 +17437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles gelöscht."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα διαγράφηκαν."
           }
         },
         "en" : {
@@ -16543,6 +17539,12 @@
             "value" : "Alle Einträge löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των σημειώσεων"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16635,6 +17637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle Einträge löschen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των σημειώσεων;"
           }
         },
         "en" : {
@@ -16731,6 +17739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle Daten löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων"
           }
         },
         "en" : {
@@ -16833,6 +17847,12 @@
             "value" : "Sandkorn"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κόκκος άμμου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16927,6 +17947,12 @@
             "value" : "Ziel"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στόχος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17019,6 +18045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ziel hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη στόχου"
           }
         },
         "en" : {
@@ -17121,6 +18153,12 @@
             "value" : "Ein Ziel notieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωσε έναν στόχο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17213,6 +18251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ziele ohne Begrenzung notieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώστε στόχους χωρίς όριο"
           }
         },
         "en" : {
@@ -17309,6 +18353,12 @@
             "value" : "So viele Ziele, wie du willst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσους στόχους θέλετε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17401,6 +18451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ziele ohne Limit notieren, Kiesel auswählen und Einträge als Datei sichern. Einmal kaufen, immer nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώστε στόχους χωρίς όριο, επιλέξτε βότσαλο και κρατήστε τις σημειώσεις σε αρχείο. Μία αγορά, για πάντα."
           }
         },
         "en" : {
@@ -17497,6 +18553,12 @@
             "value" : "Alle Ziele und Einträge verschwinden und lassen sich nicht wiederherstellen. Auch auf anderen Geräten mit iCloud werden sie gelöscht. Einstellungen und Käufe bleiben erhalten."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλοι οι στόχοι και οι σημειώσεις σας θα χαθούν και δεν θα μπορούν να ανακτηθούν. Θα διαγραφούν και από τις άλλες συσκευές που συνδέονται μέσω iCloud. Οι ρυθμίσεις και οι αγορές διατηρούνται."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17589,6 +18651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abgestumpft"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μούδιασμα"
           }
         },
         "en" : {
@@ -17691,6 +18759,12 @@
             "value" : "Gleichgültig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αδιαφορία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17789,6 +18863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unauffällig"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μέτρια"
           }
         },
         "en" : {
@@ -17891,6 +18971,12 @@
             "value" : "Machtlos"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αδυναμία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17991,6 +19077,12 @@
             "value" : "Was kostenlos war, bleibt es – und einiges kommt dazu."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ό,τι ήταν δωρεάν παραμένει δωρεάν και ξεκλειδώνουν και μερικά ακόμη."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18087,6 +19179,12 @@
             "value" : "Kostenlos sind bis zu drei Ziele möglich. Das ist das dritte."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η δωρεάν έκδοση χωράει έως τρεις στόχους. Αυτός είναι ο τρίτος."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18179,6 +19277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ängstlich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φόβος"
           }
         },
         "en" : {
@@ -18281,6 +19385,12 @@
             "value" : "Was ist passiert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι έγινε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18375,6 +19485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erzählen, was passiert ist"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πείτε τι έγινε"
           }
         },
         "en" : {
@@ -18479,6 +19595,12 @@
             "value" : "Ich sehe zuerst nach, was du erreicht hast und was dich aufgehalten hat, und spreche dich dann an."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα δω πρώτα πού φτάσατε και τι σας εμπόδισε και θα σας μιλήσω εγώ πρώτος."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18579,6 +19701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich weiß noch nicht, worauf du zusteuerst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ξέρω ακόμη προς τα πού κατευθύνεστε."
           }
         },
         "en" : {
@@ -18683,6 +19811,12 @@
             "value" : "Worauf steuerst du zu?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προς τα πού κατευθύνεστε;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18783,6 +19917,12 @@
             "value" : "Ausdruckslos"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανέκφραστος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18881,6 +20021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viel Wasser trinken und früh schlafen gehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να πίνω πολύ νερό και να κοιμάμαι νωρίς"
           }
         },
         "en" : {
@@ -18985,6 +20131,12 @@
             "value" : "Was hat geholfen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι βοήθησε;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19085,6 +20237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notieren, was geholfen hat"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωσε τι δούλεψε"
           }
         },
         "en" : {
@@ -19189,6 +20347,12 @@
             "value" : "Was hat funktioniert?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι δούλεψε;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19291,6 +20455,12 @@
             "value" : "Wische oder halte ein Ziel gedrückt, um es umzubenennen oder loszulassen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύρετε ή πατήστε παρατεταμένα έναν στόχο για να τον μετονομάσετε ή να τον αφήσετε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19383,6 +20553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um 23 Uhr einen Wecker stellen und das Handy weglegen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να βάζω ξυπνητήρι για τις 11 το βράδυ και να αφήνω το κινητό μακριά"
           }
         },
         "en" : {
@@ -19485,6 +20661,12 @@
             "value" : "Gewöhnlich"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνηθισμένη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19583,6 +20765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wütend"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θυμός"
           }
         },
         "en" : {
@@ -19685,6 +20873,12 @@
             "value" : "Unzufrieden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δυσαρέσκεια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19783,6 +20977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unruhig"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανησυχία"
           }
         },
         "en" : {
@@ -19885,6 +21085,12 @@
             "value" : "Code löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή κωδικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19983,6 +21189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Code festlegen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ορισμός κωδικού"
           }
         },
         "en" : {
@@ -20085,6 +21297,12 @@
             "value" : "Code eingeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισαγωγή κωδικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20183,6 +21401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Code bestätigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιβεβαίωση κωδικού"
           }
         },
         "en" : {
@@ -20285,6 +21509,12 @@
             "value" : "Elend"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άθλια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20383,6 +21613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stolz auf sich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περηφάνια για τον εαυτό"
           }
         },
         "en" : {
@@ -20485,6 +21721,12 @@
             "value" : "Nutzungsstatistik"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στατιστικά χρήσης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20577,6 +21819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutzungsstatistik (Entwickler)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στατιστικά χρήσης (προγραμματιστής)"
           }
         },
         "en" : {
@@ -20677,6 +21925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erfrischt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φρεσκάδα"
           }
         },
         "en" : {
@@ -20781,6 +22035,12 @@
             "value" : "Die Situation habe ich verstanden. Wie fühlst du dich jetzt?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατάλαβα την κατάσταση. Και πώς νιώθετε τώρα;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20881,6 +22141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Situation hat sich festgefahren, nicht du bist das Problem."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η κατάσταση είναι που κόλλησε, όχι εσείς το πρόβλημα."
           }
         },
         "en" : {
@@ -20985,6 +22251,12 @@
             "value" : "Beispieldaten erstellen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργία δοκιμαστικών δεδομένων"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21083,6 +22355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denkt nach"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέφτομαι"
           }
         },
         "en" : {
@@ -21185,6 +22463,12 @@
             "value" : "Aufgeregt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενθουσιασμός"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21283,6 +22567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einstellungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
           }
         },
         "en" : {
@@ -21385,6 +22675,12 @@
             "value" : "Schalte in den „Einstellungen“ Apple Intelligence ein, dann kann ich das Gesagte besser ordnen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενεργοποιήστε το Apple Intelligence στις «Ρυθμίσεις» και θα μπορώ να οργανώνω καλύτερα όσα λέτε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21483,6 +22779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erzähl es weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πείτε το και σε άλλους"
           }
         },
         "en" : {
@@ -21585,6 +22887,12 @@
             "value" : "Traurig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λύπη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21683,6 +22991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ώρα"
           }
         },
         "en" : {
@@ -21785,6 +23099,12 @@
             "value" : "Begeistert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κέφι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21883,6 +23203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enttäuscht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απογοήτευση"
           }
         },
         "en" : {
@@ -21985,6 +23311,12 @@
             "value" : "Streicheln"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χάδι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22077,6 +23409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einsam"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μοναξιά"
           }
         },
         "en" : {
@@ -22179,6 +23517,12 @@
             "value" : "Wehmütig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νοσταλγία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22277,6 +23621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Einträge"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη σημειώσεις"
           }
         },
         "en" : {
@@ -22381,6 +23731,12 @@
             "value" : "Noch nichts hinterlassen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έχετε αφήσει ακόμη τίποτα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22481,6 +23837,12 @@
             "value" : "Noch keine Einträge vorhanden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη σημειώσεις."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22575,6 +23937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Geschichten hinterlassen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη ιστορίες."
           }
         },
         "en" : {
@@ -22679,6 +24047,12 @@
             "value" : "Ich weiß noch nicht, wohin du unterwegs bist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ξέρω ακόμη πού πηγαίνετε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22781,6 +24155,12 @@
             "value" : "Noch kein Ziel in Sicht."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έχετε ακόμη κατεύθυνση."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22879,6 +24259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Früh aufstehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να ξυπνάω νωρίς"
           }
         },
         "en" : {
@@ -22981,6 +24367,12 @@
             "value" : "Früh aufgestanden und den Tag gut genutzt!"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξύπνησα νωρίς και αξιοποίησα καλά τη μέρα!"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23079,6 +24471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morgens nicht aus dem Bett gekommen und verschlafen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν μπόρεσα να σηκωθώ το πρωί και κοιμήθηκα παραπάνω."
           }
         },
         "en" : {
@@ -23183,6 +24581,12 @@
             "value" : "Hallo. Ich bin ZinggumDol."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γεια σας. Είμαι το ZinggumDol."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23285,6 +24689,12 @@
             "value" : "Alles klar. Ich bin hier."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εντάξει. Είμαι εδώ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23383,6 +24793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erinnerungen aktivieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενεργοποίηση υπενθυμίσεων"
           }
         },
         "en" : {
@@ -23485,6 +24901,12 @@
             "value" : "Mehr erfahren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μάθετε περισσότερα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23577,6 +24999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "App teilen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση της εφαρμογής"
           }
         },
         "en" : {
@@ -23679,6 +25107,12 @@
             "value" : "App-Code"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κωδικός εφαρμογής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23779,6 +25213,12 @@
             "value" : "Gesendet werden nur die Tage, an denen du die App geöffnet oder ein Gespräch beendet hast, die Art von Aktionen wie „Ziel angelegt“, die Anzahl von Einträgen und Zielen und ob du den Kaufbildschirm gesehen hast. Von dem, was du schreibst, verlässt kein einziges Zeichen dein Gerät, und wer sendet, wird nur über eine zufällige, auf diesem Gerät erzeugte Nummer unterschieden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στέλνονται μόνο οι ημέρες που ανοίξατε την εφαρμογή ή ολοκληρώσατε μια συζήτηση, το είδος των ενεργειών (π.χ. δημιουργία στόχου), ο αριθμός σημειώσεων και στόχων και αν είδατε την οθόνη αγοράς. Ούτε ένα γράμμα απ' όσα γράφετε δεν φεύγει, και ο αποστολέας διακρίνεται μόνο από έναν τυχαίο αριθμό που δημιουργήθηκε σε αυτή τη συσκευή."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23871,6 +25311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nachts nichts essen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να μη τρώω τη νύχτα"
           }
         },
         "en" : {
@@ -23971,6 +25417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich konnte nicht widerstehen. Ich hatte Hunger und habe Instantnudeln gegessen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν άντεξα και έφαγα το βράδυ. Πείνασα και έφαγα νουντλς."
           }
         },
         "en" : {
@@ -24075,6 +25527,12 @@
             "value" : "Notieren, wie es ausgegangen ist"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωσε πώς πήγε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24173,6 +25631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Durcheinander"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακαταστασία"
           }
         },
         "en" : {
@@ -24275,6 +25739,12 @@
             "value" : "Gestern"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χθες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24373,6 +25843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gestern notiert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε χθες"
           }
         },
         "en" : {
@@ -24477,6 +25953,12 @@
             "value" : "Du kannst das jederzeit ändern. Danach begrüßt dich der Kiesel in der neuen Anrede."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να το αλλάξετε οποιαδήποτε στιγμή. Μετά την αλλαγή, το βότσαλο θα σας χαιρετήσει ξανά με αυτόν τον τρόπο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24575,6 +26057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vor Kurzem"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσφατα"
           }
         },
         "en" : {
@@ -24677,6 +26165,12 @@
             "value" : "Vor Kurzem"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσφατα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24775,6 +26269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich bin hier."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είμαι εδώ."
           }
         },
         "en" : {
@@ -24879,6 +26379,12 @@
             "value" : "Für heute reicht es.\nPläne, die man an müden Tagen macht, gehen selten auf.\nEs ist gespeichert, alles gut."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ας σταματήσουμε εδώ για σήμερα.\nΤα σχέδια που φτιάχνονται τις κουρασμένες μέρες σπάνια πετυχαίνουν.\nΈχει αποθηκευτεί, δεν πειράζει."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24979,6 +26485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bis hier ging es darum, was passiert ist. Wie fühlst du dich jetzt?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μέχρι εδώ ήταν το τι έγινε. Και πώς νιώθετε τώρα;"
           }
         },
         "en" : {
@@ -25083,6 +26595,12 @@
             "value" : "Hier anfangen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ας ξεκινήσουμε από εδώ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25181,6 +26699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leidenschaftlich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάθος"
           }
         },
         "en" : {
@@ -25283,6 +26807,12 @@
             "value" : "Ich wollte Englisch lernen, habe es aber verschoben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήθελα να διαβάσω αγγλικά, αλλά το ανέβαλα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25381,6 +26911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Englisch lernen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μελέτη αγγλικών"
           }
         },
         "en" : {
@@ -25483,6 +27019,12 @@
             "value" : "Besser Englisch sprechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βελτίωση των αγγλικών"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25581,6 +27123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich habe auf dem Weg zur Arbeit einen englischen Podcast gehört! Es hat mehr Spaß gemacht als gedacht."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πήγα στη δουλειά ακούγοντας ένα αγγλικό podcast! Ήταν πιο ωραίο απ' ό,τι νόμιζα."
           }
         },
         "en" : {
@@ -25683,6 +27231,12 @@
             "value" : "Heute"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25781,6 +27335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heute „%@“ – das haben Sie geschafft."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα «%@» – τα καταφέρατε."
           }
         },
         "en" : {
@@ -25883,6 +27443,12 @@
             "value" : "Heute „%@“ – das hast du geschafft."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα «%@» – τα κατάφερες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25981,6 +27547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heute gibt es zu „%1$@“%2$@ noch keine Neuigkeiten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα δεν υπάρχουν ακόμη νέα για το «%1$@».%2$@"
           }
         },
         "en" : {
@@ -26083,6 +27655,12 @@
             "value" : "Heute gibt es zu „%1$@“%2$@ noch keine Neuigkeiten."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα δεν υπάρχουν ακόμη νέα για το «%1$@».%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26183,6 +27761,12 @@
             "value" : "Heute hast du „%@“ erreicht."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα έφτασες στο «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26281,6 +27865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heute haben Sie „%@“ erreicht."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα φτάσατε στο «%@»."
           }
         },
         "en" : {
@@ -26385,6 +27975,12 @@
             "value" : "Heute festhalten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωση για σήμερα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26485,6 +28081,12 @@
             "value" : "Heute notiert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε σήμερα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26583,6 +28185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sollen wir gemeinsam anschauen, wie der Tag war?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να δούμε μαζί πώς πήγε η μέρα;"
           }
         },
         "en" : {
@@ -26687,6 +28295,12 @@
             "value" : "Heute bin ich einfach nur bei dir."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα θα είμαι απλώς δίπλα σας."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26787,6 +28401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Für heute reicht es.\nJetzt ist Ausruhen wichtiger, als eine Antwort zu finden.\nEs ist notiert und geht nicht verloren."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ας σταματήσουμε εδώ για σήμερα.\nΤώρα η ανάπαυση μετράει περισσότερο από την αναζήτηση απάντησης.\nΈχει σημειωθεί, δεν θα χαθεί."
           }
         },
         "en" : {
@@ -26891,6 +28511,12 @@
             "value" : "Hören wir für heute hier auf.\nDu musst jetzt keine Antwort erzwingen.\nEs ist gespeichert, wir sehen es uns beim nächsten Mal gemeinsam an."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ας σταματήσουμε εδώ σήμερα.\nΔεν χρειάζεται να στύψετε μια απάντηση τώρα.\nΈχει αποθηκευτεί, θα το δούμε μαζί την επόμενη φορά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26991,6 +28617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Für heute genügt das eine."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα φτάνει αυτό το ένα."
           }
         },
         "en" : {
@@ -27095,6 +28727,12 @@
             "value" : "Heute bin ich still."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμερα θα μείνω σιωπηλός."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27193,6 +28831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vor langer Zeit notiert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε πολύ παλιά"
           }
         },
         "en" : {
@@ -27295,6 +28939,12 @@
             "value" : "Mutig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θάρρος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27393,6 +29043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sport machen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γυμναστική"
           }
         },
         "en" : {
@@ -27495,6 +29151,12 @@
             "value" : "Ich war beim Sport, habe aber mittendrin aufgegeben und bin zurückgekommen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πήγα για γυμναστική, αλλά τα παράτησα στη μέση και γύρισα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27595,6 +29257,12 @@
             "value" : "Motiviert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κινητοποίηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27693,6 +29361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auf diesem Gerät ist das Ordnen nicht verfügbar. Ich notiere es, wie ich es höre."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αυτή τη συσκευή η λειτουργία οργάνωσης δεν είναι διαθέσιμη. Θα το σημειώσω όπως το ακούω."
           }
         },
         "en" : {
@@ -27797,6 +29471,12 @@
             "value" : "Diesen Eintrag löschen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή αυτής της σημείωσης;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27897,6 +29577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das sind zwei verschiedene Dinge."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτά είναι δύο διαφορετικά πράγματα."
           }
         },
         "en" : {
@@ -28001,6 +29687,12 @@
             "value" : "Auch die zu diesem Ziel hinterlassenen Einträge übernehmen den neuen Namen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι σημειώσεις αυτού του στόχου θα ακολουθήσουν και το νέο όνομα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28093,6 +29785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Über dieses Ziel sprechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συζήτηση για αυτόν τον στόχο"
           }
         },
         "en" : {
@@ -28191,6 +29889,12 @@
             "value" : "Dieses Ziel loslassen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να αφήσετε αυτόν τον στόχο;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28285,6 +29989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Darüber sprechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να μιλήσουμε γι' αυτό"
           }
         },
         "en" : {
@@ -28389,6 +30099,12 @@
             "value" : "Wenn du das noch kleiner aufteilst, was wäre es?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν το χωρίζατε σε κάτι μικρότερο, τι θα ήταν;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28489,6 +30205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Damit fange ich an"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα ξεκινήσω από αυτό"
           }
         },
         "en" : {
@@ -28593,6 +30315,12 @@
             "value" : "Ich notiere es so. Für morgen nur bis hierher."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα το σημειώσω έτσι. Αύριο μέχρι εδώ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28695,6 +30423,12 @@
             "value" : "Das nehme ich"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα πάρω αυτό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28795,6 +30529,12 @@
             "value" : "Moosstein"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέτρα με βρύα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28889,6 +30629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieser Tag ist vorbei. Aber der Stein liegt noch da."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκείνη η μέρα πέρασε. Αλλά η πέτρα είναι ακόμη εκεί."
           }
         },
         "en" : {
@@ -28993,6 +30739,12 @@
             "value" : "Ich lasse es so"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα το αφήσω έτσι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29095,6 +30847,12 @@
             "value" : "So korrigieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να διορθωθεί έτσι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29195,6 +30953,12 @@
             "value" : "Umbenennen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετονομασία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29287,6 +31051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diese Woche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή την εβδομάδα"
           }
         },
         "en" : {
@@ -29389,6 +31159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Was war diesmal anders?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι ήταν διαφορετικό αυτή τη φορά;"
           }
         },
         "en" : {
@@ -29534,6 +31310,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld frühere Geschichten eingeklappt"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld προηγούμενη ιστορία έχει διπλωθεί"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld προηγούμενες ιστορίες έχουν διπλωθεί"
                 }
               }
             }
@@ -29837,6 +31631,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld προηγούμενη ιστορία έχει διπλωθεί"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld προηγούμενες ιστορίες έχουν διπλωθεί"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -30087,6 +31899,12 @@
             "value" : "Anonyme Nutzungsstatistik senden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποστολή ανώνυμων στατιστικών χρήσης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30179,6 +31997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gewöhnlich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνηθισμένη"
           }
         },
         "en" : {
@@ -30279,6 +32103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alltäglich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καθημερινή"
           }
         },
         "en" : {
@@ -30383,6 +32213,12 @@
             "value" : "Ich hatte es vergessen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το είχα ξεχάσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30485,6 +32321,12 @@
             "value" : "Ich notiere es lieber, bevor ich es vergesse"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θέλω να το σημειώσω πριν το ξεχάσω"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30583,6 +32425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selbstentwicklung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσωπική ανάπτυξη"
           }
         },
         "en" : {
@@ -30687,6 +32535,12 @@
             "value" : "Ich schiebe es ständig auf"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το αναβάλλω συνέχεια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30785,6 +32639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stolz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περηφάνια"
           }
         },
         "en" : {
@@ -30887,6 +32747,12 @@
             "value" : "Selbstbewusst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτοπεποίθηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30985,6 +32851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selbstvorwürfe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτομεμψία"
           }
         },
         "en" : {
@@ -31089,6 +32961,12 @@
             "value" : "Je kleiner, desto besser."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσο πιο μικρό, τόσο καλύτερα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31189,6 +33067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je kleiner, desto besser. Selbst fünf Minuten sind gut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όσο πιο μικρό, τόσο καλύτερα. Ακόμη και πέντε λεπτά αρκούν."
           }
         },
         "en" : {
@@ -31293,6 +33177,12 @@
             "value" : "Gut notiert. Wenn du das nächste Mal feststeckst, hole ich es hervor."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε σωστά. Την επόμενη φορά που θα κολλήσετε, θα το βγάλω να το δείτε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31393,6 +33283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schön. Ich halte es jetzt fest."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ωραία. Θα το αφήσω τώρα."
           }
         },
         "en" : {
@@ -31497,6 +33393,12 @@
             "value" : "Lass uns kurz reden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ας μιλήσουμε λίγο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31597,6 +33499,12 @@
             "value" : "Bitte versuche es gleich noch einmal."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δοκιμάστε ξανά σε λίγο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31689,6 +33597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine Ziele notiert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν σημειωμένοι στόχοι"
           }
         },
         "en" : {
@@ -31793,6 +33707,12 @@
             "value" : "Notiert. Morgen genau so viel."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε. Αύριο μόνο τόσο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31893,6 +33813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notiert. Ich zeige es dir, wenn du an etwas Ähnlichem hängst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε. Θα σας το δείξω όταν κολλήσετε σε κάτι παρόμοιο."
           }
         },
         "en" : {
@@ -31997,6 +33923,12 @@
             "value" : "Notiert. Genau so viel reicht."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώθηκε. Τόσο αρκεί."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32099,6 +34031,12 @@
             "value" : "Ich schreibe es selbst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα γράψω εγώ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32199,6 +34137,12 @@
             "value" : "Verzweifelt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόγνωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32297,6 +34241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich bereite die Ordnungsfunktion vor. Vorerst notiere ich es, wie ich es höre."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ετοιμάζω τη λειτουργία οργάνωσης. Προς το παρόν θα το σημειώσω όπως το ακούω."
           }
         },
         "en" : {
@@ -32401,6 +34351,12 @@
             "value" : "Wird geordnet …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οργάνωση…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32503,6 +34459,12 @@
             "value" : "Ich ordne das mal."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θα το οργανώσω."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32601,6 +34563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Möchten Sie den Code wirklich löschen und die Sicherheit verringern?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θέλετε σίγουρα να διαγράψετε τον κωδικό και να μειώσετε την ασφάλεια;"
           }
         },
         "en" : {
@@ -32703,6 +34671,12 @@
             "value" : "Wirklich löschen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σίγουρα διαγραφή;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32795,6 +34769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muschel"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοχύλι"
           }
         },
         "en" : {
@@ -32891,6 +34871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nicht ganz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όχι ακριβώς"
           }
         },
         "en" : {
@@ -32993,6 +34979,12 @@
             "value" : "Kiesel"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βότσαλο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33093,6 +35085,12 @@
             "value" : "Kiesel wählen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή βότσαλου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33187,6 +35185,12 @@
             "value" : "Wähle den Kiesel aus sechs Oberflächen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαλέξτε ανάμεσα σε έξι υφές βότσαλου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33279,6 +35283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Kiesel denkt nach"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το βότσαλο σκέφτεται"
           }
         },
         "en" : {
@@ -33383,6 +35393,12 @@
             "value" : "In den „Einstellungen“ legst du fest, ob der Kiesel dich siezt oder duzt."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στις «Ρυθμίσεις» ορίζετε αν το βότσαλο θα σας μιλά στον πληθυντικό ή στον ενικό."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33485,6 +35501,12 @@
             "value" : "Gut"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33585,6 +35607,12 @@
             "value" : "Frustriert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθάρρυνση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33683,6 +35711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neutral"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ηρεμία"
           }
         },
         "en" : {
@@ -33787,6 +35821,12 @@
             "value" : "Jetzt darüber sprechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μιλήστε τώρα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33889,6 +35929,12 @@
             "value" : "Wenn du gerade auf etwas zusteuerst, erzählst du mir von einer Sache?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν υπάρχει κάτι προς το οποίο κατευθύνεστε, θα μου πείτε για ένα;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33987,6 +36033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wohin du unterwegs bist"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προς τα πού πηγαίνετε"
           }
         },
         "en" : {
@@ -34089,6 +36141,12 @@
             "value" : "Du hast schon %lld Ziele im Blick."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήδη κατευθύνεσαι προς %lld στόχους."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34181,6 +36239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sie haben schon %lld Ziele im Blick."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήδη κατευθύνεστε προς %lld στόχους."
           }
         },
         "en" : {
@@ -34279,6 +36343,12 @@
             "value" : "Ich lasse es erst mal"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προς το παρόν θα το αφήσω"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34373,6 +36443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich lasse es erst mal"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προς το παρόν θέλω να το αφήσω"
           }
         },
         "en" : {
@@ -34473,6 +36549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerade ist es schwer zu hören. Du kannst auch schreiben."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή τη στιγμή δεν ακούγεται καλά. Μπορείτε και να γράψετε."
           }
         },
         "en" : {
@@ -34577,6 +36659,12 @@
             "value" : "Und wie ist es jetzt?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Και τώρα πώς είναι;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34675,6 +36763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das Ordnen ist gerade nicht verfügbar. Ich notiere es, wie ich es höre."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η λειτουργία οργάνωσης δεν είναι διαθέσιμη αυτή τη στιγμή. Θα το σημειώσω όπως το ακούω."
           }
         },
         "en" : {
@@ -34777,6 +36871,12 @@
             "value" : "Zurückgelegter Weg"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαδρομή που έχετε διανύσει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34877,6 +36977,12 @@
             "value" : "Sichere alle deine Einträge als Textdatei."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κρατήστε όλες τις σημειώσεις σας σε αρχείο κειμένου."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34971,6 +37077,12 @@
             "value" : "Einträge als Datei exportieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή σημειώσεων σε αρχείο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35063,6 +37175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Im letzten Eintrag steht: „%@“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στην προηγούμενη σημείωση γράφει: «%@»."
           }
         },
         "en" : {
@@ -35165,6 +37283,12 @@
             "value" : "Im letzten Eintrag steht: „%@“."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στην προηγούμενη σημείωση γράφει: «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35263,6 +37387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letztes Mal haben Sie „%1$@“ beschlossen.%2$@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την προηγούμενη φορά αποφασίσατε: «%1$@».%2$@"
           }
         },
         "en" : {
@@ -35365,6 +37495,12 @@
             "value" : "Letztes Mal hast du „%1$@“ beschlossen.%2$@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την προηγούμενη φορά αποφάσισες: «%1$@».%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35463,6 +37599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letztes Mal wolltest du „%1$@“ ausprobieren.%2$@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την προηγούμενη φορά ήθελες να δοκιμάσεις το «%1$@».%2$@"
           }
         },
         "en" : {
@@ -35565,6 +37707,12 @@
             "value" : "Letztes Mal wollten Sie „%1$@“ ausprobieren.%2$@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την προηγούμενη φορά θέλατε να δοκιμάσετε το «%1$@».%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35663,6 +37811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letztes Mal hast du „%@“ geschrieben."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την προηγούμενη φορά έγραψες: «%@»."
           }
         },
         "en" : {
@@ -35765,6 +37919,12 @@
             "value" : "Letztes Mal haben Sie „%@“ geschrieben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την προηγούμενη φορά γράψατε: «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35863,6 +38023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letzte Woche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την περασμένη εβδομάδα"
           }
         },
         "en" : {
@@ -35965,6 +38131,12 @@
             "value" : "Letzte Woche"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την περασμένη εβδομάδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36063,6 +38235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Etwa letzte Woche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γύρω στην περασμένη εβδομάδα"
           }
         },
         "en" : {
@@ -36165,6 +38343,12 @@
             "value" : "Gelangweilt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πλήξη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36263,6 +38447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
           }
         },
         "en" : {
@@ -36367,6 +38557,12 @@
             "value" : "Gelöschtes lässt sich nicht wiederherstellen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετά τη διαγραφή δεν μπορεί να γίνει επαναφορά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36467,6 +38663,12 @@
             "value" : "Löschen fehlgeschlagen. Bitte versuche es gleich noch einmal."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η διαγραφή δεν ολοκληρώθηκε. Δοκιμάστε ξανά σε λίγο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36559,6 +38761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support und Datenschutz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη και απόρρητο"
           }
         },
         "en" : {
@@ -36656,6 +38864,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -36761,6 +38975,12 @@
             "value" : "ZinggumDol-Einträge"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώσεις ZinggumDol"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36850,6 +39070,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -36949,6 +39175,12 @@
             "value" : "Du nutzt ZinggumDol Pro. Danke dir."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιείτε το ZinggumDol Pro. Ευχαριστούμε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37041,6 +39273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Genervt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκνευρισμός"
           }
         },
         "en" : {
@@ -37143,6 +39381,12 @@
             "value" : "Kurz ist völlig in Ordnung."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Και σύντομα είναι εντάξει."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37237,6 +39481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kurz ist völlig in Ordnung – nur was damals passiert ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Και σύντομα είναι εντάξει – μόνο τι έγινε τότε."
           }
         },
         "en" : {
@@ -37339,6 +39589,12 @@
             "value" : "Ich habe 30 Minuten gelesen. Ich konnte mich gut konzentrieren."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάβασα 30 λεπτά. Συγκεντρώθηκα καλά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37439,6 +39695,12 @@
             "value" : "Ausdauer aufbauen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να χτίσω φυσική αντοχή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37537,6 +39799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
           }
         },
         "en" : {
@@ -37641,6 +39909,12 @@
             "value" : "Du darfst auch groß schreiben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να γράψετε και μεγάλα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37741,6 +40015,12 @@
             "value" : "Tippen oder darüberreiben, um es zu streicheln"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε ή τρίψτε για να το χαϊδέψετε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37833,6 +40113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zerstörerisch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καταστροφικότητα"
           }
         },
         "en" : {
@@ -37933,6 +40219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entspannt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χαλάρωση"
           }
         },
         "en" : {
@@ -38037,6 +40329,12 @@
             "value" : "Wie es sich für dich gut anfühlt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όπως νιώθετε πιο άνετα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38135,6 +40433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Durchschnittlich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνηθισμένη"
           }
         },
         "en" : {
@@ -38237,6 +40541,12 @@
             "value" : "App bewerten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βαθμολογήστε την εφαρμογή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38332,6 +40642,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -38433,6 +40749,12 @@
             "value" : "Mit Pro mehr notieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θέλω να γράψω περισσότερα με Pro"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38527,6 +40849,12 @@
             "value" : "Mit Pro verfügbar"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκλειδώνει με το Pro"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38619,6 +40947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Müde"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κούραση"
           }
         },
         "en" : {
@@ -38723,6 +41057,12 @@
             "value" : "Das eine ist, was passiert ist, das andere, wie dir jetzt zumute ist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ένα είναι τι έγινε, το άλλο είναι πώς νιώθετε τώρα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38823,6 +41163,12 @@
             "value" : "Einmal kaufen, immer nutzen. Kein Abo"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μία αγορά, για πάντα. Δεν είναι συνδρομή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38915,6 +41261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vor sehr langer Zeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πολύ παλιά"
           }
         },
         "en" : {
@@ -39019,6 +41371,12 @@
             "value" : "Gemacht, aber nicht festgehalten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το έκανα, αλλά δεν το σημείωσα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39121,6 +41479,12 @@
             "value" : "Gemacht, nur nicht notiert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το έκανα, απλώς δεν το σημείωσα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39219,6 +41583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Glücklich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ευτυχία"
           }
         },
         "en" : {
@@ -39323,6 +41693,12 @@
             "value" : "Ich habe noch nicht gehört, wohin du unterwegs bist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έχω ακούσει ακόμη προς τα πού πηγαίνετε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39423,6 +41799,12 @@
             "value" : "Es ist in Ordnung, mehrere Ziele zu haben. Du kannst sie ohne Limit notieren."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν πειράζει να κατευθύνεστε προς πολλούς στόχους. Μπορείτε να τους σημειώνετε χωρίς όριο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39515,6 +41897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angewidert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποστροφή"
           }
         },
         "en" : {
@@ -39619,6 +42007,12 @@
             "value" : "Meinst du das hier?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήπως εννοείτε αυτό;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39714,6 +42108,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -39819,6 +42219,12 @@
             "value" : "Gib zur Bestätigung „%@“ ein."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πληκτρολογήστε «%@» για επιβεβαίωση."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39913,6 +42319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χι χι"
           }
         },
         "en" : {
@@ -40011,6 +42423,12 @@
             "value" : "Hm?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ε;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40105,6 +42523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ich bin hier"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είμαι εδώ"
           }
         },
         "en" : {
@@ -40203,6 +42627,12 @@
             "value" : "Hast du mich gerufen?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με φώναξες;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40297,6 +42727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi, das kitzelt!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χι χι, γαργαλάει!"
           }
         },
         "en" : {
@@ -40395,6 +42831,12 @@
             "value" : "Das kitzelt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γαργαλάει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40489,6 +42931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hör auf, hihi"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σταμάτα, χι χι"
           }
         },
         "en" : {
@@ -40587,6 +43035,12 @@
             "value" : "Das tut gut …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι ωραία…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40681,6 +43135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schön warm"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ζεστό"
           }
         },
         "en" : {
@@ -40779,6 +43239,12 @@
             "value" : "Mir fallen die Augen zu …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με παίρνει ο ύπνος…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40875,6 +43341,12 @@
             "value" : "Mir ist schwindelig …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ζαλίζομαι…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40969,6 +43441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dreh dich, dreh dich …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γυρνάω, γυρνάω…"
           }
         },
         "en" : {

@@ -23,6 +23,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -120,6 +126,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -226,6 +238,12 @@
             "value" : "Das Mikrofon wird verwendet, damit du den Tag ganz einfach per Sprache Revue passieren lassen kannst. Aufnahmen werden nicht gespeichert; auf deinem Gerät bleibt nur der transkribierte Text."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το μικρόφωνο χρησιμοποιείται για να μπορείτε να ανασκοπείτε τη μέρα σας με τη φωνή σας, σαν σε συζήτηση. Οι ηχογραφήσεις δεν αποθηκεύονται· στη συσκευή σας μένει μόνο το κείμενο της μεταγραφής."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -325,6 +343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wird verwendet, um Gesprochenes in Text umzuwandeln. Die Erkennung erfolgt auf deinem Gerät und verlässt es nicht."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιείται για να μετατρέπει όσα λέτε σε κείμενο. Η αναγνώριση γίνεται στη συσκευή σας και δεν φεύγει από αυτήν."
           }
         },
         "en" : {

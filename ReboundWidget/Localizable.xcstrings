@@ -21,6 +21,12 @@
             "value" : "Flussstein"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ποτάμιο βότσαλο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -113,6 +119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bei dir"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δίπλα σου"
           }
         },
         "en" : {
@@ -209,6 +221,12 @@
             "value" : "Freut sich"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χαρούμενος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -301,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abendrotstein"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέτρα του ηλιοβασιλέματος"
           }
         },
         "en" : {
@@ -397,6 +421,12 @@
             "value" : "Hört zu"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακούω"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -489,6 +519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tuschestein"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέτρα μελανιού"
           }
         },
         "en" : {
@@ -585,6 +621,12 @@
             "value" : "Sandkorn"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κόκκος άμμου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -677,6 +719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denkt nach"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέφτομαι"
           }
         },
         "en" : {
@@ -773,6 +821,12 @@
             "value" : "Ich bin hier."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είμαι εδώ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -865,6 +919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heute festhalten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωση για σήμερα"
           }
         },
         "en" : {
@@ -961,6 +1021,12 @@
             "value" : "Moosstein"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέτρα με βρύα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1053,6 +1119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muschel"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοχύλι"
           }
         },
         "en" : {
@@ -1149,6 +1221,12 @@
             "value" : "Kiesel"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βότσαλο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1243,6 +1321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ein Satz vom Kiesel. Tippe, um heute etwas festzuhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια κουβέντα από το βότσαλο. Πατήστε για να σημειώσετε τη σημερινή μέρα."
           }
         },
         "en" : {
@@ -1342,6 +1426,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
