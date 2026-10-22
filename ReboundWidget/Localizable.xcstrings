@@ -57,6 +57,12 @@
             "value" : "Galet de rivière"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu sungai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À vos côtés"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di sisimu"
           }
         },
         "it" : {
@@ -269,6 +281,12 @@
             "value" : "Heureux"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senang"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -373,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pierre du crépuscule"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu senja"
           }
         },
         "it" : {
@@ -481,6 +505,12 @@
             "value" : "J’écoute"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mendengarkan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -585,6 +615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pierre d’encre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu tinta"
           }
         },
         "it" : {
@@ -693,6 +729,12 @@
             "value" : "Grain de sable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Butir pasir"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -797,6 +839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je réfléchis"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang berpikir"
           }
         },
         "it" : {
@@ -905,6 +953,12 @@
             "value" : "Je suis là."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya di sini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1009,6 +1063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aller noter aujourd’hui"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat hari ini"
           }
         },
         "it" : {
@@ -1117,6 +1177,12 @@
             "value" : "Pierre moussue"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu lumut"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1221,6 +1287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coquillage"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerang"
           }
         },
         "it" : {
@@ -1329,6 +1401,12 @@
             "value" : "Galet"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerikil"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1435,6 +1513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un mot du galet. Touchez pour noter aujourd’hui."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sepatah kata dari kerikil. Ketuk untuk mencatat hari ini."
           }
         },
         "it" : {
@@ -1546,6 +1630,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

@@ -947,3 +947,60 @@ https://m1zz.github.io/Rebound-Journal/fi/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/fi/
+
+## id
+
+### 이름
+
+ZinggumDol: jurnal harian
+
+### 부제
+
+Ngobrol dengan kerikil kecil
+
+### 키워드
+
+refleksi,suasana hati,emosi,kebiasaan,pertumbuhan,stres,kecemasan,kesalahan,ketangguhan,harga diri
+
+### 프로모션 텍스트
+
+Salah melangkah bukan berarti jatuh ke sungai. Tengok kembali hari-hari yang tak berjalan sesuai harapan bersama kerikil yang menyapa lebih dulu dan mengingat ceritamu.
+
+### 설명
+
+Salah melangkah bukan berarti jatuh ke sungai. ZinggumDol adalah jurnal lembut untuk hari-hari yang tak berjalan sesuai harapan: Anda ngobrol dengan sebuah kerikil dan pelan-pelan menengok kembali apa yang terjadi.
+
+Kerikil menyapa lebih dulu. Ia mengingat apa yang Anda ceritakan sebelumnya dan bertanya, "Lalu bagaimana setelah itu?" Pilih salah satu jawaban atau tulis sendiri. Yang tercatat adalah apa yang terjadi, perasaan Anda saat itu, dan apa yang ingin dicoba berikutnya.
+
+Ngobrol dengan kerikil
+Tetapkan sebuah tujuan, dan kerikil akan memperhatikan sampai mana Anda melangkah dan apa yang menghalangi. Jika satu hari terlewat, ia bertanya "Apa yang menghalangi?", bukan "Apa yang salah?".
+
+Katakan saja
+Di hari ketika menulis terasa berat, cukup bicara. Pengenalan suara berlangsung di perangkat Anda dan rekaman tidak disimpan. Di perangkat yang didukung, ucapan Anda juga dirapikan agar mudah dibaca.
+
+Jalan yang dilalui
+Setiap pekan tersusun seperti deretan batu pijakan di sungai. Hari-hari yang tak terinjak tetap ada di sana; tak ada yang terhapus.
+
+Yang telah Anda tinggalkan
+Tinjau menurut tanggal apa yang terjadi, bagaimana perasaan Anda, dan apa yang ingin dicoba berikutnya.
+
+Widget dan pengingat
+Satu kalimat dari kerikil di Layar Utama dan pengingat lembut pada jam yang Anda pilih, untuk melihat bersama bagaimana hari ini berlalu.
+
+Hanya milik Anda
+Tanpa pendaftaran dan tanpa iklan. Catatan Anda hanya tersimpan di perangkat dan di iCloud Anda sendiri, dan app dapat dikunci dengan kode sandi. Apa yang Anda tulis tidak pernah dikirim ke pengembang.
+
+ZINGGUMDOL PRO
+Versi gratis memuat hingga tiga tujuan. Dengan sekali pembelian (bukan langganan), Anda bisa mencatat tujuan tanpa batas, memilih dari enam tekstur kerikil, dan mengekspor catatan sebagai berkas teks.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/id/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/id/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/id/

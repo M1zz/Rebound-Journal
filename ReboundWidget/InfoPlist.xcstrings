@@ -58,6 +58,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -166,6 +172,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

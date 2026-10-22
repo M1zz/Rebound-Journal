@@ -57,6 +57,12 @@
             "value" : "  Humeur : %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Suasana hati: %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -161,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Prochaine étape : %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Langkah berikutnya: %@"
           }
         },
         "it" : {
@@ -269,6 +281,12 @@
             "value" : "  Ce qui s’est passé : %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Yang terjadi: %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -373,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qu’est-ce qui t’a retenu avec « %@ » ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang menghalangimu di «%@»?"
           }
         },
         "it" : {
@@ -487,6 +511,12 @@
             "value" : "Qu’est-ce qui vous a retenu avec « %@ » ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang menghalangi Anda di «%@»?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -597,6 +627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il s’est écoulé %2$lld jours depuis notre échange sur « %1$@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah %2$lld hari sejak kita membahas «%1$@»."
           }
         },
         "it" : {
@@ -711,6 +747,12 @@
             "value" : "Il s’est écoulé %2$lld jours depuis notre échange sur « %1$@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah %2$lld hari sejak kita membahas «%1$@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -821,6 +863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %@ » : rien pour l’instant aujourd’hui."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» hari ini belum ada kabar."
           }
         },
         "it" : {
@@ -935,6 +983,12 @@
             "value" : "« %@ » : rien pour l’instant aujourd’hui."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» hari ini belum ada kabar."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1045,6 +1099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ c’est silencieux depuis %3$lld jours."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sudah sepi selama %3$lld hari."
           }
         },
         "it" : {
@@ -1159,6 +1219,12 @@
             "value" : "« %1$@ »%2$@ c’est silencieux depuis %3$lld jours."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sudah sepi selama %3$lld hari."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1269,6 +1335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu n’y as pas jeté un œil depuis %3$lld jours."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sudah %3$lld hari sejak terakhir kamu melihatnya lagi."
           }
         },
         "it" : {
@@ -1383,6 +1455,12 @@
             "value" : "« %1$@ »%2$@ vous n’y avez pas jeté un œil depuis %3$lld jours."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sudah %3$lld hari sejak terakhir Anda melihatnya lagi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1493,6 +1571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu n’y es pas encore arrivé aujourd’hui."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ hari ini kamu belum sampai ke sana."
           }
         },
         "it" : {
@@ -1607,6 +1691,12 @@
             "value" : "« %1$@ »%2$@ vous n’y êtes pas encore arrivé aujourd’hui."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ hari ini Anda belum sampai ke sana."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1717,6 +1807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu l’as noté, mais tu n’y es pas encore revenu."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sudah kamu catat, tapi belum kamu lihat lagi."
           }
         },
         "it" : {
@@ -1831,6 +1927,12 @@
             "value" : "« %1$@ »%2$@ vous l’avez noté, mais vous n’y êtes pas encore revenu."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sudah Anda catat, tetapi belum Anda lihat lagi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1941,6 +2043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu l’as seulement noté, et c’est tout pour l’instant."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ baru kamu catat saja, belum ada kelanjutan."
           }
         },
         "it" : {
@@ -2055,6 +2163,12 @@
             "value" : "« %1$@ »%2$@ vous l’avez seulement noté, et c’est tout pour l’instant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ baru Anda catat saja, belum ada kelanjutan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2165,6 +2279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ depuis que tu l’as noté, c’est resté silencieux."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sejak dicatat, masih sepi."
           }
         },
         "it" : {
@@ -2279,6 +2399,12 @@
             "value" : "« %1$@ »%2$@ depuis que vous l’avez noté, c’est resté silencieux."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sejak dicatat, masih sepi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2389,6 +2515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ revenons au moment où tu voulais t’y mettre. Qu’est-ce qui a coincé ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ yuk kembali ke saat kamu mau melakukannya. Apa yang tersendat?"
           }
         },
         "it" : {
@@ -2503,6 +2635,12 @@
             "value" : "« %1$@ »%2$@ revenons au moment où vous vouliez vous y mettre. Qu’est-ce qui a coincé ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ mari kita kembali ke saat Anda hendak melakukannya. Apa yang tersendat?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2613,6 +2751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avec « %1$@ », tu es allé jusqu’à %2$@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di «%1$@», kamu sampai di %2$@."
           }
         },
         "it" : {
@@ -2727,6 +2871,12 @@
             "value" : "Avec « %1$@ », vous êtes allé jusqu’à %2$@."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di «%1$@», Anda sampai di %2$@."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2837,6 +2987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est le jour où tu as atteint « %@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itu hari saat kamu sampai di «%@»."
           }
         },
         "it" : {
@@ -2951,6 +3107,12 @@
             "value" : "C’est le jour où vous avez atteint « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itu hari saat Anda sampai di «%@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3063,6 +3225,12 @@
             "value" : "À propos de « %1$@ », %2$@ tu as écrit : « %3$@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tentang «%1$@», %2$@ kamu menulis: «%3$@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3173,6 +3341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À propos de « %1$@ », %2$@ vous avez écrit : « %3$@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tentang «%1$@», %2$@ Anda menulis: «%3$@»."
           }
         },
         "it" : {
@@ -3289,6 +3463,12 @@
             "value" : "Lâchez un objectif dans « Chemin parcouru » pour pouvoir en écrire un nouveau."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepaskan satu tujuan di «Jalan yang Dilalui», lalu Anda bisa menulis yang baru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3393,6 +3573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nCe qui t’a retenu : « %2$@ »,\net tu te sens « %3$@ »%4$@ en ce moment.\n\n%5$@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nYang menghalangi adalah «%2$@»,\ndan sekarang perasaanmu «%3$@»%4$@.\n\n%5$@"
           }
         },
         "it" : {
@@ -3507,6 +3693,12 @@
             "value" : "%1$@ En parlant de « %2$@ », tu as laissé : « %3$@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Saat membahas «%2$@», kamu meninggalkan: «%3$@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3617,6 +3809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ En parlant de « %2$@ », vous avez laissé : « %3$@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Saat membahas «%2$@», Anda meninggalkan: «%3$@»."
           }
         },
         "it" : {
@@ -3731,6 +3929,12 @@
             "value" : "%1$@ À propos de « %2$@ »%3$@ vous avez dit : « %4$@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Tentang «%2$@»%3$@ Anda berkata: «%4$@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3841,6 +4045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ À propos de « %2$@ »%3$@ tu as dit : « %4$@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Tentang «%2$@»%3$@ kamu bilang: «%4$@»."
           }
         },
         "it" : {
@@ -3955,6 +4165,12 @@
             "value" : "%1$@ Vous avez dit que « %2$@ »%3$@ coinçait."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda mengatakan «%2$@»%3$@ tersendat."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4065,6 +4281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Tu as dit que « %2$@ »%3$@ coinçait."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Kamu bilang «%2$@»%3$@ tersendat."
           }
         },
         "it" : {
@@ -4179,6 +4401,12 @@
             "value" : "%1$@ Vous avez réussi « %2$@ »%3$@."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda berhasil «%2$@»%3$@."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4289,6 +4517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Tu as réussi « %2$@ »%3$@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Kamu berhasil «%2$@»%3$@."
           }
         },
         "it" : {
@@ -4403,6 +4637,12 @@
             "value" : "%1$@ tu as atteint « %2$@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kamu sampai di «%2$@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4513,6 +4753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ vous avez atteint « %2$@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda sampai di «%2$@»."
           }
         },
         "it" : {
@@ -4627,6 +4873,12 @@
             "value" : "%1$@ tu as noté que « %2$@ » t’avait retenu."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kamu mencatat bahwa «%2$@» menghalangimu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4737,6 +4989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ vous avez noté que « %2$@ » vous avait retenu."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda mencatat bahwa «%2$@» menghalangi Anda."
           }
         },
         "it" : {
@@ -4851,6 +5109,12 @@
             "value" : "Semaine du %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pekan %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4961,6 +5225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, jour avec une note"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, hari dengan catatan"
           }
         },
         "it" : {
@@ -5075,6 +5345,12 @@
             "value" : "%@, aucune note"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, tidak ada catatan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5185,6 +5461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, jour où l’objectif a été atteint"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, hari tujuan tercapai"
           }
         },
         "it" : {
@@ -5299,6 +5581,12 @@
             "value" : "%@, jour pas encore arrivé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, hari yang belum tiba"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5409,6 +5697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Vous avez bien réussi « %2$@ »%3$@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda kan berhasil «%2$@»%3$@."
           }
         },
         "it" : {
@@ -5523,6 +5817,12 @@
             "value" : "%1$@ Tu as bien réussi « %2$@ »%3$@."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Kamu kan berhasil «%2$@»%3$@."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5633,6 +5933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ vous avez réussi « %2$@ »%3$@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda berhasil «%2$@»%3$@."
           }
         },
         "it" : {
@@ -5747,6 +6053,12 @@
             "value" : "%1$@ tu as réussi « %2$@ »%3$@."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kamu berhasil «%2$@»%3$@."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5857,6 +6169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ tu as atteint « %2$@ »,"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kamu sampai di «%2$@»,"
           }
         },
         "it" : {
@@ -5971,6 +6289,12 @@
             "value" : "%1$@ vous avez atteint « %2$@ »,"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Anda sampai di «%2$@»,"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6083,6 +6407,12 @@
             "value" : "%lld"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6190,6 +6520,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld/%1$lld"
@@ -6434,6 +6770,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Il y a %lld jours"
+                }
+              }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld hari lalu"
                 }
               }
             }
@@ -6773,6 +7121,18 @@
             }
           }
         },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dicatat %lld hari lalu"
+                }
+              }
+            }
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -7107,6 +7467,18 @@
             }
           }
         },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dicatat %lld pekan lalu"
+                }
+              }
+            }
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -7309,6 +7681,12 @@
             "value" : "|"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7423,6 +7801,12 @@
             "value" : "Un peu abattu"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agak murung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7533,6 +7917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencer par un léger étirement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai dengan peregangan ringan"
           }
         },
         "it" : {
@@ -7647,6 +8037,12 @@
             "value" : "Reconnaissant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bersyukur"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7759,6 +8155,12 @@
             "value" : "Galet de rivière"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu sungai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7863,6 +8265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un objectif porte déjà ce nom"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah ada tujuan dengan nama yang sama"
           }
         },
         "it" : {
@@ -7971,6 +8379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour le développeur"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untuk pengembang"
           }
         },
         "it" : {
@@ -8085,6 +8499,12 @@
             "value" : "Écrire au développeur"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirim email ke pengembang"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8197,6 +8617,12 @@
             "value" : "Cinq autres galets, comme ramassés au bord du ruisseau, se débloquent."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lima batu lagi terbuka, seolah dipungut di tepi anak sungai."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8301,6 +8727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Politique de confidentialité"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kebijakan Privasi"
           }
         },
         "it" : {
@@ -8415,6 +8847,12 @@
             "value" : "Santé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesehatan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8527,6 +8965,12 @@
             "value" : "À vos côtés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di sisimu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8637,6 +9081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modifier"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah"
           }
         },
         "it" : {
@@ -8753,6 +9203,12 @@
             "value" : "Ça va"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baik-baik saja"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8867,6 +9323,12 @@
             "value" : "Ce n’est pas grave. Ça n’avait simplement pas sauté aux yeux."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak apa-apa. Hanya saja belum terlihat."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8977,6 +9439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tourmenté"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tersiksa"
           }
         },
         "it" : {
@@ -9091,6 +9559,12 @@
             "value" : "Restaurer les achats"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulihkan Pembelian"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9195,6 +9669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vie régulière"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidup teratur"
           }
         },
         "it" : {
@@ -9311,6 +9791,12 @@
             "value" : "Et ensuite, comment ça s’est passé ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lalu bagaimana setelah itu?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9423,6 +9909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’était la situation. Et maintenant, comment vous sentez-vous ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itu soal keadaannya. Lalu bagaimana perasaanmu sekarang?"
           }
         },
         "it" : {
@@ -9539,6 +10031,12 @@
             "value" : "Comment ça s’est terminé ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagaimana akhirnya?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9651,6 +10149,12 @@
             "value" : "Comment s’est passée cette journée"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagaimana hari itu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9757,6 +10261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je laisse comme ça"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biarkan saja"
           }
         },
         "it" : {
@@ -9871,6 +10381,12 @@
             "value" : "À ce moment-là, vous aviez dit vouloir essayer « %1$@ ».%2$@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat itu Anda bilang akan mencoba «%1$@».%2$@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9981,6 +10497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À ce moment-là, tu avais dit vouloir essayer « %1$@ ».%2$@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat itu kamu bilang akan mencoba «%1$@».%2$@"
           }
         },
         "it" : {
@@ -10095,6 +10617,12 @@
             "value" : "Humeur à l’époque"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perasaan saat itu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10201,6 +10729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Que s’est-il passé à ce moment-là ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang terjadi saat itu?"
           }
         },
         "it" : {
@@ -10317,6 +10851,12 @@
             "value" : "Parler de ce moment"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membahas saat itu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10429,6 +10969,12 @@
             "value" : "À ce moment-là, vous aviez dit : « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat itu Anda berkata: «%@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10539,6 +11085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À ce moment-là, tu avais dit : « %@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat itu kamu bilang: «%@»."
           }
         },
         "it" : {
@@ -10655,6 +11207,12 @@
             "value" : "D’accord. On en reparlera une autre fois."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baik. Kita bicarakan lain kali."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10767,6 +11325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est bien ça"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memang begitu"
           }
         },
         "it" : {
@@ -10883,6 +11447,12 @@
             "value" : "Ça arrive. Oublier ne fait pas disparaître les choses."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itu wajar. Melupakan bukan berarti masalahnya hilang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10997,6 +11567,12 @@
             "value" : "Ça arrive. Ce qui est oublié est oublié."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itu wajar. Yang terlupa ya terlupa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11109,6 +11685,12 @@
             "value" : "Alors, pour avancer vers « %1$@ »%2$@ quelle chose assez petite pourrais-tu faire dès demain ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau begitu, menuju «%1$@»%2$@ apa satu hal kecil yang bisa kamu lakukan besok juga?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11219,6 +11801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alors, pour avancer vers « %1$@ »%2$@ quelle chose assez petite pourriez-vous faire dès demain ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau begitu, menuju «%1$@»%2$@ apa satu hal kecil yang bisa Anda lakukan besok juga?"
           }
         },
         "it" : {
@@ -11335,6 +11923,12 @@
             "value" : "Alors parlons-en."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau begitu, mari kita bahas itu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11447,6 +12041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alors c’est réglé. Je le note tout de suite."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau begitu, itu sudah selesai. Saya catat sekarang."
           }
         },
         "it" : {
@@ -11563,6 +12163,12 @@
             "value" : "Alors je vais le clore."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau begitu, saya akhiri di sini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11677,6 +12283,12 @@
             "value" : "Et si on faisait ainsi : en le rendant assez petit pour le réussir dès demain, ce serait quoi ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagaimana kalau begini: jika dibuat sekecil itu sampai bisa dilakukan besok, apa jadinya?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11787,6 +12399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrêter la lecture"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berhenti membaca"
           }
         },
         "it" : {
@@ -11903,6 +12521,12 @@
             "value" : "Bof"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biasa saja"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12013,6 +12637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impatient"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penuh harap"
           }
         },
         "it" : {
@@ -12127,6 +12757,12 @@
             "value" : "Notes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12231,6 +12867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporter les notes"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekspor catatan"
           }
         },
         "it" : {
@@ -12339,6 +12981,12 @@
             "value" : "Impossible d’exporter vos notes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan tidak dapat diekspor"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12443,6 +13091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De bonne humeur"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suasana hati baik"
           }
         },
         "it" : {
@@ -12557,6 +13211,12 @@
             "value" : "Heureux"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senang"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12667,6 +13327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horrible"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengerikan"
           }
         },
         "it" : {
@@ -12783,6 +13449,12 @@
             "value" : "Le reste n’est pas pressé."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisanya tidak perlu buru-buru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12895,6 +13567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On met le reste de côté et on ne regarde que ça."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kita simpan dulu yang lain dan lihat ini saja."
           }
         },
         "it" : {
@@ -13011,6 +13689,12 @@
             "value" : "Le reste peut se voir tranquillement."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisanya bisa dilihat pelan-pelan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13125,6 +13809,12 @@
             "value" : "C’est gardé. Pour ne pas oublier ce qui a marché."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah disimpan agar yang berhasil tidak terlupa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13235,6 +13925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce que vous avez laissé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang telah ditinggalkan"
           }
         },
         "it" : {
@@ -13351,6 +14047,12 @@
             "value" : "Les notes laissées sont conservées. Seul l’objectif disparaît de la liste."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan yang ditinggalkan tetap ada. Hanya hilang dari daftar."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13457,6 +14159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun mot laissé."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada kata yang ditinggalkan."
           }
         },
         "it" : {
@@ -13571,6 +14279,12 @@
             "value" : "Mes objectifs"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tujuanku"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13675,6 +14389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir mon galet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih kerikilku"
           }
         },
         "it" : {
@@ -13783,6 +14503,12 @@
             "value" : "Lâcher"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepaskan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13887,6 +14613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporté le : %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diekspor pada: %@"
           }
         },
         "it" : {
@@ -13995,6 +14727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si demain vous ne faisiez qu’une seule chose, ce serait quoi ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika besok hanya melakukan satu hal, apa yang akan Anda lakukan?"
           }
         },
         "it" : {
@@ -14107,6 +14845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Froid"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dingin"
           }
         },
         "it" : {
@@ -14223,6 +14967,12 @@
             "value" : "Oui"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14335,6 +15085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oui, je laisse comme ça."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya, saya biarkan saja."
           }
         },
         "it" : {
@@ -14451,6 +15207,12 @@
             "value" : "Oui, je laisse comme ça. Je suis là."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya, saya biarkan saja. Saya di sini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14565,6 +15327,12 @@
             "value" : "Très bien, on en reparle une autre fois."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baik, kita bicarakan lain kali."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14677,6 +15445,12 @@
             "value" : "Pierre du crépuscule"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu senja"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14783,6 +15557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On laisse le reste et on ne regarde que ça ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kita biarkan yang lain dan lihat yang ini saja?"
           }
         },
         "it" : {
@@ -14899,6 +15679,12 @@
             "value" : "Le reste, tranquillement."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang lain pelan-pelan saja."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15009,6 +15795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berikutnya"
           }
         },
         "it" : {
@@ -15125,6 +15917,12 @@
             "value" : "Je le note pour pouvoir m’en servir une prochaine fois."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya catat agar bisa dipakai lagi lain kali."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15237,6 +16035,12 @@
             "value" : "Ce que vous essaierez ensuite"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang akan dicoba selanjutnya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15341,6 +16145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Régime"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diet"
           }
         },
         "it" : {
@@ -15453,6 +16263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
           }
         },
         "it" : {
@@ -15569,6 +16385,12 @@
             "value" : "Seul « atteint » a été noté."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hanya tercatat «sudah sampai»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15681,6 +16503,12 @@
             "value" : "Atteint"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku sampai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15787,6 +16615,12 @@
             "value" : "Pas atteint"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku belum sampai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15891,6 +16725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prendre l’habitude de lire"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membangun kebiasaan membaca"
           }
         },
         "it" : {
@@ -16003,6 +16843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lire"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membaca"
           }
         },
         "it" : {
@@ -16119,6 +16965,12 @@
             "value" : "J’écoute"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mendengarkan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16231,6 +17083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rien de particulier à dire. Je suis juste là."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak banyak yang ingin dikatakan. Saya hanya di sini."
           }
         },
         "it" : {
@@ -16347,6 +17205,12 @@
             "value" : "Si rien ne vient, vous pouvez laisser vide. On cherchera ensemble plus tard."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau belum terpikir, boleh dikosongkan. Nanti kita cari bersama."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16457,6 +17321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le micro n’est pas disponible. Vous pouvez aussi écrire."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon tidak bisa digunakan. Menulis juga tidak apa-apa."
           }
         },
         "it" : {
@@ -16571,6 +17441,12 @@
             "value" : "Satisfait"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puas"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16681,6 +17557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Content"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puas"
           }
         },
         "it" : {
@@ -16797,6 +17679,12 @@
             "value" : "Très difficile"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sangat berat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16909,6 +17797,12 @@
             "value" : "Répondre à voix haute"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jawab dengan suara"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17019,6 +17913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ton"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gaya bicara"
           }
         },
         "it" : {
@@ -17135,6 +18035,12 @@
             "value" : "Vous pouvez choisir le ton"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anda bisa memilih gaya bicara"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17247,6 +18153,12 @@
             "value" : "Son pendant la parole"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suara saat berbicara"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17357,6 +18269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibration pendant la parole"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getaran saat berbicara"
           }
         },
         "it" : {
@@ -17473,6 +18391,12 @@
             "value" : "C’est ça"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betul sekali"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17587,6 +18511,12 @@
             "value" : "Oui, je ne l’ai pas fait"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya, aku tidak melakukannya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17697,6 +18627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écouter 10 minutes d’un podcast en anglais par jour"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mendengarkan podcast bahasa Inggris 10 menit setiap hari"
           }
         },
         "it" : {
@@ -17811,6 +18747,12 @@
             "value" : "Rappel quotidien"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengingat harian"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17923,6 +18865,12 @@
             "value" : "Pierre d’encre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu tinta"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18029,6 +18977,12 @@
             "value" : "Exporter d’abord"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekspor dulu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18133,6 +19087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il y a quelques jours"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beberapa hari lalu"
           }
         },
         "it" : {
@@ -18247,6 +19207,12 @@
             "value" : "Il y a quelques jours"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beberapa hari lalu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18359,6 +19325,12 @@
             "value" : "Tout effacer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18463,6 +19435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout a été effacé."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua sudah dihapus."
           }
         },
         "it" : {
@@ -18571,6 +19549,12 @@
             "value" : "Effacer toutes les notes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua catatan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18675,6 +19659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer toutes les notes ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua catatan?"
           }
         },
         "it" : {
@@ -18783,6 +19773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer toutes les données"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua data"
           }
         },
         "it" : {
@@ -18897,6 +19893,12 @@
             "value" : "Grain de sable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Butir pasir"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19003,6 +20005,12 @@
             "value" : "Objectif"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tujuan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19107,6 +20115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter un objectif"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah tujuan"
           }
         },
         "it" : {
@@ -19221,6 +20235,12 @@
             "value" : "Noter un objectif"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat satu tujuan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19325,6 +20345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez autant d’objectifs que vous voulez"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat tujuan tanpa batas jumlah"
           }
         },
         "it" : {
@@ -19433,6 +20459,12 @@
             "value" : "Autant d’objectifs que vous voulez"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tujuan sebanyak yang Anda mau"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19537,6 +20569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez des objectifs sans limite, choisissez votre galet et conservez vos notes dans un fichier. Un seul achat, pour toujours."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat tujuan tanpa batas, pilih kerikil, dan simpan catatan sebagai berkas. Beli sekali, pakai selamanya."
           }
         },
         "it" : {
@@ -19645,6 +20683,12 @@
             "value" : "Tous vos objectifs et notes disparaîtront et ne pourront pas être restaurés. Ils seront aussi supprimés sur vos autres appareils reliés par iCloud. Les réglages et les achats sont conservés."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua tujuan dan catatan Anda akan hilang dan tidak dapat dipulihkan. Di perangkat lain yang terhubung lewat iCloud juga akan terhapus. Pengaturan dan pembelian tetap ada."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19749,6 +20793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Engourdi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mati rasa"
           }
         },
         "it" : {
@@ -19863,6 +20913,12 @@
             "value" : "Indifférent"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acuh tak acuh"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19973,6 +21029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passable"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biasa saja"
           }
         },
         "it" : {
@@ -20087,6 +21149,12 @@
             "value" : "Impuissant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tak berdaya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20199,6 +21267,12 @@
             "value" : "Ce qui était gratuit le reste, et d’autres choses s’ajoutent."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang gratis tetap gratis, dan beberapa hal lagi terbuka."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20307,6 +21381,12 @@
             "value" : "La version gratuite permet trois objectifs. Voici le troisième."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi gratis memuat hingga tiga tujuan. Ini yang ketiga."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20411,6 +21491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effrayé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takut"
           }
         },
         "it" : {
@@ -20525,6 +21611,12 @@
             "value" : "Que s’est-il passé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang terjadi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20631,6 +21723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Raconter ce qui s’est passé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ceritakan apa yang terjadi"
           }
         },
         "it" : {
@@ -20747,6 +21845,12 @@
             "value" : "Je regarde d’abord où vous en êtes arrivé et ce qui vous a retenu, puis je vous parle."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya akan lihat dulu sampai mana Anda sudah melangkah dan apa yang menghalangi, lalu menyapa Anda lebih dulu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20859,6 +21963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je ne sais pas encore vers quoi vous allez."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya belum tahu ke mana Anda menuju."
           }
         },
         "it" : {
@@ -20975,6 +22085,12 @@
             "value" : "Vers quoi allez-vous ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anda sedang menuju ke mana?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21087,6 +22203,12 @@
             "value" : "Impassible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21197,6 +22319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boire beaucoup d’eau et me coucher tôt"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minum banyak air dan tidur lebih awal"
           }
         },
         "it" : {
@@ -21313,6 +22441,12 @@
             "value" : "Qu’est-ce qui a aidé ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang membantu?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21425,6 +22559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noter ce qui a marché"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat yang berhasil"
           }
         },
         "it" : {
@@ -21541,6 +22681,12 @@
             "value" : "Qu’est-ce qui a marché ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang berhasil?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21655,6 +22801,12 @@
             "value" : "Faites glisser ou appuyez longuement sur un objectif pour le renommer ou le lâcher."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geser atau tekan lama sebuah tujuan untuk mengganti nama atau melepasnya."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21759,6 +22911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre un réveil à 23 h et ranger le téléphone loin de moi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasang alarm jam 11 malam dan taruh ponsel jauh-jauh"
           }
         },
         "it" : {
@@ -21873,6 +23031,12 @@
             "value" : "Ordinaire"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biasa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21983,6 +23147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En colère"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marah"
           }
         },
         "it" : {
@@ -22097,6 +23267,12 @@
             "value" : "Insatisfait"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak puas"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22207,6 +23383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inquiet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelisah"
           }
         },
         "it" : {
@@ -22321,6 +23503,12 @@
             "value" : "Supprimer le code"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus kode sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22431,6 +23619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Définir un code"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atur kode sandi"
           }
         },
         "it" : {
@@ -22545,6 +23739,12 @@
             "value" : "Saisir le code"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan kode sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22655,6 +23855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirmer le code"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konfirmasi kode sandi"
           }
         },
         "it" : {
@@ -22769,6 +23975,12 @@
             "value" : "Misérable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sengsara"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22879,6 +24091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fier de soi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bangga pada diri sendiri"
           }
         },
         "it" : {
@@ -22993,6 +24211,12 @@
             "value" : "Statistiques d’utilisation"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistik penggunaan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23097,6 +24321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statistiques d’utilisation (développeur)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistik penggunaan (pengembang)"
           }
         },
         "it" : {
@@ -23209,6 +24439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Revigoré"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segar"
           }
         },
         "it" : {
@@ -23325,6 +24561,12 @@
             "value" : "J’ai compris la situation. Et comment vous sentez-vous maintenant ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya mengerti keadaannya. Lalu bagaimana perasaan Anda sekarang?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23437,6 +24679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est la situation qui est bloquée, pas vous qui êtes en cause."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang tersendat adalah keadaannya, bukan Anda yang bermasalah."
           }
         },
         "it" : {
@@ -23553,6 +24801,12 @@
             "value" : "Créer des données d’exemple"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat data contoh"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23663,6 +24917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je réfléchis"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang berpikir"
           }
         },
         "it" : {
@@ -23777,6 +25037,12 @@
             "value" : "Enthousiaste"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berdebar-debar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23887,6 +25153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
           }
         },
         "it" : {
@@ -24001,6 +25273,12 @@
             "value" : "Activez Apple Intelligence dans « Réglages » et je pourrai mieux mettre en forme ce que vous dites."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktifkan Apple Intelligence di «Pengaturan» agar saya bisa merapikan ucapan Anda dengan lebih baik."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24111,6 +25389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passez le mot"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebarkan kabarnya"
           }
         },
         "it" : {
@@ -24225,6 +25509,12 @@
             "value" : "Triste"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24335,6 +25625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heure"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu"
           }
         },
         "it" : {
@@ -24449,6 +25745,12 @@
             "value" : "Excité"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bersemangat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24559,6 +25861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Déçu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kecewa"
           }
         },
         "it" : {
@@ -24673,6 +25981,12 @@
             "value" : "Caresser"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elus"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24777,6 +26091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seul"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesepian"
           }
         },
         "it" : {
@@ -24891,6 +26211,12 @@
             "value" : "Nostalgique"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menyayangkan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25001,6 +26327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune note pour l’instant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada catatan"
           }
         },
         "it" : {
@@ -25117,6 +26449,12 @@
             "value" : "Vous n’avez encore rien laissé."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada yang ditinggalkan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25229,6 +26567,12 @@
             "value" : "Aucune note pour l’instant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada catatan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25335,6 +26679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune histoire laissée pour l’instant."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada cerita yang ditinggalkan."
           }
         },
         "it" : {
@@ -25451,6 +26801,12 @@
             "value" : "Je ne sais pas encore où vous allez."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya belum tahu ke mana Anda menuju."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25565,6 +26921,12 @@
             "value" : "Aucune direction pour l’instant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada arah yang dituju."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25675,6 +27037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Me lever tôt"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bangun pagi"
           }
         },
         "it" : {
@@ -25789,6 +27157,12 @@
             "value" : "Je me suis levé tôt et j’ai bien rempli ma journée !"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku bangun pagi dan memanfaatkan hari dengan baik!"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25899,6 +27273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je n’ai pas réussi à me lever ce matin et j’ai fait la grasse matinée."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku tidak bisa bangun pagi dan kesiangan."
           }
         },
         "it" : {
@@ -26015,6 +27395,12 @@
             "value" : "Bonjour. Je suis ZinggumDol."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halo. Saya ZinggumDol."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26129,6 +27515,12 @@
             "value" : "D’accord. Je suis là."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baik. Saya di sini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26239,6 +27631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activer les rappels"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktifkan pengingat"
           }
         },
         "it" : {
@@ -26353,6 +27751,12 @@
             "value" : "En savoir plus"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pelajari lebih lanjut"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26457,6 +27861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager l’app"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan app"
           }
         },
         "it" : {
@@ -26571,6 +27981,12 @@
             "value" : "Code de l’app"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode sandi app"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26683,6 +28099,12 @@
             "value" : "Seuls sont envoyés les jours où vous avez ouvert l’app ou terminé une conversation, le type d’actions comme la création d’un objectif, le nombre de notes et d’objectifs, et si vous avez consulté l’écran d’achat. Pas un seul mot de ce que vous écrivez ne sort, et l’expéditeur n’est distingué que par un numéro aléatoire créé sur cet appareil."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang dikirim hanya hari saat Anda membuka app atau mengakhiri percakapan, jenis tindakan seperti membuat tujuan, jumlah catatan dan tujuan, serta apakah Anda melihat layar pembelian. Tak satu huruf pun dari tulisan Anda keluar, dan pengirim hanya dibedakan lewat nomor acak yang dibuat di perangkat ini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26787,6 +28209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ne pas grignoter la nuit"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menahan makan tengah malam"
           }
         },
         "it" : {
@@ -26899,6 +28327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je n’ai pas su résister à un en-cas nocturne. J’avais faim et j’ai mangé des nouilles."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku tidak tahan makan tengah malam. Lapar, jadi aku makan mi instan."
           }
         },
         "it" : {
@@ -27015,6 +28449,12 @@
             "value" : "Noter comment ça s’est passé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat bagaimana hasilnya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27125,6 +28565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout en désordre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kacau"
           }
         },
         "it" : {
@@ -27239,6 +28685,12 @@
             "value" : "Hier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemarin"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27349,6 +28801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noté hier"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dicatat kemarin"
           }
         },
         "it" : {
@@ -27465,6 +28923,12 @@
             "value" : "Vous pouvez le changer à tout moment. Ensuite, le galet vous saluera à nouveau avec ce ton."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anda bisa mengubahnya kapan saja. Setelah diubah, kerikil akan menyapa Anda lagi dengan gaya itu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27575,6 +29039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il y a peu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum lama ini"
           }
         },
         "it" : {
@@ -27689,6 +29159,12 @@
             "value" : "Il y a peu"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum lama ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27799,6 +29275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je suis là."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya di sini."
           }
         },
         "it" : {
@@ -27915,6 +29397,12 @@
             "value" : "On s’arrête là pour aujourd’hui.\nLes plans faits un jour de fatigue marchent rarement.\nC’est gardé, ne vous inquiétez pas."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cukup sampai di sini untuk hari ini.\nRencana yang dibuat di hari yang melelahkan sering tidak berjalan.\nSudah tersimpan, tidak apa-apa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28027,6 +29515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jusqu’ici, c’était ce qui s’est passé. Et que ressentez-vous maintenant ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sampai di sini adalah soal apa yang terjadi. Bagaimana perasaan Anda sekarang?"
           }
         },
         "it" : {
@@ -28143,6 +29637,12 @@
             "value" : "Commencer à partir d’ici"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai bicara dari sini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28253,6 +29753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passionné"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bersemangat tinggi"
           }
         },
         "it" : {
@@ -28367,6 +29873,12 @@
             "value" : "Je voulais étudier l’anglais, mais j’ai remis ça à plus tard."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku mau belajar bahasa Inggris, tapi malah menundanya."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28477,6 +29989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Étudier l’anglais"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belajar bahasa Inggris"
           }
         },
         "it" : {
@@ -28591,6 +30109,12 @@
             "value" : "Progresser en anglais"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meningkatkan kemampuan bahasa Inggris"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28701,6 +30225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je suis allé au travail en écoutant un podcast en anglais ! C’était plus amusant que prévu."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku berangkat kerja sambil mendengarkan podcast bahasa Inggris! Lebih seru dari dugaanku."
           }
         },
         "it" : {
@@ -28815,6 +30345,12 @@
             "value" : "Aujourd’hui"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28925,6 +30461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, « %@ » : vous l’avez fait."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini «%@», Anda berhasil."
           }
         },
         "it" : {
@@ -29039,6 +30581,12 @@
             "value" : "Aujourd’hui, « %@ » : tu l’as fait."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini «%@», kamu berhasil."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29149,6 +30697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, pas encore de nouvelles de « %1$@ ».%2$@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini belum ada kabar tentang «%1$@».%2$@"
           }
         },
         "it" : {
@@ -29263,6 +30817,12 @@
             "value" : "Aujourd’hui, pas encore de nouvelles de « %1$@ ».%2$@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini belum ada kabar tentang «%1$@».%2$@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29375,6 +30935,12 @@
             "value" : "Aujourd’hui, tu as atteint « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini kamu sampai di «%@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29485,6 +31051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, vous avez atteint « %@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini Anda sampai di «%@»."
           }
         },
         "it" : {
@@ -29601,6 +31173,12 @@
             "value" : "Aller noter aujourd’hui"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat hari ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29713,6 +31291,12 @@
             "value" : "Noté aujourd’hui"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dicatat hari ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29823,6 +31407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On regarde ensemble comment s’est passée la journée ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mau kita lihat bersama bagaimana hari ini?"
           }
         },
         "it" : {
@@ -29939,6 +31529,12 @@
             "value" : "Aujourd’hui, je reste simplement à vos côtés."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini saya hanya menemani di sisi Anda."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30051,6 +31647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On s’arrête là pour aujourd’hui.\nSe reposer vaut mieux que chercher une réponse.\nC’est noté, ça ne disparaîtra pas."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cukup sampai di sini untuk hari ini.\nSaat ini beristirahat lebih penting daripada mencari jawaban.\nSudah dicatat, tidak akan hilang."
           }
         },
         "it" : {
@@ -30167,6 +31769,12 @@
             "value" : "Arrêtons-nous ici aujourd’hui.\nInutile de forcer une réponse maintenant.\nC’est enregistré, on le regardera ensemble la prochaine fois."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kita berhenti di sini untuk hari ini.\nTidak perlu memaksakan jawaban sekarang.\nSudah tersimpan, lain kali kita lihat bersama."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30279,6 +31887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, une seule chose suffit."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini satu hal ini sudah cukup."
           }
         },
         "it" : {
@@ -30395,6 +32009,12 @@
             "value" : "Aujourd’hui, je reste silencieux."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari ini saya diam saja."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30505,6 +32125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noté il y a longtemps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dicatat sudah lama"
           }
         },
         "it" : {
@@ -30619,6 +32245,12 @@
             "value" : "Courageux"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berani"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30729,6 +32361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faire du sport"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berolahraga"
           }
         },
         "it" : {
@@ -30843,6 +32481,12 @@
             "value" : "Je suis allé faire du sport, mais j’ai abandonné en route et je suis rentré."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku pergi berolahraga, tapi menyerah di tengah jalan lalu pulang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30955,6 +32599,12 @@
             "value" : "Motivé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bersemangat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31065,6 +32715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La mise en forme n’est pas disponible sur cet appareil. Je note tel que j’entends."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di perangkat ini fitur perapian tidak tersedia. Saya catat sesuai yang terdengar."
           }
         },
         "it" : {
@@ -31181,6 +32837,12 @@
             "value" : "Effacer cette note ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus catatan ini?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31293,6 +32955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce sont deux choses différentes."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ini dua hal yang berbeda."
           }
         },
         "it" : {
@@ -31409,6 +33077,12 @@
             "value" : "Les notes laissées pour cet objectif suivront aussi le nouveau nom."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan untuk tujuan ini juga akan mengikuti nama baru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31513,6 +33187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parler de cet objectif"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bicarakan tujuan ini"
           }
         },
         "it" : {
@@ -31623,6 +33303,12 @@
             "value" : "Lâcher cet objectif ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepaskan tujuan ini?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31729,6 +33415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En parler"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bicarakan ini"
           }
         },
         "it" : {
@@ -31845,6 +33537,12 @@
             "value" : "Si on le découpait en plus petit, ce serait quoi ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika dipecah menjadi lebih kecil, apa jadinya?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31957,6 +33655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je commence par ça"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya mulai dari ini"
           }
         },
         "it" : {
@@ -32073,6 +33777,12 @@
             "value" : "Je note ça. Demain, on s’arrête là."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya catat begini. Besok cukup sampai di sini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32187,6 +33897,12 @@
             "value" : "Je prends ça"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya pilih ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32299,6 +34015,12 @@
             "value" : "Pierre moussue"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batu lumut"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32405,6 +34127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce jour est passé. Mais le galet est toujours là."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hari itu sudah berlalu. Tapi batunya masih ada."
           }
         },
         "it" : {
@@ -32521,6 +34249,12 @@
             "value" : "Je laisse comme ça"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biarkan saja"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32635,6 +34369,12 @@
             "value" : "Corriger ainsi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah seperti ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32747,6 +34487,12 @@
             "value" : "Renommer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ganti nama"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32851,6 +34597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cette semaine"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pekan ini"
           }
         },
         "it" : {
@@ -32965,6 +34717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qu’est-ce qui était différent cette fois ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang berbeda kali ini?"
           }
         },
         "it" : {
@@ -33206,6 +34964,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld histoires précédentes repliées"
+                }
+              }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cerita sebelumnya dilipat."
                 }
               }
             }
@@ -33545,6 +35315,18 @@
             }
           }
         },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cerita sebelumnya dilipat."
+                }
+              }
+            }
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -33747,6 +35529,12 @@
             "value" : "Envoyer des statistiques d’utilisation anonymes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirim statistik penggunaan anonim"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33851,6 +35639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banal"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lazim"
           }
         },
         "it" : {
@@ -33963,6 +35757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quotidien"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehari-hari"
           }
         },
         "it" : {
@@ -34079,6 +35879,12 @@
             "value" : "J’avais oublié"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku lupa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34193,6 +35999,12 @@
             "value" : "Je préfère le noter avant d’oublier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mau kucatat sebelum lupa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34303,6 +36115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Développement personnel"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengembangan diri"
           }
         },
         "it" : {
@@ -34419,6 +36237,12 @@
             "value" : "Je remets toujours à plus tard"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku terus menunda"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34529,6 +36353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fier"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bangga"
           }
         },
         "it" : {
@@ -34643,6 +36473,12 @@
             "value" : "Plus confiant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jadi percaya diri"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34753,6 +36589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Culpabilisant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menyalahkan diri"
           }
         },
         "it" : {
@@ -34869,6 +36711,12 @@
             "value" : "Plus c’est petit, mieux c’est."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makin kecil makin baik."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34981,6 +36829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus c’est petit, mieux c’est. Même cinq minutes, c’est bien."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makin kecil makin baik. Lima menit pun tidak apa-apa."
           }
         },
         "it" : {
@@ -35097,6 +36951,12 @@
             "value" : "C’est bien noté. La prochaine fois que vous bloquerez, je vous le ressortirai."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah tercatat dengan baik. Lain kali saat Anda tersendat, saya akan menunjukkannya."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35209,6 +37069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Super. Je le garde tout de suite."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagus sekali. Saya simpan sekarang."
           }
         },
         "it" : {
@@ -35325,6 +37191,12 @@
             "value" : "Parlons un moment"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayo bicara sebentar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35437,6 +37309,12 @@
             "value" : "Veuillez réessayer dans un instant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba lagi beberapa saat lagi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35541,6 +37419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun objectif noté"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada tujuan yang dicatat"
           }
         },
         "it" : {
@@ -35657,6 +37541,12 @@
             "value" : "Noté. Demain, juste ça."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah dicatat. Besok cukup segini saja."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35769,6 +37659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noté. Je vous le montrerai si vous bloquez sur quelque chose de similaire."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah dicatat. Saya akan menunjukkannya saat Anda tersendat di hal serupa."
           }
         },
         "it" : {
@@ -35885,6 +37781,12 @@
             "value" : "Noté. C’est largement suffisant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah dicatat. Segini sudah cukup."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35999,6 +37901,12 @@
             "value" : "Je vais écrire"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku tulis sendiri"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36111,6 +38019,12 @@
             "value" : "Désespéré"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Putus asa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36221,6 +38135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je prépare la mise en forme. Pour l’instant, je note tel que j’entends."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya sedang menyiapkan fitur perapian. Untuk sekarang saya catat sesuai yang terdengar."
           }
         },
         "it" : {
@@ -36337,6 +38257,12 @@
             "value" : "Mise en forme…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang merapikan…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36451,6 +38377,12 @@
             "value" : "Je vais mettre ça en forme."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya coba rapikan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36561,6 +38493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voulez-vous vraiment supprimer le code et réduire la sécurité ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakin ingin menghapus kode sandi dan menurunkan keamanan?"
           }
         },
         "it" : {
@@ -36675,6 +38613,12 @@
             "value" : "Vraiment effacer ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakin ingin menghapus?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36779,6 +38723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coquillage"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerang"
           }
         },
         "it" : {
@@ -36887,6 +38837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pas tout à fait"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurang tepat"
           }
         },
         "it" : {
@@ -37001,6 +38957,12 @@
             "value" : "Galet"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerikil"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37113,6 +39075,12 @@
             "value" : "Choisir un galet"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih kerikil"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37219,6 +39187,12 @@
             "value" : "Choisissez parmi six aspects de galet"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih dari enam tekstur kerikil"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37323,6 +39297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le galet réfléchit"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerikil sedang berpikir"
           }
         },
         "it" : {
@@ -37439,6 +39419,12 @@
             "value" : "Dans « Réglages », vous choisissez si le galet vous tutoie ou vous vouvoie."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di «Pengaturan», Anda bisa memilih apakah kerikil berbicara formal atau santai."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37553,6 +39539,12 @@
             "value" : "Bien"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37665,6 +39657,12 @@
             "value" : "Frustré"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Putus semangat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37775,6 +39773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neutre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tenang"
           }
         },
         "it" : {
@@ -37891,6 +39895,12 @@
             "value" : "En parler maintenant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bicara sekarang"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38005,6 +40015,12 @@
             "value" : "S’il y a quelque chose vers quoi vous allez, pouvez-vous m’en parler ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalau ada yang sedang Anda tuju, maukah menceritakan satu?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38115,6 +40131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Là où vous allez"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang sedang dituju"
           }
         },
         "it" : {
@@ -38229,6 +40251,12 @@
             "value" : "Tu avances déjà vers %lld objectifs."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamu sudah menuju %lld tujuan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38333,6 +40361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous avancez déjà vers %lld objectifs."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anda sudah menuju %lld tujuan."
           }
         },
         "it" : {
@@ -38443,6 +40477,12 @@
             "value" : "Je laisse pour l’instant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biarkan dulu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38549,6 +40589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je préfère laisser pour l’instant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku mau biarkan dulu"
           }
         },
         "it" : {
@@ -38661,6 +40707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est difficile à entendre maintenant. Vous pouvez aussi écrire."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat ini sulit mendengar. Menulis juga tidak apa-apa."
           }
         },
         "it" : {
@@ -38777,6 +40829,12 @@
             "value" : "Et maintenant, comment ça va ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagaimana sekarang?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38887,6 +40945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La mise en forme n’est pas disponible pour l’instant. Je note tel que j’entends."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat ini fitur perapian tidak tersedia. Saya catat sesuai yang terdengar."
           }
         },
         "it" : {
@@ -39001,6 +41065,12 @@
             "value" : "Chemin parcouru"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jalan yang Dilalui"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39113,6 +41183,12 @@
             "value" : "Conservez toutes vos notes dans un fichier texte."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan semua catatan yang Anda tulis sebagai berkas teks."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39219,6 +41295,12 @@
             "value" : "Exporter vos notes dans un fichier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekspor catatan sebagai berkas"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39323,6 +41405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dans la dernière note, il y a : « %@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di catatan terakhir tertulis: «%@»."
           }
         },
         "it" : {
@@ -39437,6 +41525,12 @@
             "value" : "Dans la dernière note, il y a : « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di catatan terakhir tertulis: «%@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39547,6 +41641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière fois, vous aviez décidé de « %1$@ ».%2$@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakhir kali Anda memutuskan «%1$@».%2$@"
           }
         },
         "it" : {
@@ -39661,6 +41761,12 @@
             "value" : "La dernière fois, tu avais décidé de « %1$@ ».%2$@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakhir kali kamu memutuskan «%1$@».%2$@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39771,6 +41877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière fois, tu voulais essayer « %1$@ ».%2$@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakhir kali kamu berniat mencoba «%1$@».%2$@"
           }
         },
         "it" : {
@@ -39885,6 +41997,12 @@
             "value" : "La dernière fois, vous vouliez essayer « %1$@ ».%2$@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakhir kali Anda berniat mencoba «%1$@».%2$@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39995,6 +42113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière fois, tu avais écrit : « %@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakhir kali kamu menulis: «%@»."
           }
         },
         "it" : {
@@ -40109,6 +42233,12 @@
             "value" : "La dernière fois, vous aviez écrit : « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terakhir kali Anda menulis: «%@»."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40219,6 +42349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La semaine dernière"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pekan lalu"
           }
         },
         "it" : {
@@ -40333,6 +42469,12 @@
             "value" : "La semaine dernière"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pekan lalu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40443,6 +42585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vers la semaine dernière"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sekitar pekan lalu"
           }
         },
         "it" : {
@@ -40557,6 +42705,12 @@
             "value" : "Ennuyé"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bosan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40667,6 +42821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
           }
         },
         "it" : {
@@ -40783,6 +42943,12 @@
             "value" : "Impossible d’annuler une suppression."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setelah dihapus, tidak bisa dikembalikan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40895,6 +43061,12 @@
             "value" : "Suppression impossible. Veuillez réessayer dans un instant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menghapus. Coba lagi beberapa saat lagi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40999,6 +43171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance et confidentialité"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan dan Privasi"
           }
         },
         "it" : {
@@ -41108,6 +43286,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -41225,6 +43409,12 @@
             "value" : "Notes ZinggumDol"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan ZinggumDol"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41326,6 +43516,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -41437,6 +43633,12 @@
             "value" : "Vous utilisez ZinggumDol Pro. Merci."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anda sedang memakai ZinggumDol Pro. Terima kasih."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41541,6 +43743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Agacé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesal"
           }
         },
         "it" : {
@@ -41655,6 +43863,12 @@
             "value" : "Court, c’est très bien."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Singkat pun tidak apa-apa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41761,6 +43975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Court, c’est très bien : seulement ce qui s’est passé alors."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Singkat pun tidak apa-apa, cukup apa yang terjadi saat itu."
           }
         },
         "it" : {
@@ -41875,6 +44095,12 @@
             "value" : "J’ai lu pendant 30 minutes. J’étais bien concentré."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku membaca 30 menit. Bisa fokus dengan baik."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41987,6 +44213,12 @@
             "value" : "Développer ma condition physique"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membangun stamina"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42097,6 +44329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
           }
         },
         "it" : {
@@ -42213,6 +44451,12 @@
             "value" : "Vous pouvez aussi écrire en grand."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menulis besar-besar juga boleh."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42325,6 +44569,12 @@
             "value" : "Touchez ou frottez pour le caresser"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk atau gosok untuk mengelusnya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42429,6 +44679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destructeur"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingin merusak"
           }
         },
         "it" : {
@@ -42541,6 +44797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Détendu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Santai"
           }
         },
         "it" : {
@@ -42657,6 +44919,12 @@
             "value" : "Comme vous êtes le plus à l’aise"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesuai yang paling nyaman"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42767,6 +45035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banal"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biasa"
           }
         },
         "it" : {
@@ -42881,6 +45155,12 @@
             "value" : "Noter l’app"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beri peringkat app"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42988,6 +45268,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -43101,6 +45387,12 @@
             "value" : "Noter plus avec Pro"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mau mencatat lebih banyak dengan Pro"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43207,6 +45499,12 @@
             "value" : "Débloqué avec Pro"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terbuka di Pro"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43311,6 +45609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fatigué"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lelah"
           }
         },
         "it" : {
@@ -43427,6 +45731,12 @@
             "value" : "L’un, c’est ce qui s’est passé ; l’autre, ce que vous ressentez maintenant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang satu soal apa yang terjadi, yang satu lagi perasaan saat ini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43539,6 +45849,12 @@
             "value" : "Un seul achat, pour toujours. Ce n’est pas un abonnement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beli sekali, pakai selamanya. Bukan langganan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43643,6 +45959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il y a très longtemps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah lama sekali"
           }
         },
         "it" : {
@@ -43759,6 +46081,12 @@
             "value" : "Fait, mais pas noté"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah kulakukan, tapi tidak kucatat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43873,6 +46201,12 @@
             "value" : "Fait, juste pas noté"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah kulakukan, hanya tidak kucatat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43983,6 +46317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heureux"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahagia"
           }
         },
         "it" : {
@@ -44099,6 +46439,12 @@
             "value" : "Je n’ai pas encore entendu vers quoi vous allez."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saya belum mendengar ke mana Anda menuju."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44211,6 +46557,12 @@
             "value" : "Aller vers plusieurs objectifs, ce n’est pas un problème. Vous pouvez les noter sans limite."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak apa-apa menuju beberapa tujuan sekaligus. Anda bisa mencatatnya tanpa batas."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44315,6 +46667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dégoûté"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jijik"
           }
         },
         "it" : {
@@ -44431,6 +46789,12 @@
             "value" : "Voulez-vous dire ceci ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apakah maksud Anda ini?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44538,6 +46902,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -44655,6 +47025,12 @@
             "value" : "Écrivez « %@ » pour confirmer."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketik «%@» untuk mengonfirmasi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44761,6 +47137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hehe"
           }
         },
         "it" : {
@@ -44871,6 +47253,12 @@
             "value" : "Hein ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44977,6 +47365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je suis là"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aku di sini"
           }
         },
         "it" : {
@@ -45087,6 +47481,12 @@
             "value" : "Tu m’as appelé ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memanggilku?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45193,6 +47593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi, ça chatouille !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, geli!"
           }
         },
         "it" : {
@@ -45303,6 +47709,12 @@
             "value" : "Ça chatouille"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geli"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45409,6 +47821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrête, hihi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah dong, hihi"
           }
         },
         "it" : {
@@ -45519,6 +47937,12 @@
             "value" : "Ça fait du bien…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enak…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45625,6 +48049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bien chaud"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hangat"
           }
         },
         "it" : {
@@ -45735,6 +48165,12 @@
             "value" : "Je m’endors doucement…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai mengantuk…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45843,6 +48279,12 @@
             "value" : "Ça tourne…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pusing…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45949,6 +48391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tourne, tourne…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berputar-putar…"
           }
         },
         "it" : {

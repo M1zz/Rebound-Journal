@@ -59,6 +59,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -168,6 +174,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -286,6 +298,12 @@
             "value" : "Le micro sert à vous permettre de faire le point à voix haute, comme dans une conversation. Les enregistrements ne sont pas conservés ; seul le texte transcrit reste sur votre appareil."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon dipakai agar Anda bisa meninjau hari dengan berbicara, seperti dalam percakapan. Rekaman tidak disimpan; hanya teks hasil transkripsi yang tersisa di perangkat Anda."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -397,6 +415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sert à convertir ce que vous dites en texte. La reconnaissance se fait sur votre appareil et n’en sort pas."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dipakai untuk mengubah ucapan Anda menjadi teks. Pengenalan terjadi di perangkat Anda dan tidak dikirim ke luar."
           }
         },
         "it" : {
