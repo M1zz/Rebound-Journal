@@ -769,6 +769,7 @@
 				"en-GB",
 				"zh-Hans",
 				zh-Hant,
+				ja,
 			);
 			mainGroup = 586F227F2A33861C004C7410;
 			packageReferences = (

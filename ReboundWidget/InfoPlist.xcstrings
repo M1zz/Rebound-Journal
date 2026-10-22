@@ -16,6 +16,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46,6 +52,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

@@ -15,6 +15,12 @@
             "value" : "  Feeling: %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  気分: %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Next step: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  次の一歩: %@"
           }
         },
         "zh-Hans" : {
@@ -71,6 +83,12 @@
             "value" : "  What happened: %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  あったこと: %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -97,6 +115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What got in the way of '%@'?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の前で、何が引っかかった？"
           }
         },
         "ko" : {
@@ -133,6 +157,12 @@
             "value" : "What got in the way of '%@'?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の前で、何が引っかかりましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,6 +195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It's been %2$lld days since we talked about '%1$@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」の話をしてから %2$lld 日たったよ。"
           }
         },
         "ko" : {
@@ -201,6 +237,12 @@
             "value" : "It's been %2$lld days since we talked about '%1$@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」の話をしてから %2$lld 日たちました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -233,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' — not yet today."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」、今日はまだだね。"
           }
         },
         "ko" : {
@@ -269,6 +317,12 @@
             "value" : "'%@' — not yet today."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」、今日はまだですね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -301,6 +355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@' has been quiet for %3$lld days.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ %3$lld 日間、静かだね。"
           }
         },
         "ko" : {
@@ -337,6 +397,12 @@
             "value" : "'%1$@' has been quiet for %3$lld days.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ %3$lld 日間、静かですね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -369,6 +435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It's been %3$lld days since you looked back at '%1$@'.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 最後に振り返ってから %3$lld 日たったよ。"
           }
         },
         "ko" : {
@@ -405,6 +477,12 @@
             "value" : "It's been %3$lld days since you looked back at '%1$@'.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 最後に振り返ってから %3$lld 日たちました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -437,6 +515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You haven't reached '%1$@' yet today.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 今日はまだたどり着いてないね。"
           }
         },
         "ko" : {
@@ -473,6 +557,12 @@
             "value" : "You haven't reached '%1$@' yet today.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 今日はまだたどり着いていませんね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -505,6 +595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You wrote '%1$@' down but haven't come back to it.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 書きとめたけど、まだ振り返ってないね。"
           }
         },
         "ko" : {
@@ -541,6 +637,12 @@
             "value" : "You wrote '%1$@' down but haven't come back to it.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 書きとめましたが、まだ振り返っていませんね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,6 +675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@' is written down, and nothing more yet.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 書きとめただけで、まだそのままだよ。"
           }
         },
         "ko" : {
@@ -609,6 +717,12 @@
             "value" : "'%1$@' is written down, and nothing more yet.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 書きとめただけで、まだそのままです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It's been quiet since you wrote '%1$@' down.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 書きとめてから、まだ静かだよ。"
           }
         },
         "ko" : {
@@ -677,6 +797,12 @@
             "value" : "It's been quiet since you wrote '%1$@' down.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ 書きとめてから、まだ静かです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -709,6 +835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Let's go back to when you meant to do '%1$@'. What got in the way?%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ やろうとしたときに戻ってみよう。何が引っかかった？"
           }
         },
         "ko" : {
@@ -745,6 +877,12 @@
             "value" : "Let's go back to when you meant to do '%1$@'. What got in the way?%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」%2$@ やろうとしたときに戻ってみますね。何が引っかかりましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -777,6 +915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You reached '%1$@' %2$@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」では %2$@ にたどり着いたんだよ。"
           }
         },
         "ko" : {
@@ -813,6 +957,12 @@
             "value" : "You reached '%1$@' %2$@."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」では %2$@ にたどり着きました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -845,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That was a day you reached '%@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」にたどり着いた一日だったね。"
           }
         },
         "ko" : {
@@ -881,6 +1037,12 @@
             "value" : "That was a day you reached '%@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」にたどり着いた一日でしたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -915,6 +1077,12 @@
             "value" : "%2$@ you wrote '%3$@' about '%1$@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」について、%2$@「%3$@」と書いたよ。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -947,6 +1115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$@ you wrote '%3$@' about '%1$@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」について、%2$@「%3$@」と書いていましたね。"
           }
         },
         "ko" : {
@@ -985,6 +1159,12 @@
             "value" : "Set one goal down in 'The way you've come,' and you can write a new one."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「歩いた道」で目標をひとつ手放すと、新しく書けます。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1011,6 +1191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nWhat got in the way was '%2$@',\nand right now you feel '%3$@'%4$@.\n\n%5$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\n引っかかったのは「%2$@」で、\n今の気分は「%3$@」%4$@。\n\n%5$@"
           }
         },
         "ko" : {
@@ -1047,6 +1233,12 @@
             "value" : "%1$@, while talking about '%2$@', you wrote '%3$@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」の話をして、「%3$@」と残したよね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1079,6 +1271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@, while talking about '%2$@', you wrote '%3$@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」の話をして、「%3$@」と残しましたね。"
           }
         },
         "ko" : {
@@ -1115,6 +1313,12 @@
             "value" : "%1$@ you said '%4$@' about '%2$@'.%3$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@について、「%4$@」とおっしゃいましたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1147,6 +1351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you said '%4$@' about '%2$@'.%3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@について、「%4$@」って言ってたよね。"
           }
         },
         "ko" : {
@@ -1183,6 +1393,12 @@
             "value" : "%1$@ you said '%2$@' got stuck.%3$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@が引っかかったとおっしゃいましたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1215,6 +1431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you said '%2$@' got stuck.%3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@が引っかかったって言ってたよね。"
           }
         },
         "ko" : {
@@ -1251,6 +1473,12 @@
             "value" : "%1$@ you got to '%2$@'.%3$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@をやり遂げましたよね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1283,6 +1511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you got to '%2$@'.%3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@をやり遂げたよね。"
           }
         },
         "ko" : {
@@ -1319,6 +1553,12 @@
             "value" : "%1$@ you reached '%2$@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」にたどり着いたよ。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1351,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you reached '%2$@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」にたどり着きました。"
           }
         },
         "ko" : {
@@ -1387,6 +1633,12 @@
             "value" : "%1$@ you noted you got caught on '%2$@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」で引っかかったと残したよね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1419,6 +1671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you noted you got caught on '%2$@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」で引っかかったと残しましたね。"
           }
         },
         "ko" : {
@@ -1455,6 +1713,12 @@
             "value" : "week of %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@の週"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1487,6 +1751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, a day you left a note"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、記録を残した日"
           }
         },
         "ko" : {
@@ -1523,6 +1793,12 @@
             "value" : "%@, nothing left"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、記録なし"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1555,6 +1831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, a day you reached it"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、目標にたどり着いた日"
           }
         },
         "ko" : {
@@ -1591,6 +1873,12 @@
             "value" : "%@, still ahead"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@、まだ来ていない日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1623,6 +1911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You got to '%2$@' %1$@.%3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@をやり遂げたじゃないですか。"
           }
         },
         "ko" : {
@@ -1659,6 +1953,12 @@
             "value" : "You got to '%2$@' %1$@.%3$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@「%2$@」%3$@をやり遂げたじゃん。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1691,6 +1991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you got to '%2$@'.%3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@には「%2$@」%3$@をやり遂げましたよ。"
           }
         },
         "ko" : {
@@ -1727,6 +2033,12 @@
             "value" : "%1$@ you got to '%2$@'.%3$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@には「%2$@」%3$@をやり遂げたよ。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1759,6 +2071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ you reached '%2$@',"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@には「%2$@」にたどり着いて、"
           }
         },
         "ko" : {
@@ -1795,6 +2113,12 @@
             "value" : "%1$@ you reached '%2$@',"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@には「%2$@」にたどり着いて、"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1824,6 +2148,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1861,6 +2191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld/%2$lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld月%2$lld日"
           }
         },
         "ko" : {
@@ -1916,6 +2252,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld days ago"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld日前"
                 }
               }
             }
@@ -1991,6 +2339,18 @@
             }
           }
         },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld日前に記録"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2061,6 +2421,18 @@
             }
           }
         },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld週間前に記録"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2107,6 +2479,12 @@
             "value" : "|"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2143,6 +2521,12 @@
             "value" : "Low"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沈んでいます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2175,6 +2559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start with light stretching"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "軽いストレッチから始める"
           }
         },
         "ko" : {
@@ -2211,6 +2601,12 @@
             "value" : "Grateful"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "感謝"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2245,6 +2641,12 @@
             "value" : "River Slate"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "川石"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2271,6 +2673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A goal with that name already exists"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じ名前の目標がすでにあります"
           }
         },
         "zh-Hans" : {
@@ -2301,6 +2709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Developer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発用"
           }
         },
         "ko" : {
@@ -2337,6 +2751,12 @@
             "value" : "Email the developer"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発者にメールを送る"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2371,6 +2791,12 @@
             "value" : "Five more stones open up, like ones picked up by the stream."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "川辺で拾ったような石が、あと5種類使えるようになります。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2397,6 +2823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privacy Policy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プライバシーポリシー"
           }
         },
         "ko" : {
@@ -2433,6 +2865,12 @@
             "value" : "Health"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健康"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2467,6 +2905,12 @@
             "value" : "Beside you"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そばにいます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2499,6 +2943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編集"
           }
         },
         "ko" : {
@@ -2537,6 +2987,12 @@
             "value" : "Okay"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大丈夫です"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2573,6 +3029,12 @@
             "value" : "It's fine. It just went unnoticed."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大丈夫です。たまたま目に入らなかっただけです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2605,6 +3067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Distressed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "つらい"
           }
         },
         "ko" : {
@@ -2641,6 +3109,12 @@
             "value" : "Restore Purchase"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "購入の復元"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2667,6 +3141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A steady routine"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "規則正しい生活"
           }
         },
         "ko" : {
@@ -2705,6 +3185,12 @@
             "value" : "What happened after that?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのあと、どうなりましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2739,6 +3225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That was the situation. How do you feel now?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それは状況の話でしたね。今の気分はどうですか？"
           }
         },
         "ko" : {
@@ -2777,6 +3269,12 @@
             "value" : "How did that go?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あれは、どうなりましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2811,6 +3309,12 @@
             "value" : "How did that day go"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その日はどうでしたか"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2839,6 +3343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep it"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このままにします"
           }
         },
         "ko" : {
@@ -2875,6 +3385,12 @@
             "value" : "Back then you said you'd try '%1$@'.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あのとき「%1$@」%2$@ やってみようとおっしゃっていましたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2907,6 +3423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Back then you said you'd try '%1$@'.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あのとき「%1$@」%2$@ やってみようって言ってたよ。"
           }
         },
         "ko" : {
@@ -2943,6 +3465,12 @@
             "value" : "How you felt"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのときの気分"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2971,6 +3499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What happened?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのとき、何があったのですか？"
           }
         },
         "ko" : {
@@ -3009,6 +3543,12 @@
             "value" : "Let's talk about it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのときの話をしてみる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3043,6 +3583,12 @@
             "value" : "Back then you said '%@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あのときは「%@」とおっしゃっていましたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3075,6 +3621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Back then you said '%@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あのときは「%@」って言ってたよね。"
           }
         },
         "ko" : {
@@ -3113,6 +3665,12 @@
             "value" : "All right. Another time."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "わかりました。また今度話しましょう。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3147,6 +3705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That's right"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そうでしたね"
           }
         },
         "ko" : {
@@ -3185,6 +3749,12 @@
             "value" : "That happens. Forgetting doesn't erase it."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そういうこともあります。忘れたからといって、なくなるわけではないですから。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3221,6 +3791,12 @@
             "value" : "That happens. Forgotten is just forgotten."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そういうこともあるよね。忘れたら忘れたで、それでいいんだよ。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3255,6 +3831,12 @@
             "value" : "So, toward '%1$@' —\nwhat is one thing small enough to finish tomorrow?%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それじゃあ「%1$@」%2$@ 目指して、\n明日すぐにできるくらい小さなことをひとつ挙げるなら、何だろう？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3287,6 +3869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "So, toward '%1$@' —\nwhat is one thing small enough to finish tomorrow?%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それでは「%1$@」%2$@ 目指して、\n明日すぐにできるくらい小さなことをひとつ挙げるなら、何でしょう？"
           }
         },
         "ko" : {
@@ -3325,6 +3913,12 @@
             "value" : "Then let's talk about that."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それでは、その話をしてみましょうか。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3359,6 +3953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Then that one's done. I'll note it now."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それなら、その話はおしまいですね。今、書きとめておきます。"
           }
         },
         "ko" : {
@@ -3397,6 +3997,12 @@
             "value" : "Then I'll tie it off."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それでは、区切りをつけておきますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3433,6 +4039,12 @@
             "value" : "Then how about this. If you made it small enough to finish tomorrow, what would it be?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それならこれはどうでしょう。明日すぐにできるくらい小さくするとしたら、何になりますか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3465,6 +4077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop talking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み上げを止める"
           }
         },
         "ko" : {
@@ -3503,6 +4121,12 @@
             "value" : "So-so"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まあまあです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3535,6 +4159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Looking forward"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "楽しみ"
           }
         },
         "ko" : {
@@ -3571,6 +4201,12 @@
             "value" : "Records"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3597,6 +4233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Export records"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録を書き出す"
           }
         },
         "zh-Hans" : {
@@ -3627,6 +4269,12 @@
             "value" : "Couldn't export your records"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録を書き出せませんでした"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3653,6 +4301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pleased"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いい気分"
           }
         },
         "ko" : {
@@ -3689,6 +4343,12 @@
             "value" : "Glad"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "喜んでいます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3721,6 +4381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Awful"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最悪"
           }
         },
         "ko" : {
@@ -3759,6 +4425,12 @@
             "value" : "No need to hurry the rest."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残りは急がなくて大丈夫です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3793,6 +4465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set the rest aside and look at this one."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残りはたたんで、これだけを見ましょう。"
           }
         },
         "ko" : {
@@ -3831,6 +4509,12 @@
             "value" : "The rest can wait."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残りもゆっくり見れば大丈夫です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3867,6 +4551,12 @@
             "value" : "Kept, so what worked doesn't get forgotten."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残しておきました。うまくいったことを忘れないように。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3899,6 +4589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What you've left"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残したもの"
           }
         },
         "ko" : {
@@ -3937,6 +4633,12 @@
             "value" : "Your records stay. It just leaves the list."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残した記録はそのままです。一覧から外れるだけです。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3965,6 +4667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No words left."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残した言葉はありません。"
           }
         },
         "ko" : {
@@ -4001,6 +4709,12 @@
             "value" : "My Goals"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私の目標"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4027,6 +4741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose your pebble"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石を選ぶ"
           }
         },
         "zh-Hans" : {
@@ -4057,6 +4777,12 @@
             "value" : "Set Down"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手放す"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4083,6 +4809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exported: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出した日: %@"
           }
         },
         "zh-Hans" : {
@@ -4113,6 +4845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "If you did just one thing tomorrow, what would it be?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "明日、たったひとつだけやるなら、何をしますか？"
           }
         },
         "ko" : {
@@ -4147,6 +4885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detached"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷たい"
           }
         },
         "ko" : {
@@ -4185,6 +4929,12 @@
             "value" : "Yes"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4219,6 +4969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Okay, leaving it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はい、そのままにします。"
           }
         },
         "ko" : {
@@ -4257,6 +5013,12 @@
             "value" : "Okay, leaving it. I'll be here."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はい、そのままにします。ここにいますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4293,6 +5055,12 @@
             "value" : "Okay, let's talk another time."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はい、ではまた今度話しましょう。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4327,6 +5095,12 @@
             "value" : "Sunset"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夕焼け石"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4355,6 +5129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave the others. Shall we look at just this one?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかのことはそのままにして、これだけ見てみませんか？"
           }
         },
         "ko" : {
@@ -4393,6 +5173,12 @@
             "value" : "Take the others slowly."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかのことはゆっくりでいいですよ。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4425,6 +5211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
           }
         },
         "ko" : {
@@ -4463,6 +5255,12 @@
             "value" : "I'll keep this so you can use it again."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次も使えるように書きとめておきますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4497,6 +5295,12 @@
             "value" : "What you'll try next"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次に試してみること"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4523,6 +5327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Getting fit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダイエット"
           }
         },
         "ko" : {
@@ -4557,6 +5367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
           }
         },
         "ko" : {
@@ -4595,6 +5411,12 @@
             "value" : "Only that you reached it."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「たどり着いた」とだけ残しました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4629,6 +5451,12 @@
             "value" : "I got there"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "たどり着いた"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4657,6 +5485,12 @@
             "value" : "I didn't get there"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "たどり着けなかった"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4683,6 +5517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Building a reading habit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読書習慣をつくる"
           }
         },
         "ko" : {
@@ -4717,6 +5557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読書する"
           }
         },
         "ko" : {
@@ -4755,6 +5601,12 @@
             "value" : "Listening"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聞いています"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4789,6 +5641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing much to say. I'm just here."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "特に言うことはありません。ただここにいます。"
           }
         },
         "ko" : {
@@ -4827,6 +5685,12 @@
             "value" : "If nothing comes to mind, leave it blank. We'll find it later."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "思い浮かばなければ空欄でも大丈夫。あとで一緒に探しましょう。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4859,6 +5723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The microphone isn't available. Writing is fine too."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクを使えません。書いてもらっても大丈夫です。"
           }
         },
         "ko" : {
@@ -4895,6 +5765,12 @@
             "value" : "Content"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "満足"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4927,6 +5803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Content"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "満足"
           }
         },
         "ko" : {
@@ -4965,6 +5847,12 @@
             "value" : "Really hard"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "とてもつらい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4999,6 +5887,12 @@
             "value" : "Answer aloud"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "声で答える"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5031,6 +5925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tone"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "話し方"
           }
         },
         "ko" : {
@@ -5069,6 +5969,12 @@
             "value" : "You can choose the tone"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "話し方を選べます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5103,6 +6009,12 @@
             "value" : "Sound when speaking"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "話すときの音"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5135,6 +6047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haptics when speaking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "話すときの振動"
           }
         },
         "ko" : {
@@ -5173,6 +6091,12 @@
             "value" : "That's it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのとおりです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5209,6 +6133,12 @@
             "value" : "Right, I didn't"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そう、できなかったんです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5241,6 +6171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ten minutes of an English podcast a day"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毎日10分、英語のポッドキャストを聞く"
           }
         },
         "ko" : {
@@ -5277,6 +6213,12 @@
             "value" : "Daily reminders"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毎日の通知"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5311,6 +6253,12 @@
             "value" : "Inkstone"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "墨石"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5339,6 +6287,12 @@
             "value" : "Export First"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先に書き出す"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5365,6 +6319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "a few days ago"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数日前"
           }
         },
         "ko" : {
@@ -5401,6 +6361,12 @@
             "value" : "a few days ago"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数日前に"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5435,6 +6401,12 @@
             "value" : "Delete Everything"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて削除"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5461,6 +6433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everything has been deleted."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて削除しました。"
           }
         },
         "zh-Hans" : {
@@ -5491,6 +6469,12 @@
             "value" : "Delete All Records"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての記録を削除"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5517,6 +6501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete all records?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての記録を削除しますか？"
           }
         },
         "zh-Hans" : {
@@ -5547,6 +6537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete all data"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべてのデータを削除"
           }
         },
         "ko" : {
@@ -5583,6 +6579,12 @@
             "value" : "Sand"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "砂つぶ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5611,6 +6613,12 @@
             "value" : "Goal"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5637,6 +6645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add a goal"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標を追加"
           }
         },
         "ko" : {
@@ -5673,6 +6687,12 @@
             "value" : "Write down a goal"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標をひとつ書きとめる"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5699,6 +6719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep as many goals as you like"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標を数の制限なく書きとめられます"
           }
         },
         "zh-Hans" : {
@@ -5729,6 +6755,12 @@
             "value" : "As many goals as you like"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標を好きなだけ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5755,6 +6787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep unlimited goals, choose your pebble, and export your records. Buy once, keep it for good."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標を無制限に書き、小石を選び、記録をファイルに残せます。一度買えば、ずっと使えます。"
           }
         },
         "zh-Hans" : {
@@ -5785,6 +6823,12 @@
             "value" : "All your goals and records will be gone, and this can't be undone. They'll also be removed from your other devices through iCloud. Your settings and purchase stay."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標も記録もすべて消えて、元に戻せません。iCloudでつながっている他のデバイスからも消えます。設定と購入はそのまま残ります。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5811,6 +6855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Numb"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無感覚"
           }
         },
         "ko" : {
@@ -5847,6 +6897,12 @@
             "value" : "Indifferent"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無関心"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5879,6 +6935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "So-so"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無難"
           }
         },
         "ko" : {
@@ -5915,6 +6977,12 @@
             "value" : "Powerless"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無力"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5949,6 +7017,12 @@
             "value" : "Everything free stays free. A few more things open up."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無料で使えていたものはそのまま、いくつかが新しく使えるようになります。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5979,6 +7053,12 @@
             "value" : "The free version holds up to three goals. This is your third."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無料では目標を3つまで持てます。これが3つ目です。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6005,6 +7085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scared"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "怖い"
           }
         },
         "ko" : {
@@ -6041,6 +7127,12 @@
             "value" : "What happened"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何があったか"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6069,6 +7161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Talk about what happened"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何があったかを話す"
           }
         },
         "ko" : {
@@ -6107,6 +7205,12 @@
             "value" : "I'll watch what you reach and what gets stuck, and I'll speak first."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何にたどり着き、何が引っかかったのか、まず私から声をかけますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6141,6 +7245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I haven't heard what you're heading toward yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何を目指しているのか、まだ聞いていません。"
           }
         },
         "ko" : {
@@ -6179,6 +7289,12 @@
             "value" : "What are you heading toward?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何を目指していますか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6213,6 +7329,12 @@
             "value" : "Blank"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無表情"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6245,6 +7367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drink more water and go to bed early"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水をたくさん飲んで早く寝る"
           }
         },
         "ko" : {
@@ -6283,6 +7411,12 @@
             "value" : "What helped?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何が役に立ちましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6317,6 +7451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note what worked"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うまくいった方法を書きとめる"
           }
         },
         "ko" : {
@@ -6355,6 +7495,12 @@
             "value" : "What worked?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "何がうまくいきましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6391,6 +7537,12 @@
             "value" : "Swipe or long-press a goal to rename it or set it down."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スワイプまたは長押しで、名前を変えたり手放したりできます。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6417,6 +7569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set an alarm for 11 pm and put the phone away"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜11時にアラームをセットして、スマホを遠ざける"
           }
         },
         "ko" : {
@@ -6453,6 +7611,12 @@
             "value" : "Ordinary"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ふつう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6485,6 +7649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Furious"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "怒り"
           }
         },
         "ko" : {
@@ -6521,6 +7691,12 @@
             "value" : "Unsatisfied"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不満"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6553,6 +7729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anxious"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不安"
           }
         },
         "ko" : {
@@ -6589,6 +7771,12 @@
             "value" : "Remove passcode"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスコードを削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6621,6 +7809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set passcode"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスコードを設定"
           }
         },
         "ko" : {
@@ -6657,6 +7851,12 @@
             "value" : "Enter passcode"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスコードを入力"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6689,6 +7889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirm passcode"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスコードを確認"
           }
         },
         "ko" : {
@@ -6725,6 +7931,12 @@
             "value" : "Miserable"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "みじめ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6757,6 +7969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fulfilled"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "誇らしい"
           }
         },
         "ko" : {
@@ -6793,6 +8011,12 @@
             "value" : "Usage statistics"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用状況データ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6819,6 +8043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usage stats (developer)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用状況データ(開発者)"
           }
         },
         "ko" : {
@@ -6853,6 +8083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refreshed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すっきり"
           }
         },
         "ko" : {
@@ -6891,6 +8127,12 @@
             "value" : "I see the situation. So how are you feeling?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状況はわかりました。それで、今の気分はどうですか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6925,6 +8167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The situation got stuck. That is not the same as you being the problem."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状況が行き詰まっているだけで、あなたに問題があるわけではありません。"
           }
         },
         "ko" : {
@@ -6963,6 +8211,12 @@
             "value" : "Generate sample data"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サンプルデータを作成"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6995,6 +8249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thinking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えています"
           }
         },
         "ko" : {
@@ -7031,6 +8291,12 @@
             "value" : "Thrilled"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "わくわく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7063,6 +8329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         },
         "ko" : {
@@ -7099,6 +8371,12 @@
             "value" : "Turning on Apple Intelligence in Settings helps me tidy up what you say."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「設定」でApple Intelligenceをオンにすると、話した内容をより上手に整理できます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7131,6 +8409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spread the word"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "広めよう"
           }
         },
         "ko" : {
@@ -7167,6 +8451,12 @@
             "value" : "Sad"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悲しい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7199,6 +8489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間"
           }
         },
         "ko" : {
@@ -7235,6 +8531,12 @@
             "value" : "Excited"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ワクワク"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7267,6 +8569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disappointed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "がっかり"
           }
         },
         "ko" : {
@@ -7303,6 +8611,12 @@
             "value" : "Pet"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なでる"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7329,6 +8643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lonely"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寂しい"
           }
         },
         "ko" : {
@@ -7365,6 +8685,12 @@
             "value" : "Disappointed"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "惜しい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7397,6 +8723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing yet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録はまだありません"
           }
         },
         "ko" : {
@@ -7435,6 +8767,12 @@
             "value" : "Nothing left yet."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ残したものはありません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7469,6 +8807,12 @@
             "value" : "Nothing written yet."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ書いた記録はありません。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7497,6 +8841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No stories left yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ残した話はありません。"
           }
         },
         "ko" : {
@@ -7535,6 +8885,12 @@
             "value" : "I haven't heard where you're going yet."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どこへ向かっているのか、まだ聞いていません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7571,6 +8927,12 @@
             "value" : "Nowhere you're headed yet."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ向かう先がありません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7603,6 +8965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waking up early"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝早く起きる"
           }
         },
         "ko" : {
@@ -7639,6 +9007,12 @@
             "value" : "Woke up early and made good use of the day!"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝早く起きて、一日を充実して過ごしました！"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7671,6 +9045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't get up and overslept."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝起きられなくて、寝坊しました。"
           }
         },
         "ko" : {
@@ -7709,6 +9089,12 @@
             "value" : "Hello. I'm ZinggumDol."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "こんにちは。ZinggumDolです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7745,6 +9131,12 @@
             "value" : "All right. I'll be here."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "わかりました。ここにいますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7777,6 +9169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Turn on reminders"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知をオンにする"
           }
         },
         "ko" : {
@@ -7813,6 +9211,12 @@
             "value" : "Learn more"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "詳しく見る"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7839,6 +9243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share the app"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリをシェア"
           }
         },
         "ko" : {
@@ -7875,6 +9285,12 @@
             "value" : "App passcode"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリのパスコード"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7909,6 +9325,12 @@
             "value" : "Only the days you opened the app or finished a conversation, the kinds of actions you took (like creating a goal), how many records and goals you have, and whether you saw the purchase screen are sent. Nothing you write ever leaves, and senders are told apart only by a random number made on this device."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "送信するのは、アプリを開いた日、会話を終えた日、目標をつくるといった操作の種類、記録と目標の数、購入画面を見たかどうかだけです。書いた内容は一文字も外に出ません。送信者は、このデバイスで作られたランダムな番号でしか区別されません。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7935,6 +9357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No late-night snacks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜食を我慢する"
           }
         },
         "ko" : {
@@ -7969,6 +9397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gave in to a late-night snack. Got peckish and had ramen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜食を我慢できませんでした。お腹がすいてラーメンを食べました。"
           }
         },
         "ko" : {
@@ -8007,6 +9441,12 @@
             "value" : "Note how it went"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どうなったかを残す"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8039,6 +9479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scattered"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ごちゃごちゃ"
           }
         },
         "ko" : {
@@ -8075,6 +9521,12 @@
             "value" : "Yesterday"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昨日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8107,6 +9559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "left yesterday"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昨日記録"
           }
         },
         "ko" : {
@@ -8145,6 +9603,12 @@
             "value" : "You can change it anytime. The pebble will greet you again in that tone."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いつでも変えられます。変えると、小石がその話し方でもう一度あいさつします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8177,6 +9641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "a while ago"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "少し前"
           }
         },
         "ko" : {
@@ -8213,6 +9683,12 @@
             "value" : "a while ago"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "少し前に"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8245,6 +9721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I'm here."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここにいます。"
           }
         },
         "ko" : {
@@ -8283,6 +9765,12 @@
             "value" : "This is far enough.\nPlans made on a tired day rarely hold.\nIt's kept, so it's fine."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はここまでにしましょう。\n疲れた日に立てた計画は、うまくいかないものです。\n残してあるので大丈夫です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8317,6 +9805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "That was what happened. How about how you feel?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここまでは何があったかの話でした。今の気持ちはどうですか？"
           }
         },
         "ko" : {
@@ -8355,6 +9849,12 @@
             "value" : "Start here"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここから話す"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8387,6 +9887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passionate"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "情熱的"
           }
         },
         "ko" : {
@@ -8423,6 +9929,12 @@
             "value" : "Meant to study English and put it off."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語の勉強をしようとして、先延ばしにしてしまいました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8455,6 +9967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Studying English"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語の勉強をする"
           }
         },
         "ko" : {
@@ -8491,6 +10009,12 @@
             "value" : "Better English"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語力アップ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8523,6 +10047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Listened to an English podcast on the way to work! More fun than expected."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語のポッドキャストを聞きながら出勤しました！思ったより楽しかったです。"
           }
         },
         "ko" : {
@@ -8559,6 +10089,12 @@
             "value" : "Today"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8591,6 +10127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' — you did it today."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日「%@」、やり遂げましたね。"
           }
         },
         "ko" : {
@@ -8627,6 +10169,12 @@
             "value" : "'%@' — you did it today."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日「%@」、やり遂げたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8659,6 +10207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing about '%1$@' today yet.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日「%1$@」%2$@ まだ便りがないよ。"
           }
         },
         "ko" : {
@@ -8695,6 +10249,12 @@
             "value" : "Nothing about '%1$@' today yet.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日「%1$@」%2$@ まだ便りがありません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8729,6 +10289,12 @@
             "value" : "You reached '%@' today."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日「%@」にたどり着いたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8761,6 +10327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You reached '%@' today."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日「%@」にたどり着きましたね。"
           }
         },
         "ko" : {
@@ -8799,6 +10371,12 @@
             "value" : "Leave today's note"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日の分を残しに行く"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8833,6 +10411,12 @@
             "value" : "left today"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日記録"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8865,6 +10449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shall we look at how today went?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はどうだったか、ちょっと一緒に見ませんか？"
           }
         },
         "ko" : {
@@ -8903,6 +10493,12 @@
             "value" : "I'll just sit beside you today."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はただそばにいますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8937,6 +10533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Let's stop here for today.\nResting beats looking for answers right now.\nIt's written down, so it won't disappear."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はここまでにしましょう。\n今は答えを探すより、休むほうが大切です。\n書きとめたので、なくなりません。"
           }
         },
         "ko" : {
@@ -8975,6 +10577,12 @@
             "value" : "Let's stop here.\nYou don't have to force an answer now.\nIt's saved, and we can look together next time."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はここで止まりましょう。\n今、無理に答えを出さなくて大丈夫です。\n書きとめたので、次に一緒に見ましょう。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9009,6 +10617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This one is enough for today."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日はこれひとつで十分です。"
           }
         },
         "ko" : {
@@ -9047,6 +10661,12 @@
             "value" : "I'll stay quiet today."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日は静かにしています。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9079,6 +10699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "left a long time ago"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ずっと前に記録"
           }
         },
         "ko" : {
@@ -9115,6 +10741,12 @@
             "value" : "Brave"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "勇気がある"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9147,6 +10779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Working out"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動する"
           }
         },
         "ko" : {
@@ -9183,6 +10821,12 @@
             "value" : "Went to work out and gave up halfway."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動しに行ったけれど、途中であきらめて帰ってきました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9217,6 +10861,12 @@
             "value" : "Motivated"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "やる気いっぱい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9249,6 +10899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidying up isn't available on this device. I'll write it as I heard it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このデバイスでは整理機能を使えません。聞こえたとおりに書きとめます。"
           }
         },
         "ko" : {
@@ -9287,6 +10943,12 @@
             "value" : "Delete this note?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この記録を削除しますか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9321,6 +10983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "These are two different things."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この2つは別の話です。"
           }
         },
         "ko" : {
@@ -9359,6 +11027,12 @@
             "value" : "Records under this goal will follow the new name."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この目標で残した記録も、新しい名前に変わります。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9385,6 +11059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Talk about this goal"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この目標について話す"
           }
         },
         "zh-Hans" : {
@@ -9417,6 +11097,12 @@
             "value" : "Set this goal down?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この目標を手放しますか？"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9445,6 +11131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Let's talk about this"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この話をする"
           }
         },
         "ko" : {
@@ -9483,6 +11175,12 @@
             "value" : "If you broke this into something smaller, what would it be?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これをもっと小さく分けるなら、何になりますか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9517,6 +11215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start with this"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これで始めます"
           }
         },
         "ko" : {
@@ -9555,6 +11259,12 @@
             "value" : "I'll keep this one. Tomorrow, only this far."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これで書きとめておきます。明日はここまででOK。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9591,6 +11301,12 @@
             "value" : "Use this"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これにします"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9625,6 +11341,12 @@
             "value" : "Moss"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "苔石"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9653,6 +11375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This day has passed. The stone stays where it is."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この日は過ぎました。でも、石はそのままです。"
           }
         },
         "ko" : {
@@ -9691,6 +11419,12 @@
             "value" : "Leave it as is"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このままにします"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9727,6 +11461,12 @@
             "value" : "Save changes"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "こう直します"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9761,6 +11501,12 @@
             "value" : "Rename"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前を変更"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9787,6 +11533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今週"
           }
         },
         "ko" : {
@@ -9823,6 +11575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What was different this time?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今回は何が違いましたか？"
           }
         },
         "ko" : {
@@ -9878,6 +11636,18 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld earlier notes are folded away."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "それ以前の話 %lld 件はたたんだよ。"
                 }
               }
             }
@@ -9953,6 +11723,18 @@
             }
           }
         },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "それ以前の話 %lld 件はたたみました。"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9999,6 +11781,12 @@
             "value" : "Send anonymous usage statistics"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匿名の使用状況データを送信"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10025,6 +11813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typical"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般的"
           }
         },
         "ko" : {
@@ -10059,6 +11853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Routine"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日常的"
           }
         },
         "ko" : {
@@ -10097,6 +11897,12 @@
             "value" : "I forgot about it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忘れていました"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10133,6 +11939,12 @@
             "value" : "Write it before I forget"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忘れる前に書きとめたい"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10165,6 +11977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Growth"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自己啓発"
           }
         },
         "ko" : {
@@ -10203,6 +12021,12 @@
             "value" : "I keep putting it off"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どうしても先延ばしにしてしまいます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10235,6 +12059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Proud"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "誇り"
           }
         },
         "ko" : {
@@ -10271,6 +12101,12 @@
             "value" : "Confident"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自信がついた"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10303,6 +12139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hard on myself"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分を責める"
           }
         },
         "ko" : {
@@ -10341,6 +12183,12 @@
             "value" : "Smaller is better."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小さいほどいいです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10375,6 +12223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smaller is better. Five minutes is plenty."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小さいほどいいです。5分でも大丈夫です。"
           }
         },
         "ko" : {
@@ -10413,6 +12267,12 @@
             "value" : "Saved. I'll bring it back when you get stuck again."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "きちんと記録しました。次に行き詰まったら、これを取り出して見ますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10447,6 +12307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Good. I'll keep it now."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "よかったですね。今、残しておきます。"
           }
         },
         "ko" : {
@@ -10485,6 +12351,12 @@
             "value" : "Let's talk a moment"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ちょっと話しましょう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10519,6 +12391,12 @@
             "value" : "Please try again in a moment."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "しばらくしてからもう一度お試しください。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10545,6 +12423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No goal written down"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書きとめた目標なし"
           }
         },
         "ko" : {
@@ -10583,6 +12467,12 @@
             "value" : "Written down. Just this much tomorrow."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書きとめました。明日はこれだけやってみましょう。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10617,6 +12507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Written down. I'll show you next time something similar comes up."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書きとめました。次に似たところで行き詰まったら、お見せします。"
           }
         },
         "ko" : {
@@ -10655,6 +12551,12 @@
             "value" : "Written down. This much is enough."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書きとめました。これだけで十分です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10691,6 +12593,12 @@
             "value" : "I'll write it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書いてみます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10725,6 +12633,12 @@
             "value" : "Hopeless"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絶望的"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10757,6 +12671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I'm getting the tidy-up ready. For now I'll write it as I heard it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理機能を準備しています。今は聞こえたとおりに書きとめます。"
           }
         },
         "ko" : {
@@ -10795,6 +12715,12 @@
             "value" : "Tidying this up…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理しています…"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10831,6 +12757,12 @@
             "value" : "Let me lay it out."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理してみますね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10863,6 +12795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove the passcode and lower your security?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本当にパスコードを削除して、セキュリティを下げますか？"
           }
         },
         "ko" : {
@@ -10899,6 +12837,12 @@
             "value" : "Delete everything?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本当に削除しますか？"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10925,6 +12869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seashell"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貝がら"
           }
         },
         "zh-Hans" : {
@@ -10955,6 +12905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Not quite"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "少し違います"
           }
         },
         "ko" : {
@@ -10991,6 +12947,12 @@
             "value" : "Pebble"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11025,6 +12987,12 @@
             "value" : "Pebble finish"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石を選ぶ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11053,6 +13021,12 @@
             "value" : "Choose from six pebble finishes"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石の質感を6種類から選べます"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11079,6 +13053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pebble is thinking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石が考えています"
           }
         },
         "ko" : {
@@ -11117,6 +13097,12 @@
             "value" : "You can set how the pebble speaks to you in Settings."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小石が敬語で話すかタメ口で話すかは、設定で決められます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11153,6 +13139,12 @@
             "value" : "Good"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いいです"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11187,6 +13179,12 @@
             "value" : "Frustrated"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "挫折感"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11219,6 +13217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neutral"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中立的"
           }
         },
         "ko" : {
@@ -11257,6 +13261,12 @@
             "value" : "Talk about it now"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ話してみる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11293,6 +13303,12 @@
             "value" : "If there's something you're heading toward, will you tell me one?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今向かっていることがあれば、ひとつ聞かせてもらえますか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11325,6 +13341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Where you're headed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今向かっている先"
           }
         },
         "ko" : {
@@ -11361,6 +13383,12 @@
             "value" : "You're already heading toward %lld goals."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今向かっている先が、もう %lld 個あるよ。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11387,6 +13415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You're already heading toward %lld goals."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今向かっている先が、もう %lld 個あります。"
           }
         },
         "zh-Hans" : {
@@ -11419,6 +13453,12 @@
             "value" : "I'll leave it for now"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今はそのままにします"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11447,6 +13487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I'd rather leave it for now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今はそのままにしたい"
           }
         },
         "ko" : {
@@ -11481,6 +13527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It's hard to hear right now. Writing is fine too."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今は聞き取りにくい状態です。書いてもらっても大丈夫です。"
           }
         },
         "ko" : {
@@ -11519,6 +13571,12 @@
             "value" : "How is it now?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今はどうですか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11551,6 +13609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidying up isn't available right now. I'll write it as I heard it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今は整理機能を使えません。聞こえたとおりに書きとめます。"
           }
         },
         "ko" : {
@@ -11587,6 +13651,12 @@
             "value" : "The way you've come"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歩いた道"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11621,6 +13691,12 @@
             "value" : "Keep everything you've written as a text file."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書いたすべての記録をテキストファイルとして残します。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11649,6 +13725,12 @@
             "value" : "Export your records as a file"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録をファイルに書き出す"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11675,6 +13757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your last note says '%@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前の記録には「%@」と残っているよ。"
           }
         },
         "ko" : {
@@ -11711,6 +13799,12 @@
             "value" : "Your last note says '%@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前の記録には「%@」と残っています。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11743,6 +13837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Last time you settled on '%1$@'.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回「%1$@」%2$@ 決めていましたよね。"
           }
         },
         "ko" : {
@@ -11779,6 +13879,12 @@
             "value" : "Last time you settled on '%1$@'.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回「%1$@」%2$@ 決めてたよね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11811,6 +13917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Last time you decided to try '%1$@'.%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回は「%1$@」%2$@ やってみることにしていたよ。"
           }
         },
         "ko" : {
@@ -11847,6 +13959,12 @@
             "value" : "Last time you decided to try '%1$@'.%2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回は「%1$@」%2$@ やってみることにしていました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11879,6 +13997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Last time you wrote '%@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回は「%@」と書いていたよ。"
           }
         },
         "ko" : {
@@ -11915,6 +14039,12 @@
             "value" : "Last time you wrote '%@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前回は「%@」と書いていましたね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11947,6 +14077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "last week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先週"
           }
         },
         "ko" : {
@@ -11983,6 +14119,12 @@
             "value" : "last week"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先週"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12015,6 +14157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "around last week"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先週ごろ"
           }
         },
         "ko" : {
@@ -12051,6 +14199,12 @@
             "value" : "Bored"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退屈"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12083,6 +14237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
           }
         },
         "ko" : {
@@ -12121,6 +14281,12 @@
             "value" : "Once it's deleted, it can't be brought back."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除すると元に戻せません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12155,6 +14321,12 @@
             "value" : "Couldn't delete. Please try again in a moment."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除できませんでした。しばらくしてからもう一度お試しください。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12181,6 +14353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support & Privacy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポートとプライバシー"
           }
         },
         "ko" : {
@@ -12212,6 +14390,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -12251,6 +14435,12 @@
             "value" : "ZinggumDol Records"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDolの記録"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12274,6 +14464,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -12307,6 +14503,12 @@
             "value" : "You're using ZinggumDol Pro. Thank you."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Proをご利用中です。ありがとうございます。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12333,6 +14535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annoyed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イライラ"
           }
         },
         "ko" : {
@@ -12369,6 +14577,12 @@
             "value" : "A few words is enough."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "短くても大丈夫です。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12397,6 +14611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Short is fine. Just what happened."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "短くても大丈夫です。そのとき何があったかだけで。"
           }
         },
         "ko" : {
@@ -12433,6 +14653,12 @@
             "value" : "Read for 30 minutes. Focused well."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本を30分読みました。よく集中できました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12467,6 +14693,12 @@
             "value" : "Building stamina"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "体力をつける"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12499,6 +14731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
           }
         },
         "ko" : {
@@ -12537,6 +14775,12 @@
             "value" : "It's fine to write something big."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きく書いても大丈夫です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12571,6 +14815,12 @@
             "value" : "Tap it, or rub to pet it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップしたり、なでるようにこすったりできます"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12597,6 +14847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destructive"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "破壊的"
           }
         },
         "ko" : {
@@ -12631,6 +14887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Relaxed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リラックス"
           }
         },
         "ko" : {
@@ -12669,6 +14931,12 @@
             "value" : "Leave it however feels right"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "楽なほうでどうぞ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12701,6 +14969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plain"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ふつう"
           }
         },
         "ko" : {
@@ -12737,6 +15011,12 @@
             "value" : "Rate the app"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを評価"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12766,6 +15046,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -12801,6 +15087,12 @@
             "value" : "I'll add more with Pro"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proでもっと書く"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12829,6 +15121,12 @@
             "value" : "Unlocks with Pro"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proで使える"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12855,6 +15153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tired"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "疲れた"
           }
         },
         "ko" : {
@@ -12893,6 +15197,12 @@
             "value" : "One is what happened. The other is how you feel."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ひとつはあったこと、もうひとつは今の気持ちです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12927,6 +15237,12 @@
             "value" : "Buy once, keep it for good. No subscription"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一度買えば、ずっと使えます。サブスクではありません"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12953,6 +15269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "a long time ago"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ずっと前に"
           }
         },
         "ko" : {
@@ -12991,6 +15313,12 @@
             "value" : "I did it, just didn't write it down"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "やったけれど、記録できなかった"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13027,6 +15355,12 @@
             "value" : "I did it, just didn't note it"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "やりました、記録だけできませんでした"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13059,6 +15393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Happy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幸せ"
           }
         },
         "ko" : {
@@ -13097,6 +15437,12 @@
             "value" : "I still haven't heard where you're headed."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "向かう先を、まだ聞いていませんね。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13131,6 +15477,12 @@
             "value" : "It's okay to be heading in more than one direction. Keep as many goals as you need."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "向かう先がいくつあっても大丈夫です。数の制限なく書きとめられます。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13157,6 +15509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disgusted"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嫌悪"
           }
         },
         "ko" : {
@@ -13195,6 +15553,12 @@
             "value" : "Did you mean something like this?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もしかして、こういう意味ですか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13224,6 +15588,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -13263,6 +15633,12 @@
             "value" : "To confirm, type '%@'."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認のため「%@」と入力してください。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13291,6 +15667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hehe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "えへへ"
           }
         },
         "zh-Hans" : {
@@ -13323,6 +15705,12 @@
             "value" : "Hmm?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ん？"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13351,6 +15739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I'm here"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここにいるよ"
           }
         },
         "zh-Hans" : {
@@ -13383,6 +15777,12 @@
             "value" : "You called?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "呼んだ？"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13411,6 +15811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hehe, that tickles!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "えへへ、くすぐったい！"
           }
         },
         "zh-Hans" : {
@@ -13443,6 +15849,12 @@
             "value" : "Tickly tickly"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "こちょこちょするよ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13471,6 +15883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop, hehe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もう、えへへ"
           }
         },
         "zh-Hans" : {
@@ -13503,6 +15921,12 @@
             "value" : "That's nice…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いいなあ…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13531,6 +15955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "So warm"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あったかい"
           }
         },
         "zh-Hans" : {
@@ -13563,6 +15993,12 @@
             "value" : "Mmm…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うとうと…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13593,6 +16029,12 @@
             "value" : "I'm dizzy…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目が回る…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13621,6 +16063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spinny spinny…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ぐるぐる…"
           }
         },
         "zh-Hans" : {

@@ -17,6 +17,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48,6 +54,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -88,6 +100,12 @@
             "value" : "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "会話のように気軽に振り返れるよう、マイクを使います。録音は保存されず、文字に起こしたテキストだけがデバイスに残ります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Used to turn what you say into text. Recognition happens on your device and never leaves it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "話した内容を文字に変換するために使います。認識はデバイス上で行われ、外部には送信されません。"
           }
         },
         "ko" : {
