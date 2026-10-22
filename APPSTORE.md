@@ -447,7 +447,7 @@ Parlez à un petit galet
 
 ### 키워드
 
-introspection,humeur,émotions,habitudes,croissance,stress,anxiété,erreurs,résilience,estimedesoi
+introspection,humeur,émotions,habitudes,croissance,stress,anxiété,erreurs,résilience
 
 ### 프로모션 텍스트
 
@@ -662,3 +662,60 @@ https://m1zz.github.io/Rebound-Journal/th/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/th/
+
+## vi
+
+### 이름
+
+ZinggumDol: nhật ký vấp ngã
+
+### 부제
+
+Trò chuyện cùng viên đá nhỏ
+
+### 키워드
+
+nhật ký,tâm trạng,cảm xúc,thói quen,phát triển bản thân,căng thẳng,lo âu,sai lầm,tự trọng,chánh niệm
+
+### 프로모션 텍스트
+
+Vấp một bước không có nghĩa là bạn đã ngã xuống suối. Nhìn lại những ngày không như ý cùng viên đá nhỏ luôn mở lời trước và nhớ những gì bạn kể.
+
+### 설명
+
+Vấp một bước không có nghĩa là bạn đã ngã xuống suối. ZinggumDol là cuốn nhật ký dịu dàng dành cho những ngày không như ý: bạn trò chuyện với một viên đá nhỏ và chậm rãi nhìn lại những gì đã xảy ra.
+
+Viên đá luôn mở lời trước. Nó nhớ những gì bạn kể lần trước và hỏi: “Sau đó thì sao rồi?” Chọn một câu trả lời có sẵn hoặc tự viết. Chuyện đã xảy ra, tâm trạng lúc đó và điều bạn muốn thử tiếp theo sẽ được ghi lại.
+
+Trò chuyện với viên đá
+Đặt một mục tiêu, viên đá sẽ để ý bạn đã đi tới đâu và điều gì đang vướng. Nếu bỏ lỡ một ngày, nó hỏi “Điều gì đã cản trở bạn?” chứ không hỏi “Bạn đã làm sai gì?”.
+
+Cứ nói ra
+Những ngày không muốn viết, bạn chỉ cần nói. Nhận dạng giọng nói diễn ra ngay trên thiết bị và bản ghi âm không được lưu. Trên các thiết bị được hỗ trợ, lời bạn nói còn được sắp xếp lại cho dễ đọc.
+
+Con đường đã qua
+Mỗi tuần xếp thành một hàng đá bước qua suối. Những ngày bạn chưa bước tới vẫn nằm đó; không có gì bị xóa đi.
+
+Những điều bạn đã để lại
+Xem lại theo ngày chuyện gì đã xảy ra, tâm trạng ra sao và bạn muốn thử gì tiếp theo.
+
+Widget và nhắc nhở
+Thấy một câu nói của viên đá trên Màn hình chính, và nhận lời nhắc nhẹ nhàng vào giờ bạn chọn để cùng xem hôm nay thế nào.
+
+Chỉ của riêng bạn
+Không cần đăng ký, không có quảng cáo. Ghi chép chỉ nằm trên thiết bị và trong iCloud của chính bạn, và bạn có thể khóa ứng dụng bằng mật mã. Những gì bạn viết không bao giờ được gửi cho nhà phát triển.
+
+ZINGGUMDOL PRO
+Bản miễn phí cho phép tối đa ba mục tiêu. Mua một lần (không phải đăng ký) để ghi mục tiêu không giới hạn, chọn trong sáu kiểu bề mặt viên đá và xuất ghi chép thành tệp văn bản.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/vi/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/vi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/vi/

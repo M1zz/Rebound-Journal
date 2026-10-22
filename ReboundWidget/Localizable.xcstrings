@@ -63,6 +63,12 @@
             "value" : "หินแม่น้ำ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đá sông"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -137,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อยู่ข้างๆ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ở bên bạn"
           }
         },
         "zh-Hans" : {
@@ -215,6 +227,12 @@
             "value" : "ดีใจ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vui"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หินยามเย็น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đá hoàng hôn"
           }
         },
         "zh-Hans" : {
@@ -367,6 +391,12 @@
             "value" : "กำลังฟัง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang lắng nghe"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -441,6 +471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หินหมึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đá mực"
           }
         },
         "zh-Hans" : {
@@ -519,6 +555,12 @@
             "value" : "เม็ดทราย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hạt cát"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -593,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคิด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang nghĩ"
           }
         },
         "zh-Hans" : {
@@ -671,6 +719,12 @@
             "value" : "ฉันอยู่ตรงนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mình ở đây."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -745,6 +799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไปจดของวันนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đi ghi lại hôm nay"
           }
         },
         "zh-Hans" : {
@@ -823,6 +883,12 @@
             "value" : "หินมอส"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đá rêu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -899,6 +965,12 @@
             "value" : "เปลือกหอย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vỏ sò"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -973,6 +1045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ก้อนหิน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viên đá"
           }
         },
         "zh-Hans" : {
@@ -1059,6 +1137,12 @@
             "value" : "คำพูดจากก้อนหิน แตะเพื่อจดเรื่องของวันนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một câu nói từ viên đá. Chạm để ghi lại hôm nay."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1138,6 +1222,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
