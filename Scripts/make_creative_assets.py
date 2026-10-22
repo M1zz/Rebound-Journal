@@ -56,6 +56,7 @@ SEARCH = {
     "nl": ("mislukkingsdagboek", "Een kiezel die<br>als eerste praat", "Noteer hoe ver u kwam en wat<br>u dwarszat, als in een gesprek"),
     "pl": ("dziennik porażek", "Kamyk, który<br>odzywa się pierwszy", "Zapisz, dokąd dotarłeś i co<br>stanęło na drodze – jak w rozmowie"),
     "sv": ("misslyckandedagbok", "En sten som<br>pratar först", "Skriv ner hur långt du kom och<br>vad som kom i vägen, som i ett samtal"),
+    "tr": ("başarısızlık günlüğü", "İlk konuşan<br>küçük bir taş", "Nereye ulaştığını, neyin<br>engellediğini sohbet gibi yaz"),
 }
 
 # 헤더는 처음 온 사람에게 **한 가지 약속**만 한다(Apple: 단일한 생각, 빽빽하지 않게).
@@ -85,6 +86,7 @@ HEADER = {
     "nl": ("Een zacht dagboek voor zware dagen", "Een misstap is geen<br>val in de beek"),
     "pl": ("Łagodny dziennik na trudne dni", "Potknięcie to nie<br>wpadnięcie do strumyka"),
     "sv": ("En mild dagbok för tunga dagar", "Ett felsteg är inte<br>ett fall i bäcken"),
+    "tr": ("Zor günler için yumuşak bir günlük", "Yanlış adım, dereye<br>düşmek değildir"),
 }
 
 # ⚠️ 바탕 · 글자색은 기존 스크린샷(make_marketing_screenshots.py)과 같다. 다르면 페이지에서

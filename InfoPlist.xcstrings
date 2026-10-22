@@ -125,6 +125,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -264,6 +270,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -412,6 +424,12 @@
             "value" : "ใช้ไมโครโฟนเพื่อให้คุณย้อนดูวันของตัวเองด้วยการพูดได้อย่างสบายๆ เหมือนคุยกัน ไม่มีการบันทึกเสียงไว้ จะเหลือเฉพาะข้อความที่ถอดเสียงไว้บนอุปกรณ์ของคุณ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofon, günü bir sohbet gibi sesinizle gözden geçirebilmeniz için kullanılır. Kayıtlar saklanmaz; cihazınızda yalnızca yazıya dökülen metin kalır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -553,6 +571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้เพื่อแปลงสิ่งที่คุณพูดเป็นข้อความ การจดจำเสียงทำงานบนอุปกรณ์ของคุณและไม่ถูกส่งออกไปภายนอก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Söylediklerinizi metne dönüştürmek için kullanılır. Tanıma işlemi cihazınızda yapılır ve cihazdan dışarı çıkmaz."
           }
         },
         "vi" : {

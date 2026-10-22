@@ -124,6 +124,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -262,6 +268,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

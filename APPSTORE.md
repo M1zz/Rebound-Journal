@@ -1232,3 +1232,60 @@ https://m1zz.github.io/Rebound-Journal/sv/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/sv/
+
+## tr
+
+### 이름
+
+ZinggumDol: günlük
+
+### 부제
+
+Küçük bir taşla sohbet
+
+### 키워드
+
+yansıma,ruh hali,duygular,alışkanlık,gelişim,stres,kaygı,hatalar,dayanıklılık,özgüven,farkındalık
+
+### 프로모션 텍스트
+
+Yanlış bir adım, dereye düştüğünüz anlamına gelmez. İlk konuşan ve söylediklerinizi hatırlayan bir çakıl taşıyla, planlandığı gibi gitmeyen günlere bakın.
+
+### 설명
+
+Yanlış bir adım, dereye düştüğünüz anlamına gelmez. ZinggumDol, planlandığı gibi gitmeyen günler için yumuşak bir günlüktür: Bir çakıl taşıyla sohbet eder, olanlara sakince geri dönersiniz.
+
+Çakıl taşı önce konuşur. Geçen sefer ona anlattıklarınızı hatırlar ve “Peki sonra ne oldu?” diye sorar. Hazır bir yanıtı seçin ya da kendiniz yazın. Olanlar, o anki ruh haliniz ve sonra denemek istedikleriniz kaydedilir.
+
+Çakıl taşıyla sohbet
+Bir hedef belirleyin; çakıl taşı nereye kadar geldiğinizi ve sizi neyin engellediğini izler. Bir gün aksarsa “Sizi ne engelledi?” diye sorar, “Neyi yanlış yaptınız?” demez.
+
+Yüksek sesle söyleyin
+Yazmanın fazla geldiği günlerde konuşmanız yeter. Konuşma tanıma cihazınızda yapılır ve kayıt saklanmaz. Desteklenen cihazlarda söyledikleriniz ayrıca kolay okunacak şekilde düzenlenir.
+
+Kat Edilen Yol
+Her hafta, dereyi geçmek için dizilmiş bir taş sırası gibi görünür. Basmadığınız günler de orada kalır; hiçbir şey silinmez.
+
+Bıraktıklarınız
+Olanları, o anki ruh halinizi ve sonra denemek istediklerinizi tarihe göre gözden geçirin.
+
+Widget ve hatırlatmalar
+Ana Ekran’da çakıl taşından bir söz ve seçtiğiniz saatte nazik bir hatırlatma; günün nasıl geçtiğine birlikte bakın.
+
+Sadece size ait
+Kayıt yok, reklam yok. Notlarınız yalnızca cihazınızda ve kendi iCloud’unuzda durur; uygulamayı parolayla kilitleyebilirsiniz. Yazdıklarınız hiçbir zaman geliştiriciye gönderilmez.
+
+ZINGGUMDOL PRO
+Ücretsiz sürümde üç hedefe kadar yazılabilir. Tek seferlik satın alma (abonelik değil) ile sınırsız hedef yazabilir, altı çakıl taşı dokusundan birini seçebilir ve notlarınızı metin dosyası olarak dışa aktarabilirsiniz.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/tr/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/tr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/tr/

@@ -117,6 +117,12 @@
             "value" : "หินแม่น้ำ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dere taşı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -251,6 +257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อยู่ข้างๆ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yanında"
           }
         },
         "vi" : {
@@ -389,6 +401,12 @@
             "value" : "ดีใจ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mutlu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -523,6 +541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หินยามเย็น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gün batımı taşı"
           }
         },
         "vi" : {
@@ -661,6 +685,12 @@
             "value" : "กำลังฟัง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinliyorum"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -795,6 +825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หินหมึก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mürekkep taşı"
           }
         },
         "vi" : {
@@ -933,6 +969,12 @@
             "value" : "เม็ดทราย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kum tanesi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1067,6 +1109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünüyorum"
           }
         },
         "vi" : {
@@ -1205,6 +1253,12 @@
             "value" : "ฉันอยู่ตรงนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buradayım."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1339,6 +1393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไปจดของวันนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugünü kaydetmeye git"
           }
         },
         "vi" : {
@@ -1477,6 +1537,12 @@
             "value" : "หินมอส"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yosun taşı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1613,6 +1679,12 @@
             "value" : "เปลือกหอย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deniz kabuğu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1747,6 +1819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ก้อนหิน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çakıl taşı"
           }
         },
         "vi" : {
@@ -1893,6 +1971,12 @@
             "value" : "คำพูดจากก้อนหิน แตะเพื่อจดเรื่องของวันนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çakıl taşından bir söz. Bugünü kaydetmek için dokunun."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2032,6 +2116,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
