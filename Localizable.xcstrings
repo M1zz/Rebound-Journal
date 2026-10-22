@@ -9276,7 +9276,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tak co by bylo na cestě k „%1$@“%2$@ jednu malou věc, kterou zvládneš už zítra?"
+            "value" : "Tak co je na cestě k „%1$@“%2$@ jedna malá věc, kterou zvládneš už zítra?"
           }
         },
         "de" : {
@@ -9370,7 +9370,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tak co by bylo na cestě k „%1$@“%2$@ jedna malá věc, kterou zvládnete už zítra?"
+            "value" : "Tak co je na cestě k „%1$@“%2$@ jedna malá věc, kterou zvládnete už zítra?"
           }
         },
         "de" : {
