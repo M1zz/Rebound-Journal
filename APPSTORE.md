@@ -491,3 +491,60 @@ https://m1zz.github.io/Rebound-Journal/fr/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/fr/
+
+## it
+
+### 이름
+
+ZinggumDol: diario gentile
+
+### 부제
+
+Parla con un sassolino
+
+### 키워드
+
+riflessione,umore,emozioni,abitudini,crescita,stress,ansia,errori,resilienza,autostima,mindfulness
+
+### 프로모션 텍스트
+
+Un passo falso non significa essere caduti nel ruscello. Ripensa ai giorni andati storti con un sassolino che parla per primo e si ricorda le tue parole.
+
+### 설명
+
+Un passo falso non significa essere caduti nel ruscello. ZinggumDol è un diario gentile per i giorni che non sono andati come volevi: parli con un sassolino e ripensi con calma a ciò che è successo.
+
+Il sassolino parla per primo. Ricorda quello che gli hai raccontato l’ultima volta e chiede: «E poi, com’è andata?» Scegli una risposta o scrivi la tua. Restano annotati ciò che è successo, come ti sentivi e cosa vuoi provare dopo.
+
+Parla con il sassolino
+Stabilisci un obiettivo e il sassolino terrà d’occhio dove sei arrivato e cosa ti ostacola. Se un giorno salta, ti chiede «Cosa ti ha ostacolato?», non «Cosa hai sbagliato?».
+
+Dillo a voce
+Nei giorni in cui scrivere pesa, basta parlare. Il riconoscimento vocale avviene sul tuo dispositivo e la registrazione non viene salvata. Sui dispositivi compatibili, ciò che dici viene anche riordinato per leggersi meglio.
+
+Strada percorsa
+Ogni settimana si dispone come una fila di pietre per attraversare il ruscello. Anche i giorni in cui non hai messo piede restano lì: niente viene cancellato.
+
+Quello che hai lasciato
+Rivedi per data cosa è successo, come ti sentivi e cosa volevi provare dopo.
+
+Widget e promemoria
+Una frase del sassolino nella schermata Home e un promemoria delicato all’ora che scegli, per guardare insieme com’è andata la giornata.
+
+Solo tuo
+Nessuna registrazione, nessuna pubblicità. Le tue note restano solo sul tuo dispositivo e nel tuo iCloud, e puoi bloccare l’app con un codice. Ciò che scrivi non viene mai inviato allo sviluppatore.
+
+ZINGGUMDOL PRO
+La versione gratuita permette fino a tre obiettivi. Con un acquisto singolo (non è un abbonamento) annoti obiettivi senza limiti, scegli tra sei finiture di sassolino ed esporti le note in un file di testo.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/it/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/it/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/it/

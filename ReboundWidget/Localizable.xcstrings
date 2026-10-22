@@ -33,6 +33,12 @@
             "value" : "Galet de rivière"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sasso di fiume"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -89,6 +95,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À vos côtés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al tuo fianco"
           }
         },
         "ja" : {
@@ -149,6 +161,12 @@
             "value" : "Heureux"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -205,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pierre du crépuscule"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pietra del tramonto"
           }
         },
         "ja" : {
@@ -265,6 +289,12 @@
             "value" : "J’écoute"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascolto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -321,6 +351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pierre d’encre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pietra d’inchiostro"
           }
         },
         "ja" : {
@@ -381,6 +417,12 @@
             "value" : "Grain de sable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Granello di sabbia"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -437,6 +479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je réfléchis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sto pensando"
           }
         },
         "ja" : {
@@ -497,6 +545,12 @@
             "value" : "Je suis là."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono qui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -553,6 +607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aller noter aujourd’hui"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vai ad annotare oggi"
           }
         },
         "ja" : {
@@ -613,6 +673,12 @@
             "value" : "Pierre moussue"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pietra muschiosa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -669,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coquillage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conchiglia"
           }
         },
         "ja" : {
@@ -729,6 +801,12 @@
             "value" : "Galet"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sassolino"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -787,6 +865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un mot du galet. Touchez pour noter aujourd’hui."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una frase dal sassolino. Tocca per annotare oggi."
           }
         },
         "ja" : {
@@ -850,6 +934,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

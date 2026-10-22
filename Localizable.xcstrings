@@ -33,6 +33,12 @@
             "value" : "  Humeur : %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Umore: %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -89,6 +95,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Prochaine étape : %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Prossimo passo: %@"
           }
         },
         "ja" : {
@@ -149,6 +161,12 @@
             "value" : "  Ce qui s’est passé : %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Cosa è successo: %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -205,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qu’est-ce qui t’a retenu avec « %@ » ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa ti ha ostacolato con «%@»?"
           }
         },
         "ja" : {
@@ -271,6 +295,12 @@
             "value" : "Qu’est-ce qui vous a retenu avec « %@ » ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa l’ha ostacolata con «%@»?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -333,6 +363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il s’est écoulé %2$lld jours depuis notre échange sur « %1$@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono passati %2$lld giorni da quando abbiamo parlato di «%1$@»."
           }
         },
         "ja" : {
@@ -399,6 +435,12 @@
             "value" : "Il s’est écoulé %2$lld jours depuis notre échange sur « %1$@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono passati %2$lld giorni da quando abbiamo parlato di «%1$@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -461,6 +503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %@ » : rien pour l’instant aujourd’hui."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@»: oggi ancora niente."
           }
         },
         "ja" : {
@@ -527,6 +575,12 @@
             "value" : "« %@ » : rien pour l’instant aujourd’hui."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@»: oggi ancora niente."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -589,6 +643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ c’est silencieux depuis %3$lld jours."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ è tutto silenzioso da %3$lld giorni."
           }
         },
         "ja" : {
@@ -655,6 +715,12 @@
             "value" : "« %1$@ »%2$@ c’est silencieux depuis %3$lld jours."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ è tutto silenzioso da %3$lld giorni."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -717,6 +783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu n’y as pas jeté un œil depuis %3$lld jours."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sono passati %3$lld giorni dall’ultima volta che ci hai dato un’occhiata."
           }
         },
         "ja" : {
@@ -783,6 +855,12 @@
             "value" : "« %1$@ »%2$@ vous n’y avez pas jeté un œil depuis %3$lld jours."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ sono passati %3$lld giorni dall’ultima volta che ci ha dato un’occhiata."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -845,6 +923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu n’y es pas encore arrivé aujourd’hui."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ oggi non ci sei ancora arrivato."
           }
         },
         "ja" : {
@@ -911,6 +995,12 @@
             "value" : "« %1$@ »%2$@ vous n’y êtes pas encore arrivé aujourd’hui."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ oggi non ci è ancora arrivato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -973,6 +1063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu l’as noté, mais tu n’y es pas encore revenu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ l’hai annotato, ma non ci sei ancora tornato."
           }
         },
         "ja" : {
@@ -1039,6 +1135,12 @@
             "value" : "« %1$@ »%2$@ vous l’avez noté, mais vous n’y êtes pas encore revenu."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ l’ha annotato, ma non ci è ancora tornato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1101,6 +1203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ tu l’as seulement noté, et c’est tout pour l’instant."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ l’hai solo annotato, e per ora finisce lì."
           }
         },
         "ja" : {
@@ -1167,6 +1275,12 @@
             "value" : "« %1$@ »%2$@ vous l’avez seulement noté, et c’est tout pour l’instant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ l’ha solo annotato, e per ora finisce lì."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1229,6 +1343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ depuis que tu l’as noté, c’est resté silencieux."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ da quando l’hai annotato, tutto tace."
           }
         },
         "ja" : {
@@ -1295,6 +1415,12 @@
             "value" : "« %1$@ »%2$@ depuis que vous l’avez noté, c’est resté silencieux."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ da quando l’ha annotato, tutto tace."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1357,6 +1483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %1$@ »%2$@ revenons au moment où tu voulais t’y mettre. Qu’est-ce qui a coincé ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ torniamo a quando stavi per farlo. Cosa si è inceppato?"
           }
         },
         "ja" : {
@@ -1423,6 +1555,12 @@
             "value" : "« %1$@ »%2$@ revenons au moment où vous vouliez vous y mettre. Qu’est-ce qui a coincé ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ torniamo a quando stava per farlo. Cosa si è inceppato?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1485,6 +1623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avec « %1$@ », tu es allé jusqu’à %2$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con «%1$@» sei arrivato fino a %2$@."
           }
         },
         "ja" : {
@@ -1551,6 +1695,12 @@
             "value" : "Avec « %1$@ », vous êtes allé jusqu’à %2$@."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con «%1$@» è arrivato fino a %2$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1613,6 +1763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est le jour où tu as atteint « %@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È stato il giorno in cui sei arrivato a «%@»."
           }
         },
         "ja" : {
@@ -1679,6 +1835,12 @@
             "value" : "C’est le jour où vous avez atteint « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È stato il giorno in cui è arrivato a «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1743,6 +1905,12 @@
             "value" : "À propos de « %1$@ », %2$@ tu as écrit : « %3$@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su «%1$@» %2$@ hai scritto: «%3$@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1805,6 +1973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À propos de « %1$@ », %2$@ vous avez écrit : « %3$@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su «%1$@» %2$@ ha scritto: «%3$@»."
           }
         },
         "ja" : {
@@ -1873,6 +2047,12 @@
             "value" : "Lâchez un objectif dans « Chemin parcouru » pour pouvoir en écrire un nouveau."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia andare un obiettivo in «Strada percorsa» e potrai scriverne uno nuovo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1929,6 +2109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nCe qui t’a retenu : « %2$@ »,\net tu te sens « %3$@ »%4$@ en ce moment.\n\n%5$@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nCi si è messo di mezzo «%2$@»,\ne ora ti senti «%3$@»%4$@.\n\n%5$@"
           }
         },
         "ja" : {
@@ -1995,6 +2181,12 @@
             "value" : "%1$@ En parlant de « %2$@ », tu as laissé : « %3$@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Parlando di «%2$@», hai lasciato scritto: «%3$@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2057,6 +2249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ En parlant de « %2$@ », vous avez laissé : « %3$@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Parlando di «%2$@», ha lasciato scritto: «%3$@»."
           }
         },
         "ja" : {
@@ -2123,6 +2321,12 @@
             "value" : "%1$@ À propos de « %2$@ »%3$@ vous avez dit : « %4$@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Su «%2$@»%3$@ ha detto: «%4$@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2185,6 +2389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ À propos de « %2$@ »%3$@ tu as dit : « %4$@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Su «%2$@»%3$@ hai detto: «%4$@»."
           }
         },
         "ja" : {
@@ -2251,6 +2461,12 @@
             "value" : "%1$@ Vous avez dit que « %2$@ »%3$@ coinçait."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ha detto che «%2$@»%3$@ si era inceppato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2313,6 +2529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Tu as dit que « %2$@ »%3$@ coinçait."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Hai detto che «%2$@»%3$@ si era inceppato."
           }
         },
         "ja" : {
@@ -2379,6 +2601,12 @@
             "value" : "%1$@ Vous avez réussi « %2$@ »%3$@."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ce l’ha fatta con «%2$@»%3$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2441,6 +2669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Tu as réussi « %2$@ »%3$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ce l’hai fatta con «%2$@»%3$@."
           }
         },
         "ja" : {
@@ -2507,6 +2741,12 @@
             "value" : "%1$@ tu as atteint « %2$@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ sei arrivato a «%2$@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2569,6 +2809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ vous avez atteint « %2$@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ è arrivato a «%2$@»."
           }
         },
         "ja" : {
@@ -2635,6 +2881,12 @@
             "value" : "%1$@ tu as noté que « %2$@ » t’avait retenu."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ hai annotato che «%2$@» ti aveva ostacolato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2697,6 +2949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ vous avez noté que « %2$@ » vous avait retenu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ha annotato che «%2$@» l’aveva ostacolato."
           }
         },
         "ja" : {
@@ -2763,6 +3021,12 @@
             "value" : "Semaine du %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settimana del %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2825,6 +3089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, jour avec une note"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, giorno con una nota"
           }
         },
         "ja" : {
@@ -2891,6 +3161,12 @@
             "value" : "%@, aucune note"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, nessuna nota"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2953,6 +3229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, jour où l’objectif a été atteint"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, giorno in cui hai raggiunto l’obiettivo"
           }
         },
         "ja" : {
@@ -3019,6 +3301,12 @@
             "value" : "%@, jour pas encore arrivé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, giorno non ancora arrivato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3081,6 +3369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Vous avez bien réussi « %2$@ »%3$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ce l’ha fatta con «%2$@»%3$@."
           }
         },
         "ja" : {
@@ -3147,6 +3441,12 @@
             "value" : "%1$@ Tu as bien réussi « %2$@ »%3$@."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ce l’hai fatta con «%2$@»%3$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3209,6 +3509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ vous avez réussi « %2$@ »%3$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ce l’ha fatta con «%2$@»%3$@."
           }
         },
         "ja" : {
@@ -3275,6 +3581,12 @@
             "value" : "%1$@ tu as réussi « %2$@ »%3$@."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ce l’hai fatta con «%2$@»%3$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3337,6 +3649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ tu as atteint « %2$@ »,"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ sei arrivato a «%2$@»,"
           }
         },
         "ja" : {
@@ -3403,6 +3721,12 @@
             "value" : "%1$@ vous avez atteint « %2$@ »,"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ è arrivato a «%2$@»,"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3467,6 +3791,12 @@
             "value" : "%lld"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3526,6 +3856,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld/%1$lld"
@@ -3662,6 +3998,30 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Il y a %lld jours"
+                }
+              }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld giorno fa"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld giorni fa"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld giorni fa"
                 }
               }
             }
@@ -3845,6 +4205,30 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Annotato %lld giorno fa"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Annotato %lld giorni fa"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Annotato %lld giorni fa"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "variations" : {
             "plural" : {
@@ -4023,6 +4407,30 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Annotato %lld settimana fa"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Annotato %lld settimane fa"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Annotato %lld settimane fa"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "variations" : {
             "plural" : {
@@ -4129,6 +4537,12 @@
             "value" : "|"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4195,6 +4609,12 @@
             "value" : "Un peu abattu"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un po’ giù"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4257,6 +4677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencer par un léger étirement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniziare con un leggero stretching"
           }
         },
         "ja" : {
@@ -4323,6 +4749,12 @@
             "value" : "Reconnaissant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4387,6 +4819,12 @@
             "value" : "Galet de rivière"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sasso di fiume"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4443,6 +4881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un objectif porte déjà ce nom"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esiste già un obiettivo con questo nome"
           }
         },
         "ja" : {
@@ -4503,6 +4947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour le développeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per lo sviluppo"
           }
         },
         "ja" : {
@@ -4569,6 +5019,12 @@
             "value" : "Écrire au développeur"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi allo sviluppatore"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4633,6 +5089,12 @@
             "value" : "Cinq autres galets, comme ramassés au bord du ruisseau, se débloquent."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si sbloccano altre cinque pietre, come raccolte in riva al ruscello."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4689,6 +5151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Politique de confidentialité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informativa sulla privacy"
           }
         },
         "ja" : {
@@ -4755,6 +5223,12 @@
             "value" : "Santé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salute"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4819,6 +5293,12 @@
             "value" : "À vos côtés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al tuo fianco"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4881,6 +5361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modifier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica"
           }
         },
         "ja" : {
@@ -4949,6 +5435,12 @@
             "value" : "Ça va"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bene"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5015,6 +5507,12 @@
             "value" : "Ce n’est pas grave. Ça n’avait simplement pas sauté aux yeux."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non fa niente. Semplicemente non era saltato all’occhio."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5077,6 +5575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tourmenté"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tormentato"
           }
         },
         "ja" : {
@@ -5143,6 +5647,12 @@
             "value" : "Restaurer les achats"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina acquisti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5199,6 +5709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vie régulière"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vita regolare"
           }
         },
         "ja" : {
@@ -5267,6 +5783,12 @@
             "value" : "Et ensuite, comment ça s’est passé ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E poi, com’è andata?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5331,6 +5853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’était la situation. Et maintenant, comment vous sentez-vous ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quella era la situazione. E ora come ti senti?"
           }
         },
         "ja" : {
@@ -5399,6 +5927,12 @@
             "value" : "Comment ça s’est terminé ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com’è andata a finire?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5463,6 +5997,12 @@
             "value" : "Comment s’est passée cette journée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com’è andata quella giornata"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5521,6 +6061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je laisse comme ça"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascio così"
           }
         },
         "ja" : {
@@ -5587,6 +6133,12 @@
             "value" : "À ce moment-là, vous aviez dit vouloir essayer « %1$@ ».%2$@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora aveva detto di voler provare «%1$@».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5649,6 +6201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À ce moment-là, tu avais dit vouloir essayer « %1$@ ».%2$@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora avevi detto di voler provare «%1$@».%2$@"
           }
         },
         "ja" : {
@@ -5715,6 +6273,12 @@
             "value" : "Humeur à l’époque"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come ti sentivi allora"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5773,6 +6337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Que s’est-il passé à ce moment-là ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cos’è successo allora?"
           }
         },
         "ja" : {
@@ -5841,6 +6411,12 @@
             "value" : "Parler de ce moment"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlare di quel momento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5905,6 +6481,12 @@
             "value" : "À ce moment-là, vous aviez dit : « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora aveva detto: «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5967,6 +6549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À ce moment-là, tu avais dit : « %@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora avevi detto: «%@»."
           }
         },
         "ja" : {
@@ -6035,6 +6623,12 @@
             "value" : "D’accord. On en reparlera une autre fois."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D’accordo. Ne parliamo un’altra volta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6099,6 +6693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est bien ça"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È andata così"
           }
         },
         "ja" : {
@@ -6167,6 +6767,12 @@
             "value" : "Ça arrive. Oublier ne fait pas disparaître les choses."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Può capitare. Dimenticare non fa sparire le cose."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6233,6 +6839,12 @@
             "value" : "Ça arrive. Ce qui est oublié est oublié."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Può capitare. Quel che è dimenticato è dimenticato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6297,6 +6909,12 @@
             "value" : "Alors, pour avancer vers « %1$@ »%2$@ quelle chose assez petite pourrais-tu faire dès demain ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora, verso «%1$@»%2$@ quale piccola cosa potresti fare già domani?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6359,6 +6977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alors, pour avancer vers « %1$@ »%2$@ quelle chose assez petite pourriez-vous faire dès demain ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora, verso «%1$@»%2$@ quale piccola cosa potrebbe fare già domani?"
           }
         },
         "ja" : {
@@ -6427,6 +7051,12 @@
             "value" : "Alors parlons-en."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora parliamone."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6491,6 +7121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alors c’est réglé. Je le note tout de suite."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora è chiusa. La annoto subito."
           }
         },
         "ja" : {
@@ -6559,6 +7195,12 @@
             "value" : "Alors je vais le clore."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allora la chiudo qui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6625,6 +7267,12 @@
             "value" : "Et si on faisait ainsi : en le rendant assez petit pour le réussir dès demain, ce serait quoi ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E se la rendessi così piccola da riuscire a farla già domani, cosa sarebbe?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6687,6 +7335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrêter la lecture"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interrompi la lettura"
           }
         },
         "ja" : {
@@ -6755,6 +7409,12 @@
             "value" : "Bof"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Così così"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6817,6 +7477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impatient"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Curioso"
           }
         },
         "ja" : {
@@ -6883,6 +7549,12 @@
             "value" : "Notes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6939,6 +7611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporter les notes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esporta note"
           }
         },
         "ja" : {
@@ -6999,6 +7677,12 @@
             "value" : "Impossible d’exporter vos notes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile esportare le note"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7055,6 +7739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De bonne humeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di buon umore"
           }
         },
         "ja" : {
@@ -7121,6 +7811,12 @@
             "value" : "Heureux"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7183,6 +7879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horrible"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terribile"
           }
         },
         "ja" : {
@@ -7251,6 +7953,12 @@
             "value" : "Le reste n’est pas pressé."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per il resto non c’è fretta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7315,6 +8023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On met le reste de côté et on ne regarde que ça."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mettiamo da parte il resto e guardiamo solo questo."
           }
         },
         "ja" : {
@@ -7383,6 +8097,12 @@
             "value" : "Le reste peut se voir tranquillement."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il resto lo si può guardare con calma."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7449,6 +8169,12 @@
             "value" : "C’est gardé. Pour ne pas oublier ce qui a marché."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvato, così non si dimentica ciò che ha funzionato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7511,6 +8237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce que vous avez laissé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quello che hai lasciato"
           }
         },
         "ja" : {
@@ -7579,6 +8311,12 @@
             "value" : "Les notes laissées sont conservées. Seul l’objectif disparaît de la liste."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le note lasciate restano. Esce solo dall’elenco."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7637,6 +8375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun mot laissé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna parola lasciata."
           }
         },
         "ja" : {
@@ -7703,6 +8447,12 @@
             "value" : "Mes objectifs"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I miei obiettivi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7759,6 +8509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir mon galet"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli il mio sassolino"
           }
         },
         "ja" : {
@@ -7819,6 +8575,12 @@
             "value" : "Lâcher"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia andare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7875,6 +8637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporté le : %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esportato il: %@"
           }
         },
         "ja" : {
@@ -7935,6 +8703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si demain vous ne faisiez qu’une seule chose, ce serait quoi ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se domani facessi una sola cosa, quale sarebbe?"
           }
         },
         "ja" : {
@@ -7999,6 +8773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Froid"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Freddo"
           }
         },
         "ja" : {
@@ -8067,6 +8847,12 @@
             "value" : "Oui"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8131,6 +8917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oui, je laisse comme ça."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì, lascio così."
           }
         },
         "ja" : {
@@ -8199,6 +8991,12 @@
             "value" : "Oui, je laisse comme ça. Je suis là."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì, lascio così. Sono qui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8265,6 +9063,12 @@
             "value" : "Très bien, on en reparle une autre fois."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Va bene, ne parliamo un’altra volta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8329,6 +9133,12 @@
             "value" : "Pierre du crépuscule"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pietra del tramonto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8387,6 +9197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On laisse le reste et on ne regarde que ça ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lasciamo stare il resto e guardiamo solo questo?"
           }
         },
         "ja" : {
@@ -8455,6 +9271,12 @@
             "value" : "Le reste, tranquillement."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il resto con calma."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8517,6 +9339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
           }
         },
         "ja" : {
@@ -8585,6 +9413,12 @@
             "value" : "Je le note pour pouvoir m’en servir une prochaine fois."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La annoto, così potrò riusarla la prossima volta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8649,6 +9483,12 @@
             "value" : "Ce que vous essaierez ensuite"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa proverai poi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8705,6 +9545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Régime"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieta"
           }
         },
         "ja" : {
@@ -8769,6 +9615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
           }
         },
         "ja" : {
@@ -8837,6 +9689,12 @@
             "value" : "Seul « atteint » a été noté."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È rimasto annotato solo «arrivato»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8901,6 +9759,12 @@
             "value" : "Atteint"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono arrivato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8959,6 +9823,12 @@
             "value" : "Pas atteint"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non sono arrivato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9015,6 +9885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prendre l’habitude de lire"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prendere l’abitudine di leggere"
           }
         },
         "ja" : {
@@ -9079,6 +9955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lire"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leggere"
           }
         },
         "ja" : {
@@ -9147,6 +10029,12 @@
             "value" : "J’écoute"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascolto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9211,6 +10099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rien de particulier à dire. Je suis juste là."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non c’è molto da dire. Sono semplicemente qui."
           }
         },
         "ja" : {
@@ -9279,6 +10173,12 @@
             "value" : "Si rien ne vient, vous pouvez laisser vide. On cherchera ensemble plus tard."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se non ti viene in mente niente, puoi lasciarlo vuoto. Lo cerchiamo insieme più tardi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9341,6 +10241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le micro n’est pas disponible. Vous pouvez aussi écrire."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il microfono non è disponibile. Puoi anche scrivere."
           }
         },
         "ja" : {
@@ -9407,6 +10313,12 @@
             "value" : "Satisfait"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appagato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9469,6 +10381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Content"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soddisfatto"
           }
         },
         "ja" : {
@@ -9537,6 +10455,12 @@
             "value" : "Très difficile"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Molto dura"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9601,6 +10525,12 @@
             "value" : "Répondre à voix haute"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rispondi a voce"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9663,6 +10593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ton"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tono"
           }
         },
         "ja" : {
@@ -9731,6 +10667,12 @@
             "value" : "Vous pouvez choisir le ton"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi scegliere il tono"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9795,6 +10737,12 @@
             "value" : "Son pendant la parole"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suono mentre parla"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9857,6 +10805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibration pendant la parole"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibrazione mentre parla"
           }
         },
         "ja" : {
@@ -9925,6 +10879,12 @@
             "value" : "C’est ça"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proprio così"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9991,6 +10951,12 @@
             "value" : "Oui, je ne l’ai pas fait"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sì, non l’ho fatto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10053,6 +11019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écouter 10 minutes d’un podcast en anglais par jour"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascoltare 10 minuti di podcast in inglese al giorno"
           }
         },
         "ja" : {
@@ -10119,6 +11091,12 @@
             "value" : "Rappel quotidien"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promemoria giornaliero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10183,6 +11161,12 @@
             "value" : "Pierre d’encre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pietra d’inchiostro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10241,6 +11225,12 @@
             "value" : "Exporter d’abord"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima esporta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10297,6 +11287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il y a quelques jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualche giorno fa"
           }
         },
         "ja" : {
@@ -10363,6 +11359,12 @@
             "value" : "Il y a quelques jours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualche giorno fa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10427,6 +11429,12 @@
             "value" : "Tout effacer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10483,6 +11491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout a été effacé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto cancellato."
           }
         },
         "ja" : {
@@ -10543,6 +11557,12 @@
             "value" : "Effacer toutes les notes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutte le note"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10599,6 +11619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer toutes les notes ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancellare tutte le note?"
           }
         },
         "ja" : {
@@ -10659,6 +11685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer toutes les données"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina tutti i dati"
           }
         },
         "ja" : {
@@ -10725,6 +11757,12 @@
             "value" : "Grain de sable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Granello di sabbia"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10783,6 +11821,12 @@
             "value" : "Objectif"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obiettivo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10839,6 +11883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter un objectif"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi obiettivo"
           }
         },
         "ja" : {
@@ -10905,6 +11955,12 @@
             "value" : "Noter un objectif"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota un obiettivo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10961,6 +12017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez autant d’objectifs que vous voulez"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota obiettivi senza limiti"
           }
         },
         "ja" : {
@@ -11021,6 +12083,12 @@
             "value" : "Autant d’objectifs que vous voulez"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutti gli obiettivi che vuoi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11077,6 +12145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez des objectifs sans limite, choisissez votre galet et conservez vos notes dans un fichier. Un seul achat, pour toujours."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota obiettivi senza limiti, scegli il tuo sassolino e conserva le note in un file. Si compra una volta e si usa per sempre."
           }
         },
         "ja" : {
@@ -11137,6 +12211,12 @@
             "value" : "Tous vos objectifs et notes disparaîtront et ne pourront pas être restaurés. Ils seront aussi supprimés sur vos autres appareils reliés par iCloud. Les réglages et les achats sont conservés."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutti i tuoi obiettivi e le tue note spariranno e non potranno essere recuperati. Verranno eliminati anche sugli altri dispositivi collegati tramite iCloud. Impostazioni e acquisti restano."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11193,6 +12273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Engourdi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insensibile"
           }
         },
         "ja" : {
@@ -11259,6 +12345,12 @@
             "value" : "Indifférent"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indifferente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11321,6 +12413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passable"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nella media"
           }
         },
         "ja" : {
@@ -11387,6 +12485,12 @@
             "value" : "Impuissant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impotente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11451,6 +12555,12 @@
             "value" : "Ce qui était gratuit le reste, et d’autres choses s’ajoutent."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciò che era gratuito resta tale, e se ne sblocca dell’altro."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11511,6 +12621,12 @@
             "value" : "La version gratuite permet trois objectifs. Voici le troisième."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La versione gratuita permette fino a tre obiettivi. Questo è il terzo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11567,6 +12683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effrayé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spaventato"
           }
         },
         "ja" : {
@@ -11633,6 +12755,12 @@
             "value" : "Que s’est-il passé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa è successo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11691,6 +12819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Raconter ce qui s’est passé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raccontare cosa è successo"
           }
         },
         "ja" : {
@@ -11759,6 +12893,12 @@
             "value" : "Je regarde d’abord où vous en êtes arrivé et ce qui vous a retenu, puis je vous parle."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarderò io per primo dove sei arrivato e cosa ti ha ostacolato, e poi ti parlerò."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11823,6 +12963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je ne sais pas encore vers quoi vous allez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non so ancora verso cosa stai andando."
           }
         },
         "ja" : {
@@ -11891,6 +13037,12 @@
             "value" : "Vers quoi allez-vous ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verso cosa stai andando?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11955,6 +13107,12 @@
             "value" : "Impassible"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inespressivo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12017,6 +13175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boire beaucoup d’eau et me coucher tôt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bere molta acqua e andare a letto presto"
           }
         },
         "ja" : {
@@ -12085,6 +13249,12 @@
             "value" : "Qu’est-ce qui a aidé ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa ti ha aiutato?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12149,6 +13319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noter ce qui a marché"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotare cosa ha funzionato"
           }
         },
         "ja" : {
@@ -12217,6 +13393,12 @@
             "value" : "Qu’est-ce qui a marché ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa ha funzionato?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12283,6 +13465,12 @@
             "value" : "Faites glisser ou appuyez longuement sur un objectif pour le renommer ou le lâcher."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scorri o tieni premuto un obiettivo per rinominarlo o lasciarlo andare."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12339,6 +13527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mettre un réveil à 23 h et ranger le téléphone loin de moi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostare la sveglia alle 23 e tenere il telefono lontano"
           }
         },
         "ja" : {
@@ -12405,6 +13599,12 @@
             "value" : "Ordinaire"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normale"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12467,6 +13667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En colère"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrabbiato"
           }
         },
         "ja" : {
@@ -12533,6 +13739,12 @@
             "value" : "Insatisfait"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insoddisfatto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12595,6 +13807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inquiet"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inquieto"
           }
         },
         "ja" : {
@@ -12661,6 +13879,12 @@
             "value" : "Supprimer le code"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina codice"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12723,6 +13947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Définir un code"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imposta codice"
           }
         },
         "ja" : {
@@ -12789,6 +14019,12 @@
             "value" : "Saisir le code"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci il codice"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12851,6 +14087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirmer le code"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conferma il codice"
           }
         },
         "ja" : {
@@ -12917,6 +14159,12 @@
             "value" : "Misérable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affranto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12979,6 +14227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fier de soi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orgoglioso di sé"
           }
         },
         "ja" : {
@@ -13045,6 +14299,12 @@
             "value" : "Statistiques d’utilisation"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiche di utilizzo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13101,6 +14361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statistiques d’utilisation (développeur)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiche di utilizzo (sviluppatore)"
           }
         },
         "ja" : {
@@ -13165,6 +14431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Revigoré"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rinfrescato"
           }
         },
         "ja" : {
@@ -13233,6 +14505,12 @@
             "value" : "J’ai compris la situation. Et comment vous sentez-vous maintenant ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La situazione mi è chiara. E ora come ti senti?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13297,6 +14575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est la situation qui est bloquée, pas vous qui êtes en cause."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A essersi bloccata è la situazione, non sei tu il problema."
           }
         },
         "ja" : {
@@ -13365,6 +14649,12 @@
             "value" : "Créer des données d’exemple"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea dati di esempio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13427,6 +14717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je réfléchis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sto pensando"
           }
         },
         "ja" : {
@@ -13493,6 +14789,12 @@
             "value" : "Enthousiaste"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emozionato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13555,6 +14857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
           }
         },
         "ja" : {
@@ -13621,6 +14929,12 @@
             "value" : "Activez Apple Intelligence dans « Réglages » et je pourrai mieux mettre en forme ce que vous dites."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attiva Apple Intelligence in «Impostazioni» e potrò riordinare meglio ciò che dici."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13685,6 +14999,12 @@
             "value" : "Passez le mot"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spargi la voce"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13744,6 +15064,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Triste"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Triste"
@@ -13813,6 +15139,12 @@
             "value" : "Heure"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ora"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13875,6 +15207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entusiasta"
           }
         },
         "ja" : {
@@ -13941,6 +15279,12 @@
             "value" : "Déçu"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deluso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14005,6 +15349,12 @@
             "value" : "Caresser"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accarezza"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14061,6 +15411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seul"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo"
           }
         },
         "ja" : {
@@ -14127,6 +15483,12 @@
             "value" : "Nostalgique"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dispiaciuto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14189,6 +15551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune note pour l’instant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna nota"
           }
         },
         "ja" : {
@@ -14257,6 +15625,12 @@
             "value" : "Vous n’avez encore rien laissé."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non hai ancora lasciato nulla."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14321,6 +15695,12 @@
             "value" : "Aucune note pour l’instant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna nota."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14379,6 +15759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune histoire laissée pour l’instant."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna storia lasciata."
           }
         },
         "ja" : {
@@ -14447,6 +15833,12 @@
             "value" : "Je ne sais pas encore où vous allez."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non so ancora dove stai andando."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14513,6 +15905,12 @@
             "value" : "Aucune direction pour l’instant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna direzione."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14575,6 +15973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Me lever tôt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alzarsi presto"
           }
         },
         "ja" : {
@@ -14641,6 +16045,12 @@
             "value" : "Je me suis levé tôt et j’ai bien rempli ma journée !"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi sono alzato presto e ho sfruttato bene la giornata!"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14703,6 +16113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je n’ai pas réussi à me lever ce matin et j’ai fait la grasse matinée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non sono riuscito ad alzarmi e ho dormito troppo."
           }
         },
         "ja" : {
@@ -14771,6 +16187,12 @@
             "value" : "Bonjour. Je suis ZinggumDol."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciao. Sono ZinggumDol."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14837,6 +16259,12 @@
             "value" : "D’accord. Je suis là."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D’accordo. Sono qui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14899,6 +16327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activer les rappels"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attiva promemoria"
           }
         },
         "ja" : {
@@ -14965,6 +16399,12 @@
             "value" : "En savoir plus"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scopri di più"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15021,6 +16461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager l’app"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi l’app"
           }
         },
         "ja" : {
@@ -15087,6 +16533,12 @@
             "value" : "Code de l’app"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codice dell’app"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15151,6 +16603,12 @@
             "value" : "Seuls sont envoyés les jours où vous avez ouvert l’app ou terminé une conversation, le type d’actions comme la création d’un objectif, le nombre de notes et d’objectifs, et si vous avez consulté l’écran d’achat. Pas un seul mot de ce que vous écrivez ne sort, et l’expéditeur n’est distingué que par un numéro aléatoire créé sur cet appareil."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vengono inviati solo i giorni in cui hai aperto l’app o concluso una conversazione, il tipo di azioni come la creazione di un obiettivo, il numero di note e obiettivi e se hai visto la schermata di acquisto. Di ciò che scrivi non esce nemmeno una lettera, e chi invia è distinto solo da un numero casuale creato su questo dispositivo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15207,6 +16665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ne pas grignoter la nuit"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resistere agli spuntini notturni"
           }
         },
         "ja" : {
@@ -15271,6 +16735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je n’ai pas su résister à un en-cas nocturne. J’avais faim et j’ai mangé des nouilles."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non ho resistito allo spuntino notturno. Avevo fame e ho mangiato dei noodle."
           }
         },
         "ja" : {
@@ -15339,6 +16809,12 @@
             "value" : "Noter comment ça s’est passé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotare com’è andata"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15401,6 +16877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout en désordre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confuso"
           }
         },
         "ja" : {
@@ -15467,6 +16949,12 @@
             "value" : "Hier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ieri"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15529,6 +17017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noté hier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato ieri"
           }
         },
         "ja" : {
@@ -15597,6 +17091,12 @@
             "value" : "Vous pouvez le changer à tout moment. Ensuite, le galet vous saluera à nouveau avec ce ton."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi cambiarlo quando vuoi. Poi il sassolino ti saluterà di nuovo con quel tono."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15659,6 +17159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il y a peu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poco fa"
           }
         },
         "ja" : {
@@ -15725,6 +17231,12 @@
             "value" : "Il y a peu"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poco tempo fa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15787,6 +17299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je suis là."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono qui."
           }
         },
         "ja" : {
@@ -15855,6 +17373,12 @@
             "value" : "On s’arrête là pour aujourd’hui.\nLes plans faits un jour de fatigue marchent rarement.\nC’est gardé, ne vous inquiétez pas."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermiamoci qui per oggi.\nI piani fatti nei giorni di stanchezza di solito non funzionano.\nÈ salvato, tranquillo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15919,6 +17443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jusqu’ici, c’était ce qui s’est passé. Et que ressentez-vous maintenant ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fin qui era ciò che è successo. E ora come ti senti?"
           }
         },
         "ja" : {
@@ -15987,6 +17517,12 @@
             "value" : "Commencer à partir d’ici"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partire da qui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16049,6 +17585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passionné"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appassionato"
           }
         },
         "ja" : {
@@ -16115,6 +17657,12 @@
             "value" : "Je voulais étudier l’anglais, mais j’ai remis ça à plus tard."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volevo studiare inglese, ma ho rimandato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16177,6 +17725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Étudier l’anglais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studiare inglese"
           }
         },
         "ja" : {
@@ -16243,6 +17797,12 @@
             "value" : "Progresser en anglais"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Migliorare l’inglese"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16305,6 +17865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je suis allé au travail en écoutant un podcast en anglais ! C’était plus amusant que prévu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono andato al lavoro ascoltando un podcast in inglese! È stato più divertente del previsto."
           }
         },
         "ja" : {
@@ -16371,6 +17937,12 @@
             "value" : "Aujourd’hui"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16433,6 +18005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, « %@ » : vous l’avez fait."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi «%@»: ce l’ha fatta."
           }
         },
         "ja" : {
@@ -16499,6 +18077,12 @@
             "value" : "Aujourd’hui, « %@ » : tu l’as fait."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi «%@»: ce l’hai fatta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16561,6 +18145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, pas encore de nouvelles de « %1$@ ».%2$@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi non ci sono ancora notizie di «%1$@».%2$@"
           }
         },
         "ja" : {
@@ -16627,6 +18217,12 @@
             "value" : "Aujourd’hui, pas encore de nouvelles de « %1$@ ».%2$@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi non ci sono ancora notizie di «%1$@».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16691,6 +18287,12 @@
             "value" : "Aujourd’hui, tu as atteint « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi sei arrivato a «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16753,6 +18355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, vous avez atteint « %@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi è arrivato a «%@»."
           }
         },
         "ja" : {
@@ -16821,6 +18429,12 @@
             "value" : "Aller noter aujourd’hui"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vai ad annotare oggi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16885,6 +18499,12 @@
             "value" : "Noté aujourd’hui"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato oggi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16947,6 +18567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On regarde ensemble comment s’est passée la journée ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vediamo insieme com’è andata oggi?"
           }
         },
         "ja" : {
@@ -17015,6 +18641,12 @@
             "value" : "Aujourd’hui, je reste simplement à vos côtés."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi resto semplicemente al tuo fianco."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17079,6 +18711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On s’arrête là pour aujourd’hui.\nSe reposer vaut mieux que chercher une réponse.\nC’est noté, ça ne disparaîtra pas."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermiamoci qui per oggi.\nOra riposare conta più che trovare una risposta.\nÈ annotato, non va perso."
           }
         },
         "ja" : {
@@ -17147,6 +18785,12 @@
             "value" : "Arrêtons-nous ici aujourd’hui.\nInutile de forcer une réponse maintenant.\nC’est enregistré, on le regardera ensemble la prochaine fois."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermiamoci qui per oggi.\nOra non serve forzare una risposta.\nÈ salvato, lo guardiamo insieme la prossima volta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17211,6 +18855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aujourd’hui, une seule chose suffit."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per oggi basta questa sola cosa."
           }
         },
         "ja" : {
@@ -17279,6 +18929,12 @@
             "value" : "Aujourd’hui, je reste silencieux."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi sto in silenzio."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17341,6 +18997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noté il y a longtemps"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato molto tempo fa"
           }
         },
         "ja" : {
@@ -17407,6 +19069,12 @@
             "value" : "Courageux"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coraggioso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17469,6 +19137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faire du sport"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fare attività fisica"
           }
         },
         "ja" : {
@@ -17535,6 +19209,12 @@
             "value" : "Je suis allé faire du sport, mais j’ai abandonné en route et je suis rentré."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono andato ad allenarmi, ma ho mollato a metà e sono tornato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17599,6 +19279,12 @@
             "value" : "Motivé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motivato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17661,6 +19347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La mise en forme n’est pas disponible sur cet appareil. Je note tel que j’entends."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su questo dispositivo la funzione di riordino non è disponibile. Annoto come sento."
           }
         },
         "ja" : {
@@ -17729,6 +19421,12 @@
             "value" : "Effacer cette note ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancellare questa nota?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17793,6 +19491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce sont deux choses différentes."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono due cose diverse."
           }
         },
         "ja" : {
@@ -17861,6 +19565,12 @@
             "value" : "Les notes laissées pour cet objectif suivront aussi le nouveau nom."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anche le note lasciate per questo obiettivo prenderanno il nuovo nome."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17917,6 +19627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parler de cet objectif"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlare di questo obiettivo"
           }
         },
         "ja" : {
@@ -17979,6 +19695,12 @@
             "value" : "Lâcher cet objectif ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lasciare andare questo obiettivo?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18037,6 +19759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En parler"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlare di questo"
           }
         },
         "ja" : {
@@ -18105,6 +19833,12 @@
             "value" : "Si on le découpait en plus petit, ce serait quoi ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se lo suddividessi in qualcosa di più piccolo, cosa sarebbe?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18169,6 +19903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je commence par ça"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comincio da questo"
           }
         },
         "ja" : {
@@ -18237,6 +19977,12 @@
             "value" : "Je note ça. Demain, on s’arrête là."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo annoto così. Domani solo fin qui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18303,6 +20049,12 @@
             "value" : "Je prends ça"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prendo questo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18367,6 +20119,12 @@
             "value" : "Pierre moussue"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pietra muschiosa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18425,6 +20183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce jour est passé. Mais le galet est toujours là."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quel giorno è passato. Ma il sasso è ancora lì."
           }
         },
         "ja" : {
@@ -18493,6 +20257,12 @@
             "value" : "Je laisse comme ça"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascio così"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18559,6 +20329,12 @@
             "value" : "Corriger ainsi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correggi così"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18623,6 +20399,12 @@
             "value" : "Renommer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rinomina"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18679,6 +20461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cette semaine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa settimana"
           }
         },
         "ja" : {
@@ -18745,6 +20533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qu’est-ce qui était différent cette fois ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cosa è stato diverso stavolta?"
           }
         },
         "ja" : {
@@ -18878,6 +20672,30 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld histoires précédentes repliées"
+                }
+              }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld storia precedente richiusa"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld storie precedenti richiuse"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld storie precedenti richiuse"
                 }
               }
             }
@@ -19061,6 +20879,30 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld storia precedente richiusa"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld storie precedenti richiuse"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld storie precedenti richiuse"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "variations" : {
             "plural" : {
@@ -19167,6 +21009,12 @@
             "value" : "Envoyer des statistiques d’utilisation anonymes"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invia statistiche di utilizzo anonime"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19223,6 +21071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banal"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comune"
           }
         },
         "ja" : {
@@ -19287,6 +21141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quotidien"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quotidiano"
           }
         },
         "ja" : {
@@ -19355,6 +21215,12 @@
             "value" : "J’avais oublié"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Me n’ero dimenticato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19421,6 +21287,12 @@
             "value" : "Je préfère le noter avant d’oublier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voglio annotarlo prima di dimenticarlo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19483,6 +21355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Développement personnel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crescita personale"
           }
         },
         "ja" : {
@@ -19551,6 +21429,12 @@
             "value" : "Je remets toujours à plus tard"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuo a rimandare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19613,6 +21497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orgoglio"
           }
         },
         "ja" : {
@@ -19679,6 +21569,12 @@
             "value" : "Plus confiant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più sicuro di sé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19741,6 +21637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Culpabilisant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autocolpevolizzazione"
           }
         },
         "ja" : {
@@ -19809,6 +21711,12 @@
             "value" : "Plus c’est petit, mieux c’est."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più è piccolo, meglio è."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19873,6 +21781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus c’est petit, mieux c’est. Même cinq minutes, c’est bien."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più è piccolo, meglio è. Anche cinque minuti vanno bene."
           }
         },
         "ja" : {
@@ -19941,6 +21855,12 @@
             "value" : "C’est bien noté. La prochaine fois que vous bloquerez, je vous le ressortirai."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato bene. La prossima volta che ti blocchi, lo tiro fuori."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20005,6 +21925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Super. Je le garde tout de suite."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Che bello. Lo annoto adesso."
           }
         },
         "ja" : {
@@ -20073,6 +21999,12 @@
             "value" : "Parlons un moment"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parliamo un momento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20137,6 +22069,12 @@
             "value" : "Veuillez réessayer dans un instant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprova tra poco."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20193,6 +22131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun objectif noté"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun obiettivo annotato"
           }
         },
         "ja" : {
@@ -20261,6 +22205,12 @@
             "value" : "Noté. Demain, juste ça."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato. Domani, solo questo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20325,6 +22275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noté. Je vous le montrerai si vous bloquez sur quelque chose de similaire."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato. Te lo mostrerò quando ti bloccherai su qualcosa di simile."
           }
         },
         "ja" : {
@@ -20393,6 +22349,12 @@
             "value" : "Noté. C’est largement suffisant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annotato. Basta così."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20459,6 +22421,12 @@
             "value" : "Je vais écrire"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivo io"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20523,6 +22491,12 @@
             "value" : "Désespéré"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disperato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20585,6 +22559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je prépare la mise en forme. Pour l’instant, je note tel que j’entends."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sto preparando la funzione di riordino. Per ora annoto come sento."
           }
         },
         "ja" : {
@@ -20653,6 +22633,12 @@
             "value" : "Mise en forme…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riordino in corso…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20719,6 +22705,12 @@
             "value" : "Je vais mettre ça en forme."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provo a riordinare."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20781,6 +22773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voulez-vous vraiment supprimer le code et réduire la sécurité ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vuoi davvero eliminare il codice e ridurre la sicurezza?"
           }
         },
         "ja" : {
@@ -20847,6 +22845,12 @@
             "value" : "Vraiment effacer ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancellare davvero?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20903,6 +22907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coquillage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conchiglia"
           }
         },
         "ja" : {
@@ -20963,6 +22973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pas tout à fait"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non proprio"
           }
         },
         "ja" : {
@@ -21029,6 +23045,12 @@
             "value" : "Galet"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sassolino"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21093,6 +23115,12 @@
             "value" : "Choisir un galet"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli il sassolino"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21151,6 +23179,12 @@
             "value" : "Choisissez parmi six aspects de galet"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli tra sei finiture di sassolino"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21207,6 +23241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le galet réfléchit"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il sassolino sta pensando"
           }
         },
         "ja" : {
@@ -21275,6 +23315,12 @@
             "value" : "Dans « Réglages », vous choisissez si le galet vous tutoie ou vous vouvoie."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In «Impostazioni» scegli se il sassolino ti dà del tu o del lei."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21341,6 +23387,12 @@
             "value" : "Bien"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bene"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21405,6 +23457,12 @@
             "value" : "Frustré"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frustrato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21467,6 +23525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neutre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutrale"
           }
         },
         "ja" : {
@@ -21535,6 +23599,12 @@
             "value" : "En parler maintenant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlane ora"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21601,6 +23671,12 @@
             "value" : "S’il y a quelque chose vers quoi vous allez, pouvez-vous m’en parler ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se c’è qualcosa verso cui stai andando, me ne racconti una?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21663,6 +23739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Là où vous allez"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dove stai andando"
           }
         },
         "ja" : {
@@ -21729,6 +23811,12 @@
             "value" : "Tu avances déjà vers %lld objectifs."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stai già andando verso %lld obiettivi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21785,6 +23873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous avancez déjà vers %lld objectifs."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sta già andando verso %lld obiettivi."
           }
         },
         "ja" : {
@@ -21847,6 +23941,12 @@
             "value" : "Je laisse pour l’instant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per ora lascio così"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21905,6 +24005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je préfère laisser pour l’instant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per ora preferisco lasciare"
           }
         },
         "ja" : {
@@ -21969,6 +24075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "C’est difficile à entendre maintenant. Vous pouvez aussi écrire."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ora si sente male. Puoi anche scrivere."
           }
         },
         "ja" : {
@@ -22037,6 +24149,12 @@
             "value" : "Et maintenant, comment ça va ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E ora com’è?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22099,6 +24217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La mise en forme n’est pas disponible pour l’instant. Je note tel que j’entends."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ora la funzione di riordino non è disponibile. Annoto come sento."
           }
         },
         "ja" : {
@@ -22165,6 +24289,12 @@
             "value" : "Chemin parcouru"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strada percorsa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22229,6 +24359,12 @@
             "value" : "Conservez toutes vos notes dans un fichier texte."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conserva tutte le note in un file di testo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22287,6 +24423,12 @@
             "value" : "Exporter vos notes dans un fichier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esporta le note in un file"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22343,6 +24485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dans la dernière note, il y a : « %@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nell’ultima nota c’è scritto: «%@»."
           }
         },
         "ja" : {
@@ -22409,6 +24557,12 @@
             "value" : "Dans la dernière note, il y a : « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nell’ultima nota c’è scritto: «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22471,6 +24625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière fois, vous aviez décidé de « %1$@ ».%2$@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ultima volta aveva deciso «%1$@».%2$@"
           }
         },
         "ja" : {
@@ -22537,6 +24697,12 @@
             "value" : "La dernière fois, tu avais décidé de « %1$@ ».%2$@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ultima volta avevi deciso «%1$@».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22599,6 +24765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière fois, tu voulais essayer « %1$@ ».%2$@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ultima volta volevi provare «%1$@».%2$@"
           }
         },
         "ja" : {
@@ -22665,6 +24837,12 @@
             "value" : "La dernière fois, vous vouliez essayer « %1$@ ».%2$@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ultima volta voleva provare «%1$@».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22727,6 +24905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La dernière fois, tu avais écrit : « %@ »."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ultima volta avevi scritto: «%@»."
           }
         },
         "ja" : {
@@ -22793,6 +24977,12 @@
             "value" : "La dernière fois, vous aviez écrit : « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ultima volta aveva scritto: «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22855,6 +25045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La semaine dernière"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La settimana scorsa"
           }
         },
         "ja" : {
@@ -22921,6 +25117,12 @@
             "value" : "La semaine dernière"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La settimana scorsa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22983,6 +25185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vers la semaine dernière"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verso la settimana scorsa"
           }
         },
         "ja" : {
@@ -23049,6 +25257,12 @@
             "value" : "Ennuyé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annoiato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23111,6 +25325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella"
           }
         },
         "ja" : {
@@ -23179,6 +25399,12 @@
             "value" : "Impossible d’annuler une suppression."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una volta cancellato, non si può recuperare."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23243,6 +25469,12 @@
             "value" : "Suppression impossible. Veuillez réessayer dans un instant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile cancellare. Riprova tra poco."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23299,6 +25531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance et confidentialité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistenza e privacy"
           }
         },
         "ja" : {
@@ -23360,6 +25598,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -23429,6 +25673,12 @@
             "value" : "Notes ZinggumDol"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note di ZinggumDol"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23482,6 +25732,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -23545,6 +25801,12 @@
             "value" : "Vous utilisez ZinggumDol Pro. Merci."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stai usando ZinggumDol Pro. Grazie."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23601,6 +25863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Agacé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irritato"
           }
         },
         "ja" : {
@@ -23667,6 +25935,12 @@
             "value" : "Court, c’est très bien."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anche breve va benissimo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23725,6 +25999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Court, c’est très bien : seulement ce qui s’est passé alors."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anche breve va benissimo: solo cosa è successo allora."
           }
         },
         "ja" : {
@@ -23791,6 +26071,12 @@
             "value" : "J’ai lu pendant 30 minutes. J’étais bien concentré."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ho letto per 30 minuti. Ero molto concentrato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23855,6 +26141,12 @@
             "value" : "Développer ma condition physique"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rafforzare la forma fisica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23917,6 +26209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
         "ja" : {
@@ -23985,6 +26283,12 @@
             "value" : "Vous pouvez aussi écrire en grand."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi anche scrivere in grande."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24049,6 +26353,12 @@
             "value" : "Touchez ou frottez pour le caresser"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca o strofina per accarezzarlo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24105,6 +26415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destructeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distruttivo"
           }
         },
         "ja" : {
@@ -24169,6 +26485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Détendu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rilassato"
           }
         },
         "ja" : {
@@ -24237,6 +26559,12 @@
             "value" : "Comme vous êtes le plus à l’aise"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come ti viene più comodo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24299,6 +26627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banal"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordinario"
           }
         },
         "ja" : {
@@ -24365,6 +26699,12 @@
             "value" : "Noter l’app"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta l’app"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24424,6 +26764,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -24489,6 +26835,12 @@
             "value" : "Noter plus avec Pro"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota di più con Pro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24547,6 +26899,12 @@
             "value" : "Débloqué avec Pro"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sbloccato con Pro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24603,6 +26961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fatigué"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stanco"
           }
         },
         "ja" : {
@@ -24671,6 +27035,12 @@
             "value" : "L’un, c’est ce qui s’est passé ; l’autre, ce que vous ressentez maintenant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una cosa è ciò che è successo, l’altra è come ti senti ora."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24735,6 +27105,12 @@
             "value" : "Un seul achat, pour toujours. Ce n’est pas un abonnement"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si compra una volta e si usa per sempre. Non è un abbonamento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24791,6 +27167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il y a très longtemps"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanto tempo fa"
           }
         },
         "ja" : {
@@ -24859,6 +27241,12 @@
             "value" : "Fait, mais pas noté"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ho fatto, ma non l’ho annotato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24925,6 +27313,12 @@
             "value" : "Fait, juste pas noté"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ho fatto, solo non l’ho annotato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24987,6 +27381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heureux"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Felice"
           }
         },
         "ja" : {
@@ -25055,6 +27455,12 @@
             "value" : "Je n’ai pas encore entendu vers quoi vous allez."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non ho ancora sentito verso cosa stai andando."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25119,6 +27525,12 @@
             "value" : "Aller vers plusieurs objectifs, ce n’est pas un problème. Vous pouvez les noter sans limite."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Va bene andare verso più obiettivi. Puoi annotarli senza limiti."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25175,6 +27587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dégoûté"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disgustato"
           }
         },
         "ja" : {
@@ -25243,6 +27661,12 @@
             "value" : "Voulez-vous dire ceci ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intendi questo?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25302,6 +27726,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -25371,6 +27801,12 @@
             "value" : "Écrivez « %@ » pour confirmer."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi «%@» per confermare."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25429,6 +27865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eheh"
           }
         },
         "ja" : {
@@ -25491,6 +27933,12 @@
             "value" : "Hein ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eh?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25549,6 +27997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je suis là"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono qui"
           }
         },
         "ja" : {
@@ -25611,6 +28065,12 @@
             "value" : "Tu m’as appelé ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi hai chiamato?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25669,6 +28129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hihi, ça chatouille !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihih, che solletico!"
           }
         },
         "ja" : {
@@ -25731,6 +28197,12 @@
             "value" : "Ça chatouille"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fa il solletico"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25789,6 +28261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arrête, hihi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basta, ihih"
           }
         },
         "ja" : {
@@ -25851,6 +28329,12 @@
             "value" : "Ça fait du bien…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Che bello…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25909,6 +28393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bien chaud"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Che calduccio"
           }
         },
         "ja" : {
@@ -25971,6 +28461,12 @@
             "value" : "Je m’endors doucement…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi sto assopendo…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26031,6 +28527,12 @@
             "value" : "Ça tourne…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Che capogiro…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26089,6 +28591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tourne, tourne…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gira e rigira…"
           }
         },
         "ja" : {
