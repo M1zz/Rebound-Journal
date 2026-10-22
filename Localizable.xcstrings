@@ -27,6 +27,12 @@
             "value" : "  Ánimo: %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Humeur : %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -77,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Próximo paso: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Prochaine étape : %@"
           }
         },
         "ja" : {
@@ -131,6 +143,12 @@
             "value" : "  Lo que pasó: %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Ce qui s’est passé : %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -181,6 +199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué se interpuso con «%@»?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qu’est-ce qui t’a retenu avec « %@ » ?"
           }
         },
         "ja" : {
@@ -241,6 +265,12 @@
             "value" : "¿Qué se interpuso con «%@»?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qu’est-ce qui vous a retenu avec « %@ » ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -297,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Han pasado %2$lld días desde que hablamos de «%1$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il s’est écoulé %2$lld jours depuis notre échange sur « %1$@ »."
           }
         },
         "ja" : {
@@ -357,6 +393,12 @@
             "value" : "Han pasado %2$lld días desde que hablamos de «%1$@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il s’est écoulé %2$lld jours depuis notre échange sur « %1$@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -413,6 +455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@»: hoy todavía no."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %@ » : rien pour l’instant aujourd’hui."
           }
         },
         "ja" : {
@@ -473,6 +521,12 @@
             "value" : "«%@»: hoy todavía no."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %@ » : rien pour l’instant aujourd’hui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -529,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ lleva %3$lld días en silencio."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ c’est silencieux depuis %3$lld jours."
           }
         },
         "ja" : {
@@ -589,6 +649,12 @@
             "value" : "«%1$@»%2$@ lleva %3$lld días en silencio."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ c’est silencieux depuis %3$lld jours."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -645,6 +711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ hace %3$lld días que no lo revisas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ tu n’y as pas jeté un œil depuis %3$lld jours."
           }
         },
         "ja" : {
@@ -705,6 +777,12 @@
             "value" : "«%1$@»%2$@ hace %3$lld días que no lo revisa."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ vous n’y avez pas jeté un œil depuis %3$lld jours."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -761,6 +839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ hoy todavía no has llegado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ tu n’y es pas encore arrivé aujourd’hui."
           }
         },
         "ja" : {
@@ -821,6 +905,12 @@
             "value" : "«%1$@»%2$@ hoy todavía no ha llegado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ vous n’y êtes pas encore arrivé aujourd’hui."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -877,6 +967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ lo anotaste, pero aún no lo has revisado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ tu l’as noté, mais tu n’y es pas encore revenu."
           }
         },
         "ja" : {
@@ -937,6 +1033,12 @@
             "value" : "«%1$@»%2$@ lo anotó, pero aún no lo ha revisado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ vous l’avez noté, mais vous n’y êtes pas encore revenu."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -993,6 +1095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ solo lo anotaste y ahí quedó."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ tu l’as seulement noté, et c’est tout pour l’instant."
           }
         },
         "ja" : {
@@ -1053,6 +1161,12 @@
             "value" : "«%1$@»%2$@ solo lo anotó y ahí quedó."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ vous l’avez seulement noté, et c’est tout pour l’instant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1109,6 +1223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ desde que lo anotaste, todo sigue en silencio."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ depuis que tu l’as noté, c’est resté silencieux."
           }
         },
         "ja" : {
@@ -1169,6 +1289,12 @@
             "value" : "«%1$@»%2$@ desde que lo anotó, todo sigue en silencio."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ depuis que vous l’avez noté, c’est resté silencieux."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1225,6 +1351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ volvamos al momento en que ibas a hacerlo. ¿Qué te frenó?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ revenons au moment où tu voulais t’y mettre. Qu’est-ce qui a coincé ?"
           }
         },
         "ja" : {
@@ -1285,6 +1417,12 @@
             "value" : "«%1$@»%2$@ volvamos al momento en que iba a hacerlo. ¿Qué lo frenó?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ »%2$@ revenons au moment où vous vouliez vous y mettre. Qu’est-ce qui a coincé ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1341,6 +1479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En «%1$@» llegaste hasta %2$@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avec « %1$@ », tu es allé jusqu’à %2$@."
           }
         },
         "ja" : {
@@ -1401,6 +1545,12 @@
             "value" : "En «%1$@» llegó hasta %2$@."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avec « %1$@ », vous êtes allé jusqu’à %2$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1457,6 +1607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fue el día en que llegaste a «%@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est le jour où tu as atteint « %@ »."
           }
         },
         "ja" : {
@@ -1517,6 +1673,12 @@
             "value" : "Fue el día en que llegó a «%@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est le jour où vous avez atteint « %@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1575,6 +1737,12 @@
             "value" : "Sobre «%1$@» %2$@ escribiste: «%3$@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de « %1$@ », %2$@ tu as écrit : « %3$@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1631,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sobre «%1$@» %2$@ escribió: «%3$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos de « %1$@ », %2$@ vous avez écrit : « %3$@ »."
           }
         },
         "ja" : {
@@ -1693,6 +1867,12 @@
             "value" : "Suelta una meta en «Camino recorrido» y podrás escribir otra nueva."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lâchez un objectif dans « Chemin parcouru » pour pouvoir en écrire un nouveau."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1743,6 +1923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@\nTe frenó «%2$@»,\ny ahora te sientes «%3$@»%4$@.\n\n%5$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nCe qui t’a retenu : « %2$@ »,\net tu te sens « %3$@ »%4$@ en ce moment.\n\n%5$@"
           }
         },
         "ja" : {
@@ -1803,6 +1989,12 @@
             "value" : "%1$@ Al hablar de «%2$@», dejaste escrito: «%3$@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ En parlant de « %2$@ », tu as laissé : « %3$@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1859,6 +2051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Al hablar de «%2$@», dejó escrito: «%3$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ En parlant de « %2$@ », vous avez laissé : « %3$@ »."
           }
         },
         "ja" : {
@@ -1919,6 +2117,12 @@
             "value" : "%1$@ Sobre «%2$@»%3$@ dijo: «%4$@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ À propos de « %2$@ »%3$@ vous avez dit : « %4$@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1975,6 +2179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Sobre «%2$@»%3$@ dijiste: «%4$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ À propos de « %2$@ »%3$@ tu as dit : « %4$@ »."
           }
         },
         "ja" : {
@@ -2035,6 +2245,12 @@
             "value" : "%1$@ Dijo que «%2$@»%3$@ se le había atascado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Vous avez dit que « %2$@ »%3$@ coinçait."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2091,6 +2307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Dijiste que «%2$@»%3$@ se te había atascado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Tu as dit que « %2$@ »%3$@ coinçait."
           }
         },
         "ja" : {
@@ -2151,6 +2373,12 @@
             "value" : "%1$@ Lo logró: «%2$@»%3$@."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Vous avez réussi « %2$@ »%3$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2207,6 +2435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Lo lograste: «%2$@»%3$@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Tu as réussi « %2$@ »%3$@."
           }
         },
         "ja" : {
@@ -2267,6 +2501,12 @@
             "value" : "%1$@ llegaste a «%2$@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ tu as atteint « %2$@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2323,6 +2563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ llegó a «%2$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ vous avez atteint « %2$@ »."
           }
         },
         "ja" : {
@@ -2383,6 +2629,12 @@
             "value" : "%1$@ dejaste una nota: te frenó «%2$@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ tu as noté que « %2$@ » t’avait retenu."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2439,6 +2691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ dejó una nota: lo frenó «%2$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ vous avez noté que « %2$@ » vous avait retenu."
           }
         },
         "ja" : {
@@ -2499,6 +2757,12 @@
             "value" : "Semana de %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semaine du %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2555,6 +2819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, día con registro"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, jour avec une note"
           }
         },
         "ja" : {
@@ -2615,6 +2885,12 @@
             "value" : "%@, sin registro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, aucune note"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2671,6 +2947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, día en que llegaste a tu meta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, jour où l’objectif a été atteint"
           }
         },
         "ja" : {
@@ -2731,6 +3013,12 @@
             "value" : "%@, día que aún no llega"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, jour pas encore arrivé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2787,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Lo logró: «%2$@»%3$@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Vous avez bien réussi « %2$@ »%3$@."
           }
         },
         "ja" : {
@@ -2847,6 +3141,12 @@
             "value" : "%1$@ Lo lograste: «%2$@»%3$@."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Tu as bien réussi « %2$@ »%3$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2903,6 +3203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ logró «%2$@»%3$@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ vous avez réussi « %2$@ »%3$@."
           }
         },
         "ja" : {
@@ -2963,6 +3269,12 @@
             "value" : "%1$@ lograste «%2$@»%3$@."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ tu as réussi « %2$@ »%3$@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3019,6 +3331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ llegaste a «%2$@»,"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ tu as atteint « %2$@ »,"
           }
         },
         "ja" : {
@@ -3079,6 +3397,12 @@
             "value" : "%1$@ llegó a «%2$@»,"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ vous avez atteint « %2$@ »,"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3132,6 +3456,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -3193,6 +3523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld/%2$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
           }
         },
         "ja" : {
@@ -3302,6 +3638,30 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Hace %lld días"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il y a %lld jour"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il y a %lld jours"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Il y a %lld jours"
                 }
               }
             }
@@ -3461,6 +3821,30 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Noté il y a %lld jour"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Noté il y a %lld jours"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Noté il y a %lld jours"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "variations" : {
             "plural" : {
@@ -3615,6 +3999,30 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Noté il y a %lld semaine"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Noté il y a %lld semaines"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Noté il y a %lld semaines"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "variations" : {
             "plural" : {
@@ -3715,6 +4123,12 @@
             "value" : "|"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3775,6 +4189,12 @@
             "value" : "Bajón"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un peu abattu"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3831,6 +4251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empezar con un estiramiento suave"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer par un léger étirement"
           }
         },
         "ja" : {
@@ -3891,6 +4317,12 @@
             "value" : "Agradecimiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reconnaissant"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3949,6 +4381,12 @@
             "value" : "Canto de río"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galet de rivière"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3999,6 +4437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya existe una meta con ese nombre"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un objectif porte déjà ce nom"
           }
         },
         "ja" : {
@@ -4053,6 +4497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Para desarrollo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour le développeur"
           }
         },
         "ja" : {
@@ -4113,6 +4563,12 @@
             "value" : "Escribir al desarrollador"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrire au développeur"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4171,6 +4627,12 @@
             "value" : "Se desbloquean cinco piedras más, como recogidas junto al arroyo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cinq autres galets, comme ramassés au bord du ruisseau, se débloquent."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4221,6 +4683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Política de privacidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Politique de confidentialité"
           }
         },
         "ja" : {
@@ -4281,6 +4749,12 @@
             "value" : "Salud"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Santé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4339,6 +4813,12 @@
             "value" : "A tu lado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À vos côtés"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4395,6 +4875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier"
           }
         },
         "ja" : {
@@ -4457,6 +4943,12 @@
             "value" : "Bien"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ça va"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4517,6 +5009,12 @@
             "value" : "No pasa nada. Simplemente no se notó."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce n’est pas grave. Ça n’avait simplement pas sauté aux yeux."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4573,6 +5071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angustia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tourmenté"
           }
         },
         "ja" : {
@@ -4633,6 +5137,12 @@
             "value" : "Restaurar compras"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurer les achats"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4683,6 +5193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vida ordenada"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie régulière"
           }
         },
         "ja" : {
@@ -4745,6 +5261,12 @@
             "value" : "¿Y qué pasó después?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et ensuite, comment ça s’est passé ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4803,6 +5325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eso fue la situación. ¿Cómo te sientes ahora?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’était la situation. Et maintenant, comment vous sentez-vous ?"
           }
         },
         "ja" : {
@@ -4865,6 +5393,12 @@
             "value" : "¿En qué quedó eso?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment ça s’est terminé ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4923,6 +5457,12 @@
             "value" : "Cómo fue ese día"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment s’est passée cette journée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4975,6 +5515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo dejo así"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je laisse comme ça"
           }
         },
         "ja" : {
@@ -5035,6 +5581,12 @@
             "value" : "Entonces dijo que probaría «%1$@».%2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À ce moment-là, vous aviez dit vouloir essayer « %1$@ ».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5091,6 +5643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces dijiste que probarías «%1$@».%2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À ce moment-là, tu avais dit vouloir essayer « %1$@ ».%2$@"
           }
         },
         "ja" : {
@@ -5151,6 +5709,12 @@
             "value" : "Cómo te sentías"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humeur à l’époque"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5203,6 +5767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué pasó entonces?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Que s’est-il passé à ce moment-là ?"
           }
         },
         "ja" : {
@@ -5265,6 +5835,12 @@
             "value" : "Hablar de aquel momento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parler de ce moment"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5323,6 +5899,12 @@
             "value" : "Entonces dijo: «%@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À ce moment-là, vous aviez dit : « %@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5379,6 +5961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces dijiste: «%@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À ce moment-là, tu avais dit : « %@ »."
           }
         },
         "ja" : {
@@ -5441,6 +6029,12 @@
             "value" : "De acuerdo. Hablamos en otro momento."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D’accord. On en reparlera une autre fois."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5499,6 +6093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Así fue"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est bien ça"
           }
         },
         "ja" : {
@@ -5561,6 +6161,12 @@
             "value" : "Puede pasar. Que se olvide no significa que desaparezca."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ça arrive. Oublier ne fait pas disparaître les choses."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5621,6 +6227,12 @@
             "value" : "Puede pasar. Lo olvidado, olvidado está."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ça arrive. Ce qui est oublié est oublié."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5679,6 +6291,12 @@
             "value" : "Entonces, rumbo a «%1$@»%2$@ ¿qué cosa tan pequeña podrías hacer mañana mismo?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alors, pour avancer vers « %1$@ »%2$@ quelle chose assez petite pourrais-tu faire dès demain ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5735,6 +6353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces, rumbo a «%1$@»%2$@ ¿qué cosa tan pequeña podría hacer mañana mismo?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alors, pour avancer vers « %1$@ »%2$@ quelle chose assez petite pourriez-vous faire dès demain ?"
           }
         },
         "ja" : {
@@ -5797,6 +6421,12 @@
             "value" : "Entonces hablemos de eso."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alors parlons-en."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5855,6 +6485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entonces eso ya está cerrado. Lo anoto ahora."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alors c’est réglé. Je le note tout de suite."
           }
         },
         "ja" : {
@@ -5917,6 +6553,12 @@
             "value" : "Entonces lo dejo cerrado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alors je vais le clore."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5977,6 +6619,12 @@
             "value" : "¿Y si lo haces tan pequeño que mañana mismo puedas lograrlo? ¿Qué sería?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et si on faisait ainsi : en le rendant assez petit pour le réussir dès demain, ce serait quoi ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6033,6 +6681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejar de hablar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêter la lecture"
           }
         },
         "ja" : {
@@ -6095,6 +6749,12 @@
             "value" : "Regular"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bof"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6151,6 +6811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ilusión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impatient"
           }
         },
         "ja" : {
@@ -6211,6 +6877,12 @@
             "value" : "Registros"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6261,6 +6933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportar registros"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter les notes"
           }
         },
         "ja" : {
@@ -6315,6 +6993,12 @@
             "value" : "No se pudieron exportar tus registros"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d’exporter vos notes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6365,6 +7049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De buen ánimo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De bonne humeur"
           }
         },
         "ja" : {
@@ -6425,6 +7115,12 @@
             "value" : "Contento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heureux"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6481,6 +7177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fatal"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horrible"
           }
         },
         "ja" : {
@@ -6543,6 +7245,12 @@
             "value" : "Lo demás no corre prisa."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le reste n’est pas pressé."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6601,6 +7309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardemos lo demás y miremos solo esto."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On met le reste de côté et on ne regarde que ça."
           }
         },
         "ja" : {
@@ -6663,6 +7377,12 @@
             "value" : "Lo demás se puede ver con calma."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le reste peut se voir tranquillement."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6723,6 +7443,12 @@
             "value" : "Guardado. Para no olvidar lo que funcionó."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est gardé. Pour ne pas oublier ce qui a marché."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6779,6 +7505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que dejaste"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce que vous avez laissé"
           }
         },
         "ja" : {
@@ -6841,6 +7573,12 @@
             "value" : "Los registros se conservan. Solo sale de la lista."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les notes laissées sont conservées. Seul l’objectif disparaît de la liste."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6893,6 +7631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay palabras guardadas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun mot laissé."
           }
         },
         "ja" : {
@@ -6953,6 +7697,12 @@
             "value" : "Mis metas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mes objectifs"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7003,6 +7753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir mi guijarro"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir mon galet"
           }
         },
         "ja" : {
@@ -7057,6 +7813,12 @@
             "value" : "Soltar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lâcher"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7107,6 +7869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportado el: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporté le : %@"
           }
         },
         "ja" : {
@@ -7161,6 +7929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si mañana solo hicieras una cosa, ¿cuál sería?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si demain vous ne faisiez qu’une seule chose, ce serait quoi ?"
           }
         },
         "ja" : {
@@ -7219,6 +7993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frialdad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Froid"
           }
         },
         "ja" : {
@@ -7281,6 +8061,12 @@
             "value" : "Sí"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7339,6 +8125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sí, lo dejo así."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oui, je laisse comme ça."
           }
         },
         "ja" : {
@@ -7401,6 +8193,12 @@
             "value" : "Sí, lo dejo así. Aquí estoy."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oui, je laisse comme ça. Je suis là."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7461,6 +8259,12 @@
             "value" : "Vale, hablamos en otro momento."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Très bien, on en reparle une autre fois."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7519,6 +8323,12 @@
             "value" : "Piedra del ocaso"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierre du crépuscule"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7571,6 +8381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Dejamos lo demás y miramos solo esto?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On laisse le reste et on ne regarde que ça ?"
           }
         },
         "ja" : {
@@ -7633,6 +8449,12 @@
             "value" : "Lo demás, con calma."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le reste, tranquillement."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7689,6 +8511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
         "ja" : {
@@ -7751,6 +8579,12 @@
             "value" : "Lo anoto para poder usarlo otra vez."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je le note pour pouvoir m’en servir une prochaine fois."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7809,6 +8643,12 @@
             "value" : "Lo que probarás"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce que vous essaierez ensuite"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7859,6 +8699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Régime"
           }
         },
         "ja" : {
@@ -7917,6 +8763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
           }
         },
         "ja" : {
@@ -7979,6 +8831,12 @@
             "value" : "Solo quedó anotado «llegué»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seul « atteint » a été noté."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8037,6 +8895,12 @@
             "value" : "Llegué"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atteint"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8089,6 +8953,12 @@
             "value" : "No llegué"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas atteint"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8139,6 +9009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear el hábito de leer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prendre l’habitude de lire"
           }
         },
         "ja" : {
@@ -8197,6 +9073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lire"
           }
         },
         "ja" : {
@@ -8259,6 +9141,12 @@
             "value" : "Escuchando"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’écoute"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8317,6 +9205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay mucho que decir. Solo estoy aquí."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien de particulier à dire. Je suis juste là."
           }
         },
         "ja" : {
@@ -8379,6 +9273,12 @@
             "value" : "Si no se te ocurre nada, puedes dejarlo en blanco. Lo buscamos luego juntos."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si rien ne vient, vous pouvez laisser vide. On cherchera ensemble plus tard."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8435,6 +9335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No puedo usar el micrófono. También puedes escribir."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le micro n’est pas disponible. Vous pouvez aussi écrire."
           }
         },
         "ja" : {
@@ -8495,6 +9401,12 @@
             "value" : "Satisfacción"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satisfait"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8551,6 +9463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Satisfecho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Content"
           }
         },
         "ja" : {
@@ -8613,6 +9531,12 @@
             "value" : "Muy difícil"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Très difficile"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8671,6 +9595,12 @@
             "value" : "Responder hablando"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Répondre à voix haute"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8727,6 +9657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trato"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ton"
           }
         },
         "ja" : {
@@ -8789,6 +9725,12 @@
             "value" : "Puedes elegir cómo te habla"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez choisir le ton"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8847,6 +9789,12 @@
             "value" : "Sonido al hablar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son pendant la parole"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8903,6 +9851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vibración al hablar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibration pendant la parole"
           }
         },
         "ja" : {
@@ -8965,6 +9919,12 @@
             "value" : "Así es"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est ça"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9025,6 +9985,12 @@
             "value" : "Sí, no lo hice"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oui, je ne l’ai pas fait"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9081,6 +10047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escuchar un pódcast en inglés 10 minutos al día"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écouter 10 minutes d’un podcast en anglais par jour"
           }
         },
         "ja" : {
@@ -9141,6 +10113,12 @@
             "value" : "Aviso diario"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rappel quotidien"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9199,6 +10177,12 @@
             "value" : "Piedra de tinta"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierre d’encre"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9251,6 +10235,12 @@
             "value" : "Exportar primero"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter d’abord"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9301,6 +10291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hace unos días"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il y a quelques jours"
           }
         },
         "ja" : {
@@ -9361,6 +10357,12 @@
             "value" : "Hace unos días"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il y a quelques jours"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9419,6 +10421,12 @@
             "value" : "Borrar todo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout effacer"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9469,6 +10477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todo borrado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout a été effacé."
           }
         },
         "ja" : {
@@ -9523,6 +10537,12 @@
             "value" : "Borrar todos los registros"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer toutes les notes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9573,6 +10593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Borrar todos los registros?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer toutes les notes ?"
           }
         },
         "ja" : {
@@ -9627,6 +10653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar todos los datos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer toutes les données"
           }
         },
         "ja" : {
@@ -9687,6 +10719,12 @@
             "value" : "Grano de arena"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grain de sable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9739,6 +10777,12 @@
             "value" : "Meta"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objectif"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9789,6 +10833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir meta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un objectif"
           }
         },
         "ja" : {
@@ -9849,6 +10899,12 @@
             "value" : "Anota una meta"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter un objectif"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9899,6 +10955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anota metas sin límite"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez autant d’objectifs que vous voulez"
           }
         },
         "ja" : {
@@ -9953,6 +11015,12 @@
             "value" : "Todas las metas que quieras"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autant d’objectifs que vous voulez"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10003,6 +11071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anota metas sin límite, elige tu guijarro y guarda tus registros en un archivo. Se compra una vez y se usa siempre."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez des objectifs sans limite, choisissez votre galet et conservez vos notes dans un fichier. Un seul achat, pour toujours."
           }
         },
         "ja" : {
@@ -10057,6 +11131,12 @@
             "value" : "Todas tus metas y registros desaparecerán y no se podrán recuperar. También se borrarán en tus otros dispositivos conectados con iCloud. Los ajustes y las compras se conservan."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tous vos objectifs et notes disparaîtront et ne pourront pas être restaurés. Ils seront aussi supprimés sur vos autres appareils reliés par iCloud. Les réglages et les achats sont conservés."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10107,6 +11187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insensibilidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engourdi"
           }
         },
         "ja" : {
@@ -10167,6 +11253,12 @@
             "value" : "Indiferencia"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indifférent"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10223,6 +11315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aceptable"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passable"
           }
         },
         "ja" : {
@@ -10283,6 +11381,12 @@
             "value" : "Impotencia"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impuissant"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10341,6 +11445,12 @@
             "value" : "Lo gratuito sigue igual, y se desbloquean algunas cosas más."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce qui était gratuit le reste, et d’autres choses s’ajoutent."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10395,6 +11505,12 @@
             "value" : "La versión gratuita admite hasta tres metas. Esta es la tercera."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La version gratuite permet trois objectifs. Voici le troisième."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10445,6 +11561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Miedo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effrayé"
           }
         },
         "ja" : {
@@ -10505,6 +11627,12 @@
             "value" : "Qué pasó"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Que s’est-il passé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10557,6 +11685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contar lo que pasó"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raconter ce qui s’est passé"
           }
         },
         "ja" : {
@@ -10619,6 +11753,12 @@
             "value" : "Veré hasta dónde llegaste y qué te frenó, y te hablaré yo primero."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je regarde d’abord où vous en êtes arrivé et ce qui vous a retenu, puis je vous parle."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10677,6 +11817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todavía no sé hacia dónde vas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je ne sais pas encore vers quoi vous allez."
           }
         },
         "ja" : {
@@ -10739,6 +11885,12 @@
             "value" : "¿Hacia dónde vas?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vers quoi allez-vous ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10797,6 +11949,12 @@
             "value" : "Inexpresivo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impassible"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10853,6 +12011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beber mucha agua y acostarme temprano"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boire beaucoup d’eau et me coucher tôt"
           }
         },
         "ja" : {
@@ -10915,6 +12079,12 @@
             "value" : "¿Qué te ayudó?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qu’est-ce qui a aidé ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10973,6 +12143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotar lo que funcionó"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter ce qui a marché"
           }
         },
         "ja" : {
@@ -11035,6 +12211,12 @@
             "value" : "¿Qué funcionó?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qu’est-ce qui a marché ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11095,6 +12277,12 @@
             "value" : "Desliza o mantén pulsada una meta para cambiarle el nombre o soltarla."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faites glisser ou appuyez longuement sur un objectif pour le renommer ou le lâcher."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11145,6 +12333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poner la alarma a las 11 de la noche y dejar el móvil lejos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mettre un réveil à 23 h et ranger le téléphone loin de moi"
           }
         },
         "ja" : {
@@ -11205,6 +12399,12 @@
             "value" : "Normal"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordinaire"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11261,6 +12461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enfado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En colère"
           }
         },
         "ja" : {
@@ -11321,6 +12527,12 @@
             "value" : "Insatisfacción"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insatisfait"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11377,6 +12589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inquietud"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inquiet"
           }
         },
         "ja" : {
@@ -11437,6 +12655,12 @@
             "value" : "Eliminar código"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le code"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11493,6 +12717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configurar código"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Définir un code"
           }
         },
         "ja" : {
@@ -11553,6 +12783,12 @@
             "value" : "Introduce el código"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saisir le code"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11609,6 +12845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirma el código"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmer le code"
           }
         },
         "ja" : {
@@ -11669,6 +12911,12 @@
             "value" : "Desolación"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misérable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11725,6 +12973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orgullo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fier de soi"
           }
         },
         "ja" : {
@@ -11785,6 +13039,12 @@
             "value" : "Estadísticas de uso"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiques d’utilisation"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11835,6 +13095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estadísticas de uso (desarrollador)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistiques d’utilisation (développeur)"
           }
         },
         "ja" : {
@@ -11893,6 +13159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frescura"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revigoré"
           }
         },
         "ja" : {
@@ -11955,6 +13227,12 @@
             "value" : "Entiendo la situación. ¿Y cómo te sientes ahora?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’ai compris la situation. Et comment vous sentez-vous maintenant ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12013,6 +13291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que se atascó fue la situación, no tú."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est la situation qui est bloquée, pas vous qui êtes en cause."
           }
         },
         "ja" : {
@@ -12075,6 +13359,12 @@
             "value" : "Crear datos de ejemplo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créer des données d’exemple"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12131,6 +13421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensando"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je réfléchis"
           }
         },
         "ja" : {
@@ -12191,6 +13487,12 @@
             "value" : "Emoción"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthousiaste"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12247,6 +13549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages"
           }
         },
         "ja" : {
@@ -12307,6 +13615,12 @@
             "value" : "Activa Apple Intelligence en «Ajustes» y podré ordenar mejor lo que dices."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activez Apple Intelligence dans « Réglages » et je pourrai mieux mettre en forme ce que vous dites."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12363,6 +13677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corre la voz"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passez le mot"
           }
         },
         "ja" : {
@@ -12423,6 +13743,12 @@
             "value" : "Tristeza"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Triste"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12479,6 +13805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hora"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heure"
           }
         },
         "ja" : {
@@ -12539,6 +13871,12 @@
             "value" : "Entusiasmo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excité"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12595,6 +13933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Decepción"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déçu"
           }
         },
         "ja" : {
@@ -12655,6 +13999,12 @@
             "value" : "Acariciar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caresser"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12705,6 +14055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soledad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seul"
           }
         },
         "ja" : {
@@ -12765,6 +14121,12 @@
             "value" : "Pena"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nostalgique"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12821,6 +14183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay registros"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune note pour l’instant"
           }
         },
         "ja" : {
@@ -12883,6 +14251,12 @@
             "value" : "Todavía no has dejado nada."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous n’avez encore rien laissé."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12941,6 +14315,12 @@
             "value" : "Todavía no hay registros."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune note pour l’instant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12993,6 +14373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todavía no hay historias guardadas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune histoire laissée pour l’instant."
           }
         },
         "ja" : {
@@ -13055,6 +14441,12 @@
             "value" : "Todavía no sé adónde te diriges."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je ne sais pas encore où vous allez."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13115,6 +14507,12 @@
             "value" : "Todavía no tienes un rumbo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune direction pour l’instant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13171,6 +14569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Madrugar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Me lever tôt"
           }
         },
         "ja" : {
@@ -13231,6 +14635,12 @@
             "value" : "¡Me levanté temprano y aproveché el día!"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je me suis levé tôt et j’ai bien rempli ma journée !"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13287,6 +14697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No pude levantarme por la mañana y dormí de más."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je n’ai pas réussi à me lever ce matin et j’ai fait la grasse matinée."
           }
         },
         "ja" : {
@@ -13349,6 +14765,12 @@
             "value" : "Hola. Soy ZinggumDol."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonjour. Je suis ZinggumDol."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13409,6 +14831,12 @@
             "value" : "Vale. Aquí estaré."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "D’accord. Je suis là."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13465,6 +14893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Activar avisos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activer les rappels"
           }
         },
         "ja" : {
@@ -13525,6 +14959,12 @@
             "value" : "Más información"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En savoir plus"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13575,6 +15015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartir la app"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager l’app"
           }
         },
         "ja" : {
@@ -13635,6 +15081,12 @@
             "value" : "Código de la app"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code de l’app"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13693,6 +15145,12 @@
             "value" : "Solo se envían los días en que abriste la app o terminaste una conversación, el tipo de acciones (como crear una meta), el número de registros y metas, y si viste la pantalla de compra. Nada de lo que escribes sale de tu dispositivo, y quien envía se distingue solo por un número aleatorio creado en este dispositivo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuls sont envoyés les jours où vous avez ouvert l’app ou terminé une conversation, le type d’actions comme la création d’un objectif, le nombre de notes et d’objectifs, et si vous avez consulté l’écran d’achat. Pas un seul mot de ce que vous écrivez ne sort, et l’expéditeur n’est distingué que par un numéro aléatoire créé sur cet appareil."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13743,6 +15201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No picar de noche"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne pas grignoter la nuit"
           }
         },
         "ja" : {
@@ -13801,6 +15265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No aguanté y piqué de noche. Tenía hambre y comí ramen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je n’ai pas su résister à un en-cas nocturne. J’avais faim et j’ai mangé des nouilles."
           }
         },
         "ja" : {
@@ -13863,6 +15333,12 @@
             "value" : "Anotar cómo fue"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter comment ça s’est passé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13919,6 +15395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desorden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout en désordre"
           }
         },
         "ja" : {
@@ -13979,6 +15461,12 @@
             "value" : "Ayer"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14035,6 +15523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotado ayer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noté hier"
           }
         },
         "ja" : {
@@ -14097,6 +15591,12 @@
             "value" : "Puedes cambiarlo cuando quieras. Al cambiarlo, el guijarro te saludará de nuevo con ese trato."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez le changer à tout moment. Ensuite, le galet vous saluera à nouveau avec ce ton."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14153,6 +15653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hace poco"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il y a peu"
           }
         },
         "ja" : {
@@ -14213,6 +15719,12 @@
             "value" : "Hace poco"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il y a peu"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14269,6 +15781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aquí estoy."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis là."
           }
         },
         "ja" : {
@@ -14331,6 +15849,12 @@
             "value" : "Dejémoslo aquí por hoy.\nLos planes hechos en días de cansancio suelen no salir bien.\nYa quedó guardado, tranquilo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On s’arrête là pour aujourd’hui.\nLes plans faits un jour de fatigue marchent rarement.\nC’est gardé, ne vous inquiétez pas."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14389,6 +15913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eso fue lo que pasó. ¿Cómo te sientes ahora?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jusqu’ici, c’était ce qui s’est passé. Et que ressentez-vous maintenant ?"
           }
         },
         "ja" : {
@@ -14451,6 +15981,12 @@
             "value" : "Hablar desde aquí"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer à partir d’ici"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14507,6 +16043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passionné"
           }
         },
         "ja" : {
@@ -14567,6 +16109,12 @@
             "value" : "Quise estudiar inglés, pero lo dejé para después."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je voulais étudier l’anglais, mais j’ai remis ça à plus tard."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14623,6 +16171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estudiar inglés"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Étudier l’anglais"
           }
         },
         "ja" : {
@@ -14683,6 +16237,12 @@
             "value" : "Mejorar mi inglés"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progresser en anglais"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14739,6 +16299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Fui al trabajo escuchando un pódcast en inglés! Fue más divertido de lo que esperaba."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis allé au travail en écoutant un podcast en anglais ! C’était plus amusant que prévu."
           }
         },
         "ja" : {
@@ -14799,6 +16365,12 @@
             "value" : "Hoy"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14855,6 +16427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy «%@»: lo logró."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, « %@ » : vous l’avez fait."
           }
         },
         "ja" : {
@@ -14915,6 +16493,12 @@
             "value" : "Hoy «%@»: lo lograste."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, « %@ » : tu l’as fait."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14971,6 +16555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy aún no hay noticias de «%1$@».%2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, pas encore de nouvelles de « %1$@ ».%2$@"
           }
         },
         "ja" : {
@@ -15031,6 +16621,12 @@
             "value" : "Hoy aún no hay noticias de «%1$@».%2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, pas encore de nouvelles de « %1$@ ».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15089,6 +16685,12 @@
             "value" : "Hoy llegaste a «%@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, tu as atteint « %@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15145,6 +16747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy llegó a «%@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, vous avez atteint « %@ »."
           }
         },
         "ja" : {
@@ -15207,6 +16815,12 @@
             "value" : "Ir a anotar lo de hoy"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aller noter aujourd’hui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15265,6 +16879,12 @@
             "value" : "Anotado hoy"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noté aujourd’hui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15321,6 +16941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Vemos juntos cómo te fue hoy?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On regarde ensemble comment s’est passée la journée ?"
           }
         },
         "ja" : {
@@ -15383,6 +17009,12 @@
             "value" : "Hoy me quedo a tu lado, sin más."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, je reste simplement à vos côtés."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15441,6 +17073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejémoslo aquí por hoy.\nAhora es mejor descansar que buscar una respuesta.\nYa quedó anotado, no se pierde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On s’arrête là pour aujourd’hui.\nSe reposer vaut mieux que chercher une réponse.\nC’est noté, ça ne disparaîtra pas."
           }
         },
         "ja" : {
@@ -15503,6 +17141,12 @@
             "value" : "Paremos aquí por hoy.\nNo hace falta forzar una respuesta ahora.\nQuedó guardado; lo miramos juntos la próxima vez."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêtons-nous ici aujourd’hui.\nInutile de forcer une réponse maintenant.\nC’est enregistré, on le regardera ensemble la prochaine fois."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15561,6 +17205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoy con esto es suficiente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, une seule chose suffit."
           }
         },
         "ja" : {
@@ -15623,6 +17273,12 @@
             "value" : "Hoy me quedo en silencio."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd’hui, je reste silencieux."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15679,6 +17335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotado hace mucho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noté il y a longtemps"
           }
         },
         "ja" : {
@@ -15739,6 +17401,12 @@
             "value" : "Valentía"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Courageux"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15795,6 +17463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacer ejercicio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faire du sport"
           }
         },
         "ja" : {
@@ -15855,6 +17529,12 @@
             "value" : "Fui a hacer ejercicio, pero lo dejé a medias y volví."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis allé faire du sport, mais j’ai abandonné en route et je suis rentré."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15913,6 +17593,12 @@
             "value" : "Motivación"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motivé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15969,6 +17655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En este dispositivo no se puede usar la función de ordenar. Lo anoto tal como lo oigo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mise en forme n’est pas disponible sur cet appareil. Je note tel que j’entends."
           }
         },
         "ja" : {
@@ -16031,6 +17723,12 @@
             "value" : "¿Borrar este registro?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer cette note ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16089,6 +17787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Son dos cosas distintas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce sont deux choses différentes."
           }
         },
         "ja" : {
@@ -16151,6 +17855,12 @@
             "value" : "Los registros de esta meta también tomarán el nuevo nombre."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les notes laissées pour cet objectif suivront aussi le nouveau nom."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16201,6 +17911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hablar de esta meta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parler de cet objectif"
           }
         },
         "ja" : {
@@ -16257,6 +17973,12 @@
             "value" : "¿Soltar esta meta?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lâcher cet objectif ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16309,6 +18031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hablar de esto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En parler"
           }
         },
         "ja" : {
@@ -16371,6 +18099,12 @@
             "value" : "Si lo dividieras en algo más pequeño, ¿qué sería?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si on le découpait en plus petit, ce serait quoi ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16429,6 +18163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empiezo con esto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je commence par ça"
           }
         },
         "ja" : {
@@ -16491,6 +18231,12 @@
             "value" : "Lo anoto así. Mañana, solo hasta aquí."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je note ça. Demain, on s’arrête là."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16551,6 +18297,12 @@
             "value" : "Me quedo con esto"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je prends ça"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16609,6 +18361,12 @@
             "value" : "Piedra de musgo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierre moussue"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16661,6 +18419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ese día ya pasó. Pero la piedra sigue ahí."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce jour est passé. Mais le galet est toujours là."
           }
         },
         "ja" : {
@@ -16723,6 +18487,12 @@
             "value" : "Lo dejo así"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je laisse comme ça"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16783,6 +18553,12 @@
             "value" : "Corregir así"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corriger ainsi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16841,6 +18617,12 @@
             "value" : "Cambiar nombre"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renommer"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16891,6 +18673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esta semana"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette semaine"
           }
         },
         "ja" : {
@@ -16951,6 +18739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué fue distinto esta vez?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qu’est-ce qui était différent cette fois ?"
           }
         },
         "ja" : {
@@ -17060,6 +18854,30 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Se han plegado %lld historias anteriores"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld histoire précédente repliée"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld histoires précédentes repliées"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld histoires précédentes repliées"
                 }
               }
             }
@@ -17219,6 +19037,30 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld histoire précédente repliée"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld histoires précédentes repliées"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld histoires précédentes repliées"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "variations" : {
             "plural" : {
@@ -17319,6 +19161,12 @@
             "value" : "Enviar estadísticas de uso anónimas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyer des statistiques d’utilisation anonymes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17369,6 +19217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corriente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banal"
           }
         },
         "ja" : {
@@ -17427,6 +19281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cotidiano"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quotidien"
           }
         },
         "ja" : {
@@ -17489,6 +19349,12 @@
             "value" : "Se me había olvidado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’avais oublié"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17549,6 +19415,12 @@
             "value" : "Quiero anotarlo antes de olvidarlo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je préfère le noter avant d’oublier"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17605,6 +19477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Superación personal"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Développement personnel"
           }
         },
         "ja" : {
@@ -17667,6 +19545,12 @@
             "value" : "Lo voy posponiendo siempre"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je remets toujours à plus tard"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17723,6 +19607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orgullo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fier"
           }
         },
         "ja" : {
@@ -17783,6 +19673,12 @@
             "value" : "Con confianza"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus confiant"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17839,6 +19735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Autorreproche"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Culpabilisant"
           }
         },
         "ja" : {
@@ -17901,6 +19803,12 @@
             "value" : "Cuanto más pequeño, mejor."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus c’est petit, mieux c’est."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17959,6 +19867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuanto más pequeño, mejor. Incluso cinco minutos valen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus c’est petit, mieux c’est. Même cinq minutes, c’est bien."
           }
         },
         "ja" : {
@@ -18021,6 +19935,12 @@
             "value" : "Bien anotado. La próxima vez que te atasques, lo sacaré para ti."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est bien noté. La prochaine fois que vous bloquerez, je vous le ressortirai."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18079,6 +19999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Qué bien. Lo anoto ahora."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Super. Je le garde tout de suite."
           }
         },
         "ja" : {
@@ -18141,6 +20067,12 @@
             "value" : "Hablemos un rato"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlons un moment"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18199,6 +20131,12 @@
             "value" : "Inténtalo de nuevo en un momento."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez réessayer dans un instant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18249,6 +20187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin metas anotadas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun objectif noté"
           }
         },
         "ja" : {
@@ -18311,6 +20255,12 @@
             "value" : "Anotado. Mañana, solo hasta aquí."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noté. Demain, juste ça."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18369,6 +20319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anotado. Te lo mostraré cuando te atasques en algo parecido."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noté. Je vous le montrerai si vous bloquez sur quelque chose de similaire."
           }
         },
         "ja" : {
@@ -18431,6 +20387,12 @@
             "value" : "Anotado. Con esto basta."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noté. C’est largement suffisant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18491,6 +20453,12 @@
             "value" : "Lo escribo yo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je vais écrire"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18549,6 +20517,12 @@
             "value" : "Desesperanza"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Désespéré"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18605,6 +20579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estoy preparando la función de ordenar. Por ahora lo anoto tal como lo oigo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je prépare la mise en forme. Pour l’instant, je note tel que j’entends."
           }
         },
         "ja" : {
@@ -18667,6 +20647,12 @@
             "value" : "Ordenando…"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise en forme…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18727,6 +20713,12 @@
             "value" : "Voy a ordenarlo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je vais mettre ça en forme."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18783,6 +20775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Seguro que quieres eliminar el código y reducir la seguridad?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous vraiment supprimer le code et réduire la sécurité ?"
           }
         },
         "ja" : {
@@ -18843,6 +20841,12 @@
             "value" : "¿Seguro que quieres borrarlo?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraiment effacer ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18893,6 +20897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concha"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coquillage"
           }
         },
         "ja" : {
@@ -18947,6 +20957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No es del todo así"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas tout à fait"
           }
         },
         "ja" : {
@@ -19007,6 +21023,12 @@
             "value" : "Guijarro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galet"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19065,6 +21087,12 @@
             "value" : "Elegir guijarro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir un galet"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19117,6 +21145,12 @@
             "value" : "Elige entre seis acabados de guijarro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez parmi six aspects de galet"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19167,6 +21201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El guijarro está pensando"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le galet réfléchit"
           }
         },
         "ja" : {
@@ -19229,6 +21269,12 @@
             "value" : "En «Ajustes» puedes decidir si el guijarro te habla de tú o de usted."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dans « Réglages », vous choisissez si le galet vous tutoie ou vous vouvoie."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19284,6 +21330,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bien"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bien"
@@ -19347,6 +21399,12 @@
             "value" : "Frustración"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frustré"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19403,6 +21461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calma"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutre"
           }
         },
         "ja" : {
@@ -19465,6 +21529,12 @@
             "value" : "Hablar ahora"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En parler maintenant"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19525,6 +21595,12 @@
             "value" : "Si hay algo hacia lo que vayas ahora, ¿me cuentas una cosa?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S’il y a quelque chose vers quoi vous allez, pouvez-vous m’en parler ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19581,6 +21657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacia dónde vas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Là où vous allez"
           }
         },
         "ja" : {
@@ -19641,6 +21723,12 @@
             "value" : "Ya vas hacia %lld metas."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu avances déjà vers %lld objectifs."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19691,6 +21779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya va hacia %lld metas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous avancez déjà vers %lld objectifs."
           }
         },
         "ja" : {
@@ -19747,6 +21841,12 @@
             "value" : "Lo dejo por ahora"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je laisse pour l’instant"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19799,6 +21899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prefiero dejarlo por ahora"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je préfère laisser pour l’instant"
           }
         },
         "ja" : {
@@ -19857,6 +21963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahora cuesta oír bien. También puedes escribir."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "C’est difficile à entendre maintenant. Vous pouvez aussi écrire."
           }
         },
         "ja" : {
@@ -19919,6 +22031,12 @@
             "value" : "¿Y ahora cómo está?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et maintenant, comment ça va ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19975,6 +22093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ahora no se puede usar la función de ordenar. Lo anoto tal como lo oigo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mise en forme n’est pas disponible pour l’instant. Je note tel que j’entends."
           }
         },
         "ja" : {
@@ -20035,6 +22159,12 @@
             "value" : "Camino recorrido"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chemin parcouru"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20093,6 +22223,12 @@
             "value" : "Guarda todo lo que has escrito en un archivo de texto."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conservez toutes vos notes dans un fichier texte."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20145,6 +22281,12 @@
             "value" : "Exporta tus registros a un archivo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter vos notes dans un fichier"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20195,6 +22337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En el registro anterior quedó escrito: «%@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dans la dernière note, il y a : « %@ »."
           }
         },
         "ja" : {
@@ -20255,6 +22403,12 @@
             "value" : "En el registro anterior quedó escrito: «%@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dans la dernière note, il y a : « %@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20311,6 +22465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última vez usted decidió «%1$@».%2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière fois, vous aviez décidé de « %1$@ ».%2$@"
           }
         },
         "ja" : {
@@ -20371,6 +22531,12 @@
             "value" : "La última vez decidiste «%1$@».%2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière fois, tu avais décidé de « %1$@ ».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20427,6 +22593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última vez habías pensado probar «%1$@».%2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière fois, tu voulais essayer « %1$@ ».%2$@"
           }
         },
         "ja" : {
@@ -20487,6 +22659,12 @@
             "value" : "La última vez había pensado probar «%1$@».%2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière fois, vous vouliez essayer « %1$@ ».%2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20543,6 +22721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La última vez escribiste: «%@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière fois, tu avais écrit : « %@ »."
           }
         },
         "ja" : {
@@ -20603,6 +22787,12 @@
             "value" : "La última vez escribió: «%@»."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La dernière fois, vous aviez écrit : « %@ »."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20659,6 +22849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La semana pasada"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La semaine dernière"
           }
         },
         "ja" : {
@@ -20719,6 +22915,12 @@
             "value" : "La semana pasada"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La semaine dernière"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20775,6 +22977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacia la semana pasada"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vers la semaine dernière"
           }
         },
         "ja" : {
@@ -20835,6 +23043,12 @@
             "value" : "Aburrimiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ennuyé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20891,6 +23105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borrar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer"
           }
         },
         "ja" : {
@@ -20953,6 +23173,12 @@
             "value" : "Una vez borrado, no se puede recuperar."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d’annuler une suppression."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21011,6 +23237,12 @@
             "value" : "No se pudo borrar. Inténtalo de nuevo en un momento."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suppression impossible. Veuillez réessayer dans un instant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21061,6 +23293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ayuda y privacidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistance et confidentialité"
           }
         },
         "ja" : {
@@ -21116,6 +23354,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -21179,6 +23423,12 @@
             "value" : "Registros de ZinggumDol"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes ZinggumDol"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21226,6 +23476,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -21283,6 +23539,12 @@
             "value" : "Estás usando ZinggumDol Pro. Gracias."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous utilisez ZinggumDol Pro. Merci."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21333,6 +23595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Irritación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agacé"
           }
         },
         "ja" : {
@@ -21393,6 +23661,12 @@
             "value" : "Con poco basta."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Court, c’est très bien."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21445,6 +23719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con poco basta: solo lo que pasó entonces."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Court, c’est très bien : seulement ce qui s’est passé alors."
           }
         },
         "ja" : {
@@ -21505,6 +23785,12 @@
             "value" : "Leí 30 minutos. Me concentré bien."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’ai lu pendant 30 minutes. J’étais bien concentré."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21563,6 +23849,12 @@
             "value" : "Ganar resistencia física"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Développer ma condition physique"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21619,6 +23911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
         "ja" : {
@@ -21681,6 +23979,12 @@
             "value" : "También puedes escribir en grande."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez aussi écrire en grand."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21739,6 +24043,12 @@
             "value" : "Toca o frota para acariciarlo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez ou frottez pour le caresser"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21789,6 +24099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destrucción"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destructeur"
           }
         },
         "ja" : {
@@ -21847,6 +24163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Relajación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détendu"
           }
         },
         "ja" : {
@@ -21909,6 +24231,12 @@
             "value" : "Como te resulte más cómodo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comme vous êtes le plus à l’aise"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21965,6 +24293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corriente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banal"
           }
         },
         "ja" : {
@@ -22025,6 +24359,12 @@
             "value" : "Valorar la app"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter l’app"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22078,6 +24418,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -22137,6 +24483,12 @@
             "value" : "Quiero anotar más con Pro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter plus avec Pro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22189,6 +24541,12 @@
             "value" : "Se desbloquea con Pro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Débloqué avec Pro"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22239,6 +24597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cansancio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fatigué"
           }
         },
         "ja" : {
@@ -22301,6 +24665,12 @@
             "value" : "Una cosa es lo que pasó y otra, cómo te sientes ahora."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’un, c’est ce qui s’est passé ; l’autre, ce que vous ressentez maintenant."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22359,6 +24729,12 @@
             "value" : "Se compra una vez y se usa siempre. No es una suscripción"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un seul achat, pour toujours. Ce n’est pas un abonnement"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22409,6 +24785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hace mucho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il y a très longtemps"
           }
         },
         "ja" : {
@@ -22471,6 +24853,12 @@
             "value" : "Lo hice, pero no lo anoté"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fait, mais pas noté"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22531,6 +24919,12 @@
             "value" : "Lo hice, solo que no lo anoté"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fait, juste pas noté"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22587,6 +24981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Felicidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heureux"
           }
         },
         "ja" : {
@@ -22649,6 +25049,12 @@
             "value" : "Todavía no he oído hacia dónde vas."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je n’ai pas encore entendu vers quoi vous allez."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22707,6 +25113,12 @@
             "value" : "No pasa nada por ir hacia varias metas. Puedes anotarlas sin límite."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aller vers plusieurs objectifs, ce n’est pas un problème. Vous pouvez les noter sans limite."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22757,6 +25169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Asco"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dégoûté"
           }
         },
         "ja" : {
@@ -22819,6 +25237,12 @@
             "value" : "¿Quieres decir esto?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous dire ceci ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22875,6 +25299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aceptar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         },
         "ja" : {
@@ -22935,6 +25365,12 @@
             "value" : "Escribe «%@» para confirmar."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrivez « %@ » pour confirmer."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22987,6 +25423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeje"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
           }
         },
         "ja" : {
@@ -23043,6 +25485,12 @@
             "value" : "¿Eh?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hein ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23095,6 +25543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aquí estoy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis là"
           }
         },
         "ja" : {
@@ -23151,6 +25605,12 @@
             "value" : "¿Me llamabas?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu m’as appelé ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23203,6 +25663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Ji, ji, qué cosquillas!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, ça chatouille !"
           }
         },
         "ja" : {
@@ -23259,6 +25725,12 @@
             "value" : "Cosquillas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ça chatouille"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23311,6 +25783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basta, ji, ji"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrête, hihi"
           }
         },
         "ja" : {
@@ -23367,6 +25845,12 @@
             "value" : "Qué gusto…"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ça fait du bien…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23419,6 +25903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Calentito"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bien chaud"
           }
         },
         "ja" : {
@@ -23475,6 +25965,12 @@
             "value" : "Me va entrando el sueño…"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je m’endors doucement…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23529,6 +26025,12 @@
             "value" : "Qué mareo…"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ça tourne…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23581,6 +26083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vueltas y vueltas…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tourne, tourne…"
           }
         },
         "ja" : {

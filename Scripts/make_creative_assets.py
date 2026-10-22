@@ -42,6 +42,7 @@ SEARCH = {
     "ru": ("дневник неудач", "Камешек<br>заговорит первым", "Записывайте, до чего дошли<br>и что остановило, как в беседе"),
     "es": ("diario de fallos", "Un guijarro<br>que habla primero", "Anota hasta dónde llegaste<br>y qué te frenó, charlando"),
     "de": ("Misserfolg Tagebuch", "Ein Kiesel,<br>der zuerst fragt", "Festhalten, was du erreicht hast<br>und was dich aufhielt"),
+    "fr": ("journal intime", "Un galet qui<br>parle le premier", "Notez où vous en êtes arrivé<br>et ce qui a coincé, en parlant"),
 }
 
 # 헤더는 처음 온 사람에게 **한 가지 약속**만 한다(Apple: 단일한 생각, 빽빽하지 않게).
@@ -57,6 +58,7 @@ HEADER = {
     "ru": ("Бережный дневник трудных дней", "Оступиться — не значит<br>упасть в ручей"),
     "es": ("Un diario amable para días difíciles", "Dar un mal paso<br>no es caer al arroyo"),
     "de": ("Ein sanftes Tagebuch für schwere Tage", "Ein Fehltritt heißt nicht,<br>dass du in den Bach fällst"),
+    "fr": ("Un journal tout doux pour les jours difficiles", "Un faux pas, ce n’est pas<br>tomber dans le ruisseau"),
 }
 
 # ⚠️ 바탕 · 글자색은 기존 스크린샷(make_marketing_screenshots.py)과 같다. 다르면 페이지에서

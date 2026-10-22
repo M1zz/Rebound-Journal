@@ -434,3 +434,60 @@ https://m1zz.github.io/Rebound-Journal/de/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/de/
+
+## fr
+
+### 이름
+
+ZinggumDol : journal intime
+
+### 부제
+
+Parlez à un petit galet
+
+### 키워드
+
+introspection,humeur,émotions,habitudes,croissance,stress,anxiété,erreurs,résilience,estimedesoi
+
+### 프로모션 텍스트
+
+Un faux pas ne veut pas dire que vous êtes tombé dans le ruisseau. Revenez sur les jours qui n’ont pas tourné comme prévu avec un galet qui parle le premier.
+
+### 설명
+
+Un faux pas ne veut pas dire que vous êtes tombé dans le ruisseau. ZinggumDol est un journal tout en douceur pour les jours qui n’ont pas tourné comme prévu : vous parlez avec un galet et revenez calmement sur ce qui s’est passé.
+
+Le galet parle le premier. Il se souvient de ce que vous lui avez dit la dernière fois et demande : « Et ensuite, comment ça s’est passé ? » Choisissez une réponse ou écrivez la vôtre. Restent notés ce qui s’est passé, ce que vous ressentiez et ce que vous voulez essayer ensuite.
+
+Parler avec le galet
+Fixez un objectif, et le galet observe où vous en êtes arrivé et ce qui vous retient. Quand un jour a été manqué, il demande « Qu’est-ce qui vous a retenu ? », pas « Qu’avez-vous fait de mal ? ».
+
+Le dire à voix haute
+Les jours où écrire est trop, il suffit de parler. La reconnaissance vocale se fait sur votre appareil et l’enregistrement n’est pas conservé. Sur les appareils compatibles, ce que vous dites est aussi mis en forme pour se lire facilement.
+
+Chemin parcouru
+Chaque semaine s’aligne comme une rangée de pierres pour traverser le ruisseau. Les jours où vous n’avez pas posé le pied restent là : rien n’est effacé.
+
+Ce que vous avez laissé
+Retrouvez par date ce qui s’est passé, ce que vous ressentiez et ce que vous vouliez essayer ensuite.
+
+Widget et rappels
+Un mot du galet sur l’écran d’accueil et un rappel tout doux à l’heure de votre choix pour regarder ensemble comment s’est passée la journée.
+
+Rien que pour vous
+Sans inscription et sans publicité. Vos notes ne sont conservées que sur votre appareil et dans votre propre iCloud, et vous pouvez verrouiller l’app par un code. Ce que vous écrivez n’est jamais envoyé au développeur.
+
+ZINGGUMDOL PRO
+La version gratuite permet jusqu’à trois objectifs. Un achat unique (pas un abonnement) permet d’en noter autant que vous voulez, de choisir parmi six aspects de galet et d’exporter vos notes dans un fichier texte.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/fr/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/fr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/fr/

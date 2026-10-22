@@ -27,6 +27,12 @@
             "value" : "Canto de río"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galet de rivière"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -77,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A tu lado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À vos côtés"
           }
         },
         "ja" : {
@@ -131,6 +143,12 @@
             "value" : "Contento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heureux"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -181,6 +199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Piedra del ocaso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierre du crépuscule"
           }
         },
         "ja" : {
@@ -235,6 +259,12 @@
             "value" : "Escuchando"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’écoute"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -285,6 +315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Piedra de tinta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierre d’encre"
           }
         },
         "ja" : {
@@ -339,6 +375,12 @@
             "value" : "Grano de arena"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grain de sable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -389,6 +431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensando"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je réfléchis"
           }
         },
         "ja" : {
@@ -443,6 +491,12 @@
             "value" : "Aquí estoy."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je suis là."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -493,6 +547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ir a anotar lo de hoy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aller noter aujourd’hui"
           }
         },
         "ja" : {
@@ -547,6 +607,12 @@
             "value" : "Piedra de musgo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pierre moussue"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -597,6 +663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concha"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coquillage"
           }
         },
         "ja" : {
@@ -651,6 +723,12 @@
             "value" : "Guijarro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galet"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -703,6 +781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una frase del guijarro. Toca para anotar lo de hoy."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un mot du galet. Touchez pour noter aujourd’hui."
           }
         },
         "ja" : {
@@ -760,6 +844,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

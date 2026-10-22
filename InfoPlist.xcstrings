@@ -29,6 +29,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -84,6 +90,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
@@ -148,6 +160,12 @@
             "value" : "Se usa el micrófono para que puedas repasar tu día hablando, como en una conversación. Las grabaciones no se guardan; en tu dispositivo solo queda el texto transcrito."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le micro sert à vous permettre de faire le point à voix haute, comme dans une conversation. Les enregistrements ne sont pas conservés ; seul le texte transcrit reste sur votre appareil."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -205,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se usa para convertir en texto lo que dices. El reconocimiento se hace en tu dispositivo y no sale de él."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sert à convertir ce que vous dites en texte. La reconnaissance se fait sur votre appareil et n’en sort pas."
           }
         },
         "ja" : {

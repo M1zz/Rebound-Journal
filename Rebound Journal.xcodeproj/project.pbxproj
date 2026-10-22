@@ -773,6 +773,7 @@
 				ru,
 				es,
 				de,
+				fr,
 			);
 			mainGroup = 586F227F2A33861C004C7410;
 			packageReferences = (
