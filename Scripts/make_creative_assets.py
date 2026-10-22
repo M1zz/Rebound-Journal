@@ -52,6 +52,7 @@ SEARCH = {
     "el": ("ημερολόγιο αποτυχίας", "Ένα βότσαλο που<br>μιλά πρώτο", "Σημείωσε πού έφτασες και τι σε<br>εμπόδισε, σαν κουβέντα"),
     "fi": ("epäonnistumispäiväkirja", "Kivi, joka<br>puhuu ensin", "Kirjaa, mihin pääsit ja mikä<br>tuli vastaan, kuin keskustellen"),
     "id": ("jurnal kegagalan", "Kerikil yang<br>menyapa lebih dulu", "Catat sampai mana kamu melangkah<br>dan apa yang menghalangi"),
+    "nb": ("dagbok nederlag", "En stein som<br>snakker først", "Skriv ned hvor langt du kom<br>og hva som sto i veien"),
 }
 
 # 헤더는 처음 온 사람에게 **한 가지 약속**만 한다(Apple: 단일한 생각, 빽빽하지 않게).
@@ -77,6 +78,7 @@ HEADER = {
     "el": ("Ένα απαλό ημερολόγιο για δύσκολες μέρες", "Ένα παραπάτημα δεν είναι<br>πτώση στο ρυάκι"),
     "fi": ("Lempeä päiväkirja vaikeisiin päiviin", "Harha-askel ei ole<br>putoamista puroon"),
     "id": ("Jurnal lembut untuk hari yang berat", "Salah melangkah bukan<br>berarti jatuh ke sungai"),
+    "nb": ("En vennlig dagbok for tunge dager", "Et feilsteg er ikke<br>et fall i bekken"),
 }
 
 # ⚠️ 바탕 · 글자색은 기존 스크린샷(make_marketing_screenshots.py)과 같다. 다르면 페이지에서

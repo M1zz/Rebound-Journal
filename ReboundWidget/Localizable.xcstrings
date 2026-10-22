@@ -75,6 +75,12 @@
             "value" : "川石"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elvestein"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -185,6 +191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "そばにいます"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved din side"
           }
         },
         "pt-BR" : {
@@ -299,6 +311,12 @@
             "value" : "喜んでいます"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glad"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -409,6 +427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夕焼け石"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgangsstein"
           }
         },
         "pt-BR" : {
@@ -523,6 +547,12 @@
             "value" : "聞いています"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lytter"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -633,6 +663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "墨石"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blekkstein"
           }
         },
         "pt-BR" : {
@@ -747,6 +783,12 @@
             "value" : "砂つぶ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -857,6 +899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "考えています"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tenker"
           }
         },
         "pt-BR" : {
@@ -971,6 +1019,12 @@
             "value" : "ここにいます。"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er her."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1081,6 +1135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今日の分を残しに行く"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå og skriv ned i dag"
           }
         },
         "pt-BR" : {
@@ -1195,6 +1255,12 @@
             "value" : "苔石"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mosestein"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1307,6 +1373,12 @@
             "value" : "貝がら"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjell"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1417,6 +1489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小石"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stein"
           }
         },
         "pt-BR" : {
@@ -1539,6 +1617,12 @@
             "value" : "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et ord fra steinen. Trykk for å skrive ned i dag."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1657,6 +1741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "징검돌"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
         "pt-BR" : {

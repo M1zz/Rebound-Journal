@@ -1004,3 +1004,60 @@ https://m1zz.github.io/Rebound-Journal/id/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/id/
+
+## nb
+
+### 이름
+
+ZinggumDol: dagbok
+
+### 부제
+
+Snakk med en liten stein
+
+### 키워드
+
+refleksjon,humør,følelser,vaner,vekst,stress,angst,feil,motstandskraft,selvfølelse,mindfulness
+
+### 프로모션 텍스트
+
+Et feilsteg betyr ikke at du har falt i bekken. Se tilbake på dagene som ikke gikk som planlagt, sammen med en stein som snakker først og husker hva du har fortalt.
+
+### 설명
+
+Et feilsteg betyr ikke at du har falt i bekken. ZinggumDol er en vennlig dagbok for dagene som ikke gikk som planlagt: Du snakker med en liten stein og ser i ro og mak tilbake på det som skjedde.
+
+Steinen snakker først. Den husker hva du fortalte sist og spør: «Hvordan gikk det etterpå?» Velg et svar eller skriv ditt eget. Det som skjedde, hvordan du hadde det og hva du vil prøve neste gang, blir skrevet ned.
+
+Snakk med steinen
+Sett deg et mål, så følger steinen med på hvor langt du har kommet og hva som står i veien. Hvis en dag glipper, spør den «Hva sto i veien?», ikke «Hva gjorde du galt?».
+
+Si det høyt
+På dager da det er for mye å skrive, kan du bare snakke. Talegjenkjenningen skjer på enheten din, og opptaket lagres ikke. På støttede enheter blir det du sier også ryddet opp, slik at det er lett å lese.
+
+Veien så langt
+Hver uke settes opp som en rekke steiner over bekken. Dagene du ikke tråkket på, blir liggende – ingenting slettes.
+
+Det du har lagt igjen
+Se etter dato hva som skjedde, hvordan du hadde det og hva du ville prøve neste gang.
+
+Widget og påminnelser
+En setning fra steinen på hjemskjermen og en mild påminnelse på tidspunktet du velger, så dere sammen kan se på hvordan dagen gikk.
+
+Bare din egen
+Ingen registrering og ingen reklame. Notatene dine ligger bare på enheten din og i din egen iCloud, og du kan låse appen med en kode. Det du skriver, blir aldri sendt til utvikleren.
+
+ZINGGUMDOL PRO
+Gratisversjonen rommer opptil tre mål. Med et engangskjøp (ikke et abonnement) kan du skrive ned mål uten grense, velge blant seks overflater til steinen og eksportere notatene til en tekstfil.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/nb/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/nb/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/nb/

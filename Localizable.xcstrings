@@ -75,6 +75,12 @@
             "value" : "  気分: %@"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Humør: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -187,6 +193,12 @@
             "value" : "  次の一歩: %@"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Neste steg: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -297,6 +309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  あったこと: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Hva som skjedde: %@"
           }
         },
         "pt-BR" : {
@@ -417,6 +435,12 @@
             "value" : "'%@' 앞에서 뭐가 걸렸어?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva sto i veien ved «%@»?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -533,6 +557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 앞에서 뭐가 걸렸어요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva sto i veien ved «%@»?"
           }
         },
         "pt-BR" : {
@@ -653,6 +683,12 @@
             "value" : "'%1$@' 얘기를 나눈 지 %2$lld일이 지났어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det har gått %2$lld dager siden vi snakket om «%1$@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -769,6 +805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@' 얘기를 나눈 지 %2$lld일이 지났어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det har gått %2$lld dager siden vi snakket om «%1$@»."
           }
         },
         "pt-BR" : {
@@ -889,6 +931,12 @@
             "value" : "'%@', 오늘은 아직이네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» – ingenting ennå i dag."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1005,6 +1053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@', 오늘은 아직이네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» – ingenting ennå i dag."
           }
         },
         "pt-BR" : {
@@ -1125,6 +1179,12 @@
             "value" : "'%1$@'%2$@ %3$lld일째 조용하네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ det har vært stille i %3$lld dager."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1241,6 +1301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ %3$lld일째 조용하네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ det har vært stille i %3$lld dager."
           }
         },
         "pt-BR" : {
@@ -1361,6 +1427,12 @@
             "value" : "'%1$@'%2$@ 돌아본 지 %3$lld일 됐어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du har ikke sett på det på %3$lld dager."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1477,6 +1549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ 돌아본 지 %3$lld일 됐어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ det er %3$lld dager siden sist du så på det."
           }
         },
         "pt-BR" : {
@@ -1597,6 +1675,12 @@
             "value" : "'%1$@'%2$@ 오늘 아직 닿지 않았네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du har ikke kommet dit ennå i dag."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1713,6 +1797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ 오늘 아직 닿지 않았네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du har ikke kommet dit ennå i dag."
           }
         },
         "pt-BR" : {
@@ -1833,6 +1923,12 @@
             "value" : "'%1$@'%2$@ 적어두고 아직 돌아본 적은 없네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du skrev det ned, men har ikke sett på det igjen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1949,6 +2045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ 적어두고 아직 돌아본 적은 없네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du skrev det ned, men har ikke sett på det igjen."
           }
         },
         "pt-BR" : {
@@ -2069,6 +2171,12 @@
             "value" : "'%1$@'%2$@ 적어두기만 하고 아직이야."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du har bare skrevet det ned, og så har det stoppet der."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2185,6 +2293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ 적어두기만 하고 아직이에요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ du har bare skrevet det ned, og så har det stoppet der."
           }
         },
         "pt-BR" : {
@@ -2305,6 +2419,12 @@
             "value" : "'%1$@'%2$@ 적어둔 뒤로는 아직 조용해."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ siden du skrev det ned, har det vært stille."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2421,6 +2541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ 적어둔 뒤로는 아직 조용해요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ siden du skrev det ned, har det vært stille."
           }
         },
         "pt-BR" : {
@@ -2541,6 +2667,12 @@
             "value" : "'%1$@'%2$@ 하려던 때로 돌아가 보자. 뭐가 막혔어?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ la oss gå tilbake til da du skulle gjøre det. Hva stoppet opp?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2657,6 +2789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'%2$@ 하려던 때로 돌아가 볼게요. 뭐가 막혔어요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%1$@»%2$@ la oss gå tilbake til da du skulle gjøre det. Hva stoppet opp?"
           }
         },
         "pt-BR" : {
@@ -2777,6 +2915,12 @@
             "value" : "'%1$@'에 닿은 게 %2$@였어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved «%1$@» kom du til %2$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2893,6 +3037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%1$@'에 닿은 게 %2$@였어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved «%1$@» kom du til %2$@."
           }
         },
         "pt-BR" : {
@@ -3013,6 +3163,12 @@
             "value" : "'%@'에 닿은 하루였네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var dagen du nådde «%@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3129,6 +3285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@'에 닿은 하루였네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var dagen du nådde «%@»."
           }
         },
         "pt-BR" : {
@@ -3249,6 +3411,12 @@
             "value" : "'%1$@'에 대해 %2$@ '%3$@'라고 적었어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om «%1$@» skrev du %2$@: «%3$@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3367,6 +3535,12 @@
             "value" : "'%1$@'에 대해 %2$@ '%3$@'라고 적으셨어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om «%1$@» skrev du %2$@: «%3$@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3479,6 +3653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "「歩いた道」で目標をひとつ手放すと、新しく書けます。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slipp ett mål under «Veien så langt», så kan du skrive et nytt."
           }
         },
         "pt-BR" : {
@@ -3599,6 +3779,12 @@
             "value" : "%1$@\n막힌 건 '%2$@'였고,\n지금 기분은 '%3$@'%4$@.\n\n%5$@"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nDet som sto i veien, var «%2$@»,\nog akkurat nå føler du deg «%3$@»%4$@.\n\n%5$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3715,6 +3901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ '%2$@' 얘기하면서 '%3$@'라고 남겼지."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Da du snakket om «%2$@», la du igjen: «%3$@»."
           }
         },
         "pt-BR" : {
@@ -3835,6 +4027,12 @@
             "value" : "%1$@ '%2$@' 얘기하면서 '%3$@'라고 남기셨죠."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Da du snakket om «%2$@», la du igjen: «%3$@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3951,6 +4149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ '%2$@'%3$@ 두고 '%4$@'라고 하셨어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Om «%2$@»%3$@ sa du: «%4$@»."
           }
         },
         "pt-BR" : {
@@ -4071,6 +4275,12 @@
             "value" : "%1$@ '%2$@'%3$@ 두고 '%4$@'라고 했잖아."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Om «%2$@»%3$@ sa du jo: «%4$@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4187,6 +4397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ '%2$@'%3$@ 막혔다고 하셨어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du sa at «%2$@»%3$@ stoppet opp."
           }
         },
         "pt-BR" : {
@@ -4307,6 +4523,12 @@
             "value" : "%1$@ '%2$@'%3$@ 막혔다고 했잖아."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du sa jo at «%2$@»%3$@ stoppet opp."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4423,6 +4645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ '%2$@'%3$@ 해내셨죠."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarte «%2$@»%3$@."
           }
         },
         "pt-BR" : {
@@ -4543,6 +4771,12 @@
             "value" : "%1$@ '%2$@'%3$@ 해냈지."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarte jo «%2$@»%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4659,6 +4893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ '%2$@'에 닿았어."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde du «%2$@»."
           }
         },
         "pt-BR" : {
@@ -4779,6 +5019,12 @@
             "value" : "%1$@ '%2$@'에 닿았어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde du «%2$@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4895,6 +5141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ '%2$@'에서 걸렸다고 남겼지."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ skrev du at «%2$@» sto i veien."
           }
         },
         "pt-BR" : {
@@ -5015,6 +5267,12 @@
             "value" : "%1$@ '%2$@'에서 걸렸다고 남기셨죠."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ skrev du at «%2$@» sto i veien."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5131,6 +5389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 주"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uken fra %@"
           }
         },
         "pt-BR" : {
@@ -5251,6 +5515,12 @@
             "value" : "%@, 기록을 남긴 날"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag med notat"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5367,6 +5637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, 남긴 기록 없음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ingen notat"
           }
         },
         "pt-BR" : {
@@ -5487,6 +5763,12 @@
             "value" : "%@, 목표에 닿은 날"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag da målet ble nådd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5603,6 +5885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, 아직 오지 않은 날"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag som ikke har kommet ennå"
           }
         },
         "pt-BR" : {
@@ -5723,6 +6011,12 @@
             "value" : "%1$@에 '%2$@'%3$@ 해내셨잖아요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarte jo «%2$@»%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5839,6 +6133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@에 '%2$@'%3$@ 해냈잖아."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarte jo «%2$@»%3$@."
           }
         },
         "pt-BR" : {
@@ -5959,6 +6259,12 @@
             "value" : "%1$@에는 '%2$@'%3$@ 해내셨어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ klarte du «%2$@»%3$@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6075,6 +6381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@에는 '%2$@'%3$@ 해냈어."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ klarte du «%2$@»%3$@."
           }
         },
         "pt-BR" : {
@@ -6195,6 +6507,12 @@
             "value" : "%1$@에는 '%2$@'에 닿았고."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde du «%2$@»,"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6313,6 +6631,12 @@
             "value" : "%1$@에는 '%2$@'에 닿으셨고요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde du «%2$@»,"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6426,6 +6750,12 @@
           }
         },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -6547,6 +6877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld월 %2$lld일"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
           }
         },
         "pt-BR" : {
@@ -6827,6 +7163,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld일 전"
+          }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "For %lld dag siden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "For %lld dager siden"
+                }
+              }
+            }
           }
         },
         "pt-BR" : {
@@ -7175,6 +7529,24 @@
             "value" : "%lld일 전에 남김"
           }
         },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld dag siden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld dager siden"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -7521,6 +7893,24 @@
             "value" : "%lld주 전에 남김"
           }
         },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld uke siden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Skrevet for %lld uker siden"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -7705,6 +8095,12 @@
             "value" : "|"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7825,6 +8221,12 @@
             "value" : "가라앉았어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Litt nedfor"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7941,6 +8343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가벼운 스트레칭부터 시작하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begynne med lett tøying"
           }
         },
         "pt-BR" : {
@@ -8061,6 +8469,12 @@
             "value" : "감사한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takknemlig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8173,6 +8587,12 @@
             "value" : "川石"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elvestein"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8283,6 +8703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "同じ名前の目標がすでにあります"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det finnes allerede et mål med det navnet"
           }
         },
         "pt-BR" : {
@@ -8405,6 +8831,12 @@
             "value" : "개발용"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For utvikleren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8523,6 +8955,12 @@
             "value" : "개발자에게 메일 보내기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send e-post til utvikleren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8633,6 +9071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "川辺で拾ったような石が、あと5種類使えるようになります。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fem steiner til låses opp, som om de var plukket ved bekken."
           }
         },
         "pt-BR" : {
@@ -8753,6 +9197,12 @@
             "value" : "개인정보 보호정책"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personvernerklæring"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8869,6 +9319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건강"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helse"
           }
         },
         "pt-BR" : {
@@ -8989,6 +9445,12 @@
             "value" : "곁에 있어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ved din side"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9105,6 +9567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "고치기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger"
           }
         },
         "pt-BR" : {
@@ -9227,6 +9695,12 @@
             "value" : "괜찮아요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greit"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9347,6 +9821,12 @@
             "value" : "괜찮아요. 눈에 안 띄었을 뿐이에요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det går bra. Det falt bare ikke i øynene."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9465,6 +9945,12 @@
             "value" : "괴로운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plaget"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9575,6 +10061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "購入の復元"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenopprett kjøp"
           }
         },
         "pt-BR" : {
@@ -9693,6 +10185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "규칙적인 생활"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regelmessig liv"
           }
         },
         "pt-BR" : {
@@ -9815,6 +10313,12 @@
             "value" : "그 뒤로는 어떻게 됐어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan gikk det etterpå?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9933,6 +10437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그건 상황 얘기였고요. 지금 기분은 어때요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var situasjonen. Hvordan har du det nå?"
           }
         },
         "pt-BR" : {
@@ -10055,6 +10565,12 @@
             "value" : "그건 어떻게 됐어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan endte det?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10165,6 +10681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "その日はどうでしたか"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan var dagen"
           }
         },
         "pt-BR" : {
@@ -10287,6 +10809,12 @@
             "value" : "그대로 둘게요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lar det være"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10403,6 +10931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그때 '%1$@'%2$@ 해보자고 하셨어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da sa du at du ville prøve «%1$@».%2$@"
           }
         },
         "pt-BR" : {
@@ -10523,6 +11057,12 @@
             "value" : "그때 '%1$@'%2$@ 해보자고 했었어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da sa du at du ville prøve «%1$@».%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10633,6 +11173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "そのときの気分"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humøret da"
           }
         },
         "pt-BR" : {
@@ -10755,6 +11301,12 @@
             "value" : "그때 무슨 일이 있었어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva skjedde da?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10875,6 +11427,12 @@
             "value" : "그때 얘기 해볼래요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snakke om den gangen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10993,6 +11551,12 @@
             "value" : "그때는 '%@'라고 하셨죠."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da sa du: «%@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11109,6 +11673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그때는 '%@'라고 했었지."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da sa du: «%@»."
           }
         },
         "pt-BR" : {
@@ -11231,6 +11801,12 @@
             "value" : "그래요. 다음에 얘기해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greit. Vi snakker en annen gang."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11349,6 +11925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그랬죠"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slik var det"
           }
         },
         "pt-BR" : {
@@ -11471,6 +12053,12 @@
             "value" : "그럴 수 있어요. 잊었다고 없어지는 건 아니니까요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan skje. Å glemme betyr ikke at det forsvinner."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11591,6 +12179,12 @@
             "value" : "그럴 수 있죠. 잊은 건 잊은 거고요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan skje. Glemt er glemt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11709,6 +12303,12 @@
             "value" : "그럼 '%1$@'%2$@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva er da én liten ting på veien mot «%1$@»%2$@ som du kan klare allerede i morgen?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11825,6 +12425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그럼 '%1$@'%2$@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva er da én liten ting på veien mot «%1$@»%2$@ som du kan klare allerede i morgen?"
           }
         },
         "pt-BR" : {
@@ -11947,6 +12553,12 @@
             "value" : "그럼 그 얘기를 해볼까요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da snakker vi om det."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12065,6 +12677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그럼 그건 끝난 얘기네요. 지금 적어둘게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da er det avsluttet. Jeg skriver det ned nå."
           }
         },
         "pt-BR" : {
@@ -12187,6 +12805,12 @@
             "value" : "그럼 매듭지어 둘게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da runder jeg av."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12307,6 +12931,12 @@
             "value" : "그럼 이건 어때요. 내일 바로 해낼 수 있을 만큼 작게 만든다면, 뭐가 될까요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva med dette: Hvis du gjorde det så lite at du kunne klare det allerede i morgen, hva ville det være?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12423,6 +13053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그만 말하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopp opplesing"
           }
         },
         "pt-BR" : {
@@ -12545,6 +13181,12 @@
             "value" : "그저 그래요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sånn passe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12663,6 +13305,12 @@
             "value" : "기대되는"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forventningsfull"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12773,6 +13421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "記録"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notater"
           }
         },
         "pt-BR" : {
@@ -12887,6 +13541,12 @@
             "value" : "記録を書き出す"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter notater"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12997,6 +13657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "記録を書き出せませんでした"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notatene dine kunne ikke eksporteres"
           }
         },
         "pt-BR" : {
@@ -13117,6 +13783,12 @@
             "value" : "기분이 좋은"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I godt humør"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13235,6 +13907,12 @@
             "value" : "기뻐하고 있어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glad"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13351,6 +14029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끔찍한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forferdelig"
           }
         },
         "pt-BR" : {
@@ -13473,6 +14157,12 @@
             "value" : "나머지는 서두르지 않아도 돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten haster ikke."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13591,6 +14281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "나머지는 접어두고 이것만 봐요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi legger resten bort og ser bare på dette."
           }
         },
         "pt-BR" : {
@@ -13713,6 +14409,12 @@
             "value" : "나머지도 천천히 보면 돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten kan du se på i ro og mak."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13833,6 +14535,12 @@
             "value" : "남겨뒀어요. 통했던 건 잊지 않게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagret, så det som fungerte ikke blir glemt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13951,6 +14659,12 @@
             "value" : "남긴 것들"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du har lagt igjen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14063,6 +14777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "残した記録はそのままです。一覧から外れるだけです。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notater du har lagt igjen, blir værende. Det forsvinner bare fra listen."
           }
         },
         "pt-BR" : {
@@ -14185,6 +14905,12 @@
             "value" : "남긴 말은 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen ord er lagt igjen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14295,6 +15021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "私の目標"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Målene mine"
           }
         },
         "pt-BR" : {
@@ -14409,6 +15141,12 @@
             "value" : "小石を選ぶ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg steinen min"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14521,6 +15259,12 @@
             "value" : "手放す"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slipp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14631,6 +15375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "書き出した日: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportert: %@"
           }
         },
         "pt-BR" : {
@@ -14753,6 +15503,12 @@
             "value" : "내일 딱 하나만 한다면, 뭘 하시겠어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du bare gjorde én ting i morgen, hva ville det vært?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14869,6 +15625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "냉정한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kald"
           }
         },
         "pt-BR" : {
@@ -14991,6 +15753,12 @@
             "value" : "네"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15109,6 +15877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네, 그냥 둘게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jeg lar det være."
           }
         },
         "pt-BR" : {
@@ -15231,6 +16005,12 @@
             "value" : "네, 그냥 둘게요. 여기 있을게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jeg lar det være. Jeg er her."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15351,6 +16131,12 @@
             "value" : "네, 그럼 다음에 얘기해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greit, vi snakker en annen gang."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15461,6 +16247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夕焼け石"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgangsstein"
           }
         },
         "pt-BR" : {
@@ -15583,6 +16375,12 @@
             "value" : "다른 것들은 그대로 두고, 이거 하나만 볼까요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skal vi la resten ligge og bare se på dette?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15703,6 +16501,12 @@
             "value" : "다른 것들은 천천히 해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten i ro og mak."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15819,6 +16623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
           }
         },
         "pt-BR" : {
@@ -15941,6 +16751,12 @@
             "value" : "다음에 또 쓸 수 있게 적어둘게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det ned, så det kan brukes igjen neste gang."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16051,6 +16867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "次に試してみること"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du vil prøve neste gang"
           }
         },
         "pt-BR" : {
@@ -16171,6 +16993,12 @@
             "value" : "다이어트"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slanking"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16287,6 +17115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "닫기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         },
         "pt-BR" : {
@@ -16409,6 +17243,12 @@
             "value" : "닿았다고만 남겼어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bare «kom meg dit» ble skrevet ned."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16521,6 +17361,12 @@
             "value" : "たどり着いた"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg kom dit"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16631,6 +17477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "たどり着けなかった"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg kom ikke dit"
           }
         },
         "pt-BR" : {
@@ -16751,6 +17603,12 @@
             "value" : "독서 습관 만들기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en leserutine"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16867,6 +17725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "독서하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lese"
           }
         },
         "pt-BR" : {
@@ -16989,6 +17853,12 @@
             "value" : "듣고 있어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lytter"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17107,6 +17977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "딱히 할 말은 없어요. 그냥 여기 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er ikke så mye å si. Jeg er bare her."
           }
         },
         "pt-BR" : {
@@ -17229,6 +18105,12 @@
             "value" : "떠오르지 않으면 비워둬도 돼요. 나중에 같이 찾아요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du ikke kommer på noe, kan du la det stå tomt. Vi finner det sammen senere."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17345,6 +18227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이크를 쓸 수 없어요. 적어주셔도 괜찮아요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen kan ikke brukes. Du kan også skrive."
           }
         },
         "pt-BR" : {
@@ -17465,6 +18353,12 @@
             "value" : "만족스러운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilfreds"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17581,6 +18475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "만족한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fornøyd"
           }
         },
         "pt-BR" : {
@@ -17703,6 +18603,12 @@
             "value" : "많이 힘들어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veldig tungt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17821,6 +18727,12 @@
             "value" : "말로 답하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svar med stemmen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17937,6 +18849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말투"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiltaleform"
           }
         },
         "pt-BR" : {
@@ -18059,6 +18977,12 @@
             "value" : "말투를 고를 수 있어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan velge hvordan det snakkes til deg"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18177,6 +19101,12 @@
             "value" : "말할 때 소리"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyd ved tale"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18293,6 +19223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말할 때 진동"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibrasjon ved tale"
           }
         },
         "pt-BR" : {
@@ -18415,6 +19351,12 @@
             "value" : "맞아요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkurat"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18535,6 +19477,12 @@
             "value" : "맞아요, 못 했어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jeg gjorde det ikke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18651,6 +19599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매일 10분씩 영어 팟캐스트 듣기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lytte til en engelsk podkast i 10 minutter hver dag"
           }
         },
         "pt-BR" : {
@@ -18771,6 +19725,12 @@
             "value" : "매일 알림"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daglig påminnelse"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18883,6 +19843,12 @@
             "value" : "墨石"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blekkstein"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18993,6 +19959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先に書き出す"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter først"
           }
         },
         "pt-BR" : {
@@ -19113,6 +20085,12 @@
             "value" : "며칠 전"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For noen dager siden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19231,6 +20209,12 @@
             "value" : "며칠 전에"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For noen dager siden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19341,6 +20325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "すべて削除"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett alt"
           }
         },
         "pt-BR" : {
@@ -19455,6 +20445,12 @@
             "value" : "すべて削除しました。"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er slettet."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19567,6 +20563,12 @@
             "value" : "すべての記録を削除"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett alle notater"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19677,6 +20679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "すべての記録を削除しますか？"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slette alle notater?"
           }
         },
         "pt-BR" : {
@@ -19799,6 +20807,12 @@
             "value" : "모든 데이터 삭제"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett alle data"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19911,6 +20925,12 @@
             "value" : "砂つぶ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20021,6 +21041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "目標"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål"
           }
         },
         "pt-BR" : {
@@ -20141,6 +21167,12 @@
             "value" : "목표 추가"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til mål"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20251,6 +21283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "目標をひとつ書きとめる"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned ett mål"
           }
         },
         "pt-BR" : {
@@ -20365,6 +21403,12 @@
             "value" : "目標を数の制限なく書きとめられます"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned mål uten begrensning"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20475,6 +21519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "目標を好きなだけ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så mange mål du vil"
           }
         },
         "pt-BR" : {
@@ -20589,6 +21639,12 @@
             "value" : "目標を無制限に書き、小石を選び、記録をファイルに残せます。一度買えば、ずっと使えます。"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned mål uten grense, velg steinen din og ta vare på notatene i en fil. Kjøp én gang, bruk for alltid."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20699,6 +21755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "目標も記録もすべて消えて、元に戻せません。iCloudでつながっている他のデバイスからも消えます。設定と購入はそのまま残ります。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle målene og notatene dine forsvinner og kan ikke gjenopprettes. De slettes også på andre enheter koblet til via iCloud. Innstillinger og kjøp beholdes."
           }
         },
         "pt-BR" : {
@@ -20819,6 +21881,12 @@
             "value" : "무감각한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Følelsesløs"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20935,6 +22003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "무관심한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Likegyldig"
           }
         },
         "pt-BR" : {
@@ -21055,6 +22129,12 @@
             "value" : "무난한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helt greit"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21173,6 +22253,12 @@
             "value" : "무력한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maktesløs"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21283,6 +22369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無料で使えていたものはそのまま、いくつかが新しく使えるようになります。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det som var gratis, forblir gratis, og litt til låses opp."
           }
         },
         "pt-BR" : {
@@ -21397,6 +22489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無料では目標を3つまで持てます。これが3つ目です。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratisversjonen rommer opptil tre mål. Dette er det tredje."
           }
         },
         "pt-BR" : {
@@ -21517,6 +22615,12 @@
             "value" : "무서운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21627,6 +22731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "何があったか"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva skjedde"
           }
         },
         "pt-BR" : {
@@ -21749,6 +22859,12 @@
             "value" : "무슨 일이 있었는지 얘기하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortell hva som skjedde"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21867,6 +22983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "무엇에 닿았고 무엇이 막혔는지, 제가 먼저 보고 말을 걸게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg ser først på hvor langt du har kommet og hva som sto i veien, og så tar jeg kontakt."
           }
         },
         "pt-BR" : {
@@ -21989,6 +23111,12 @@
             "value" : "무엇을 향해 가고 있는지 아직 못 들었어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg vet ikke ennå hva du er på vei mot."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22109,6 +23237,12 @@
             "value" : "무엇을 향해 가고 있어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva er du på vei mot?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22227,6 +23361,12 @@
             "value" : "무표정한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uttrykksløs"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22343,6 +23483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "물을 많이 마시고 일찍 자기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drikke mye vann og legge meg tidlig"
           }
         },
         "pt-BR" : {
@@ -22465,6 +23611,12 @@
             "value" : "뭐가 도움이 됐어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva hjalp?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22583,6 +23735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "뭐가 통했는지 적어두기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned det som fungerte"
           }
         },
         "pt-BR" : {
@@ -22705,6 +23863,12 @@
             "value" : "뭐가 통했어요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva fungerte?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22817,6 +23981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "スワイプまたは長押しで、名前を変えたり手放したりできます。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sveip eller hold inne på et mål for å gi det nytt navn eller slippe det."
           }
         },
         "pt-BR" : {
@@ -22937,6 +24107,12 @@
             "value" : "밤 11시에 알람 설정하고 핸드폰 멀리 두기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stille alarmen på kl. 23 og legge telefonen langt unna"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23053,6 +24229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보통의"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vanlig"
           }
         },
         "pt-BR" : {
@@ -23173,6 +24355,12 @@
             "value" : "분노스러운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sint"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23289,6 +24477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "불만족스러운"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misfornøyd"
           }
         },
         "pt-BR" : {
@@ -23409,6 +24603,12 @@
             "value" : "불안한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urolig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23525,6 +24725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 삭제"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett kode"
           }
         },
         "pt-BR" : {
@@ -23645,6 +24851,12 @@
             "value" : "비밀번호 설정"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angi kode"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23761,6 +24973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 입력"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn kode"
           }
         },
         "pt-BR" : {
@@ -23881,6 +25099,12 @@
             "value" : "비밀번호 확인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreft kode"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23997,6 +25221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비참한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elendig"
           }
         },
         "pt-BR" : {
@@ -24117,6 +25347,12 @@
             "value" : "뿌듯한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolt av seg selv"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24227,6 +25463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用状況データ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruksstatistikk"
           }
         },
         "pt-BR" : {
@@ -24347,6 +25589,12 @@
             "value" : "사용 통계 (개발자)"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruksstatistikk (utvikler)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24463,6 +25711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "상쾌한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opplagt"
           }
         },
         "pt-BR" : {
@@ -24585,6 +25839,12 @@
             "value" : "상황은 알겠어요. 그래서 지금 어떤 기분이에요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg forstår situasjonen. Hvordan har du det nå?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24703,6 +25963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "상황이 막힌 거지, 사람이 문제인 게 아니에요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er situasjonen som har kjørt seg fast, ikke du som er problemet."
           }
         },
         "pt-BR" : {
@@ -24825,6 +26091,12 @@
             "value" : "샘플 데이터 생성"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett eksempeldata"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24941,6 +26213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각하고 있어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tenker"
           }
         },
         "pt-BR" : {
@@ -25061,6 +26339,12 @@
             "value" : "설레는"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spent"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25177,6 +26461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
           }
         },
         "pt-BR" : {
@@ -25297,6 +26587,12 @@
             "value" : "설정에서 Apple Intelligence를 켜면 말한 내용을 더 잘 정리해 드려요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på Apple Intelligence i «Innstillinger», så kan jeg rydde bedre i det du sier."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25413,6 +26709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "소식을 퍼뜨리세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spre budskapet"
           }
         },
         "pt-BR" : {
@@ -25533,6 +26835,12 @@
             "value" : "슬픈"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trist"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25649,6 +26957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시간"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid"
           }
         },
         "pt-BR" : {
@@ -25769,6 +27083,12 @@
             "value" : "신나는"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begeistret"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25887,6 +27207,12 @@
             "value" : "실망스러운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skuffet"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25997,6 +27323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "なでる"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klapp"
           }
         },
         "pt-BR" : {
@@ -26117,6 +27449,12 @@
             "value" : "쓸쓸한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensom"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26235,6 +27573,12 @@
             "value" : "아쉬운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vemodig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26351,6 +27695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 기록 없음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen notater ennå"
           }
         },
         "pt-BR" : {
@@ -26473,6 +27823,12 @@
             "value" : "아직 남긴 게 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har ikke lagt igjen noe ennå."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26583,6 +27939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "まだ書いた記録はありません。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen notater ennå."
           }
         },
         "pt-BR" : {
@@ -26705,6 +28067,12 @@
             "value" : "아직 남긴 이야기가 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen historier er lagt igjen ennå."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26823,6 +28191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 어디로 가는 중인지 못 들었어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg vet ikke ennå hvor du er på vei."
           }
         },
         "pt-BR" : {
@@ -26945,6 +28319,12 @@
             "value" : "아직 향하는 곳이 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har ingen retning ennå."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27061,6 +28441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아침 일찍 일어나기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stå tidlig opp"
           }
         },
         "pt-BR" : {
@@ -27181,6 +28567,12 @@
             "value" : "아침 일찍 일어나서 하루를 알차게 보냈어요!"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg sto tidlig opp og fikk brukt dagen godt!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27297,6 +28689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아침에 일어나지 못하고 늦잠 잤어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg klarte ikke å stå opp om morgenen og sov for lenge."
           }
         },
         "pt-BR" : {
@@ -27419,6 +28817,12 @@
             "value" : "안녕하세요. 저는 징검돌이에요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hei. Jeg er ZinggumDol."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27539,6 +28943,12 @@
             "value" : "알겠어요. 여기 있을게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greit. Jeg er her."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27657,6 +29067,12 @@
             "value" : "알림 켜기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på påminnelser"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27767,6 +29183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "詳しく見る"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les mer"
           }
         },
         "pt-BR" : {
@@ -27887,6 +29309,12 @@
             "value" : "앱 공유하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del appen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28005,6 +29433,12 @@
             "value" : "앱 비밀번호"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appkode"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28115,6 +29549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "送信するのは、アプリを開いた日、会話を終えた日、目標をつくるといった操作の種類、記録と目標の数、購入画面を見たかどうかだけです。書いた内容は一文字も外に出ません。送信者は、このデバイスで作られたランダムな番号でしか区別されません。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det som sendes, er bare dagene du åpnet appen eller avsluttet en samtale, hva slags handlinger det er snakk om (for eksempel å opprette et mål), antall notater og mål, og om du har sett kjøpsskjermen. Ikke en eneste bokstav av det du skriver, forlater enheten, og avsenderen skilles bare ut med et tilfeldig nummer som er laget på denne enheten."
           }
         },
         "pt-BR" : {
@@ -28235,6 +29675,12 @@
             "value" : "야식 참기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke spise nattmat"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28351,6 +29797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "야식을 참지 못했어요. 배고파서 라면을 먹었습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg klarte ikke la være å spise nattmat. Jeg var sulten og spiste nudler."
           }
         },
         "pt-BR" : {
@@ -28473,6 +29925,12 @@
             "value" : "어떻게 됐는지 남기기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned hvordan det gikk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28589,6 +30047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "어수선한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotete"
           }
         },
         "pt-BR" : {
@@ -28709,6 +30173,12 @@
             "value" : "어제"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I går"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28825,6 +30295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "어제 남김"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet i går"
           }
         },
         "pt-BR" : {
@@ -28947,6 +30423,12 @@
             "value" : "언제든 다시 바꿀 수 있어요. 바꾸면 조약돌이 그 말투로 다시 인사해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan endre det når som helst. Når du gjør det, hilser steinen på deg igjen på den måten."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29063,6 +30545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "얼마 전"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For en tid siden"
           }
         },
         "pt-BR" : {
@@ -29183,6 +30671,12 @@
             "value" : "얼마 전에"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For en tid siden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29299,6 +30793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여기 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er her."
           }
         },
         "pt-BR" : {
@@ -29421,6 +30921,12 @@
             "value" : "여기까지만 해요.\n지친 날에 세운 계획은 잘 안 되더라고요.\n남겨뒀으니 괜찮아요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La oss stoppe her for i dag.\nPlaner man legger på slitne dager, holder sjelden.\nDet er lagret, så det går bra."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29539,6 +31045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여기까진 무슨 일이 있었는지였고요. 지금 마음은 어때요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frem til nå handlet det om hva som skjedde. Hvordan har du det inni deg nå?"
           }
         },
         "pt-BR" : {
@@ -29661,6 +31173,12 @@
             "value" : "여기서부터 얘기해요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snakk herfra"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29777,6 +31295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "열정적인"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engasjert"
           }
         },
         "pt-BR" : {
@@ -29897,6 +31421,12 @@
             "value" : "영어 공부를 하려다가 미루고 말았어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skulle lese engelsk, men utsatte det."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30013,6 +31543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 공부하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studere engelsk"
           }
         },
         "pt-BR" : {
@@ -30133,6 +31669,12 @@
             "value" : "영어 실력 향상"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bli bedre i engelsk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30249,6 +31791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg hørte på en engelsk podkast på vei til jobb! Det var morsommere enn jeg trodde."
           }
         },
         "pt-BR" : {
@@ -30369,6 +31917,12 @@
             "value" : "오늘"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30485,6 +32039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘 '%@', 해내셨네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag «%@» – du klarte det."
           }
         },
         "pt-BR" : {
@@ -30605,6 +32165,12 @@
             "value" : "오늘 '%@', 해냈네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag «%@» – du klarte det."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30721,6 +32287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘 '%1$@'%2$@ 아직 소식이 없어."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er det ennå ingen nyheter om «%1$@».%2$@"
           }
         },
         "pt-BR" : {
@@ -30841,6 +32413,12 @@
             "value" : "오늘 '%1$@'%2$@ 아직 소식이 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er det ennå ingen nyheter om «%1$@».%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30959,6 +32537,12 @@
             "value" : "오늘 '%@'에 닿았네."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag nådde du «%@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31075,6 +32659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘 '%@'에 닿았네요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag nådde du «%@»."
           }
         },
         "pt-BR" : {
@@ -31197,6 +32787,12 @@
             "value" : "오늘 남기러 가기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå og skriv ned i dag"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31315,6 +32911,12 @@
             "value" : "오늘 남김"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet i dag"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31431,6 +33033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘 어땠는지, 잠깐 같이 볼까요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skal vi se sammen på hvordan dagen gikk?"
           }
         },
         "pt-BR" : {
@@ -31553,6 +33161,12 @@
             "value" : "오늘은 그냥 옆에 있을게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er jeg bare ved din side."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31671,6 +33285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘은 여기까지 해요.\n지금은 답을 찾는 것보다 쉬는 게 나아요.\n적어두었으니까 없어지지 않아요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La oss stoppe her for i dag.\nNå er hvile viktigere enn å lete etter et svar.\nDet er skrevet ned og forsvinner ikke."
           }
         },
         "pt-BR" : {
@@ -31793,6 +33413,12 @@
             "value" : "오늘은 여기서 멈춰요.\n지금 억지로 답을 낼 필요 없어요.\n적어뒀으니 다음에 같이 봐요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La oss stoppe her i dag.\nDu trenger ikke presse frem et svar nå.\nDet er lagret, så ser vi på det sammen neste gang."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31911,6 +33537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘은 이거 하나면 충분해요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er den ene tingen nok."
           }
         },
         "pt-BR" : {
@@ -32033,6 +33665,12 @@
             "value" : "오늘은 조용히 있을게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag er jeg stille."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32149,6 +33787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오래전에 남김"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet for lenge siden"
           }
         },
         "pt-BR" : {
@@ -32269,6 +33913,12 @@
             "value" : "용기있는"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32385,6 +34035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "운동하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trene"
           }
         },
         "pt-BR" : {
@@ -32505,6 +34161,12 @@
             "value" : "운동하러 갔다가 중간에 포기하고 왔어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg dro for å trene, men ga opp underveis og dro hjem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32623,6 +34285,12 @@
             "value" : "의욕적인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motivert"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32739,6 +34407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På denne enheten kan ikke ryddefunksjonen brukes. Jeg skriver det ned slik jeg hører det."
           }
         },
         "pt-BR" : {
@@ -32861,6 +34535,12 @@
             "value" : "이 기록을 지울까요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slette dette notatet?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32981,6 +34661,12 @@
             "value" : "이 둘은 다른 얘기예요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette er to forskjellige ting."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33095,6 +34781,12 @@
             "value" : "この目標で残した記録も、新しい名前に変わります。"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notater lagt igjen på dette målet følger også det nye navnet."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33205,6 +34897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この目標について話す"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snakk om dette målet"
           }
         },
         "pt-BR" : {
@@ -33319,6 +35017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この目標を手放しますか？"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slippe dette målet?"
           }
         },
         "pt-BR" : {
@@ -33441,6 +35145,12 @@
             "value" : "이 얘기 할래요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snakke om dette"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33559,6 +35269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이걸 더 작게 쪼갠다면 뭐가 될까요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du delte det opp i noe mindre, hva ville det vært?"
           }
         },
         "pt-BR" : {
@@ -33681,6 +35397,12 @@
             "value" : "이걸로 시작할게요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg begynner med dette"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33799,6 +35521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이걸로 적어둘게요. 내일은 여기까지만."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det ned slik. I morgen bare så langt."
           }
         },
         "pt-BR" : {
@@ -33921,6 +35649,12 @@
             "value" : "이걸로 할게요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg tar dette"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34031,6 +35765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "苔石"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mosestein"
           }
         },
         "pt-BR" : {
@@ -34153,6 +35893,12 @@
             "value" : "이날은 지나갔어요. 그래도 돌은 그대로 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den dagen er over. Men steinen ligger fortsatt der."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34271,6 +36017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이대로 둘게요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lar det være"
           }
         },
         "pt-BR" : {
@@ -34393,6 +36145,12 @@
             "value" : "이렇게 고칠게요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rett det slik"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34503,6 +36261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "名前を変更"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gi nytt navn"
           }
         },
         "pt-BR" : {
@@ -34623,6 +36387,12 @@
             "value" : "이번 주"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne uken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34741,6 +36511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이번엔 뭐가 달랐어요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva var annerledes denne gangen?"
           }
         },
         "pt-BR" : {
@@ -35021,6 +36797,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이전 이야기 %lld개는 접어뒀어."
+          }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historie er brettet sammen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historier er brettet sammen"
+                }
+              }
+            }
           }
         },
         "pt-BR" : {
@@ -35369,6 +37163,24 @@
             "value" : "이전 이야기 %lld개는 접어뒀어요."
           }
         },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historie er brettet sammen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidligere historier er brettet sammen"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -35547,6 +37359,12 @@
             "value" : "匿名の使用状況データを送信"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send anonym bruksstatistikk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35665,6 +37483,12 @@
             "value" : "일반적인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alminnelig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35781,6 +37605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일상적인"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hverdagslig"
           }
         },
         "pt-BR" : {
@@ -35903,6 +37733,12 @@
             "value" : "잊고 있었어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg hadde glemt det"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36023,6 +37859,12 @@
             "value" : "잊기 전에 적어둘래요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver det ned før jeg glemmer det"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36139,6 +37981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자기계발"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selvutvikling"
           }
         },
         "pt-BR" : {
@@ -36261,6 +38109,12 @@
             "value" : "자꾸 미루게 돼요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg utsetter det hele tiden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36377,6 +38231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자랑스러운"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolt"
           }
         },
         "pt-BR" : {
@@ -36497,6 +38357,12 @@
             "value" : "자신감이 생긴"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fått selvtillit"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36613,6 +38479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자책하는"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selvbebreidende"
           }
         },
         "pt-BR" : {
@@ -36735,6 +38607,12 @@
             "value" : "작을수록 좋아요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo mindre, desto bedre."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36853,6 +38731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "작을수록 좋아요. 5분짜리여도 괜찮아요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo mindre, desto bedre. Selv fem minutter er greit."
           }
         },
         "pt-BR" : {
@@ -36975,6 +38859,12 @@
             "value" : "잘 기록해 뒀어요. 다음에 막힐 때 이걸 꺼내 볼게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godt notert. Neste gang du står fast, henter jeg det frem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37093,6 +38983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "잘됐네요. 지금 남겨둘게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så bra. Jeg lagrer det nå."
           }
         },
         "pt-BR" : {
@@ -37215,6 +39111,12 @@
             "value" : "잠깐 얘기해요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La oss snakke litt sammen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37325,6 +39227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "しばらくしてからもう一度お試しください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igjen om litt."
           }
         },
         "pt-BR" : {
@@ -37443,6 +39351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "적어둔 목표 없음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen mål skrevet ned"
           }
         },
         "pt-BR" : {
@@ -37565,6 +39479,12 @@
             "value" : "적어뒀어요. 내일 이만큼만 해봐요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet ned. I morgen bare så mye."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37683,6 +39603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "적어뒀어요. 다음에 비슷한 데서 막히면 보여드릴게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet ned. Jeg viser det når du står fast på noe lignende."
           }
         },
         "pt-BR" : {
@@ -37805,6 +39731,12 @@
             "value" : "적어뒀어요. 딱 이만큼이면 돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrevet ned. Det er akkurat nok."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37925,6 +39857,12 @@
             "value" : "적어볼게요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skriver selv"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38043,6 +39981,12 @@
             "value" : "절망적인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortvilet"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38159,6 +40103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "정리 기능을 준비하고 있어요. 지금은 들린 대로 적어둘게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg gjør ryddefunksjonen klar. Foreløpig skriver jeg det ned slik jeg hører det."
           }
         },
         "pt-BR" : {
@@ -38281,6 +40231,12 @@
             "value" : "정리하고 있어요…"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rydder…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38401,6 +40357,12 @@
             "value" : "정리해 볼게요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg skal rydde i det."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38519,6 +40481,12 @@
             "value" : "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du virkelig slette koden og redusere sikkerheten?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38631,6 +40599,12 @@
             "value" : "本当に削除しますか？"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du virkelig slette?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38741,6 +40715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "貝がら"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjell"
           }
         },
         "pt-BR" : {
@@ -38863,6 +40843,12 @@
             "value" : "조금 달라요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke helt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38981,6 +40967,12 @@
             "value" : "조약돌"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stein"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39093,6 +41085,12 @@
             "value" : "小石を選ぶ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg stein"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39203,6 +41201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小石の質感を6種類から選べます"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg blant seks overflater til steinen"
           }
         },
         "pt-BR" : {
@@ -39321,6 +41325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조약돌이 생각하고 있어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steinen tenker"
           }
         },
         "pt-BR" : {
@@ -39443,6 +41453,12 @@
             "value" : "조약돌이 존댓말을 쓸지 반말을 쓸지 설정에서 정할 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I «Innstillinger» kan du velge om steinen snakker formelt eller avslappet til deg."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39563,6 +41579,12 @@
             "value" : "좋아요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bra"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39681,6 +41703,12 @@
             "value" : "좌절스러운"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motløs"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39797,6 +41825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "중립적인"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nøytral"
           }
         },
         "pt-BR" : {
@@ -39919,6 +41953,12 @@
             "value" : "지금 얘기해보기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snakk om det nå"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40039,6 +42079,12 @@
             "value" : "지금 향하고 있는 게 있으면 하나만 들려주실래요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis det er noe du er på vei mot, vil du fortelle om én ting?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40157,6 +42203,12 @@
             "value" : "지금 향하는 곳"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvor du er på vei"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40267,6 +42319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今向かっている先が、もう %lld 個あるよ。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er allerede på vei mot %lld mål."
           }
         },
         "pt-BR" : {
@@ -40381,6 +42439,12 @@
             "value" : "今向かっている先が、もう %lld 個あります。"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er allerede på vei mot %lld mål."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40493,6 +42557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今はそのままにします"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg lar det være for nå"
           }
         },
         "pt-BR" : {
@@ -40615,6 +42685,12 @@
             "value" : "지금은 그냥 둘래요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg vil la det være for nå"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40731,6 +42807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er vanskelig å høre akkurat nå. Du kan også skrive."
           }
         },
         "pt-BR" : {
@@ -40853,6 +42935,12 @@
             "value" : "지금은 어떤가요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvordan er det nå?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40969,6 +43057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금은 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryddefunksjonen kan ikke brukes akkurat nå. Jeg skriver det ned slik jeg hører det."
           }
         },
         "pt-BR" : {
@@ -41089,6 +43183,12 @@
             "value" : "지나온 길"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veien så langt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41201,6 +43301,12 @@
             "value" : "書いたすべての記録をテキストファイルとして残します。"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre alle notatene dine i en tekstfil."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41311,6 +43417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "記録をファイルに書き出す"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksporter notatene dine til en fil"
           }
         },
         "pt-BR" : {
@@ -41431,6 +43543,12 @@
             "value" : "지난 기록엔 '%@'라고 남아 있어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I forrige notat står det: «%@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41547,6 +43665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지난 기록엔 '%@'라고 남아 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I forrige notat står det: «%@»."
           }
         },
         "pt-BR" : {
@@ -41667,6 +43791,12 @@
             "value" : "지난번에 '%1$@'%2$@ 정하셨었죠."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist bestemte du: «%1$@».%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41783,6 +43913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지난번에 '%1$@'%2$@ 정했었지."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist bestemte du: «%1$@».%2$@"
           }
         },
         "pt-BR" : {
@@ -41903,6 +44039,12 @@
             "value" : "지난번엔 '%1$@'%2$@ 해보기로 했었어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist ville du prøve «%1$@».%2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42019,6 +44161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지난번엔 '%1$@'%2$@ 해보기로 했었어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist ville du prøve «%1$@».%2$@"
           }
         },
         "pt-BR" : {
@@ -42139,6 +44287,12 @@
             "value" : "지난번엔 '%@'라고 적었어."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist skrev du: «%@»."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42255,6 +44409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지난번엔 '%@'라고 적으셨어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sist skrev du: «%@»."
           }
         },
         "pt-BR" : {
@@ -42375,6 +44535,12 @@
             "value" : "지난주"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forrige uke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42491,6 +44657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지난주에"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forrige uke"
           }
         },
         "pt-BR" : {
@@ -42611,6 +44783,12 @@
             "value" : "지난주쯤"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omtrent forrige uke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42729,6 +44907,12 @@
             "value" : "지루한"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lei"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42845,6 +45029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지우기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett"
           }
         },
         "pt-BR" : {
@@ -42967,6 +45157,12 @@
             "value" : "지우면 되돌릴 수 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når noe er slettet, kan det ikke angres."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43077,6 +45273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "削除できませんでした。しばらくしてからもう一度お試しください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke slette. Prøv igjen om litt."
           }
         },
         "pt-BR" : {
@@ -43197,6 +45399,12 @@
             "value" : "지원 및 개인정보 보호"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Støtte og personvern"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43315,6 +45523,12 @@
             "value" : "징검돌"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43427,6 +45641,12 @@
             "value" : "ZinggumDolの記録"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol-notater"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43534,6 +45754,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -43649,6 +45875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Proをご利用中です。ありがとうございます。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du bruker ZinggumDol Pro. Takk."
           }
         },
         "pt-BR" : {
@@ -43769,6 +46001,12 @@
             "value" : "짜증나는"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irritert"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43879,6 +46117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "短くても大丈夫です。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort er helt greit."
           }
         },
         "pt-BR" : {
@@ -44001,6 +46245,12 @@
             "value" : "짧아도 괜찮아요. 그때 무슨 일이 있었는지만."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort er helt greit – bare det som skjedde da."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44117,6 +46367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "책을 30분 읽었어요. 집중이 잘 됐습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg leste i 30 minutter. Jeg konsentrerte meg godt."
           }
         },
         "pt-BR" : {
@@ -44237,6 +46493,12 @@
             "value" : "체력 기르기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bygge kondisjon"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44353,6 +46615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "취소"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         },
         "pt-BR" : {
@@ -44475,6 +46743,12 @@
             "value" : "크게 적어도 괜찮아요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan også skrive stort."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44585,6 +46859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タップしたり、なでるようにこすったりできます"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk eller gni for å klappe den"
           }
         },
         "pt-BR" : {
@@ -44705,6 +46985,12 @@
             "value" : "파괴적인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ødeleggende"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44821,6 +47107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "편안한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslappet"
           }
         },
         "pt-BR" : {
@@ -44943,6 +47235,12 @@
             "value" : "편한 쪽으로 두세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slik det passer deg best"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45059,6 +47357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "평범한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjennomsnittlig"
           }
         },
         "pt-BR" : {
@@ -45179,6 +47483,12 @@
             "value" : "평점주기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gi appen en vurdering"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45286,6 +47596,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -45405,6 +47721,12 @@
             "value" : "Proでもっと書く"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv flere med Pro"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45515,6 +47837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Proで使える"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låses opp med Pro"
           }
         },
         "pt-BR" : {
@@ -45633,6 +47961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "피곤한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sliten"
           }
         },
         "pt-BR" : {
@@ -45755,6 +48089,12 @@
             "value" : "하나는 있었던 일이고, 하나는 지금 마음이에요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det ene er det som skjedde, det andre er hvordan du har det nå."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45865,6 +48205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一度買えば、ずっと使えます。サブスクではありません"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøp én gang, bruk for alltid. Det er ikke et abonnement"
           }
         },
         "pt-BR" : {
@@ -45983,6 +48329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "한참 전에"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For veldig lenge siden"
           }
         },
         "pt-BR" : {
@@ -46105,6 +48457,12 @@
             "value" : "했는데 남기질 못했어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjort, men ikke skrevet ned"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46225,6 +48583,12 @@
             "value" : "했어요, 기록만 못 했고요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjort, bare ikke skrevet ned"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46341,6 +48705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "행복한"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lykkelig"
           }
         },
         "pt-BR" : {
@@ -46463,6 +48833,12 @@
             "value" : "향하는 곳을 아직 못 들었네요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg har ikke hørt ennå hva du er på vei mot."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46573,6 +48949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "向かう先がいくつあっても大丈夫です。数の制限なく書きとめられます。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er greit å være på vei mot flere mål. Du kan skrive dem ned uten begrensning."
           }
         },
         "pt-BR" : {
@@ -46691,6 +49073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "혐오스러운"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avsky"
           }
         },
         "pt-BR" : {
@@ -46813,6 +49201,12 @@
             "value" : "혹시 이런 뜻인가요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mener du dette?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46931,6 +49325,12 @@
             "value" : "확인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47041,6 +49441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "確認のため「%@」と入力してください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv «%@» for å bekrefte."
           }
         },
         "pt-BR" : {
@@ -47157,6 +49563,12 @@
             "value" : "えへへ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47269,6 +49681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ん？"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
           }
         },
         "pt-BR" : {
@@ -47385,6 +49803,12 @@
             "value" : "ここにいるよ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er her"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47497,6 +49921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "呼んだ？"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ropte du på meg?"
           }
         },
         "pt-BR" : {
@@ -47613,6 +50043,12 @@
             "value" : "えへへ、くすぐったい！"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, det kiler!"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47725,6 +50161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "こちょこちょするよ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kiler"
           }
         },
         "pt-BR" : {
@@ -47841,6 +50283,12 @@
             "value" : "もう、えへへ"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold opp, hihi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47953,6 +50401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "いいなあ…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er deilig…"
           }
         },
         "pt-BR" : {
@@ -48069,6 +50523,12 @@
             "value" : "あったかい"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deilig varm"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48181,6 +50641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "うとうと…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg blir søvnig…"
           }
         },
         "pt-BR" : {
@@ -48297,6 +50763,12 @@
             "value" : "目が回る…"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg blir svimmel…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48409,6 +50881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ぐるぐる…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rundt og rundt…"
           }
         },
         "pt-BR" : {

@@ -83,6 +83,12 @@
             "value" : "징검돌"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -201,6 +207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "징검돌"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
           }
         },
         "pt-BR" : {
@@ -322,6 +334,12 @@
             "value" : "말로 편하게 돌아볼 수 있도록 마이크를 사용해요. 녹음은 저장되지 않고, 글로 옮긴 내용만 기기 안에 남습니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen brukes slik at du kan se tilbake på dagen med stemmen, som i en samtale. Opptak lagres ikke; bare den transkriberte teksten blir på enheten din."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -439,6 +457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "말한 내용을 글로 옮기기 위해 사용해요. 인식은 기기 안에서 이뤄지고 밖으로 나가지 않습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brukes til å gjøre om det du sier til tekst. Gjenkjenningen skjer på enheten din og forlater den ikke."
           }
         },
         "pt-BR" : {
