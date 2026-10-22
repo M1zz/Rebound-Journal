@@ -105,6 +105,12 @@
             "value" : "Речной камень"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flodsten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -233,6 +239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Рядом с вами"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vid din sida"
           }
         },
         "th" : {
@@ -365,6 +377,12 @@
             "value" : "Радуюсь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -493,6 +511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закатный камень"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgångssten"
           }
         },
         "th" : {
@@ -625,6 +649,12 @@
             "value" : "Слушаю"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyssnar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -753,6 +783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чёрный камень"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bläcksten"
           }
         },
         "th" : {
@@ -885,6 +921,12 @@
             "value" : "Песчинка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1013,6 +1055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Думаю"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funderar"
           }
         },
         "th" : {
@@ -1145,6 +1193,12 @@
             "value" : "Я здесь."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag är här."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1273,6 +1327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записать сегодняшний день"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå och skriv ner i dag"
           }
         },
         "th" : {
@@ -1405,6 +1465,12 @@
             "value" : "Мшистый камень"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mossten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1535,6 +1601,12 @@
             "value" : "Ракушка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snäcka"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1663,6 +1735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Камешек"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sten"
           }
         },
         "th" : {
@@ -1803,6 +1881,12 @@
             "value" : "Фраза от камешка. Нажмите, чтобы записать сегодняшний день."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett ord från stenen. Tryck för att skriva ner i dag."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1936,6 +2020,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"

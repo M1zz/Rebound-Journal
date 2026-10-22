@@ -1175,3 +1175,60 @@ https://m1zz.github.io/Rebound-Journal/pl/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/Rebound-Journal/pl/
+
+## sv
+
+### 이름
+
+ZinggumDol: dagbok
+
+### 부제
+
+Prata med en liten sten
+
+### 키워드
+
+reflektion,humör,känslor,vanor,utveckling,stress,ångest,misstag,motståndskraft,självkänsla
+
+### 프로모션 텍스트
+
+Ett felsteg betyder inte att du har ramlat i bäcken. Se tillbaka på dagar som inte gick som planerat tillsammans med en sten som pratar först och minns vad du berättat.
+
+### 설명
+
+Ett felsteg betyder inte att du har ramlat i bäcken. ZinggumDol är en mild dagbok för dagar som inte gick som planerat: du pratar med en liten sten och tittar i lugn och ro tillbaka på vad som hände.
+
+Stenen pratar först. Den minns vad du berättade förra gången och frågar: ”Hur gick det sedan?” Välj ett svar eller skriv ett eget. Det som hände, hur du mådde och vad du vill prova härnäst sparas.
+
+Prata med stenen
+Sätt ett mål, så håller stenen koll på hur långt du har kommit och vad som kommer i vägen. Om en dag missas frågar den ”Vad kom i vägen?”, inte ”Vad gjorde du fel?”.
+
+Säg det högt
+På dagar då det är för mycket att skriva räcker det att prata. Taligenkänningen sker på din enhet och inspelningen sparas inte. På enheter som stöds ordnas dessutom det du säger så att det blir lättläst.
+
+Vägen hittills
+Varje vecka läggs ut som en rad stenar över bäcken. Dagar du inte klev på ligger kvar – ingenting raderas.
+
+Det du lämnat
+Bläddra efter datum bland vad som hände, hur du mådde och vad du ville prova härnäst.
+
+Widget och påminnelser
+En mening från stenen på hemskärmen och en mild påminnelse vid den tid du väljer, så att ni tillsammans kan se hur dagen gick.
+
+Bara din egen
+Ingen registrering och inga annonser. Dina anteckningar finns bara på din enhet och i din egen iCloud, och du kan låsa appen med en kod. Det du skriver skickas aldrig till utvecklaren.
+
+ZINGGUMDOL PRO
+Gratisversionen rymmer upp till tre mål. Med ett engångsköp (ingen prenumeration) skriver du ner mål utan gräns, väljer bland sex ytor på stenen och exporterar anteckningarna till en textfil.
+
+### 지원 URL
+
+https://m1zz.github.io/Rebound-Journal/sv/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Rebound-Journal/sv/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Rebound-Journal/sv/

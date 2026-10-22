@@ -105,6 +105,12 @@
             "value" : "  Настроение: %@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Humör: %@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -235,6 +241,12 @@
             "value" : "  Следующий шаг: %@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Nästa steg: %@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -363,6 +375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "  Что было: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  Vad som hände: %@"
           }
         },
         "th" : {
@@ -501,6 +519,12 @@
             "value" : "Что помешало с «%@»?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad kom i vägen vid ”%@”?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -635,6 +659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что помешало с «%@»?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad kom i vägen vid ”%@”?"
           }
         },
         "th" : {
@@ -773,6 +803,12 @@
             "value" : "С нашего разговора о «%1$@» прошло дней: %2$lld."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det har gått %2$lld dagar sedan vi pratade om ”%1$@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -907,6 +943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С нашего разговора о «%1$@» прошло дней: %2$lld."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det har gått %2$lld dagar sedan vi pratade om ”%1$@”."
           }
         },
         "th" : {
@@ -1045,6 +1087,12 @@
             "value" : "«%@» — сегодня пока тихо."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” – ingenting ännu i dag."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1179,6 +1227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» — сегодня пока тихо."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” – ingenting ännu i dag."
           }
         },
         "th" : {
@@ -1317,6 +1371,12 @@
             "value" : "«%1$@»%2$@ тишина длится уже дней: %3$lld."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ det har varit tyst i %3$lld dagar."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1451,6 +1511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ тишина длится уже дней: %3$lld."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ det har varit tyst i %3$lld dagar."
           }
         },
         "th" : {
@@ -1589,6 +1655,12 @@
             "value" : "«%1$@»%2$@ с твоего последнего просмотра прошло дней: %3$lld."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ du har inte tittat på det på %3$lld dagar."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1723,6 +1795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ с вашего последнего просмотра прошло дней: %3$lld."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ det är %3$lld dagar sedan ni senast tittade på det."
           }
         },
         "th" : {
@@ -1861,6 +1939,12 @@
             "value" : "«%1$@»%2$@ сегодня ты пока не дошёл до этого."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ du har inte kommit dit ännu i dag."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1995,6 +2079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ сегодня вы пока не дошли до этого."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ ni har inte kommit dit ännu i dag."
           }
         },
         "th" : {
@@ -2133,6 +2223,12 @@
             "value" : "«%1$@»%2$@ записано, но ты ещё не возвращался к этому."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ du skrev ner det men har inte tittat på det igen."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2267,6 +2363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ записано, но вы ещё не возвращались к этому."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ ni skrev ner det men har inte tittat på det igen."
           }
         },
         "th" : {
@@ -2405,6 +2507,12 @@
             "value" : "«%1$@»%2$@ только записано, и пока всё."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ du har bara skrivit ner det, och där stannade det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2539,6 +2647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ только записано, и пока всё."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ ni har bara skrivit ner det, och där stannade det."
           }
         },
         "th" : {
@@ -2677,6 +2791,12 @@
             "value" : "«%1$@»%2$@ после записи пока тихо."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ sedan du skrev ner det har det varit tyst."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2811,6 +2931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ после записи пока тихо."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ sedan ni skrev ner det har det varit tyst."
           }
         },
         "th" : {
@@ -2949,6 +3075,12 @@
             "value" : "«%1$@»%2$@ вернёмся к тому моменту, когда ты собирался. Что застопорилось?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ låt oss gå tillbaka till när du skulle göra det. Vad körde fast?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3083,6 +3215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%1$@»%2$@ вернёмся к тому моменту, когда вы собирались. Что застопорилось?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%1$@”%2$@ låt oss gå tillbaka till när ni skulle göra det. Vad körde fast?"
           }
         },
         "th" : {
@@ -3221,6 +3359,12 @@
             "value" : "С «%1$@» тебе удалось дойти до: %2$@."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vid ”%1$@” kom du så långt som till %2$@."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3355,6 +3499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С «%1$@» вам удалось дойти до: %2$@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vid ”%1$@” kom ni så långt som till %2$@."
           }
         },
         "th" : {
@@ -3493,6 +3643,12 @@
             "value" : "Это был день, когда ты дошёл до «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var dagen du nådde ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3627,6 +3783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это был день, когда вы дошли до «%@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var dagen ni nådde ”%@”."
           }
         },
         "th" : {
@@ -3765,6 +3927,12 @@
             "value" : "О «%1$@» %2$@ ты написал: «%3$@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om ”%1$@” skrev du %2$@: ”%3$@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3901,6 +4069,12 @@
             "value" : "О «%1$@» %2$@ вы написали: «%3$@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om ”%1$@” skrev ni %2$@: ”%3$@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4031,6 +4205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отпустите одну цель в разделе «Пройденный путь» — и можно будет записать новую."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Släpp ett mål under ”Vägen hittills” så kan du skriva ett nytt."
           }
         },
         "th" : {
@@ -4169,6 +4349,12 @@
             "value" : "%1$@\nПомешало: «%2$@»,\nсейчас настроение: «%3$@»%4$@.\n\n%5$@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nDet som kom i vägen var ”%2$@”,\noch just nu känns det ”%3$@”%4$@.\n\n%5$@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4303,6 +4489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Говоря о «%2$@», ты оставил: «%3$@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ När ni pratade om ”%2$@” lämnade du: ”%3$@”."
           }
         },
         "th" : {
@@ -4441,6 +4633,12 @@
             "value" : "%1$@ Говоря о «%2$@», вы оставили: «%3$@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ När ni pratade om ”%2$@” lämnade ni: ”%3$@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4575,6 +4773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ О «%2$@»%3$@ вы сказали: «%4$@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Om ”%2$@”%3$@ sa ni: ”%4$@”."
           }
         },
         "th" : {
@@ -4713,6 +4917,12 @@
             "value" : "%1$@ О «%2$@»%3$@ ты говорил: «%4$@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Om ”%2$@”%3$@ sa du: ”%4$@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4847,6 +5057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Вы говорили, что «%2$@»%3$@ застопорилось."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ni sa att ”%2$@”%3$@ körde fast."
           }
         },
         "th" : {
@@ -4985,6 +5201,12 @@
             "value" : "%1$@ Ты говорил, что «%2$@»%3$@ застопорилось."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du sa att ”%2$@”%3$@ körde fast."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5119,6 +5341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ «%2$@»%3$@ — получилось у вас."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ni klarade ”%2$@”%3$@."
           }
         },
         "th" : {
@@ -5257,6 +5485,12 @@
             "value" : "%1$@ «%2$@»%3$@ — получилось у тебя."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarade ”%2$@”%3$@."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5391,6 +5625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ ты дошёл до «%2$@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde du ”%2$@”."
           }
         },
         "th" : {
@@ -5529,6 +5769,12 @@
             "value" : "%1$@ вы дошли до «%2$@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde ni ”%2$@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5663,6 +5909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ ты оставил заметку, что споткнулся на «%2$@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ skrev du ner att ”%2$@” kom i vägen."
           }
         },
         "th" : {
@@ -5801,6 +6053,12 @@
             "value" : "%1$@ вы оставили заметку, что споткнулись на «%2$@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ skrev ni ner att ”%2$@” kom i vägen."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5935,6 +6193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Неделя: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veckan från %@"
           }
         },
         "th" : {
@@ -6073,6 +6337,12 @@
             "value" : "%@, день с записью"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag med anteckning"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6207,6 +6477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, записей нет"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, ingen anteckning"
           }
         },
         "th" : {
@@ -6345,6 +6621,12 @@
             "value" : "%@, день, когда цель достигнута"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag då målet nåddes"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6479,6 +6761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, день ещё не наступил"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, dag som inte har kommit än"
           }
         },
         "th" : {
@@ -6617,6 +6905,12 @@
             "value" : "%1$@ «%2$@»%3$@ — у вас же получилось."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Ni klarade ju ”%2$@”%3$@."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6751,6 +7045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ «%2$@»%3$@ — у тебя же получилось."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Du klarade ju ”%2$@”%3$@."
           }
         },
         "th" : {
@@ -6889,6 +7189,12 @@
             "value" : "%1$@ вам удалось: «%2$@»%3$@."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ klarade ni ”%2$@”%3$@."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7023,6 +7329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ тебе удалось: «%2$@»%3$@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ klarade du ”%2$@”%3$@."
           }
         },
         "th" : {
@@ -7161,6 +7473,12 @@
             "value" : "%1$@ ты дошёл до «%2$@»,"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde du ”%2$@”,"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7297,6 +7615,12 @@
             "value" : "%1$@ вы дошли до «%2$@»,"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nådde ni ”%2$@”,"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7428,6 +7752,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -7567,6 +7897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$lld.%1$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
           }
         },
         "th" : {
@@ -7952,6 +8288,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld дн. назад"
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dag sedan"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dagar sedan"
                 }
               }
             }
@@ -8369,6 +8723,24 @@
             }
           }
         },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Antecknat för %lld dag sedan"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Antecknat för %lld dagar sedan"
+                }
+              }
+            }
+          }
+        },
         "th" : {
           "variations" : {
             "plural" : {
@@ -8781,6 +9153,24 @@
             }
           }
         },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Antecknat för %lld vecka sedan"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Antecknat för %lld veckor sedan"
+                }
+              }
+            }
+          }
+        },
         "th" : {
           "variations" : {
             "plural" : {
@@ -8941,6 +9331,12 @@
             "value" : "|"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9079,6 +9475,12 @@
             "value" : "Грустно"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedstämd"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9213,6 +9615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начать с лёгкой растяжки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja med lite lätt stretching"
           }
         },
         "th" : {
@@ -9351,6 +9759,12 @@
             "value" : "Благодарность"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tacksam"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9481,6 +9895,12 @@
             "value" : "Речной камень"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flodsten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9609,6 +10029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цель с таким названием уже есть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det finns redan ett mål med det namnet"
           }
         },
         "th" : {
@@ -9749,6 +10175,12 @@
             "value" : "Для разработчика"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För utvecklaren"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9885,6 +10317,12 @@
             "value" : "Написать разработчику"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mejla utvecklaren"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10013,6 +10451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Откроются ещё пять камней, будто найденных у ручья."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fem stenar till låses upp, som om de plockats vid bäcken."
           }
         },
         "th" : {
@@ -10151,6 +10595,12 @@
             "value" : "Политика конфиденциальности"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Integritetspolicy"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10285,6 +10735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Здоровье"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hälsa"
           }
         },
         "th" : {
@@ -10423,6 +10879,12 @@
             "value" : "Рядом с вами"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vid din sida"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10557,6 +11019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redigera"
           }
         },
         "th" : {
@@ -10697,6 +11165,12 @@
             "value" : "Нормально"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okej"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10835,6 +11309,12 @@
             "value" : "Ничего страшного. Просто это не бросилось в глаза."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gör inget. Det syntes bara inte."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10971,6 +11451,12 @@
             "value" : "Мучительно"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plågad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11099,6 +11585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Восстановить покупки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ köp"
           }
         },
         "th" : {
@@ -11235,6 +11727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Регулярный режим"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regelbundet liv"
           }
         },
         "th" : {
@@ -11375,6 +11873,12 @@
             "value" : "А что было потом?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur gick det sedan?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11511,6 +12015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это была ситуация. А какое сейчас настроение?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det var situationen. Hur mår du nu?"
           }
         },
         "th" : {
@@ -11651,6 +12161,12 @@
             "value" : "Чем это закончилось?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur slutade det?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11779,6 +12295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Как прошёл тот день"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur var dagen"
           }
         },
         "th" : {
@@ -11919,6 +12441,12 @@
             "value" : "Оставлю как есть"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag låter det vara"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12053,6 +12581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда вы решили попробовать «%1$@».%2$@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då sa ni att ni skulle prova ”%1$@”.%2$@"
           }
         },
         "th" : {
@@ -12191,6 +12725,12 @@
             "value" : "Тогда ты решил попробовать «%1$@».%2$@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då sa du att du skulle prova ”%1$@”.%2$@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12319,6 +12859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настроение тогда"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur det kändes då"
           }
         },
         "th" : {
@@ -12459,6 +13005,12 @@
             "value" : "Что тогда произошло?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad hände då?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12597,6 +13149,12 @@
             "value" : "Поговорить о том времени"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prata om den tiden"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12733,6 +13291,12 @@
             "value" : "Тогда вы сказали: «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då sa ni: ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12867,6 +13431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда ты сказал: «%@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då sa du: ”%@”."
           }
         },
         "th" : {
@@ -13007,6 +13577,12 @@
             "value" : "Хорошо. Поговорим в другой раз."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okej. Vi pratar en annan gång."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13143,6 +13719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Да, так и было"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så var det"
           }
         },
         "th" : {
@@ -13283,6 +13865,12 @@
             "value" : "Бывает. Забытое не исчезает само по себе."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan hända. Att glömma betyder inte att det försvinner."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13421,6 +14009,12 @@
             "value" : "Бывает. Забыл — значит забыл."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kan hända. Glömt är glömt."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13557,6 +14151,12 @@
             "value" : "Тогда на пути к «%1$@»%2$@ какое одно дело настолько мало, что его можно сделать уже завтра?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad är då en liten sak på vägen mot ”%1$@”%2$@ som du hinner med redan i morgon?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13691,6 +14291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда на пути к «%1$@»%2$@ какое одно дело настолько мало, что его можно сделать уже завтра?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad är då en liten sak på vägen mot ”%1$@”%2$@ som ni hinner med redan i morgon?"
           }
         },
         "th" : {
@@ -13831,6 +14437,12 @@
             "value" : "Тогда давайте поговорим об этом."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då pratar vi om det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13967,6 +14579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тогда с этим всё. Сейчас запишу."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då är det avslutat. Jag skriver ner det nu."
           }
         },
         "th" : {
@@ -14107,6 +14725,12 @@
             "value" : "Тогда давайте поставим точку."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Då avslutar jag det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14245,6 +14869,12 @@
             "value" : "А так: если сделать это совсем маленьким, чтобы справиться уже завтра, что получится?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad sägs om det här: om du gjorde det så litet att du kunde klara det redan i morgon, vad skulle det vara?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14379,6 +15009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Остановить озвучивание"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluta läsa upp"
           }
         },
         "th" : {
@@ -14519,6 +15155,12 @@
             "value" : "Так себе"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så där"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14655,6 +15297,12 @@
             "value" : "В предвкушении"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förväntansfull"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14783,6 +15431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записи"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteckningar"
           }
         },
         "th" : {
@@ -14915,6 +15569,12 @@
             "value" : "Экспорт записей"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportera anteckningar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15043,6 +15703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось экспортировать записи"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dina anteckningar kunde inte exporteras"
           }
         },
         "th" : {
@@ -15181,6 +15847,12 @@
             "value" : "Хорошее настроение"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På gott humör"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15317,6 +15989,12 @@
             "value" : "Радуюсь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15451,6 +16129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ужасно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förskräcklig"
           }
         },
         "th" : {
@@ -15591,6 +16275,12 @@
             "value" : "С остальным можно не спешить."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten har ingen brådska."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15727,6 +16417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Остальное свернём, посмотрим только на это."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi lägger undan resten och tittar bara på det här."
           }
         },
         "th" : {
@@ -15867,6 +16563,12 @@
             "value" : "К остальному можно вернуться не спеша."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten kan du titta på i lugn och ro."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16005,6 +16707,12 @@
             "value" : "Сохранил. Чтобы не забыть, что помогло."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sparat, så att vi inte glömmer vad som fungerade."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16141,6 +16849,12 @@
             "value" : "Что вы оставили"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du lämnat"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16271,6 +16985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставленные записи не пропадут. Цель лишь уйдёт из списка."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämnade anteckningar finns kvar. Det försvinner bara från listan."
           }
         },
         "th" : {
@@ -16411,6 +17131,12 @@
             "value" : "Слов не оставлено."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga ord har lämnats."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16539,6 +17265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мои цели"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mina mål"
           }
         },
         "th" : {
@@ -16671,6 +17403,12 @@
             "value" : "Выбрать камешек"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj min sten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16801,6 +17539,12 @@
             "value" : "Отпустить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Släpp"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16929,6 +17673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дата экспорта: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporterad: %@"
           }
         },
         "th" : {
@@ -17069,6 +17819,12 @@
             "value" : "Если завтра сделать только одно дело, какое?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om ni bara gjorde en sak i morgon, vad skulle det vara?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17203,6 +17959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Холодность"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kylig"
           }
         },
         "th" : {
@@ -17343,6 +18105,12 @@
             "value" : "Да"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17479,6 +18247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Хорошо, оставлю как есть."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jag låter det vara."
           }
         },
         "th" : {
@@ -17619,6 +18393,12 @@
             "value" : "Хорошо, оставлю как есть. Я рядом."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, jag låter det vara. Jag finns här."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17757,6 +18537,12 @@
             "value" : "Хорошо, тогда поговорим в другой раз."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okej, vi pratar en annan gång."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17885,6 +18671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закатный камень"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgångssten"
           }
         },
         "th" : {
@@ -18025,6 +18817,12 @@
             "value" : "Оставим остальное и посмотрим только на это?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ska vi låta resten vara och bara titta på det här?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18163,6 +18961,12 @@
             "value" : "Остальное — не торопясь."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resten i lugn och ro."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18297,6 +19101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Далее"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa"
           }
         },
         "th" : {
@@ -18437,6 +19247,12 @@
             "value" : "Запишу, чтобы можно было использовать это в следующий раз."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag skriver ner det så att det går att använda igen nästa gång."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18565,6 +19381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что попробовать дальше"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du ska prova härnäst"
           }
         },
         "th" : {
@@ -18703,6 +19525,12 @@
             "value" : "Диета"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bantning"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18837,6 +19665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
           }
         },
         "th" : {
@@ -18977,6 +19811,12 @@
             "value" : "Осталась только отметка «дошёл»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bara ”kom fram” antecknades."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19107,6 +19947,12 @@
             "value" : "Дошёл"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag kom fram"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19235,6 +20081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не дошёл"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag kom inte fram"
           }
         },
         "th" : {
@@ -19373,6 +20225,12 @@
             "value" : "Привычка читать"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa en läsvana"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19507,6 +20365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чтение"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läsa"
           }
         },
         "th" : {
@@ -19647,6 +20511,12 @@
             "value" : "Слушаю"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyssnar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19783,6 +20653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Особо нечего сказать. Я просто рядом."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det finns inte så mycket att säga. Jag är bara här."
           }
         },
         "th" : {
@@ -19923,6 +20799,12 @@
             "value" : "Если ничего не приходит в голову, можно оставить пустым. Найдём позже вместе."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du inte kommer på något kan du lämna det tomt. Vi hittar det tillsammans senare."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20057,6 +20939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Микрофон недоступен. Можно написать текстом."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mikrofonen går inte att använda. Du kan också skriva."
           }
         },
         "th" : {
@@ -20195,6 +21083,12 @@
             "value" : "Удовлетворение"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nöjd"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20329,6 +21223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доволен"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillfreds"
           }
         },
         "th" : {
@@ -20469,6 +21369,12 @@
             "value" : "Очень тяжело"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mycket tungt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20605,6 +21511,12 @@
             "value" : "Ответить голосом"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svara med rösten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20739,6 +21651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Стиль общения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilltal"
           }
         },
         "th" : {
@@ -20879,6 +21797,12 @@
             "value" : "Можно выбрать стиль общения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan välja tilltal"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21015,6 +21939,12 @@
             "value" : "Звук при речи"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ljud vid tal"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21149,6 +22079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вибрация при речи"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vibration vid tal"
           }
         },
         "th" : {
@@ -21289,6 +22225,12 @@
             "value" : "Да, всё так"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Precis"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21427,6 +22369,12 @@
             "value" : "Да, не сделал"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja, det gjorde jag inte"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21561,6 +22509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Слушать английский подкаст по 10 минут в день"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyssna på en engelsk podd i 10 minuter varje dag"
           }
         },
         "th" : {
@@ -21699,6 +22653,12 @@
             "value" : "Ежедневное напоминание"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daglig påminnelse"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21829,6 +22789,12 @@
             "value" : "Чёрный камень"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bläcksten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21957,6 +22923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала экспортировать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportera först"
           }
         },
         "th" : {
@@ -22095,6 +23067,12 @@
             "value" : "Несколько дней назад"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För några dagar sedan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22231,6 +23209,12 @@
             "value" : "Несколько дней назад"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För några dagar sedan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22359,6 +23343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить всё"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera allt"
           }
         },
         "th" : {
@@ -22491,6 +23481,12 @@
             "value" : "Всё удалено."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt är raderat."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22621,6 +23617,12 @@
             "value" : "Удалить все записи"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla anteckningar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22749,6 +23751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить все записи?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla anteckningar?"
           }
         },
         "th" : {
@@ -22889,6 +23897,12 @@
             "value" : "Удалить все данные"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla data"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23019,6 +24033,12 @@
             "value" : "Песчинка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandkorn"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23147,6 +24167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цель"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål"
           }
         },
         "th" : {
@@ -23285,6 +24311,12 @@
             "value" : "Добавить цель"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till mål"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23413,6 +24445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записать одну цель"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ner ett mål"
           }
         },
         "th" : {
@@ -23545,6 +24583,12 @@
             "value" : "Записывайте цели без ограничений"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ner mål utan begränsning"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23673,6 +24717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Столько целей, сколько нужно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så många mål du vill"
           }
         },
         "th" : {
@@ -23805,6 +24855,12 @@
             "value" : "Записывайте цели без ограничений, выбирайте камешки и сохраняйте записи в файл. Одна покупка — навсегда."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ner mål utan gräns, välj din sten och spara anteckningarna i en fil. Köp en gång, använd för alltid."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23933,6 +24989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все цели и записи исчезнут без возможности восстановления. На других устройствах с iCloud они тоже будут удалены. Настройки и покупки сохранятся."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla dina mål och anteckningar försvinner och kan inte återställas. De raderas också på andra enheter som är kopplade via iCloud. Inställningar och köp finns kvar."
           }
         },
         "th" : {
@@ -24071,6 +25133,12 @@
             "value" : "Оцепенение"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avtrubbad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24205,6 +25273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Безразличие"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Likgiltig"
           }
         },
         "th" : {
@@ -24343,6 +25417,12 @@
             "value" : "Нормально"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helt okej"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24479,6 +25559,12 @@
             "value" : "Бессилие"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maktlös"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24607,6 +25693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всё бесплатное остаётся, а кое-что добавится."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det som var gratis förblir gratis, och lite mer låses upp."
           }
         },
         "th" : {
@@ -24739,6 +25831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В бесплатной версии можно вести до трёх целей. Это третья."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratisversionen rymmer upp till tre mål. Det här är det tredje."
           }
         },
         "th" : {
@@ -24877,6 +25975,12 @@
             "value" : "Страх"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rädd"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25005,6 +26109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что произошло"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad som hände"
           }
         },
         "th" : {
@@ -25145,6 +26255,12 @@
             "value" : "Рассказать, что произошло"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berätta vad som hände"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25281,6 +26397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я сам загляну, до чего вы дошли и что вас остановило, и начну разговор."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag tittar först på hur långt du har kommit och vad som kom i vägen, och tar sedan kontakt."
           }
         },
         "th" : {
@@ -25421,6 +26543,12 @@
             "value" : "Я ещё не знаю, к чему вы идёте."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag vet inte ännu vad du är på väg mot."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25559,6 +26687,12 @@
             "value" : "К чему вы идёте?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad är du på väg mot?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25695,6 +26829,12 @@
             "value" : "Невозмутимость"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uttryckslös"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25829,6 +26969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пить больше воды и ложиться пораньше"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dricka mycket vatten och gå och lägga mig tidigt"
           }
         },
         "th" : {
@@ -25969,6 +27115,12 @@
             "value" : "Что помогло?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad hjälpte?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26105,6 +27257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записать, что сработало"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ner vad som fungerade"
           }
         },
         "th" : {
@@ -26245,6 +27403,12 @@
             "value" : "Что сработало?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad fungerade?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26375,6 +27539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Смахните или удерживайте цель, чтобы переименовать её или отпустить."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svep eller håll in på ett mål för att byta namn eller släppa det."
           }
         },
         "th" : {
@@ -26513,6 +27683,12 @@
             "value" : "Ставить будильник на 11 вечера и класть телефон подальше"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ställa alarmet på 23 och lägga telefonen långt bort"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26647,6 +27823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обычное"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vanlig"
           }
         },
         "th" : {
@@ -26785,6 +27967,12 @@
             "value" : "Злость"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arg"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26919,6 +28107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Неудовлетворённость"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missnöjd"
           }
         },
         "th" : {
@@ -27057,6 +28251,12 @@
             "value" : "Тревога"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orolig"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27191,6 +28391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить код-пароль"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort kod"
           }
         },
         "th" : {
@@ -27329,6 +28535,12 @@
             "value" : "Установить код-пароль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ange kod"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27463,6 +28675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Введите код-пароль"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ange kod"
           }
         },
         "th" : {
@@ -27601,6 +28819,12 @@
             "value" : "Подтвердите код-пароль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekräfta kod"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27735,6 +28959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подавленность"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eländig"
           }
         },
         "th" : {
@@ -27873,6 +29103,12 @@
             "value" : "Гордость за себя"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolt över sig själv"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28001,6 +29237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Статистика использования"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Användningsstatistik"
           }
         },
         "th" : {
@@ -28139,6 +29381,12 @@
             "value" : "Статистика использования (для разработчика)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Användningsstatistik (utvecklare)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28273,6 +29521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Бодрость"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pigg"
           }
         },
         "th" : {
@@ -28413,6 +29667,12 @@
             "value" : "Ситуация понятна. А что вы чувствуете сейчас?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag förstår situationen. Hur mår du nu?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28549,6 +29809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это ситуация зашла в тупик, а не вы виноваты."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är situationen som har kört fast, inte du som är problemet."
           }
         },
         "th" : {
@@ -28689,6 +29955,12 @@
             "value" : "Создать тестовые данные"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa exempeldata"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28823,6 +30095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Думаю"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funderar"
           }
         },
         "th" : {
@@ -28961,6 +30239,12 @@
             "value" : "Волнение"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förväntansfull"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29095,6 +30379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
           }
         },
         "th" : {
@@ -29233,6 +30523,12 @@
             "value" : "Включите Apple Intelligence в «Настройках» — и я смогу лучше упорядочивать сказанное."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivera Apple Intelligence i ”Inställningar” så kan jag ordna det du säger bättre."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29367,6 +30663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Расскажите другим"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprid ordet"
           }
         },
         "th" : {
@@ -29505,6 +30807,12 @@
             "value" : "Грусть"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledsen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29639,6 +30947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid"
           }
         },
         "th" : {
@@ -29777,6 +31091,12 @@
             "value" : "Воодушевление"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upprymd"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29913,6 +31233,12 @@
             "value" : "Разочарование"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besviken"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30041,6 +31367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Погладить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klappa"
           }
         },
         "th" : {
@@ -30179,6 +31511,12 @@
             "value" : "Одиночество"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensam"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30315,6 +31653,12 @@
             "value" : "Сожаление"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vemodig"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30449,6 +31793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записей пока нет"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga anteckningar än"
           }
         },
         "th" : {
@@ -30589,6 +31939,12 @@
             "value" : "Пока ничего не оставлено."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har inte lämnat något än."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30717,6 +32073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока нет записей."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga anteckningar än."
           }
         },
         "th" : {
@@ -30857,6 +32219,12 @@
             "value" : "Пока нет сохранённых историй."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga lämnade berättelser än."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30993,6 +32361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я ещё не знаю, куда вы направляетесь."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag vet inte ännu vart du är på väg."
           }
         },
         "th" : {
@@ -31133,6 +32507,12 @@
             "value" : "Пока нет цели, к которой вы идёте."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har ingen riktning än."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31267,6 +32647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вставать пораньше"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå upp tidigt"
           }
         },
         "th" : {
@@ -31405,6 +32791,12 @@
             "value" : "Встал рано и провёл день с пользой!"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag gick upp tidigt och fick dagen att räcka långt!"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31539,6 +32931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не смог встать утром, проспал."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag orkade inte gå upp på morgonen och försov mig."
           }
         },
         "th" : {
@@ -31679,6 +33077,12 @@
             "value" : "Здравствуйте. Я ZinggumDol."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hej. Jag är ZinggumDol."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31817,6 +33221,12 @@
             "value" : "Хорошо. Я рядом."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okej. Jag finns här."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31953,6 +33363,12 @@
             "value" : "Включить напоминания"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slå på påminnelser"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32081,6 +33497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Узнать больше"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läs mer"
           }
         },
         "th" : {
@@ -32219,6 +33641,12 @@
             "value" : "Поделиться приложением"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela appen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32355,6 +33783,12 @@
             "value" : "Код-пароль приложения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appkod"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32483,6 +33917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отправляются только даты, когда вы открывали приложение или завершали разговор, типы действий (например, создание цели), количество записей и целей и факт просмотра экрана покупки. Ни одного слова из написанного вами не уходит наружу, а отправитель определяется только случайным номером, созданным на этом устройстве."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det som skickas är bara de dagar du öppnade appen eller avslutade ett samtal, vilken sorts handlingar det rör sig om (till exempel att skapa ett mål), antalet anteckningar och mål samt om du har sett köpskärmen. Inte en enda bokstav av det du skriver lämnar enheten, och avsändaren skiljs bara åt med ett slumpmässigt nummer som skapats på den här enheten."
           }
         },
         "th" : {
@@ -32621,6 +34061,12 @@
             "value" : "Не есть по ночам"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte äta nattmat"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32755,6 +34201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удержался и поел ночью. Проголодался и съел лапшу."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag kunde inte låta bli nattmaten. Jag var hungrig och åt nudlar."
           }
         },
         "th" : {
@@ -32895,6 +34347,12 @@
             "value" : "Записать, чем всё закончилось"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ner hur det gick"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33029,6 +34487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сумбур"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rörig"
           }
         },
         "th" : {
@@ -33167,6 +34631,12 @@
             "value" : "Вчера"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I går"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33301,6 +34771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записано вчера"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antecknat i går"
           }
         },
         "th" : {
@@ -33441,6 +34917,12 @@
             "value" : "Это можно изменить в любой момент. Камешек поприветствует вас уже в новом стиле."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan ändra det när som helst. Efter ändringen hälsar stenen på dig igen på det sättet."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33575,6 +35057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Недавно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyligen"
           }
         },
         "th" : {
@@ -33713,6 +35201,12 @@
             "value" : "Недавно"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyligen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33847,6 +35341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Я здесь."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag är här."
           }
         },
         "th" : {
@@ -33987,6 +35487,12 @@
             "value" : "На сегодня хватит.\nПланы, составленные в усталые дни, редко получаются.\nЗапись сохранена, всё в порядке."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi stannar här för i dag.\nPlaner man gör en trött dag håller sällan.\nDet är sparat, det är lugnt."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34123,6 +35629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Это было о том, что случилось. А что у вас на душе сейчас?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hittills handlade det om vad som hände. Hur känns det inombords nu?"
           }
         },
         "th" : {
@@ -34263,6 +35775,12 @@
             "value" : "Начать отсюда"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja prata härifrån"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34397,6 +35915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Увлечённость"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brinnande"
           }
         },
         "th" : {
@@ -34535,6 +36059,12 @@
             "value" : "Хотел позаниматься английским, но отложил."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag tänkte plugga engelska men sköt upp det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34669,6 +36199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заниматься английским"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plugga engelska"
           }
         },
         "th" : {
@@ -34807,6 +36343,12 @@
             "value" : "Улучшить английский"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bli bättre på engelska"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34941,6 +36483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ехал на работу, слушая английский подкаст! Оказалось интереснее, чем думал."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag lyssnade på en engelsk podd på väg till jobbet! Det var roligare än jag trodde."
           }
         },
         "th" : {
@@ -35079,6 +36627,12 @@
             "value" : "Сегодня"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35213,6 +36767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сегодня «%@» — у вас получилось."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag ”%@” – ni klarade det."
           }
         },
         "th" : {
@@ -35351,6 +36911,12 @@
             "value" : "Сегодня «%@» — у тебя получилось."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag ”%@” – du klarade det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35485,6 +37051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сегодня о «%1$@»%2$@ пока нет вестей."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag finns det ännu inget nytt om ”%1$@”.%2$@"
           }
         },
         "th" : {
@@ -35623,6 +37195,12 @@
             "value" : "Сегодня о «%1$@»%2$@ пока нет вестей."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag finns det ännu inget nytt om ”%1$@”.%2$@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35759,6 +37337,12 @@
             "value" : "Сегодня ты дошёл до «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag nådde du ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35893,6 +37477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сегодня вы дошли до «%@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag nådde ni ”%@”."
           }
         },
         "th" : {
@@ -36033,6 +37623,12 @@
             "value" : "Записать сегодняшний день"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå och skriv ner i dag"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36169,6 +37765,12 @@
             "value" : "Записано сегодня"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antecknat i dag"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36303,6 +37905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Давайте вместе посмотрим, как прошёл день?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ska vi titta tillsammans på hur dagen gick?"
           }
         },
         "th" : {
@@ -36443,6 +38051,12 @@
             "value" : "Сегодня я просто побуду рядом."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag finns jag bara vid din sida."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36579,6 +38193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На сегодня хватит.\nСейчас важнее отдохнуть, чем искать ответ.\nЗапись сохранена, она не пропадёт."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi stannar här för i dag.\nJust nu är vila viktigare än att leta efter ett svar.\nDet är nedskrivet och försvinner inte."
           }
         },
         "th" : {
@@ -36719,6 +38339,12 @@
             "value" : "Давайте на сегодня остановимся здесь.\nСейчас не нужно выжимать из себя ответ.\nВсё сохранено — посмотрим вместе в следующий раз."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låt oss stanna här för i dag.\nDu behöver inte tvinga fram ett svar nu.\nDet är sparat, så tittar vi på det tillsammans nästa gång."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36855,6 +38481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На сегодня достаточно и одного."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag räcker den här enda saken."
           }
         },
         "th" : {
@@ -36995,6 +38627,12 @@
             "value" : "Сегодня помолчу."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dag är jag tyst."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37129,6 +38767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записано давно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antecknat för länge sedan"
           }
         },
         "th" : {
@@ -37267,6 +38911,12 @@
             "value" : "Смелость"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modig"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37401,6 +39051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заниматься спортом"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Träna"
           }
         },
         "th" : {
@@ -37539,6 +39195,12 @@
             "value" : "Пошёл на тренировку, но бросил на полпути и вернулся."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag åkte för att träna men gav upp halvvägs och åkte hem."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37675,6 +39337,12 @@
             "value" : "Мотивация"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motiverad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37809,6 +39477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На этом устройстве функция упорядочивания недоступна. Запишу как услышал."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På den här enheten går det inte att använda ordningsfunktionen. Jag skriver ner det som jag hör det."
           }
         },
         "th" : {
@@ -37949,6 +39623,12 @@
             "value" : "Удалить эту запись?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera den här anteckningen?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38087,6 +39767,12 @@
             "value" : "Это две разные вещи."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här är två olika saker."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38219,6 +39905,12 @@
             "value" : "Записи по этой цели тоже получат новое название."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteckningar som lämnats på det här målet följer också med det nya namnet."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38347,6 +40039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поговорить об этой цели"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prata om det här målet"
           }
         },
         "th" : {
@@ -38479,6 +40177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отпустить эту цель?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Släppa det här målet?"
           }
         },
         "th" : {
@@ -38619,6 +40323,12 @@
             "value" : "Поговорить об этом"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prata om det här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38755,6 +40465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если разбить это на части поменьше, что получится?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du delade upp det i något mindre, vad skulle det vara?"
           }
         },
         "th" : {
@@ -38895,6 +40611,12 @@
             "value" : "Начну с этого"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag börjar med det här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39031,6 +40753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишу так. На завтра — только это."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag skriver ner det så här. I morgon bara så långt."
           }
         },
         "th" : {
@@ -39171,6 +40899,12 @@
             "value" : "Пусть будет это"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag tar det här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39299,6 +41033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мшистый камень"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mossten"
           }
         },
         "th" : {
@@ -39439,6 +41179,12 @@
             "value" : "Этот день прошёл. Но камень остался на месте."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den dagen har gått. Men stenen ligger kvar."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39575,6 +41321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставлю как есть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag låter det vara"
           }
         },
         "th" : {
@@ -39715,6 +41467,12 @@
             "value" : "Исправлю так"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rätta så här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39843,6 +41601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Переименовать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt namn"
           }
         },
         "th" : {
@@ -39981,6 +41745,12 @@
             "value" : "На этой неделе"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här veckan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40117,6 +41887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что в этот раз было иначе?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad var annorlunda den här gången?"
           }
         },
         "th" : {
@@ -40502,6 +42278,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Свёрнуто прежних историй: %lld."
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidigare berättelse är ihopfälld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidigare berättelser är ihopfällda"
                 }
               }
             }
@@ -40919,6 +42713,24 @@
             }
           }
         },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidigare berättelse är ihopfälld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld tidigare berättelser är ihopfällda"
+                }
+              }
+            }
+          }
+        },
         "th" : {
           "variations" : {
             "plural" : {
@@ -41073,6 +42885,12 @@
             "value" : "Отправлять анонимную статистику"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skicka anonym användningsstatistik"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41209,6 +43027,12 @@
             "value" : "Обыденность"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vanlig"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41343,6 +43167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повседневность"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vardaglig"
           }
         },
         "th" : {
@@ -41483,6 +43313,12 @@
             "value" : "Я забыл"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag hade glömt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41621,6 +43457,12 @@
             "value" : "Хочу записать, пока не забыл"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag skriver ner det innan jag glömmer"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41755,6 +43597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Саморазвитие"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Självutveckling"
           }
         },
         "th" : {
@@ -41895,6 +43743,12 @@
             "value" : "Всё время откладываю"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag skjuter hela tiden upp det"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42029,6 +43883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Гордость"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolt"
           }
         },
         "th" : {
@@ -42167,6 +44027,12 @@
             "value" : "Уверенность"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fått självförtroende"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42301,6 +44167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Самобичевание"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Självanklagande"
           }
         },
         "th" : {
@@ -42441,6 +44313,12 @@
             "value" : "Чем меньше, тем лучше."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ju mindre, desto bättre."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42577,6 +44455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чем меньше, тем лучше. Даже пять минут — хорошо."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ju mindre, desto bättre. Till och med fem minuter räcker."
           }
         },
         "th" : {
@@ -42717,6 +44601,12 @@
             "value" : "Хорошо записано. В следующий раз, когда застрянете, достану это."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bra antecknat. Nästa gång du kör fast tar jag fram det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42853,6 +44743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Здорово. Оставлю это сейчас."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad bra. Jag sparar det nu."
           }
         },
         "th" : {
@@ -42993,6 +44889,12 @@
             "value" : "Давайте немного поговорим"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låt oss prata en stund"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43121,6 +45023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повторите попытку чуть позже."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försök igen om en stund."
           }
         },
         "th" : {
@@ -43257,6 +45165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Целей пока нет"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga nedskrivna mål"
           }
         },
         "th" : {
@@ -43397,6 +45311,12 @@
             "value" : "Записано. Завтра сделаем вот столько."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedskrivet. I morgon bara så mycket."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43533,6 +45453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Записано. Покажу, когда в следующий раз застрянете на похожем месте."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedskrivet. Jag visar det när du kör fast på något liknande."
           }
         },
         "th" : {
@@ -43673,6 +45599,12 @@
             "value" : "Записано. Этого достаточно."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedskrivet. Så mycket räcker."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43811,6 +45743,12 @@
             "value" : "Напишу сам"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag skriver själv"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43947,6 +45885,12 @@
             "value" : "Отчаяние"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förtvivlad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44081,6 +46025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готовлю функцию упорядочивания. Пока запишу как услышал."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag förbereder ordningsfunktionen. Tills vidare skriver jag ner det som jag hör det."
           }
         },
         "th" : {
@@ -44221,6 +46171,12 @@
             "value" : "Упорядочиваю…"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordnar…"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44359,6 +46315,12 @@
             "value" : "Сейчас упорядочу."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag ska ordna det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44495,6 +46457,12 @@
             "value" : "Действительно удалить код-пароль и снизить защиту?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vill du verkligen ta bort koden och sänka säkerheten?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44625,6 +46593,12 @@
             "value" : "Точно удалить?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vill du verkligen radera?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44753,6 +46727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ракушка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snäcka"
           }
         },
         "th" : {
@@ -44893,6 +46873,12 @@
             "value" : "Не совсем так"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte riktigt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45029,6 +47015,12 @@
             "value" : "Камешек"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45159,6 +47151,12 @@
             "value" : "Выбор камешка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj sten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45287,6 +47285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Шесть фактур камешка на выбор"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj bland sex ytor på stenen"
           }
         },
         "th" : {
@@ -45423,6 +47427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Камешек думает"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stenen funderar"
           }
         },
         "th" : {
@@ -45563,6 +47573,12 @@
             "value" : "В «Настройках» можно выбрать, обращается ли камешек к вам на «вы» или на «ты»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ”Inställningar” kan du välja om stenen säger du eller ni till dig."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45701,6 +47717,12 @@
             "value" : "Хорошо"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bra"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45837,6 +47859,12 @@
             "value" : "Разочарование"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modfälld"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45971,6 +47999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Спокойствие"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neutral"
           }
         },
         "th" : {
@@ -46111,6 +48145,12 @@
             "value" : "Поговорить сейчас"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prata nu"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46249,6 +48289,12 @@
             "value" : "Если есть то, к чему вы сейчас идёте, расскажете об одном?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om det är något du är på väg mot, vill du berätta om en sak?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46385,6 +48431,12 @@
             "value" : "Куда вы идёте"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit du är på väg"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46513,6 +48565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Направлений, к которым ты идёшь: уже %lld."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är redan på väg mot %lld mål."
           }
         },
         "th" : {
@@ -46645,6 +48703,12 @@
             "value" : "Направлений, к которым вы идёте: уже %lld."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ni är redan på väg mot %lld mål."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46775,6 +48839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока оставлю"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag låter det vara tills vidare"
           }
         },
         "th" : {
@@ -46915,6 +48985,12 @@
             "value" : "Пока оставлю"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag vill låta det vara tills vidare"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47049,6 +49125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас плохо слышно. Можно написать текстом."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är svårt att höra just nu. Du kan också skriva."
           }
         },
         "th" : {
@@ -47189,6 +49271,12 @@
             "value" : "А как сейчас?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hur är det nu?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47323,6 +49411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сейчас функция упорядочивания недоступна. Запишу как услышал."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordningsfunktionen går inte att använda just nu. Jag skriver ner det som jag hör det."
           }
         },
         "th" : {
@@ -47461,6 +49555,12 @@
             "value" : "Пройденный путь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vägen hittills"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47591,6 +49691,12 @@
             "value" : "Сохраните все записи в текстовый файл."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara alla dina anteckningar i en textfil."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47719,6 +49825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Экспорт записей в файл"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportera anteckningarna till en fil"
           }
         },
         "th" : {
@@ -47857,6 +49969,12 @@
             "value" : "В прошлой записи осталось: «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den förra anteckningen står det: ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47991,6 +50109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлой записи осталось: «%@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den förra anteckningen står det: ”%@”."
           }
         },
         "th" : {
@@ -48129,6 +50253,12 @@
             "value" : "В прошлый раз вы решили: «%1$@».%2$@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra gången bestämde ni: ”%1$@”.%2$@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48263,6 +50393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлый раз ты решил: «%1$@».%2$@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra gången bestämde du: ”%1$@”.%2$@"
           }
         },
         "th" : {
@@ -48401,6 +50537,12 @@
             "value" : "В прошлый раз ты собирался попробовать «%1$@».%2$@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra gången tänkte du prova ”%1$@”.%2$@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48535,6 +50677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлый раз вы собирались попробовать «%1$@».%2$@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra gången tänkte ni prova ”%1$@”.%2$@"
           }
         },
         "th" : {
@@ -48673,6 +50821,12 @@
             "value" : "В прошлый раз ты написал: «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra gången skrev du: ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48807,6 +50961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В прошлый раз вы написали: «%@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra gången skrev ni: ”%@”."
           }
         },
         "th" : {
@@ -48945,6 +51105,12 @@
             "value" : "На прошлой неделе"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra veckan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49079,6 +51245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На прошлой неделе"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förra veckan"
           }
         },
         "th" : {
@@ -49217,6 +51389,12 @@
             "value" : "Около прошлой недели"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungefär förra veckan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49353,6 +51531,12 @@
             "value" : "Скука"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uttråkad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49487,6 +51671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera"
           }
         },
         "th" : {
@@ -49627,6 +51817,12 @@
             "value" : "После удаления восстановить нельзя."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det går inte att ångra när det är raderat."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49755,6 +51951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось удалить. Повторите попытку позже."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att radera. Försök igen om en stund."
           }
         },
         "th" : {
@@ -49893,6 +52095,12 @@
             "value" : "Поддержка и конфиденциальность"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support och integritet"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50029,6 +52237,12 @@
             "value" : "ZinggumDol"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50159,6 +52373,12 @@
             "value" : "Записи ZinggumDol"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol-anteckningar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50284,6 +52504,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol Pro"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol Pro"
@@ -50417,6 +52643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы пользуетесь ZinggumDol Pro. Спасибо."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du använder ZinggumDol Pro. Tack."
           }
         },
         "th" : {
@@ -50555,6 +52787,12 @@
             "value" : "Раздражение"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irriterad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50683,6 +52921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно коротко."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort går också bra."
           }
         },
         "th" : {
@@ -50823,6 +53067,12 @@
             "value" : "Можно коротко — только что тогда произошло."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort går också bra – bara vad som hände då."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50957,6 +53207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Читал книгу 30 минут. Хорошо сосредоточился."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag läste i 30 minuter. Jag kunde koncentrera mig bra."
           }
         },
         "th" : {
@@ -51095,6 +53351,12 @@
             "value" : "Набраться сил"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bygga upp konditionen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51229,6 +53491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отмена"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         },
         "th" : {
@@ -51369,6 +53637,12 @@
             "value" : "Можно написать и покрупнее."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du får också skriva stort."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51497,6 +53771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь или проведите пальцем, чтобы погладить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck eller gnugga för att klappa den"
           }
         },
         "th" : {
@@ -51635,6 +53915,12 @@
             "value" : "Разрушительность"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förstörande"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51769,6 +54055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Спокойствие"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslappnad"
           }
         },
         "th" : {
@@ -51909,6 +54201,12 @@
             "value" : "Как вам удобнее"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Som du tycker är bäst"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52043,6 +54341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обычное"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genomsnittlig"
           }
         },
         "th" : {
@@ -52181,6 +54485,12 @@
             "value" : "Оценить приложение"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betygsätt appen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52306,6 +54616,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro"
@@ -52443,6 +54759,12 @@
             "value" : "Больше целей — с Pro"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv fler med Pro"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52571,6 +54893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступно в Pro"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låses upp med Pro"
           }
         },
         "th" : {
@@ -52707,6 +55035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Усталость"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trött"
           }
         },
         "th" : {
@@ -52847,6 +55181,12 @@
             "value" : "Одно — о том, что было, другое — о том, что на душе сейчас."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det ena är vad som hände, det andra är hur du mår nu."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52975,6 +55315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Одна покупка — навсегда. Это не подписка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köp en gång, använd för alltid. Ingen prenumeration"
           }
         },
         "th" : {
@@ -53111,6 +55457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Давным-давно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För mycket länge sedan"
           }
         },
         "th" : {
@@ -53251,6 +55603,12 @@
             "value" : "Сделал, но не записал"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjort, men inte nedskrivet"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53389,6 +55747,12 @@
             "value" : "Сделал, просто не записал"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjort, bara inte nedskrivet"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53523,6 +55887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Счастье"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lycklig"
           }
         },
         "th" : {
@@ -53663,6 +56033,12 @@
             "value" : "Я ещё не слышал, куда вы идёте."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag har inte hört ännu vad du är på väg mot."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53791,6 +56167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно идти сразу к нескольким целям. Количество не ограничено."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är okej att vara på väg mot flera mål. Du kan skriva ner dem utan begränsning."
           }
         },
         "th" : {
@@ -53927,6 +56309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отвращение"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äcklad"
           }
         },
         "th" : {
@@ -54067,6 +56455,12 @@
             "value" : "Вы имели в виду это?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menar du det här?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54203,6 +56597,12 @@
             "value" : "OK"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54331,6 +56731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Для подтверждения введите «%@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ”%@” för att bekräfta."
           }
         },
         "th" : {
@@ -54465,6 +56871,12 @@
             "value" : "Хе-хе"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54595,6 +57007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "А?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hm?"
           }
         },
         "th" : {
@@ -54729,6 +57147,12 @@
             "value" : "Я тут"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag är här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54859,6 +57283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Звали?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ropade du på mig?"
           }
         },
         "th" : {
@@ -54993,6 +57423,12 @@
             "value" : "Хи-хи, щекотно!"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hihi, det kittlas!"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55123,6 +57559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Щекочет"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kittlas"
           }
         },
         "th" : {
@@ -55257,6 +57699,12 @@
             "value" : "Ну всё, хи-хи"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluta, hihi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55387,6 +57835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приятно…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad skönt…"
           }
         },
         "th" : {
@@ -55521,6 +57975,12 @@
             "value" : "Тепло"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmt och skönt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55651,6 +58111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Засыпаю…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag blir sömnig…"
           }
         },
         "th" : {
@@ -55785,6 +58251,12 @@
             "value" : "Голова кружится…"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag blir yr…"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55915,6 +58387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Кручусь-верчусь…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runt och runt…"
           }
         },
         "th" : {
