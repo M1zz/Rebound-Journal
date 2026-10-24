@@ -4,6 +4,154 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.1.1
+
+새 언어 22개(총 24개). 앱 번역 · 스토어 문구 · 웹 페이지 · 스크린샷.
+
+### 앱스토어 (한국어)
+
+이제 24개 언어로 징검돌을 쓸 수 있어요.
+일본어, 중국어 등 새 언어가 생겼어요.
+조약돌도 고른 언어로 말을 걸어요.
+
+### App Store (English)
+
+ZinggumDol is now in 24 languages.
+Japanese, Chinese and more are here.
+The pebble now talks in your language.
+
+### App Store (en-GB)
+
+ZinggumDol is now in 24 languages.
+Japanese, Chinese and more are here.
+The pebble now talks in your language.
+
+### App Store (zh-Hans)
+
+现已支持 24 种语言。
+现在可以用简体中文了。
+小石子会用中文和你聊天。
+
+### App Store (zh-Hant)
+
+現已支援 24 種語言。
+現在可以用繁體中文了。
+小石子會用中文和你聊天。
+
+### App Store (ja)
+
+ZinggumDolが24の言語に対応しました。
+日本語で使えるようになりました。
+小石が日本語で話しかけてくれます。
+
+### 앱스토어 (러시아어)
+
+ZinggumDol теперь на 24 языках.
+Приложение теперь на русском.
+Камешек говорит с вами по-русски.
+
+### 앱스토어 (스페인어)
+
+ZinggumDol ya está en 24 idiomas.
+Ahora también en español.
+El guijarro te habla en español.
+
+### 앱스토어 (독일어)
+
+ZinggumDol gibt es jetzt in 24 Sprachen.
+Die App ist jetzt auch auf Deutsch.
+Der Kiesel spricht mit dir auf Deutsch.
+
+### 앱스토어 (프랑스어)
+
+ZinggumDol parle désormais 24 langues.
+L’app est maintenant en français.
+Le galet vous répond en français.
+
+### 앱스토어 (이탈리아어)
+
+ZinggumDol ora parla 24 lingue.
+L’app è ora disponibile in italiano.
+Il sassolino ti parla in italiano.
+
+### App Store (pt-BR)
+
+O ZinggumDol agora fala 24 idiomas.
+O app já está em português.
+A pedrinha fala com você em português.
+
+### 앱스토어 (태국어)
+
+ZinggumDol รองรับ 24 ภาษาแล้ว
+ตอนนี้ใช้งานเป็นภาษาไทยได้แล้ว
+ก้อนหินเล็กๆ คุยกับคุณเป็นภาษาไทย
+
+### 앱스토어 (베트남어)
+
+ZinggumDol nay có 24 ngôn ngữ.
+Ứng dụng nay đã có tiếng Việt.
+Viên đá nhỏ trò chuyện bằng tiếng Việt.
+
+### 앱스토어 (체코어)
+
+ZinggumDol je nyní ve 24 jazycích.
+Aplikace je teď i v češtině.
+Oblázek s vámi mluví česky.
+
+### 앱스토어 (덴마크어)
+
+ZinggumDol findes nu på 24 sprog.
+Appen er nu også på dansk.
+Stenen taler med dig på dansk.
+
+### 앱스토어 (그리스어)
+
+Το ZinggumDol μιλά πλέον 24 γλώσσες.
+Τώρα και στα ελληνικά.
+Το βότσαλο σου μιλά στα ελληνικά.
+
+### 앱스토어 (핀란드어)
+
+ZinggumDol on nyt 24 kielellä.
+Sovellus on nyt myös suomeksi.
+Pikkukivi juttelee kanssasi suomeksi.
+
+### 앱스토어 (인도네시아어)
+
+ZinggumDol kini hadir dalam 24 bahasa.
+Aplikasi ini sudah berbahasa Indonesia.
+Kerikil menyapa dalam bahasa Indonesia.
+
+### 앱스토어 (노르웨이어(보크말))
+
+ZinggumDol finnes nå på 24 språk.
+Appen er nå også på norsk.
+Steinen snakker med deg på norsk.
+
+### 앱스토어 (네덜란드어)
+
+ZinggumDol is nu in 24 talen.
+De app is nu ook in het Nederlands.
+De kiezel spreekt gewoon Nederlands.
+
+### 앱스토어 (폴란드어)
+
+ZinggumDol jest teraz w 24 językach.
+Aplikacja jest już po polsku.
+Kamyk rozmawia z Tobą po polsku.
+
+### 앱스토어 (스웨덴어)
+
+ZinggumDol finns nu på 24 språk.
+Appen finns nu även på svenska.
+Stenen pratar med dig på svenska.
+
+### 앱스토어 (튀르키예어)
+
+ZinggumDol artık 24 dilde.
+Uygulama artık Türkçe.
+Küçük taş seninle Türkçe konuşuyor.
+
 ## 2.1.0
 
 징검돌 프로(평생 1회 구매)와 리팩토링. 유료화 근거는 `docs/BUSINESS.md`.

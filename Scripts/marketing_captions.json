@@ -1,0 +1,530 @@
+{
+  "ko": [
+    [
+      "조약돌이<br>먼저 말을 걸어요",
+      "지난번 얘기를 기억하고 어떻게 됐는지 물어요"
+    ],
+    [
+      "해낸 날엔<br>함께 기뻐해요",
+      "고르거나, 적거나, 말로 답해요"
+    ],
+    [
+      "한 주가<br>징검돌 한 줄로",
+      "밟지 못한 날도 지워지지 않아요"
+    ],
+    [
+      "남긴 이야기를<br>날짜순으로",
+      "있었던 일과 다음에 해볼 것까지"
+    ],
+    [
+      "마음에 드는<br>조약돌로",
+      "여섯 가지 결 중에서 골라요"
+    ]
+  ],
+  "en-US": [
+    [
+      "A pebble that<br>asks first",
+      "It remembers last time and asks how it went"
+    ],
+    [
+      "It cheers the days<br>you made it",
+      "Tap a reply, type, or just say it"
+    ],
+    [
+      "Your week,<br>stone by stone",
+      "Missed days stay too. Nothing is erased."
+    ],
+    [
+      "Everything you wrote,<br>by date",
+      "What happened and what you'll try next"
+    ],
+    [
+      "Pick a pebble<br>you like",
+      "Choose from six finishes"
+    ]
+  ],
+  "en-GB": [
+    [
+      "A pebble that<br>asks first",
+      "It remembers last time and asks how it went"
+    ],
+    [
+      "It cheers you on<br>when you do it",
+      "Pick a reply, write, or just say it"
+    ],
+    [
+      "Your week,<br>stone by stone",
+      "Missed days stay too. Nothing is wiped."
+    ],
+    [
+      "All your entries,<br>in date order",
+      "What happened and what you'll try next"
+    ],
+    [
+      "Choose a pebble<br>you love",
+      "Pick from six finishes"
+    ]
+  ],
+  "zh-Hans": [
+    [
+      "小石子<br>会先开口",
+      "记得你上次说的话，问问后来怎么样了"
+    ],
+    [
+      "做到的日子<br>一起开心",
+      "点选、打字，或者直接说出来"
+    ],
+    [
+      "一周时光<br>化作一排踏脚石",
+      "没踩上的日子，也不会被抹去"
+    ],
+    [
+      "写下的故事<br>按日期排好",
+      "发生了什么，下次想试什么，都在这里"
+    ],
+    [
+      "挑一颗<br>喜欢的小石子",
+      "六种质感，任你挑选"
+    ]
+  ],
+  "zh-Hant": [
+    [
+      "小石子<br>會先開口",
+      "記得你上次說的話，問問後來怎麼樣了"
+    ],
+    [
+      "做到的日子<br>一起開心",
+      "點選、打字，或者直接說出來"
+    ],
+    [
+      "一週時光<br>化作一排踏腳石",
+      "沒踩上的日子，也不會被抹去"
+    ],
+    [
+      "寫下的故事<br>按日期排好",
+      "發生了什麼，下次想試什麼，都在這裡"
+    ],
+    [
+      "挑一顆<br>喜歡的小石子",
+      "六種質感，任你挑選"
+    ]
+  ],
+  "ja": [
+    [
+      "小石が<br>先に声をかける",
+      "前回の話を覚えていて、その後を聞いてくれる"
+    ],
+    [
+      "できた日は<br>いっしょに喜ぶ",
+      "選んでも、書いても、話しても答えられる"
+    ],
+    [
+      "一週間が<br>飛び石の一列に",
+      "踏めなかった日も、消えずに残ります"
+    ],
+    [
+      "書いたことを<br>日付順に",
+      "あったことも、次に試すことも"
+    ],
+    [
+      "お気に入りの<br>小石を選ぼう",
+      "6種類の質感から選べます"
+    ]
+  ],
+  "ru": [
+    [
+      "Камешек<br>спросит первым",
+      "Помнит прошлый разговор и интересуется, как дела"
+    ],
+    [
+      "Радуется вместе<br>в удачные дни",
+      "Выберите ответ, напишите или скажите"
+    ],
+    [
+      "Неделя —<br>ряд камешков",
+      "Пропущенные дни тоже остаются"
+    ],
+    [
+      "Все записи<br>по датам",
+      "Что случилось и что попробовать дальше"
+    ],
+    [
+      "Камешек<br>на ваш вкус",
+      "Шесть фактур на выбор"
+    ]
+  ],
+  "es": [
+    [
+      "Un guijarro<br>que habla primero",
+      "Recuerda la última vez y te pregunta qué tal"
+    ],
+    [
+      "Lo celebra<br>cuando lo logras",
+      "Toca, escribe o simplemente dilo"
+    ],
+    [
+      "Tu semana,<br>piedra a piedra",
+      "Los días perdidos también quedan"
+    ],
+    [
+      "Todo lo que escribes,<br>por fecha",
+      "Lo que pasó y lo que probarás después"
+    ],
+    [
+      "Elige tu<br>guijarro favorito",
+      "Entre seis acabados distintos"
+    ]
+  ],
+  "de": [
+    [
+      "Ein Kiesel,<br>der zuerst fragt",
+      "Er erinnert sich und fragt, wie es lief"
+    ],
+    [
+      "Freut sich mit,<br>wenn es klappt",
+      "Tippen, schreiben oder einfach sagen"
+    ],
+    [
+      "Deine Woche,<br>Stein für Stein",
+      "Verpasste Tage bleiben. Nichts wird gelöscht."
+    ],
+    [
+      "Deine Einträge,<br>nach Datum",
+      "Was passiert ist und was du als Nächstes tust"
+    ],
+    [
+      "Wähl deinen<br>Lieblingskiesel",
+      "Aus sechs Oberflächen"
+    ]
+  ],
+  "fr": [
+    [
+      "Un galet qui<br>parle le premier",
+      "Il se souvient et vous demande comment ça va"
+    ],
+    [
+      "Il fête<br>chaque réussite",
+      "Touchez, écrivez ou dites-le simplement"
+    ],
+    [
+      "Votre semaine,<br>pas à pas",
+      "Les jours manqués restent. Rien n’est effacé."
+    ],
+    [
+      "Toutes vos notes,<br>par date",
+      "Ce qui s’est passé et ce que vous essaierez"
+    ],
+    [
+      "Le galet<br>qui vous plaît",
+      "Choisissez parmi six aspects"
+    ]
+  ],
+  "it": [
+    [
+      "Un sassolino<br>che parla per primo",
+      "Ricorda l’ultima volta e chiede com’è andata"
+    ],
+    [
+      "Festeggia con te<br>ogni traguardo",
+      "Tocca, scrivi o dillo a voce"
+    ],
+    [
+      "La settimana,<br>sasso per sasso",
+      "Anche i giorni mancati restano"
+    ],
+    [
+      "Le tue note,<br>in ordine di data",
+      "Cosa è successo e cosa proverai dopo"
+    ],
+    [
+      "Scegli il tuo<br>sassolino",
+      "Tra sei finiture diverse"
+    ]
+  ],
+  "pt-BR": [
+    [
+      "Uma pedrinha<br>que fala primeiro",
+      "Lembra da última vez e pergunta como foi"
+    ],
+    [
+      "Comemora junto<br>cada conquista",
+      "Toque, digite ou simplesmente fale"
+    ],
+    [
+      "Sua semana,<br>pedra por pedra",
+      "Os dias perdidos também ficam"
+    ],
+    [
+      "Seus registros<br>por data",
+      "O que aconteceu e o que tentar depois"
+    ],
+    [
+      "Escolha sua<br>pedrinha favorita",
+      "São seis acabamentos"
+    ]
+  ],
+  "th": [
+    [
+      "ก้อนหินเล็กๆ<br>ที่ทักก่อน",
+      "จำเรื่องครั้งก่อนได้ แล้วถามว่าเป็นยังไงบ้าง"
+    ],
+    [
+      "วันที่ทำได้<br>ก็ดีใจไปด้วยกัน",
+      "แตะเลือก พิมพ์ หรือพูดออกมาก็ได้"
+    ],
+    [
+      "ทั้งสัปดาห์<br>เป็นหินข้ามลำธาร",
+      "วันที่พลาดไปก็ไม่ถูกลบทิ้ง"
+    ],
+    [
+      "เรื่องที่เขียน<br>เรียงตามวันที่",
+      "ทั้งเรื่องที่เกิดขึ้นและสิ่งที่จะลองต่อ"
+    ],
+    [
+      "เลือกก้อนหิน<br>ที่ถูกใจ",
+      "มีพื้นผิวให้เลือกหกแบบ"
+    ]
+  ],
+  "vi": [
+    [
+      "Viên đá nhỏ<br>luôn mở lời trước",
+      "Nhớ chuyện lần trước và hỏi bạn thế nào rồi"
+    ],
+    [
+      "Cùng bạn vui<br>ngày làm được",
+      "Chạm chọn, gõ hoặc cứ nói ra"
+    ],
+    [
+      "Một tuần<br>là một hàng đá",
+      "Ngày lỡ bước cũng không bị xoá"
+    ],
+    [
+      "Mọi điều bạn viết,<br>theo ngày",
+      "Chuyện đã qua và điều sẽ thử tiếp"
+    ],
+    [
+      "Chọn viên đá<br>bạn thích",
+      "Sáu kiểu bề mặt để chọn"
+    ]
+  ],
+  "cs": [
+    [
+      "Oblázek, který<br>promluví první",
+      "Pamatuje si minule a zeptá se, jak to šlo"
+    ],
+    [
+      "Raduje se s vámi,<br>když se daří",
+      "Ťukněte, napište, nebo to řekněte"
+    ],
+    [
+      "Váš týden<br>kámen po kameni",
+      "Vynechané dny zůstávají. Nic se nemaže."
+    ],
+    [
+      "Vaše záznamy<br>podle data",
+      "Co se stalo a co zkusíte příště"
+    ],
+    [
+      "Vyberte si<br>oblázek, jaký chcete",
+      "Vyberte z šesti povrchů"
+    ]
+  ],
+  "da": [
+    [
+      "En sten,<br>der taler først",
+      "Den husker sidst og spørger, hvordan det gik"
+    ],
+    [
+      "Glæder sig med,<br>når det lykkes",
+      "Tryk, skriv, eller sig det bare"
+    ],
+    [
+      "Din uge,<br>sten for sten",
+      "Missede dage bliver. Intet slettes."
+    ],
+    [
+      "Alle dine noter,<br>efter dato",
+      "Hvad der skete, og hvad du prøver næste gang"
+    ],
+    [
+      "Vælg den sten,<br>du kan lide",
+      "Seks overflader at vælge imellem"
+    ]
+  ],
+  "el": [
+    [
+      "Ένα βότσαλο που<br>μιλά πρώτο",
+      "Θυμάται την τελευταία φορά και ρωτά πώς πήγε"
+    ],
+    [
+      "Χαίρεται μαζί σου<br>για κάθε βήμα",
+      "Πάτα, γράψε ή απλώς πες το"
+    ],
+    [
+      "Η εβδομάδα σου,<br>πέτρα πέτρα",
+      "Οι χαμένες μέρες μένουν. Τίποτα δεν σβήνεται."
+    ],
+    [
+      "Όσα έγραψες,<br>κατά ημερομηνία",
+      "Τι έγινε και τι θα δοκιμάσεις μετά"
+    ],
+    [
+      "Διάλεξε<br>το βότσαλό σου",
+      "Ανάμεσα σε έξι υφές"
+    ]
+  ],
+  "fi": [
+    [
+      "Kivi, joka<br>puhuu ensin",
+      "Se muistaa viime kerran ja kysyy, miten meni"
+    ],
+    [
+      "Iloitsee kanssasi,<br>kun onnistut",
+      "Napauta, kirjoita tai sano ääneen"
+    ],
+    [
+      "Viikkosi<br>kivi kiveltä",
+      "Väliin jääneetkin päivät jäävät näkyviin"
+    ],
+    [
+      "Merkintäsi<br>päivä päivältä",
+      "Mitä tapahtui ja mitä kokeilet seuraavaksi"
+    ],
+    [
+      "Valitse kivi,<br>josta pidät",
+      "Kuusi pintaa valittavana"
+    ]
+  ],
+  "id": [
+    [
+      "Kerikil yang<br>menyapa lebih dulu",
+      "Ingat cerita lalu dan bertanya hasilnya"
+    ],
+    [
+      "Ikut senang<br>saat Anda berhasil",
+      "Ketuk, ketik, atau ucapkan saja"
+    ],
+    [
+      "Seminggu Anda,<br>batu demi batu",
+      "Hari yang terlewat pun tetap ada"
+    ],
+    [
+      "Catatan Anda,<br>urut tanggal",
+      "Apa yang terjadi dan apa yang dicoba lagi"
+    ],
+    [
+      "Pilih kerikil<br>yang Anda suka",
+      "Ada enam tekstur pilihan"
+    ]
+  ],
+  "nb": [
+    [
+      "En stein som<br>snakker først",
+      "Den husker sist og spør hvordan det gikk"
+    ],
+    [
+      "Gleder seg med<br>når det lykkes",
+      "Trykk, skriv eller bare si det"
+    ],
+    [
+      "Uka di,<br>stein for stein",
+      "Dager du gikk glipp av, blir stående"
+    ],
+    [
+      "Alt du har skrevet,<br>etter dato",
+      "Hva som skjedde og hva du prøver neste gang"
+    ],
+    [
+      "Velg steinen<br>du liker",
+      "Seks overflater å velge mellom"
+    ]
+  ],
+  "nl": [
+    [
+      "Een kiezel die<br>als eerste praat",
+      "Weet wat u vertelde en vraagt hoe het ging"
+    ],
+    [
+      "Viert met u<br>elk succes",
+      "Tik, typ of zeg het gewoon"
+    ],
+    [
+      "Uw week,<br>steen voor steen",
+      "Gemiste dagen blijven. Niets wordt gewist."
+    ],
+    [
+      "Al uw notities,<br>op datum",
+      "Wat er gebeurde en wat u hierna probeert"
+    ],
+    [
+      "Kies de kiezel<br>die u mooi vindt",
+      "Uit zes uitvoeringen"
+    ]
+  ],
+  "pl": [
+    [
+      "Kamyk, który<br>pyta pierwszy",
+      "Pamięta ostatnią rozmowę i ciekawi go, jak poszło"
+    ],
+    [
+      "Cieszy się z tobą<br>w udane dni",
+      "Stuknij, napisz albo po prostu powiedz"
+    ],
+    [
+      "Twój tydzień<br>kamyk po kamyku",
+      "Pominięte dni też zostają. Nic nie znika."
+    ],
+    [
+      "Wszystkie wpisy<br>według dat",
+      "Co się wydarzyło i co spróbujesz dalej"
+    ],
+    [
+      "Wybierz kamyk,<br>który lubisz",
+      "Sześć faktur do wyboru"
+    ]
+  ],
+  "sv": [
+    [
+      "En sten som<br>pratar först",
+      "Minns förra gången och frågar hur det gick"
+    ],
+    [
+      "Gläds med dig<br>när det går vägen",
+      "Tryck, skriv eller säg det bara"
+    ],
+    [
+      "Din vecka,<br>sten för sten",
+      "Missade dagar finns kvar. Inget raderas."
+    ],
+    [
+      "Allt du skrivit,<br>efter datum",
+      "Vad som hände och vad du provar härnäst"
+    ],
+    [
+      "Välj stenen<br>du gillar",
+      "Sex ytor att välja mellan"
+    ]
+  ],
+  "tr": [
+    [
+      "İlk konuşan<br>küçük bir taş",
+      "Son konuşmayı hatırlar, nasıl gittiğini sorar"
+    ],
+    [
+      "Başardığınızda<br>sizinle sevinir",
+      "Seçin, yazın ya da söyleyin"
+    ],
+    [
+      "Haftanız<br>taş taş önünüzde",
+      "Kaçırılan günler de silinmez"
+    ],
+    [
+      "Tüm notlarınız<br>tarih sırasıyla",
+      "Olanlar ve sırada deneyecekleriniz"
+    ],
+    [
+      "Sevdiğiniz<br>çakıl taşını seçin",
+      "Altı farklı doku arasından"
+    ]
+  ]
+}

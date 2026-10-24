@@ -13,10 +13,10 @@
 
 ⚠️ 가격 · 할인 · 주소(URL) · 수상 · 다른 플랫폼 이름은 넣지 않는다(Apple 가이드).
 """
-import subprocess, sys, pathlib, tempfile
+import subprocess, sys, pathlib, tempfile, time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-RAW = ROOT / "docs" / "screenshots"  # ko/, en/ 에 1242x2688 화면이 있다
+RAW = ROOT / "docs" / "screenshots" / "raw"  # raw/<스토어 로케일>/ 에 원본 캡처가 있다 (make_marketing_screenshots.py 와 같다)
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
@@ -39,12 +39,12 @@ SEARCH = {
     "zh-Hans": ("失败日记", "小石子<br>会先开口", "像聊天一样记下<br>走到了哪里、被什么卡住"),
     "zh-Hant": ("失敗日記", "小石子<br>會先開口", "像聊天一樣記下<br>走到了哪裡、被什麼卡住"),
     "ja": ("失敗 日記", "小石が<br>先に声をかける", "何にたどり着き、何が引っかかったか<br>会話のように残す"),
-    "ru": ("дневник неудач", "Камешек<br>заговорит первым", "Записывайте, до чего дошли<br>и что остановило, как в беседе"),
+    "ru": ("дневник неудач", "Камешек<br>спросит первым", "Записывайте, до чего дошли<br>и что помешало"),
     "es": ("diario de fallos", "Un guijarro<br>que habla primero", "Anota hasta dónde llegaste<br>y qué te frenó, charlando"),
     "de": ("Misserfolg Tagebuch", "Ein Kiesel,<br>der zuerst fragt", "Festhalten, was du erreicht hast<br>und was dich aufhielt"),
     "fr": ("journal intime", "Un galet qui<br>parle le premier", "Notez où vous en êtes arrivé<br>et ce qui a coincé, en parlant"),
     "it": ("diario fallimenti", "Un sassolino<br>che parla per primo", "Annota dove sei arrivato<br>e cosa ti ha frenato, parlando"),
-    "pt-BR": ("diário de fracassos", "Uma pedrinha<br>que puxa a conversa", "Anote até onde chegou<br>e o que travou, conversando"),
+    "pt-BR": ("diário de fracassos", "Uma pedrinha<br>que fala primeiro", "Anote até onde chegou<br>e o que travou, conversando"),
     "th": ("ไดอารี่ความล้มเหลว", "ก้อนหินเล็กๆ<br>ที่ทักก่อน", "จดว่าไปถึงไหน ติดขัดตรงไหน<br>เหมือนได้คุยกัน"),
     "vi": ("nhật ký thất bại", "Viên đá nhỏ<br>luôn mở lời trước", "Ghi lại đã đi tới đâu, vướng gì<br>như một cuộc trò chuyện"),
     "cs": ("deník selhání", "Oblázek, který<br>promluví první", "Zapište, kam jste se dostali<br>a co vás zastavilo, jako v rozhovoru"),
@@ -54,7 +54,7 @@ SEARCH = {
     "id": ("jurnal kegagalan", "Kerikil yang<br>menyapa lebih dulu", "Catat sampai mana kamu melangkah<br>dan apa yang menghalangi"),
     "nb": ("dagbok nederlag", "En stein som<br>snakker først", "Skriv ned hvor langt du kom<br>og hva som sto i veien"),
     "nl": ("mislukkingsdagboek", "Een kiezel die<br>als eerste praat", "Noteer hoe ver u kwam en wat<br>u dwarszat, als in een gesprek"),
-    "pl": ("dziennik porażek", "Kamyk, który<br>odzywa się pierwszy", "Zapisz, dokąd dotarłeś i co<br>stanęło na drodze – jak w rozmowie"),
+    "pl": ("dziennik porażek", "Kamyk, który<br>pyta pierwszy", "Zapisz, dokąd dotarłeś<br>i co stanęło na drodze"),
     "sv": ("misslyckandedagbok", "En sten som<br>pratar först", "Skriv ner hur långt du kom och<br>vad som kom i vägen, som i ett samtal"),
     "tr": ("başarısızlık günlüğü", "İlk konuşan<br>küçük bir taş", "Nereye ulaştığını, neyin<br>engellediğini sohbet gibi yaz"),
 }
@@ -150,11 +150,11 @@ def phone(img, left, top, width, rotate=0):
 def pebble(lang, x, y, w, rot=0, opacity=1):
     """첫 화면(01-greeting)의 조약돌을 오려 징검다리처럼 놓는다. 바탕색이 화면과 같아 경계가 보이지 않는다.
     안전 영역 밖 장식이다."""
-    cx, cy, cw, ch = 380, 340, 490, 400          # 1242x2688 화면에서 조약돌 자리
+    cx, cy, cw, ch = 420, 380, 490, 420          # 1320x2868 원본에서 조약돌 자리
     k = w / cw
-    img = (RAW / lang / "01-greeting.png").as_uri()
+    img = (RAW / STORE.get(lang, lang) / "01-home.png").as_uri()
     return (f'<div class="pebble" style="left:{x}px;top:{y}px;width:{w}px;height:{ch * k:.0f}px;'
-            f'background-image:url({img});background-size:{1242 * k:.0f}px auto;'
+            f'background-image:url({img});background-size:{1320 * k:.0f}px auto;'
             f'background-position:{-cx * k:.0f}px {-cy * k:.0f}px;transform:rotate({rot}deg);opacity:{opacity}"></div>')
 
 
@@ -165,7 +165,7 @@ def search_html(lang):
     col = int(sw * 0.56)
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
-    img = (RAW / lang / "01-greeting.png").as_uri()
+    img = (RAW / STORE.get(lang, lang) / "01-home.png").as_uri()
     return f"""
 <div class="glow" style="left:{ph_left - 300}px;top:500px;width:1700px;height:1700px;background:rgba(95,143,147,.10)"></div>
 {phone(img, ph_left, t - 360, ph_w, 0)}
@@ -180,8 +180,8 @@ def header_html(lang):
     W, H, (l, t, r, b) = SPEC["header"]
     eyebrow, headline = HEADER[lang]
     sw, sh = r - l, b - t
-    left_img = (RAW / lang / "01-greeting.png").as_uri()
-    right_img = (RAW / lang / "04-stone-bridge.png").as_uri()
+    left_img = (RAW / STORE.get(lang, lang) / "01-home.png").as_uri()
+    right_img = (RAW / STORE.get(lang, lang) / "03-path.png").as_uri()
     # 글 아래로 조약돌이 징검다리처럼 건너간다(왼쪽 폰 → 오른쪽 폰).
     stones = [(1080, 1240, 300, -6), (1520, 1300, 260, 4), (1920, 1250, 280, -3), (2330, 1300, 250, 7)]
     stones_html = "".join(pebble(lang, x, y, w, rot) for x, y, w, rot in stones)
@@ -233,6 +233,7 @@ def render(lang, kind):
     else:
         raise SystemExit(f"Chrome 이 그리지 못했다: {out_png}")
     print(f"rendered {out_png}")
+    time.sleep(3)  # 맥을 가볍게 (nice -n 19 로 돌린다)
 
 
 if __name__ == "__main__":

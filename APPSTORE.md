@@ -2,6 +2,46 @@
 
 ## ko
 
+### 이름
+
+징검돌
+
+### 부제
+
+헛디딘 날을 다정하게 돌아봐요
+
+### 프로모션 텍스트
+
+헛디뎠다고 개울에 빠진 건 아니에요. 먼저 말을 걸고 지난번 얘기를 기억하는 조약돌과 함께, 뜻대로 안 된 하루를 천천히 돌아봐요.
+
+### 설명
+
+헛디뎠다고 개울에 빠진 건 아니에요. 징검돌은 뜻대로 안 된 날을 위한 다정한 일기장이에요.
+조약돌 하나와 이야기를 나누듯, 있었던 일과 그때 마음을 천천히 꺼내 봐요.
+
+조약돌이 먼저 말을 걸어요. 지난번에 들려준 얘기를 기억하고, 그 뒤로 어떻게 됐는지 물어봐요. 고를 수 있는 답을 누르거나 직접 적으면 있었던 일, 그때 기분, 다음에 해볼 것이 차곡차곡 남아요.
+
+조약돌과 이야기하기
+목표를 정해 두면 조약돌이 닿은 날과 막힌 날을 함께 지켜봐요. 하루를 놓쳐도 뭘 잘못했는지가 아니라 뭐가 걸렸는지를 물어요.
+
+말로 남기기
+적기 힘든 날엔 소리 내어 말해도 돼요. 말은 기기 안에서 알아듣고 녹음은 저장하지 않아요. 지원하는 기기에서는 읽기 편하게 문장을 다듬어 줘요.
+
+지나온 길
+한 주가 징검돌 한 줄로 펼쳐져요. 밟지 못한 날도 그대로 남아요. 지워지는 건 없어요.
+
+남긴 이야기
+있었던 일, 그때 마음, 다음에 해볼 것을 날짜순으로 다시 볼 수 있어요.
+
+위젯과 알림
+홈 화면에서 조약돌의 한마디를 보고, 정해 둔 시간에 오늘을 돌아보라는 알림을 받아요.
+
+나만 보는 기록
+가입도 광고도 없어요. 기록은 내 기기와 내 iCloud에만 있고 암호로 앱을 잠글 수 있어요. 적은 내용은 개발자에게 보내지 않아요.
+
+징검돌 프로
+목표 세 개까지는 무료로 써요. 구독이 아닌 한 번 구매로 목표를 원하는 만큼 두고, 조약돌 결 여섯 가지 중에서 고르고, 기록을 텍스트 파일로 내보낼 수 있어요.
+
 ### 키워드
 
 리바운드저널,져널,저널,리바운드,실패일기,실패노트,회복탄력성,회고일기,회고,감정일기,성찰,오답노트,반성,자존감,멘탈관리,성장일기,실패,일기,성장,반성문,극복,멘탈
@@ -19,6 +59,46 @@ https://m1zz.github.io/Rebound-Journal/privacy.html
 https://m1zz.github.io/Rebound-Journal/
 
 ## en-US
+
+### 이름
+
+ZinggumDol
+
+### 부제
+
+Journal for days that go wrong
+
+### 프로모션 텍스트
+
+Missing a step doesn't mean you fell in. Look back on the days that didn't go to plan with a little pebble that speaks first and remembers what you told it.
+
+### 설명
+
+Missing a step doesn't mean you fell in. ZinggumDol is a gentle journal for the days that didn't go to plan.
+Talk things through with a little pebble, one reply at a time.
+
+The pebble speaks first. It remembers what you told it last time and asks how things went since. Tap a reply or type your own, and keep a record of what happened, how you felt and what you'll try next.
+
+TALK IT OVER WITH A PEBBLE
+Set a goal and the pebble keeps track of the days you made it and the days you got stuck. When a day slips by, it asks what got in the way, never what you did wrong.
+
+JUST SAY IT
+On days when writing feels like too much, say it out loud. Speech is recognized on your device, recordings are never saved, and on supported devices your words are cleaned up so they read easily.
+
+THE WAY YOU'VE COME
+Each week is laid out as a row of stepping stones. The days you missed stay there too. Nothing gets erased.
+
+WHAT YOU'VE WRITTEN
+Look back at what happened, how you felt and what you'll try next, all in date order.
+
+WIDGET AND REMINDERS
+See a word from the pebble on your Home Screen, and get a gentle reminder at a time you pick to check in on your day.
+
+JUST FOR YOU
+No sign-up and no ads. Your entries stay on your device and in your own iCloud, and you can lock the app with a passcode. Nothing you write is ever sent to the developer.
+
+ZINGGUMDOL PRO
+Free with up to three goals. A one-time purchase, not a subscription, unlocks unlimited goals, six pebble finishes and exporting your entries as a text file.
 
 ### 키워드
 
