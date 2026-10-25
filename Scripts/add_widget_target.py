@@ -25,19 +25,19 @@ import secrets
 import sys
 from pathlib import Path
 
-PROJECT = Path("Rebound Journal.xcodeproj/project.pbxproj")
+PROJECT = Path("ZinggumDol.xcodeproj/project.pbxproj")
 
 APP_TARGET = "586F22872A33861C004C7410"
 APP_BUILD_PHASES_ANCHOR = "586F22862A33861C004C7410 /* Resources */,"
 MAIN_GROUP = "586F227F2A33861C004C7410"
 PRODUCTS_GROUP = "586F22892A33861C004C7410"
 
-WIDGET_NAME = "ReboundWidget"
+WIDGET_NAME = "ZinggumDolWidget"
 WIDGET_BUNDLE_ID = "com.leeo.ReboundJournal.ReboundWidget"
 APP_GROUP = "group.com.leeo.ReboundJournal"
 
 # 위젯 타깃에서만 컴파일하는 소스.
-OWN_SOURCES = ["TodayWidget.swift", "ReboundWidgetBundle.swift"]
+OWN_SOURCES = ["TodayWidget.swift", "ZinggumDolWidgetBundle.swift"]
 
 # 앱과 함께 쓰는 소스. 이름으로 기존 파일 참조를 찾아 붙인다.
 SHARED_SOURCES = [
@@ -280,9 +280,9 @@ def main():
         1,
     )
     src = src.replace(
-        "\t\t\tdependencies = (\n\t\t\t);\n\t\t\tname = \"Rebound Journal\";",
+        "\t\t\tdependencies = (\n\t\t\t);\n\t\t\tname = \"ZinggumDol\";",
         "\t\t\tdependencies = (\n\t\t\t\t%s /* PBXTargetDependency */,\n\t\t\t);\n"
-        "\t\t\tname = \"Rebound Journal\";" % ids["dependency"],
+        "\t\t\tname = \"ZinggumDol\";" % ids["dependency"],
         1,
     )
 
@@ -349,8 +349,8 @@ def main():
 
     # ---- 프로젝트에 등록 --------------------------------------------------
     src = src.replace(
-        "\t\t\t\t586F22872A33861C004C7410 /* Rebound Journal */,\n\t\t\t);",
-        "\t\t\t\t586F22872A33861C004C7410 /* Rebound Journal */,\n"
+        "\t\t\t\t586F22872A33861C004C7410 /* ZinggumDol */,\n\t\t\t);",
+        "\t\t\t\t586F22872A33861C004C7410 /* ZinggumDol */,\n"
         "\t\t\t\t%s /* %s */,\n\t\t\t);" % (ids["target"], WIDGET_NAME),
         1,
     )

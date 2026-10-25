@@ -1,7 +1,7 @@
 #!/usr/bin/env swift
 //
 //  make_app_icon.swift
-//  Rebound Journal
+//  ZinggumDol
 //
 //  앱 아이콘을 코드로 그린다.
 //
@@ -227,7 +227,7 @@ guard let image = ctx.makeImage() else { fatalError("이미지를 만들지 못�
 
 let target = URL(fileURLWithPath: CommandLine.arguments.count > 1
     ? CommandLine.arguments[1]
-    : "Rebound Journal/Assets.xcassets/AppIcon.appiconset/AppIcon.png")
+    : "ZinggumDol/Assets.xcassets/AppIcon.appiconset/AppIcon.png")
 
 guard let destination = CGImageDestinationCreateWithURL(
     target as CFURL,

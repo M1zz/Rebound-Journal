@@ -5,10 +5,10 @@ This project uses objectVersion 56 groups, so new files are invisible to the
 build until they appear in PBXFileReference / PBXBuildFile / PBXGroup /
 PBXSourcesBuildPhase. Running this again with the same paths is a no-op.
 
-    python3 Scripts/add_sources_to_pbxproj.py "Rebound Journal/Features/Foo.swift" ...
+    python3 Scripts/add_sources_to_pbxproj.py "ZinggumDol/Features/Foo.swift" ...
 
 Paths are relative to the repository root and must live under the
-"Rebound Journal" group.
+"ZinggumDol" group.
 """
 
 import hashlib
@@ -16,10 +16,10 @@ import re
 import sys
 from pathlib import Path
 
-PROJECT = Path(__file__).resolve().parent.parent / "Rebound Journal.xcodeproj" / "project.pbxproj"
-ROOT_GROUP = "586F228A2A33861C004C7410"   # "Rebound Journal"
+PROJECT = Path(__file__).resolve().parent.parent / "ZinggumDol.xcodeproj" / "project.pbxproj"
+ROOT_GROUP = "586F228A2A33861C004C7410"   # "ZinggumDol"
 SOURCES_PHASE = "586F22842A33861C004C7410"
-ROOT_DIR = "Rebound Journal"
+ROOT_DIR = "ZinggumDol"
 
 
 def uid(seed):

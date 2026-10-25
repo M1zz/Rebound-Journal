@@ -17,7 +17,7 @@
 | 조약돌 결 (6종) | 모래알 1종 | 6종 모두 |
 | 기록 내보내기 (텍스트 파일) | – | ✓ |
 
-상품 ID: `com.leeo.ReboundJournal.pro` (비소모성) — `App/ReboundJournalSpec.swift` 가 단일 출처.
+상품 ID: `com.leeo.ReboundJournal.pro` (비소모성) — `App/ZinggumDolSpec.swift` 가 단일 출처.
 
 ## 2. 왜 이렇게 정했나
 
@@ -67,7 +67,7 @@
 
 ## 4. 측정
 
-FeedbackHub 사용 통계로 들어온다 (`ReboundJournalSpec.analytics` → `LeeoUsageAnalytics`).
+FeedbackHub 사용 통계로 들어온다 (`ZinggumDolSpec.analytics` → `LeeoUsageAnalytics`).
 
 | 이벤트 | 뜻 |
 |---|---|

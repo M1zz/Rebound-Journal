@@ -1,7 +1,7 @@
 #!/usr/bin/env swift
 //
 //  make_moodboard.swift
-//  Rebound Journal
+//  ZinggumDol
 //
 //  키 컬러 후보를 실제 화면 요소에 입혀 나란히 그린다.
 //

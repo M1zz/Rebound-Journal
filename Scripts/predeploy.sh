@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-# 배포 전 검사 — 징검돌 (Rebound Journal)
+# 배포 전 검사 — 징검돌
 #
 # DeployBar 가 아카이브하기 전에 부른다. 0 이 아닌 값으로 끝나면 배포가 멈춘다.
 #
 # ⚠️ 이 프로젝트에는 테스트 타깃이 없다(`xcodebuild -list` 의 Targets 는
-#    Rebound Journal 과 ReboundWidget 뿐). 그래서 여기서는 테스트를 돌리지 못하고
+#    ZinggumDol 과 ZinggumDolWidget 뿐). 그래서 여기서는 테스트를 돌리지 못하고
 #    "Release 로 두 타깃이 컴파일되는가" 까지만 확인한다.
 #    테스트 타깃을 추가하면 아래 '테스트' 절의 주석을 풀면 된다.
 #
@@ -13,8 +13,8 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-PROJECT="Rebound Journal.xcodeproj"
-SCHEME="Rebound Journal"
+PROJECT="ZinggumDol.xcodeproj"
+SCHEME="ZinggumDol"
 DESTINATION="generic/platform=iOS"
 
 echo "▸ 배포 전 검사 시작"
