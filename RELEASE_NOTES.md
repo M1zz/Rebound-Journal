@@ -7,150 +7,199 @@ App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 ## 2.1.1
 
 새 언어 22개(총 24개). 앱 번역 · 스토어 문구 · 웹 페이지 · 스크린샷.
+대화가 홈 안에서 이어지고, 단계 표시와 마무리 카드가 생겼다. Xcode 프로젝트·타깃 이름을 ZinggumDol 로.
 
 ### 앱스토어 (한국어)
 
 이제 24개 언어로 징검돌을 쓸 수 있어요.
 일본어, 중국어 등 새 언어가 생겼어요.
 조약돌도 고른 언어로 말을 걸어요.
+대화가 홈에서 바로 이어져요.
+대화를 마치면 남긴 이야기를 모아 보여줘요.
 
-### App Store (English)
-
-ZinggumDol is now in 24 languages.
-Japanese, Chinese and more are here.
-The pebble now talks in your language.
-
-### App Store (en-GB)
+### 앱스토어 (영어, en-US)
 
 ZinggumDol is now in 24 languages.
 Japanese, Chinese and more are here.
 The pebble now talks in your language.
+Chats now continue right on Home.
+See what you saved when a chat ends.
 
-### App Store (zh-Hans)
+### 앱스토어 (영어 영국, en-GB)
+
+ZinggumDol is now in 24 languages.
+Japanese, Chinese and more are here.
+The pebble now talks in your language.
+Chats now carry on right on Home.
+See what you saved when a chat ends.
+
+### 앱스토어 (중국어 간체, zh-Hans)
 
 现已支持 24 种语言。
 现在可以用简体中文了。
 小石子会用中文和你聊天。
+对话现在直接在主页上继续。
+聊完后，可以一眼看到留下的内容。
 
-### App Store (zh-Hant)
+### 앱스토어 (중국어 번체, zh-Hant)
 
 現已支援 24 種語言。
 現在可以用繁體中文了。
 小石子會用中文和你聊天。
+對話現在直接在首頁上繼續。
+聊完後，一眼就能看到留下的內容。
 
-### App Store (ja)
+### 앱스토어 (일본어)
 
 ZinggumDolが24の言語に対応しました。
 日本語で使えるようになりました。
 小石が日本語で話しかけてくれます。
+会話がホーム画面のまま続くようになりました。
+話し終えると、残したことをまとめて見られます。
 
 ### 앱스토어 (러시아어)
 
 ZinggumDol теперь на 24 языках.
 Приложение теперь на русском.
 Камешек говорит с вами по-русски.
+Беседа теперь идёт прямо на главной.
+В конце видно всё, что вы сохранили.
 
 ### 앱스토어 (스페인어)
 
 ZinggumDol ya está en 24 idiomas.
 Ahora también en español.
 El guijarro te habla en español.
+Ahora la charla sigue en el inicio.
+Al terminar, ves todo lo que guardaste.
 
 ### 앱스토어 (독일어)
 
 ZinggumDol gibt es jetzt in 24 Sprachen.
 Die App ist jetzt auch auf Deutsch.
 Der Kiesel spricht mit dir auf Deutsch.
+Gespräche laufen nun auf der Startseite.
+Am Ende siehst du, was du notiert hast.
 
 ### 앱스토어 (프랑스어)
 
 ZinggumDol parle désormais 24 langues.
 L’app est maintenant en français.
 Le galet vous répond en français.
+Les échanges continuent sur l’accueil.
+À la fin, voyez ce que vous avez noté.
 
 ### 앱스토어 (이탈리아어)
 
 ZinggumDol ora parla 24 lingue.
 L’app è ora disponibile in italiano.
 Il sassolino ti parla in italiano.
+Le chiacchierate continuano nella Home.
+Alla fine vedi ciò che hai annotato.
 
-### App Store (pt-BR)
+### 앱스토어 (포르투갈어 브라질, pt-BR)
 
 O ZinggumDol agora fala 24 idiomas.
 O app já está em português.
 A pedrinha fala com você em português.
+A conversa agora segue na tela inicial.
+No fim, você vê tudo o que anotou.
 
 ### 앱스토어 (태국어)
 
 ZinggumDol รองรับ 24 ภาษาแล้ว
 ตอนนี้ใช้งานเป็นภาษาไทยได้แล้ว
 ก้อนหินเล็กๆ คุยกับคุณเป็นภาษาไทย
+บทสนทนาดำเนินต่อบนหน้าหลักได้เลย
+คุยจบแล้วดูสิ่งที่บันทึกไว้ได้ในทีเดียว
 
 ### 앱스토어 (베트남어)
 
 ZinggumDol nay có 24 ngôn ngữ.
 Ứng dụng nay đã có tiếng Việt.
 Viên đá nhỏ trò chuyện bằng tiếng Việt.
+Giờ trò chuyện ngay trên trang chính.
+Cuối buổi, xem lại những gì bạn đã ghi.
 
 ### 앱스토어 (체코어)
 
 ZinggumDol je nyní ve 24 jazycích.
 Aplikace je teď i v češtině.
 Oblázek s vámi mluví česky.
+Rozhovor teď pokračuje přímo na úvodu.
+Na konci uvidíte, co jste si zapsali.
 
 ### 앱스토어 (덴마크어)
 
 ZinggumDol findes nu på 24 sprog.
 Appen er nu også på dansk.
 Stenen taler med dig på dansk.
+Samtalen fortsætter nu på forsiden.
+Til sidst ser du alt, du har noteret.
 
 ### 앱스토어 (그리스어)
 
 Το ZinggumDol μιλά πλέον 24 γλώσσες.
 Τώρα και στα ελληνικά.
 Το βότσαλο σου μιλά στα ελληνικά.
+Η κουβέντα συνεχίζει στην αρχική.
+Στο τέλος βλέπεις ό,τι κράτησες.
 
 ### 앱스토어 (핀란드어)
 
 ZinggumDol on nyt 24 kielellä.
 Sovellus on nyt myös suomeksi.
 Pikkukivi juttelee kanssasi suomeksi.
+Keskustelu jatkuu nyt kotinäkymässä.
+Lopuksi näet, mitä kirjasit muistiin.
 
 ### 앱스토어 (인도네시아어)
 
 ZinggumDol kini hadir dalam 24 bahasa.
 Aplikasi ini sudah berbahasa Indonesia.
 Kerikil menyapa dalam bahasa Indonesia.
+Obrolan kini berlanjut di layar utama.
+Di akhir, lihat semua yang kamu catat.
 
-### 앱스토어 (노르웨이어(보크말))
+### 앱스토어 (노르웨이어 보크말, nb)
 
 ZinggumDol finnes nå på 24 språk.
 Appen er nå også på norsk.
 Steinen snakker med deg på norsk.
+Samtalen fortsetter nå på forsiden.
+Til slutt ser du alt du har notert.
 
 ### 앱스토어 (네덜란드어)
 
 ZinggumDol is nu in 24 talen.
 De app is nu ook in het Nederlands.
 De kiezel spreekt gewoon Nederlands.
+Het gesprek loopt nu op het beginscherm.
+Aan het eind zie je wat je hebt bewaard.
 
 ### 앱스토어 (폴란드어)
 
 ZinggumDol jest teraz w 24 językach.
 Aplikacja jest już po polsku.
 Kamyk rozmawia z Tobą po polsku.
+Rozmowa trwa teraz na ekranie głównym.
+Na koniec widzisz, co udało się zapisać.
 
 ### 앱스토어 (스웨덴어)
 
 ZinggumDol finns nu på 24 språk.
 Appen finns nu även på svenska.
 Stenen pratar med dig på svenska.
+Samtalet fortsätter nu på startsidan.
+Till sist ser du allt du har antecknat.
 
 ### 앱스토어 (튀르키예어)
 
 ZinggumDol artık 24 dilde.
 Uygulama artık Türkçe.
 Küçük taş seninle Türkçe konuşuyor.
+Sohbet artık ana ekranda devam ediyor.
+Sonunda kaydettiklerini toplu görürsün.
 
 ## 2.1.0
 
