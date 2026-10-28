@@ -33,6 +33,26 @@
       "productID" : "com.leeo.ReboundJournal.pro",
       "referenceName" : "ZinggumDol Pro Lifetime",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "7900",
+      "familyShareable" : false,
+      "internalID" : "6E1B2C44",
+      "localizations" : [
+        {
+          "description" : "다른 사람에게 징검돌 프로를 선물해요. 코드를 보내 주세요.",
+          "displayName" : "징검돌 프로 선물",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Give ZinggumDol Pro to someone else with a gift code.",
+          "displayName" : "Gift ZinggumDol Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.leeo.ReboundJournal.gift.pro",
+      "referenceName" : "Gift ZinggumDol Pro",
+      "type" : "Consumable"
     }
   ],
   "settings" : {

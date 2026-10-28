@@ -108,6 +108,9 @@ struct SettingsView: View {
                 Spacer(minLength: 5)
                 VStack {
                     proSection
+                    if let gift = store.gift {
+                        GiftRows(gift: gift, hasPro: store.hasPro)
+                    }
                     sectionHeader(String(localized: "조약돌"))
                     if AppLanguage.isKorean {
                         // 존댓말·반말은 한국어에만 있는 구분이다. 다른 언어에서는
@@ -590,6 +593,76 @@ struct SettingsView: View {
         } label: {
             Label(String(localized: "사용 통계 (개발자)"), systemImage: "chart.bar.doc.horizontal")
         }
+    }
+}
+
+// MARK: - 프로 선물
+
+/// 프로 선물 보내기 · 선물 코드 넣기. 징검돌 프로 칸 바로 아래에 선다.
+/// 받는 사람은 평생 이용권을 산 것과 같아진다(`ZinggumDolSpec.monetization` 의 `gift`).
+///
+/// ⚠️ 상품이 App Store 에서 와야 줄이 선다(`isAvailable`) — 상품을 만들기 전에 빌드가 나가도 눌러도 안 되는 줄은 없다.
+///    단, 이미 결제했거나 주고받은 선물이 있는 사람에게는 늘 보인다(코드를 다시 보거나 문의까지 갈 길이 있어야 한다).
+/// ⚠️ 문구는 LeeoKit 카탈로그(`LeeoGiftText`)에 24개 언어로 이미 있다.
+/// ⚠️ 선물 엔진은 따로 관찰한다 — 상품은 앱이 뜬 뒤에 오는데 그 변화가 `LeeoStore` 로 전해지지 않는다.
+private struct GiftRows: View {
+    @ObservedObject var gift: LeeoGiftStore
+    let hasPro: Bool
+    @State private var showSupport = false
+
+    var body: some View {
+        if gift.isAvailable || gift.pendingCount > 0 || !gift.sentGifts.isEmpty || gift.redeemed != nil {
+            VStack {
+                NavigationLink {
+                    // 선물이 안 되면 결제 번호·코드를 붙여 문의하게 한다 — 막힌 사람을 놓치지 않게.
+                    LeeoGiftView<ZinggumDolSpec>(gift: gift, showsRedeemLink: false,
+                                                 onContactSupport: { showSupport = true })
+                        .leeoStyle(.pebble)
+                } label: {
+                    giftRow(LeeoGiftText.sendEntry, icon: "gift.fill")
+                }
+                // 이미 프로인 사람은 받을 것이 없다 — 받은 적이 있으면 그 기록을 볼 수 있게만 남긴다.
+                if !hasPro || gift.redeemed != nil {
+                    Divider().padding(.horizontal)
+                    NavigationLink {
+                        LeeoGiftRedeemView<ZinggumDolSpec>(gift: gift,
+                                                           onContactSupport: { showSupport = true })
+                            .leeoStyle(.pebble)
+                    } label: {
+                        giftRow(LeeoGiftText.redeemEntry, icon: "giftcard")
+                    }
+                }
+            }
+            .buttonStyle(.plain)
+            // 설정의 다른 카드와 같은 모양
+            .padding([.top, .bottom], 5)
+            .background(Color(.systemGray6)
+                .cornerRadius(15)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10))
+            .padding(.bottom, 40)
+            .sheet(isPresented: $showSupport) {
+                NavigationStack {
+                    LeeoFeedbackView<ZinggumDolSpec>(initialType: .bug, extraInfo: gift.supportLines,
+                                                     initialCategory: .purchase)
+                        .leeoStyle(.pebble)
+                }
+            }
+        }
+    }
+
+    private func giftRow(_ title: String, icon: String) -> some View {
+        HStack {
+            Image(systemName: icon)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 22, height: 22, alignment: .center)
+            Text(title).font(.body)
+            Spacer()
+            Image(systemName: "chevron.right")
+        }
+        .foregroundStyle(.primary)
+        .padding()
+        .contentShape(Rectangle())
     }
 }
 

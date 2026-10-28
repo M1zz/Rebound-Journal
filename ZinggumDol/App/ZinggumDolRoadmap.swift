@@ -26,7 +26,7 @@ extension ZinggumDolSpec {
         .init(id: "shortcuts", status: .planned,
               title: String(localized: "Siri와 단축어", comment: "Roadmap item: Siri and Shortcuts"),
               detail: String(localized: "Siri에게 말하거나 단축어로 바로 기록을 남겨요.", comment: "Roadmap item detail: Siri and Shortcuts")),
-        .init(id: "gift", status: .planned,
+        .init(id: "gift", status: .building,
               title: String(localized: "Pro 선물하기", comment: "Roadmap item: gift Pro"),
               detail: String(localized: "결제는 보내는 분이 하고, Pro는 받는 분이 써요.", comment: "Roadmap item detail: gift Pro")),
         .init(id: "onboarding", status: .planned,

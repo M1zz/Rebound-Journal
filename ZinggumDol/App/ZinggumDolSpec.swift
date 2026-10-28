@@ -44,6 +44,10 @@ enum ZinggumDolSpec: LeeoAppSpec {
     /// ⚠️ App Store Connect·구매자 영수증과의 계약이다. 한 번 팔기 시작하면 바꾸지 않는다.
     static let proProductID = "com.leeo.ReboundJournal.pro"
 
+    /// 프로 선물 상품 ID — 소모성. 받는 사람은 평생 이용권(`proProductID`)을 산 것과 같아진다.
+    /// ⚠️ `productIDs` · `entitlementIDs` 에 넣지 않는다. 넣으면 선물을 산 사람 자신이 프로가 된다.
+    static let giftProductID = "com.leeo.ReboundJournal.gift.pro"
+
     /// 수익모델 — 무료로 쓰다가 **한 번 사면 평생** (구독 아님). 근거는 `docs/BUSINESS.md`.
     ///
     /// 게이트 키는 `ProFeature.rawValue` 와 같다.
@@ -59,7 +63,14 @@ enum ZinggumDolSpec: LeeoAppSpec {
                 warnWhenRemaining: 1
             ),
             // 위젯과 같은 앱 그룹. 오프라인에서도 마지막으로 확인한 권한으로 곧바로 연다.
-            cacheSuiteName: PebbleSnapshot.appGroup
+            cacheSuiteName: PebbleSnapshot.appGroup,
+            // 프로 선물하기. 보내는 사람은 소모성 선물 상품을 사고, 받는 사람은 평생 이용권을 산 것과 같아진다.
+            // 선물 기록은 피드백과 같은 허브 컨테이너의 공개 DB 에 둔다. entitlements 에 이미 있다.
+            gift: LeeoGiftConfig(
+                productID: giftProductID,
+                grantsProductID: proProductID,
+                containerIdentifier: "iCloud.com.Ysoup.FeedbackHub"
+            )
         )
     )
 }
