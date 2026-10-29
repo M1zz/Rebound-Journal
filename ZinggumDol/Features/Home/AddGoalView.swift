@@ -52,6 +52,7 @@ struct AddGoalView: View {
                             .foregroundStyle(PebbleTheme.inkFaint)
                             .frame(width: 40, height: 40)
                     }
+                    .accessibilityLabel(Text("닫기"))
                 }
 
                 InteractivePebble(mood: step == .direction ? .resting : .thinking, size: 96)

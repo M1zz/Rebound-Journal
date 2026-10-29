@@ -86,6 +86,7 @@ struct PebbleView: View {
 
     @Environment(\.pebbleSkin) private var skin
     @State private var breathing = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var blinking = false
 
     private var faceWidth: CGFloat { size * 0.46 }
@@ -118,7 +119,9 @@ struct PebbleView: View {
         .animation(.easeInOut(duration: mood.breathPeriod / 2).repeatForever(autoreverses: true)) { content in
             content.scaleEffect(breathing ? 1.025 : 0.985, anchor: .bottom)
         }
-        .onAppear { breathing = true }
+        // '동작 줄이기'를 켜면 숨쉬기를 멈추고 가만히 있는다.
+        .onAppear { breathing = !reduceMotion }
+        .onChange(of: reduceMotion) { _, reduce in breathing = !reduce }
         .task(id: mood) { await blinkLoop() }
         .accessibilityElement()
         .accessibilityLabel(Text("조약돌"))
@@ -218,7 +221,7 @@ struct PebbleView: View {
                 height: size * (isSpeaking ? 0.075 : 0.05)
             )
             .animation(
-                isSpeaking
+                isSpeaking && !reduceMotion
                     ? .easeInOut(duration: 0.16).repeatForever(autoreverses: true)
                     : .easeOut(duration: 0.2),
                 value: isSpeaking

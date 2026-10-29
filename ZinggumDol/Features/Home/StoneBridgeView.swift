@@ -14,6 +14,7 @@
 import SwiftUI
 
 struct StoneBridgeView: View {
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
 
     let days: [StoneDay]
     let title: String
@@ -53,6 +54,7 @@ struct StoneBridgeView: View {
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .frame(width: 28, height: 28)
             }
+            .accessibilityLabel(Text("이전 주"))
             Button(action: onNext) {
                 Image(systemName: "chevron.right")
                     .font(.system(size: 12, weight: .semibold))
@@ -60,6 +62,7 @@ struct StoneBridgeView: View {
                     .frame(width: 28, height: 28)
             }
             .disabled(!canGoForward)
+            .accessibilityLabel(Text("다음 주"))
         }
         .padding(.horizontal, 4)
     }
@@ -121,6 +124,12 @@ struct StoneBridgeView: View {
                                 PebbleShape()
                                     .stroke(PebbleTheme.inkFaint.opacity(0.35), lineWidth: 1)
                                     .frame(width: stoneWidth, height: stoneWidth * 0.76)
+                            }
+                            if differentiateWithoutColor && day.state == .reached {
+                                // '색상 없이 구별': 닿은 날과 남기기만 한 날은 밝기만 달라서 햇빛 표시를 얹는다.
+                                Image(systemName: "sun.max.fill")
+                                    .font(.system(size: stoneWidth * 0.32))
+                                    .foregroundStyle(PebbleTheme.ink.opacity(0.7))
                             }
                         }
 
@@ -185,6 +194,7 @@ extension StoneDay {
 /// '지나온 길'의 돌과 같은 것이어야 이어진 기록으로 읽힌다.
 /// 숫자는 두지 않는다 — 며칠 밟았는지는 돌의 밝기로만 보인다.
 struct WeekStoneStrip: View {
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
     let days: [StoneDay]
     var stoneWidth: CGFloat = 22
     var showsWeekdays: Bool = true
@@ -205,6 +215,11 @@ struct WeekStoneStrip: View {
                                 PebbleShape()
                                     .stroke(PebbleTheme.key, lineWidth: 1.5)
                                     .padding(-3)
+                            }
+                            if differentiateWithoutColor && day.state == .reached {
+                                Image(systemName: "sun.max.fill")
+                                    .font(.system(size: stoneWidth * 0.32))
+                                    .foregroundStyle(PebbleTheme.ink.opacity(0.7))
                             }
                         }
                         // 큰 징검다리처럼 어긋나게. 줄을 맞추면 달력 칸이 된다.

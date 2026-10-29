@@ -407,11 +407,12 @@ struct ConversationView: View {
                     } label: {
                         Image(systemName: "arrow.up")
                             .font(.system(size: 15, weight: .bold))
-                            .foregroundStyle(.white)
+                            .foregroundStyle(PebbleTheme.onKey)
                             .frame(width: 32, height: 32)
                             .background(PebbleTheme.key)
                             .clipShape(Circle())
                     }
+                    .accessibilityLabel(Text("보내기"))
                     .transition(.scale.combined(with: .opacity))
                 }
             }
@@ -437,12 +438,13 @@ struct ConversationView: View {
         } label: {
             Image(systemName: speech.isListening ? "stop.fill" : "mic.fill")
                 .font(.system(size: 17, weight: .medium))
-                .foregroundStyle(speech.isListening ? .white : PebbleTheme.inkSoft)
+                .foregroundStyle(speech.isListening ? PebbleTheme.onKey : PebbleTheme.inkSoft)
                 .frame(width: 44, height: 44)
                 .background(speech.isListening ? PebbleTheme.key : PebbleTheme.surfaceMuted)
                 .clipShape(Circle())
         }
         .accessibilityLabel(speech.isListening ? "그만 말하기" : "말로 답하기")
+        .accessibilityInputLabels(speech.isListening ? [Text("멈추기"), Text("그만 말하기")] : [Text("마이크"), Text("말로 답하기")])
     }
 
     /// §7의 핵심 화면. 다시 말해달라고 하는 대신 정리한 문장을 보여주고 고르게 한다.
@@ -527,9 +529,15 @@ struct ConversationView: View {
                 ScrollView(.horizontal) {
                     HStack(spacing: 8) {
                         ForEach(ConversationScript.emotionWords(for: selectedEmotion).prefix(9), id: \.self) { word in
-                            Button(word) {
+                            Button {
                                 selectedWord = (selectedWord == word) ? nil : word
+                            } label: {
+                                HStack(spacing: 4) {
+                                    SelectionCheck(isSelected: selectedWord == word)
+                                    Text(word)
+                                }
                             }
+                            .accessibilityAddTraits(selectedWord == word ? .isSelected : [])
                             .font(PebbleTheme.label(14))
                             .foregroundStyle(PebbleTheme.ink)
                             .padding(.horizontal, 14)
@@ -549,7 +557,8 @@ struct ConversationView: View {
                     .padding(.horizontal, 1)
                 }
                 .scrollIndicators(.hidden)
-                .frame(height: 38)
+                .frame(minHeight: 38)
+                .fixedSize(horizontal: false, vertical: true)
 
                 ReplyOptions(choices: [
                     ReplyChoice(id: "done", label: Phrasing.say("이걸로 할게요", "이걸로 할게"), isPrimary: true)

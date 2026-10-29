@@ -156,8 +156,9 @@ struct SettingsView: View {
     private func sectionHeader(_ title: String) -> some View {
         HStack {
             Text(title)
-                .font(.system(size: 18, weight: .medium))
+                .font(.system(.body, weight: .medium))
                 .foregroundStyle(Color("Default"))
+                .accessibilityAddTraits(.isHeader)
             Spacer()
         }
     }
@@ -255,7 +256,7 @@ struct SettingsView: View {
                     } label: {
                         Text("알아보기")
                             .font(PebbleTheme.label(15))
-                            .foregroundStyle(.white)
+                            .foregroundStyle(PebbleTheme.onKey)
                             .padding(.horizontal, 18)
                             .padding(.vertical, 9)
                             .background(PebbleTheme.key, in: Capsule())
@@ -314,7 +315,7 @@ struct SettingsView: View {
 
                 // 고른 말투로 조약돌이 한마디 한다.
                 Text(speechStyle.sample)
-                    .font(.system(size: 15, design: .serif))
+                    .font(.system(.subheadline, design: .serif))
                     .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .animation(.easeOut(duration: 0.18), value: speechStyle)

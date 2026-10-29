@@ -101,6 +101,7 @@ struct AllRecordsView: View {
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .frame(width: 40, height: 40)
             }
+            .accessibilityLabel(Text("닫기"))
         }
         .padding(.horizontal, 18)
         .padding(.top, PebbleTheme.sheetHeaderTop)
@@ -218,6 +219,7 @@ struct AllRecordsView: View {
                 .frame(width: 28, height: 24)
                 .contentShape(Rectangle())
         }
+        .accessibilityLabel(Text("더 보기"))
     }
 
     private func editButton(_ entry: JournalData) -> some View {

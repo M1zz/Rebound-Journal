@@ -87,6 +87,7 @@ struct EditRecordView: View {
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .frame(width: 40, height: 40)
             }
+            .accessibilityLabel(Text("닫기"))
         }
         .padding(.horizontal, 18)
         .padding(.top, PebbleTheme.sheetHeaderTop)
@@ -147,7 +148,9 @@ struct EditRecordView: View {
                 .padding(.horizontal, 1)
             }
             .scrollIndicators(.hidden)
-            .frame(height: 40)
+            // 글자가 커지면 줄도 같이 높아진다.
+            .frame(minHeight: 40)
+            .fixedSize(horizontal: false, vertical: true)
 
             if let emotionValue {
                 ScrollView(.horizontal) {
@@ -161,7 +164,8 @@ struct EditRecordView: View {
                     .padding(.horizontal, 1)
                 }
                 .scrollIndicators(.hidden)
-                .frame(height: 40)
+                .frame(minHeight: 40)
+                .fixedSize(horizontal: false, vertical: true)
             }
         }
     }
@@ -176,7 +180,10 @@ struct EditRecordView: View {
 
     private func pick(title: String, selected: Bool, action: @escaping () -> Void) -> some View {
         Button(action: action) {
-            Text(title)
+            HStack(spacing: 4) {
+                SelectionCheck(isSelected: selected)
+                Text(title)
+            }
                 .font(PebbleTheme.body(15))
                 .foregroundStyle(PebbleTheme.ink)
                 .frame(maxWidth: .infinity)
@@ -192,11 +199,15 @@ struct EditRecordView: View {
                 }
         }
         .buttonStyle(.plain)
+        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     private func chip(_ title: String, selected: Bool, action: @escaping () -> Void) -> some View {
         Button(action: action) {
-            Text(title)
+            HStack(spacing: 4) {
+                SelectionCheck(isSelected: selected)
+                Text(title)
+            }
                 .font(PebbleTheme.label(14))
                 .foregroundStyle(PebbleTheme.ink)
                 .padding(.horizontal, 14)
@@ -211,6 +222,7 @@ struct EditRecordView: View {
                 }
         }
         .buttonStyle(.plain)
+        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     private var when: String {

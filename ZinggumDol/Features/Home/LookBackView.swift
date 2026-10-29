@@ -103,6 +103,7 @@ struct LookBackView: View {
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .frame(width: 40, height: 40)
             }
+            .accessibilityLabel(Text("닫기"))
         }
         .padding(.horizontal, 18)
         .padding(.top, PebbleTheme.sheetHeaderTop)
@@ -216,6 +217,7 @@ struct LookBackView: View {
             HStack {
                 Text("지금 해보려는 것")
                     .font(PebbleTheme.label(14))
+                    .accessibilityAddTraits(.isHeader)
                     .foregroundStyle(PebbleTheme.inkFaint)
                 Spacer()
                 Button {
@@ -224,7 +226,10 @@ struct LookBackView: View {
                     Image(systemName: "plus")
                         .font(.system(size: 13, weight: .semibold))
                         .foregroundStyle(PebbleTheme.inkFaint)
+                        .frame(width: 44, height: 44)
+                        .contentShape(Rectangle())
                 }
+                .accessibilityLabel(Text("목표 추가"))
             }
             .padding(.horizontal, 4)
 

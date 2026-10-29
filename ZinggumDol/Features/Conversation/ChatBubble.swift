@@ -146,7 +146,7 @@ struct ReplyChip: View {
         } label: {
             Text(label)
                 .font(PebbleTheme.body(16).weight(.semibold))
-                .foregroundStyle(isPrimary ? Color.white : PebbleTheme.ink)
+                .foregroundStyle(isPrimary ? PebbleTheme.onKey : PebbleTheme.ink)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 20)
                 .padding(.vertical, 14)

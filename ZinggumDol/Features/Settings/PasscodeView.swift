@@ -32,7 +32,8 @@ struct PasscodeView: View {
             : String(localized: "비밀번호 설정")
         if !setupMode { passcodeTitle = String(localized: "비밀번호 입력") }
         return VStack(spacing: 30) {
-            Text(passcodeTitle).bold().font(.system(size: 22))
+            Text(passcodeTitle).bold().font(.title2)
+                .accessibilityAddTraits(.isHeader)
             HStack(spacing: 15) {
                 ForEach(0..<4, id: \.self) { index in
                     ZStack {
@@ -45,6 +46,9 @@ struct PasscodeView: View {
                     }.frame(width: 12, height: 12, alignment: .center)
                 }
             }.offset(x: showWrongPasswordAnimation ? -20 : 0)
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(Text("입력한 숫자"))
+            .accessibilityValue(Text("4개 중 \(passcodeArray.count)개"))
             LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 5), count: 3), spacing: 20, content: {
                 ForEach(0..<9, id: \.self, content: { index in
                     KeypadButton(index: index + 1)
@@ -109,6 +113,8 @@ struct PasscodeView: View {
     
     private func resetPasscodeEntry() {
         passcodeArray.removeAll()
+        // 흔들림이 보이지 않는 사람에게도 틀렸다는 걸 알린다.
+        AccessibilityNotification.Announcement(String(localized: "비밀번호가 맞지 않아요")).post()
         let duration = 0.1
         withAnimation(Animation.easeIn(duration: duration)) {
             showWrongPasswordAnimation = true

@@ -37,7 +37,12 @@ enum PebbleTheme {
     /// 차가운 키를 쓰는 이유는 두 가지다. 하나는 따뜻한 돌과 온도가 갈려야
     /// 조약돌이 앞으로 나온다는 것 — 키와 돌이 같은 계열이면 서로 묻힌다.
     /// 다른 하나는 이 앱이 개울을 건너는 이야기라는 것이다 (앱 이름 §4).
-    static let key = dynamic(light: 0x5F8F93, dark: 0x7FB3B6)
+    static let key = dynamic(light: 0x5F8F93, dark: 0x7FB3B6, lightHigh: 0x466E72, darkHigh: 0x9FD0D3)
+
+    /// 키 컬러 면 위에 얹는 글자·아이콘.
+    ///
+    /// 다크에서는 키가 밝은 물빛이라 흰 글자가 묻힌다(대비 2.3:1). 그때는 바탕색 글자를 쓴다.
+    static let onKey = dynamic(light: 0xFFFFFF, dark: 0x111717)
 
     /// 조약돌에 드는 햇빛. **강조색이 아니다.**
     ///
@@ -47,8 +52,9 @@ enum PebbleTheme {
     static let sunlight = dynamic(light: 0xE8A33D, dark: 0xE0A65A)
 
     static let ink = dynamic(light: 0x232C2B, dark: 0xE9EFEE)
-    static let inkSoft = dynamic(light: 0x566564, dark: 0xA3B0AF)
-    static let inkFaint = dynamic(light: 0x899695, dark: 0x71807E)
+    static let inkSoft = dynamic(light: 0x566564, dark: 0xA3B0AF, lightHigh: 0x3F4B4A, darkHigh: 0xC4CFCE)
+    /// 흐린 글자. '대비 증가'를 켜면 본문 대비(4.5:1)를 넘게 짙어진다.
+    static let inkFaint = dynamic(light: 0x899695, dark: 0x71807E, lightHigh: 0x5F6B6A, darkHigh: 0x9AA7A5)
 
     static let hairline = dynamic(light: 0xDBE3E2, dark: 0x28302F)
 
@@ -68,21 +74,40 @@ enum PebbleTheme {
     // 조약돌의 말은 세리프로, 사용자의 말과 UI는 산세리프로 둔다.
     // 말하는 주체가 둘이라는 걸 글꼴로 구분해, 사용자가 앱의 질문과
     // 자기 대답을 헷갈리지 않게 한다.
+    //
+    // 크기는 가장 가까운 텍스트 스타일로 옮겨 '더 큰 텍스트'를 따라 커지게 한다.
+    // 기본 크기에서는 예전 값과 1pt 안쪽으로 같다.
 
     static func companionFont(_ size: CGFloat = 21) -> Font {
-        .system(size: size, weight: .regular, design: .serif)
+        .system(textStyle(size), design: .serif, weight: .regular)
     }
 
     static func title(_ size: CGFloat = 26) -> Font {
-        .system(size: size, weight: .semibold, design: .rounded)
+        .system(textStyle(size), design: .rounded, weight: .semibold)
     }
 
     static func body(_ size: CGFloat = 16) -> Font {
-        .system(size: size, weight: .regular)
+        .system(textStyle(size), weight: .regular)
     }
 
     static func label(_ size: CGFloat = 14) -> Font {
-        .system(size: size, weight: .medium, design: .rounded)
+        .system(textStyle(size), design: .rounded, weight: .medium)
+    }
+
+    /// 기본 크기가 `size`에 가장 가까운 텍스트 스타일.
+    static func textStyle(_ size: CGFloat) -> Font.TextStyle {
+        switch size {
+        case 30...: .largeTitle   // 34
+        case 24..<30: .title      // 28
+        case 21..<24: .title2     // 22
+        case 19..<21: .title3     // 20
+        case 17..<19: .body       // 17
+        case 16..<17: .callout    // 16
+        case 14..<16: .subheadline // 15
+        case 13..<14: .footnote   // 13
+        case 12..<13: .caption    // 12
+        default: .caption2        // 11
+        }
     }
 
     // MARK: - 간격 / 모양
@@ -92,9 +117,13 @@ enum PebbleTheme {
 
     // MARK: - 유틸
 
-    static func dynamic(light: UInt32, dark: UInt32) -> Color {
+    /// 라이트·다크 한 쌍. `lightHigh`·`darkHigh`를 주면 '대비 증가'일 때 그 값을 쓴다.
+    static func dynamic(light: UInt32, dark: UInt32, lightHigh: UInt32? = nil, darkHigh: UInt32? = nil) -> Color {
         Color(uiColor: UIColor { traits in
-            traits.userInterfaceStyle == .dark ? UIColor(rgb: dark) : UIColor(rgb: light)
+            let isDark = traits.userInterfaceStyle == .dark
+            let isHigh = traits.accessibilityContrast == .high
+            let rgb = isDark ? (isHigh ? darkHigh ?? dark : dark) : (isHigh ? lightHigh ?? light : light)
+            return UIColor(rgb: rgb)
         })
     }
 }
@@ -134,3 +163,17 @@ struct SoftCard<Content: View>: View {
 // 사용자가 답하는 자리는 전부 `ReplyChip` 으로 통일했다. 보낸 말풍선과 헷갈리지 않게
 // 화면 폭을 채우는 버튼으로 그린다.
 // 한때는 답도 말풍선 모양으로 두었지만, 이미 보낸 말과 눌러야 할 것이 헷갈려 버튼으로 돌아왔다.
+
+/// 고른 것을 색으로만 알리지 않는다. '색상 없이 구별'을 켜면 글자 앞에 체크를 붙인다.
+struct SelectionCheck: View {
+    let isSelected: Bool
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
+
+    var body: some View {
+        if isSelected && differentiateWithoutColor {
+            Image(systemName: "checkmark")
+                .font(.caption.weight(.bold))
+                .accessibilityHidden(true)
+        }
+    }
+}

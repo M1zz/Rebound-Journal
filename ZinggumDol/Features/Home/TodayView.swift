@@ -567,6 +567,8 @@ struct TodayView: View {
                 Image(systemName: "ellipsis.circle")
                     .foregroundStyle(PebbleTheme.inkSoft)
             }
+            .accessibilityLabel(Text("더 보기"))
+            .accessibilityInputLabels([Text("더 보기"), Text("메뉴")])
         }
     }
 
