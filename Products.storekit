@@ -53,6 +53,66 @@
       "productID" : "com.leeo.ReboundJournal.gift.pro",
       "referenceName" : "Gift ZinggumDol Pro",
       "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2200",
+      "familyShareable" : false,
+      "internalID" : "6E1B2C51",
+      "localizations" : [
+        {
+          "description" : "개발자를 응원해요. 아무것도 열리지 않아요.",
+          "displayName" : "작은 응원",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Support the developer. Unlocks nothing.",
+          "displayName" : "Small Tip",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.leeo.ReboundJournal.tip.small",
+      "referenceName" : "Small Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5500",
+      "familyShareable" : false,
+      "internalID" : "6E1B2C52",
+      "localizations" : [
+        {
+          "description" : "개발자를 응원해요. 아무것도 열리지 않아요.",
+          "displayName" : "보통 응원",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Support the developer. Unlocks nothing.",
+          "displayName" : "Medium Tip",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.leeo.ReboundJournal.tip.medium",
+      "referenceName" : "Medium Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "11000",
+      "familyShareable" : false,
+      "internalID" : "6E1B2C53",
+      "localizations" : [
+        {
+          "description" : "개발자를 응원해요. 아무것도 열리지 않아요.",
+          "displayName" : "큰 응원",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Support the developer. Unlocks nothing.",
+          "displayName" : "Large Tip",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.leeo.ReboundJournal.tip.large",
+      "referenceName" : "Large Tip",
+      "type" : "Consumable"
     }
   ],
   "settings" : {

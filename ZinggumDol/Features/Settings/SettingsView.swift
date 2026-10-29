@@ -111,6 +111,9 @@ struct SettingsView: View {
                     if let gift = store.gift {
                         GiftRows(gift: gift, hasPro: store.hasPro)
                     }
+                    if let tipJar = store.tipJar {
+                        TipRow(tipJar: tipJar)
+                    }
                     sectionHeader(String(localized: "조약돌"))
                     if AppLanguage.isKorean {
                         // 존댓말·반말은 한국어에만 있는 구분이다. 다른 언어에서는
@@ -663,6 +666,47 @@ private struct GiftRows: View {
         .foregroundStyle(.primary)
         .padding()
         .contentShape(Rectangle())
+    }
+}
+
+/// 개발자 응원하기(팁). 선물 칸 아래에 선다. 아무것도 열지 않는다.
+/// ⚠️ 상품이 App Store 에서 와야 줄이 선다(`isAvailable`). 문구는 LeeoKit 카탈로그(`LeeoTipText`)에 있다.
+/// ⚠️ 팁 엔진은 따로 관찰한다 — 상품이 앱이 뜬 뒤에 오는 것을 `LeeoStore` 는 알리지 않는다.
+private struct TipRow: View {
+    @ObservedObject var tipJar: LeeoTipJar
+
+    var body: some View {
+        if tipJar.isAvailable {
+            NavigationLink {
+                LeeoTipJarView<ZinggumDolSpec>(tipJar: tipJar)
+                    .leeoStyle(.pebble)
+            } label: {
+                HStack {
+                    Image(systemName: "heart.fill")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 22, height: 22, alignment: .center)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(LeeoTipText.entry).font(.body)
+                        Text(LeeoTipText.entrySubtitle)
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                }
+                .foregroundStyle(.primary)
+                .padding()
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            // 설정의 다른 카드와 같은 모양
+            .padding([.top, .bottom], 5)
+            .background(Color(.systemGray6)
+                .cornerRadius(15)
+                .shadow(color: Color.primary.opacity(0.07), radius: 10))
+            .padding(.bottom, 40)
+        }
     }
 }
 

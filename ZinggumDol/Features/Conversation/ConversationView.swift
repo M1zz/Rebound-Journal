@@ -24,10 +24,13 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 struct ConversationView: View {
 
     @Environment(\.modelContext) private var modelContext
+    /// 마무리 카드 아래의 응원 부탁은 이미 프로를 가진 사람에게만 선다.
+    @EnvironmentObject private var store: LeeoStore
     /// 마무리 카드의 징검다리를 그리려고 읽는다. 방금 남긴 기록까지 들어와야 한다.
     @Query private var allJournals: [JournalData]
 
@@ -217,6 +220,14 @@ struct ConversationView: View {
                             week: WeekStones.thisWeek(journals: allJournals, goal: engine.goal)
                         )
                         .transition(.opacity.combined(with: .move(edge: .bottom)))
+
+                        // 이야기를 막 하나 더 남긴 자리. 아직 프로가 아닌 사람에게는 페이월이 맞는 길이라 묻지 않는다.
+                        if store.hasPro, let tipJar = store.tipJar {
+                            LeeoTipAskSlot<ZinggumDolSpec>(
+                                tipJar: tipJar,
+                                reached: ZinggumDolTipMoments.reached(talks: allJournals.count)
+                            )
+                        }
                     }
 
                     Color.clear.frame(height: 4).id(Self.bottomAnchor)
@@ -769,6 +780,22 @@ struct ConversationSummaryCard: View {
                     .lineLimit(3)
                     .fixedSize(horizontal: false, vertical: true)
             }
+        }
+    }
+}
+
+// MARK: - 응원을 부탁할 순간
+
+/// 조약돌과 나눈 이야기 수(남긴 기록 하나가 대화 하나다). 이만큼 곁에 있었다는 숫자라 고마운 순간이다.
+/// 큰 것부터 넘긴다 — 함께 넘어선 작은 순간은 LeeoKit 이 다 쓴 것으로 친다.
+enum ZinggumDolTipMoments {
+    static let talks = [100, 30, 10]
+
+    static func reached(talks count: Int) -> [LeeoTipMoment] {
+        talks.filter { count >= $0 }.map { threshold in
+            LeeoTipMoment(id: "talks.\(threshold)",
+                          message: String(localized: "지금까지 이야기를 \(count)번 나눴어요",
+                                          comment: "Tip ask card: how many conversations the user has had with the pebble so far"))
         }
     }
 }

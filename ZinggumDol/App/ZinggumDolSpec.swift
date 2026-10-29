@@ -48,6 +48,14 @@ enum ZinggumDolSpec: LeeoAppSpec {
     /// ⚠️ `productIDs` · `entitlementIDs` 에 넣지 않는다. 넣으면 선물을 산 사람 자신이 프로가 된다.
     static let giftProductID = "com.leeo.ReboundJournal.gift.pro"
 
+    /// 팁(개발자 응원하기) 상품 ID — 소모성, 작은 것부터. 아무것도 열지 않는다.
+    /// ⚠️ `productIDs` · `entitlementIDs` 에 넣지 않는다. 넣으면 팁을 낸 사람이 프로가 된다.
+    static let tipProductIDs = [
+        "com.leeo.ReboundJournal.tip.small",
+        "com.leeo.ReboundJournal.tip.medium",
+        "com.leeo.ReboundJournal.tip.large"
+    ]
+
     /// 수익모델 — 무료로 쓰다가 **한 번 사면 평생** (구독 아님). 근거는 `docs/BUSINESS.md`.
     ///
     /// 게이트 키는 `ProFeature.rawValue` 와 같다.
@@ -70,7 +78,9 @@ enum ZinggumDolSpec: LeeoAppSpec {
                 productID: giftProductID,
                 grantsProductID: proProductID,
                 containerIdentifier: "iCloud.com.Ysoup.FeedbackHub"
-            )
+            ),
+            // 이미 프로를 가진 사람이 조금 더 내고 싶을 때. 상품 불러오기·결제 갱신은 LeeoStore 가 한다.
+            tipJar: LeeoTipJarConfig(productIDs: tipProductIDs)
         )
     )
 }
