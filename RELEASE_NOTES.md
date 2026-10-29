@@ -4,6 +4,200 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.1.2
+
+### 앱스토어 (한국어)
+
+고마울 때 개발자에게 작은 팁을 보낼 수 있어요.
+친구에게 Pro를 선물할 수 있어요.
+화면 읽기와 음성 명령으로도 편하게 쓸 수 있어요.
+큰 글씨와 다크 모드에서도 잘 보여요.
+색을 구별하기 어려워도 알아보기 쉬워졌어요.
+
+### 앱스토어 (영어, en-US)
+
+Thank the developer with a small tip.
+You can now gift Pro to a friend.
+Better with VoiceOver and Voice Control.
+Reads well in larger text and Dark Mode.
+Easier to use if you're color-blind.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Thank the developer with a small tip.
+You can now gift Pro to a friend.
+Better with VoiceOver and Voice Control.
+Reads well in larger text and Dark Mode.
+Easier to use if you're colour-blind.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+可以给开发者送上一点小费表达感谢。
+可以把 Pro 送给朋友。
+更好地支持旁白和语音控制。
+大字体和深色模式下也清晰易读。
+难以分辨颜色时也更容易看清。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+可以給開發者一點小費表達謝意。
+可以把 Pro 送給朋友。
+更好地支援旁白和語音控制。
+大字體和深色模式下也清楚易讀。
+難以分辨顏色時也更容易看清。
+
+### 앱스토어 (일본어)
+
+開発者にささやかなチップを送れます。
+友だちにProをプレゼントできます。
+VoiceOverと音声コントロールで使いやすくなりました。
+大きな文字やダークモードでも見やすくなりました。
+色の見分けが苦手でもわかりやすくなりました。
+
+### 앱스토어 (러시아어)
+
+Можно отправить разработчику чаевые.
+Pro теперь можно подарить другу.
+Поддержка VoiceOver и голосовых команд.
+Чётко с крупным шрифтом и в тёмной теме.
+Понятнее, если трудно различать цвета.
+
+### 앱스토어 (스페인어)
+
+Deja una propina al desarrollador.
+Regala Pro a un amigo.
+Mejor con VoiceOver y Control por voz.
+Texto grande y modo oscuro más legibles.
+Más fácil si confundes los colores.
+
+### 앱스토어 (독일어)
+
+Sag Danke mit einem kleinen Trinkgeld.
+Verschenke Pro an Freunde.
+Besser mit VoiceOver und Sprachbefehlen.
+Klar bei großer Schrift und Dunkelmodus.
+Einfacher bei Farbsehschwäche.
+
+### 앱스토어 (프랑스어)
+
+Offrez un pourboire au développeur.
+Offrez Pro à un ami.
+Mieux avec VoiceOver et Commande vocale.
+Lisible en grand texte et mode sombre.
+Plus simple pour les daltoniens.
+
+### 앱스토어 (이탈리아어)
+
+Offri una mancia allo sviluppatore.
+Regala Pro a un amico.
+Meglio con VoiceOver e Controllo vocale.
+Chiaro con testo grande e tema scuro.
+Più facile se distingui male i colori.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+Mande uma gorjeta para o desenvolvedor.
+Presenteie um amigo com o Pro.
+Melhor com VoiceOver e Controle por Voz.
+Legível com texto grande e modo escuro.
+Mais fácil para quem confunde cores.
+
+### 앱스토어 (태국어)
+
+ส่งทิปเล็กๆ ให้นักพัฒนาเพื่อขอบคุณได้
+มอบ Pro เป็นของขวัญให้เพื่อนได้
+ใช้ VoiceOver และสั่งด้วยเสียงได้ดีขึ้น
+อ่านง่ายทั้งตัวอักษรใหญ่และโหมดมืด
+แยกแยะง่ายขึ้นแม้มองสีได้ไม่ชัด
+
+### 앱스토어 (베트남어)
+
+Gửi nhà phát triển chút tiền tip cảm ơn.
+Tặng Pro cho bạn bè.
+Dùng tốt hơn với VoiceOver và Khẩu lệnh.
+Dễ đọc với chữ lớn và chế độ tối.
+Dễ nhận biết hơn nếu khó phân biệt màu.
+
+### 앱스토어 (체코어)
+
+Pošlete vývojáři malé spropitné.
+Darujte Pro kamarádovi.
+Lepší s VoiceOverem a Ovládáním hlasem.
+Čitelnější velké písmo i tmavý režim.
+Snazší, když špatně rozlišujete barvy.
+
+### 앱스토어 (덴마크어)
+
+Giv udvikleren lidt drikkepenge som tak.
+Giv Pro i gave til en ven.
+Bedre med VoiceOver og Stemmestyring.
+Tydelig med stor tekst og mørk tilstand.
+Lettere, hvis du har svært ved farver.
+
+### 앱스토어 (그리스어)
+
+Στείλτε φιλοδώρημα στον δημιουργό.
+Χαρίστε το Pro σε έναν φίλο.
+Πιο εύκολο με VoiceOver και φωνή.
+Καθαρό σε σκούρο θέμα με μεγάλο κείμενο.
+Πιο εύκολο αν μπερδεύετε τα χρώματα.
+
+### 앱스토어 (핀란드어)
+
+Lähetä kehittäjälle pieni tippi.
+Anna Pro lahjaksi ystävälle.
+Tuki VoiceOverille ja puheohjaukselle.
+Selkeä isolla tekstillä ja tummana.
+Helpompi, jos värejä on vaikea erottaa.
+
+### 앱스토어 (인도네시아어)
+
+Kirim tip kecil untuk pengembang.
+Hadiahkan Pro untuk teman.
+Mendukung VoiceOver dan Kontrol Suara.
+Jelas dengan teks besar dan mode gelap.
+Lebih mudah jika sulit membedakan warna.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Gi utvikleren litt tips som takk.
+Gi Pro i gave til en venn.
+Bedre med VoiceOver og Talestyring.
+Tydelig med stor tekst og mørk modus.
+Enklere om du blander farger.
+
+### 앱스토어 (네덜란드어)
+
+Geef de ontwikkelaar een kleine fooi.
+Geef Pro cadeau aan een vriend.
+Beter met VoiceOver en Stembediening.
+Helder met grote tekst en donkere modus.
+Makkelijker als je kleuren slecht ziet.
+
+### 앱스토어 (폴란드어)
+
+Wyślij twórcy mały napiwek.
+Podaruj Pro znajomemu.
+Lepiej z VoiceOver i Sterowaniem głosem.
+Lepiej widać duży tekst i tryb ciemny.
+Łatwiej, gdy trudno rozróżnić kolory.
+
+### 앱스토어 (스웨덴어)
+
+Ge utvecklaren lite dricks som tack.
+Ge bort Pro till en vän.
+Bättre med VoiceOver och Röststyrning.
+Tydlig med stor text och mörkt läge.
+Enklare om färger är svåra att skilja.
+
+### 앱스토어 (튀르키예어)
+
+Geliştiriciye küçük bir bahşiş gönderin.
+Pro'yu bir arkadaşınıza hediye edin.
+VoiceOver ve Sesle Denetim ile daha iyi.
+Büyük metin ve koyu modda net görünür.
+Renkleri ayırt etmek zorsa daha kolay.
+
 ## 2.1.1
 
 새 언어 22개(총 24개). 앱 번역 · 스토어 문구 · 웹 페이지 · 스크린샷.
