@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: łagodny dziennik na dni, które nie wyszły",
+  "description": "Gdy nie uda ci się cel, mały kamyk odzywa się pierwszy: co się stało, a potem jak się czujesz. Bez konta i reklam. Trzy cele za darmo.",
+  "hero": {
+    "headline": "Potknięcie to jeszcze nie\nwpadnięcie do strumienia",
+    "lead": "W dniu, gdy nie zrealizujesz celu, kamyk odzywa się pierwszy. Pyta, co się stało, a nie co zrobiłeś źle, i oddaje ci fakty oraz uczucia osobno.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Rozmowy, wpisy i przebyta droga są za darmo. Bez konta i bez reklam."
+  },
+  "demo": {
+    "title": "Porozmawiaj z kamykiem",
+    "lead": "Miałeś dziś wieczorem iść na spacer i nie wyszło. Stuknij odpowiedź albo napisz własną, a kamyk odpowie tak samo jak w aplikacji.",
+    "note": "Ta sama kolejność i te same zdania co w rozmowie w aplikacji. Nic, co tu wpiszesz, nie jest zapisywane.",
+    "send": "Wyślij",
+    "again": "Zacznij od nowa",
+    "goal": "Spacer 30 minut po kolacji",
+    "workedSample": "Przestało padać, więc doszedłem aż nad rzekę. W głowie się rozjaśniło.",
+    "factsSample": "Po nadgodzinach w domu dopiero o 21. Nie było siły na spacer.",
+    "nextSample": "W długie dni choć jedno kółko wokół bloku",
+    "obs": "„%@” – dziś jeszcze nic.",
+    "yes": "Tak, nie udało się tego zrobić",
+    "actually": "Zrobione, tylko niezapisane",
+    "leave": "Na razie wolę zostawić",
+    "facts": "Co się wydarzyło, kiedy w planie było „%@”?",
+    "factsPh": "Krótko też jest dobrze – tylko co się wtedy wydarzyło.",
+    "emotion": "Rozumiem. A jak się teraz czujesz?",
+    "steps": [
+      "Bardzo ciężko",
+      "Przygnębienie",
+      "Tak sobie",
+      "W porządku",
+      "Dobrze"
+    ],
+    "sepOpen": "Tak to rozumiem.",
+    "sepTpl": "%1$@\nWięc wydarzyło się „%2$@”,\na teraz czujesz „%3$@”%4$@.\n\n%5$@",
+    "sepClose": "Po prostu nie poszło po Twojej myśli. To nie Twoja wina.",
+    "ack": "Tak",
+    "smaller": "Jedna rzecz na jutro – co by to było?",
+    "smallerPh": "Im mniejsze, tym lepsze. Nawet pięć minut wystarczy.",
+    "analyticClose": "Zapisane. Jutro tylko tyle.",
+    "gentleClose": "Na dziś wystarczy.\nTeraz odpoczynek jest ważniejszy niż szukanie odpowiedzi.\nZapisane, nie zniknie.",
+    "worked": "Co pomogło?",
+    "workedPh": "Zapiszę to, żeby można było użyć tego ponownie.",
+    "reachedClose": "Zapisane. Kiedy następnym razem będzie trudno, przypomnę Ci to.",
+    "leaveClose": "Dobrze. Jestem tu.",
+    "finish": "Gotowe",
+    "stop": "Wystarczy",
+    "stages": [
+      "Co się wydarzyło",
+      "Uczucia",
+      "Następny krok"
+    ]
+  },
+  "problem": {
+    "title": "Gdy dzień nie idzie zgodnie z planem, obwiniasz siebie?",
+    "text": "Wieczorem po opuszczonym treningu pierwsza myśl to często „co jest ze mną nie tak?”. Gdy przyjrzysz się bliżej, były nadgodziny, padało, byłeś wykończony. ZinggumDol osobno pyta, co się stało i jak się czujesz, i kładzie jedno obok drugiego. Kiedy widzisz, że to były okoliczności, a nie brak silnej woli, łatwiej znaleźć następny mały krok."
+  },
+  "features": [
+    {
+      "title": "Kamyk odzywa się pierwszy",
+      "text": "Ustaw cel, a kamyk będzie śledził dni, kiedy się udało, i dni, kiedy utknąłeś. Gdy dzień się wymknie, zapyta „co się stało?” zamiast „dlaczego nie?”, i pamięta, co mu ostatnio opowiedziałeś.\nGdy pisanie to za dużo, po prostu powiedz to na głos. Mowa jest rozpoznawana na urządzeniu, a nagrania nigdy nie są zapisywane.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Twoje dni jak kamienie w strumieniu",
+      "text": "Każdy tydzień układa się w rząd kamieni. Dni, na które nie stanąłeś, też zostają; nic nie jest kasowane.\nNawet z jedną czy dwiema lukami widzisz, że droga biegnie dalej.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Przeczytaj, co napisałeś",
+      "text": "Co się stało, jak się czułeś i co spróbujesz następnym razem, zbiera się według dat. Przeczytaj dzień, w którym utknąłeś podobnie, a zobaczysz, co pomogło.\nWidżet pokazuje słowo od kamyka na ekranie początkowym, a przypomnienie o wybranej godzinie zaprasza, by spojrzeć wstecz na dzień.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Na start wystarczą trzy kroki",
+    "items": [
+      {
+        "title": "Zapisz jeden cel",
+        "text": "Na przykład „Spacer 30 minut po kolacji”."
+      },
+      {
+        "title": "Otwórz aplikację wieczorem",
+        "text": "Kamyk zapyta, jak minął dzień. Z przypomnieniem nie zapomnisz."
+      },
+      {
+        "title": "Stuknij albo napisz odpowiedź",
+        "text": "W każdej chwili możesz przerwać przyciskiem `Na razie wolę zostawić`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Jak przebiega rozmowa",
+    "rows": [
+      [
+        "Co się wydarzyło",
+        "Tylko fakty: co stanęło na przeszkodzie"
+      ],
+      [
+        "Uczucia",
+        "Jak się teraz czujesz, w skali pięciu stopni"
+      ],
+      [
+        "Spojrzenie wstecz",
+        "Kamyk oddaje ci to, co się stało, i twoje uczucia osobno"
+      ],
+      [
+        "Następny krok",
+        "Sam wybierasz coś małego, wystarczy pięć minut"
+      ],
+      [
+        "Podsumowanie",
+        "W naprawdę ciężki dzień o nic już nie pyta i proponuje odpoczynek"
+      ]
+    ],
+    "note": "Możesz przerwać w dowolnym momencie, a to, co powiedziałeś do tej pory, zostaje zapisane."
+  },
+  "pricing": {
+    "title": "Rozmowy i wpisy są za darmo. Pro, jeśli chcesz więcej.",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Wszystkie rozmowy z kamykiem",
+        "Do trzech celów",
+        "Mówienie zamiast pisania",
+        "Przebyta droga i wszystko, co napisałeś",
+        "Widżet i codzienne przypomnienie",
+        "Blokada kodem"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Tyle celów, ile chcesz",
+        "Sześć wykończeń kamyka do wyboru",
+        "Eksport wpisów do pliku tekstowego"
+      ],
+      "note": "Kupujesz raz i masz na zawsze. To nie subskrypcja."
+    },
+    "note": "W środku rozmowy nigdy nie pojawia się ekran płatności. Na nowym urządzeniu lub po ponownej instalacji stuknij Przywróć zakupy w Ustawieniach."
+  },
+  "faq": {
+    "title": "Częste pytania",
+    "items": [
+      {
+        "q": "Czy muszę tłumaczyć każdy opuszczony dzień?",
+        "a": "Nie. W każdej chwili stuknij `Na razie wolę zostawić`, a rozmowa od razu się kończy. To, co powiedziałeś, zostaje zapisane, więc możesz wrócić później."
+      },
+      {
+        "q": "Zrobiłem to, ale aplikacja twierdzi, że nie.",
+        "a": "Stuknij `Zrobione, tylko niezapisane`. Kamyk przyjmie poprawkę i zapyta, co pomogło. To, co zadziałało, zostaje zapisane i wróci, gdy następnym razem utkniesz."
+      },
+      {
+        "q": "Dokąd trafia to, co mówię na głos?",
+        "a": "Twoja mowa zamienia się w tekst na urządzeniu, a nagranie nigdy nie jest zapisywane. Na obsługiwanych urządzeniach zdania są też wygładzane, by lepiej się czytały, również na urządzeniu."
+      },
+      {
+        "q": "Ile celów mogę mieć?",
+        "a": "Trzy za darmo. Gdy skończysz z którymś, użyj `Odpuść` w Przebytej drodze, by zwolnić miejsce. Na więcej niż trzy potrzebujesz ZinggumDol Pro."
+      },
+      {
+        "q": "Czy ZinggumDol Pro to subskrypcja?",
+        "a": "Nie. Płacisz raz i jest twoje. Na nowym urządzeniu lub po ponownej instalacji stuknij `Przywróć zakupy` w Ustawieniach."
+      },
+      {
+        "q": "Czy ktoś inny może czytać mój dziennik?",
+        "a": "Nie ma konta. Wpisy są tylko na twoim urządzeniu i w twoim własnym iCloud, a w Ustawieniach możesz zablokować aplikację kodem. To, co piszesz, nigdy nie trafia do twórcy. Anonimowe statystyki użycia możesz wyłączyć w Ustawieniach."
+      },
+      {
+        "q": "Jak zmienić godzinę przypomnienia?",
+        "a": "W `Codzienne przypomnienie` w Ustawieniach włączysz je, wyłączysz i wybierzesz godzinę."
+      },
+      {
+        "q": "Czy kamyk przypomina mi też o sukcesach?",
+        "a": "Tak. Pamięta, co ci pomogło, a w trudny dzień przypomina o czymś, co niedawno ci się udało."
+      },
+      {
+        "q": "Jak wszystko usunąć?",
+        "a": "Stuknij `Usuń wszystkie wpisy` w Ustawieniach. Cele i wpisy znikną na zawsze, także na innych urządzeniach połączonych przez iCloud. Ustawienia i zakupy zostają. Z Pro możesz najpierw zachować kopię przez `Eksportuj wpisy`."
+      },
+      {
+        "q": "Jak się z wami skontaktować?",
+        "a": "Przez „Wyślij opinię” w Ustawieniach aplikacji albo mailowo na adres poniżej."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dziś się potknąłeś?\nNastępny kamień wciąż tam jest",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania lub uwagi? Napisz na {email}."
+  }
+}

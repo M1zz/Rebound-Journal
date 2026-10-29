@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: laskavý deník pro dny, které se nepovedly",
+  "description": "Když nesplníte cíl, malý oblázek promluví první: co se stalo a potom jak se cítíte. Bez účtu a bez reklam. Tři cíle zdarma.",
+  "hero": {
+    "headline": "Šlápnout vedle neznamená\nspadnout do potoka",
+    "lead": "Ve dni, kdy cíl nesplníte, promluví oblázek první. Ptá se, co se stalo, ne co jste udělali špatně, a vrátí vám události a pocity každé zvlášť.",
+    "cta": "Stáhnout zdarma z App Storu",
+    "note": "Rozhovory, záznamy i ušlá cesta jsou zdarma. Bez účtu a bez reklam."
+  },
+  "demo": {
+    "title": "Promluvte si s oblázkem",
+    "lead": "Dnes večer jste se chtěli jít projít, ale nevyšlo to. Klepněte na odpověď nebo napište vlastní a oblázek odpoví stejně jako v aplikaci.",
+    "note": "Stejné pořadí i stejné věty jako rozhovor v aplikaci. Nic z toho, co sem napíšete, se neukládá.",
+    "send": "Odeslat",
+    "again": "Začít znovu",
+    "goal": "Projít se 30 minut po večeři",
+    "workedSample": "Přestalo pršet, tak jsem došel až k řece. V hlavě mám jasno.",
+    "factsSample": "Z práce jsem se vrátil až v 9. Na procházku už nebyla síla.",
+    "nextSample": "V dlouhé dny aspoň kolečko kolem bloku",
+    "obs": "„%@“ – dnes zatím nic.",
+    "yes": "Jo, neudělal jsem to",
+    "actually": "Udělané, jen nezapsané",
+    "leave": "Zatím to chci nechat",
+    "facts": "Co se stalo, když jste se chystali na „%@“?",
+    "factsPh": "Stačí stručně – jen to, co se tehdy stalo.",
+    "emotion": "Chápu. A jak se teď cítíte?",
+    "steps": [
+      "Hodně těžké",
+      "Skleslost",
+      "Ušlo to",
+      "V pohodě",
+      "Dobré"
+    ],
+    "sepOpen": "Takhle tomu rozumím.",
+    "sepTpl": "%1$@\nTakže se stalo „%2$@“\na teď se cítíte „%3$@“%4$@.\n\n%5$@",
+    "sepClose": "Jen se to nevyvedlo. Není to vaše chyba.",
+    "ack": "Ano",
+    "smaller": "Kdybyste zítra udělali jen jednu věc, co by to bylo?",
+    "smallerPh": "Čím menší, tím lepší. I pět minut stačí.",
+    "analyticClose": "Zapsáno. Zítra jen tolik.",
+    "gentleClose": "Pro dnešek dost.\nTeď je odpočinek důležitější než hledat odpověď.\nJe to zapsané, nezmizí to.",
+    "worked": "Co pomohlo?",
+    "workedPh": "Zapíšu si to, aby se to dalo příště využít.",
+    "reachedClose": "Zapsáno. Až to příště půjde ztěžka, připomenu vám to.",
+    "leaveClose": "Dobře. Jsem tu.",
+    "finish": "Hotovo",
+    "stop": "Stačí",
+    "stages": [
+      "Co se stalo",
+      "Pocity",
+      "Další krok"
+    ]
+  },
+  "problem": {
+    "title": "Vyčítáte si, když den nevyjde podle plánu?",
+    "text": "Večer po vynechaném tréninku vás nejspíš jako první napadne „co je se mnou špatně?“. Při bližším pohledu ale byly přesčasy, pršelo a byli jste vyčerpaní. ZinggumDol se zvlášť zeptá, co se stalo a jak se cítíte, a položí obojí vedle sebe. Když uvidíte, že to byly okolnosti, a ne vaše vůle, najdete další malý krok snáz."
+  },
+  "features": [
+    {
+      "title": "Oblázek promluví první",
+      "text": "Nastavte si cíl a oblázek bude sledovat dny, kdy se to povedlo, i dny, kdy jste uvízli. Když vám den uteče, zeptá se „co se stalo?“ místo „proč ne?“ a pamatuje si, co jste mu řekli minule.\nKdyž se vám nechce psát, řekněte to nahlas. Řeč se rozpozná přímo v zařízení a nahrávky se nikdy neukládají.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Vaše dny jako kameny přes potok",
+      "text": "Každý týden leží jako řada kamenů. Dny, na které jste nešlápli, tam zůstávají také; nic se nemaže.\nI s mezerou nebo dvěma vidíte, že cesta pokračuje.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Přečtěte si znovu, co jste napsali",
+      "text": "Co se stalo, jak jste se cítili a co zkusíte příště, se řadí podle data. Přečtěte si den, kdy jste uvízli podobně, a uvidíte, co pomohlo.\nWidget ukáže slovo od oblázku na ploše a připomínka ve zvolený čas vás pozve ohlédnout se za dnem.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Začátek ve třech krocích",
+    "items": [
+      {
+        "title": "Zapište jeden cíl",
+        "text": "Třeba „Projít se 30 minut po večeři“."
+      },
+      {
+        "title": "Večer otevřete aplikaci",
+        "text": "Oblázek se zeptá, jaký byl den. S připomínkou nezapomenete."
+      },
+      {
+        "title": "Klepněte nebo napište odpověď",
+        "text": "Kdykoli můžete skončit volbou `Zatím to chci nechat`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Jak rozhovor probíhá",
+    "rows": [
+      [
+        "Co se stalo",
+        "Jen fakta: co vám vstoupilo do cesty"
+      ],
+      [
+        "Pocity",
+        "Jak se teď cítíte, na stupnici o pěti stupních"
+      ],
+      [
+        "Ohlédnutí",
+        "Oblázek vám vrátí, co se stalo, a pocity zvlášť"
+      ],
+      [
+        "Další krok",
+        "Sami si vyberete něco malého, stačí pět minut"
+      ],
+      [
+        "Shrnutí",
+        "Ve opravdu těžký den se už na nic neptá a navrhne odpočinek"
+      ]
+    ],
+    "note": "Skončit můžete kdykoli a to, co jste do té doby řekli, zůstane uložené."
+  },
+  "pricing": {
+    "title": "Rozhovory a záznamy jsou zdarma. Pro, když chcete víc.",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Všechny rozhovory s oblázkem",
+        "Až tři cíle",
+        "Mluvit místo psaní",
+        "Ušlá cesta a vše, co jste napsali",
+        "Widget a denní upozornění",
+        "Zámek kódem"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Tolik cílů, kolik chcete",
+        "Výběr ze šesti povrchů oblázku",
+        "Export záznamů do textového souboru"
+      ],
+      "note": "Koupíte jednou a máte navždy. Nejde o předplatné."
+    },
+    "note": "Uprostřed rozhovoru se nikdy neobjeví platební obrazovka. Na novém zařízení nebo po přeinstalaci klepněte v Nastavení na Obnovit nákupy."
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "q": "Musím vysvětlovat každý vynechaný den?",
+        "a": "Ne. Kdykoli klepněte na `Zatím to chci nechat` a rozhovor hned skončí. Co jste řekli, zůstane uložené, takže můžete pokračovat později."
+      },
+      {
+        "q": "Udělal(a) jsem to, ale aplikace tvrdí opak.",
+        "a": "Klepněte na `Udělané, jen nezapsané`. Oblázek opravu přijme a místo toho se zeptá, co pomohlo. Co fungovalo, si uloží a připomene vám to, až příště uvíznete."
+      },
+      {
+        "q": "Kam jde to, co řeknu nahlas?",
+        "a": "Vaše řeč se převede na text přímo v zařízení a nahrávka se nikdy neukládá. Na podporovaných zařízeních se věty navíc uhladí, aby se lépe četly, i to v zařízení."
+      },
+      {
+        "q": "Kolik cílů můžu mít?",
+        "a": "Tři zdarma. Když s nějakým skončíte, uvolněte místo volbou `Pustit` v Ušlé cestě. Pro víc než tři potřebujete ZinggumDol Pro."
+      },
+      {
+        "q": "Je ZinggumDol Pro předplatné?",
+        "a": "Ne. Zaplatíte jednou a je vaše. Na novém zařízení nebo po přeinstalaci klepněte v Nastavení na `Obnovit nákupy`."
+      },
+      {
+        "q": "Může můj deník číst někdo jiný?",
+        "a": "Žádný účet neexistuje. Záznamy jsou jen ve vašem zařízení a ve vašem vlastním iCloudu a v Nastavení můžete aplikaci zamknout kódem. Co napíšete, se nikdy neposílá vývojáři. Anonymní statistiky používání můžete v Nastavení vypnout."
+      },
+      {
+        "q": "Jak změním čas upozornění?",
+        "a": "V `Denní upozornění` v Nastavení ho zapnete či vypnete a zvolíte čas."
+      },
+      {
+        "q": "Připomíná mi oblázek i to, co se povedlo?",
+        "a": "Ano. Pamatuje si, co vám pomohlo, a v těžký den vám připomene něco, co se vám nedávno podařilo."
+      },
+      {
+        "q": "Jak všechno smažu?",
+        "a": "V Nastavení klepněte na `Smazat všechny záznamy`. Cíle a záznamy zmizí natrvalo, i na dalších zařízeních propojených přes iCloud. Nastavení a nákupy zůstanou. S Pro si můžete předtím uložit kopii volbou `Exportovat záznamy`."
+      },
+      {
+        "q": "Jak vás kontaktovat?",
+        "a": "Přes „Odeslat zpětnou vazbu“ v Nastavení aplikace nebo e-mailem na adresu níže."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dnes jste šlápli vedle?\nDalší kámen tam pořád je",
+    "cta": "Stáhnout zdarma z App Storu"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany osobních údajů",
+    "contact": "Dotazy nebo připomínky? Napište na {email}."
+  }
+}

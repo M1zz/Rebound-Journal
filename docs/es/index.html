@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — un diario amable para los días que no salieron como querías</title>
-<meta name="description" content="Dar un mal paso no es caer al arroyo. ZinggumDol es un diario donde repasas los días que no salieron como querías charlando con un guijarro. Ayuda y contacto." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: un diario amable para los días que se tuercen</title>
+  <meta name="description" content="Cuando fallas un objetivo, un guijarro te habla primero: qué pasó y luego cómo te sientes. Sin registro ni anuncios. Tres objetivos gratis.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: un diario amable para los días que se tuercen">
+  <meta property="og:description" content="Cuando fallas un objetivo, un guijarro te habla primero: qué pasó y luego cómo te sientes. Sin registro ni anuncios. Tres objetivos gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/es/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/es/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="bar">
+    <a class="brand" href="../es/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Idioma</a>
+  </header>
 
-  <nav class="langs" aria-label="Idioma">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="./" hreflang="es" lang="es" aria-current="true">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Dar un traspié<br>no es caerse al río</h1>
+        <p class="lead">El día que no cumples tu objetivo, el guijarro te habla primero. Te pregunta qué pasó, no qué hiciste mal, y te devuelve los hechos y lo que sientes por separado.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Descárgala gratis en el App Store</a><a class="try" href="#try">Habla con el guijarro ↓</a></div>
+        <p class="muted small">Hablar, escribir y ver tu camino es gratis. Sin registro ni anuncios.</p>
+      </div>
+      <div class="phone"><img src="../img/es/01-home.jpg" alt="Dar un traspié no es caerse al río" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Páginas">
-    <a href="./" aria-current="page">Información y ayuda</a>
-    <a href="./privacy.html">Política de privacidad</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Icono de la app ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Dar un mal paso no es caer al arroyo.<br />Un diario amable para los días que no salieron como querías, en charla con un guijarro.</p>
+    <section class="reveal" id="try">
+      <h2>Habla con el guijarro</h2>
+      <p class="muted">Hoy ibas a salir a caminar por la tarde y no lo hiciste. Elige una respuesta o escribe la tuya, y el guijarro contesta igual que en la app.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Habla con el guijarro&quot;, &quot;lead&quot;: &quot;Hoy ibas a salir a caminar por la tarde y no lo hiciste. Elige una respuesta o escribe la tuya, y el guijarro contesta igual que en la app.&quot;, &quot;note&quot;: &quot;Mismo orden y mismas frases que la conversación de la app. Nada de lo que escribas aquí se guarda.&quot;, &quot;send&quot;: &quot;Enviar&quot;, &quot;again&quot;: &quot;Empezar de nuevo&quot;, &quot;goal&quot;: &quot;Caminar 30 minutos después de cenar&quot;, &quot;workedSample&quot;: &quot;Dejó de llover y caminé hasta el río. Tengo la cabeza despejada.&quot;, &quot;factsSample&quot;: &quot;Llegué a casa a las 9 tras trabajar hasta tarde. Sin energía para caminar.&quot;, &quot;nextSample&quot;: &quot;Los días largos, solo una vuelta a la manzana&quot;, &quot;obs&quot;: &quot;«%@»: hoy todavía no.&quot;, &quot;yes&quot;: &quot;Sí, no lo hice&quot;, &quot;actually&quot;: &quot;Lo hice, solo que no lo anoté&quot;, &quot;leave&quot;: &quot;Prefiero dejarlo por ahora&quot;, &quot;facts&quot;: &quot;Cuando ibas a hacer «%@», ¿qué pasó?&quot;, &quot;factsPh&quot;: &quot;Con poco basta: solo lo que pasó entonces.&quot;, &quot;emotion&quot;: &quot;Ya veo. ¿Y cómo te sientes ahora?&quot;, &quot;steps&quot;: [&quot;Muy difícil&quot;, &quot;Bajón&quot;, &quot;Regular&quot;, &quot;Bien&quot;, &quot;Bien&quot;], &quot;sepOpen&quot;: &quot;Esto es lo que entiendo.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nAsí que pasó «%2$@»,\ny ahora mismo te sientes «%3$@».%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Las cosas no salieron como querías. No es culpa tuya.&quot;, &quot;ack&quot;: &quot;Sí&quot;, &quot;smaller&quot;: &quot;Si mañana hicieras una sola cosa, ¿cuál sería?&quot;, &quot;smallerPh&quot;: &quot;Cuanto más pequeño, mejor. Incluso cinco minutos valen.&quot;, &quot;analyticClose&quot;: &quot;Anotado. Mañana, solo hasta aquí.&quot;, &quot;gentleClose&quot;: &quot;Dejémoslo aquí por hoy.\nAhora es mejor descansar que buscar una respuesta.\nYa quedó anotado, no se pierde.&quot;, &quot;worked&quot;: &quot;¿Qué te ayudó?&quot;, &quot;workedPh&quot;: &quot;Lo anoto para poder usarlo otra vez.&quot;, &quot;reachedClose&quot;: &quot;Anotado. La próxima vez que se ponga difícil, te lo recordaré.&quot;, &quot;leaveClose&quot;: &quot;Vale. Aquí estaré.&quot;, &quot;finish&quot;: &quot;Listo&quot;, &quot;stop&quot;: &quot;Parar&quot;, &quot;stages&quot;: [&quot;Lo que pasó&quot;, &quot;Cómo te sientes&quot;, &quot;Siguiente paso&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Descárgala en el App Store</a>
+    <section class="problem reveal">
+      <h2>Cuando un día no sale como querías, ¿te echas la culpa?</h2>
+      <p>La noche que te saltas el entrenamiento, lo primero que piensas suele ser «¿qué me pasa?». Si lo miras con calma, hubo horas extra, llovió, estabas agotado. ZinggumDol te pregunta qué pasó y cómo te sientes en turnos distintos, y pone las dos cosas una al lado de la otra. Cuando ves que fueron las circunstancias y no tu fuerza de voluntad, es más fácil encontrar el siguiente paso pequeño.</p>
+    </section>
 
-  <h2>Qué hace</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Charla con un guijarro</h3>
-      <p>El guijarro habla primero. Recuerda lo que le contaste la última vez y te pregunta qué pasó después. Elige una respuesta o escribe la tuya.</p>
-    </div>
-    <div class="card">
-      <h3>Dilo en voz alta</h3>
-      <p>En los días en que escribir pesa, basta con hablar. La voz se reconoce en tu dispositivo y, en los dispositivos compatibles, lo que dices se ordena para que se lea mejor.</p>
-    </div>
-    <div class="card">
-      <h3>Camino recorrido</h3>
-      <p>Cada semana se coloca como una hilera de piedras para cruzar el arroyo. Los días en que no pisaste siguen ahí; no se borra nada.</p>
-    </div>
-    <div class="card">
-      <h3>Lo que dejaste</h3>
-      <p>Revisa por fecha lo que pasó, cómo te sentías y lo que querías probar después.</p>
-    </div>
-    <div class="card">
-      <h3>Widget y avisos</h3>
-      <p>Una frase del guijarro en la pantalla de inicio y un aviso suave a la hora que elijas para ver juntos cómo te fue el día.</p>
-    </div>
-    <div class="card">
-      <h3>Solo tuyo</h3>
-      <p>Sin registro. Tus registros se guardan solo en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>El guijarro habla primero</h2>
+        <p>Ponte un objetivo y el guijarro estará pendiente de los días que lo lograste y de los que te atascaste. Cuando se te escapa un día, pregunta «¿qué pasó?» en lugar de «¿por qué no?», y recuerda lo que le contaste la última vez.<br>Los días en que escribir se hace cuesta arriba, dilo en voz alta. La voz se reconoce en tu dispositivo y las grabaciones no se guardan nunca.</p>
+      </div>
+      <div class="phone"><img src="../img/es/02-conversation.jpg" alt="El guijarro habla primero" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Pantallas</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="El guijarro te saluda primero" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Una charla que sigue donde la dejaste" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="La semana en forma de piedras" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Tus notas por fecha" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tus días, como piedras para cruzar el río</h2>
+        <p>Cada semana se extiende como una fila de piedras. Los días que no pisaste también se quedan ahí; no se borra nada.<br>Aunque haya un hueco o dos, ves que el camino sigue.</p>
+      </div>
+      <div class="phone"><img src="../img/es/03-path.jpg" alt="Tus días, como piedras para cruzar el río" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Compra única, sin suscripción. Mantén más de tres metas, elige entre seis acabados de guijarro y exporta tus registros a un archivo de texto.</p>
-  <p>En un dispositivo nuevo o tras reinstalar, toca Ajustes ▸ Restaurar compras.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vuelve a leer lo que escribiste</h2>
+        <p>Lo que pasó, cómo te sentiste y qué vas a probar después se van guardando por fecha. Relee un día en que te atascaste igual y verás qué funcionó.<br>Un widget te muestra una frase del guijarro en la pantalla de inicio, y un aviso a la hora que elijas te invita a repasar el día.</p>
+      </div>
+      <div class="phone"><img src="../img/es/04-records.jpg" alt="Vuelve a leer lo que escribiste" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Contacto</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />También puedes usar Ajustes ▸ Escribir al desarrollador dentro de la app.</p>
-  </div>
+    <section class="reveal">
+      <h2>Empezar lleva tres pasos</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Escribe un objetivo</h3><p>Algo como «Caminar 30 minutos después de cenar».</p></li>
+<li class="card"><span class="n">2</span><h3>Abre la app al acabar el día</h3><p>El guijarro te pregunta qué tal te fue. Con un aviso diario no se te olvida.</p></li>
+<li class="card"><span class="n">3</span><h3>Toca o escribe tu respuesta</h3><p>Puedes parar cuando quieras con <code>Prefiero dejarlo por ahora</code>.</p></li></ol>
+    </section>
 
-  <h2>Privacidad</h2>
-  <p>ZinggumDol nunca envía al desarrollador lo que escribes. Consulta los detalles en la <a href="./privacy.html">política de privacidad</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>Así va una conversación</h2>
+      <div class="card table">
+        <dl><div><dt>Lo que pasó</dt><dd>Solo los hechos: qué se interpuso</dd></div><div><dt>Cómo te sientes</dt><dd>Cómo te sientes ahora, en una escala de cinco</dd></div><div><dt>Mirar atrás</dt><dd>El guijarro te devuelve lo que pasó y lo que sientes, por separado</dd></div><div><dt>Siguiente paso</dt><dd>Tú eliges algo pequeño; con cinco minutos basta</dd></div><div><dt>Cierre</dt><dd>En un día muy bajo no pregunta nada más y te propone descansar</dd></div></dl>
+      </div>
+      <p class="muted">Puedes salir en cualquier momento y lo que hayas dicho hasta entonces se guarda.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Política de privacidad</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Hablar y escribir es gratis. Pro, si quieres más.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Todas las conversaciones con el guijarro</li><li>Hasta tres objetivos</li><li>Hablar en lugar de escribir</li><li>Tu camino y todo lo que has escrito</li><li>Widget y aviso diario</li><li>Bloqueo con código</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Todos los objetivos que quieras</li><li>Seis acabados de guijarro para elegir</li><li>Exportar tus registros como archivo de texto</li></ul>
+          <p class="muted">Se compra una vez y es para siempre. No es una suscripción.</p>
+        </div>
+      </div>
+      <p class="muted">Nunca aparece una pantalla de pago en mitad de una conversación. En un dispositivo nuevo o tras reinstalar, toca Restaurar compras en Ajustes.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq"><details><summary>¿Tengo que explicar cada día que fallo?</summary><p>No. Toca <code>Prefiero dejarlo por ahora</code> en cualquier momento y la conversación termina ahí. Lo que hayas dicho se guarda para que puedas retomarlo luego.</p></details>
+<details><summary>Lo hice, pero la app dice que no.</summary><p>Toca <code>Lo hice, solo que no lo anoté</code>. El guijarro acepta la corrección y te pregunta qué te ayudó. Lo que funcionó queda guardado y te lo recordará la próxima vez que te atasques.</p></details>
+<details><summary>¿Adónde va lo que digo en voz alta?</summary><p>Tu voz se convierte en texto en el propio dispositivo y la grabación no se guarda nunca. En los dispositivos compatibles, además, tus frases se pulen para que se lean mejor, también en el dispositivo.</p></details>
+<details><summary>¿Cuántos objetivos puedo tener?</summary><p>Tres gratis. Cuando termines con uno, usa <code>Soltar</code> en Camino recorrido para dejar un hueco libre. Para más de tres necesitas ZinggumDol Pro.</p></details>
+<details><summary>¿ZinggumDol Pro es una suscripción?</summary><p>No. Pagas una vez y es tuyo. En un dispositivo nuevo o tras reinstalar, toca <code>Restaurar compras</code> en Ajustes.</p></details>
+<details><summary>¿Alguien más puede leer mi diario?</summary><p>No hay cuenta. Tus registros solo están en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código en Ajustes. Lo que escribes nunca se envía al desarrollador. También puedes desactivar las estadísticas de uso anónimas en Ajustes.</p></details>
+<details><summary>¿Cómo cambio la hora del aviso?</summary><p>En <code>Aviso diario</code>, dentro de Ajustes, lo activas o desactivas y eliges la hora.</p></details>
+<details><summary>¿El guijarro me recuerda lo que he logrado?</summary><p>Sí. Recuerda lo que te funcionó y, en un día difícil, te trae a la memoria algo que conseguiste hace poco.</p></details>
+<details><summary>¿Cómo lo borro todo?</summary><p>Toca <code>Borrar todos los registros</code> en Ajustes. Tus objetivos y registros desaparecen para siempre, también en otros dispositivos sincronizados con iCloud. Los ajustes y las compras se mantienen. Con Pro puedes guardar antes una copia con <code>Exportar registros</code>.</p></details>
+<details><summary>¿Cómo me pongo en contacto?</summary><p>Desde «Enviar comentarios» en los Ajustes de la app, o por correo a la dirección de abajo.</p></details></div>
+      <p class="contact">¿Dudas o comentarios? Escribe a <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>¿Un traspié hoy?<br>La siguiente piedra sigue ahí</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Descárgala gratis en el App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Idioma"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es" aria-current="page">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Política de privacidad</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

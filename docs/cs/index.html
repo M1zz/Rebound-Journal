@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — laskavý deník pro dny, které nedopadly podle plánu</title>
-<meta name="description" content="Klopýtnutí neznamená, že jste spadli do potoka. ZinggumDol je deník, ve kterém se v rozhovoru s malým oblázkem ohlížíte za dny, které nedopadly podle plánu. Podpora a kontakt." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: laskavý deník pro dny, které se nepovedly</title>
+  <meta name="description" content="Když nesplníte cíl, malý oblázek promluví první: co se stalo a potom jak se cítíte. Bez účtu a bez reklam. Tři cíle zdarma.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: laskavý deník pro dny, které se nepovedly">
+  <meta property="og:description" content="Když nesplníte cíl, malý oblázek promluví první: co se stalo a potom jak se cítíte. Bez účtu a bez reklam. Tři cíle zdarma.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/cs/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/cs/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Přejít na obsah</a>
+  <header class="bar">
+    <a class="brand" href="../cs/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Jazyk</a>
+  </header>
 
-  <nav class="langs" aria-label="Jazyk">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="./" hreflang="cs" lang="cs" aria-current="true">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Šlápnout vedle neznamená<br>spadnout do potoka</h1>
+        <p class="lead">Ve dni, kdy cíl nesplníte, promluví oblázek první. Ptá se, co se stalo, ne co jste udělali špatně, a vrátí vám události a pocity každé zvlášť.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Stáhnout zdarma z App Storu</a><a class="try" href="#try">Promluvte si s oblázkem ↓</a></div>
+        <p class="muted small">Rozhovory, záznamy i ušlá cesta jsou zdarma. Bez účtu a bez reklam.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/01-home.jpg" alt="Šlápnout vedle neznamená spadnout do potoka" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Stránky">
-    <a href="./" aria-current="page">O aplikaci a podpora</a>
-    <a href="./privacy.html">Zásady ochrany soukromí</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Ikona aplikace ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Klopýtnutí neznamená, že jste spadli do potoka.<br />Laskavý deník pro dny, které nedopadly podle plánu, v rozhovoru s malým oblázkem.</p>
+    <section class="reveal" id="try">
+      <h2>Promluvte si s oblázkem</h2>
+      <p class="muted">Dnes večer jste se chtěli jít projít, ale nevyšlo to. Klepněte na odpověď nebo napište vlastní a oblázek odpoví stejně jako v aplikaci.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Promluvte si s oblázkem&quot;, &quot;lead&quot;: &quot;Dnes večer jste se chtěli jít projít, ale nevyšlo to. Klepněte na odpověď nebo napište vlastní a oblázek odpoví stejně jako v aplikaci.&quot;, &quot;note&quot;: &quot;Stejné pořadí i stejné věty jako rozhovor v aplikaci. Nic z toho, co sem napíšete, se neukládá.&quot;, &quot;send&quot;: &quot;Odeslat&quot;, &quot;again&quot;: &quot;Začít znovu&quot;, &quot;goal&quot;: &quot;Projít se 30 minut po večeři&quot;, &quot;workedSample&quot;: &quot;Přestalo pršet, tak jsem došel až k řece. V hlavě mám jasno.&quot;, &quot;factsSample&quot;: &quot;Z práce jsem se vrátil až v 9. Na procházku už nebyla síla.&quot;, &quot;nextSample&quot;: &quot;V dlouhé dny aspoň kolečko kolem bloku&quot;, &quot;obs&quot;: &quot;„%@“ – dnes zatím nic.&quot;, &quot;yes&quot;: &quot;Jo, neudělal jsem to&quot;, &quot;actually&quot;: &quot;Udělané, jen nezapsané&quot;, &quot;leave&quot;: &quot;Zatím to chci nechat&quot;, &quot;facts&quot;: &quot;Co se stalo, když jste se chystali na „%@“?&quot;, &quot;factsPh&quot;: &quot;Stačí stručně – jen to, co se tehdy stalo.&quot;, &quot;emotion&quot;: &quot;Chápu. A jak se teď cítíte?&quot;, &quot;steps&quot;: [&quot;Hodně těžké&quot;, &quot;Skleslost&quot;, &quot;Ušlo to&quot;, &quot;V pohodě&quot;, &quot;Dobré&quot;], &quot;sepOpen&quot;: &quot;Takhle tomu rozumím.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nTakže se stalo „%2$@“\na teď se cítíte „%3$@“%4$@.\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Jen se to nevyvedlo. Není to vaše chyba.&quot;, &quot;ack&quot;: &quot;Ano&quot;, &quot;smaller&quot;: &quot;Kdybyste zítra udělali jen jednu věc, co by to bylo?&quot;, &quot;smallerPh&quot;: &quot;Čím menší, tím lepší. I pět minut stačí.&quot;, &quot;analyticClose&quot;: &quot;Zapsáno. Zítra jen tolik.&quot;, &quot;gentleClose&quot;: &quot;Pro dnešek dost.\nTeď je odpočinek důležitější než hledat odpověď.\nJe to zapsané, nezmizí to.&quot;, &quot;worked&quot;: &quot;Co pomohlo?&quot;, &quot;workedPh&quot;: &quot;Zapíšu si to, aby se to dalo příště využít.&quot;, &quot;reachedClose&quot;: &quot;Zapsáno. Až to příště půjde ztěžka, připomenu vám to.&quot;, &quot;leaveClose&quot;: &quot;Dobře. Jsem tu.&quot;, &quot;finish&quot;: &quot;Hotovo&quot;, &quot;stop&quot;: &quot;Stačí&quot;, &quot;stages&quot;: [&quot;Co se stalo&quot;, &quot;Pocity&quot;, &quot;Další krok&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Stáhnout z App Store</a>
+    <section class="problem reveal">
+      <h2>Vyčítáte si, když den nevyjde podle plánu?</h2>
+      <p>Večer po vynechaném tréninku vás nejspíš jako první napadne „co je se mnou špatně?“. Při bližším pohledu ale byly přesčasy, pršelo a byli jste vyčerpaní. ZinggumDol se zvlášť zeptá, co se stalo a jak se cítíte, a položí obojí vedle sebe. Když uvidíte, že to byly okolnosti, a ne vaše vůle, najdete další malý krok snáz.</p>
+    </section>
 
-  <h2>Co umí</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Povídání s oblázkem</h3>
-      <p>Oblázek promluví první. Pamatuje si, co jste mu řekli minule, a zeptá se, jak to bylo potom. Vyberte odpověď, nebo napište vlastní.</p>
-    </div>
-    <div class="card">
-      <h3>Řekněte to nahlas</h3>
-      <p>V dnech, kdy je psaní příliš, stačí mluvit. Řeč se rozpoznává na vašem zařízení a na podporovaných zařízeních se řečené upraví, aby se dobře četlo.</p>
-    </div>
-    <div class="card">
-      <h3>Ušlá cesta</h3>
-      <p>Každý týden se seřadí jako řada kamenů přes potok. Dny, na které jste nešlápli, zůstávají na svém místě – nic se nemaže.</p>
-    </div>
-    <div class="card">
-      <h3>Co jste zanechali</h3>
-      <p>Prohlížejte si podle data, co se stalo, jak vám bylo a co jste chtěli zkusit dál.</p>
-    </div>
-    <div class="card">
-      <h3>Widget a upozornění</h3>
-      <p>Věta od oblázku na ploše a jemné upozornění v čas, který si vyberete, abyste se spolu podívali, jaký byl den.</p>
-    </div>
-    <div class="card">
-      <h3>Jen pro vás</h3>
-      <p>Bez registrace. Záznamy zůstávají jen ve vašem zařízení a ve vašem vlastním iCloudu a aplikaci můžete zamknout kódem.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Oblázek promluví první</h2>
+        <p>Nastavte si cíl a oblázek bude sledovat dny, kdy se to povedlo, i dny, kdy jste uvízli. Když vám den uteče, zeptá se „co se stalo?“ místo „proč ne?“ a pamatuje si, co jste mu řekli minule.<br>Když se vám nechce psát, řekněte to nahlas. Řeč se rozpozná přímo v zařízení a nahrávky se nikdy neukládají.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/02-conversation.jpg" alt="Oblázek promluví první" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Obrazovky</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Oblázek vás pozdraví první" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Rozhovor, který navazuje na minulý záznam" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="Týden jako řada kamenů" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Vaše poznámky podle data" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vaše dny jako kameny přes potok</h2>
+        <p>Každý týden leží jako řada kamenů. Dny, na které jste nešlápli, tam zůstávají také; nic se nemaže.<br>I s mezerou nebo dvěma vidíte, že cesta pokračuje.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/03-path.jpg" alt="Vaše dny jako kameny přes potok" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Jednorázový nákup, žádné předplatné. Mějte více než tři cíle, vybírejte z šesti povrchů oblázku a exportujte záznamy do textového souboru.</p>
-  <p>Na novém zařízení nebo po přeinstalaci klepněte na Nastavení ▸ Obnovit nákupy.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Přečtěte si znovu, co jste napsali</h2>
+        <p>Co se stalo, jak jste se cítili a co zkusíte příště, se řadí podle data. Přečtěte si den, kdy jste uvízli podobně, a uvidíte, co pomohlo.<br>Widget ukáže slovo od oblázku na ploše a připomínka ve zvolený čas vás pozve ohlédnout se za dnem.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/04-records.jpg" alt="Přečtěte si znovu, co jste napsali" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Můžete také použít Nastavení ▸ Napsat vývojáři přímo v aplikaci.</p>
-  </div>
+    <section class="reveal">
+      <h2>Začátek ve třech krocích</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Zapište jeden cíl</h3><p>Třeba „Projít se 30 minut po večeři“.</p></li>
+<li class="card"><span class="n">2</span><h3>Večer otevřete aplikaci</h3><p>Oblázek se zeptá, jaký byl den. S připomínkou nezapomenete.</p></li>
+<li class="card"><span class="n">3</span><h3>Klepněte nebo napište odpověď</h3><p>Kdykoli můžete skončit volbou <code>Zatím to chci nechat</code>.</p></li></ol>
+    </section>
 
-  <h2>Soukromí</h2>
-  <p>ZinggumDol nikdy neposílá vývojáři to, co píšete. Podrobnosti najdete v <a href="./privacy.html">zásadách ochrany soukromí</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>Jak rozhovor probíhá</h2>
+      <div class="card table">
+        <dl><div><dt>Co se stalo</dt><dd>Jen fakta: co vám vstoupilo do cesty</dd></div><div><dt>Pocity</dt><dd>Jak se teď cítíte, na stupnici o pěti stupních</dd></div><div><dt>Ohlédnutí</dt><dd>Oblázek vám vrátí, co se stalo, a pocity zvlášť</dd></div><div><dt>Další krok</dt><dd>Sami si vyberete něco malého, stačí pět minut</dd></div><div><dt>Shrnutí</dt><dd>Ve opravdu těžký den se už na nic neptá a navrhne odpočinek</dd></div></dl>
+      </div>
+      <p class="muted">Skončit můžete kdykoli a to, co jste do té doby řekli, zůstane uložené.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Zásady ochrany soukromí</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Rozhovory a záznamy jsou zdarma. Pro, když chcete víc.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Zdarma</h3>
+          <ul><li>Všechny rozhovory s oblázkem</li><li>Až tři cíle</li><li>Mluvit místo psaní</li><li>Ušlá cesta a vše, co jste napsali</li><li>Widget a denní upozornění</li><li>Zámek kódem</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Tolik cílů, kolik chcete</li><li>Výběr ze šesti povrchů oblázku</li><li>Export záznamů do textového souboru</li></ul>
+          <p class="muted">Koupíte jednou a máte navždy. Nejde o předplatné.</p>
+        </div>
+      </div>
+      <p class="muted">Uprostřed rozhovoru se nikdy neobjeví platební obrazovka. Na novém zařízení nebo po přeinstalaci klepněte v Nastavení na Obnovit nákupy.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Časté dotazy</h2>
+      <div class="faq"><details><summary>Musím vysvětlovat každý vynechaný den?</summary><p>Ne. Kdykoli klepněte na <code>Zatím to chci nechat</code> a rozhovor hned skončí. Co jste řekli, zůstane uložené, takže můžete pokračovat později.</p></details>
+<details><summary>Udělal(a) jsem to, ale aplikace tvrdí opak.</summary><p>Klepněte na <code>Udělané, jen nezapsané</code>. Oblázek opravu přijme a místo toho se zeptá, co pomohlo. Co fungovalo, si uloží a připomene vám to, až příště uvíznete.</p></details>
+<details><summary>Kam jde to, co řeknu nahlas?</summary><p>Vaše řeč se převede na text přímo v zařízení a nahrávka se nikdy neukládá. Na podporovaných zařízeních se věty navíc uhladí, aby se lépe četly, i to v zařízení.</p></details>
+<details><summary>Kolik cílů můžu mít?</summary><p>Tři zdarma. Když s nějakým skončíte, uvolněte místo volbou <code>Pustit</code> v Ušlé cestě. Pro víc než tři potřebujete ZinggumDol Pro.</p></details>
+<details><summary>Je ZinggumDol Pro předplatné?</summary><p>Ne. Zaplatíte jednou a je vaše. Na novém zařízení nebo po přeinstalaci klepněte v Nastavení na <code>Obnovit nákupy</code>.</p></details>
+<details><summary>Může můj deník číst někdo jiný?</summary><p>Žádný účet neexistuje. Záznamy jsou jen ve vašem zařízení a ve vašem vlastním iCloudu a v Nastavení můžete aplikaci zamknout kódem. Co napíšete, se nikdy neposílá vývojáři. Anonymní statistiky používání můžete v Nastavení vypnout.</p></details>
+<details><summary>Jak změním čas upozornění?</summary><p>V <code>Denní upozornění</code> v Nastavení ho zapnete či vypnete a zvolíte čas.</p></details>
+<details><summary>Připomíná mi oblázek i to, co se povedlo?</summary><p>Ano. Pamatuje si, co vám pomohlo, a v těžký den vám připomene něco, co se vám nedávno podařilo.</p></details>
+<details><summary>Jak všechno smažu?</summary><p>V Nastavení klepněte na <code>Smazat všechny záznamy</code>. Cíle a záznamy zmizí natrvalo, i na dalších zařízeních propojených přes iCloud. Nastavení a nákupy zůstanou. S Pro si můžete předtím uložit kopii volbou <code>Exportovat záznamy</code>.</p></details>
+<details><summary>Jak vás kontaktovat?</summary><p>Přes „Odeslat zpětnou vazbu“ v Nastavení aplikace nebo e-mailem na adresu níže.</p></details></div>
+      <p class="contact">Dotazy nebo připomínky? Napište na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Dnes jste šlápli vedle?<br>Další kámen tam pořád je</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Stáhnout zdarma z App Storu</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Jazyk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs" aria-current="page">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Zásady ochrany osobních údajů</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

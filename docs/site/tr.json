@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: planlandığı gibi gitmeyen günler için nazik bir günlük",
+  "description": "Bir hedefi kaçırdığınızda küçük bir taş önce konuşur: ne olduğunu, sonra nasıl hissettiğinizi sorar. Üyelik yok, reklam yok. Üç hedef ücretsiz.",
+  "hero": {
+    "headline": "Ayağınızın kayması\nderede olduğunuz anlamına gelmez",
+    "lead": "Hedefinizi kaçırdığınız gün taş önce konuşur. Neyi yanlış yaptığınızı değil, ne olduğunu sorar; yaşananları ve duygularınızı ayrı ayrı size geri verir.",
+    "cta": "App Store'dan ücretsiz indirin",
+    "note": "Sohbetler, notlar ve kat ettiğiniz yol ücretsiz. Üyelik yok, reklam yok."
+  },
+  "demo": {
+    "title": "Taşla konuşun",
+    "lead": "Bu akşam yürüyüşe çıkacaktınız ama olmadı. Bir cevaba dokunun ya da kendiniz yazın; taş, uygulamadaki gibi cevap verir.",
+    "note": "Uygulamadaki sohbetle aynı sıra, aynı cümleler. Buraya yazdıklarınız hiçbir yere kaydedilmez.",
+    "send": "Gönder",
+    "again": "Baştan başla",
+    "goal": "Akşam yemeğinden sonra 30 dakika yürü",
+    "workedSample": "Yağmur dindi, ben de nehre kadar yürüdüm. Kafam berraklaştı.",
+    "factsSample": "Mesaiden sonra eve ancak 9'da geldim. Yürüyecek halim kalmadı.",
+    "nextSample": "Geç kalınan günlerde mahallede bir tur yeter",
+    "obs": "“%@” – bugün henüz bir şey yok.",
+    "yes": "Evet, yapmadım",
+    "actually": "Yaptım ama kaydedemedim",
+    "leave": "Şimdilik böyle bırakmak istiyorum",
+    "facts": "“%@” yapmaya niyetlendiğinizde ne oldu?",
+    "factsPh": "Kısa olsun yeter; sadece o zaman ne olduğunu yazın.",
+    "emotion": "Anlıyorum. Peki şimdi nasıl hissediyorsunuz?",
+    "steps": [
+      "Çok zor",
+      "Biraz çökkün",
+      "İdare eder",
+      "İyi",
+      "İyi"
+    ],
+    "sepOpen": "Anladığım kadarıyla şöyle.",
+    "sepTpl": "%1$@\nDemek “%2$@” oldu\nve şu an “%3$@”%4$@ hissediyorsunuz.\n\n%5$@",
+    "sepClose": "İşler yolunda gitmedi, o kadar. Sizin hatanız değil.",
+    "ack": "Evet",
+    "smaller": "Yarın tek bir şey yapacak olsanız, ne yapardınız?",
+    "smallerPh": "Ne kadar küçükse o kadar iyi. Beş dakika bile yeter.",
+    "analyticClose": "Kaydedildi. Yarın sadece bu kadar.",
+    "gentleClose": "Bugünlük burada bırakalım.\nŞimdi cevap aramaktan çok dinlenmek önemli.\nNot alındı, kaybolmaz.",
+    "worked": "Ne işe yaradı?",
+    "workedPh": "Bir dahaki sefere kullanabilmek için not alıyorum.",
+    "reachedClose": "Not aldım. Bir dahaki zor anınızda bunu size hatırlatacağım.",
+    "leaveClose": "Tamam. Buradayım.",
+    "finish": "Bitir",
+    "stop": "Bu kadar",
+    "stages": [
+      "Neler oldu",
+      "Duygu",
+      "Sonraki adım"
+    ]
+  },
+  "problem": {
+    "title": "Bir gün planlandığı gibi gitmeyince kendinizi mi suçluyorsunuz?",
+    "text": "Antrenmanı atladığınız akşam ilk düşünce genelde \"bende ne sorun var?\" olur. Yakından bakınca mesai uzamış, yağmur yağmış, siz de tükenmişsinizdir. ZinggumDol ne olduğunu ve nasıl hissettiğinizi ayrı adımlarda sorar ve ikisini yan yana koyar. Sebebin iradeniz değil koşullar olduğunu görünce bir sonraki küçük adımı bulmak kolaylaşır."
+  },
+  "features": [
+    {
+      "title": "Önce taş konuşur",
+      "text": "Bir hedef belirleyin; taş başardığınız ve takıldığınız günleri takip eder. Bir gün kaçınca \"neden yapmadın?\" değil \"ne oldu?\" diye sorar ve geçen sefer anlattıklarınızı hatırlar.\nYazmak ağır geldiğinde sesli söyleyin. Konuşma cihazınızda tanınır, kayıtlar asla saklanmaz.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Günleriniz basamak taşları gibi",
+      "text": "Her hafta bir sıra taş olarak uzanır. Basmadığınız günler de orada kalır; hiçbir şey silinmez.\nArada bir iki boşluk olsa da yolun devam ettiğini görürsünüz.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Yazdıklarınıza geri dönün",
+      "text": "Ne olduğu, nasıl hissettiğiniz ve bir dahaki sefere ne deneyeceğiniz tarihe göre birikir. Aynı şekilde takıldığınız bir güne bakın, neyin işe yaradığını görün.\nAna ekrandaki bir widget taştan bir söz gösterir; seçtiğiniz saatteki hatırlatma da günü gözden geçirmeye davet eder.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Başlamak için üç adım",
+    "items": [
+      {
+        "title": "Bir hedef yazın",
+        "text": "Örneğin \"Akşam yemeğinden sonra 30 dakika yürü\"."
+      },
+      {
+        "title": "Gün bitince uygulamayı açın",
+        "text": "Taş gününüzün nasıl geçtiğini sorar. Hatırlatmayla unutmazsınız."
+      },
+      {
+        "title": "Dokunun ya da yazın",
+        "text": "İstediğiniz an `Şimdilik böyle bırakmak istiyorum` ile durabilirsiniz."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Bir sohbet nasıl ilerler",
+    "rows": [
+      [
+        "Neler oldu",
+        "Yalnızca olgular: araya ne girdi"
+      ],
+      [
+        "Duygu",
+        "Şu an nasıl hissettiğiniz, beş basamaklı bir ölçekte"
+      ],
+      [
+        "Geriye bakış",
+        "Taş, yaşananları ve duygularınızı ayrı ayrı geri verir"
+      ],
+      [
+        "Sonraki adım",
+        "Küçük bir şeyi kendiniz seçersiniz, beş dakika yeter"
+      ],
+      [
+        "Kapanış",
+        "Gerçekten zor bir günde daha fazla soru sormaz, dinlenmeyi önerir"
+      ]
+    ],
+    "note": "İstediğiniz an bırakabilirsiniz; o ana kadar söyledikleriniz saklanır."
+  },
+  "pricing": {
+    "title": "Sohbet ve yazmak ücretsiz. Daha fazlası için Pro.",
+    "free": {
+      "name": "Ücretsiz",
+      "items": [
+        "Taşla tüm sohbetler",
+        "En fazla üç hedef",
+        "Yazmak yerine konuşmak",
+        "Kat ettiğiniz yol ve yazdığınız her şey",
+        "Widget ve günlük hatırlatma",
+        "Parola ile kilit"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "İstediğiniz kadar hedef",
+        "Altı taş dokusu arasından seçim",
+        "Notları metin dosyası olarak dışa aktarma"
+      ],
+      "note": "Bir kez alın, hep sizin olsun. Abonelik değil."
+    },
+    "note": "Sohbetin ortasında asla ödeme ekranı çıkmaz. Yeni bir cihazda veya yeniden yüklemeden sonra Ayarlar'da Satın Alımları Geri Yükle'ye dokunun."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "Kaçırdığım her günü açıklamak zorunda mıyım?",
+        "a": "Hayır. İstediğiniz an `Şimdilik böyle bırakmak istiyorum` seçeneğine dokunun, sohbet orada biter. O ana kadar söyledikleriniz saklanır, sonra devam edebilirsiniz."
+      },
+      {
+        "q": "Yaptım ama uygulama yapmadığımı söylüyor.",
+        "a": "`Yaptım ama kaydedemedim` seçeneğine dokunun. Taş düzeltmeyi kabul eder ve bunun yerine neyin yardımcı olduğunu sorar. İşe yarayan şey saklanır, bir dahaki takıldığınızda size hatırlatılır."
+      },
+      {
+        "q": "Sesli söylediklerim nereye gidiyor?",
+        "a": "Konuşmanız cihazda metne çevrilir, kayıt asla saklanmaz. Desteklenen cihazlarda cümleleriniz daha kolay okunsun diye düzenlenir; bu da cihazda olur."
+      },
+      {
+        "q": "Kaç hedefim olabilir?",
+        "a": "Üç tanesi ücretsiz. Bir hedefle işiniz bitince Kat Edilen Yol'da `Bırak` ile yer açın. Üçten fazlası için ZinggumDol Pro gerekir."
+      },
+      {
+        "q": "ZinggumDol Pro bir abonelik mi?",
+        "a": "Hayır. Bir kez ödersiniz ve sizindir. Yeni bir cihazda veya yeniden yüklemeden sonra Ayarlar'da `Satın Alımları Geri Yükle`ye dokunun."
+      },
+      {
+        "q": "Günlüğümü başkası okuyabilir mi?",
+        "a": "Hesap yok. Notlarınız yalnızca cihazınızda ve kendi iCloud'unuzda durur; Ayarlar'dan uygulamayı parolayla kilitleyebilirsiniz. Yazdıklarınız asla geliştiriciye gönderilmez. Anonim kullanım istatistiklerini de Ayarlar'dan kapatabilirsiniz."
+      },
+      {
+        "q": "Hatırlatma saatini nasıl değiştiririm?",
+        "a": "Ayarlar'daki `Günlük hatırlatma` bölümünden açıp kapatır, saati seçersiniz."
+      },
+      {
+        "q": "Taş bana başardıklarımı da hatırlatır mı?",
+        "a": "Evet. Size neyin iyi geldiğini hatırlar ve zor bir günde yakın zamanda başardığınız bir şeyi aklınıza getirir."
+      },
+      {
+        "q": "Her şeyi nasıl silerim?",
+        "a": "Ayarlar'da `Tüm notları sil`e dokunun. Hedefleriniz ve notlarınız, iCloud ile bağlı diğer cihazlarda da dahil olmak üzere kalıcı olarak silinir. Ayarlar ve satın alımlar kalır. Pro ile önce `Notları dışa aktar` ile bir kopya alabilirsiniz."
+      },
+      {
+        "q": "Size nasıl ulaşırım?",
+        "a": "Uygulamanın Ayarlar'ındaki \"Geri bildirim gönder\" ile ya da aşağıdaki adrese e-posta göndererek."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bugün ayağınız mı kaydı?\nBir sonraki taş hâlâ orada",
+    "cta": "App Store'dan ücretsiz indirin"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Sorunuz ya da öneriniz mi var? {email} adresine yazın."
+  }
+}

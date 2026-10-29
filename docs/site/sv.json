@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: en mild dagbok för dagar som inte blev som tänkt",
+  "description": "Missar du ett mål pratar en liten sten först: vad som hände, sedan hur du mår. Inget konto, ingen reklam. Tre mål gratis.",
+  "hero": {
+    "headline": "Ett snedsteg betyder inte\natt du ramlat i bäcken",
+    "lead": "Den dag du missar ditt mål är det stenen som pratar först. Den frågar vad som hände, inte vad du gjorde fel, och ger dig tillbaka händelsen och känslan var för sig.",
+    "cta": "Hämta gratis på App Store",
+    "note": "Samtal, anteckningar och din väg är gratis. Inget konto, ingen reklam."
+  },
+  "demo": {
+    "title": "Prata med stenen",
+    "lead": "Du tänkte ta en kvällspromenad i dag men blev inte av. Tryck på ett svar eller skriv ett eget, så svarar stenen precis som i appen.",
+    "note": "Samma ordning och samma meningar som samtalet i appen. Inget du skriver här sparas.",
+    "send": "Skicka",
+    "again": "Börja om",
+    "goal": "Promenera 30 minuter efter middagen",
+    "workedSample": "Regnet slutade, så jag gick ända ner till ån. Huvudet känns klart.",
+    "factsSample": "Kom hem vid 21 efter att ha jobbat sent. Ingen ork kvar att gå.",
+    "nextSample": "Sena dagar räcker ett varv runt kvarteret",
+    "obs": "”%@” – ingenting ännu i dag.",
+    "yes": "Ja, det gjorde jag inte",
+    "actually": "Gjort, bara inte nedskrivet",
+    "leave": "Jag vill låta det vara tills vidare",
+    "facts": "När du tänkte göra ”%@”, vad hände då?",
+    "factsPh": "Kort går också bra – bara vad som hände då.",
+    "emotion": "Jag förstår. Och hur känner du dig nu?",
+    "steps": [
+      "Mycket tungt",
+      "Nedstämd",
+      "Så där",
+      "Okej",
+      "Bra"
+    ],
+    "sepOpen": "Så här uppfattar jag det.",
+    "sepTpl": "%1$@\nSå ”%2$@” hände,\noch just nu känner du dig ”%3$@”.%4$@\n\n%5$@",
+    "sepClose": "Det gick bara inte din väg. Det är inte ditt fel.",
+    "ack": "Ja",
+    "smaller": "Om du bara gjorde en sak i morgon, vad skulle det vara?",
+    "smallerPh": "Ju mindre, desto bättre. Till och med fem minuter räcker.",
+    "analyticClose": "Nedskrivet. I morgon bara så mycket.",
+    "gentleClose": "Vi stannar här för i dag.\nJust nu är vila viktigare än att leta efter ett svar.\nDet är nedskrivet och försvinner inte.",
+    "worked": "Vad hjälpte?",
+    "workedPh": "Jag skriver ner det så att det går att använda igen nästa gång.",
+    "reachedClose": "Nedskrivet. Nästa gång det känns tungt plockar jag fram det här igen.",
+    "leaveClose": "Okej. Jag finns här.",
+    "finish": "Klar",
+    "stop": "Sluta",
+    "stages": [
+      "Vad som hände",
+      "Känsla",
+      "Nästa steg"
+    ]
+  },
+  "problem": {
+    "title": "Lägger du skulden på dig själv när dagen inte blir som tänkt?",
+    "text": "Kvällen du hoppade över träningen är första tanken ofta ”vad är det för fel på mig?”. Tittar du närmare blev det övertid, det regnade och du var slut. ZinggumDol frågar vad som hände och hur du mår i olika steg och lägger dem bredvid varandra. När du ser att det var omständigheterna och inte din vilja blir nästa lilla steg lättare att hitta."
+  },
+  "features": [
+    {
+      "title": "Stenen pratar först",
+      "text": "Sätt ett mål så håller stenen koll på dagarna det gick och dagarna du fastnade. När en dag glider förbi frågar den ”vad hände?” i stället för ”varför inte?”, och den minns vad du berättade sist.\nDagar när det känns för tungt att skriva kan du säga det högt. Talet tolkas på enheten och inspelningar sparas aldrig.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Dina dagar som stenar över bäcken",
+      "text": "Varje vecka ligger som en rad med stenar. Dagarna du inte klev på ligger också kvar; inget raderas.\nÄven med en lucka eller två ser du att vägen fortsätter.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Läs det du skrev igen",
+      "text": "Vad som hände, hur du kände dig och vad du provar härnäst samlas i datumordning. Läs en dag när du fastnade på samma sätt och se vad som hjälpte.\nEn widget visar ett ord från stenen på hemskärmen, och en påminnelse på den tid du väljer bjuder in dig att se tillbaka på dagen.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Tre steg för att komma igång",
+    "items": [
+      {
+        "title": "Skriv ett mål",
+        "text": "Till exempel ”Promenera 30 minuter efter middagen”."
+      },
+      {
+        "title": "Öppna appen när dagen är slut",
+        "text": "Stenen frågar hur dagen var. Med en påminnelse glömmer du inte."
+      },
+      {
+        "title": "Tryck eller skriv ditt svar",
+        "text": "Du kan sluta när som helst med `Jag vill låta det vara tills vidare`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Så går ett samtal till",
+    "rows": [
+      [
+        "Vad som hände",
+        "Bara fakta: vad som kom emellan"
+      ],
+      [
+        "Känsla",
+        "Hur du mår just nu, på en skala med fem steg"
+      ],
+      [
+        "Se tillbaka",
+        "Stenen ger dig händelsen och känslan var för sig"
+      ],
+      [
+        "Nästa steg",
+        "Du väljer själv något litet, fem minuter räcker"
+      ],
+      [
+        "Avslutning",
+        "En riktigt tung dag frågar den inget mer och föreslår vila"
+      ]
+    ],
+    "note": "Du kan avbryta när som helst, och det du sagt hittills sparas."
+  },
+  "pricing": {
+    "title": "Samtal och anteckningar är gratis. Pro om du vill ha mer.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Alla samtal med stenen",
+        "Upp till tre mål",
+        "Prata i stället för att skriva",
+        "Din väg och allt du har skrivit",
+        "Widget och daglig påminnelse",
+        "Lås med kod"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Så många mål du vill",
+        "Välj bland sex stenytor",
+        "Exportera anteckningar som textfil"
+      ],
+      "note": "Köp en gång och behåll. Ingen prenumeration."
+    },
+    "note": "Ingen betalskärm dyker upp mitt i ett samtal. På en ny enhet eller efter ominstallation trycker du på Återställ köp i Inställningar."
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Måste jag förklara varje missad dag?",
+        "a": "Nej. Tryck på `Jag vill låta det vara tills vidare` när som helst så slutar samtalet direkt. Det du sagt sparas, så du kan fortsätta senare."
+      },
+      {
+        "q": "Jag gjorde det, men appen säger att jag inte gjorde det.",
+        "a": "Tryck på `Gjort, bara inte nedskrivet`. Stenen tar emot rättelsen och frågar i stället vad som hjälpte. Det som fungerade sparas och kommer fram igen nästa gång du fastnar."
+      },
+      {
+        "q": "Vart tar det vägen som jag säger högt?",
+        "a": "Ditt tal blir text på enheten och inspelningen sparas aldrig. På enheter som stöds putsas meningarna också så att de blir lättare att läsa, även det på enheten."
+      },
+      {
+        "q": "Hur många mål kan jag ha?",
+        "a": "Tre gratis. När du är klar med ett mål använder du `Släpp` under Vägen hittills för att frigöra en plats. För fler än tre behöver du ZinggumDol Pro."
+      },
+      {
+        "q": "Är ZinggumDol Pro en prenumeration?",
+        "a": "Nej. Du betalar en gång och behåller det. På en ny enhet eller efter ominstallation trycker du på `Återställ köp` i Inställningar."
+      },
+      {
+        "q": "Kan någon annan läsa min dagbok?",
+        "a": "Det finns inget konto. Dina anteckningar finns bara på din enhet och i ditt eget iCloud, och du kan låsa appen med en kod i Inställningar. Det du skriver skickas aldrig till utvecklaren. Anonym användningsstatistik kan du stänga av i Inställningar."
+      },
+      {
+        "q": "Hur ändrar jag tiden för påminnelsen?",
+        "a": "Under `Daglig påminnelse` i Inställningar slår du på eller av den och väljer tid."
+      },
+      {
+        "q": "Påminner stenen mig om sånt som gick bra?",
+        "a": "Ja. Den minns vad som hjälpte dig, och en tung dag påminner den om något du nyligen klarade."
+      },
+      {
+        "q": "Hur raderar jag allt?",
+        "a": "Tryck på `Radera alla anteckningar` i Inställningar. Mål och anteckningar försvinner för gott, även på andra enheter som synkas via iCloud. Inställningar och köp finns kvar. Med Pro kan du först spara en kopia med `Exportera anteckningar`."
+      },
+      {
+        "q": "Hur når jag er?",
+        "a": "Via ”Skicka feedback” i appens Inställningar, eller mejla adressen nedan."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ett snedsteg i dag?\nNästa sten ligger kvar",
+    "cta": "Hämta gratis på App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Frågor eller synpunkter? Mejla {email}."
+  }
+}

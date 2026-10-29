@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: lempeä päiväkirja päiville, jotka menivät pieleen",
+  "description": "Kun tavoite jää kesken, pieni kivi puhuu ensin: mitä tapahtui ja sitten miltä sinusta tuntuu. Ei tiliä, ei mainoksia. Kolme tavoitetta ilmaiseksi.",
+  "hero": {
+    "headline": "Harha-askel ei tarkoita,\nettä putosit puroon",
+    "lead": "Päivänä, jona tavoite jää saavuttamatta, kivi puhuu ensin. Se kysyy, mitä tapahtui, ei mitä teit väärin, ja antaa tapahtuneen ja tunteesi takaisin erikseen.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Keskustelut, merkinnät ja kulkemasi tie ovat ilmaisia. Ei tiliä, ei mainoksia."
+  },
+  "demo": {
+    "title": "Juttele kiven kanssa",
+    "lead": "Aioit lähteä tänään iltakävelylle, mutta se jäi. Napauta vastausta tai kirjoita omasi, niin kivi vastaa juuri kuten sovelluksessa.",
+    "note": "Sama järjestys ja samat lauseet kuin sovelluksen keskustelussa. Mitään tähän kirjoittamaasi ei tallenneta.",
+    "send": "Lähetä",
+    "again": "Aloita alusta",
+    "goal": "30 minuutin kävely illallisen jälkeen",
+    "workedSample": "Sade loppui, joten kävelin joelle asti. Pää tuntuu selkeältä.",
+    "factsSample": "Pääsin kotiin vasta yhdeksältä ylitöiden jälkeen. Ei ollut enää virtaa kävellä.",
+    "nextSample": "Pitkinä päivinä vain yksi kierros korttelin ympäri",
+    "obs": "”%@” – tänään ei vielä mitään.",
+    "yes": "Kyllä, en tehnyt sitä",
+    "actually": "Tein sen, en vain kirjannut",
+    "leave": "Haluan jättää tämän toistaiseksi",
+    "facts": "Kun aioit tehdä tämän: ”%@”, mitä tapahtui?",
+    "factsPh": "Lyhytkin riittää – vain se, mitä silloin tapahtui.",
+    "emotion": "Ymmärrän. Miltä sinusta nyt tuntuu?",
+    "steps": [
+      "Todella raskasta",
+      "Matala mieli",
+      "Tavallinen",
+      "Ihan ok",
+      "Hyvä"
+    ],
+    "sepOpen": "Kuulostaa tältä.",
+    "sepTpl": "%1$@\nTapahtui siis ”%2$@”,\nja juuri nyt tunnet olosi: ”%3$@”.%4$@\n\n%5$@",
+    "sepClose": "Asiat eivät vain menneet niin kuin piti. Se ei ole sinun vikasi.",
+    "ack": "Kyllä",
+    "smaller": "Jos tekisit huomenna vain yhden asian, mikä se olisi?",
+    "smallerPh": "Mitä pienempi, sen parempi. Viisi minuuttiakin riittää.",
+    "analyticClose": "Kirjattu. Huomenna vain tämän verran.",
+    "gentleClose": "Lopetetaan tältä päivältä.\nNyt lepo on tärkeämpää kuin vastauksen etsiminen.\nSe on kirjattu, eikä katoa.",
+    "worked": "Mikä auttoi?",
+    "workedPh": "Kirjaan sen ylös, jotta sen voi ottaa uudelleen käyttöön.",
+    "reachedClose": "Kirjattu. Kun ensi kerralla on vaikeaa, otan tämän taas esiin.",
+    "leaveClose": "Selvä. Olen tässä.",
+    "finish": "Valmis",
+    "stop": "Lopeta",
+    "stages": [
+      "Mitä tapahtui",
+      "Tunne",
+      "Seuraava askel"
+    ]
+  },
+  "problem": {
+    "title": "Syytätkö itseäsi, kun päivä ei mene suunnitellusti?",
+    "text": "Iltana, jona treeni jäi väliin, ensimmäinen ajatus on usein ”mikä minussa on vikana?”. Tarkemmin katsottuna oli ylitöitä, satoi ja olit aivan poikki. ZinggumDol kysyy eri vaiheissa, mitä tapahtui ja miltä sinusta tuntuu, ja asettaa ne rinnakkain. Kun huomaat, että syy oli olosuhteissa eikä tahdonvoimassasi, seuraava pieni askel löytyy helpommin."
+  },
+  "features": [
+    {
+      "title": "Kivi puhuu ensin",
+      "text": "Aseta tavoite, niin kivi pitää kirjaa päivistä, jolloin onnistuit, ja päivistä, jolloin jäit jumiin. Kun päivä lipsahtaa, se kysyy ”mitä tapahtui?” eikä ”miksi et?”, ja se muistaa, mitä kerroit viimeksi.\nJos kirjoittaminen tuntuu liialta, sano se ääneen. Puhe tunnistetaan laitteellasi, eikä äänitteitä tallenneta koskaan.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Päiväsi kuin astinkivet",
+      "text": "Jokainen viikko on rivi astinkiviä. Myös päivät, joille et astunut, jäävät paikoilleen; mitään ei pyyhitä.\nVaikka välissä olisi aukko tai kaksi, näet, että polku jatkuu.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Lue uudelleen, mitä kirjoitit",
+      "text": "Mitä tapahtui, miltä tuntui ja mitä kokeilet seuraavaksi kertyy päivämäärän mukaan. Lue päivä, jolloin jäit jumiin samalla tavalla, ja näet, mikä auttoi.\nWidget näyttää kiven sanan Koti-valikossa, ja muistutus valitsemaasi aikaan kutsuu katsomaan päivää taaksepäin.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Alkuun kolmessa vaiheessa",
+    "items": [
+      {
+        "title": "Kirjaa yksi tavoite",
+        "text": "Esimerkiksi ”30 minuutin kävely illallisen jälkeen”."
+      },
+      {
+        "title": "Avaa sovellus illalla",
+        "text": "Kivi kysyy, miten päivä meni. Muistutuksen kanssa se ei unohdu."
+      },
+      {
+        "title": "Napauta tai kirjoita vastaus",
+        "text": "Voit lopettaa milloin tahansa valinnalla `Haluan jättää tämän toistaiseksi`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Näin keskustelu etenee",
+    "rows": [
+      [
+        "Mitä tapahtui",
+        "Pelkät tosiasiat: mikä tuli väliin"
+      ],
+      [
+        "Tunne",
+        "Miltä sinusta nyt tuntuu, viisiportaisella asteikolla"
+      ],
+      [
+        "Katse taaksepäin",
+        "Kivi antaa tapahtuneen ja tunteesi takaisin erillään"
+      ],
+      [
+        "Seuraava askel",
+        "Valitset itse jotain pientä, viisi minuuttia riittää"
+      ],
+      [
+        "Lopetus",
+        "Todella raskaana päivänä se ei kysy enempää vaan ehdottaa lepoa"
+      ]
+    ],
+    "note": "Voit lopettaa missä vaiheessa tahansa, ja siihen asti sanomasi säilyy."
+  },
+  "pricing": {
+    "title": "Keskustelu ja kirjoittaminen ovat ilmaisia. Pro, jos haluat enemmän.",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Kaikki keskustelut kiven kanssa",
+        "Enintään kolme tavoitetta",
+        "Puhu kirjoittamisen sijaan",
+        "Kulkemasi tie ja kaikki kirjoittamasi",
+        "Widget ja päivittäinen muistutus",
+        "Lukitus koodilla"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Niin monta tavoitetta kuin haluat",
+        "Kuusi kiven pintaa valittavana",
+        "Merkintöjen vienti tekstitiedostoksi"
+      ],
+      "note": "Osta kerran ja pidä. Ei tilausta."
+    },
+    "note": "Keskustelun keskelle ei koskaan ilmesty maksunäkymää. Uudella laitteella tai uudelleenasennuksen jälkeen napauta asetuksissa Palauta ostokset."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "Pitääkö jokainen väliin jäänyt päivä selittää?",
+        "a": "Ei. Napauta milloin tahansa `Haluan jättää tämän toistaiseksi`, niin keskustelu päättyy siihen. Sanomasi säilyy, joten voit jatkaa myöhemmin."
+      },
+      {
+        "q": "Tein sen, mutta sovellus väittää muuta.",
+        "a": "Napauta `Tein sen, en vain kirjannut`. Kivi ottaa korjauksen vastaan ja kysyy sen sijaan, mikä auttoi. Toimiva keino tallentuu, ja kivi muistuttaa siitä, kun seuraavan kerran jäät jumiin."
+      },
+      {
+        "q": "Minne ääneen sanomani menee?",
+        "a": "Puheesi muutetaan tekstiksi laitteella, eikä äänitettä tallenneta koskaan. Tuetuilla laitteilla lauseita myös siistitään luettavammiksi, sekin laitteella."
+      },
+      {
+        "q": "Montako tavoitetta voin asettaa?",
+        "a": "Kolme ilmaiseksi. Kun olet valmis yhden kanssa, vapauta paikka valinnalla `Päästä irti` kohdassa Kuljettu matka. Yli kolmeen tarvitset ZinggumDol Pron."
+      },
+      {
+        "q": "Onko ZinggumDol Pro tilaus?",
+        "a": "Ei. Maksat kerran ja se on sinun. Uudella laitteella tai uudelleenasennuksen jälkeen napauta asetuksissa `Palauta ostokset`."
+      },
+      {
+        "q": "Voiko joku muu lukea päiväkirjaani?",
+        "a": "Tiliä ei ole. Merkintäsi ovat vain laitteellasi ja omassa iCloudissasi, ja voit lukita sovelluksen koodilla asetuksista. Kirjoittamaasi ei koskaan lähetetä kehittäjälle. Nimettömät käyttötilastot voit kytkeä pois asetuksista."
+      },
+      {
+        "q": "Miten vaihdan muistutuksen ajan?",
+        "a": "Kohdassa `Päivittäinen muistutus` asetuksissa kytket sen päälle tai pois ja valitset ajan."
+      },
+      {
+        "q": "Muistuttaako kivi myös onnistumisista?",
+        "a": "Kyllä. Se muistaa, mikä sinua auttoi, ja raskaana päivänä se muistuttaa jostain, missä onnistuit äskettäin."
+      },
+      {
+        "q": "Miten poistan kaiken?",
+        "a": "Napauta asetuksissa `Poista kaikki merkinnät`. Tavoitteet ja merkinnät häviävät lopullisesti, myös muilta iCloudin kautta yhdistetyiltä laitteilta. Asetukset ja ostot säilyvät. Pron kanssa voit ensin tallentaa kopion valinnalla `Vie merkinnät`."
+      },
+      {
+        "q": "Miten saan yhteyden?",
+        "a": "Sovelluksen asetusten kohdasta ”Lähetä palautetta” tai sähköpostilla alla olevaan osoitteeseen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Harha-askel tänään?\nSeuraava kivi on yhä paikallaan",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Kysyttävää tai palautetta? Kirjoita osoitteeseen {email}."
+  }
+}

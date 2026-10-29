@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="el">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — ένα απαλό ημερολόγιο για τις μέρες που δεν πήγαν όπως ήθελες</title>
-<meta name="description" content="Ένα παραπάτημα δεν σημαίνει ότι έπεσες στο ρυάκι. Το ZinggumDol είναι ένα ημερολόγιο όπου κοιτάς πίσω στις μέρες που δεν πήγαν όπως ήθελες, μιλώντας με ένα μικρό βότσαλο. Υποστήριξη και επικοινωνία." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: ένα τρυφερό ημερολόγιο για τις μέρες που στράβωσαν</title>
+  <meta name="description" content="Όταν χάνετε έναν στόχο, ένα βότσαλο μιλά πρώτο: τι έγινε και μετά πώς νιώθετε. Χωρίς εγγραφή και διαφημίσεις. Τρεις στόχοι δωρεάν.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: ένα τρυφερό ημερολόγιο για τις μέρες που στράβωσαν">
+  <meta property="og:description" content="Όταν χάνετε έναν στόχο, ένα βότσαλο μιλά πρώτο: τι έγινε και μετά πώς νιώθετε. Χωρίς εγγραφή και διαφημίσεις. Τρεις στόχοι δωρεάν.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/el/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
+  </header>
 
-  <nav class="langs" aria-label="Γλώσσα">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="./" hreflang="el" lang="el" aria-current="true">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Ένα στραβοπάτημα δεν σημαίνει<br>ότι πέσατε στο ρυάκι</h1>
+        <p class="lead">Τη μέρα που χάνετε τον στόχο σας, το βότσαλο μιλά πρώτο. Ρωτά τι έγινε, όχι τι κάνατε λάθος, και σας επιστρέφει τα γεγονότα και τα συναισθήματα χωριστά.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Κατεβάστε το δωρεάν από το App Store</a><a class="try" href="#try">Μιλήστε με το βότσαλο ↓</a></div>
+        <p class="muted small">Οι κουβέντες, οι σημειώσεις και η διαδρομή σας είναι δωρεάν. Χωρίς εγγραφή και διαφημίσεις.</p>
+      </div>
+      <div class="phone"><img src="../img/el/01-home.jpg" alt="Ένα στραβοπάτημα δεν σημαίνει ότι πέσατε στο ρυάκι" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Σελίδες">
-    <a href="./" aria-current="page">Σχετικά και υποστήριξη</a>
-    <a href="./privacy.html">Πολιτική απορρήτου</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Εικονίδιο εφαρμογής ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Ένα παραπάτημα δεν σημαίνει ότι έπεσες στο ρυάκι.<br />Ένα απαλό ημερολόγιο για τις μέρες που δεν πήγαν όπως ήθελες, σε κουβέντα με ένα μικρό βότσαλο.</p>
+    <section class="reveal" id="try">
+      <h2>Μιλήστε με το βότσαλο</h2>
+      <p class="muted">Σήμερα σκοπεύατε να κάνετε βραδινή βόλτα, αλλά δεν έγινε. Πατήστε μια απάντηση ή γράψτε τη δική σας, και το βότσαλο απαντά όπως ακριβώς στην εφαρμογή.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Μιλήστε με το βότσαλο&quot;, &quot;lead&quot;: &quot;Σήμερα σκοπεύατε να κάνετε βραδινή βόλτα, αλλά δεν έγινε. Πατήστε μια απάντηση ή γράψτε τη δική σας, και το βότσαλο απαντά όπως ακριβώς στην εφαρμογή.&quot;, &quot;note&quot;: &quot;Ίδια σειρά, ίδιες φράσεις με τη συζήτηση στην εφαρμογή. Ό,τι γράψετε εδώ δεν αποθηκεύεται πουθενά.&quot;, &quot;send&quot;: &quot;Αποστολή&quot;, &quot;again&quot;: &quot;Από την αρχή&quot;, &quot;goal&quot;: &quot;Περπάτημα 30 λεπτά μετά το βραδινό&quot;, &quot;workedSample&quot;: &quot;Σταμάτησε η βροχή και περπάτησα ως το ποτάμι. Καθάρισε το μυαλό μου.&quot;, &quot;factsSample&quot;: &quot;Γύρισα σπίτι στις 9 μετά από υπερωρίες. Δεν είχα κουράγιο για περπάτημα.&quot;, &quot;nextSample&quot;: &quot;Τις δύσκολες μέρες, μόνο έναν γύρο στο τετράγωνο&quot;, &quot;obs&quot;: &quot;«%@» – σήμερα ακόμη τίποτα.&quot;, &quot;yes&quot;: &quot;Ναι, δεν το έκανα&quot;, &quot;actually&quot;: &quot;Το έκανα, απλώς δεν το κατέγραψα&quot;, &quot;leave&quot;: &quot;Προς το παρόν θέλω να το αφήσω&quot;, &quot;facts&quot;: &quot;Όταν σκοπεύατε να κάνετε το «%@», τι έγινε;&quot;, &quot;factsPh&quot;: &quot;Και σύντομα είναι εντάξει – μόνο τι έγινε τότε.&quot;, &quot;emotion&quot;: &quot;Κατάλαβα. Και πώς νιώθετε τώρα;&quot;, &quot;steps&quot;: [&quot;Πολύ δύσκολα&quot;, &quot;Πεσμένος&quot;, &quot;Έτσι κι έτσι&quot;, &quot;Καλά&quot;, &quot;Καλά&quot;], &quot;sepOpen&quot;: &quot;Να τι καταλαβαίνω.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nΆρα έγινε «%2$@»,\nκαι τώρα νιώθετε «%3$@»%4$@.\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Απλώς τα πράγματα δεν πήγαν όπως θέλατε. Δεν φταίτε εσείς.&quot;, &quot;ack&quot;: &quot;Ναι&quot;, &quot;smaller&quot;: &quot;Αν κάνατε αύριο μόνο ένα πράγμα, ποιο θα ήταν;&quot;, &quot;smallerPh&quot;: &quot;Όσο πιο μικρό, τόσο καλύτερα. Ακόμη και πέντε λεπτά αρκούν.&quot;, &quot;analyticClose&quot;: &quot;Σημειώθηκε. Αύριο μόνο τόσο.&quot;, &quot;gentleClose&quot;: &quot;Ας σταματήσουμε εδώ για σήμερα.\nΤώρα η ανάπαυση μετράει περισσότερο από την αναζήτηση απάντησης.\nΈχει σημειωθεί, δεν θα χαθεί.&quot;, &quot;worked&quot;: &quot;Τι βοήθησε;&quot;, &quot;workedPh&quot;: &quot;Θα το σημειώσω για να το χρησιμοποιήσουμε ξανά.&quot;, &quot;reachedClose&quot;: &quot;Το σημείωσα. Την επόμενη φορά που θα δυσκολευτείτε, θα σας το θυμίσω.&quot;, &quot;leaveClose&quot;: &quot;Εντάξει. Είμαι εδώ.&quot;, &quot;finish&quot;: &quot;Ολοκλήρωση&quot;, &quot;stop&quot;: &quot;Τέλος&quot;, &quot;stages&quot;: [&quot;Τι έγινε&quot;, &quot;Συναίσθημα&quot;, &quot;Επόμενο βήμα&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Λήψη από το App Store</a>
+    <section class="problem reveal">
+      <h2>Όταν μια μέρα δεν πάει όπως την σχεδιάσατε, κατηγορείτε τον εαυτό σας;</h2>
+      <p>Το βράδυ που χάσατε την προπόνηση, η πρώτη σκέψη είναι συνήθως «τι πρόβλημα έχω;». Αν το δείτε πιο προσεκτικά, υπήρξαν υπερωρίες, έβρεχε, ήσασταν εξαντλημένοι. Το ZinggumDol ρωτά χωριστά τι έγινε και πώς νιώθετε και βάζει τα δύο δίπλα δίπλα. Όταν βλέπετε ότι έφταιγαν οι συνθήκες και όχι η θέλησή σας, το επόμενο μικρό βήμα βρίσκεται πιο εύκολα.</p>
+    </section>
 
-  <h2>Τι κάνει</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Κουβέντα με ένα βότσαλο</h3>
-      <p>Το βότσαλο μιλά πρώτο. Θυμάται όσα του είπες την προηγούμενη φορά και ρωτά πώς πήγε μετά. Διάλεξε μια απάντηση ή γράψε τη δική σου.</p>
-    </div>
-    <div class="card">
-      <h3>Πες το φωναχτά</h3>
-      <p>Τις μέρες που το γράψιμο είναι πολύ, αρκεί να μιλήσεις. Η ομιλία αναγνωρίζεται στη συσκευή σου και στις συμβατές συσκευές οργανώνεται ώστε να διαβάζεται εύκολα.</p>
-    </div>
-    <div class="card">
-      <h3>Διαδρομή που έχεις διανύσει</h3>
-      <p>Κάθε εβδομάδα στήνεται σαν σειρά από πέτρες για να περάσεις το ρυάκι. Οι μέρες που δεν πάτησες μένουν κι αυτές εκεί – τίποτα δεν σβήνεται.</p>
-    </div>
-    <div class="card">
-      <h3>Όσα άφησες</h3>
-      <p>Δες ανά ημερομηνία τι έγινε, πώς ένιωθες και τι ήθελες να δοκιμάσεις στη συνέχεια.</p>
-    </div>
-    <div class="card">
-      <h3>Widget και υπενθυμίσεις</h3>
-      <p>Μια κουβέντα του βότσαλου στην Αρχική οθόνη και μια απαλή υπενθύμιση την ώρα που διαλέγεις, για να δείτε μαζί πώς πήγε η μέρα.</p>
-    </div>
-    <div class="card">
-      <h3>Μόνο δικό σου</h3>
-      <p>Χωρίς εγγραφή. Οι σημειώσεις σου μένουν μόνο στη συσκευή σου και στο δικό σου iCloud, και μπορείς να κλειδώσεις την εφαρμογή με κωδικό.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Το βότσαλο μιλά πρώτο</h2>
+        <p>Ορίστε έναν στόχο και το βότσαλο θα παρακολουθεί τις μέρες που τα καταφέρατε και εκείνες που κολλήσατε. Όταν μια μέρα σας ξεφεύγει, ρωτά «τι έγινε;» αντί για «γιατί όχι;», και θυμάται τι του είπατε την προηγούμενη φορά.<br>Τις μέρες που το γράψιμο είναι βαρύ, πείτε το φωναχτά. Η ομιλία αναγνωρίζεται στη συσκευή σας και οι ηχογραφήσεις δεν αποθηκεύονται ποτέ.</p>
+      </div>
+      <div class="phone"><img src="../img/el/02-conversation.jpg" alt="Το βότσαλο μιλά πρώτο" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Οθόνες</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Το βότσαλο σε χαιρετά πρώτο" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Μια κουβέντα που συνεχίζεται από την τελευταία σημείωση" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="Η εβδομάδα σαν σειρά από πέτρες" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Οι σημειώσεις σου ανά ημερομηνία" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Οι μέρες σας σαν πέτρες στο ρυάκι</h2>
+        <p>Κάθε εβδομάδα απλώνεται σαν σειρά από πέτρες. Οι μέρες που δεν πατήσατε μένουν κι αυτές εκεί· τίποτα δεν σβήνεται.<br>Ακόμα κι αν λείπει μία ή δύο, βλέπετε ότι ο δρόμος συνεχίζεται.</p>
+      </div>
+      <div class="phone"><img src="../img/el/03-path.jpg" alt="Οι μέρες σας σαν πέτρες στο ρυάκι" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Εφάπαξ αγορά, όχι συνδρομή. Κράτα περισσότερους από τρεις στόχους, διάλεξε ανάμεσα σε έξι υφές βότσαλου και εξήγαγε τις σημειώσεις σου σε αρχείο κειμένου.</p>
-  <p>Σε νέα συσκευή ή μετά από επανεγκατάσταση, πάτησε Ρυθμίσεις ▸ Επαναφορά αγορών.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ξαναδιαβάστε όσα γράψατε</h2>
+        <p>Τι έγινε, πώς νιώσατε και τι θα δοκιμάσετε μετά συγκεντρώνονται κατά ημερομηνία. Ξαναδιαβάστε μια μέρα που κολλήσατε με τον ίδιο τρόπο και θα δείτε τι βοήθησε.<br>Ένα widget δείχνει μια κουβέντα του βότσαλου στην οθόνη Αφετηρίας, και μια υπενθύμιση την ώρα που διαλέγετε σας καλεί να κοιτάξετε πίσω τη μέρα.</p>
+      </div>
+      <div class="phone"><img src="../img/el/04-records.jpg" alt="Ξαναδιαβάστε όσα γράψατε" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Επικοινωνία</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Μπορείς να χρησιμοποιήσεις και το Ρυθμίσεις ▸ Αποστολή email στον προγραμματιστή μέσα στην εφαρμογή.</p>
-  </div>
+    <section class="reveal">
+      <h2>Τρία βήματα για να ξεκινήσετε</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Γράψτε έναν στόχο</h3><p>Για παράδειγμα «Περπάτημα 30 λεπτά μετά το βραδινό».</p></li>
+<li class="card"><span class="n">2</span><h3>Ανοίξτε την εφαρμογή το βράδυ</h3><p>Το βότσαλο ρωτά πώς πήγε η μέρα. Με μια υπενθύμιση δεν θα το ξεχάσετε.</p></li>
+<li class="card"><span class="n">3</span><h3>Πατήστε ή γράψτε την απάντηση</h3><p>Μπορείτε να σταματήσετε όποτε θέλετε με το <code>Προς το παρόν θέλω να το αφήσω</code>.</p></li></ol>
+    </section>
 
-  <h2>Απόρρητο</h2>
-  <p>Το ZinggumDol δεν στέλνει ποτέ στον προγραμματιστή όσα γράφεις. Για λεπτομέρειες δες την <a href="./privacy.html">πολιτική απορρήτου</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>Πώς κυλά μια συζήτηση</h2>
+      <div class="card table">
+        <dl><div><dt>Τι έγινε</dt><dd>Μόνο τα γεγονότα: τι μπήκε στη μέση</dd></div><div><dt>Συναίσθημα</dt><dd>Πώς νιώθετε τώρα, σε μια κλίμακα πέντε βαθμίδων</dd></div><div><dt>Αναδρομή</dt><dd>Το βότσαλο σας επιστρέφει τι έγινε και τι νιώθετε, χωριστά</dd></div><div><dt>Επόμενο βήμα</dt><dd>Διαλέγετε εσείς κάτι μικρό, πέντε λεπτά αρκούν</dd></div><div><dt>Κλείσιμο</dt><dd>Σε μια πολύ βαριά μέρα δεν ρωτά τίποτε άλλο και προτείνει ξεκούραση</dd></div></dl>
+      </div>
+      <p class="muted">Μπορείτε να βγείτε οποιαδήποτε στιγμή, και όσα είπατε ως τότε μένουν αποθηκευμένα.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Πολιτική απορρήτου</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Κουβέντες και σημειώσεις δωρεάν. Pro αν θέλετε κάτι παραπάνω.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Δωρεάν</h3>
+          <ul><li>Όλες οι κουβέντες με το βότσαλο</li><li>Έως τρεις στόχοι</li><li>Μιλήστε αντί να πληκτρολογείτε</li><li>Η διαδρομή σας και όσα έχετε γράψει</li><li>Widget και καθημερινή υπενθύμιση</li><li>Κλείδωμα με κωδικό</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Όσους στόχους θέλετε</li><li>Έξι υφές βότσαλου για επιλογή</li><li>Εξαγωγή σημειώσεων σε αρχείο κειμένου</li></ul>
+          <p class="muted">Αγοράζεται μία φορά και είναι δικό σας. Όχι συνδρομή.</p>
+        </div>
+      </div>
+      <p class="muted">Ποτέ δεν εμφανίζεται οθόνη πληρωμής στη μέση μιας συζήτησης. Σε νέα συσκευή ή μετά από επανεγκατάσταση, πατήστε Επαναφορά αγορών στις Ρυθμίσεις.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Συχνές ερωτήσεις</h2>
+      <div class="faq"><details><summary>Πρέπει να εξηγώ κάθε μέρα που έχασα;</summary><p>Όχι. Πατήστε <code>Προς το παρόν θέλω να το αφήσω</code> οποιαδήποτε στιγμή και η συζήτηση τελειώνει εκεί. Όσα είπατε αποθηκεύονται, για να συνεχίσετε αργότερα.</p></details>
+<details><summary>Το έκανα, αλλά η εφαρμογή λέει πως όχι.</summary><p>Πατήστε <code>Το έκανα, απλώς δεν το κατέγραψα</code>. Το βότσαλο δέχεται τη διόρθωση και ρωτά αντί γι' αυτό τι βοήθησε. Ό,τι λειτούργησε αποθηκεύεται και θα σας το θυμίσει την επόμενη φορά που θα κολλήσετε.</p></details>
+<details><summary>Πού πηγαίνουν όσα λέω φωναχτά;</summary><p>Η ομιλία σας γίνεται κείμενο στη συσκευή και η ηχογράφηση δεν αποθηκεύεται ποτέ. Σε συμβατές συσκευές οι φράσεις σας στρώνονται κιόλας για να διαβάζονται πιο εύκολα, κι αυτό στη συσκευή.</p></details>
+<details><summary>Πόσους στόχους μπορώ να έχω;</summary><p>Τρεις δωρεάν. Όταν τελειώσετε με έναν, χρησιμοποιήστε το <code>Άφησέ το</code> στη Διαδρομή για να ελευθερώσετε θέση. Για περισσότερους από τρεις χρειάζεστε το ZinggumDol Pro.</p></details>
+<details><summary>Είναι το ZinggumDol Pro συνδρομή;</summary><p>Όχι. Πληρώνετε μία φορά και είναι δικό σας. Σε νέα συσκευή ή μετά από επανεγκατάσταση, πατήστε <code>Επαναφορά αγορών</code> στις Ρυθμίσεις.</p></details>
+<details><summary>Μπορεί κάποιος άλλος να διαβάσει το ημερολόγιό μου;</summary><p>Δεν υπάρχει λογαριασμός. Οι σημειώσεις σας βρίσκονται μόνο στη συσκευή σας και στο δικό σας iCloud, και από τις Ρυθμίσεις μπορείτε να κλειδώσετε την εφαρμογή με κωδικό. Όσα γράφετε δεν στέλνονται ποτέ στον δημιουργό. Τα ανώνυμα στατιστικά χρήσης απενεργοποιούνται από τις Ρυθμίσεις.</p></details>
+<details><summary>Πώς αλλάζω την ώρα της υπενθύμισης;</summary><p>Στην <code>Καθημερινή υπενθύμιση</code> στις Ρυθμίσεις την ενεργοποιείτε ή απενεργοποιείτε και διαλέγετε ώρα.</p></details>
+<details><summary>Μου θυμίζει το βότσαλο και τις επιτυχίες μου;</summary><p>Ναι. Θυμάται τι σας βοήθησε, και σε μια δύσκολη μέρα σας θυμίζει κάτι που καταφέρατε πρόσφατα.</p></details>
+<details><summary>Πώς τα διαγράφω όλα;</summary><p>Πατήστε <code>Διαγραφή όλων των σημειώσεων</code> στις Ρυθμίσεις. Στόχοι και σημειώσεις χάνονται οριστικά, και στις άλλες συσκευές που συνδέονται μέσω iCloud. Ρυθμίσεις και αγορές μένουν. Με το Pro μπορείτε πρώτα να κρατήσετε αντίγραφο με <code>Εξαγωγή σημειώσεων</code>.</p></details>
+<details><summary>Πώς επικοινωνώ μαζί σας;</summary><p>Από την «Αποστολή σχολίων» στις Ρυθμίσεις της εφαρμογής ή με email στη διεύθυνση παρακάτω.</p></details></div>
+      <p class="contact">Ερωτήσεις ή σχόλια; Γράψτε στο <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Στραβοπατήσατε σήμερα;<br>Η επόμενη πέτρα είναι ακόμα εκεί</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Κατεβάστε το δωρεάν από το App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

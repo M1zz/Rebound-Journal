@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol : un journal tout doux pour les jours ratés",
+  "description": "Objectif raté ? Un petit galet te parle en premier : ce qui s'est passé, puis ce que tu ressens. Sans compte ni pub. Trois objectifs gratuits.",
+  "hero": {
+    "headline": "Un faux pas, ce n'est pas\ntomber dans la rivière",
+    "lead": "Le jour où tu rates ton objectif, c'est le galet qui parle en premier. Il te demande ce qui s'est passé, pas ce que tu as fait de travers, puis te rend les faits et ton ressenti bien séparés.",
+    "cta": "Télécharger gratuitement sur l'App Store",
+    "note": "Discuter, écrire et voir ton chemin, c'est gratuit. Ni compte ni publicité."
+  },
+  "demo": {
+    "title": "Parle au galet",
+    "lead": "Tu voulais marcher ce soir et tu ne l'as pas fait. Choisis une réponse ou écris la tienne : le galet te répond exactement comme dans l'app.",
+    "note": "Même ordre, mêmes phrases que la conversation de l'app. Rien de ce que tu écris ici n'est enregistré.",
+    "send": "Envoyer",
+    "again": "Recommencer",
+    "goal": "Marcher 30 minutes après le dîner",
+    "workedSample": "La pluie s'est arrêtée, alors j'ai marché jusqu'à la rivière. J'ai l'esprit clair.",
+    "factsSample": "Retour à 21 h après une longue journée. Plus la force de marcher.",
+    "nextSample": "Les soirs tardifs, juste un tour du pâté de maisons",
+    "obs": "« %@ » : rien pour l’instant aujourd’hui.",
+    "yes": "Oui, je ne l’ai pas fait",
+    "actually": "Fait, juste pas noté",
+    "leave": "Je préfère laisser pour l’instant",
+    "facts": "Quand tu voulais faire « %@ », que s’est-il passé ?",
+    "factsPh": "Court, c’est très bien : seulement ce qui s’est passé alors.",
+    "emotion": "Je vois. Et comment tu te sens maintenant ?",
+    "steps": [
+      "Très difficile",
+      "Un peu abattu",
+      "Bof",
+      "Ça va",
+      "Bien"
+    ],
+    "sepOpen": "Voici ce que je comprends.",
+    "sepTpl": "%1$@\nDonc « %2$@ » s’est passé,\net en ce moment tu te sens « %3$@ ».%4$@\n\n%5$@",
+    "sepClose": "Les choses ne se sont pas passées comme prévu. Ce n’est pas ta faute.",
+    "ack": "Oui",
+    "smaller": "Si tu ne faisais qu’une seule chose demain, ce serait quoi ?",
+    "smallerPh": "Plus c’est petit, mieux c’est. Même cinq minutes, c’est bien.",
+    "analyticClose": "Noté. Demain, juste ça.",
+    "gentleClose": "On s’arrête là pour aujourd’hui.\nSe reposer vaut mieux que chercher une réponse.\nC’est noté, ça ne disparaîtra pas.",
+    "worked": "Qu’est-ce qui a aidé ?",
+    "workedPh": "Je le note pour pouvoir m’en servir une prochaine fois.",
+    "reachedClose": "C’est noté. La prochaine fois que ce sera dur, je te le rappellerai.",
+    "leaveClose": "D’accord. Je suis là.",
+    "finish": "Terminé",
+    "stop": "Stop",
+    "stages": [
+      "Ce qui s’est passé",
+      "Ressenti",
+      "Prochain pas"
+    ]
+  },
+  "problem": {
+    "title": "Quand une journée déraille, tu t'en veux ?",
+    "text": "Le soir où tu as sauté ta séance, la première pensée est souvent « qu'est-ce qui cloche chez moi ? ». En y regardant de plus près, il y avait une réunion tardive, la pluie, la fatigue. ZinggumDol te demande ce qui s'est passé et ce que tu ressens à deux moments différents, puis pose les deux côte à côte. Quand tu vois que c'étaient les circonstances et pas ta volonté, le petit pas suivant devient plus facile à trouver."
+  },
+  "features": [
+    {
+      "title": "Le galet parle en premier",
+      "text": "Fixe un objectif et le galet garde un œil sur les jours où ça a marché et ceux où tu as calé. Quand un jour t'échappe, il demande « qu'est-ce qui s'est passé ? » plutôt que « pourquoi pas ? », et il se souvient de ce que tu lui as raconté la dernière fois.\nLes jours où écrire te pèse, dis-le simplement à voix haute. La parole est reconnue sur ton appareil et les enregistrements ne sont jamais conservés.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Tes journées posées comme des pierres de gué",
+      "text": "Chaque semaine s'étale en une rangée de pierres. Les jours où tu n'as pas posé le pied restent là aussi ; rien n'est effacé.\nMême avec un trou ou deux, tu vois que le chemin continue.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Relis ce que tu as écrit",
+      "text": "Ce qui s'est passé, ce que tu as ressenti et ce que tu vas essayer ensuite s'accumulent par date. Relis un jour où tu as calé de la même façon, et tu verras ce qui a marché.\nUn widget affiche un mot du galet sur ton écran d'accueil, et un rappel à l'heure de ton choix t'invite à revenir sur ta journée.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour commencer",
+    "items": [
+      {
+        "title": "Écris un objectif",
+        "text": "Par exemple « Marcher 30 minutes après le dîner »."
+      },
+      {
+        "title": "Ouvre l'app en fin de journée",
+        "text": "Le galet te demande comment s'est passée ta journée. Un rappel t'évite d'oublier."
+      },
+      {
+        "title": "Choisis ou écris ta réponse",
+        "text": "Tu peux arrêter à tout moment avec `Je préfère laisser pour l’instant`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Comment se passe une conversation",
+    "rows": [
+      [
+        "Ce qui s’est passé",
+        "Juste les faits : ce qui t'a freiné"
+      ],
+      [
+        "Ressenti",
+        "Comment tu te sens là, sur une échelle à cinq niveaux"
+      ],
+      [
+        "Regard en arrière",
+        "Le galet te rend les faits et ton ressenti, bien séparés"
+      ],
+      [
+        "Prochain pas",
+        "Tu choisis toi-même une petite chose, cinq minutes suffisent"
+      ],
+      [
+        "Conclusion",
+        "Un jour vraiment difficile, il ne demande rien de plus et te propose de souffler"
+      ]
+    ],
+    "note": "Tu peux t'arrêter à n'importe quel moment, et ce que tu as dit jusque-là est gardé."
+  },
+  "pricing": {
+    "title": "Discuter et écrire, c'est gratuit. Pro si tu veux aller plus loin.",
+    "free": {
+      "name": "Gratuit",
+      "items": [
+        "Toutes les conversations avec le galet",
+        "Jusqu'à trois objectifs",
+        "Parler au lieu de taper",
+        "Ton chemin et tout ce que tu as écrit",
+        "Widget et rappel quotidien",
+        "Verrouillage par code"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Autant d'objectifs que tu veux",
+        "Six finitions de galet au choix",
+        "Export de tes notes en fichier texte"
+      ],
+      "note": "Un seul achat, à garder. Pas d'abonnement."
+    },
+    "note": "Aucun écran de paiement ne surgit au milieu d'une conversation. Sur un nouvel appareil ou après une réinstallation, touche Restaurer les achats dans les Réglages."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Dois-je justifier chaque jour raté ?",
+        "a": "Non. Touche `Je préfère laisser pour l’instant` à tout moment et la conversation s'arrête là. Ce que tu as dit jusque-là est gardé, tu pourras reprendre plus tard."
+      },
+      {
+        "q": "Je l'ai fait, mais l'app dit que non.",
+        "a": "Touche `Fait, juste pas noté`. Le galet accepte la correction et te demande plutôt ce qui t'a aidé. Ce qui a marché est gardé, et il te le ressortira la prochaine fois que tu caleras."
+      },
+      {
+        "q": "Où va ce que je dis à voix haute ?",
+        "a": "Ta voix est transformée en texte sur ton appareil et l'enregistrement n'est jamais conservé. Sur les appareils compatibles, tes phrases sont aussi reformulées pour se lire plus facilement, toujours sur l'appareil."
+      },
+      {
+        "q": "Combien d'objectifs puis-je avoir ?",
+        "a": "Trois gratuitement. Quand tu en as fini avec un, utilise `Lâcher` dans Chemin parcouru pour libérer une place. Au-delà de trois, il te faut ZinggumDol Pro."
+      },
+      {
+        "q": "ZinggumDol Pro est-il un abonnement ?",
+        "a": "Non. Tu paies une fois et c'est à toi. Sur un nouvel appareil ou après une réinstallation, touche `Restaurer les achats` dans les Réglages."
+      },
+      {
+        "q": "Quelqu'un d'autre peut-il lire mon journal ?",
+        "a": "Il n'y a pas de compte. Tes notes restent sur ton appareil et dans ton propre iCloud, et tu peux verrouiller l'app par un code dans les Réglages. Ce que tu écris n'est jamais envoyé au développeur. Tu peux aussi désactiver les statistiques d'utilisation anonymes dans les Réglages."
+      },
+      {
+        "q": "Comment changer l'heure du rappel ?",
+        "a": "Dans `Rappel quotidien`, dans les Réglages, tu l'actives, le désactives et choisis l'heure."
+      },
+      {
+        "q": "Le galet me rappelle-t-il mes réussites ?",
+        "a": "Oui. Il retient ce qui t'a aidé, et un jour difficile, il te rappelle quelque chose que tu as réussi récemment."
+      },
+      {
+        "q": "Comment tout effacer ?",
+        "a": "Touche `Effacer toutes les notes` dans les Réglages. Tes objectifs et tes notes disparaissent pour de bon, y compris sur tes autres appareils synchronisés par iCloud. Tes réglages et tes achats restent. Avec Pro, tu peux d'abord en garder une copie avec `Exporter les notes`."
+      },
+      {
+        "q": "Comment vous contacter ?",
+        "a": "Via « Envoyer un retour » dans les Réglages de l'app, ou par e-mail à l'adresse ci-dessous."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Un faux pas aujourd'hui ?\nLa pierre suivante est toujours là",
+    "cta": "Télécharger gratuitement sur l'App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Politique de confidentialité",
+    "contact": "Une question, une remarque ? Écris à {email}."
+  }
+}

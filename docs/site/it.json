@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: un diario gentile per i giorni andati storti",
+  "description": "Quando manchi un obiettivo, un sassolino ti parla per primo: cosa è successo, poi come ti senti. Senza account né pubblicità. Tre obiettivi gratis.",
+  "hero": {
+    "headline": "Un passo falso non vuol dire\nessere caduti nel torrente",
+    "lead": "Il giorno in cui manchi l'obiettivo, è il sassolino a parlarti per primo. Ti chiede cosa è successo, non cosa hai sbagliato, e ti restituisce i fatti e lo stato d'animo ben separati.",
+    "cta": "Scaricala gratis su App Store",
+    "note": "Parlare, scrivere e vedere la tua strada è gratis. Niente registrazione né pubblicità."
+  },
+  "demo": {
+    "title": "Parla con il sassolino",
+    "lead": "Oggi volevi fare una passeggiata la sera e non ce l'hai fatta. Scegli una risposta o scrivi la tua: il sassolino risponde esattamente come nell'app.",
+    "note": "Stesso ordine e stesse frasi della conversazione nell'app. Niente di ciò che scrivi qui viene salvato.",
+    "send": "Invia",
+    "again": "Ricomincia",
+    "goal": "Camminare 30 minuti dopo cena",
+    "workedSample": "Ha smesso di piovere e ho camminato fino al fiume. Ho la testa leggera.",
+    "factsSample": "A casa alle 21 dopo aver lavorato fino a tardi. Niente energie per camminare.",
+    "nextSample": "Nei giorni lunghi, solo un giro dell'isolato",
+    "obs": "«%@»: oggi ancora niente.",
+    "yes": "Sì, non l’ho fatto",
+    "actually": "L’ho fatto, solo non l’ho annotato",
+    "leave": "Per ora preferisco lasciare",
+    "facts": "Quando volevi fare «%@», cos’è successo?",
+    "factsPh": "Anche breve va benissimo: solo cosa è successo allora.",
+    "emotion": "Capisco. E adesso come ti senti?",
+    "steps": [
+      "Molto dura",
+      "Un po’ giù",
+      "Così così",
+      "Bene",
+      "Bene"
+    ],
+    "sepOpen": "Ecco cosa mi sembra di capire.",
+    "sepTpl": "%1$@\nQuindi è successo «%2$@»,\ne adesso ti senti «%3$@».%4$@\n\n%5$@",
+    "sepClose": "Le cose non sono andate come volevi. Non è colpa tua.",
+    "ack": "Sì",
+    "smaller": "Se domani facessi una cosa sola, quale sarebbe?",
+    "smallerPh": "Più è piccolo, meglio è. Anche cinque minuti vanno bene.",
+    "analyticClose": "Annotato. Domani, solo questo.",
+    "gentleClose": "Fermiamoci qui per oggi.\nOra riposare conta più che trovare una risposta.\nÈ annotato, non va perso.",
+    "worked": "Cosa ti ha aiutato?",
+    "workedPh": "La annoto, così potrò riusarla la prossima volta.",
+    "reachedClose": "Annotato. La prossima volta che sarà dura, te lo ricorderò.",
+    "leaveClose": "D’accordo. Sono qui.",
+    "finish": "Fatto",
+    "stop": "Basta",
+    "stages": [
+      "Cosa è successo",
+      "Come ti senti",
+      "Prossimo passo"
+    ]
+  },
+  "problem": {
+    "title": "Quando una giornata va storta, te la prendi con te stesso?",
+    "text": "La sera in cui salti l'allenamento, il primo pensiero di solito è «cosa c'è che non va in me?». A guardar meglio c'erano gli straordinari, pioveva, eri sfinito. ZinggumDol ti chiede cosa è successo e come ti senti in due momenti distinti, poi mette le due cose una accanto all'altra. Quando vedi che sono state le circostanze e non la tua forza di volontà, trovare il prossimo piccolo passo diventa più facile."
+  },
+  "features": [
+    {
+      "title": "Il sassolino parla per primo",
+      "text": "Fissa un obiettivo e il sassolino terrà d'occhio i giorni in cui ce l'hai fatta e quelli in cui ti sei bloccato. Quando un giorno ti sfugge, chiede «cosa è successo?» invece di «perché no?», e si ricorda quello che gli hai raccontato l'ultima volta.\nNei giorni in cui scrivere è troppo, dillo ad alta voce. La voce viene riconosciuta sul dispositivo e le registrazioni non vengono mai salvate.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "I tuoi giorni come pietre per attraversare il torrente",
+      "text": "Ogni settimana si stende come una fila di pietre. Anche i giorni in cui non ci hai messo piede restano lì; non si cancella niente.\nAnche con un buco o due, vedi che la strada continua.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Rileggi quello che hai scritto",
+      "text": "Cosa è successo, come ti sei sentito e cosa proverai la prossima volta si raccolgono per data. Rileggi un giorno in cui ti eri bloccato allo stesso modo e vedrai cosa ha funzionato.\nUn widget mostra una frase del sassolino nella schermata Home, e un promemoria all'ora che scegli ti invita a ripensare alla giornata.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Per iniziare bastano tre passi",
+    "items": [
+      {
+        "title": "Scrivi un obiettivo",
+        "text": "Per esempio «Camminare 30 minuti dopo cena»."
+      },
+      {
+        "title": "Apri l'app a fine giornata",
+        "text": "Il sassolino ti chiede com'è andata. Con un promemoria non te ne dimentichi."
+      },
+      {
+        "title": "Tocca o scrivi la risposta",
+        "text": "Puoi fermarti quando vuoi con `Per ora preferisco lasciare`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Come va una conversazione",
+    "rows": [
+      [
+        "Cosa è successo",
+        "Solo i fatti: cosa si è messo di mezzo"
+      ],
+      [
+        "Come ti senti",
+        "Come ti senti adesso, su una scala di cinque"
+      ],
+      [
+        "Ripensarci",
+        "Il sassolino ti restituisce i fatti e lo stato d'animo, separati"
+      ],
+      [
+        "Prossimo passo",
+        "Scegli tu qualcosa di piccolo: cinque minuti bastano"
+      ],
+      [
+        "Conclusione",
+        "In una giornata davvero pesante non chiede altro e ti propone di riposare"
+      ]
+    ],
+    "note": "Puoi uscire in qualsiasi momento, e quello che hai detto fino ad allora resta salvato."
+  },
+  "pricing": {
+    "title": "Parlare e scrivere è gratis. Pro se vuoi di più.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Tutte le conversazioni con il sassolino",
+        "Fino a tre obiettivi",
+        "Parlare invece di scrivere",
+        "La tua strada e tutto ciò che hai scritto",
+        "Widget e promemoria giornaliero",
+        "Blocco con codice"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Tutti gli obiettivi che vuoi",
+        "Sei finiture del sassolino tra cui scegliere",
+        "Esportazione delle note in un file di testo"
+      ],
+      "note": "Si compra una volta e resta tuo. Non è un abbonamento."
+    },
+    "note": "Nessuna schermata di pagamento compare a metà conversazione. Su un nuovo dispositivo o dopo una reinstallazione, tocca Ripristina acquisti in Impostazioni."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Devo spiegare ogni giorno mancato?",
+        "a": "No. Tocca `Per ora preferisco lasciare` in qualsiasi momento e la conversazione finisce lì. Quello che hai detto resta salvato, così puoi riprendere più tardi."
+      },
+      {
+        "q": "L'ho fatto, ma l'app dice di no.",
+        "a": "Tocca `L’ho fatto, solo non l’ho annotato`. Il sassolino accetta la correzione e ti chiede invece cosa ti ha aiutato. Quello che ha funzionato viene salvato e te lo ricorderà la prossima volta che ti blocchi."
+      },
+      {
+        "q": "Dove finisce quello che dico ad alta voce?",
+        "a": "La tua voce diventa testo sul dispositivo e la registrazione non viene mai salvata. Sui dispositivi compatibili le frasi vengono anche sistemate per leggersi meglio, sempre sul dispositivo."
+      },
+      {
+        "q": "Quanti obiettivi posso avere?",
+        "a": "Tre gratis. Quando hai finito con uno, usa `Lascia andare` in Strada percorsa per liberare un posto. Per averne più di tre serve ZinggumDol Pro."
+      },
+      {
+        "q": "ZinggumDol Pro è un abbonamento?",
+        "a": "No. Paghi una volta e resta tuo. Su un nuovo dispositivo o dopo una reinstallazione, tocca `Ripristina acquisti` in Impostazioni."
+      },
+      {
+        "q": "Qualcun altro può leggere il mio diario?",
+        "a": "Non c'è nessun account. Le tue note stanno solo sul tuo dispositivo e nel tuo iCloud, e in Impostazioni puoi bloccare l'app con un codice. Quello che scrivi non viene mai inviato allo sviluppatore. Puoi anche disattivare le statistiche d'uso anonime in Impostazioni."
+      },
+      {
+        "q": "Come cambio l'orario del promemoria?",
+        "a": "In `Promemoria giornaliero`, dentro Impostazioni, lo attivi o disattivi e scegli l'orario."
+      },
+      {
+        "q": "Il sassolino mi ricorda anche i successi?",
+        "a": "Sì. Si ricorda cosa ti ha aiutato e, in una giornata difficile, ti richiama alla mente qualcosa che sei riuscito a fare di recente."
+      },
+      {
+        "q": "Come cancello tutto?",
+        "a": "Tocca `Cancella tutte le note` in Impostazioni. Obiettivi e note spariscono per sempre, anche sugli altri dispositivi collegati tramite iCloud. Impostazioni e acquisti restano. Con Pro puoi prima tenerne una copia con `Esporta note`."
+      },
+      {
+        "q": "Come posso contattarvi?",
+        "a": "Da «Invia feedback» nelle Impostazioni dell'app, oppure per email all'indirizzo qui sotto."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Un passo falso oggi?\nLa pietra successiva è ancora lì",
+    "cta": "Scaricala gratis su App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Informativa sulla privacy",
+    "contact": "Domande o suggerimenti? Scrivi a {email}."
+  }
+}

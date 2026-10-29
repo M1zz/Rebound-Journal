@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — ein sanftes Tagebuch für Tage, die anders liefen als geplant</title>
-<meta name="description" content="Ein Fehltritt heißt nicht, dass du in den Bach gefallen bist. ZinggumDol ist ein Tagebuch, in dem du im Gespräch mit einem kleinen Kiesel auf Tage zurückblickst, die anders liefen als geplant. Support und Kontakt." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: ein sanftes Tagebuch für Tage, die anders liefen</title>
+  <meta name="description" content="Verpasst du ein Ziel, fragt ein kleiner Kiesel zuerst, was passiert ist, und dann, wie es dir geht. Ohne Anmeldung, ohne Werbung. Drei Ziele gratis.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: ein sanftes Tagebuch für Tage, die anders liefen">
+  <meta property="og:description" content="Verpasst du ein Ziel, fragt ein kleiner Kiesel zuerst, was passiert ist, und dann, wie es dir geht. Ohne Anmeldung, ohne Werbung. Drei Ziele gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/de/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/de/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="bar">
+    <a class="brand" href="../de/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Sprache</a>
+  </header>
 
-  <nav class="langs" aria-label="Sprache">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="./" hreflang="de" lang="de" aria-current="true">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Danebengetreten heißt nicht,<br>dass du im Bach liegst</h1>
+        <p class="lead">An einem Tag, an dem du dein Ziel verpasst, spricht dich der Kiesel zuerst an. Er fragt, was passiert ist, nicht, was du falsch gemacht hast, und hält Ereignis und Gefühl auseinander.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Kostenlos im App Store laden</a><a class="try" href="#try">Sprich mit dem Kiesel ↓</a></div>
+        <p class="muted small">Gespräche, Einträge und dein Weg sind kostenlos. Keine Anmeldung, keine Werbung.</p>
+      </div>
+      <div class="phone"><img src="../img/de/01-home.jpg" alt="Danebengetreten heißt nicht, dass du im Bach liegst" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Seiten">
-    <a href="./" aria-current="page">Info &amp; Support</a>
-    <a href="./privacy.html">Datenschutzerklärung</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="App-Symbol von ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Ein Fehltritt heißt nicht, dass du in den Bach gefallen bist.<br />Ein sanftes Tagebuch für Tage, die anders liefen als geplant – im Gespräch mit einem kleinen Kiesel.</p>
+    <section class="reveal" id="try">
+      <h2>Sprich mit dem Kiesel</h2>
+      <p class="muted">Du wolltest heute Abend spazieren gehen und hast es nicht geschafft. Tipp eine Antwort an oder schreib selbst, und der Kiesel antwortet genau wie in der App.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Sprich mit dem Kiesel&quot;, &quot;lead&quot;: &quot;Du wolltest heute Abend spazieren gehen und hast es nicht geschafft. Tipp eine Antwort an oder schreib selbst, und der Kiesel antwortet genau wie in der App.&quot;, &quot;note&quot;: &quot;Gleiche Reihenfolge, gleiche Sätze wie im Gespräch in der App. Was du hier schreibst, wird nirgends gespeichert.&quot;, &quot;send&quot;: &quot;Senden&quot;, &quot;again&quot;: &quot;Noch mal von vorn&quot;, &quot;goal&quot;: &quot;Nach dem Abendessen 30 Minuten spazieren&quot;, &quot;workedSample&quot;: &quot;Der Regen hat aufgehört, also bin ich bis zum Fluss gelaufen. Mein Kopf ist frei.&quot;, &quot;factsSample&quot;: &quot;Nach Überstunden erst um 21 Uhr zu Hause. Keine Energie mehr zum Laufen.&quot;, &quot;nextSample&quot;: &quot;An langen Tagen nur eine Runde um den Block&quot;, &quot;obs&quot;: &quot;„%@“ – heute noch nichts.&quot;, &quot;yes&quot;: &quot;Stimmt, habe ich nicht gemacht&quot;, &quot;actually&quot;: &quot;Gemacht, nur nicht eingetragen&quot;, &quot;leave&quot;: &quot;Ich lasse es erst mal&quot;, &quot;facts&quot;: &quot;Was ist passiert, als du „%@“ machen wolltest?&quot;, &quot;factsPh&quot;: &quot;Kurz ist völlig in Ordnung – nur was damals passiert ist.&quot;, &quot;emotion&quot;: &quot;Verstehe. Und wie fühlst du dich jetzt?&quot;, &quot;steps&quot;: [&quot;Sehr schwer&quot;, &quot;Niedergeschlagen&quot;, &quot;Naja&quot;, &quot;Okay&quot;, &quot;Gut&quot;], &quot;sepOpen&quot;: &quot;Ich höre da Folgendes heraus.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nEs ist also „%2$@“ passiert,\nund gerade fühlst du dich „%3$@“.%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Es lief einfach nicht nach Plan. Das ist nicht deine Schuld.&quot;, &quot;ack&quot;: &quot;Ja&quot;, &quot;smaller&quot;: &quot;Wenn du morgen nur eine Sache machst, welche wäre es?&quot;, &quot;smallerPh&quot;: &quot;Je kleiner, desto besser. Selbst fünf Minuten sind gut.&quot;, &quot;analyticClose&quot;: &quot;Notiert. Morgen genau so viel.&quot;, &quot;gentleClose&quot;: &quot;Für heute reicht es.\nJetzt ist Ausruhen wichtiger, als eine Antwort zu finden.\nEs ist notiert und geht nicht verloren.&quot;, &quot;worked&quot;: &quot;Was hat geholfen?&quot;, &quot;workedPh&quot;: &quot;Ich notiere es, damit es beim nächsten Mal hilft.&quot;, &quot;reachedClose&quot;: &quot;Notiert. Wenn es das nächste Mal schwer wird, hole ich das wieder hervor.&quot;, &quot;leaveClose&quot;: &quot;Alles klar. Ich bin hier.&quot;, &quot;finish&quot;: &quot;Fertig&quot;, &quot;stop&quot;: &quot;Stopp&quot;, &quot;stages&quot;: [&quot;Was passiert ist&quot;, &quot;Gefühl&quot;, &quot;Nächster Schritt&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Laden im App Store</a>
+    <section class="problem reveal">
+      <h2>Gibst du dir selbst die Schuld, wenn ein Tag anders lief?</h2>
+      <p>Am Abend nach dem ausgefallenen Training kommt meist zuerst: „Was stimmt nicht mit mir?“ Schaut man genauer hin, gab es Überstunden, es hat geregnet, du warst völlig erledigt. ZinggumDol fragt in getrennten Schritten, was passiert ist und wie es dir geht, und legt beides nebeneinander. Wenn du siehst, dass es an den Umständen lag und nicht an deinem Willen, findest du den nächsten kleinen Schritt leichter.</p>
+    </section>
 
-  <h2>Was die App kann</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Im Gespräch mit dem Kiesel</h3>
-      <p>Der Kiesel spricht zuerst. Er erinnert sich an das, was du ihm zuletzt erzählt hast, und fragt, wie es danach weiterging. Wähle eine Antwort oder schreibe selbst.</p>
-    </div>
-    <div class="card">
-      <h3>Einfach aussprechen</h3>
-      <p>An Tagen, an denen Schreiben zu viel ist, sprichst du einfach. Die Sprache wird auf deinem Gerät erkannt, und auf unterstützten Geräten wird das Gesagte so geordnet, dass es sich gut liest.</p>
-    </div>
-    <div class="card">
-      <h3>Zurückgelegter Weg</h3>
-      <p>Jede Woche reiht sich zu Trittsteinen aneinander. Auch Tage, auf die du nicht getreten bist, bleiben dort – nichts wird gelöscht.</p>
-    </div>
-    <div class="card">
-      <h3>Was du hinterlassen hast</h3>
-      <p>Sieh dir nach Datum an, was passiert ist, wie du dich gefühlt hast und was du als Nächstes ausprobieren wolltest.</p>
-    </div>
-    <div class="card">
-      <h3>Widget und Erinnerungen</h3>
-      <p>Ein Satz vom Kiesel auf dem Home-Bildschirm und eine sanfte Erinnerung zu der Zeit, die du wählst, um gemeinsam auf den Tag zu schauen.</p>
-    </div>
-    <div class="card">
-      <h3>Nur für dich</h3>
-      <p>Keine Registrierung. Deine Einträge liegen nur auf deinem Gerät und in deinem eigenen iCloud, und die App lässt sich mit einem Code sperren.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Der Kiesel spricht dich zuerst an</h2>
+        <p>Leg ein Ziel fest, und der Kiesel behält die Tage im Blick, an denen es geklappt hat und an denen du hängen geblieben bist. Rutscht ein Tag durch, fragt er „Was ist passiert?“ statt „Warum nicht?“, und er erinnert sich an das, was du ihm letztes Mal erzählt hast.<br>Wenn dir Schreiben zu viel ist, sag es einfach. Die Sprache wird auf deinem Gerät erkannt, Aufnahmen werden nie gespeichert.</p>
+      </div>
+      <div class="phone"><img src="../img/de/02-conversation.jpg" alt="Der Kiesel spricht dich zuerst an" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Bildschirme</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Der Kiesel begrüßt dich zuerst" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Ein Gespräch, das beim letzten Eintrag weitergeht" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="Die Woche als Trittsteine" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Deine Notizen nach Datum" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Deine Tage als Trittsteine</h2>
+        <p>Jede Woche liegt als Reihe von Trittsteinen vor dir. Auch die Tage, an denen du nicht drauf getreten bist, bleiben liegen; gelöscht wird nichts.<br>Selbst mit einer Lücke siehst du: Der Weg geht weiter.</p>
+      </div>
+      <div class="phone"><img src="../img/de/03-path.jpg" alt="Deine Tage als Trittsteine" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Einmaliger Kauf, kein Abo. Behalte mehr als drei Ziele, wähle aus sechs Kiesel-Oberflächen und exportiere deine Einträge als Textdatei.</p>
-  <p>Auf einem neuen Gerät oder nach der Neuinstallation tippst du auf Einstellungen ▸ Käufe wiederherstellen.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Lies wieder, was du geschrieben hast</h2>
+        <p>Was passiert ist, wie du dich gefühlt hast und was du als Nächstes probierst, sammelt sich nach Datum. Schau dir einen Tag an, an dem du ähnlich festhingst, und du siehst, was geholfen hat.<br>Ein Widget zeigt dir auf dem Home-Bildschirm ein Wort vom Kiesel, und eine Erinnerung zur gewünschten Uhrzeit lädt dich ein, auf den Tag zurückzublicken.</p>
+      </div>
+      <div class="phone"><img src="../img/de/04-records.jpg" alt="Lies wieder, was du geschrieben hast" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Du kannst in der App auch Einstellungen ▸ E-Mail an den Entwickler nutzen.</p>
-  </div>
+    <section class="reveal">
+      <h2>In drei Schritten startklar</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Ein Ziel aufschreiben</h3><p>Etwa „Nach dem Abendessen 30 Minuten spazieren“.</p></li>
+<li class="card"><span class="n">2</span><h3>Am Abend die App öffnen</h3><p>Der Kiesel fragt, wie dein Tag war. Mit einer Erinnerung vergisst du es nicht.</p></li>
+<li class="card"><span class="n">3</span><h3>Antippen oder selbst schreiben</h3><p>Mit <code>Ich lasse es erst mal</code> kannst du jederzeit aufhören.</p></li></ol>
+    </section>
 
-  <h2>Datenschutz</h2>
-  <p>ZinggumDol sendet niemals, was du schreibst, an den Entwickler. Details findest du in der <a href="./privacy.html">Datenschutzerklärung</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>So verläuft ein Gespräch</h2>
+      <div class="card table">
+        <dl><div><dt>Was passiert ist</dt><dd>Nur die Fakten: was dazwischenkam</dd></div><div><dt>Gefühl</dt><dd>Wie du dich gerade fühlst, auf einer Skala mit fünf Stufen</dd></div><div><dt>Rückblick</dt><dd>Der Kiesel gibt dir Ereignis und Gefühl getrennt zurück</dd></div><div><dt>Nächster Schritt</dt><dd>Du wählst selbst etwas Kleines, fünf Minuten reichen</dd></div><div><dt>Abschluss</dt><dd>An einem richtig schweren Tag fragt er nichts mehr und schlägt eine Pause vor</dd></div></dl>
+      </div>
+      <p class="muted">Du kannst jederzeit aussteigen, und was du bis dahin gesagt hast, bleibt erhalten.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Datenschutzerklärung</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Reden und Schreiben sind kostenlos. Pro gibt es, wenn du mehr willst.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Kostenlos</h3>
+          <ul><li>Alle Gespräche mit dem Kiesel</li><li>Bis zu drei Ziele</li><li>Sprechen statt tippen</li><li>Dein Weg und alles, was du geschrieben hast</li><li>Widget und tägliche Erinnerung</li><li>Sperre mit Code</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>So viele Ziele, wie du willst</li><li>Sechs Kiesel-Oberflächen zur Auswahl</li><li>Einträge als Textdatei exportieren</li></ul>
+          <p class="muted">Einmal kaufen, für immer behalten. Kein Abo.</p>
+        </div>
+      </div>
+      <p class="muted">Mitten im Gespräch taucht nie ein Kaufbildschirm auf. Auf einem neuen Gerät oder nach einer Neuinstallation tippe in den Einstellungen auf Käufe wiederherstellen.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Häufige Fragen</h2>
+      <div class="faq"><details><summary>Muss ich jeden verpassten Tag erklären?</summary><p>Nein. Tipp jederzeit auf <code>Ich lasse es erst mal</code>, und das Gespräch endet sofort. Was du bis dahin gesagt hast, bleibt erhalten, sodass du später weitermachen kannst.</p></details>
+<details><summary>Ich habe es gemacht, aber die App sagt, ich hätte es nicht.</summary><p>Tipp auf <code>Gemacht, nur nicht eingetragen</code>. Der Kiesel nimmt die Korrektur an und fragt stattdessen, was geholfen hat. Was funktioniert hat, merkt er sich und holt es wieder hervor, wenn du das nächste Mal festhängst.</p></details>
+<details><summary>Wohin geht das, was ich laut sage?</summary><p>Deine Sprache wird auf dem Gerät in Text umgewandelt, die Aufnahme wird nie gespeichert. Auf unterstützten Geräten werden deine Sätze leserlicher geglättet, auch das passiert auf dem Gerät.</p></details>
+<details><summary>Wie viele Ziele kann ich haben?</summary><p>Drei kostenlos. Bist du mit einem fertig, mach unter Zurückgelegter Weg <code>Loslassen</code>, um Platz zu schaffen. Für mehr als drei brauchst du ZinggumDol Pro.</p></details>
+<details><summary>Ist ZinggumDol Pro ein Abo?</summary><p>Nein. Du zahlst einmal und behältst es. Auf einem neuen Gerät oder nach einer Neuinstallation tippe in den Einstellungen auf <code>Käufe wiederherstellen</code>.</p></details>
+<details><summary>Kann jemand anderes mein Tagebuch lesen?</summary><p>Es gibt kein Konto. Deine Einträge liegen nur auf deinem Gerät und in deiner eigenen iCloud, und in den Einstellungen kannst du die App mit einem Code sperren. Was du schreibst, wird nie an den Entwickler geschickt. Anonyme Nutzungsstatistiken kannst du in den Einstellungen ausschalten.</p></details>
+<details><summary>Wie ändere ich die Uhrzeit der Erinnerung?</summary><p>Unter <code>Tägliche Erinnerung</code> in den Einstellungen schaltest du sie ein oder aus und wählst die Uhrzeit.</p></details>
+<details><summary>Erinnert mich der Kiesel auch an frühere Erfolge?</summary><p>Ja. Was dir früher geholfen hat, merkt er sich, und an einem schweren Tag erinnert er dich an etwas, das du kürzlich geschafft hast.</p></details>
+<details><summary>Wie lösche ich alles?</summary><p>Tipp in den Einstellungen auf <code>Alle Einträge löschen</code>. Ziele und Einträge sind dann endgültig weg, auch auf anderen Geräten, die über iCloud verbunden sind. Einstellungen und Käufe bleiben. Mit Pro kannst du vorher mit <code>Einträge exportieren</code> eine Kopie sichern.</p></details>
+<details><summary>Wie erreiche ich euch?</summary><p>Über „Feedback senden“ in den Einstellungen der App oder per Mail an die Adresse unten.</p></details></div>
+      <p class="contact">Fragen oder Feedback? Schreib an <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Heute danebengetreten?<br>Der nächste Stein liegt noch da</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Kostenlos im App Store laden</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Sprache"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de" aria-current="page">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Datenschutzerklärung</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: jurnal lembut untuk hari-hari yang tak sesuai rencana",
+  "description": "Saat target terlewat, kerikil kecil menyapa lebih dulu: apa yang terjadi, lalu bagaimana perasaan Anda. Tanpa daftar, tanpa iklan. Tiga target gratis.",
+  "hero": {
+    "headline": "Salah langkah bukan berarti\njatuh ke sungai",
+    "lead": "Di hari target Anda terlewat, kerikil yang menyapa lebih dulu. Ia bertanya apa yang terjadi, bukan apa kesalahan Anda, lalu mengembalikan kejadian dan perasaan Anda secara terpisah.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Mengobrol, mencatat, dan melihat jalan yang dilalui itu gratis. Tanpa daftar, tanpa iklan."
+  },
+  "demo": {
+    "title": "Mengobrol dengan kerikil",
+    "lead": "Hari ini Anda berniat jalan sore, tapi tidak jadi. Ketuk jawaban atau tulis sendiri, dan kerikil membalas persis seperti di aplikasi.",
+    "note": "Urutan dan kalimat yang sama dengan percakapan di aplikasi. Apa pun yang Anda ketik di sini tidak disimpan.",
+    "send": "Kirim",
+    "again": "Mulai lagi",
+    "goal": "Jalan kaki 30 menit setelah makan malam",
+    "workedSample": "Hujannya reda, jadi aku jalan sampai ke sungai. Pikiran jadi jernih.",
+    "factsSample": "Lembur, sampai rumah jam 9 malam. Sudah nggak ada tenaga buat jalan.",
+    "nextSample": "Kalau pulang malam, cukup satu putaran keliling kompleks",
+    "obs": "«%@» hari ini belum ada kabar.",
+    "yes": "Ya, aku tidak melakukannya",
+    "actually": "Sudah kulakukan, tapi tidak kucatat",
+    "leave": "Aku mau biarkan dulu",
+    "facts": "Saat Anda berniat melakukan «%@», apa yang terjadi?",
+    "factsPh": "Singkat pun tidak apa-apa, cukup apa yang terjadi saat itu.",
+    "emotion": "Begitu ya. Lalu, bagaimana perasaan Anda sekarang?",
+    "steps": [
+      "Sangat berat",
+      "Agak murung",
+      "Biasa saja",
+      "Baik-baik saja",
+      "Baik"
+    ],
+    "sepOpen": "Yang saya tangkap begini.",
+    "sepTpl": "%1$@\nJadi «%2$@» terjadi,\ndan sekarang Anda merasa «%3$@»%4$@.\n\n%5$@",
+    "sepClose": "Keadaannya saja yang tidak mendukung. Itu bukan salah Anda.",
+    "ack": "Ya",
+    "smaller": "Kalau besok hanya melakukan satu hal, apa itu?",
+    "smallerPh": "Makin kecil makin baik. Lima menit pun tidak apa-apa.",
+    "analyticClose": "Sudah dicatat. Besok cukup segini saja.",
+    "gentleClose": "Cukup sampai di sini untuk hari ini.\nSaat ini beristirahat lebih penting daripada mencari jawaban.\nSudah dicatat, tidak akan hilang.",
+    "worked": "Apa yang membantu?",
+    "workedPh": "Saya catat agar bisa dipakai lagi lain kali.",
+    "reachedClose": "Sudah saya catat. Lain kali saat terasa berat, akan saya ingatkan lagi.",
+    "leaveClose": "Baik. Saya di sini.",
+    "finish": "Selesai",
+    "stop": "Cukup",
+    "stages": [
+      "Yang terjadi",
+      "Perasaan",
+      "Langkah berikutnya"
+    ]
+  },
+  "problem": {
+    "title": "Saat hari tak berjalan sesuai rencana, Anda menyalahkan diri sendiri?",
+    "text": "Di malam Anda melewatkan olahraga, pikiran pertama biasanya \"aku ini kenapa, sih?\". Kalau dilihat lebih dekat, ada lembur, hujan turun, dan Anda kelelahan. ZinggumDol menanyakan apa yang terjadi dan bagaimana perasaan Anda di giliran terpisah, lalu meletakkan keduanya berdampingan. Begitu Anda melihat penyebabnya keadaan, bukan tekad, langkah kecil berikutnya lebih mudah ditemukan."
+  },
+  "features": [
+    {
+      "title": "Kerikil menyapa lebih dulu",
+      "text": "Tetapkan target, dan kerikil akan memperhatikan hari-hari Anda berhasil dan hari-hari Anda tersendat. Saat satu hari terlewat, ia bertanya \"apa yang terjadi?\", bukan \"kenapa tidak?\", dan ia ingat cerita Anda sebelumnya.\nKalau sedang berat untuk menulis, ucapkan saja. Suara dikenali di perangkat Anda dan rekamannya tidak pernah disimpan.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Hari-hari Anda seperti batu loncatan",
+      "text": "Setiap minggu terbentang sebagai deretan batu. Hari yang tidak Anda pijak tetap ada di sana; tidak ada yang dihapus.\nMeski ada satu dua yang kosong, Anda bisa melihat jalannya terus berlanjut.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Baca lagi yang Anda tulis",
+      "text": "Apa yang terjadi, bagaimana perasaan Anda, dan apa yang akan dicoba berikutnya terkumpul menurut tanggal. Baca lagi hari ketika Anda tersendat dengan cara yang sama, dan lihat apa yang berhasil.\nWidget menampilkan sepatah kata dari kerikil di Layar Utama, dan pengingat pada jam pilihan Anda mengajak menengok hari itu.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Tulis satu target",
+        "text": "Misalnya \"Jalan kaki 30 menit setelah makan malam\"."
+      },
+      {
+        "title": "Buka aplikasi di akhir hari",
+        "text": "Kerikil menanyakan bagaimana hari Anda. Dengan pengingat, Anda tidak akan lupa."
+      },
+      {
+        "title": "Ketuk atau tulis jawaban",
+        "text": "Anda bisa berhenti kapan saja dengan `Aku mau biarkan dulu`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Begini alur percakapannya",
+    "rows": [
+      [
+        "Yang terjadi",
+        "Hanya fakta: apa yang menghalangi"
+      ],
+      [
+        "Perasaan",
+        "Bagaimana perasaan Anda sekarang, dalam skala lima"
+      ],
+      [
+        "Melihat kembali",
+        "Kerikil mengembalikan kejadian dan perasaan Anda secara terpisah"
+      ],
+      [
+        "Langkah berikutnya",
+        "Anda sendiri yang memilih langkah kecil, lima menit sudah cukup"
+      ],
+      [
+        "Penutup",
+        "Di hari yang benar-benar berat, ia tidak bertanya lagi dan mengajak beristirahat"
+      ]
+    ],
+    "note": "Anda bisa berhenti kapan saja, dan yang sudah Anda katakan tetap tersimpan."
+  },
+  "pricing": {
+    "title": "Mengobrol dan mencatat gratis. Pro kalau ingin lebih.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Semua percakapan dengan kerikil",
+        "Hingga tiga target",
+        "Bicara alih-alih mengetik",
+        "Jalan yang Dilalui dan semua tulisan Anda",
+        "Widget dan pengingat harian",
+        "Kunci dengan kode sandi"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Target sebanyak yang Anda mau",
+        "Pilihan enam tekstur kerikil",
+        "Ekspor catatan sebagai file teks"
+      ],
+      "note": "Sekali beli, selamanya milik Anda. Bukan langganan."
+    },
+    "note": "Layar pembayaran tidak pernah muncul di tengah percakapan. Di perangkat baru atau setelah instal ulang, ketuk Pulihkan Pembelian di Pengaturan."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Apakah saya harus menjelaskan setiap hari yang terlewat?",
+        "a": "Tidak. Ketuk `Aku mau biarkan dulu` kapan saja dan percakapan langsung selesai. Yang sudah Anda katakan tersimpan, jadi bisa dilanjutkan nanti."
+      },
+      {
+        "q": "Saya sudah melakukannya, tapi aplikasi bilang belum.",
+        "a": "Ketuk `Sudah kulakukan, tapi tidak kucatat`. Kerikil menerima koreksi itu dan malah bertanya apa yang membantu. Yang berhasil disimpan, dan akan diingatkan lagi saat Anda tersendat berikutnya."
+      },
+      {
+        "q": "Ke mana perginya yang saya ucapkan?",
+        "a": "Suara Anda diubah menjadi teks di perangkat dan rekamannya tidak pernah disimpan. Di perangkat yang didukung, kalimat Anda juga dirapikan agar mudah dibaca, itu pun di perangkat."
+      },
+      {
+        "q": "Berapa banyak target yang bisa saya buat?",
+        "a": "Tiga gratis. Kalau sudah selesai dengan satu target, gunakan `Lepaskan` di Jalan yang Dilalui untuk mengosongkan tempat. Untuk lebih dari tiga, Anda perlu ZinggumDol Pro."
+      },
+      {
+        "q": "Apakah ZinggumDol Pro berlangganan?",
+        "a": "Tidak. Anda membayar sekali dan menjadi milik Anda. Di perangkat baru atau setelah instal ulang, ketuk `Pulihkan Pembelian` di Pengaturan."
+      },
+      {
+        "q": "Bisakah orang lain membaca jurnal saya?",
+        "a": "Tidak ada akun. Catatan Anda hanya ada di perangkat dan iCloud milik Anda, dan Anda bisa mengunci aplikasi dengan kode sandi di Pengaturan. Tulisan Anda tidak pernah dikirim ke pengembang. Statistik penggunaan anonim juga bisa dimatikan di Pengaturan."
+      },
+      {
+        "q": "Bagaimana cara mengubah jam pengingat?",
+        "a": "Di `Pengingat harian` pada Pengaturan, Anda bisa menyalakan, mematikan, dan memilih jamnya."
+      },
+      {
+        "q": "Apakah kerikil juga mengingatkan keberhasilan saya?",
+        "a": "Ya. Ia mengingat apa yang membantu Anda, dan di hari yang berat ia mengingatkan sesuatu yang baru-baru ini berhasil Anda lakukan."
+      },
+      {
+        "q": "Bagaimana menghapus semuanya?",
+        "a": "Ketuk `Hapus semua catatan` di Pengaturan. Target dan catatan hilang selamanya, termasuk di perangkat lain yang tersambung lewat iCloud. Pengaturan dan pembelian tetap ada. Dengan Pro, Anda bisa menyimpan salinan dulu lewat `Ekspor catatan`."
+      },
+      {
+        "q": "Bagaimana cara menghubungi Anda?",
+        "a": "Lewat \"Kirim Masukan\" di Pengaturan aplikasi, atau kirim email ke alamat di bawah."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Salah langkah hari ini?\nBatu berikutnya masih di sana",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Lewati ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Tulis ke {email}."
+  }
+}

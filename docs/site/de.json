@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: ein sanftes Tagebuch für Tage, die anders liefen",
+  "description": "Verpasst du ein Ziel, fragt ein kleiner Kiesel zuerst, was passiert ist, und dann, wie es dir geht. Ohne Anmeldung, ohne Werbung. Drei Ziele gratis.",
+  "hero": {
+    "headline": "Danebengetreten heißt nicht,\ndass du im Bach liegst",
+    "lead": "An einem Tag, an dem du dein Ziel verpasst, spricht dich der Kiesel zuerst an. Er fragt, was passiert ist, nicht, was du falsch gemacht hast, und hält Ereignis und Gefühl auseinander.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Gespräche, Einträge und dein Weg sind kostenlos. Keine Anmeldung, keine Werbung."
+  },
+  "demo": {
+    "title": "Sprich mit dem Kiesel",
+    "lead": "Du wolltest heute Abend spazieren gehen und hast es nicht geschafft. Tipp eine Antwort an oder schreib selbst, und der Kiesel antwortet genau wie in der App.",
+    "note": "Gleiche Reihenfolge, gleiche Sätze wie im Gespräch in der App. Was du hier schreibst, wird nirgends gespeichert.",
+    "send": "Senden",
+    "again": "Noch mal von vorn",
+    "goal": "Nach dem Abendessen 30 Minuten spazieren",
+    "workedSample": "Der Regen hat aufgehört, also bin ich bis zum Fluss gelaufen. Mein Kopf ist frei.",
+    "factsSample": "Nach Überstunden erst um 21 Uhr zu Hause. Keine Energie mehr zum Laufen.",
+    "nextSample": "An langen Tagen nur eine Runde um den Block",
+    "obs": "„%@“ – heute noch nichts.",
+    "yes": "Stimmt, habe ich nicht gemacht",
+    "actually": "Gemacht, nur nicht eingetragen",
+    "leave": "Ich lasse es erst mal",
+    "facts": "Was ist passiert, als du „%@“ machen wolltest?",
+    "factsPh": "Kurz ist völlig in Ordnung – nur was damals passiert ist.",
+    "emotion": "Verstehe. Und wie fühlst du dich jetzt?",
+    "steps": [
+      "Sehr schwer",
+      "Niedergeschlagen",
+      "Naja",
+      "Okay",
+      "Gut"
+    ],
+    "sepOpen": "Ich höre da Folgendes heraus.",
+    "sepTpl": "%1$@\nEs ist also „%2$@“ passiert,\nund gerade fühlst du dich „%3$@“.%4$@\n\n%5$@",
+    "sepClose": "Es lief einfach nicht nach Plan. Das ist nicht deine Schuld.",
+    "ack": "Ja",
+    "smaller": "Wenn du morgen nur eine Sache machst, welche wäre es?",
+    "smallerPh": "Je kleiner, desto besser. Selbst fünf Minuten sind gut.",
+    "analyticClose": "Notiert. Morgen genau so viel.",
+    "gentleClose": "Für heute reicht es.\nJetzt ist Ausruhen wichtiger, als eine Antwort zu finden.\nEs ist notiert und geht nicht verloren.",
+    "worked": "Was hat geholfen?",
+    "workedPh": "Ich notiere es, damit es beim nächsten Mal hilft.",
+    "reachedClose": "Notiert. Wenn es das nächste Mal schwer wird, hole ich das wieder hervor.",
+    "leaveClose": "Alles klar. Ich bin hier.",
+    "finish": "Fertig",
+    "stop": "Stopp",
+    "stages": [
+      "Was passiert ist",
+      "Gefühl",
+      "Nächster Schritt"
+    ]
+  },
+  "problem": {
+    "title": "Gibst du dir selbst die Schuld, wenn ein Tag anders lief?",
+    "text": "Am Abend nach dem ausgefallenen Training kommt meist zuerst: „Was stimmt nicht mit mir?“ Schaut man genauer hin, gab es Überstunden, es hat geregnet, du warst völlig erledigt. ZinggumDol fragt in getrennten Schritten, was passiert ist und wie es dir geht, und legt beides nebeneinander. Wenn du siehst, dass es an den Umständen lag und nicht an deinem Willen, findest du den nächsten kleinen Schritt leichter."
+  },
+  "features": [
+    {
+      "title": "Der Kiesel spricht dich zuerst an",
+      "text": "Leg ein Ziel fest, und der Kiesel behält die Tage im Blick, an denen es geklappt hat und an denen du hängen geblieben bist. Rutscht ein Tag durch, fragt er „Was ist passiert?“ statt „Warum nicht?“, und er erinnert sich an das, was du ihm letztes Mal erzählt hast.\nWenn dir Schreiben zu viel ist, sag es einfach. Die Sprache wird auf deinem Gerät erkannt, Aufnahmen werden nie gespeichert.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Deine Tage als Trittsteine",
+      "text": "Jede Woche liegt als Reihe von Trittsteinen vor dir. Auch die Tage, an denen du nicht drauf getreten bist, bleiben liegen; gelöscht wird nichts.\nSelbst mit einer Lücke siehst du: Der Weg geht weiter.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Lies wieder, was du geschrieben hast",
+      "text": "Was passiert ist, wie du dich gefühlt hast und was du als Nächstes probierst, sammelt sich nach Datum. Schau dir einen Tag an, an dem du ähnlich festhingst, und du siehst, was geholfen hat.\nEin Widget zeigt dir auf dem Home-Bildschirm ein Wort vom Kiesel, und eine Erinnerung zur gewünschten Uhrzeit lädt dich ein, auf den Tag zurückzublicken.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "Ein Ziel aufschreiben",
+        "text": "Etwa „Nach dem Abendessen 30 Minuten spazieren“."
+      },
+      {
+        "title": "Am Abend die App öffnen",
+        "text": "Der Kiesel fragt, wie dein Tag war. Mit einer Erinnerung vergisst du es nicht."
+      },
+      {
+        "title": "Antippen oder selbst schreiben",
+        "text": "Mit `Ich lasse es erst mal` kannst du jederzeit aufhören."
+      }
+    ]
+  },
+  "reference": {
+    "title": "So verläuft ein Gespräch",
+    "rows": [
+      [
+        "Was passiert ist",
+        "Nur die Fakten: was dazwischenkam"
+      ],
+      [
+        "Gefühl",
+        "Wie du dich gerade fühlst, auf einer Skala mit fünf Stufen"
+      ],
+      [
+        "Rückblick",
+        "Der Kiesel gibt dir Ereignis und Gefühl getrennt zurück"
+      ],
+      [
+        "Nächster Schritt",
+        "Du wählst selbst etwas Kleines, fünf Minuten reichen"
+      ],
+      [
+        "Abschluss",
+        "An einem richtig schweren Tag fragt er nichts mehr und schlägt eine Pause vor"
+      ]
+    ],
+    "note": "Du kannst jederzeit aussteigen, und was du bis dahin gesagt hast, bleibt erhalten."
+  },
+  "pricing": {
+    "title": "Reden und Schreiben sind kostenlos. Pro gibt es, wenn du mehr willst.",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Alle Gespräche mit dem Kiesel",
+        "Bis zu drei Ziele",
+        "Sprechen statt tippen",
+        "Dein Weg und alles, was du geschrieben hast",
+        "Widget und tägliche Erinnerung",
+        "Sperre mit Code"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "So viele Ziele, wie du willst",
+        "Sechs Kiesel-Oberflächen zur Auswahl",
+        "Einträge als Textdatei exportieren"
+      ],
+      "note": "Einmal kaufen, für immer behalten. Kein Abo."
+    },
+    "note": "Mitten im Gespräch taucht nie ein Kaufbildschirm auf. Auf einem neuen Gerät oder nach einer Neuinstallation tippe in den Einstellungen auf Käufe wiederherstellen."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Muss ich jeden verpassten Tag erklären?",
+        "a": "Nein. Tipp jederzeit auf `Ich lasse es erst mal`, und das Gespräch endet sofort. Was du bis dahin gesagt hast, bleibt erhalten, sodass du später weitermachen kannst."
+      },
+      {
+        "q": "Ich habe es gemacht, aber die App sagt, ich hätte es nicht.",
+        "a": "Tipp auf `Gemacht, nur nicht eingetragen`. Der Kiesel nimmt die Korrektur an und fragt stattdessen, was geholfen hat. Was funktioniert hat, merkt er sich und holt es wieder hervor, wenn du das nächste Mal festhängst."
+      },
+      {
+        "q": "Wohin geht das, was ich laut sage?",
+        "a": "Deine Sprache wird auf dem Gerät in Text umgewandelt, die Aufnahme wird nie gespeichert. Auf unterstützten Geräten werden deine Sätze leserlicher geglättet, auch das passiert auf dem Gerät."
+      },
+      {
+        "q": "Wie viele Ziele kann ich haben?",
+        "a": "Drei kostenlos. Bist du mit einem fertig, mach unter Zurückgelegter Weg `Loslassen`, um Platz zu schaffen. Für mehr als drei brauchst du ZinggumDol Pro."
+      },
+      {
+        "q": "Ist ZinggumDol Pro ein Abo?",
+        "a": "Nein. Du zahlst einmal und behältst es. Auf einem neuen Gerät oder nach einer Neuinstallation tippe in den Einstellungen auf `Käufe wiederherstellen`."
+      },
+      {
+        "q": "Kann jemand anderes mein Tagebuch lesen?",
+        "a": "Es gibt kein Konto. Deine Einträge liegen nur auf deinem Gerät und in deiner eigenen iCloud, und in den Einstellungen kannst du die App mit einem Code sperren. Was du schreibst, wird nie an den Entwickler geschickt. Anonyme Nutzungsstatistiken kannst du in den Einstellungen ausschalten."
+      },
+      {
+        "q": "Wie ändere ich die Uhrzeit der Erinnerung?",
+        "a": "Unter `Tägliche Erinnerung` in den Einstellungen schaltest du sie ein oder aus und wählst die Uhrzeit."
+      },
+      {
+        "q": "Erinnert mich der Kiesel auch an frühere Erfolge?",
+        "a": "Ja. Was dir früher geholfen hat, merkt er sich, und an einem schweren Tag erinnert er dich an etwas, das du kürzlich geschafft hast."
+      },
+      {
+        "q": "Wie lösche ich alles?",
+        "a": "Tipp in den Einstellungen auf `Alle Einträge löschen`. Ziele und Einträge sind dann endgültig weg, auch auf anderen Geräten, die über iCloud verbunden sind. Einstellungen und Käufe bleiben. Mit Pro kannst du vorher mit `Einträge exportieren` eine Kopie sichern."
+      },
+      {
+        "q": "Wie erreiche ich euch?",
+        "a": "Über „Feedback senden“ in den Einstellungen der App oder per Mail an die Adresse unten."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Heute danebengetreten?\nDer nächste Stein liegt noch da",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fragen oder Feedback? Schreib an {email}."
+  }
+}

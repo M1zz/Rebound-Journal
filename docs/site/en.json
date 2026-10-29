@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: a gentle journal for the days that go wrong",
+  "description": "Miss a goal and a little pebble speaks first: it asks what happened, then how you feel, one at a time. No sign-up, no ads. Three goals are free.",
+  "hero": {
+    "headline": "Missing a step\ndoesn't mean you fell in",
+    "lead": "On a day you miss your goal, the pebble speaks first. It asks what happened, not what you did wrong, then hands back the facts and your feelings as two separate things.",
+    "cta": "Get it free on the App Store",
+    "note": "Talking, journaling and your path are free. No sign-up, no ads."
+  },
+  "demo": {
+    "title": "Talk to the pebble",
+    "lead": "You meant to go for an evening walk today and didn't. Tap a reply or type your own, and the pebble answers just as it does in the app.",
+    "note": "Same order and same lines as the conversation in the app. Nothing you type here is saved anywhere.",
+    "send": "Send",
+    "again": "Start over",
+    "goal": "Walk 30 minutes after dinner",
+    "workedSample": "The rain stopped, so I walked all the way to the river. My head feels clear.",
+    "factsSample": "Got home at 9 after working late. No energy left to walk.",
+    "nextSample": "On late days, just one lap around the block",
+    "obs": "'%@' — not yet today.",
+    "yes": "Right, I didn't",
+    "actually": "I did it, just didn't log it",
+    "leave": "I'd rather leave it for now",
+    "facts": "When you meant to do '%@', what happened?",
+    "factsPh": "Short is fine. Just what happened.",
+    "emotion": "I see. And how are you feeling now?",
+    "steps": [
+      "Really hard",
+      "Low",
+      "So-so",
+      "Okay",
+      "Good"
+    ],
+    "sepOpen": "Here's what I'm hearing.",
+    "sepTpl": "%1$@\nSo '%2$@' happened,\nand right now you feel '%3$@'.%4$@\n\n%5$@",
+    "sepClose": "Things didn't go your way. That's not on you.",
+    "ack": "Yes",
+    "smaller": "If you did just one thing tomorrow, what would it be?",
+    "smallerPh": "Smaller is better. Five minutes is plenty.",
+    "analyticClose": "Written down. Just this much tomorrow.",
+    "gentleClose": "Let's stop here for today.\nResting beats looking for answers right now.\nIt's written down, so it won't disappear.",
+    "worked": "What helped?",
+    "workedPh": "I'll keep this so you can use it again.",
+    "reachedClose": "Got it down. Next time things get tough, I'll bring this back up.",
+    "leaveClose": "All right. I'll be here.",
+    "finish": "Done",
+    "stop": "Stop",
+    "stages": [
+      "What happened",
+      "Feeling",
+      "Next step"
+    ]
+  },
+  "problem": {
+    "title": "When a day doesn't go to plan, do you blame yourself?",
+    "text": "On a night you skipped the workout, the first thought is usually \"what's wrong with me?\" Look closer and there was a late shift, it was raining, you were worn out. ZinggumDol asks about what happened and how you feel in separate turns, then lays the two side by side. Once you see it was the circumstances and not your willpower, the next small step gets easier to find."
+  },
+  "features": [
+    {
+      "title": "The pebble speaks first",
+      "text": "Set a goal and the pebble keeps track of the days you made it and the days you got stuck. When a day slips by, it asks \"what happened?\" instead of \"why didn't you?\", and it remembers what you told it last time so it can ask how things went since.\nOn days when writing feels like too much, just say it. Speech is recognized on your device and recordings are never saved.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Your days laid out as stepping stones",
+      "text": "Each week is a row of stepping stones. The days you missed stay there too; nothing gets wiped away.\nEven with a gap or two, you can see the path still carries on.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Come back to what you wrote",
+      "text": "What happened, how you felt and what you'll try next pile up in date order. Look back at a day you got stuck in the same way and you'll see what worked.\nA Home Screen widget shows a word from the pebble, and a reminder at a time you pick nudges you to look back on the day.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to start",
+    "items": [
+      {
+        "title": "Write down one goal",
+        "text": "Something like \"Walk 30 minutes after dinner\"."
+      },
+      {
+        "title": "Open the app at the end of the day",
+        "text": "The pebble asks how today went. Set a reminder so you don't forget."
+      },
+      {
+        "title": "Tap or type a reply",
+        "text": "You can stop any time with `I'd rather leave it for now`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "How a conversation goes",
+    "rows": [
+      [
+        "What happened",
+        "Just the facts of what got in the way"
+      ],
+      [
+        "Feeling",
+        "Pick how you feel right now from five steps"
+      ],
+      [
+        "Looking back",
+        "The pebble hands back what happened and how you feel, kept apart"
+      ],
+      [
+        "Next step",
+        "You choose something small, five minutes is plenty"
+      ],
+      [
+        "Wrap-up",
+        "On a really low day it asks nothing more and suggests a rest"
+      ]
+    ],
+    "note": "You can leave at any point, and whatever you've said so far is kept."
+  },
+  "pricing": {
+    "title": "Talking and journaling are free. Pro is there if you want more.",
+    "free": {
+      "name": "Free",
+      "items": [
+        "Every conversation with the pebble",
+        "Up to three goals",
+        "Speak instead of typing",
+        "Your path and everything you've written",
+        "Home Screen widget and daily reminders",
+        "Passcode lock"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "As many goals as you like",
+        "Choose from six pebble finishes",
+        "Export your records as a text file"
+      ],
+      "note": "Buy once, keep it. Not a subscription."
+    },
+    "note": "No payment screen ever pops up in the middle of a conversation. On a new device or after reinstalling, tap Restore Purchase in Settings."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Do I have to explain every missed day?",
+        "a": "No. Tap `I'd rather leave it for now` at any point and the conversation ends right there. What you've said so far is kept, so you can pick it up later."
+      },
+      {
+        "q": "I actually did it, but the app says I didn't.",
+        "a": "Tap `I did it, just didn't log it`. The pebble takes the correction and asks what helped instead. What worked gets saved, and it brings it back the next time you get stuck."
+      },
+      {
+        "q": "Where does what I say out loud go?",
+        "a": "Your speech is turned into text on your device and the recording is never saved. On supported devices your words are tidied up so they read more easily, and that happens on the device too."
+      },
+      {
+        "q": "How many goals can I have?",
+        "a": "Three for free. When you're done with one, use `Set Down` in The way you've come to free up a spot. For more than three, you'll need ZinggumDol Pro."
+      },
+      {
+        "q": "Is ZinggumDol Pro a subscription?",
+        "a": "No. You pay once and keep it. On a new device or after reinstalling, tap `Restore Purchase` in Settings."
+      },
+      {
+        "q": "Can anyone else read my journal?",
+        "a": "There's no account. Your records live only on your device and in your own iCloud, and you can lock the app with a passcode in Settings. What you write is never sent to the developer. You can also turn off anonymous usage statistics in Settings."
+      },
+      {
+        "q": "How do I change the reminder time?",
+        "a": "Go to `Daily reminders` in Settings to turn them on or off and pick a time."
+      },
+      {
+        "q": "Does the pebble ever bring up my old wins?",
+        "a": "Yes. When you mention something that worked before, the pebble remembers it, and on a hard day it reminds you of something you managed recently."
+      },
+      {
+        "q": "How do I delete everything?",
+        "a": "Tap `Delete All Records` in Settings. Your goals and records are gone for good, including on other devices synced through iCloud. Your settings and purchases stay. With Pro, you can save a copy with `Export records` first."
+      },
+      {
+        "q": "How do I get in touch?",
+        "a": "Use Send Feedback in the app's Settings, or email the address below."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Missed a step today?\nThe next stone is still there",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Questions or feedback? Write to {email}."
+  }
+}

@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — un journal tout doux pour les jours qui n’ont pas tourné comme prévu</title>
-<meta name="description" content="Un faux pas ne veut pas dire que vous êtes tombé dans le ruisseau. ZinggumDol est un journal où l’on revient sur les jours qui n’ont pas tourné comme prévu en parlant avec un petit galet. Assistance et contact." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol : un journal tout doux pour les jours ratés</title>
+  <meta name="description" content="Objectif raté ? Un petit galet te parle en premier : ce qui s&#x27;est passé, puis ce que tu ressens. Sans compte ni pub. Trois objectifs gratuits.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol : un journal tout doux pour les jours ratés">
+  <meta property="og:description" content="Objectif raté ? Un petit galet te parle en premier : ce qui s&#x27;est passé, puis ce que tu ressens. Sans compte ni pub. Trois objectifs gratuits.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/fr/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/fr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="bar">
+    <a class="brand" href="../fr/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Langue</a>
+  </header>
 
-  <nav class="langs" aria-label="Langue">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="./" hreflang="fr" lang="fr" aria-current="true">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Un faux pas, ce n'est pas<br>tomber dans la rivière</h1>
+        <p class="lead">Le jour où tu rates ton objectif, c'est le galet qui parle en premier. Il te demande ce qui s'est passé, pas ce que tu as fait de travers, puis te rend les faits et ton ressenti bien séparés.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Télécharger gratuitement sur l'App Store</a><a class="try" href="#try">Parle au galet ↓</a></div>
+        <p class="muted small">Discuter, écrire et voir ton chemin, c'est gratuit. Ni compte ni publicité.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/01-home.jpg" alt="Un faux pas, ce n&#x27;est pas tomber dans la rivière" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Pages">
-    <a href="./" aria-current="page">À propos et assistance</a>
-    <a href="./privacy.html">Politique de confidentialité</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Icône de l’app ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Un faux pas ne veut pas dire que vous êtes tombé dans le ruisseau.<br />Un journal tout doux pour les jours qui n’ont pas tourné comme prévu, en parlant avec un petit galet.</p>
+    <section class="reveal" id="try">
+      <h2>Parle au galet</h2>
+      <p class="muted">Tu voulais marcher ce soir et tu ne l'as pas fait. Choisis une réponse ou écris la tienne : le galet te répond exactement comme dans l'app.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Parle au galet&quot;, &quot;lead&quot;: &quot;Tu voulais marcher ce soir et tu ne l&#x27;as pas fait. Choisis une réponse ou écris la tienne : le galet te répond exactement comme dans l&#x27;app.&quot;, &quot;note&quot;: &quot;Même ordre, mêmes phrases que la conversation de l&#x27;app. Rien de ce que tu écris ici n&#x27;est enregistré.&quot;, &quot;send&quot;: &quot;Envoyer&quot;, &quot;again&quot;: &quot;Recommencer&quot;, &quot;goal&quot;: &quot;Marcher 30 minutes après le dîner&quot;, &quot;workedSample&quot;: &quot;La pluie s&#x27;est arrêtée, alors j&#x27;ai marché jusqu&#x27;à la rivière. J&#x27;ai l&#x27;esprit clair.&quot;, &quot;factsSample&quot;: &quot;Retour à 21 h après une longue journée. Plus la force de marcher.&quot;, &quot;nextSample&quot;: &quot;Les soirs tardifs, juste un tour du pâté de maisons&quot;, &quot;obs&quot;: &quot;« %@ » : rien pour l’instant aujourd’hui.&quot;, &quot;yes&quot;: &quot;Oui, je ne l’ai pas fait&quot;, &quot;actually&quot;: &quot;Fait, juste pas noté&quot;, &quot;leave&quot;: &quot;Je préfère laisser pour l’instant&quot;, &quot;facts&quot;: &quot;Quand tu voulais faire « %@ », que s’est-il passé ?&quot;, &quot;factsPh&quot;: &quot;Court, c’est très bien : seulement ce qui s’est passé alors.&quot;, &quot;emotion&quot;: &quot;Je vois. Et comment tu te sens maintenant ?&quot;, &quot;steps&quot;: [&quot;Très difficile&quot;, &quot;Un peu abattu&quot;, &quot;Bof&quot;, &quot;Ça va&quot;, &quot;Bien&quot;], &quot;sepOpen&quot;: &quot;Voici ce que je comprends.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nDonc « %2$@ » s’est passé,\net en ce moment tu te sens « %3$@ ».%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Les choses ne se sont pas passées comme prévu. Ce n’est pas ta faute.&quot;, &quot;ack&quot;: &quot;Oui&quot;, &quot;smaller&quot;: &quot;Si tu ne faisais qu’une seule chose demain, ce serait quoi ?&quot;, &quot;smallerPh&quot;: &quot;Plus c’est petit, mieux c’est. Même cinq minutes, c’est bien.&quot;, &quot;analyticClose&quot;: &quot;Noté. Demain, juste ça.&quot;, &quot;gentleClose&quot;: &quot;On s’arrête là pour aujourd’hui.\nSe reposer vaut mieux que chercher une réponse.\nC’est noté, ça ne disparaîtra pas.&quot;, &quot;worked&quot;: &quot;Qu’est-ce qui a aidé ?&quot;, &quot;workedPh&quot;: &quot;Je le note pour pouvoir m’en servir une prochaine fois.&quot;, &quot;reachedClose&quot;: &quot;C’est noté. La prochaine fois que ce sera dur, je te le rappellerai.&quot;, &quot;leaveClose&quot;: &quot;D’accord. Je suis là.&quot;, &quot;finish&quot;: &quot;Terminé&quot;, &quot;stop&quot;: &quot;Stop&quot;, &quot;stages&quot;: [&quot;Ce qui s’est passé&quot;, &quot;Ressenti&quot;, &quot;Prochain pas&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Télécharger sur l’App Store</a>
+    <section class="problem reveal">
+      <h2>Quand une journée déraille, tu t'en veux ?</h2>
+      <p>Le soir où tu as sauté ta séance, la première pensée est souvent « qu'est-ce qui cloche chez moi ? ». En y regardant de plus près, il y avait une réunion tardive, la pluie, la fatigue. ZinggumDol te demande ce qui s'est passé et ce que tu ressens à deux moments différents, puis pose les deux côte à côte. Quand tu vois que c'étaient les circonstances et pas ta volonté, le petit pas suivant devient plus facile à trouver.</p>
+    </section>
 
-  <h2>Ce qu’elle fait</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Parler avec un galet</h3>
-      <p>Le galet parle le premier. Il se souvient de ce que vous lui avez dit la dernière fois et demande comment ça s’est passé ensuite. Choisissez une réponse ou écrivez la vôtre.</p>
-    </div>
-    <div class="card">
-      <h3>Le dire à voix haute</h3>
-      <p>Les jours où écrire est trop, il suffit de parler. La voix est reconnue sur votre appareil, et sur les appareils compatibles, ce que vous dites est mis en forme pour se lire facilement.</p>
-    </div>
-    <div class="card">
-      <h3>Chemin parcouru</h3>
-      <p>Chaque semaine s’aligne comme une rangée de pierres pour traverser le ruisseau. Les jours où vous n’avez pas posé le pied restent là : rien n’est effacé.</p>
-    </div>
-    <div class="card">
-      <h3>Ce que vous avez laissé</h3>
-      <p>Retrouvez par date ce qui s’est passé, ce que vous ressentiez et ce que vous vouliez essayer ensuite.</p>
-    </div>
-    <div class="card">
-      <h3>Widget et rappels</h3>
-      <p>Un mot du galet sur l’écran d’accueil et un rappel tout doux à l’heure de votre choix pour regarder ensemble comment s’est passée la journée.</p>
-    </div>
-    <div class="card">
-      <h3>Rien que pour vous</h3>
-      <p>Sans inscription. Vos notes ne sont conservées que sur votre appareil et dans votre propre iCloud, et vous pouvez verrouiller l’app par un code.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Le galet parle en premier</h2>
+        <p>Fixe un objectif et le galet garde un œil sur les jours où ça a marché et ceux où tu as calé. Quand un jour t'échappe, il demande « qu'est-ce qui s'est passé ? » plutôt que « pourquoi pas ? », et il se souvient de ce que tu lui as raconté la dernière fois.<br>Les jours où écrire te pèse, dis-le simplement à voix haute. La parole est reconnue sur ton appareil et les enregistrements ne sont jamais conservés.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/02-conversation.jpg" alt="Le galet parle en premier" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Écrans</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Le galet vous salue le premier" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Une conversation qui reprend où vous l’aviez laissée" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="La semaine en pierres de gué" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Vos notes par date" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tes journées posées comme des pierres de gué</h2>
+        <p>Chaque semaine s'étale en une rangée de pierres. Les jours où tu n'as pas posé le pied restent là aussi ; rien n'est effacé.<br>Même avec un trou ou deux, tu vois que le chemin continue.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/03-path.jpg" alt="Tes journées posées comme des pierres de gué" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Un achat unique, pas un abonnement. Gardez plus de trois objectifs, choisissez parmi six aspects de galet et exportez vos notes dans un fichier texte.</p>
-  <p>Sur un nouvel appareil ou après une réinstallation, touchez Réglages ▸ Restaurer les achats.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Relis ce que tu as écrit</h2>
+        <p>Ce qui s'est passé, ce que tu as ressenti et ce que tu vas essayer ensuite s'accumulent par date. Relis un jour où tu as calé de la même façon, et tu verras ce qui a marché.<br>Un widget affiche un mot du galet sur ton écran d'accueil, et un rappel à l'heure de ton choix t'invite à revenir sur ta journée.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/04-records.jpg" alt="Relis ce que tu as écrit" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Contact</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Vous pouvez aussi utiliser Réglages ▸ Écrire au développeur dans l’app.</p>
-  </div>
+    <section class="reveal">
+      <h2>Trois étapes pour commencer</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Écris un objectif</h3><p>Par exemple « Marcher 30 minutes après le dîner ».</p></li>
+<li class="card"><span class="n">2</span><h3>Ouvre l'app en fin de journée</h3><p>Le galet te demande comment s'est passée ta journée. Un rappel t'évite d'oublier.</p></li>
+<li class="card"><span class="n">3</span><h3>Choisis ou écris ta réponse</h3><p>Tu peux arrêter à tout moment avec <code>Je préfère laisser pour l’instant</code>.</p></li></ol>
+    </section>
 
-  <h2>Confidentialité</h2>
-  <p>ZinggumDol n’envoie jamais au développeur ce que vous écrivez. Pour les détails, consultez la <a href="./privacy.html">politique de confidentialité</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>Comment se passe une conversation</h2>
+      <div class="card table">
+        <dl><div><dt>Ce qui s’est passé</dt><dd>Juste les faits : ce qui t'a freiné</dd></div><div><dt>Ressenti</dt><dd>Comment tu te sens là, sur une échelle à cinq niveaux</dd></div><div><dt>Regard en arrière</dt><dd>Le galet te rend les faits et ton ressenti, bien séparés</dd></div><div><dt>Prochain pas</dt><dd>Tu choisis toi-même une petite chose, cinq minutes suffisent</dd></div><div><dt>Conclusion</dt><dd>Un jour vraiment difficile, il ne demande rien de plus et te propose de souffler</dd></div></dl>
+      </div>
+      <p class="muted">Tu peux t'arrêter à n'importe quel moment, et ce que tu as dit jusque-là est gardé.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Politique de confidentialité</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Discuter et écrire, c'est gratuit. Pro si tu veux aller plus loin.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratuit</h3>
+          <ul><li>Toutes les conversations avec le galet</li><li>Jusqu'à trois objectifs</li><li>Parler au lieu de taper</li><li>Ton chemin et tout ce que tu as écrit</li><li>Widget et rappel quotidien</li><li>Verrouillage par code</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Autant d'objectifs que tu veux</li><li>Six finitions de galet au choix</li><li>Export de tes notes en fichier texte</li></ul>
+          <p class="muted">Un seul achat, à garder. Pas d'abonnement.</p>
+        </div>
+      </div>
+      <p class="muted">Aucun écran de paiement ne surgit au milieu d'une conversation. Sur un nouvel appareil ou après une réinstallation, touche Restaurer les achats dans les Réglages.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions fréquentes</h2>
+      <div class="faq"><details><summary>Dois-je justifier chaque jour raté ?</summary><p>Non. Touche <code>Je préfère laisser pour l’instant</code> à tout moment et la conversation s'arrête là. Ce que tu as dit jusque-là est gardé, tu pourras reprendre plus tard.</p></details>
+<details><summary>Je l'ai fait, mais l'app dit que non.</summary><p>Touche <code>Fait, juste pas noté</code>. Le galet accepte la correction et te demande plutôt ce qui t'a aidé. Ce qui a marché est gardé, et il te le ressortira la prochaine fois que tu caleras.</p></details>
+<details><summary>Où va ce que je dis à voix haute ?</summary><p>Ta voix est transformée en texte sur ton appareil et l'enregistrement n'est jamais conservé. Sur les appareils compatibles, tes phrases sont aussi reformulées pour se lire plus facilement, toujours sur l'appareil.</p></details>
+<details><summary>Combien d'objectifs puis-je avoir ?</summary><p>Trois gratuitement. Quand tu en as fini avec un, utilise <code>Lâcher</code> dans Chemin parcouru pour libérer une place. Au-delà de trois, il te faut ZinggumDol Pro.</p></details>
+<details><summary>ZinggumDol Pro est-il un abonnement ?</summary><p>Non. Tu paies une fois et c'est à toi. Sur un nouvel appareil ou après une réinstallation, touche <code>Restaurer les achats</code> dans les Réglages.</p></details>
+<details><summary>Quelqu'un d'autre peut-il lire mon journal ?</summary><p>Il n'y a pas de compte. Tes notes restent sur ton appareil et dans ton propre iCloud, et tu peux verrouiller l'app par un code dans les Réglages. Ce que tu écris n'est jamais envoyé au développeur. Tu peux aussi désactiver les statistiques d'utilisation anonymes dans les Réglages.</p></details>
+<details><summary>Comment changer l'heure du rappel ?</summary><p>Dans <code>Rappel quotidien</code>, dans les Réglages, tu l'actives, le désactives et choisis l'heure.</p></details>
+<details><summary>Le galet me rappelle-t-il mes réussites ?</summary><p>Oui. Il retient ce qui t'a aidé, et un jour difficile, il te rappelle quelque chose que tu as réussi récemment.</p></details>
+<details><summary>Comment tout effacer ?</summary><p>Touche <code>Effacer toutes les notes</code> dans les Réglages. Tes objectifs et tes notes disparaissent pour de bon, y compris sur tes autres appareils synchronisés par iCloud. Tes réglages et tes achats restent. Avec Pro, tu peux d'abord en garder une copie avec <code>Exporter les notes</code>.</p></details>
+<details><summary>Comment vous contacter ?</summary><p>Via « Envoyer un retour » dans les Réglages de l'app, ou par e-mail à l'adresse ci-dessous.</p></details></div>
+      <p class="contact">Une question, une remarque ? Écris à <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Un faux pas aujourd'hui ?<br>La pierre suivante est toujours là</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Télécharger gratuitement sur l'App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Langue"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr" aria-current="page">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Politique de confidentialité</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

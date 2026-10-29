@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — een zacht dagboek voor dagen die anders liepen dan gepland</title>
-<meta name="description" content="Een misstap betekent niet dat u in de beek bent gevallen. ZinggumDol is een dagboek waarin u in gesprek met een kleine kiezel terugblikt op dagen die anders liepen dan gepland. Support en contact." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: een zacht dagboek voor dagen die anders liepen</title>
+  <meta name="description" content="Mis je een doel, dan begint een kiezel het gesprek: wat er gebeurde, en daarna hoe je je voelt. Geen account, geen advertenties. Drie doelen gratis.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: een zacht dagboek voor dagen die anders liepen">
+  <meta property="og:description" content="Mis je een doel, dan begint een kiezel het gesprek: wat er gebeurde, en daarna hoe je je voelt. Geen account, geen advertenties. Drie doelen gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/nl/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/nl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Naar inhoud</a>
+  <header class="bar">
+    <a class="brand" href="../nl/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Taal</a>
+  </header>
 
-  <nav class="langs" aria-label="Taal">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="./" hreflang="nl" lang="nl" aria-current="true">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Misstappen is nog niet<br>in de beek vallen</h1>
+        <p class="lead">Op een dag dat je je doel mist, begint de kiezel het gesprek. Hij vraagt wat er gebeurde, niet wat je fout deed, en geeft je de feiten en je gevoel los van elkaar terug.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Gratis in de App Store</a><a class="try" href="#try">Praat met de kiezel ↓</a></div>
+        <p class="muted small">Praten, schrijven en je weg zien is gratis. Geen account, geen advertenties.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/01-home.jpg" alt="Misstappen is nog niet in de beek vallen" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Pagina’s">
-    <a href="./" aria-current="page">Over en support</a>
-    <a href="./privacy.html">Privacybeleid</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="App-icoon van ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Een misstap betekent niet dat u in de beek bent gevallen.<br />Een zacht dagboek voor dagen die anders liepen dan gepland, in gesprek met een kleine kiezel.</p>
+    <section class="reveal" id="try">
+      <h2>Praat met de kiezel</h2>
+      <p class="muted">Je wilde vanavond een wandeling maken en het is er niet van gekomen. Tik een antwoord aan of typ je eigen, en de kiezel reageert precies zoals in de app.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Praat met de kiezel&quot;, &quot;lead&quot;: &quot;Je wilde vanavond een wandeling maken en het is er niet van gekomen. Tik een antwoord aan of typ je eigen, en de kiezel reageert precies zoals in de app.&quot;, &quot;note&quot;: &quot;Dezelfde volgorde en dezelfde zinnen als het gesprek in de app. Wat je hier typt, wordt nergens bewaard.&quot;, &quot;send&quot;: &quot;Versturen&quot;, &quot;again&quot;: &quot;Opnieuw beginnen&quot;, &quot;goal&quot;: &quot;Na het eten 30 minuten wandelen&quot;, &quot;workedSample&quot;: &quot;Het was droog, dus ik ben helemaal naar de rivier gelopen. Mijn hoofd is weer helder.&quot;, &quot;factsSample&quot;: &quot;Pas om 21 uur thuis na overwerken. Geen energie meer om te wandelen.&quot;, &quot;nextSample&quot;: &quot;Op lange dagen gewoon één rondje om het blok&quot;, &quot;obs&quot;: &quot;‘%@’ – vandaag nog niets.&quot;, &quot;yes&quot;: &quot;Ja, dat heb ik niet gedaan&quot;, &quot;actually&quot;: &quot;Gedaan, alleen niet genoteerd&quot;, &quot;leave&quot;: &quot;Voorlopig laat ik het liever zo&quot;, &quot;facts&quot;: &quot;Toen je ‘%@’ wilde doen, wat gebeurde er toen?&quot;, &quot;factsPh&quot;: &quot;Kort is prima – alleen wat er toen gebeurde.&quot;, &quot;emotion&quot;: &quot;Ik snap het. En hoe voel je je nu?&quot;, &quot;steps&quot;: [&quot;Heel zwaar&quot;, &quot;Een beetje down&quot;, &quot;Gaat wel&quot;, &quot;Prima&quot;, &quot;Goed&quot;], &quot;sepOpen&quot;: &quot;Dit is wat ik hoor.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nEr gebeurde dus ‘%2$@’,\nen nu voel je je ‘%3$@’.%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Het liep gewoon niet mee. Dat ligt niet aan jou.&quot;, &quot;ack&quot;: &quot;Ja&quot;, &quot;smaller&quot;: &quot;Als je morgen maar één ding doet, wat zou dat zijn?&quot;, &quot;smallerPh&quot;: &quot;Hoe kleiner, hoe beter. Zelfs vijf minuten is prima.&quot;, &quot;analyticClose&quot;: &quot;Genoteerd. Morgen maar zoveel.&quot;, &quot;gentleClose&quot;: &quot;Laten we het voor vandaag hierbij laten.\nNu is rusten belangrijker dan een antwoord zoeken.\nHet is genoteerd en gaat niet verloren.&quot;, &quot;worked&quot;: &quot;Wat heeft geholpen?&quot;, &quot;workedPh&quot;: &quot;Ik schrijf het op, zodat het een volgende keer weer van pas komt.&quot;, &quot;reachedClose&quot;: &quot;Opgeschreven. Als het een volgende keer lastig wordt, haal ik dit weer tevoorschijn.&quot;, &quot;leaveClose&quot;: &quot;Goed. Ik ben er.&quot;, &quot;finish&quot;: &quot;Klaar&quot;, &quot;stop&quot;: &quot;Stoppen&quot;, &quot;stages&quot;: [&quot;Wat er gebeurde&quot;, &quot;Gevoel&quot;, &quot;Volgende stap&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Download in de App Store</a>
+    <section class="problem reveal">
+      <h2>Geef je jezelf de schuld als een dag anders loopt?</h2>
+      <p>Op de avond dat je de training oversloeg, denk je vaak eerst: wat is er mis met mij? Kijk je beter, dan moest je overwerken, regende het en was je doodop. ZinggumDol vraagt in aparte stappen wat er gebeurde en hoe je je voelt, en legt die twee naast elkaar. Zie je dat het aan de omstandigheden lag en niet aan je wilskracht, dan vind je de volgende kleine stap makkelijker.</p>
+    </section>
 
-  <h2>Wat het doet</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Praat met een kiezel</h3>
-      <p>De kiezel begint te praten. Hij onthoudt wat u de vorige keer vertelde en vraagt hoe het daarna ging. Kies een antwoord of schrijf zelf iets.</p>
-    </div>
-    <div class="card">
-      <h3>Zeg het hardop</h3>
-      <p>Op dagen dat schrijven te veel is, volstaat praten. Spraak wordt op uw apparaat herkend en op ondersteunde apparaten wordt wat u zegt geordend zodat het prettig leest.</p>
-    </div>
-    <div class="card">
-      <h3>Afgelegde weg</h3>
-      <p>Elke week wordt een rij stapstenen. Dagen waarop u niet stapte, blijven gewoon liggen – er wordt niets gewist.</p>
-    </div>
-    <div class="card">
-      <h3>Wat u hebt achtergelaten</h3>
-      <p>Blader op datum door wat er gebeurde, hoe u zich voelde en wat u wilde proberen.</p>
-    </div>
-    <div class="card">
-      <h3>Widget en herinneringen</h3>
-      <p>Een zin van de kiezel op uw beginscherm en een zachte herinnering op een tijdstip naar keuze om samen terug te kijken op de dag.</p>
-    </div>
-    <div class="card">
-      <h3>Alleen van u</h3>
-      <p>Geen account. Uw notities staan alleen op uw apparaat en in uw eigen iCloud, en u kunt de app met een code vergrendelen.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>De kiezel begint het gesprek</h2>
+        <p>Stel een doel in en de kiezel houdt de dagen bij dat het lukte en de dagen dat je vastliep. Glipt er een dag door, dan vraagt hij ‘wat gebeurde er?’ in plaats van ‘waarom niet?’, en hij weet nog wat je hem de vorige keer vertelde.<br>Is schrijven je te veel, zeg het dan gewoon hardop. Spraak wordt op je apparaat herkend en opnames worden nooit bewaard.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/02-conversation.jpg" alt="De kiezel begint het gesprek" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Schermen</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="De kiezel begroet u als eerste" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Een gesprek dat verdergaat waar u bleef" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="De week als stapstenen" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Uw notities op datum" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Je dagen als stapstenen</h2>
+        <p>Elke week ligt er als een rij stapstenen. De dagen waarop je niet stapte, blijven ook liggen; er wordt niets gewist.<br>Ook met een gat hier en daar zie je dat de weg doorloopt.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/03-path.jpg" alt="Je dagen als stapstenen" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Eenmalige aankoop, geen abonnement. Houd meer dan drie doelen bij, kies uit zes kieseluitvoeringen en exporteer uw notities naar een tekstbestand.</p>
-  <p>Tik op een nieuw apparaat of na herinstallatie op Instellingen ▸ Aankopen herstellen.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Lees terug wat je schreef</h2>
+        <p>Wat er gebeurde, hoe je je voelde en wat je hierna probeert, verzamelt zich op datum. Lees een dag terug waarop je net zo vastliep en je ziet wat hielp.<br>Een widget laat een woordje van de kiezel zien op je beginscherm, en een herinnering op een tijd die jij kiest nodigt je uit terug te kijken op de dag.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/04-records.jpg" alt="Lees terug wat je schreef" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Contact</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />U kunt ook Instellingen ▸ E-mail de ontwikkelaar in de app gebruiken.</p>
-  </div>
+    <section class="reveal">
+      <h2>In drie stappen aan de slag</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Schrijf één doel op</h3><p>Bijvoorbeeld ‘Na het eten 30 minuten wandelen’.</p></li>
+<li class="card"><span class="n">2</span><h3>Open de app aan het eind van de dag</h3><p>De kiezel vraagt hoe je dag was. Met een herinnering vergeet je het niet.</p></li>
+<li class="card"><span class="n">3</span><h3>Tik of typ een antwoord</h3><p>Je kunt altijd stoppen met <code>Voorlopig laat ik het liever zo</code>.</p></li></ol>
+    </section>
 
-  <h2>Privacy</h2>
-  <p>ZinggumDol stuurt nooit wat u schrijft naar de ontwikkelaar. Zie het <a href="./privacy.html">privacybeleid</a> voor de details.</p>
+    <section class="reveal" id="commands">
+      <h2>Zo verloopt een gesprek</h2>
+      <div class="card table">
+        <dl><div><dt>Wat er gebeurde</dt><dd>Alleen de feiten: wat er tussen kwam</dd></div><div><dt>Gevoel</dt><dd>Hoe je je nu voelt, op een schaal van vijf</dd></div><div><dt>Terugblik</dt><dd>De kiezel geeft wat er gebeurde en je gevoel apart terug</dd></div><div><dt>Volgende stap</dt><dd>Je kiest zelf iets kleins, vijf minuten is genoeg</dd></div><div><dt>Afronden</dt><dd>Op een echt zware dag vraagt hij niets meer en stelt hij rust voor</dd></div></dl>
+      </div>
+      <p class="muted">Je kunt op elk moment stoppen, en wat je tot dan toe zei, blijft bewaard.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Privacybeleid</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Praten en schrijven is gratis. Pro als je meer wilt.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Alle gesprekken met de kiezel</li><li>Tot drie doelen</li><li>Praten in plaats van typen</li><li>Je weg en alles wat je schreef</li><li>Widget en dagelijkse herinnering</li><li>Vergrendeling met code</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Zoveel doelen als je wilt</li><li>Kies uit zes kiezelafwerkingen</li><li>Notities exporteren als tekstbestand</li></ul>
+          <p class="muted">Eenmalig kopen en houden. Geen abonnement.</p>
+        </div>
+      </div>
+      <p class="muted">Midden in een gesprek verschijnt nooit een betaalscherm. Op een nieuw apparaat of na opnieuw installeren tik je in Instellingen op Aankopen herstellen.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Veelgestelde vragen</h2>
+      <div class="faq"><details><summary>Moet ik elke gemiste dag uitleggen?</summary><p>Nee. Tik op elk moment op <code>Voorlopig laat ik het liever zo</code> en het gesprek stopt meteen. Wat je tot dan toe zei, blijft bewaard, zodat je later verder kunt.</p></details>
+<details><summary>Ik heb het wel gedaan, maar de app zegt van niet.</summary><p>Tik op <code>Gedaan, alleen niet genoteerd</code>. De kiezel neemt de correctie aan en vraagt in plaats daarvan wat hielp. Wat werkte, wordt bewaard en komt terug als je de volgende keer vastloopt.</p></details>
+<details><summary>Waar gaat naartoe wat ik hardop zeg?</summary><p>Je spraak wordt op het apparaat omgezet in tekst en de opname wordt nooit bewaard. Op ondersteunde apparaten worden je zinnen ook leesbaarder gemaakt, ook dat gebeurt op het apparaat.</p></details>
+<details><summary>Hoeveel doelen kan ik hebben?</summary><p>Drie gratis. Ben je klaar met een doel, gebruik dan <code>Loslaten</code> in Afgelegde weg om plek te maken. Voor meer dan drie heb je ZinggumDol Pro nodig.</p></details>
+<details><summary>Is ZinggumDol Pro een abonnement?</summary><p>Nee. Je betaalt één keer en houdt het. Op een nieuw apparaat of na opnieuw installeren tik je in Instellingen op <code>Aankopen herstellen</code>.</p></details>
+<details><summary>Kan iemand anders mijn dagboek lezen?</summary><p>Er is geen account. Je notities staan alleen op je apparaat en in je eigen iCloud, en je kunt de app in Instellingen vergrendelen met een code. Wat je schrijft, gaat nooit naar de ontwikkelaar. Anonieme gebruiksstatistieken kun je in Instellingen uitzetten.</p></details>
+<details><summary>Hoe verander ik het tijdstip van de herinnering?</summary><p>Bij <code>Dagelijkse herinnering</code> in Instellingen zet je hem aan of uit en kies je de tijd.</p></details>
+<details><summary>Herinnert de kiezel me ook aan wat wél lukte?</summary><p>Ja. Hij onthoudt wat je hielp, en op een zware dag herinnert hij je aan iets wat je onlangs voor elkaar kreeg.</p></details>
+<details><summary>Hoe wis ik alles?</summary><p>Tik in Instellingen op <code>Alle notities wissen</code>. Je doelen en notities zijn dan voorgoed weg, ook op andere apparaten die via iCloud zijn gekoppeld. Instellingen en aankopen blijven. Met Pro kun je eerst een kopie bewaren via <code>Notities exporteren</code>.</p></details>
+<details><summary>Hoe neem ik contact op?</summary><p>Via ‘Feedback sturen’ in de Instellingen van de app, of mail naar het adres hieronder.</p></details></div>
+      <p class="contact">Vragen of feedback? Mail naar <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Vandaag misgestapt?<br>De volgende steen ligt er nog</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Gratis in de App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Taal"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl" aria-current="page">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacybeleid</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

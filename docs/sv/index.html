@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — en mild dagbok för dagar som inte gick som planerat</title>
-<meta name="description" content="Ett felsteg betyder inte att du har ramlat i bäcken. ZinggumDol är en dagbok där du i samtal med en liten sten tittar tillbaka på dagar som inte gick som planerat. Support och kontakt." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: en mild dagbok för dagar som inte blev som tänkt</title>
+  <meta name="description" content="Missar du ett mål pratar en liten sten först: vad som hände, sedan hur du mår. Inget konto, ingen reklam. Tre mål gratis.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: en mild dagbok för dagar som inte blev som tänkt">
+  <meta property="og:description" content="Missar du ett mål pratar en liten sten först: vad som hände, sedan hur du mår. Inget konto, ingen reklam. Tre mål gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/sv/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/sv/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+  <header class="bar">
+    <a class="brand" href="../sv/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Språk</a>
+  </header>
 
-  <nav class="langs" aria-label="Språk">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="./" hreflang="sv" lang="sv" aria-current="true">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Ett snedsteg betyder inte<br>att du ramlat i bäcken</h1>
+        <p class="lead">Den dag du missar ditt mål är det stenen som pratar först. Den frågar vad som hände, inte vad du gjorde fel, och ger dig tillbaka händelsen och känslan var för sig.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Hämta gratis på App Store</a><a class="try" href="#try">Prata med stenen ↓</a></div>
+        <p class="muted small">Samtal, anteckningar och din väg är gratis. Inget konto, ingen reklam.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/01-home.jpg" alt="Ett snedsteg betyder inte att du ramlat i bäcken" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Sidor">
-    <a href="./" aria-current="page">Om och support</a>
-    <a href="./privacy.html">Integritetspolicy</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Appikon för ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Ett felsteg betyder inte att du har ramlat i bäcken.<br />En mild dagbok för dagar som inte gick som planerat, i samtal med en liten sten.</p>
+    <section class="reveal" id="try">
+      <h2>Prata med stenen</h2>
+      <p class="muted">Du tänkte ta en kvällspromenad i dag men blev inte av. Tryck på ett svar eller skriv ett eget, så svarar stenen precis som i appen.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Prata med stenen&quot;, &quot;lead&quot;: &quot;Du tänkte ta en kvällspromenad i dag men blev inte av. Tryck på ett svar eller skriv ett eget, så svarar stenen precis som i appen.&quot;, &quot;note&quot;: &quot;Samma ordning och samma meningar som samtalet i appen. Inget du skriver här sparas.&quot;, &quot;send&quot;: &quot;Skicka&quot;, &quot;again&quot;: &quot;Börja om&quot;, &quot;goal&quot;: &quot;Promenera 30 minuter efter middagen&quot;, &quot;workedSample&quot;: &quot;Regnet slutade, så jag gick ända ner till ån. Huvudet känns klart.&quot;, &quot;factsSample&quot;: &quot;Kom hem vid 21 efter att ha jobbat sent. Ingen ork kvar att gå.&quot;, &quot;nextSample&quot;: &quot;Sena dagar räcker ett varv runt kvarteret&quot;, &quot;obs&quot;: &quot;”%@” – ingenting ännu i dag.&quot;, &quot;yes&quot;: &quot;Ja, det gjorde jag inte&quot;, &quot;actually&quot;: &quot;Gjort, bara inte nedskrivet&quot;, &quot;leave&quot;: &quot;Jag vill låta det vara tills vidare&quot;, &quot;facts&quot;: &quot;När du tänkte göra ”%@”, vad hände då?&quot;, &quot;factsPh&quot;: &quot;Kort går också bra – bara vad som hände då.&quot;, &quot;emotion&quot;: &quot;Jag förstår. Och hur känner du dig nu?&quot;, &quot;steps&quot;: [&quot;Mycket tungt&quot;, &quot;Nedstämd&quot;, &quot;Så där&quot;, &quot;Okej&quot;, &quot;Bra&quot;], &quot;sepOpen&quot;: &quot;Så här uppfattar jag det.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nSå ”%2$@” hände,\noch just nu känner du dig ”%3$@”.%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Det gick bara inte din väg. Det är inte ditt fel.&quot;, &quot;ack&quot;: &quot;Ja&quot;, &quot;smaller&quot;: &quot;Om du bara gjorde en sak i morgon, vad skulle det vara?&quot;, &quot;smallerPh&quot;: &quot;Ju mindre, desto bättre. Till och med fem minuter räcker.&quot;, &quot;analyticClose&quot;: &quot;Nedskrivet. I morgon bara så mycket.&quot;, &quot;gentleClose&quot;: &quot;Vi stannar här för i dag.\nJust nu är vila viktigare än att leta efter ett svar.\nDet är nedskrivet och försvinner inte.&quot;, &quot;worked&quot;: &quot;Vad hjälpte?&quot;, &quot;workedPh&quot;: &quot;Jag skriver ner det så att det går att använda igen nästa gång.&quot;, &quot;reachedClose&quot;: &quot;Nedskrivet. Nästa gång det känns tungt plockar jag fram det här igen.&quot;, &quot;leaveClose&quot;: &quot;Okej. Jag finns här.&quot;, &quot;finish&quot;: &quot;Klar&quot;, &quot;stop&quot;: &quot;Sluta&quot;, &quot;stages&quot;: [&quot;Vad som hände&quot;, &quot;Känsla&quot;, &quot;Nästa steg&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Hämta i App Store</a>
+    <section class="problem reveal">
+      <h2>Lägger du skulden på dig själv när dagen inte blir som tänkt?</h2>
+      <p>Kvällen du hoppade över träningen är första tanken ofta ”vad är det för fel på mig?”. Tittar du närmare blev det övertid, det regnade och du var slut. ZinggumDol frågar vad som hände och hur du mår i olika steg och lägger dem bredvid varandra. När du ser att det var omständigheterna och inte din vilja blir nästa lilla steg lättare att hitta.</p>
+    </section>
 
-  <h2>Vad den gör</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Prata med en sten</h3>
-      <p>Stenen pratar först. Den minns vad du berättade förra gången och frågar hur det gick sedan. Välj ett svar eller skriv ett eget.</p>
-    </div>
-    <div class="card">
-      <h3>Säg det högt</h3>
-      <p>På dagar då det är för mycket att skriva räcker det att prata. Talet känns igen på din enhet, och på enheter som stöds ordnas det du säger så att det blir lättläst.</p>
-    </div>
-    <div class="card">
-      <h3>Vägen hittills</h3>
-      <p>Varje vecka läggs ut som en rad stenar över bäcken. Dagar du inte klev på ligger kvar – ingenting raderas.</p>
-    </div>
-    <div class="card">
-      <h3>Det du lämnat</h3>
-      <p>Bläddra efter datum bland vad som hände, hur du mådde och vad du ville prova härnäst.</p>
-    </div>
-    <div class="card">
-      <h3>Widget och påminnelser</h3>
-      <p>En mening från stenen på hemskärmen och en mild påminnelse vid den tid du väljer, så att ni tillsammans kan se hur dagen gick.</p>
-    </div>
-    <div class="card">
-      <h3>Bara din egen</h3>
-      <p>Ingen registrering. Dina anteckningar finns bara på din enhet och i din egen iCloud, och du kan låsa appen med en kod.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Stenen pratar först</h2>
+        <p>Sätt ett mål så håller stenen koll på dagarna det gick och dagarna du fastnade. När en dag glider förbi frågar den ”vad hände?” i stället för ”varför inte?”, och den minns vad du berättade sist.<br>Dagar när det känns för tungt att skriva kan du säga det högt. Talet tolkas på enheten och inspelningar sparas aldrig.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/02-conversation.jpg" alt="Stenen pratar först" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Skärmar</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Stenen hälsar först" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Ett samtal som fortsätter där du slutade" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="Veckan som en rad stenar" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Dina anteckningar efter datum" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Dina dagar som stenar över bäcken</h2>
+        <p>Varje vecka ligger som en rad med stenar. Dagarna du inte klev på ligger också kvar; inget raderas.<br>Även med en lucka eller två ser du att vägen fortsätter.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/03-path.jpg" alt="Dina dagar som stenar över bäcken" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Engångsköp, ingen prenumeration. Behåll fler än tre mål, välj bland sex ytor på stenen och exportera anteckningarna till en textfil.</p>
-  <p>På en ny enhet eller efter ominstallation trycker du på Inställningar ▸ Återställ köp.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Läs det du skrev igen</h2>
+        <p>Vad som hände, hur du kände dig och vad du provar härnäst samlas i datumordning. Läs en dag när du fastnade på samma sätt och se vad som hjälpte.<br>En widget visar ett ord från stenen på hemskärmen, och en påminnelse på den tid du väljer bjuder in dig att se tillbaka på dagen.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/04-records.jpg" alt="Läs det du skrev igen" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Du kan också använda Inställningar ▸ Mejla utvecklaren i appen.</p>
-  </div>
+    <section class="reveal">
+      <h2>Tre steg för att komma igång</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Skriv ett mål</h3><p>Till exempel ”Promenera 30 minuter efter middagen”.</p></li>
+<li class="card"><span class="n">2</span><h3>Öppna appen när dagen är slut</h3><p>Stenen frågar hur dagen var. Med en påminnelse glömmer du inte.</p></li>
+<li class="card"><span class="n">3</span><h3>Tryck eller skriv ditt svar</h3><p>Du kan sluta när som helst med <code>Jag vill låta det vara tills vidare</code>.</p></li></ol>
+    </section>
 
-  <h2>Integritet</h2>
-  <p>ZinggumDol skickar aldrig det du skriver till utvecklaren. Se <a href="./privacy.html">integritetspolicyn</a> för detaljer.</p>
+    <section class="reveal" id="commands">
+      <h2>Så går ett samtal till</h2>
+      <div class="card table">
+        <dl><div><dt>Vad som hände</dt><dd>Bara fakta: vad som kom emellan</dd></div><div><dt>Känsla</dt><dd>Hur du mår just nu, på en skala med fem steg</dd></div><div><dt>Se tillbaka</dt><dd>Stenen ger dig händelsen och känslan var för sig</dd></div><div><dt>Nästa steg</dt><dd>Du väljer själv något litet, fem minuter räcker</dd></div><div><dt>Avslutning</dt><dd>En riktigt tung dag frågar den inget mer och föreslår vila</dd></div></dl>
+      </div>
+      <p class="muted">Du kan avbryta när som helst, och det du sagt hittills sparas.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Integritetspolicy</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Samtal och anteckningar är gratis. Pro om du vill ha mer.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Alla samtal med stenen</li><li>Upp till tre mål</li><li>Prata i stället för att skriva</li><li>Din väg och allt du har skrivit</li><li>Widget och daglig påminnelse</li><li>Lås med kod</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Så många mål du vill</li><li>Välj bland sex stenytor</li><li>Exportera anteckningar som textfil</li></ul>
+          <p class="muted">Köp en gång och behåll. Ingen prenumeration.</p>
+        </div>
+      </div>
+      <p class="muted">Ingen betalskärm dyker upp mitt i ett samtal. På en ny enhet eller efter ominstallation trycker du på Återställ köp i Inställningar.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Vanliga frågor</h2>
+      <div class="faq"><details><summary>Måste jag förklara varje missad dag?</summary><p>Nej. Tryck på <code>Jag vill låta det vara tills vidare</code> när som helst så slutar samtalet direkt. Det du sagt sparas, så du kan fortsätta senare.</p></details>
+<details><summary>Jag gjorde det, men appen säger att jag inte gjorde det.</summary><p>Tryck på <code>Gjort, bara inte nedskrivet</code>. Stenen tar emot rättelsen och frågar i stället vad som hjälpte. Det som fungerade sparas och kommer fram igen nästa gång du fastnar.</p></details>
+<details><summary>Vart tar det vägen som jag säger högt?</summary><p>Ditt tal blir text på enheten och inspelningen sparas aldrig. På enheter som stöds putsas meningarna också så att de blir lättare att läsa, även det på enheten.</p></details>
+<details><summary>Hur många mål kan jag ha?</summary><p>Tre gratis. När du är klar med ett mål använder du <code>Släpp</code> under Vägen hittills för att frigöra en plats. För fler än tre behöver du ZinggumDol Pro.</p></details>
+<details><summary>Är ZinggumDol Pro en prenumeration?</summary><p>Nej. Du betalar en gång och behåller det. På en ny enhet eller efter ominstallation trycker du på <code>Återställ köp</code> i Inställningar.</p></details>
+<details><summary>Kan någon annan läsa min dagbok?</summary><p>Det finns inget konto. Dina anteckningar finns bara på din enhet och i ditt eget iCloud, och du kan låsa appen med en kod i Inställningar. Det du skriver skickas aldrig till utvecklaren. Anonym användningsstatistik kan du stänga av i Inställningar.</p></details>
+<details><summary>Hur ändrar jag tiden för påminnelsen?</summary><p>Under <code>Daglig påminnelse</code> i Inställningar slår du på eller av den och väljer tid.</p></details>
+<details><summary>Påminner stenen mig om sånt som gick bra?</summary><p>Ja. Den minns vad som hjälpte dig, och en tung dag påminner den om något du nyligen klarade.</p></details>
+<details><summary>Hur raderar jag allt?</summary><p>Tryck på <code>Radera alla anteckningar</code> i Inställningar. Mål och anteckningar försvinner för gott, även på andra enheter som synkas via iCloud. Inställningar och köp finns kvar. Med Pro kan du först spara en kopia med <code>Exportera anteckningar</code>.</p></details>
+<details><summary>Hur når jag er?</summary><p>Via ”Skicka feedback” i appens Inställningar, eller mejla adressen nedan.</p></details></div>
+      <p class="contact">Frågor eller synpunkter? Mejla <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Ett snedsteg i dag?<br>Nästa sten ligger kvar</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Hämta gratis på App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv" aria-current="page">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Integritetspolicy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

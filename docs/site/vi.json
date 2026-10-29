@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: cuốn nhật ký dịu dàng cho những ngày không như ý",
+  "description": "Ngày lỡ mục tiêu, viên đá nhỏ sẽ lên tiếng trước: chuyện gì đã xảy ra, rồi bạn thấy thế nào. Không cần đăng ký, không quảng cáo. Miễn phí 3 mục tiêu.",
+  "hero": {
+    "headline": "Hụt chân một bước\nkhông có nghĩa là rơi xuống suối",
+    "lead": "Ngày bạn lỡ mục tiêu, viên đá sẽ là người mở lời trước. Nó hỏi chuyện gì đã xảy ra chứ không hỏi bạn sai ở đâu, rồi trả lại cho bạn sự việc và cảm xúc tách riêng.",
+    "cta": "Tải miễn phí trên App Store",
+    "note": "Trò chuyện, ghi chép và con đường đã qua đều miễn phí. Không đăng ký, không quảng cáo."
+  },
+  "demo": {
+    "title": "Trò chuyện với viên đá",
+    "lead": "Hôm nay bạn định đi bộ buổi tối mà không đi được. Chạm vào một câu trả lời hoặc tự viết, viên đá sẽ đáp lại y như trong ứng dụng.",
+    "note": "Cùng thứ tự, cùng câu chữ như cuộc trò chuyện trong ứng dụng. Những gì bạn gõ ở đây không được lưu lại.",
+    "send": "Gửi",
+    "again": "Bắt đầu lại",
+    "goal": "Đi bộ 30 phút sau bữa tối",
+    "workedSample": "Mưa tạnh nên mình đi bộ ra tận bờ sông. Đầu óc nhẹ hẳn.",
+    "factsSample": "Tăng ca, 9 giờ tối mới về tới nhà. Hết sức đi bộ rồi.",
+    "nextSample": "Hôm nào về muộn thì chỉ đi một vòng quanh khu phố",
+    "obs": "«%@» hôm nay vẫn chưa có gì ạ.",
+    "yes": "Đúng, tôi đã không làm",
+    "actually": "Đã làm nhưng chưa ghi lại",
+    "leave": "Mình muốn tạm để vậy",
+    "facts": "Lúc định làm «%@», đã có chuyện gì vậy?",
+    "factsPh": "Ngắn cũng không sao, chỉ cần viết lúc đó đã xảy ra chuyện gì.",
+    "emotion": "Ra vậy. Thế giờ bạn thấy trong lòng thế nào?",
+    "steps": [
+      "Rất khó khăn",
+      "Hơi chùng xuống",
+      "Bình thường",
+      "Ổn",
+      "Tốt"
+    ],
+    "sepOpen": "Nghe bạn kể, mình thấy thế này.",
+    "sepTpl": "%1$@\nĐã có chuyện «%2$@»,\nvà lúc này bạn thấy «%3$@».%4$@\n\n%5$@",
+    "sepClose": "Chỉ là mọi việc không suôn sẻ thôi, không phải lỗi của bạn.",
+    "ack": "Có",
+    "smaller": "Nếu ngày mai chỉ làm đúng một việc, bạn sẽ làm gì?",
+    "smallerPh": "Càng nhỏ càng tốt. Chỉ năm phút cũng được.",
+    "analyticClose": "Đã ghi lại. Ngày mai chỉ làm chừng này thôi.",
+    "gentleClose": "Hôm nay dừng ở đây thôi.\nLúc này nghỉ ngơi quan trọng hơn tìm câu trả lời.\nĐã ghi lại rồi, sẽ không mất đâu.",
+    "worked": "Điều gì đã giúp được bạn?",
+    "workedPh": "Mình ghi lại để lần sau còn dùng được.",
+    "reachedClose": "Mình ghi lại rồi. Lần sau khi mọi việc không suôn sẻ, mình sẽ lấy ra cho bạn xem.",
+    "leaveClose": "Vâng. Mình ở đây.",
+    "finish": "Xong",
+    "stop": "Dừng",
+    "stages": [
+      "Chuyện đã xảy ra",
+      "Cảm xúc",
+      "Bước tiếp theo"
+    ]
+  },
+  "problem": {
+    "title": "Những ngày không theo kế hoạch, bạn có đang tự trách mình?",
+    "text": "Buổi tối bỏ buổi tập, ý nghĩ đầu tiên thường là \"sao mình cứ thế này\". Nhưng nhìn kỹ lại thì hôm đó phải tăng ca, trời mưa, và bạn đã kiệt sức. ZinggumDol hỏi riêng chuyện gì đã xảy ra và bạn đang thấy thế nào, rồi đặt hai điều cạnh nhau. Khi thấy là do hoàn cảnh chứ không phải do ý chí, bước nhỏ tiếp theo sẽ dễ tìm hơn."
+  },
+  "features": [
+    {
+      "title": "Viên đá mở lời trước",
+      "text": "Đặt một mục tiêu, viên đá sẽ cùng bạn dõi theo những ngày làm được và những ngày vướng lại. Ngày bị lỡ, nó hỏi \"đã có chuyện gì?\" chứ không hỏi \"sao không làm?\", và còn nhớ những gì bạn kể lần trước.\nNgày nào ngại viết, cứ nói ra thành lời. Giọng nói được nhận dạng ngay trên máy, bản ghi âm không bao giờ được lưu.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Con đường đã qua xếp thành những viên đá",
+      "text": "Mỗi tuần trải ra thành một hàng đá bắc qua suối. Những ngày chưa bước lên, viên đá vẫn nằm đó; không gì bị xóa.\nDù có một hai chỗ trống, bạn vẫn thấy con đường tiếp tục.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Đọc lại những gì đã kể",
+      "text": "Chuyện đã xảy ra, cảm xúc lúc đó và điều sẽ thử lần sau được xếp theo ngày. Đọc lại một ngày vướng lại giống vậy, bạn sẽ thấy điều gì đã có ích.\nTiện ích trên Màn hình chính hiện một câu của viên đá, và lời nhắc vào giờ bạn chọn mời bạn nhìn lại ngày hôm nay.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Bắt đầu chỉ với ba bước",
+    "items": [
+      {
+        "title": "Viết một mục tiêu",
+        "text": "Chẳng hạn \"Đi bộ 30 phút sau bữa tối\"."
+      },
+      {
+        "title": "Mở ứng dụng lúc cuối ngày",
+        "text": "Viên đá sẽ hỏi hôm nay của bạn thế nào. Đặt lời nhắc để không quên."
+      },
+      {
+        "title": "Chạm chọn hoặc viết câu trả lời",
+        "text": "Bạn có thể dừng bất cứ lúc nào với `Mình muốn tạm để vậy`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Cuộc trò chuyện diễn ra thế này",
+    "rows": [
+      [
+        "Chuyện đã xảy ra",
+        "Chỉ hỏi sự việc: điều gì đã cản trở"
+      ],
+      [
+        "Cảm xúc",
+        "Chọn cảm xúc lúc này trên thang năm mức"
+      ],
+      [
+        "Nhìn lại",
+        "Viên đá trả lại sự việc và cảm xúc của bạn tách riêng"
+      ],
+      [
+        "Bước tiếp theo",
+        "Bạn tự chọn một việc nhỏ, năm phút là đủ"
+      ],
+      [
+        "Tổng kết",
+        "Ngày lòng nặng trĩu, nó không hỏi thêm mà rủ bạn nghỉ ngơi"
+      ]
+    ],
+    "note": "Bạn có thể dừng ở bất kỳ bước nào, những gì đã nói vẫn được giữ lại."
+  },
+  "pricing": {
+    "title": "Trò chuyện và ghi chép miễn phí. Cần nhiều hơn thì có Pro.",
+    "free": {
+      "name": "Miễn phí",
+      "items": [
+        "Mọi cuộc trò chuyện với viên đá",
+        "Tối đa ba mục tiêu",
+        "Nói thay vì gõ",
+        "Con đường đã qua và mọi điều đã viết",
+        "Tiện ích Màn hình chính và nhắc nhở hằng ngày",
+        "Khóa bằng mật mã"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Không giới hạn số mục tiêu",
+        "Chọn từ sáu bề mặt viên đá",
+        "Xuất ghi chép ra tệp văn bản"
+      ],
+      "note": "Mua một lần, dùng mãi. Không phải gói đăng ký."
+    },
+    "note": "Màn hình thanh toán không bao giờ chen vào giữa cuộc trò chuyện. Trên thiết bị mới hoặc sau khi cài lại, hãy chạm vào Khôi phục giao dịch mua trong Cài đặt."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Ngày bị lỡ có nhất thiết phải viết lý do không?",
+        "a": "Không. Chạm `Mình muốn tạm để vậy` ở bất kỳ bước nào, cuộc trò chuyện kết thúc ngay. Những gì đã nói vẫn được giữ để lần sau nói tiếp."
+      },
+      {
+        "q": "Mình đã làm rồi mà ứng dụng bảo là chưa.",
+        "a": "Chạm `Đã làm nhưng chưa ghi lại`. Viên đá vui vẻ nhận lời đính chính và hỏi xem điều gì đã giúp bạn. Cách hiệu quả sẽ được ghi lại và nhắc lại khi bạn vướng lần sau."
+      },
+      {
+        "q": "Những gì mình nói ra đi đâu?",
+        "a": "Giọng nói được chuyển thành chữ ngay trên máy, bản ghi âm không bao giờ được lưu. Trên thiết bị được hỗ trợ, câu chữ còn được chỉnh lại cho dễ đọc, việc này cũng diễn ra trên máy."
+      },
+      {
+        "q": "Có thể đặt bao nhiêu mục tiêu?",
+        "a": "Miễn phí ba mục tiêu. Xong mục tiêu nào thì `Buông` nó trong Con đường đã qua để có chỗ trống. Muốn nhiều hơn ba thì cần ZinggumDol Pro."
+      },
+      {
+        "q": "ZinggumDol Pro có phải gói đăng ký không?",
+        "a": "Không. Trả một lần là của bạn. Trên thiết bị mới hoặc sau khi cài lại, hãy chạm `Khôi phục giao dịch mua` trong Cài đặt."
+      },
+      {
+        "q": "Người khác có đọc được nhật ký của mình không?",
+        "a": "Không cần tài khoản. Ghi chép chỉ nằm trên thiết bị và iCloud của riêng bạn, và bạn có thể khóa ứng dụng bằng mật mã trong Cài đặt. Những gì bạn viết không bao giờ được gửi cho nhà phát triển. Thống kê sử dụng ẩn danh cũng tắt được trong Cài đặt."
+      },
+      {
+        "q": "Đổi giờ nhắc nhở thế nào?",
+        "a": "Vào `Nhắc nhở hằng ngày` trong Cài đặt để bật, tắt và chọn giờ."
+      },
+      {
+        "q": "Viên đá có nhắc lại những điều mình đã làm được không?",
+        "a": "Có. Nó nhớ điều gì đã giúp bạn, và vào ngày khó khăn sẽ nhắc bạn về một việc bạn vừa làm được gần đây."
+      },
+      {
+        "q": "Xóa toàn bộ thế nào?",
+        "a": "Chạm `Xóa mọi ghi chép` trong Cài đặt. Mục tiêu và ghi chép sẽ biến mất vĩnh viễn, cả trên các thiết bị khác kết nối qua iCloud. Cài đặt và giao dịch mua vẫn giữ nguyên. Có Pro thì bạn có thể lưu một bản trước bằng `Xuất ghi chép`."
+      },
+      {
+        "q": "Liên hệ thế nào?",
+        "a": "Qua \"Gửi phản hồi\" trong Cài đặt của ứng dụng, hoặc gửi email tới địa chỉ bên dưới."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Hôm nay có hụt chân cũng không sao,\nviên đá tiếp theo vẫn ở đó",
+    "cta": "Tải miễn phí trên App Store"
+  },
+  "ui": {
+    "skip": "Chuyển đến nội dung",
+    "languages": "Ngôn ngữ",
+    "privacy": "Chính sách quyền riêng tư",
+    "contact": "Có câu hỏi hay góp ý? Viết cho {email}."
+  }
+}

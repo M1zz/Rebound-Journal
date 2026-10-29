@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — бережный дневник для дней, что прошли не по плану</title>
-<meta name="description" content="Оступиться — не значит упасть в ручей. ZinggumDol — дневник, где вы вспоминаете непростые дни в беседе с маленьким камешком. Поддержка и контакты." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: бережный дневник для дней, которые пошли не так</title>
+  <meta name="description" content="Когда цель сорвалась, камешек заговорит первым: что случилось, а потом как вы себя чувствуете. Без регистрации и рекламы. Три цели бесплатно.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: бережный дневник для дней, которые пошли не так">
+  <meta property="og:description" content="Когда цель сорвалась, камешек заговорит первым: что случилось, а потом как вы себя чувствуете. Без регистрации и рекламы. Три цели бесплатно.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/ru/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/ru/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Перейти к содержанию</a>
+  <header class="bar">
+    <a class="brand" href="../ru/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Язык</a>
+  </header>
 
-  <nav class="langs" aria-label="Язык">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="./" hreflang="ru" lang="ru" aria-current="true">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Оступиться ещё не значит<br>упасть в ручей</h1>
+        <p class="lead">В день, когда цель сорвалась, камешек заговаривает первым. Он спрашивает, что случилось, а не что вы сделали не так, и возвращает вам события и чувства по отдельности.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Загрузить бесплатно в App Store</a><a class="try" href="#try">Поговорите с камешком ↓</a></div>
+        <p class="muted small">Беседы, записи и пройденный путь бесплатны. Без регистрации и рекламы.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/01-home.jpg" alt="Оступиться ещё не значит упасть в ручей" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Страницы">
-    <a href="./" aria-current="page">О приложении и поддержка</a>
-    <a href="./privacy.html">Политика конфиденциальности</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Значок приложения ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Оступиться — не значит упасть в ручей.<br />Бережный дневник для дней, что прошли не по плану: вы неспешно разговариваете с камешком.</p>
+    <section class="reveal" id="try">
+      <h2>Поговорите с камешком</h2>
+      <p class="muted">Сегодня вы собирались на вечернюю прогулку, но не вышло. Нажмите на ответ или напишите свой, и камешек ответит так же, как в приложении.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Поговорите с камешком&quot;, &quot;lead&quot;: &quot;Сегодня вы собирались на вечернюю прогулку, но не вышло. Нажмите на ответ или напишите свой, и камешек ответит так же, как в приложении.&quot;, &quot;note&quot;: &quot;Тот же порядок и те же фразы, что в беседе в приложении. Ничего из написанного здесь не сохраняется.&quot;, &quot;send&quot;: &quot;Отправить&quot;, &quot;again&quot;: &quot;Начать заново&quot;, &quot;goal&quot;: &quot;Гулять 30 минут после ужина&quot;, &quot;workedSample&quot;: &quot;Дождь кончился, и я дошёл до самой реки. В голове прояснилось.&quot;, &quot;factsSample&quot;: &quot;Задержался на работе, дома только в 9. Сил на прогулку не осталось.&quot;, &quot;nextSample&quot;: &quot;В поздние дни хотя бы круг вокруг квартала&quot;, &quot;obs&quot;: &quot;«%@» — сегодня пока тихо.&quot;, &quot;yes&quot;: &quot;Да, не сделал&quot;, &quot;actually&quot;: &quot;Сделано, просто не записано&quot;, &quot;leave&quot;: &quot;Пока оставлю&quot;, &quot;facts&quot;: &quot;Что случилось, когда вы собирались сделать «%@»?&quot;, &quot;factsPh&quot;: &quot;Можно коротко — только что тогда произошло.&quot;, &quot;emotion&quot;: &quot;Понятно. А как вы себя чувствуете сейчас?&quot;, &quot;steps&quot;: [&quot;Очень тяжело&quot;, &quot;Грустно&quot;, &quot;Так себе&quot;, &quot;Нормально&quot;, &quot;Хорошо&quot;], &quot;sepOpen&quot;: &quot;Вот что я слышу.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nИтак, случилось «%2$@»,\nа сейчас на душе «%3$@»%4$@.\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Просто всё сложилось не так. Вы ни в чём не виноваты.&quot;, &quot;ack&quot;: &quot;Да&quot;, &quot;smaller&quot;: &quot;Если завтра сделать всего одно дело, что это будет?&quot;, &quot;smallerPh&quot;: &quot;Чем меньше, тем лучше. Даже пять минут — хорошо.&quot;, &quot;analyticClose&quot;: &quot;Записано. Завтра сделаем вот столько.&quot;, &quot;gentleClose&quot;: &quot;На сегодня хватит.\nСейчас важнее отдохнуть, чем искать ответ.\nЗапись сохранена, она не пропадёт.&quot;, &quot;worked&quot;: &quot;Что помогло?&quot;, &quot;workedPh&quot;: &quot;Запишу, чтобы можно было использовать это в следующий раз.&quot;, &quot;reachedClose&quot;: &quot;Записал. Когда в следующий раз станет трудно, напомню вам об этом.&quot;, &quot;leaveClose&quot;: &quot;Хорошо. Я рядом.&quot;, &quot;finish&quot;: &quot;Завершить&quot;, &quot;stop&quot;: &quot;Хватит&quot;, &quot;stages&quot;: [&quot;Что было&quot;, &quot;Чувства&quot;, &quot;Следующий шаг&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Загрузить в App Store</a>
+    <section class="problem reveal">
+      <h2>Когда день идёт не по плану, вы вините себя?</h2>
+      <p>Вечером после пропущенной тренировки первая мысль обычно «что со мной не так?». А если присмотреться, была переработка, шёл дождь, сил не осталось. ZinggumDol спрашивает о том, что случилось, и о том, как вы себя чувствуете, в разные моменты и кладёт одно рядом с другим. Когда видно, что дело было в обстоятельствах, а не в силе воли, следующий маленький шаг найти легче.</p>
+    </section>
 
-  <h2>Что умеет</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Беседа с камешком</h3>
-      <p>Камешек заговаривает первым. Он помнит, о чём вы говорили в прошлый раз, и спрашивает, что было потом. Выберите ответ или напишите свой.</p>
-    </div>
-    <div class="card">
-      <h3>Скажите вслух</h3>
-      <p>В дни, когда писать тяжело, просто скажите. Речь распознаётся на вашем устройстве, а на поддерживаемых устройствах сказанное приводится в удобочитаемый вид.</p>
-    </div>
-    <div class="card">
-      <h3>Пройденный путь</h3>
-      <p>Каждая неделя — ряд камней для перехода через ручей. Дни, на которые вы не ступили, остаются на месте: ничего не стирается.</p>
-    </div>
-    <div class="card">
-      <h3>Что вы оставили</h3>
-      <p>Просматривайте по датам, что случилось, какое было настроение и что вы собираетесь попробовать дальше.</p>
-    </div>
-    <div class="card">
-      <h3>Виджет и напоминания</h3>
-      <p>Фраза от камешка на экране «Домой» и мягкое напоминание в выбранное вами время, чтобы вместе посмотреть, как прошёл день.</p>
-    </div>
-    <div class="card">
-      <h3>Только для вас</h3>
-      <p>Без регистрации. Записи хранятся только на вашем устройстве и в вашем личном iCloud, а приложение можно закрыть код-паролем.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Камешек заговаривает первым</h2>
+        <p>Задайте цель, и камешек будет следить за днями, когда получилось, и днями, когда вы застряли. Когда день ускользает, он спрашивает «что случилось?», а не «почему нет?», и помнит, что вы рассказали в прошлый раз.<br>Если писать тяжело, просто скажите вслух. Речь распознаётся на устройстве, записи никогда не сохраняются.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/02-conversation.jpg" alt="Камешек заговаривает первым" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Экраны</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Камешек здоровается первым" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Разговор продолжается с прошлой записи" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="Неделя в виде камней-переходов" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Записи по датам" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ваши дни как камни через ручей</h2>
+        <p>Каждая неделя ложится рядом камней. Дни, на которые вы не ступили, тоже остаются; ничего не стирается.<br>Даже с пропуском-другим видно, что путь продолжается.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/03-path.jpg" alt="Ваши дни как камни через ручей" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Разовая покупка, не подписка. Вы можете вести больше трёх целей, выбирать из шести фактур камешка и экспортировать записи в текстовый файл.</p>
-  <p>На новом устройстве или после переустановки нажмите «Настройки» ▸ «Восстановить покупки».</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Перечитайте написанное</h2>
+        <p>Что случилось, что вы чувствовали и что попробуете дальше, собирается по датам. Перечитайте день, когда застряли так же, и увидите, что помогло.<br>Виджет показывает слово камешка на экране «Домой», а напоминание в выбранное время зовёт оглянуться на день.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/04-records.jpg" alt="Перечитайте написанное" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Контакты</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Также можно написать из приложения: «Настройки» ▸ «Написать разработчику».</p>
-  </div>
+    <section class="reveal">
+      <h2>Начать можно за три шага</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Запишите одну цель</h3><p>Например, «Гулять 30 минут после ужина».</p></li>
+<li class="card"><span class="n">2</span><h3>Откройте приложение вечером</h3><p>Камешек спросит, как прошёл день. С напоминанием вы не забудете.</p></li>
+<li class="card"><span class="n">3</span><h3>Нажмите или напишите ответ</h3><p>Остановиться можно в любой момент кнопкой <code>Пока оставлю</code>.</p></li></ol>
+    </section>
 
-  <h2>Конфиденциальность</h2>
-  <p>ZinggumDol никогда не отправляет разработчику то, что вы пишете. Подробности — в <a href="./privacy.html">политике конфиденциальности</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>Как идёт беседа</h2>
+      <div class="card table">
+        <dl><div><dt>Что было</dt><dd>Только факты: что помешало</dd></div><div><dt>Чувства</dt><dd>Как вы себя чувствуете сейчас, по шкале из пяти шагов</dd></div><div><dt>Оглянуться назад</dt><dd>Камешек возвращает события и чувства по отдельности</dd></div><div><dt>Следующий шаг</dt><dd>Вы сами выбираете что-то маленькое, пяти минут хватит</dd></div><div><dt>Итог</dt><dd>В совсем тяжёлый день он больше ни о чём не спрашивает и предлагает отдохнуть</dd></div></dl>
+      </div>
+      <p class="muted">Выйти можно в любой момент, а сказанное до этого сохранится.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Политика конфиденциальности</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Беседы и записи бесплатны. Pro, если хочется большего.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Бесплатно</h3>
+          <ul><li>Все беседы с камешком</li><li>До трёх целей</li><li>Говорить вместо того, чтобы печатать</li><li>Пройденный путь и всё написанное</li><li>Виджет и ежедневное напоминание</li><li>Блокировка код-паролем</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Сколько угодно целей</li><li>Шесть фактур камешка на выбор</li><li>Экспорт записей в текстовый файл</li></ul>
+          <p class="muted">Покупка один раз и навсегда. Не подписка.</p>
+        </div>
+      </div>
+      <p class="muted">Экран оплаты никогда не появляется посреди беседы. На новом устройстве или после переустановки нажмите «Восстановить покупки» в Настройках.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Частые вопросы</h2>
+      <div class="faq"><details><summary>Нужно ли объяснять каждый пропущенный день?</summary><p>Нет. Нажмите <code>Пока оставлю</code> в любой момент, и беседа сразу закончится. Сказанное сохранится, продолжить можно позже.</p></details>
+<details><summary>Я сделал, а приложение говорит, что нет.</summary><p>Нажмите <code>Сделано, просто не записано</code>. Камешек примет поправку и вместо этого спросит, что помогло. То, что сработало, сохранится, и он напомнит об этом, когда вы снова застрянете.</p></details>
+<details><summary>Куда уходит то, что я говорю вслух?</summary><p>Речь превращается в текст на устройстве, запись никогда не сохраняется. На поддерживаемых устройствах фразы ещё и приглаживаются, чтобы легче читались, тоже на устройстве.</p></details>
+<details><summary>Сколько целей можно завести?</summary><p>Три бесплатно. Закончив с целью, нажмите <code>Отпустить</code> в разделе «Пройденный путь», чтобы освободить место. Для большего числа нужен ZinggumDol Pro.</p></details>
+<details><summary>ZinggumDol Pro — это подписка?</summary><p>Нет. Вы платите один раз, и он ваш. На новом устройстве или после переустановки нажмите <code>Восстановить покупки</code> в Настройках.</p></details>
+<details><summary>Может ли кто-то прочитать мой дневник?</summary><p>Учётной записи нет. Записи хранятся только на вашем устройстве и в вашем iCloud, а в Настройках можно заблокировать приложение код-паролем. Написанное никогда не отправляется разработчику. Анонимную статистику использования можно отключить в Настройках.</p></details>
+<details><summary>Как поменять время напоминания?</summary><p>В разделе <code>Ежедневное напоминание</code> в Настройках его можно включить, выключить и выбрать время.</p></details>
+<details><summary>Камешек напоминает и об успехах?</summary><p>Да. Он помнит, что вам помогало, и в трудный день напомнит о том, что недавно получилось.</p></details>
+<details><summary>Как удалить всё?</summary><p>Нажмите <code>Удалить все записи</code> в Настройках. Цели и записи исчезнут навсегда, в том числе на других устройствах, связанных через iCloud. Настройки и покупки останутся. С Pro можно сначала сохранить копию через <code>Экспорт записей</code>.</p></details>
+<details><summary>Как с вами связаться?</summary><p>Через «Отправить отзыв» в Настройках приложения или письмом на адрес ниже.</p></details></div>
+      <p class="contact">Вопросы или предложения? Пишите на <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Оступились сегодня?<br>Следующий камень на месте</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Загрузить бесплатно в App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Язык"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru" aria-current="page">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Политика конфиденциальности</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

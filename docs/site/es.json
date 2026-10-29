@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: un diario amable para los días que se tuercen",
+  "description": "Cuando fallas un objetivo, un guijarro te habla primero: qué pasó y luego cómo te sientes. Sin registro ni anuncios. Tres objetivos gratis.",
+  "hero": {
+    "headline": "Dar un traspié\nno es caerse al río",
+    "lead": "El día que no cumples tu objetivo, el guijarro te habla primero. Te pregunta qué pasó, no qué hiciste mal, y te devuelve los hechos y lo que sientes por separado.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Hablar, escribir y ver tu camino es gratis. Sin registro ni anuncios."
+  },
+  "demo": {
+    "title": "Habla con el guijarro",
+    "lead": "Hoy ibas a salir a caminar por la tarde y no lo hiciste. Elige una respuesta o escribe la tuya, y el guijarro contesta igual que en la app.",
+    "note": "Mismo orden y mismas frases que la conversación de la app. Nada de lo que escribas aquí se guarda.",
+    "send": "Enviar",
+    "again": "Empezar de nuevo",
+    "goal": "Caminar 30 minutos después de cenar",
+    "workedSample": "Dejó de llover y caminé hasta el río. Tengo la cabeza despejada.",
+    "factsSample": "Llegué a casa a las 9 tras trabajar hasta tarde. Sin energía para caminar.",
+    "nextSample": "Los días largos, solo una vuelta a la manzana",
+    "obs": "«%@»: hoy todavía no.",
+    "yes": "Sí, no lo hice",
+    "actually": "Lo hice, solo que no lo anoté",
+    "leave": "Prefiero dejarlo por ahora",
+    "facts": "Cuando ibas a hacer «%@», ¿qué pasó?",
+    "factsPh": "Con poco basta: solo lo que pasó entonces.",
+    "emotion": "Ya veo. ¿Y cómo te sientes ahora?",
+    "steps": [
+      "Muy difícil",
+      "Bajón",
+      "Regular",
+      "Bien",
+      "Bien"
+    ],
+    "sepOpen": "Esto es lo que entiendo.",
+    "sepTpl": "%1$@\nAsí que pasó «%2$@»,\ny ahora mismo te sientes «%3$@».%4$@\n\n%5$@",
+    "sepClose": "Las cosas no salieron como querías. No es culpa tuya.",
+    "ack": "Sí",
+    "smaller": "Si mañana hicieras una sola cosa, ¿cuál sería?",
+    "smallerPh": "Cuanto más pequeño, mejor. Incluso cinco minutos valen.",
+    "analyticClose": "Anotado. Mañana, solo hasta aquí.",
+    "gentleClose": "Dejémoslo aquí por hoy.\nAhora es mejor descansar que buscar una respuesta.\nYa quedó anotado, no se pierde.",
+    "worked": "¿Qué te ayudó?",
+    "workedPh": "Lo anoto para poder usarlo otra vez.",
+    "reachedClose": "Anotado. La próxima vez que se ponga difícil, te lo recordaré.",
+    "leaveClose": "Vale. Aquí estaré.",
+    "finish": "Listo",
+    "stop": "Parar",
+    "stages": [
+      "Lo que pasó",
+      "Cómo te sientes",
+      "Siguiente paso"
+    ]
+  },
+  "problem": {
+    "title": "Cuando un día no sale como querías, ¿te echas la culpa?",
+    "text": "La noche que te saltas el entrenamiento, lo primero que piensas suele ser «¿qué me pasa?». Si lo miras con calma, hubo horas extra, llovió, estabas agotado. ZinggumDol te pregunta qué pasó y cómo te sientes en turnos distintos, y pone las dos cosas una al lado de la otra. Cuando ves que fueron las circunstancias y no tu fuerza de voluntad, es más fácil encontrar el siguiente paso pequeño."
+  },
+  "features": [
+    {
+      "title": "El guijarro habla primero",
+      "text": "Ponte un objetivo y el guijarro estará pendiente de los días que lo lograste y de los que te atascaste. Cuando se te escapa un día, pregunta «¿qué pasó?» en lugar de «¿por qué no?», y recuerda lo que le contaste la última vez.\nLos días en que escribir se hace cuesta arriba, dilo en voz alta. La voz se reconoce en tu dispositivo y las grabaciones no se guardan nunca.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Tus días, como piedras para cruzar el río",
+      "text": "Cada semana se extiende como una fila de piedras. Los días que no pisaste también se quedan ahí; no se borra nada.\nAunque haya un hueco o dos, ves que el camino sigue.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Vuelve a leer lo que escribiste",
+      "text": "Lo que pasó, cómo te sentiste y qué vas a probar después se van guardando por fecha. Relee un día en que te atascaste igual y verás qué funcionó.\nUn widget te muestra una frase del guijarro en la pantalla de inicio, y un aviso a la hora que elijas te invita a repasar el día.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Empezar lleva tres pasos",
+    "items": [
+      {
+        "title": "Escribe un objetivo",
+        "text": "Algo como «Caminar 30 minutos después de cenar»."
+      },
+      {
+        "title": "Abre la app al acabar el día",
+        "text": "El guijarro te pregunta qué tal te fue. Con un aviso diario no se te olvida."
+      },
+      {
+        "title": "Toca o escribe tu respuesta",
+        "text": "Puedes parar cuando quieras con `Prefiero dejarlo por ahora`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Así va una conversación",
+    "rows": [
+      [
+        "Lo que pasó",
+        "Solo los hechos: qué se interpuso"
+      ],
+      [
+        "Cómo te sientes",
+        "Cómo te sientes ahora, en una escala de cinco"
+      ],
+      [
+        "Mirar atrás",
+        "El guijarro te devuelve lo que pasó y lo que sientes, por separado"
+      ],
+      [
+        "Siguiente paso",
+        "Tú eliges algo pequeño; con cinco minutos basta"
+      ],
+      [
+        "Cierre",
+        "En un día muy bajo no pregunta nada más y te propone descansar"
+      ]
+    ],
+    "note": "Puedes salir en cualquier momento y lo que hayas dicho hasta entonces se guarda."
+  },
+  "pricing": {
+    "title": "Hablar y escribir es gratis. Pro, si quieres más.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Todas las conversaciones con el guijarro",
+        "Hasta tres objetivos",
+        "Hablar en lugar de escribir",
+        "Tu camino y todo lo que has escrito",
+        "Widget y aviso diario",
+        "Bloqueo con código"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Todos los objetivos que quieras",
+        "Seis acabados de guijarro para elegir",
+        "Exportar tus registros como archivo de texto"
+      ],
+      "note": "Se compra una vez y es para siempre. No es una suscripción."
+    },
+    "note": "Nunca aparece una pantalla de pago en mitad de una conversación. En un dispositivo nuevo o tras reinstalar, toca Restaurar compras en Ajustes."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Tengo que explicar cada día que fallo?",
+        "a": "No. Toca `Prefiero dejarlo por ahora` en cualquier momento y la conversación termina ahí. Lo que hayas dicho se guarda para que puedas retomarlo luego."
+      },
+      {
+        "q": "Lo hice, pero la app dice que no.",
+        "a": "Toca `Lo hice, solo que no lo anoté`. El guijarro acepta la corrección y te pregunta qué te ayudó. Lo que funcionó queda guardado y te lo recordará la próxima vez que te atasques."
+      },
+      {
+        "q": "¿Adónde va lo que digo en voz alta?",
+        "a": "Tu voz se convierte en texto en el propio dispositivo y la grabación no se guarda nunca. En los dispositivos compatibles, además, tus frases se pulen para que se lean mejor, también en el dispositivo."
+      },
+      {
+        "q": "¿Cuántos objetivos puedo tener?",
+        "a": "Tres gratis. Cuando termines con uno, usa `Soltar` en Camino recorrido para dejar un hueco libre. Para más de tres necesitas ZinggumDol Pro."
+      },
+      {
+        "q": "¿ZinggumDol Pro es una suscripción?",
+        "a": "No. Pagas una vez y es tuyo. En un dispositivo nuevo o tras reinstalar, toca `Restaurar compras` en Ajustes."
+      },
+      {
+        "q": "¿Alguien más puede leer mi diario?",
+        "a": "No hay cuenta. Tus registros solo están en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código en Ajustes. Lo que escribes nunca se envía al desarrollador. También puedes desactivar las estadísticas de uso anónimas en Ajustes."
+      },
+      {
+        "q": "¿Cómo cambio la hora del aviso?",
+        "a": "En `Aviso diario`, dentro de Ajustes, lo activas o desactivas y eliges la hora."
+      },
+      {
+        "q": "¿El guijarro me recuerda lo que he logrado?",
+        "a": "Sí. Recuerda lo que te funcionó y, en un día difícil, te trae a la memoria algo que conseguiste hace poco."
+      },
+      {
+        "q": "¿Cómo lo borro todo?",
+        "a": "Toca `Borrar todos los registros` en Ajustes. Tus objetivos y registros desaparecen para siempre, también en otros dispositivos sincronizados con iCloud. Los ajustes y las compras se mantienen. Con Pro puedes guardar antes una copia con `Exportar registros`."
+      },
+      {
+        "q": "¿Cómo me pongo en contacto?",
+        "a": "Desde «Enviar comentarios» en los Ajustes de la app, o por correo a la dirección de abajo."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "¿Un traspié hoy?\nLa siguiente piedra sigue ahí",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "¿Dudas o comentarios? Escribe a {email}."
+  }
+}

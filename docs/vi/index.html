@@ -1,130 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — nhật ký dịu dàng cho những ngày không như ý</title>
-<meta name="description" content="Vấp một bước không có nghĩa là bạn đã ngã xuống suối. ZinggumDol là ứng dụng nhật ký để nhìn lại những ngày không như ý qua cuộc trò chuyện với một viên đá nhỏ. Hỗ trợ và liên hệ." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: cuốn nhật ký dịu dàng cho những ngày không như ý</title>
+  <meta name="description" content="Ngày lỡ mục tiêu, viên đá nhỏ sẽ lên tiếng trước: chuyện gì đã xảy ra, rồi bạn thấy thế nào. Không cần đăng ký, không quảng cáo. Miễn phí 3 mục tiêu.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: cuốn nhật ký dịu dàng cho những ngày không như ý">
+  <meta property="og:description" content="Ngày lỡ mục tiêu, viên đá nhỏ sẽ lên tiếng trước: chuyện gì đã xảy ra, rồi bạn thấy thế nào. Không cần đăng ký, không quảng cáo. Miễn phí 3 mục tiêu.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
+  </header>
 
-  <nav class="langs" aria-label="Ngôn ngữ">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="./" hreflang="vi" lang="vi" aria-current="true">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Hụt chân một bước<br>không có nghĩa là rơi xuống suối</h1>
+        <p class="lead">Ngày bạn lỡ mục tiêu, viên đá sẽ là người mở lời trước. Nó hỏi chuyện gì đã xảy ra chứ không hỏi bạn sai ở đâu, rồi trả lại cho bạn sự việc và cảm xúc tách riêng.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Tải miễn phí trên App Store</a><a class="try" href="#try">Trò chuyện với viên đá ↓</a></div>
+        <p class="muted small">Trò chuyện, ghi chép và con đường đã qua đều miễn phí. Không đăng ký, không quảng cáo.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/01-home.jpg" alt="Hụt chân một bước không có nghĩa là rơi xuống suối" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Trang">
-    <a href="./" aria-current="page">Giới thiệu và hỗ trợ</a>
-    <a href="./privacy.html">Chính sách quyền riêng tư</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="Biểu tượng ứng dụng ZinggumDol" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Vấp một bước không có nghĩa là bạn đã ngã xuống suối.<br />Nhật ký dịu dàng cho những ngày không như ý, nơi bạn trò chuyện cùng một viên đá nhỏ.</p>
+    <section class="reveal" id="try">
+      <h2>Trò chuyện với viên đá</h2>
+      <p class="muted">Hôm nay bạn định đi bộ buổi tối mà không đi được. Chạm vào một câu trả lời hoặc tự viết, viên đá sẽ đáp lại y như trong ứng dụng.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Trò chuyện với viên đá&quot;, &quot;lead&quot;: &quot;Hôm nay bạn định đi bộ buổi tối mà không đi được. Chạm vào một câu trả lời hoặc tự viết, viên đá sẽ đáp lại y như trong ứng dụng.&quot;, &quot;note&quot;: &quot;Cùng thứ tự, cùng câu chữ như cuộc trò chuyện trong ứng dụng. Những gì bạn gõ ở đây không được lưu lại.&quot;, &quot;send&quot;: &quot;Gửi&quot;, &quot;again&quot;: &quot;Bắt đầu lại&quot;, &quot;goal&quot;: &quot;Đi bộ 30 phút sau bữa tối&quot;, &quot;workedSample&quot;: &quot;Mưa tạnh nên mình đi bộ ra tận bờ sông. Đầu óc nhẹ hẳn.&quot;, &quot;factsSample&quot;: &quot;Tăng ca, 9 giờ tối mới về tới nhà. Hết sức đi bộ rồi.&quot;, &quot;nextSample&quot;: &quot;Hôm nào về muộn thì chỉ đi một vòng quanh khu phố&quot;, &quot;obs&quot;: &quot;«%@» hôm nay vẫn chưa có gì ạ.&quot;, &quot;yes&quot;: &quot;Đúng, tôi đã không làm&quot;, &quot;actually&quot;: &quot;Đã làm nhưng chưa ghi lại&quot;, &quot;leave&quot;: &quot;Mình muốn tạm để vậy&quot;, &quot;facts&quot;: &quot;Lúc định làm «%@», đã có chuyện gì vậy?&quot;, &quot;factsPh&quot;: &quot;Ngắn cũng không sao, chỉ cần viết lúc đó đã xảy ra chuyện gì.&quot;, &quot;emotion&quot;: &quot;Ra vậy. Thế giờ bạn thấy trong lòng thế nào?&quot;, &quot;steps&quot;: [&quot;Rất khó khăn&quot;, &quot;Hơi chùng xuống&quot;, &quot;Bình thường&quot;, &quot;Ổn&quot;, &quot;Tốt&quot;], &quot;sepOpen&quot;: &quot;Nghe bạn kể, mình thấy thế này.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nĐã có chuyện «%2$@»,\nvà lúc này bạn thấy «%3$@».%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Chỉ là mọi việc không suôn sẻ thôi, không phải lỗi của bạn.&quot;, &quot;ack&quot;: &quot;Có&quot;, &quot;smaller&quot;: &quot;Nếu ngày mai chỉ làm đúng một việc, bạn sẽ làm gì?&quot;, &quot;smallerPh&quot;: &quot;Càng nhỏ càng tốt. Chỉ năm phút cũng được.&quot;, &quot;analyticClose&quot;: &quot;Đã ghi lại. Ngày mai chỉ làm chừng này thôi.&quot;, &quot;gentleClose&quot;: &quot;Hôm nay dừng ở đây thôi.\nLúc này nghỉ ngơi quan trọng hơn tìm câu trả lời.\nĐã ghi lại rồi, sẽ không mất đâu.&quot;, &quot;worked&quot;: &quot;Điều gì đã giúp được bạn?&quot;, &quot;workedPh&quot;: &quot;Mình ghi lại để lần sau còn dùng được.&quot;, &quot;reachedClose&quot;: &quot;Mình ghi lại rồi. Lần sau khi mọi việc không suôn sẻ, mình sẽ lấy ra cho bạn xem.&quot;, &quot;leaveClose&quot;: &quot;Vâng. Mình ở đây.&quot;, &quot;finish&quot;: &quot;Xong&quot;, &quot;stop&quot;: &quot;Dừng&quot;, &quot;stages&quot;: [&quot;Chuyện đã xảy ra&quot;, &quot;Cảm xúc&quot;, &quot;Bước tiếp theo&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Tải về trên App Store</a>
+    <section class="problem reveal">
+      <h2>Những ngày không theo kế hoạch, bạn có đang tự trách mình?</h2>
+      <p>Buổi tối bỏ buổi tập, ý nghĩ đầu tiên thường là "sao mình cứ thế này". Nhưng nhìn kỹ lại thì hôm đó phải tăng ca, trời mưa, và bạn đã kiệt sức. ZinggumDol hỏi riêng chuyện gì đã xảy ra và bạn đang thấy thế nào, rồi đặt hai điều cạnh nhau. Khi thấy là do hoàn cảnh chứ không phải do ý chí, bước nhỏ tiếp theo sẽ dễ tìm hơn.</p>
+    </section>
 
-  <h2>Ứng dụng làm được gì</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Trò chuyện với viên đá</h3>
-      <p>Viên đá luôn mở lời trước. Nó nhớ những gì bạn kể lần trước và hỏi sau đó ra sao. Chọn một câu trả lời hoặc tự viết.</p>
-    </div>
-    <div class="card">
-      <h3>Cứ nói ra</h3>
-      <p>Những ngày không muốn viết, bạn chỉ cần nói. Giọng nói được nhận dạng ngay trên thiết bị, và trên các thiết bị được hỗ trợ, lời bạn nói còn được sắp xếp cho dễ đọc.</p>
-    </div>
-    <div class="card">
-      <h3>Con đường đã qua</h3>
-      <p>Mỗi tuần xếp thành một hàng đá bước qua suối. Những ngày bạn chưa bước tới vẫn nằm đó; không có gì bị xóa đi.</p>
-    </div>
-    <div class="card">
-      <h3>Những điều bạn đã để lại</h3>
-      <p>Xem lại theo ngày chuyện gì đã xảy ra, tâm trạng ra sao và bạn muốn thử gì tiếp theo.</p>
-    </div>
-    <div class="card">
-      <h3>Widget và nhắc nhở</h3>
-      <p>Thấy một câu nói của viên đá trên Màn hình chính, và nhận lời nhắc nhẹ nhàng vào giờ bạn chọn để cùng xem hôm nay thế nào.</p>
-    </div>
-    <div class="card">
-      <h3>Chỉ của riêng bạn</h3>
-      <p>Không cần đăng ký. Ghi chép chỉ nằm trên thiết bị và trong iCloud của chính bạn, và bạn có thể khóa ứng dụng bằng mật mã.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Viên đá mở lời trước</h2>
+        <p>Đặt một mục tiêu, viên đá sẽ cùng bạn dõi theo những ngày làm được và những ngày vướng lại. Ngày bị lỡ, nó hỏi "đã có chuyện gì?" chứ không hỏi "sao không làm?", và còn nhớ những gì bạn kể lần trước.<br>Ngày nào ngại viết, cứ nói ra thành lời. Giọng nói được nhận dạng ngay trên máy, bản ghi âm không bao giờ được lưu.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/02-conversation.jpg" alt="Viên đá mở lời trước" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Màn hình</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="Viên đá chào bạn trước" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="Cuộc trò chuyện nối tiếp từ ghi chép lần trước" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="Một tuần xếp thành hàng đá bước" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Ghi chép của bạn theo ngày" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Con đường đã qua xếp thành những viên đá</h2>
+        <p>Mỗi tuần trải ra thành một hàng đá bắc qua suối. Những ngày chưa bước lên, viên đá vẫn nằm đó; không gì bị xóa.<br>Dù có một hai chỗ trống, bạn vẫn thấy con đường tiếp tục.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/03-path.jpg" alt="Con đường đã qua xếp thành những viên đá" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>Mua một lần, không phải đăng ký. Giữ nhiều hơn ba mục tiêu, chọn trong sáu kiểu bề mặt viên đá và xuất ghi chép thành tệp văn bản.</p>
-  <p>Trên thiết bị mới hoặc sau khi cài lại, hãy chạm Cài đặt ▸ Khôi phục giao dịch mua.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Đọc lại những gì đã kể</h2>
+        <p>Chuyện đã xảy ra, cảm xúc lúc đó và điều sẽ thử lần sau được xếp theo ngày. Đọc lại một ngày vướng lại giống vậy, bạn sẽ thấy điều gì đã có ích.<br>Tiện ích trên Màn hình chính hiện một câu của viên đá, và lời nhắc vào giờ bạn chọn mời bạn nhìn lại ngày hôm nay.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/04-records.jpg" alt="Đọc lại những gì đã kể" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Liên hệ</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />Bạn cũng có thể dùng Cài đặt ▸ Gửi email cho nhà phát triển trong ứng dụng.</p>
-  </div>
+    <section class="reveal">
+      <h2>Bắt đầu chỉ với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Viết một mục tiêu</h3><p>Chẳng hạn "Đi bộ 30 phút sau bữa tối".</p></li>
+<li class="card"><span class="n">2</span><h3>Mở ứng dụng lúc cuối ngày</h3><p>Viên đá sẽ hỏi hôm nay của bạn thế nào. Đặt lời nhắc để không quên.</p></li>
+<li class="card"><span class="n">3</span><h3>Chạm chọn hoặc viết câu trả lời</h3><p>Bạn có thể dừng bất cứ lúc nào với <code>Mình muốn tạm để vậy</code>.</p></li></ol>
+    </section>
 
-  <h2>Quyền riêng tư</h2>
-  <p>ZinggumDol không bao giờ gửi những gì bạn viết cho nhà phát triển. Xem chi tiết tại <a href="./privacy.html">Chính sách quyền riêng tư</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>Cuộc trò chuyện diễn ra thế này</h2>
+      <div class="card table">
+        <dl><div><dt>Chuyện đã xảy ra</dt><dd>Chỉ hỏi sự việc: điều gì đã cản trở</dd></div><div><dt>Cảm xúc</dt><dd>Chọn cảm xúc lúc này trên thang năm mức</dd></div><div><dt>Nhìn lại</dt><dd>Viên đá trả lại sự việc và cảm xúc của bạn tách riêng</dd></div><div><dt>Bước tiếp theo</dt><dd>Bạn tự chọn một việc nhỏ, năm phút là đủ</dd></div><div><dt>Tổng kết</dt><dd>Ngày lòng nặng trĩu, nó không hỏi thêm mà rủ bạn nghỉ ngơi</dd></div></dl>
+      </div>
+      <p class="muted">Bạn có thể dừng ở bất kỳ bước nào, những gì đã nói vẫn được giữ lại.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Chính sách quyền riêng tư</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Trò chuyện và ghi chép miễn phí. Cần nhiều hơn thì có Pro.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>Mọi cuộc trò chuyện với viên đá</li><li>Tối đa ba mục tiêu</li><li>Nói thay vì gõ</li><li>Con đường đã qua và mọi điều đã viết</li><li>Tiện ích Màn hình chính và nhắc nhở hằng ngày</li><li>Khóa bằng mật mã</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>Không giới hạn số mục tiêu</li><li>Chọn từ sáu bề mặt viên đá</li><li>Xuất ghi chép ra tệp văn bản</li></ul>
+          <p class="muted">Mua một lần, dùng mãi. Không phải gói đăng ký.</p>
+        </div>
+      </div>
+      <p class="muted">Màn hình thanh toán không bao giờ chen vào giữa cuộc trò chuyện. Trên thiết bị mới hoặc sau khi cài lại, hãy chạm vào Khôi phục giao dịch mua trong Cài đặt.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Ngày bị lỡ có nhất thiết phải viết lý do không?</summary><p>Không. Chạm <code>Mình muốn tạm để vậy</code> ở bất kỳ bước nào, cuộc trò chuyện kết thúc ngay. Những gì đã nói vẫn được giữ để lần sau nói tiếp.</p></details>
+<details><summary>Mình đã làm rồi mà ứng dụng bảo là chưa.</summary><p>Chạm <code>Đã làm nhưng chưa ghi lại</code>. Viên đá vui vẻ nhận lời đính chính và hỏi xem điều gì đã giúp bạn. Cách hiệu quả sẽ được ghi lại và nhắc lại khi bạn vướng lần sau.</p></details>
+<details><summary>Những gì mình nói ra đi đâu?</summary><p>Giọng nói được chuyển thành chữ ngay trên máy, bản ghi âm không bao giờ được lưu. Trên thiết bị được hỗ trợ, câu chữ còn được chỉnh lại cho dễ đọc, việc này cũng diễn ra trên máy.</p></details>
+<details><summary>Có thể đặt bao nhiêu mục tiêu?</summary><p>Miễn phí ba mục tiêu. Xong mục tiêu nào thì <code>Buông</code> nó trong Con đường đã qua để có chỗ trống. Muốn nhiều hơn ba thì cần ZinggumDol Pro.</p></details>
+<details><summary>ZinggumDol Pro có phải gói đăng ký không?</summary><p>Không. Trả một lần là của bạn. Trên thiết bị mới hoặc sau khi cài lại, hãy chạm <code>Khôi phục giao dịch mua</code> trong Cài đặt.</p></details>
+<details><summary>Người khác có đọc được nhật ký của mình không?</summary><p>Không cần tài khoản. Ghi chép chỉ nằm trên thiết bị và iCloud của riêng bạn, và bạn có thể khóa ứng dụng bằng mật mã trong Cài đặt. Những gì bạn viết không bao giờ được gửi cho nhà phát triển. Thống kê sử dụng ẩn danh cũng tắt được trong Cài đặt.</p></details>
+<details><summary>Đổi giờ nhắc nhở thế nào?</summary><p>Vào <code>Nhắc nhở hằng ngày</code> trong Cài đặt để bật, tắt và chọn giờ.</p></details>
+<details><summary>Viên đá có nhắc lại những điều mình đã làm được không?</summary><p>Có. Nó nhớ điều gì đã giúp bạn, và vào ngày khó khăn sẽ nhắc bạn về một việc bạn vừa làm được gần đây.</p></details>
+<details><summary>Xóa toàn bộ thế nào?</summary><p>Chạm <code>Xóa mọi ghi chép</code> trong Cài đặt. Mục tiêu và ghi chép sẽ biến mất vĩnh viễn, cả trên các thiết bị khác kết nối qua iCloud. Cài đặt và giao dịch mua vẫn giữ nguyên. Có Pro thì bạn có thể lưu một bản trước bằng <code>Xuất ghi chép</code>.</p></details>
+<details><summary>Liên hệ thế nào?</summary><p>Qua "Gửi phản hồi" trong Cài đặt của ứng dụng, hoặc gửi email tới địa chỉ bên dưới.</p></details></div>
+      <p class="contact">Có câu hỏi hay góp ý? Viết cho <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Hôm nay có hụt chân cũng không sao,<br>viên đá tiếp theo vẫn ở đó</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

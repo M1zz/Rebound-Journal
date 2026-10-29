@@ -1,133 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — A gentle journal for the days that didn't go to plan</title>
-<meta name="description" content="Missing a step doesn't mean you fell in. ZinggumDol is a journal where you look back on the days that didn't go to plan, in conversation with a little pebble. Support and contact." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol: a gentle journal for the days that go wrong</title>
+  <meta name="description" content="Miss a goal and a little pebble speaks first: it asks what happened, then how you feel, one at a time. No sign-up, no ads. Three goals are free.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol: a gentle journal for the days that go wrong">
+  <meta property="og:description" content="Miss a goal and a little pebble speaks first: it asks what happened, then how you feel, one at a time. No sign-up, no ads. Three goals are free.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/en/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/en/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="bar">
+    <a class="brand" href="../en/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">Language</a>
+  </header>
 
-  <nav class="langs" aria-label="Language">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="./" hreflang="en" lang="en" aria-current="true">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Missing a step<br>doesn't mean you fell in</h1>
+        <p class="lead">On a day you miss your goal, the pebble speaks first. It asks what happened, not what you did wrong, then hands back the facts and your feelings as two separate things.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">Get it free on the App Store</a><a class="try" href="#try">Talk to the pebble ↓</a></div>
+        <p class="muted small">Talking, journaling and your path are free. No sign-up, no ads.</p>
+      </div>
+      <div class="phone"><img src="../img/en/01-home.jpg" alt="Missing a step doesn&#x27;t mean you fell in" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="Pages">
-    <a href="./" aria-current="page">About &amp; Support</a>
-    <a href="./privacy.html">Privacy Policy</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="ZinggumDol app icon" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">Missing a step doesn't mean you fell in.<br />
-    A gentle journal for the days that didn't go to plan, where you talk things through with a little pebble.</p>
+    <section class="reveal" id="try">
+      <h2>Talk to the pebble</h2>
+      <p class="muted">You meant to go for an evening walk today and didn't. Tap a reply or type your own, and the pebble answers just as it does in the app.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Talk to the pebble&quot;, &quot;lead&quot;: &quot;You meant to go for an evening walk today and didn&#x27;t. Tap a reply or type your own, and the pebble answers just as it does in the app.&quot;, &quot;note&quot;: &quot;Same order and same lines as the conversation in the app. Nothing you type here is saved anywhere.&quot;, &quot;send&quot;: &quot;Send&quot;, &quot;again&quot;: &quot;Start over&quot;, &quot;goal&quot;: &quot;Walk 30 minutes after dinner&quot;, &quot;workedSample&quot;: &quot;The rain stopped, so I walked all the way to the river. My head feels clear.&quot;, &quot;factsSample&quot;: &quot;Got home at 9 after working late. No energy left to walk.&quot;, &quot;nextSample&quot;: &quot;On late days, just one lap around the block&quot;, &quot;obs&quot;: &quot;&#x27;%@&#x27; — not yet today.&quot;, &quot;yes&quot;: &quot;Right, I didn&#x27;t&quot;, &quot;actually&quot;: &quot;I did it, just didn&#x27;t log it&quot;, &quot;leave&quot;: &quot;I&#x27;d rather leave it for now&quot;, &quot;facts&quot;: &quot;When you meant to do &#x27;%@&#x27;, what happened?&quot;, &quot;factsPh&quot;: &quot;Short is fine. Just what happened.&quot;, &quot;emotion&quot;: &quot;I see. And how are you feeling now?&quot;, &quot;steps&quot;: [&quot;Really hard&quot;, &quot;Low&quot;, &quot;So-so&quot;, &quot;Okay&quot;, &quot;Good&quot;], &quot;sepOpen&quot;: &quot;Here&#x27;s what I&#x27;m hearing.&quot;, &quot;sepTpl&quot;: &quot;%1$@\nSo &#x27;%2$@&#x27; happened,\nand right now you feel &#x27;%3$@&#x27;.%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;Things didn&#x27;t go your way. That&#x27;s not on you.&quot;, &quot;ack&quot;: &quot;Yes&quot;, &quot;smaller&quot;: &quot;If you did just one thing tomorrow, what would it be?&quot;, &quot;smallerPh&quot;: &quot;Smaller is better. Five minutes is plenty.&quot;, &quot;analyticClose&quot;: &quot;Written down. Just this much tomorrow.&quot;, &quot;gentleClose&quot;: &quot;Let&#x27;s stop here for today.\nResting beats looking for answers right now.\nIt&#x27;s written down, so it won&#x27;t disappear.&quot;, &quot;worked&quot;: &quot;What helped?&quot;, &quot;workedPh&quot;: &quot;I&#x27;ll keep this so you can use it again.&quot;, &quot;reachedClose&quot;: &quot;Got it down. Next time things get tough, I&#x27;ll bring this back up.&quot;, &quot;leaveClose&quot;: &quot;All right. I&#x27;ll be here.&quot;, &quot;finish&quot;: &quot;Done&quot;, &quot;stop&quot;: &quot;Stop&quot;, &quot;stages&quot;: [&quot;What happened&quot;, &quot;Feeling&quot;, &quot;Next step&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">Download on the App Store</a>
+    <section class="problem reveal">
+      <h2>When a day doesn't go to plan, do you blame yourself?</h2>
+      <p>On a night you skipped the workout, the first thought is usually "what's wrong with me?" Look closer and there was a late shift, it was raining, you were worn out. ZinggumDol asks about what happened and how you feel in separate turns, then lays the two side by side. Once you see it was the circumstances and not your willpower, the next small step gets easier to find.</p>
+    </section>
 
-  <h2>What it does</h2>
-  <div class="features">
-    <div class="card">
-      <h3>Talk it over with a pebble</h3>
-      <p>The pebble speaks first. It remembers what you told it last time and asks how things went since. Pick a reply or write your own.</p>
-    </div>
-    <div class="card">
-      <h3>Just say it</h3>
-      <p>On days when writing feels like too much, say it out loud. Speech is recognized on your device, and on supported devices your words are tidied up so they read easily.</p>
-    </div>
-    <div class="card">
-      <h3>The way you've come</h3>
-      <p>Each week is laid out as a row of stepping stones. Days you didn't step on stay there too; nothing gets wiped away.</p>
-    </div>
-    <div class="card">
-      <h3>What you've left</h3>
-      <p>Look back at what happened, how you felt and what you'll try next, all in date order.</p>
-    </div>
-    <div class="card">
-      <h3>Widget and reminders</h3>
-      <p>See a word from the pebble on your Home Screen, and get a gentle nudge at a time you choose to look at how today went.</p>
-    </div>
-    <div class="card">
-      <h3>Yours alone</h3>
-      <p>No sign-up. Your records live only on your device and in your own iCloud, and you can lock the app with a passcode.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>The pebble speaks first</h2>
+        <p>Set a goal and the pebble keeps track of the days you made it and the days you got stuck. When a day slips by, it asks "what happened?" instead of "why didn't you?", and it remembers what you told it last time so it can ask how things went since.<br>On days when writing feels like too much, just say it. Speech is recognized on your device and recordings are never saved.</p>
+      </div>
+      <div class="phone"><img src="../img/en/02-conversation.jpg" alt="The pebble speaks first" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Screens</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="The pebble greeting you first" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="A conversation that picks up from your last note" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="The week laid out as stepping stones" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="Your notes in date order" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Your days laid out as stepping stones</h2>
+        <p>Each week is a row of stepping stones. The days you missed stay there too; nothing gets wiped away.<br>Even with a gap or two, you can see the path still carries on.</p>
+      </div>
+      <div class="phone"><img src="../img/en/03-path.jpg" alt="Your days laid out as stepping stones" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>A one-time purchase, not a subscription.
-     Keep more than three goals going, choose from six pebble finishes, and export your records as a text file.</p>
-  <p>On a new device or after reinstalling, tap Settings ▸ Restore Purchase.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Come back to what you wrote</h2>
+        <p>What happened, how you felt and what you'll try next pile up in date order. Look back at a day you got stuck in the same way and you'll see what worked.<br>A Home Screen widget shows a word from the pebble, and a reminder at a time you pick nudges you to look back on the day.</p>
+      </div>
+      <div class="phone"><img src="../img/en/04-records.jpg" alt="Come back to what you wrote" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>Contact</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />
-    You can also use Settings ▸ Send Feedback in the app.</p>
-  </div>
+    <section class="reveal">
+      <h2>Three steps to start</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Write down one goal</h3><p>Something like "Walk 30 minutes after dinner".</p></li>
+<li class="card"><span class="n">2</span><h3>Open the app at the end of the day</h3><p>The pebble asks how today went. Set a reminder so you don't forget.</p></li>
+<li class="card"><span class="n">3</span><h3>Tap or type a reply</h3><p>You can stop any time with <code>I'd rather leave it for now</code>.</p></li></ol>
+    </section>
 
-  <h2>Privacy</h2>
-  <p>ZinggumDol never sends what you write to the developer. For the details, see the <a href="./privacy.html">Privacy Policy</a>.</p>
+    <section class="reveal" id="commands">
+      <h2>How a conversation goes</h2>
+      <div class="card table">
+        <dl><div><dt>What happened</dt><dd>Just the facts of what got in the way</dd></div><div><dt>Feeling</dt><dd>Pick how you feel right now from five steps</dd></div><div><dt>Looking back</dt><dd>The pebble hands back what happened and how you feel, kept apart</dd></div><div><dt>Next step</dt><dd>You choose something small, five minutes is plenty</dd></div><div><dt>Wrap-up</dt><dd>On a really low day it asks nothing more and suggests a rest</dd></div></dl>
+      </div>
+      <p class="muted">You can leave at any point, and whatever you've said so far is kept.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">Privacy Policy</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>Talking and journaling are free. Pro is there if you want more.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Free</h3>
+          <ul><li>Every conversation with the pebble</li><li>Up to three goals</li><li>Speak instead of typing</li><li>Your path and everything you've written</li><li>Home Screen widget and daily reminders</li><li>Passcode lock</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>As many goals as you like</li><li>Choose from six pebble finishes</li><li>Export your records as a text file</li></ul>
+          <p class="muted">Buy once, keep it. Not a subscription.</p>
+        </div>
+      </div>
+      <p class="muted">No payment screen ever pops up in the middle of a conversation. On a new device or after reinstalling, tap Restore Purchase in Settings.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions</h2>
+      <div class="faq"><details><summary>Do I have to explain every missed day?</summary><p>No. Tap <code>I'd rather leave it for now</code> at any point and the conversation ends right there. What you've said so far is kept, so you can pick it up later.</p></details>
+<details><summary>I actually did it, but the app says I didn't.</summary><p>Tap <code>I did it, just didn't log it</code>. The pebble takes the correction and asks what helped instead. What worked gets saved, and it brings it back the next time you get stuck.</p></details>
+<details><summary>Where does what I say out loud go?</summary><p>Your speech is turned into text on your device and the recording is never saved. On supported devices your words are tidied up so they read more easily, and that happens on the device too.</p></details>
+<details><summary>How many goals can I have?</summary><p>Three for free. When you're done with one, use <code>Set Down</code> in The way you've come to free up a spot. For more than three, you'll need ZinggumDol Pro.</p></details>
+<details><summary>Is ZinggumDol Pro a subscription?</summary><p>No. You pay once and keep it. On a new device or after reinstalling, tap <code>Restore Purchase</code> in Settings.</p></details>
+<details><summary>Can anyone else read my journal?</summary><p>There's no account. Your records live only on your device and in your own iCloud, and you can lock the app with a passcode in Settings. What you write is never sent to the developer. You can also turn off anonymous usage statistics in Settings.</p></details>
+<details><summary>How do I change the reminder time?</summary><p>Go to <code>Daily reminders</code> in Settings to turn them on or off and pick a time.</p></details>
+<details><summary>Does the pebble ever bring up my old wins?</summary><p>Yes. When you mention something that worked before, the pebble remembers it, and on a hard day it reminds you of something you managed recently.</p></details>
+<details><summary>How do I delete everything?</summary><p>Tap <code>Delete All Records</code> in Settings. Your goals and records are gone for good, including on other devices synced through iCloud. Your settings and purchases stay. With Pro, you can save a copy with <code>Export records</code> first.</p></details>
+<details><summary>How do I get in touch?</summary><p>Use Send Feedback in the app's Settings, or email the address below.</p></details></div>
+      <p class="contact">Questions or feedback? Write to <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Missed a step today?<br>The next stone is still there</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">Get it free on the App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en" aria-current="page">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

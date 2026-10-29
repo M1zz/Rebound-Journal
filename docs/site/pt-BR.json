@@ -1,0 +1,197 @@
+{
+  "title": "ZinggumDol: um diário gentil para os dias que deram errado",
+  "description": "Quando você falha numa meta, uma pedrinha fala primeiro: o que aconteceu e depois como você se sente. Sem cadastro, sem anúncios. Três metas grátis.",
+  "hero": {
+    "headline": "Tropeçar não é\ncair no rio",
+    "lead": "No dia em que você não cumpre a meta, a pedrinha puxa conversa primeiro. Pergunta o que aconteceu, não o que você fez de errado, e devolve os fatos e o que você sente bem separados.",
+    "cta": "Baixe grátis na App Store",
+    "note": "Conversar, escrever e ver seu caminho é grátis. Sem cadastro e sem anúncios."
+  },
+  "demo": {
+    "title": "Converse com a pedrinha",
+    "lead": "Você ia caminhar hoje à noite e não foi. Escolha uma resposta ou escreva a sua, e a pedrinha responde do mesmo jeito que no app.",
+    "note": "Mesma ordem e mesmas frases da conversa no app. Nada do que você escrever aqui é salvo.",
+    "send": "Enviar",
+    "again": "Começar de novo",
+    "goal": "Caminhar 30 minutos depois do jantar",
+    "workedSample": "A chuva parou e fui caminhando até o rio. Estou com a cabeça leve.",
+    "factsSample": "Cheguei em casa às 21h depois de trabalhar até tarde. Sem energia pra caminhar.",
+    "nextSample": "Nos dias puxados, só uma volta no quarteirão",
+    "obs": "«%@»: hoje ainda não aconteceu.",
+    "yes": "Isso, não fiz",
+    "actually": "Fiz, só não registrei",
+    "leave": "Prefiro deixar por ora",
+    "facts": "Quando você ia fazer «%@», o que aconteceu?",
+    "factsPh": "Pode ser curto: só o que aconteceu naquela hora.",
+    "emotion": "Entendi. E como você está se sentindo agora?",
+    "steps": [
+      "Muito difícil",
+      "Para baixo",
+      "Mais ou menos",
+      "Tranquilo",
+      "Bom"
+    ],
+    "sepOpen": "Pelo que estou ouvindo, é isto.",
+    "sepTpl": "%1$@\nEntão aconteceu «%2$@»,\ne agora você se sente «%3$@».%4$@\n\n%5$@",
+    "sepClose": "As coisas não saíram como você queria. Não é culpa sua.",
+    "ack": "Sim",
+    "smaller": "Se você fizesse só uma coisa amanhã, o que seria?",
+    "smallerPh": "Quanto menor, melhor. Até cinco minutos servem.",
+    "analyticClose": "Anotado. Amanhã, só isso.",
+    "gentleClose": "Por hoje é só.\nAgora descansar é melhor do que procurar uma resposta.\nJá está anotado, não vai sumir.",
+    "worked": "O que ajudou?",
+    "workedPh": "Vou anotar para poder usar de novo.",
+    "reachedClose": "Anotado. Da próxima vez que ficar difícil, vou te lembrar disso.",
+    "leaveClose": "Certo. Estou aqui.",
+    "finish": "Pronto",
+    "stop": "Parar",
+    "stages": [
+      "O que aconteceu",
+      "Como se sente",
+      "Próximo passo"
+    ]
+  },
+  "problem": {
+    "title": "Quando o dia não sai como o planejado, você se culpa?",
+    "text": "Na noite em que você pula o treino, o primeiro pensamento costuma ser \"qual é o meu problema?\". Olhando com calma, teve hora extra, choveu, você estava exausto. O ZinggumDol pergunta o que aconteceu e como você se sente em momentos separados e coloca as duas coisas lado a lado. Quando você percebe que foram as circunstâncias e não a sua força de vontade, fica mais fácil achar o próximo passo pequeno."
+  },
+  "features": [
+    {
+      "title": "A pedrinha puxa conversa primeiro",
+      "text": "Defina uma meta e a pedrinha acompanha os dias em que deu certo e os dias em que você travou. Quando um dia escapa, ela pergunta \"o que aconteceu?\" em vez de \"por que não?\", e lembra o que você contou da última vez.\nNos dias em que escrever pesa, é só falar. A voz é reconhecida no seu aparelho e as gravações nunca são salvas.",
+      "shot": "02-conversation"
+    },
+    {
+      "title": "Seus dias como pedras para atravessar o rio",
+      "text": "Cada semana vira uma fileira de pedras. Os dias em que você não pisou também ficam lá; nada é apagado.\nMesmo com um buraco ou outro, dá para ver que o caminho continua.",
+      "shot": "03-path"
+    },
+    {
+      "title": "Releia o que você escreveu",
+      "text": "O que aconteceu, como você se sentiu e o que vai tentar depois ficam guardados por data. Releia um dia em que você travou do mesmo jeito e veja o que funcionou.\nUm widget mostra uma frase da pedrinha na tela de início, e um lembrete no horário que você escolher convida a olhar para o dia.",
+      "shot": "04-records"
+    }
+  ],
+  "steps": {
+    "title": "Para começar são três passos",
+    "items": [
+      {
+        "title": "Escreva uma meta",
+        "text": "Algo como \"Caminhar 30 minutos depois do jantar\"."
+      },
+      {
+        "title": "Abra o app no fim do dia",
+        "text": "A pedrinha pergunta como foi seu dia. Com um lembrete você não esquece."
+      },
+      {
+        "title": "Toque ou escreva sua resposta",
+        "text": "Dá para parar quando quiser com `Prefiro deixar por ora`."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Como a conversa acontece",
+    "rows": [
+      [
+        "O que aconteceu",
+        "Só os fatos: o que atrapalhou"
+      ],
+      [
+        "Como se sente",
+        "Como você se sente agora, numa escala de cinco"
+      ],
+      [
+        "Olhar para trás",
+        "A pedrinha devolve o que aconteceu e o que você sente, separados"
+      ],
+      [
+        "Próximo passo",
+        "Você escolhe algo pequeno; cinco minutos bastam"
+      ],
+      [
+        "Encerramento",
+        "Num dia muito pesado, ela não pergunta mais nada e sugere descansar"
+      ]
+    ],
+    "note": "Você pode sair a qualquer momento, e o que disse até ali fica guardado."
+  },
+  "pricing": {
+    "title": "Conversar e escrever é grátis. Pro se você quiser mais.",
+    "free": {
+      "name": "Grátis",
+      "items": [
+        "Todas as conversas com a pedrinha",
+        "Até três metas",
+        "Falar em vez de digitar",
+        "Seu caminho e tudo o que você escreveu",
+        "Widget e lembrete diário",
+        "Bloqueio com código"
+      ]
+    },
+    "pro": {
+      "name": "ZinggumDol Pro",
+      "items": [
+        "Quantas metas você quiser",
+        "Seis acabamentos de pedrinha para escolher",
+        "Exportar seus registros em arquivo de texto"
+      ],
+      "note": "Compra única, é seu para sempre. Não é assinatura."
+    },
+    "note": "Nenhuma tela de pagamento aparece no meio da conversa. Em um aparelho novo ou depois de reinstalar, toque em Restaurar compras nos Ajustes."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Preciso explicar cada dia que falhei?",
+        "a": "Não. Toque em `Prefiro deixar por ora` a qualquer momento e a conversa termina ali. O que você disse fica guardado para continuar depois."
+      },
+      {
+        "q": "Eu fiz, mas o app diz que não.",
+        "a": "Toque em `Fiz, só não registrei`. A pedrinha aceita a correção e pergunta o que ajudou. O que funcionou fica guardado, e ela traz de volta na próxima vez que você travar."
+      },
+      {
+        "q": "Para onde vai o que eu falo em voz alta?",
+        "a": "Sua voz vira texto no próprio aparelho e a gravação nunca é salva. Nos aparelhos compatíveis, as frases também são ajeitadas para ficar mais fáceis de ler, tudo no aparelho."
+      },
+      {
+        "q": "Quantas metas posso ter?",
+        "a": "Três de graça. Quando terminar uma, use `Soltar` em Caminho percorrido para abrir espaço. Para mais de três, você precisa do ZinggumDol Pro."
+      },
+      {
+        "q": "O ZinggumDol Pro é assinatura?",
+        "a": "Não. Você paga uma vez e é seu. Em um aparelho novo ou depois de reinstalar, toque em `Restaurar compras` nos Ajustes."
+      },
+      {
+        "q": "Outra pessoa pode ler meu diário?",
+        "a": "Não existe conta. Seus registros ficam só no seu aparelho e no seu iCloud, e dá para bloquear o app com um código nos Ajustes. O que você escreve nunca é enviado ao desenvolvedor. Você também pode desativar as estatísticas de uso anônimas nos Ajustes."
+      },
+      {
+        "q": "Como mudo o horário do lembrete?",
+        "a": "Em `Lembrete diário`, nos Ajustes, você liga, desliga e escolhe o horário."
+      },
+      {
+        "q": "A pedrinha me lembra do que eu já consegui?",
+        "a": "Sim. Ela guarda o que te ajudou e, num dia difícil, lembra de algo que você conseguiu há pouco tempo."
+      },
+      {
+        "q": "Como apago tudo?",
+        "a": "Toque em `Apagar todos os registros` nos Ajustes. Metas e registros somem de vez, inclusive nos outros aparelhos sincronizados pelo iCloud. Ajustes e compras continuam. Com o Pro, você pode antes guardar uma cópia com `Exportar registros`."
+      },
+      {
+        "q": "Como entro em contato?",
+        "a": "Por \"Enviar feedback\" nos Ajustes do app ou por e-mail no endereço abaixo."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tropeçou hoje?\nA próxima pedra continua lá",
+    "cta": "Baixe grátis na App Store"
+  },
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "languages": "Idioma",
+    "privacy": "Política de Privacidade",
+    "contact": "Dúvidas ou sugestões? Escreva para {email}."
+  }
+}

@@ -1,133 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>징검돌 — 막힌 날을 조약돌과 함께 돌아보는 기록 앱</title>
-<meta name="description" content="헛디뎌도 개울에 빠진 건 아니에요. 징검돌은 계획대로 되지 않은 날을 조약돌과 이야기하며 돌아보는 기록 앱입니다. 지원 및 문의." />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="./style.css" />
-<link rel="icon" href="./icon.png" />
-<link rel="apple-touch-icon" href="./icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>징검돌: 뜻대로 안 된 날을 조약돌과 돌아보는 일기장</title>
+  <meta name="description" content="목표를 놓친 날, 조약돌이 먼저 말을 걸어 있었던 일과 지금 마음을 따로 물어요. 가입도 광고도 없고, 목표 세 개까지는 무료예요.">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="징검돌: 뜻대로 안 된 날을 조약돌과 돌아보는 일기장">
+  <meta property="og:description" content="목표를 놓친 날, 조약돌이 먼저 말을 걸어 있었던 일과 지금 마음을 따로 물어요. 가입도 광고도 없고, 목표 세 개까지는 무료예요.">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/ko/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="bar">
+    <a class="brand" href=""><img src="icon.png" alt="" width="32" height="32">징검돌</a>
+    <a class="lang-link" href="#languages">언어</a>
+  </header>
 
-  <nav class="langs" aria-label="언어">
-    <a href="./" hreflang="ko" lang="ko" aria-current="true">한국어</a>
-    <a href="./en/" hreflang="en" lang="en">English</a>
-    <a href="./zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="./zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-    <a href="./ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="./ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="./es/" hreflang="es" lang="es">Español</a>
-    <a href="./de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="./fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="./it/" hreflang="it" lang="it">Italiano</a>
-    <a href="./pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="./th/" hreflang="th" lang="th">ไทย</a>
-    <a href="./vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="./cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="./da/" hreflang="da" lang="da">Dansk</a>
-    <a href="./el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="./fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="./id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="./nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="./nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="./pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="./sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="./tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>헛디뎠다고<br>개울에 빠진 건 아니에요</h1>
+        <p class="lead">목표를 놓친 날, 조약돌이 먼저 말을 걸어요. 뭘 잘못했는지가 아니라 무슨 일이 있었는지 묻고, 있었던 일과 지금 마음을 나눠서 돌려줘요.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">App Store에서 무료로 받기</a><a class="try" href="#try">조약돌과 이야기해 보세요 ↓</a></div>
+        <p class="muted small">대화, 기록, 지나온 길은 무료예요. 가입도 광고도 없어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/01-home.jpg" alt="헛디뎠다고 개울에 빠진 건 아니에요" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="페이지">
-    <a href="./" aria-current="page">소개 · 지원</a>
-    <a href="./privacy.html">개인정보처리방침</a>
-  </nav>
 
-  <img class="icon" src="./icon.png" alt="징검돌 앱 아이콘" />
-  <h1>징검돌 <span class="sub">ZinggumDol</span></h1>
-  <p class="lead">헛디뎌도 개울에 빠진 건 아니에요.<br />
-    계획대로 되지 않은 날을 조약돌과 이야기하며 돌아보는 기록 앱이에요.</p>
+    <section class="reveal" id="try">
+      <h2>조약돌과 이야기해 보세요</h2>
+      <p class="muted">저녁에 걷기로 해 놓고 못 걸은 날이에요. 답을 고르거나 직접 적으면 조약돌이 앱에서와 똑같이 대답해요.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;조약돌과 이야기해 보세요&quot;, &quot;lead&quot;: &quot;저녁에 걷기로 해 놓고 못 걸은 날이에요. 답을 고르거나 직접 적으면 조약돌이 앱에서와 똑같이 대답해요.&quot;, &quot;note&quot;: &quot;앱의 대화 순서와 문장을 그대로 옮긴 체험이에요. 여기 적은 글은 어디에도 저장되지 않아요.&quot;, &quot;send&quot;: &quot;보내기&quot;, &quot;again&quot;: &quot;처음부터 다시&quot;, &quot;goal&quot;: &quot;저녁에 30분 걷기&quot;, &quot;workedSample&quot;: &quot;비가 그쳐서 한강까지 걸었다. 걷고 나니 머리가 맑아졌다.&quot;, &quot;factsSample&quot;: &quot;야근하고 오니 9시. 걸을 힘이 없었다.&quot;, &quot;nextSample&quot;: &quot;늦는 날은 집 앞 한 바퀴만&quot;, &quot;obs&quot;: &quot;&#x27;%@&#x27;, 오늘은 아직이네요.&quot;, &quot;yes&quot;: &quot;맞아요, 못 했어요&quot;, &quot;actually&quot;: &quot;했는데 기록을 못 했어요&quot;, &quot;leave&quot;: &quot;지금은 그냥 둘래요&quot;, &quot;facts&quot;: &quot;&#x27;%@&#x27; 하려고 했을 때, 무슨 일이 있었어요?&quot;, &quot;factsPh&quot;: &quot;짧아도 괜찮아요. 그때 무슨 일이 있었는지만.&quot;, &quot;emotion&quot;: &quot;그랬구나. 그럼 지금 마음은 좀 어때요?&quot;, &quot;steps&quot;: [&quot;많이 힘들어요&quot;, &quot;가라앉았어요&quot;, &quot;그저 그래요&quot;, &quot;괜찮아요&quot;, &quot;좋아요&quot;], &quot;sepOpen&quot;: &quot;들어보니 이런 것 같아요.&quot;, &quot;sepTpl&quot;: &quot;%@\n&#x27;%@&#x27;, 그런 일이 있었고\n지금 마음은 &#x27;%@&#x27;%@.\n\n%@&quot;, &quot;sepClose&quot;: &quot;일이 안 풀렸던 거지, 잘못한 게 아니에요.&quot;, &quot;ack&quot;: &quot;네&quot;, &quot;smaller&quot;: &quot;내일 딱 하나만 한다면, 뭐 할래요?&quot;, &quot;smallerPh&quot;: &quot;작을수록 좋아요. 5분짜리여도 괜찮아요.&quot;, &quot;analyticClose&quot;: &quot;적어뒀어요. 내일 이만큼만 해봐요.&quot;, &quot;gentleClose&quot;: &quot;오늘은 여기까지 해요.\n지금은 답을 찾는 것보다 쉬는 게 나아요.\n적어두었으니까 없어지지 않아요.&quot;, &quot;worked&quot;: &quot;뭐가 도움이 됐어요?&quot;, &quot;workedPh&quot;: &quot;다음에 또 쓸 수 있게 적어둘게요.&quot;, &quot;reachedClose&quot;: &quot;잘 적어뒀어요. 다음에 잘 안 될 때 이거 꺼내 줄게요.&quot;, &quot;leaveClose&quot;: &quot;알겠어요. 여기 있을게요.&quot;, &quot;finish&quot;: &quot;마칠게요&quot;, &quot;stop&quot;: &quot;여기까지&quot;, &quot;stages&quot;: [&quot;있었던 일&quot;, &quot;마음&quot;, &quot;다음 한 걸음&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">App Store에서 받기</a>
+    <section class="problem reveal">
+      <h2>계획대로 안 된 날, 스스로를 탓하고 있나요?</h2>
+      <p>운동을 빼먹은 밤에 떠오르는 말은 대개 '나는 왜 이 모양일까'예요. 그런데 들여다보면 야근이 있었고, 비가 왔고, 너무 지쳐 있었어요. 징검돌은 그날 있었던 일과 지금 마음을 따로 묻고 둘을 나눠서 보여 줘요. 의지가 약해서가 아니라 사정이 그랬다는 걸 알아채면, 내일 내디딜 작은 걸음이 보여요.</p>
+    </section>
 
-  <h2>이런 앱이에요</h2>
-  <div class="features">
-    <div class="card">
-      <h3>조약돌과 나누는 이야기</h3>
-      <p>조약돌이 먼저 말을 걸어요. 지난번에 남긴 이야기를 기억했다가 그 뒤로 어땠는지 묻고, 답은 고르거나 직접 쓰면 돼요.</p>
-    </div>
-    <div class="card">
-      <h3>말로 편하게</h3>
-      <p>쓰기 어려운 날엔 말로 남겨요. 음성 인식은 기기 안에서 이뤄지고, 지원하는 기기에서는 말한 내용을 읽기 쉽게 다듬어 줘요.</p>
-    </div>
-    <div class="card">
-      <h3>지나온 길</h3>
-      <p>한 주가 징검다리로 놓여요. 밟지 않은 날의 돌도 지우지 않고 그대로 남겨 둬요.</p>
-    </div>
-    <div class="card">
-      <h3>남긴 것들</h3>
-      <p>그날 있었던 일, 기분, 다음에 해볼 일을 날짜순으로 다시 볼 수 있어요.</p>
-    </div>
-    <div class="card">
-      <h3>위젯과 알림</h3>
-      <p>홈 화면 위젯에서 조약돌의 한 마디를 보고, 정한 시간에 오늘 어땠는지 묻는 알림을 받을 수 있어요.</p>
-    </div>
-    <div class="card">
-      <h3>나만 보는 기록</h3>
-      <p>회원가입이 없어요. 기록은 기기와 내 iCloud에만 있고, 비밀번호로 잠글 수 있어요.</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>조약돌이 먼저 말을 걸어요</h2>
+        <p>목표를 정해 두면 조약돌이 해낸 날과 막힌 날을 함께 지켜봐요. 놓친 날엔 '왜 안 했어요?' 대신 '무슨 일이 있었어요?'라고 묻고, 지난번에 들려준 얘기를 기억했다가 그 뒤로 어떻게 됐는지 물어요.<br>적기 힘든 날엔 소리 내어 말해도 돼요. 말은 기기 안에서 알아듣고 녹음은 저장하지 않아요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/02-conversation.jpg" alt="조약돌이 먼저 말을 걸어요" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>화면</h2>
-  <div class="shots">
-    <img src="./screenshots/ko/01-greeting.png" alt="조약돌이 먼저 말을 거는 첫 화면" loading="lazy" width="1242" height="2688" />
-    <img src="./screenshots/ko/02-conversation.png" alt="지난 기록을 이어서 묻는 대화" loading="lazy" width="1242" height="2688" />
-    <img src="./screenshots/ko/04-stone-bridge.png" alt="한 주가 징검다리로 놓인 지나온 길" loading="lazy" width="1242" height="2688" />
-    <img src="./screenshots/ko/05-records.png" alt="날짜순으로 모인 남긴 것들" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>지나온 길이 징검돌로 놓여요</h2>
+        <p>한 주가 징검돌 한 줄로 펼쳐져요. 밟지 못한 날의 돌도 지우지 않고 그대로 남겨 둬요.<br>빠진 날이 있어도 길은 끊기지 않고 이어져 있다는 게 한눈에 보여요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/03-path.jpg" alt="지나온 길이 징검돌로 놓여요" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>징검돌 프로</h2>
-  <p>한 번 사면 계속 쓰는 상품이에요. 구독이 아닙니다.
-     목표를 3개보다 많이 품을 수 있고, 조약돌을 여섯 가지 결 중에서 고를 수 있고, 지나온 기록을 글 파일로 내보낼 수 있어요.</p>
-  <p>다른 기기에서 쓰거나 앱을 다시 설치했다면 설정 ▸ 구매 복원을 눌러 주세요.</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>남긴 이야기를 다시 꺼내 봐요</h2>
+        <p>있었던 일, 그때 마음, 다음에 해볼 것이 날짜순으로 쌓여요. 비슷하게 막혔던 날을 다시 보면 무엇이 통했는지 보여요.<br>홈 화면 위젯에서 조약돌의 한마디를 보고, 정해 둔 시간에 오늘을 돌아보라는 알림도 받을 수 있어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/04-records.jpg" alt="남긴 이야기를 다시 꺼내 봐요" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>문의</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />
-    앱의 설정 ▸ 피드백 보내기로도 보낼 수 있어요.</p>
-  </div>
+    <section class="reveal">
+      <h2>시작은 세 단계면 돼요</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>목표를 하나 적어요</h3><p>'저녁에 30분 걷기'처럼 해보려는 일을 적어요.</p></li>
+<li class="card"><span class="n">2</span><h3>하루를 마치고 앱을 열어요</h3><p>조약돌이 먼저 오늘 어땠는지 물어요. 알림 시간을 정해 두면 잊지 않아요.</p></li>
+<li class="card"><span class="n">3</span><h3>고르거나 적어서 답해요</h3><p>언제든 <code>지금은 그냥 둘래요</code>로 멈출 수 있어요.</p></li></ol>
+    </section>
 
-  <h2>개인정보</h2>
-  <p>징검돌은 기록의 내용을 개발자에게 보내지 않아요. 자세한 내용은 <a href="./privacy.html">개인정보처리방침</a>을 확인해 주세요.</p>
+    <section class="reveal" id="commands">
+      <h2>대화는 이렇게 흘러가요</h2>
+      <div class="card table">
+        <dl><div><dt>있었던 일</dt><dd>무슨 일이 있었는지 사실만 물어요</dd></div><div><dt>마음</dt><dd>지금 기분을 다섯 칸 중에서 골라요</dd></div><div><dt>돌아보기</dt><dd>있었던 일과 지금 마음을 나눠서 되짚어 줘요</dd></div><div><dt>다음 한 걸음</dt><dd>5분이면 되는 작은 일을 직접 정해요</dd></div><div><dt>마무리</dt><dd>마음이 많이 가라앉은 날엔 더 묻지 않고 쉬자고 해요</dd></div></dl>
+      </div>
+      <p class="muted">어느 단계에서든 그만둘 수 있고, 그때까지 말한 것은 남아요.</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">개인정보처리방침</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>대화와 기록은 무료, 더 필요하면 프로</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>무료</h3>
+          <ul><li>조약돌과의 대화 전부</li><li>목표 세 개까지</li><li>말로 남기기</li><li>지나온 길과 남긴 이야기</li><li>홈 화면 위젯과 매일 알림</li><li>비밀번호 잠금</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>징검돌 프로</h3>
+          <ul><li>목표를 개수 제한 없이</li><li>조약돌의 결을 여섯 가지 중에서 고르기</li><li>지나온 기록을 텍스트 파일로 내보내기</li></ul>
+          <p class="muted">한 번 사면 계속 써요. 구독이 아니에요.</p>
+        </div>
+      </div>
+      <p class="muted">대화 한가운데 결제 화면이 끼어들지 않아요. 다른 기기에서 쓰거나 앱을 다시 설치했다면 설정에서 구매 복원을 눌러 주세요.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq"><details><summary>놓친 날에 꼭 이유를 적어야 하나요?</summary><p>아니요. 어느 단계에서든 <code>지금은 그냥 둘래요</code>를 누르면 바로 끝나요. 그때까지 말한 것은 남아서 다음에 이어 볼 수 있어요.</p></details>
+<details><summary>사실은 했는데 앱이 못 했다고 해요.</summary><p><code>했는데 기록을 못 했어요</code>를 누르면 조약돌이 순순히 받아들이고, 뭐가 도움이 됐는지 물어요. 통했던 방법은 적어 두었다가 다음에 막힐 때 다시 꺼내 줘요.</p></details>
+<details><summary>말로 남긴 내용은 어디로 가나요?</summary><p>말은 기기 안에서 글로 바뀌고 녹음은 저장하지 않아요. 지원하는 기기에서는 읽기 편하게 문장을 다듬어 주는데, 이것도 기기 안에서 이뤄져요.</p></details>
+<details><summary>목표는 몇 개까지 둘 수 있나요?</summary><p>무료로 세 개까지 둘 수 있어요. 끝낸 목표는 지나온 길에서 <code>내려놓기</code>를 하면 자리가 비어요. 더 많이 두려면 징검돌 프로가 필요해요.</p></details>
+<details><summary>징검돌 프로는 구독인가요?</summary><p>아니요. 한 번 사면 계속 써요. 다른 기기에서 쓰거나 앱을 다시 설치했다면 설정의 <code>구매 복원</code>을 눌러 주세요.</p></details>
+<details><summary>다른 사람이 내 기록을 볼 수 있나요?</summary><p>가입이 없고 기록은 내 기기와 내 iCloud에만 있어요. 설정에서 비밀번호를 걸어 앱을 잠글 수 있어요. 적은 내용은 개발자에게 보내지 않아요. 앱을 연 날 같은 익명 사용 통계도 설정에서 끌 수 있어요.</p></details>
+<details><summary>알림 시간을 바꾸고 싶어요.</summary><p>설정의 <code>매일 알림</code>에서 켜고 끄거나 시간을 정할 수 있어요.</p></details>
+<details><summary>조약돌 말투를 바꿀 수 있나요?</summary><p>설정의 <code>말투</code>에서 존댓말과 반말 중에 고를 수 있어요.</p></details>
+<details><summary>기록을 모두 지우려면요?</summary><p>설정의 <code>모든 기록 지우기</code>를 누르면 목표와 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요. 프로라면 지우기 전에 <code>기록 내보내기</code>로 간직해 둘 수 있어요.</p></details>
+<details><summary>문의는 어디로 하나요?</summary><p>앱의 설정에서 피드백 보내기를 누르거나 아래 메일로 보내 주세요.</p></details></div>
+      <p class="contact">궁금한 점이나 의견은 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>로 보내 주세요.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>오늘 헛디뎠어도<br>다음 돌은 그 자리에 있어요</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">App Store에서 무료로 받기</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="언어"><a href="" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">개인정보처리방침</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="demo.js"></script>
 </body>
 </html>

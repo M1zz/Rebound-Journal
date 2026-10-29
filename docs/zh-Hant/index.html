@@ -1,133 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<title>ZinggumDol — 回顧那些沒能如願的日子的溫柔日記</title>
-<meta name="description" content="踏空一步,並不等於掉進了溪水裡。ZinggumDol 是一款日記 App,讓你和一顆小石子聊一聊,回顧那些沒能如願的日子。含支援與聯絡方式。" />
-<link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Rebound-Journal/en/" />
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/" />
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/" />
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/" />
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/" />
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/" />
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/" />
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/" />
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/" />
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/" />
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/" />
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/" />
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/" />
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/" />
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/" />
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/" />
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/" />
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/" />
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/" />
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/" />
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/" />
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/" />
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/" />
-<link rel="stylesheet" href="../style.css" />
-<link rel="icon" href="../icon.png" />
-<link rel="apple-touch-icon" href="../icon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZinggumDol：給沒能如願的日子的溫柔日記</title>
+  <meta name="description" content="沒完成目標的那天，小石子會先開口，分開問你發生了什麼、現在心情如何。不用註冊，沒有廣告。三個目標以內免費。">
+  <meta name="theme-color" content="#5F8F93" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111717" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6450388408">
+  <link rel="canonical" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Rebound-Journal/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Rebound-Journal/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Rebound-Journal/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Rebound-Journal/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Rebound-Journal/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Rebound-Journal/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Rebound-Journal/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Rebound-Journal/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Rebound-Journal/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Rebound-Journal/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Rebound-Journal/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Rebound-Journal/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Rebound-Journal/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Rebound-Journal/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Rebound-Journal/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Rebound-Journal/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Rebound-Journal/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Rebound-Journal/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Rebound-Journal/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Rebound-Journal/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Rebound-Journal/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Rebound-Journal/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Rebound-Journal/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZinggumDol：給沒能如願的日子的溫柔日記">
+  <meta property="og:description" content="沒完成目標的那天，小石子會先開口，分開問你發生了什麼、現在心情如何。不用註冊，沒有廣告。三個目標以內免費。">
+  <meta property="og:url" content="https://m1zz.github.io/Rebound-Journal/zh-Hant/">
+  <meta property="og:image" content="https://m1zz.github.io/Rebound-Journal/img/zh-Hant/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#5F8F93}@media (prefers-color-scheme:dark){:root{--accent:#7FB3B6}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
+  <a class="skip" href="#main">跳到主要內容</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hant/"><img src="../icon.png" alt="" width="32" height="32">ZinggumDol</a>
+    <a class="lang-link" href="#languages">語言</a>
+  </header>
 
-  <nav class="langs" aria-label="語言">
-    <a href="../" hreflang="ko" lang="ko">한국어</a>
-    <a href="../en/" hreflang="en" lang="en">English</a>
-    <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-    <a href="./" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a>
-    <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-    <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-    <a href="../es/" hreflang="es" lang="es">Español</a>
-    <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-    <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-    <a href="../it/" hreflang="it" lang="it">Italiano</a>
-    <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-    <a href="../th/" hreflang="th" lang="th">ไทย</a>
-    <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-    <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-    <a href="../da/" hreflang="da" lang="da">Dansk</a>
-    <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-    <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-    <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-    <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-    <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-    <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-    <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-    <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-  </nav>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>踩空一步，<br>不代表掉進了溪裡</h1>
+        <p class="lead">沒完成目標的那天，小石子會先開口。它問的是發生了什麼，而不是你哪裡做錯了，再把發生的事和你的心情分開交還給你。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6450388408">在 App Store 免費下載</a><a class="try" href="#try">和小石子聊聊 ↓</a></div>
+        <p class="muted small">聊天、記錄和走過的路都免費。不用註冊，沒有廣告。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/01-home.jpg" alt="踩空一步， 不代表掉進了溪裡" width="600" height="1303" decoding="async"></div>
+    </section>
 
-  <nav class="pages" aria-label="頁面">
-    <a href="./" aria-current="page">介紹與支援</a>
-    <a href="./privacy.html">隱私權政策</a>
-  </nav>
 
-  <img class="icon" src="../icon.png" alt="ZinggumDol App 圖示" />
-  <h1>ZinggumDol</h1>
-  <p class="lead">踏空一步,並不等於掉進了溪水裡。<br />
-    回顧那些沒能如願的日子的溫柔日記,讓你和一顆小石子慢慢聊。</p>
+    <section class="reveal" id="try">
+      <h2>和小石子聊聊</h2>
+      <p class="muted">今天本來打算傍晚去散步，結果沒去成。點一個回答或自己寫，小石子會像在 App 裡一樣回應你。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;和小石子聊聊&quot;, &quot;lead&quot;: &quot;今天本來打算傍晚去散步，結果沒去成。點一個回答或自己寫，小石子會像在 App 裡一樣回應你。&quot;, &quot;note&quot;: &quot;順序和句子都和 App 裡的對話相同。你在這裡寫的內容不會儲存到任何地方。&quot;, &quot;send&quot;: &quot;送出&quot;, &quot;again&quot;: &quot;重新開始&quot;, &quot;goal&quot;: &quot;晚餐後散步30分鐘&quot;, &quot;workedSample&quot;: &quot;雨停了，就一路走到河邊。腦袋清醒多了。&quot;, &quot;factsSample&quot;: &quot;加班到9點才到家。沒力氣再去走路了。&quot;, &quot;nextSample&quot;: &quot;加班的日子，就繞街區走一圈&quot;, &quot;obs&quot;: &quot;「%@」，今天還沒有動靜。&quot;, &quot;yes&quot;: &quot;對，我沒做&quot;, &quot;actually&quot;: &quot;做了，只是沒記錄&quot;, &quot;leave&quot;: &quot;我想先放著&quot;, &quot;facts&quot;: &quot;想做「%@」的時候，發生了什麼事？&quot;, &quot;factsPh&quot;: &quot;幾個字也沒關係，只寫當時發生了什麼。&quot;, &quot;emotion&quot;: &quot;這樣啊。那現在心情怎麼樣？&quot;, &quot;steps&quot;: [&quot;真的很難受&quot;, &quot;有點低落&quot;, &quot;一般般&quot;, &quot;還好&quot;, &quot;好&quot;], &quot;sepOpen&quot;: &quot;聽下來，好像是這樣。&quot;, &quot;sepTpl&quot;: &quot;%1$@\n發生了「%2$@」這件事，\n現在的心情是「%3$@」。%4$@\n\n%5$@&quot;, &quot;sepClose&quot;: &quot;只是事情不順，不是你做錯了。&quot;, &quot;ack&quot;: &quot;是&quot;, &quot;smaller&quot;: &quot;如果明天只做一件事，你想做什麼？&quot;, &quot;smallerPh&quot;: &quot;越小越好。5 分鐘也沒關係。&quot;, &quot;analyticClose&quot;: &quot;已記下。明天就做這麼多吧。&quot;, &quot;gentleClose&quot;: &quot;今天就到這裡吧。\n現在休息比找答案更重要。\n已經寫下來了，不會消失的。&quot;, &quot;worked&quot;: &quot;是什麼幫到了你？&quot;, &quot;workedPh&quot;: &quot;下次還能用，我先記下來。&quot;, &quot;reachedClose&quot;: &quot;好好記下來了。下次不順的時候，我會把這個拿出來給你看。&quot;, &quot;leaveClose&quot;: &quot;好的，我在這兒。&quot;, &quot;finish&quot;: &quot;結束&quot;, &quot;stop&quot;: &quot;到這裡&quot;, &quot;stages&quot;: [&quot;發生的事&quot;, &quot;心情&quot;, &quot;下一步&quot;]}"></div>
+    </section>
 
-  <a class="store" href="https://apps.apple.com/app/id6450388408">在 App Store 下載</a>
+    <section class="problem reveal">
+      <h2>事情沒照計畫走的那天，你在責怪自己嗎？</h2>
+      <p>錯過運動的晚上，第一個冒出來的念頭往往是「我怎麼老是這樣」。可是仔細看看，那天加了班、下了雨，你也累壞了。ZinggumDol 會分開問你那天發生了什麼、現在心情如何，再把兩者並排放在你眼前。發現是情況不允許而不是意志不夠，明天的一小步就清楚了。</p>
+    </section>
 
-  <h2>它能做什麼</h2>
-  <div class="features">
-    <div class="card">
-      <h3>和小石子聊一聊</h3>
-      <p>小石子會先開口。它記得你上次說過的話,會問問那之後怎麼樣了。可以直接選一個回答,也可以自己寫。</p>
-    </div>
-    <div class="card">
-      <h3>直接說出來</h3>
-      <p>不想動筆的日子,說出來就好。語音辨識在你的裝置上完成;在支援的裝置上,你說的話還會被整理得更易讀。</p>
-    </div>
-    <div class="card">
-      <h3>走過的路</h3>
-      <p>每一週都像一排踏腳石。沒有踏上的日子也會留在那裡,什麼都不會被抹去。</p>
-    </div>
-    <div class="card">
-      <h3>你留下的</h3>
-      <p>按日期回看發生了什麼、當時的心情,以及接下來想嘗試的事。</p>
-    </div>
-    <div class="card">
-      <h3>小元件與提醒</h3>
-      <p>在主螢幕上看到小石子的一句話,並在你選定的時間收到輕輕的提醒,一起看看今天過得怎麼樣。</p>
-    </div>
-    <div class="card">
-      <h3>只屬於你</h3>
-      <p>無需註冊。你的記錄只儲存在你的裝置和你自己的 iCloud 中,還可以用密碼鎖住 App。</p>
-    </div>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>小石子會先開口</h2>
+        <p>設好目標後，小石子會陪你一起看著做到的日子和卡住的日子。錯過的那天，它不問「為什麼沒做」，而是問「發生了什麼」；它也記得你上次說的話，會問你後來怎麼樣了。<br>不想打字的日子，說出來也可以。語音在裝置上辨識，錄音不會儲存。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/02-conversation.jpg" alt="小石子會先開口" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>介面</h2>
-  <div class="shots">
-    <img src="../screenshots/en/01-greeting.png" alt="小石子先向你打招呼" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/02-conversation.png" alt="接著上次的記錄繼續聊" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/04-stone-bridge.png" alt="把一週排成一排踏腳石" loading="lazy" width="1242" height="2688" />
-    <img src="../screenshots/en/05-records.png" alt="按日期排列的記錄" loading="lazy" width="1242" height="2688" />
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>走過的路，鋪成一排踏腳石</h2>
+        <p>一週鋪成一排踏腳石。沒踩上的那天，石頭也照樣留著，不會被抹去。<br>就算中間空了一兩天，也能一眼看出路還在延續。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/03-path.jpg" alt="走過的路，鋪成一排踏腳石" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>ZinggumDol Pro</h2>
-  <p>一次性購買,不是訂閱。
-     可以同時保留三個以上的目標,從六種小石子質感中挑選,並把記錄匯出為文字檔。</p>
-  <p>換了新裝置或重新安裝後,請點按「設定」▸「回復購買項目」。</p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>把留下的話再拿出來看</h2>
+        <p>發生的事、當時的心情、下次想試的事，依日期一筆筆累積。翻到一個同樣卡住的日子，就能看出什麼方法有用。<br>也能在主畫面小工具看小石子的一句話，並在你設定的時間收到回顧今天的通知。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/04-records.jpg" alt="把留下的話再拿出來看" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-  <h2>聯絡我們</h2>
-  <div class="card">
-    <p><a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br />
-    也可以在 App 中使用「設定」▸「寄信給開發者」。</p>
-  </div>
+    <section class="reveal">
+      <h2>三個步驟就能開始</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>寫下一個目標</h3><p>像是「晚餐後散步30分鐘」。</p></li>
+<li class="card"><span class="n">2</span><h3>一天結束時打開 App</h3><p>小石子會問你今天過得如何。設個提醒就不會忘。</p></li>
+<li class="card"><span class="n">3</span><h3>點選或寫下回答</h3><p>隨時都能用 <code>我想先放著</code> 結束。</p></li></ol>
+    </section>
 
-  <h2>隱私</h2>
-  <p>ZinggumDol 絕不會把你寫下的內容發給開發者。詳情請見<a href="./privacy.html">隱私權政策</a>。</p>
+    <section class="reveal" id="commands">
+      <h2>對話會這樣進行</h2>
+      <div class="card table">
+        <dl><div><dt>發生的事</dt><dd>只問事實：是什麼擋住了你</dd></div><div><dt>心情</dt><dd>從五個等級選出你現在的心情</dd></div><div><dt>回顧</dt><dd>小石子把發生的事和你的心情分開說給你聽</dd></div><div><dt>下一步</dt><dd>由你自己決定一件小事，五分鐘就夠</dd></div><div><dt>收尾</dt><dd>心情特別低落的日子，它不再追問，只勸你先休息</dd></div></dl>
+      </div>
+      <p class="muted">任何一步都能停下，之前說的話都會保留。</p>
+    </section>
 
-  <footer>© 2026 Leeo · <a href="./privacy.html">隱私權政策</a></footer>
-</div>
+
+    <section class="reveal" id="pricing">
+      <h2>聊天和記錄免費，想要更多再用 Pro</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>免費</h3>
+          <ul><li>和小石子的所有對話</li><li>最多三個目標</li><li>用說的取代打字</li><li>走過的路和留下的所有記錄</li><li>主畫面小工具與每日提醒</li><li>密碼鎖定</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>ZinggumDol Pro</h3>
+          <ul><li>目標數量不限</li><li>六種小石子質感任你挑</li><li>把記錄匯出成文字檔</li></ul>
+          <p class="muted">一次購買，永久使用。不是訂閱。</p>
+        </div>
+      </div>
+      <p class="muted">對話進行中絕不會跳出付款畫面。換了裝置或重新安裝後，請在設定裡點一下「回復購買項目」。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>常見問題</h2>
+      <div class="faq"><details><summary>沒做到的日子一定要寫原因嗎？</summary><p>不用。任何一步都能點 <code>我想先放著</code>，對話馬上結束。之前說的話會保留，下次可以接著聊。</p></details>
+<details><summary>我其實做了，App 卻說我沒做。</summary><p>點 <code>做了，只是沒記錄</code>，小石子會坦然接受，改問你是什麼幫了忙。有用的方法會被記下，下次卡住時它會再拿出來。</p></details>
+<details><summary>我說出來的話去了哪裡？</summary><p>語音在裝置上轉成文字，錄音不會儲存。在支援的裝置上，還會把句子整理得更好讀，這一步也在裝置上完成。</p></details>
+<details><summary>最多能有幾個目標？</summary><p>免費可以有三個。完成的目標在「走過的路」裡 <code>放下</code>，就能空出位置。想要更多，需要 ZinggumDol Pro。</p></details>
+<details><summary>ZinggumDol Pro 是訂閱嗎？</summary><p>不是。付一次就一直能用。換了裝置或重新安裝後，請在設定裡點 <code>回復購買項目</code>。</p></details>
+<details><summary>別人看得到我的記錄嗎？</summary><p>不用註冊，記錄只存在你的裝置和你自己的 iCloud。可以在設定裡設密碼鎖住 App。你寫的內容不會傳給開發者。打開 App 的天數這類匿名使用統計也能在設定裡關閉。</p></details>
+<details><summary>要怎麼改提醒時間？</summary><p>在設定的 <code>每日提醒</code> 可以開關並選擇時間。</p></details>
+<details><summary>小石子也會提起我做到過的事嗎？</summary><p>會。它記得什麼幫到了你，在難熬的日子裡會提起你最近做到的事。</p></details>
+<details><summary>要怎麼刪除全部記錄？</summary><p>在設定裡點 <code>刪除所有記錄</code>，目標和記錄會全部消失且無法復原，透過 iCloud 連結的其他裝置上也會刪除。設定和購買會保留。有 Pro 的話，可以先用 <code>匯出記錄</code> 存一份。</p></details>
+<details><summary>要怎麼聯絡你們？</summary><p>在 App 設定裡點「傳送意見回饋」，或寫信到下方信箱。</p></details></div>
+      <p class="contact">有問題或建議？歡迎寫信到 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今天踩空了也沒關係，<br>下一塊石頭還在那裡</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6450388408">在 App Store 免費下載</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="語言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隱私權政策</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>
