@@ -24,11 +24,13 @@ import SwiftUI
 import SwiftData
 import TipKit
 import WidgetKit
+import LeeoKit
 
 struct TodayView: View {
 
     @Environment(\.modelContext) private var modelContext
     @Environment(\.pebbleSkin) private var skin
+    @Environment(\.foldLayout) private var fold
     @Query private var journals: [JournalData]
     @Query private var goals: [SubGoalData]
 
@@ -73,6 +75,19 @@ struct TodayView: View {
     }
 
     var body: some View {
+        // 아이폰 듀오를 펴면 접힌 선 아래(가로면 왼쪽)에 조약돌과의 대화, 위(오른쪽)에 지나온 길이 선다.
+        // 접혀 있으면 `FoldSplitView` 는 대화만 그린다. 지금 화면 그대로.
+        FoldSplitView {
+            todayStack
+        } result: {
+            LookBackView(showsClose: false) { goal in
+                selectedGoal = goal
+            }
+            .environment(\.foldLayout, .single)
+        }
+    }
+
+    private var todayStack: some View {
         NavigationStack {
             ZStack {
                 PebbleTheme.canvas.ignoresSafeArea()
@@ -180,7 +195,9 @@ struct TodayView: View {
                 .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
-            .accessibilityHint(Text("지나온 길을 열어요"))
+            // 펼친 화면에서는 지나온 길이 이미 옆 판에 있다. 같은 것을 시트로 또 띄우지 않는다.
+            .allowsHitTesting(!fold.isUnfolded)
+            .accessibilityHint(fold.isUnfolded ? Text(verbatim: "") : Text("지나온 길을 열어요"))
         }
     }
 
@@ -509,15 +526,18 @@ struct TodayView: View {
 
     @ToolbarContentBuilder
     private var navigationItems: some ToolbarContent {
-        ToolbarItem(placement: .topBarLeading) {
-            // 지나온 길. 이어진 점들이 징검다리를 그대로 닮았다.
-            Button {
-                isLookingBack = true
-            } label: {
-                Image(systemName: "point.3.connected.trianglepath.dotted")
-                    .foregroundStyle(PebbleTheme.inkSoft)
+        // 펼친 화면에서는 지나온 길이 늘 옆 판에 서 있으므로 여는 단추가 필요 없다.
+        if !fold.isUnfolded {
+            ToolbarItem(placement: .topBarLeading) {
+                // 지나온 길. 이어진 점들이 징검다리를 그대로 닮았다.
+                Button {
+                    isLookingBack = true
+                } label: {
+                    Image(systemName: "point.3.connected.trianglepath.dotted")
+                        .foregroundStyle(PebbleTheme.inkSoft)
+                }
+                .accessibilityLabel("지나온 길")
             }
-            .accessibilityLabel("지나온 길")
         }
 
         ToolbarItem(placement: .topBarTrailing) {

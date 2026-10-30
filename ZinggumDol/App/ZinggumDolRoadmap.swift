@@ -50,7 +50,7 @@ extension ZinggumDolSpec {
         .init(id: "a11y.keyboard", status: .planned,
               title: String(localized: "키보드로 조작하기", comment: "Roadmap item: keyboard control"),
               detail: String(localized: "아이패드나 맥에서 키보드만으로 주요 기능을 쓸 수 있어요.", comment: "Roadmap item detail: keyboard control")),
-        .init(id: "fold", status: .planned,
+        .init(id: "fold", status: .building,
               title: String(localized: "펼치는 아이폰 화면", comment: "Roadmap item: foldable iPhone layout"),
               detail: String(localized: "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요.", comment: "Roadmap item detail: foldable iPhone layout")),
     ]}

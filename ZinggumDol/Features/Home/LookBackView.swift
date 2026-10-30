@@ -22,6 +22,8 @@ struct LookBackView: View {
     @Query private var journals: [JournalData]
     @Query private var goals: [SubGoalData]
 
+    /// 시트로 열 때만 닫기 단추를 단다. 아이폰 듀오를 폈을 때 옆 판에 늘 서 있을 때는 닫을 것이 없다.
+    var showsClose = true
     /// 목표를 골라 대화로 넘어갈 때.
     var onPickGoal: (String) -> Void
 
@@ -95,15 +97,20 @@ struct LookBackView: View {
                 .font(PebbleTheme.title(20))
                 .foregroundStyle(PebbleTheme.ink)
             Spacer()
-            Button {
-                dismiss()
-            } label: {
-                Image(systemName: "xmark")
-                    .font(.system(size: 15, weight: .semibold))
-                    .foregroundStyle(PebbleTheme.inkFaint)
-                    .frame(width: 40, height: 40)
+            if showsClose {
+                Button {
+                    dismiss()
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(PebbleTheme.inkFaint)
+                        .frame(width: 40, height: 40)
+                }
+                .accessibilityLabel(Text("닫기"))
+            } else {
+                // 단추가 있을 때와 머리 높이를 맞춘다.
+                Color.clear.frame(width: 40, height: 40)
             }
-            .accessibilityLabel(Text("닫기"))
         }
         .padding(.horizontal, 18)
         .padding(.top, PebbleTheme.sheetHeaderTop)

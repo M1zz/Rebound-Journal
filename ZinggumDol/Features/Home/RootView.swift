@@ -11,6 +11,7 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 struct RootView: View {
 
@@ -28,9 +29,11 @@ struct RootView: View {
                 case .passcodeView:
                     PasscodeView()
                         .environmentObject(manager)
+                        .foldConfined()
                 case .setupPasscodeView:
                     PasscodeView(setupMode: true)
                         .environmentObject(manager)
+                        .foldConfined()
                 }
             }
             .onAppear {
