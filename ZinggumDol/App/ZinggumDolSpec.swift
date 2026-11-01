@@ -12,7 +12,7 @@ enum ZinggumDolSpec: LeeoAppSpec {
     /// 메일 제목·만족도 안내·페이월에 나가는 이름. 스토어 이름과 같게 언어별로.
     /// (FeedbackHub는 `appIdentifier`로 앱을 가르므로 이 값이 바뀌어도 모이는 곳은 같다)
     static let appName = String(localized: "징검돌")
-    static let developerEmail = "mizzking75@gmail.com"
+    static let developerEmail = "leeo@kakao.com"
 
     /// ⚠️ appIdentifier 는 FeedbackHub 에 쌓인 피드백·사용 통계와의 계약이다. 바꾸지 않는다.
     static let feedback = LeeoFeedbackConfig(
