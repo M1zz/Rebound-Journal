@@ -71251,6 +71251,290 @@
           }
         }
       }
+    },
+    "기록을 열지 못했어요" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záznamy se nepodařilo otevřít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine data kunne ikke åbnes"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Einträge konnten nicht geöffnet werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατό να ανοίξουν τα δεδομένα σας"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't open your records"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't open your records"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudieron abrir tus registros"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tietojasi ei voitu avata"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d’ouvrir vos données"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat membuka catatan Anda"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile aprire i tuoi dati"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録を開けませんでした"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke åpne dataene dine"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je gegevens konden niet worden geopend"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się otworzyć Twoich danych"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível abrir seus registros"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось открыть записи"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att öppna dina data"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดข้อมูลที่บันทึกไว้ไม่ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtların açılamadı"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể mở dữ liệu của bạn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法打开记录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法開啟紀錄"
+          }
+        }
+      }
+    },
+    "저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요." : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložené záznamy nebyly smazány. To, co přidáte teď, se ale neuloží, proto aplikaci zavřete a znovu otevřete."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine gemte data er ikke slettet. Det, du tilføjer nu, bliver dog ikke gemt, så luk appen, og åbn den igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine gespeicherten Einträge wurden nicht gelöscht. Was du jetzt hinzufügst, wird aber nicht gespeichert. Schließe die App bitte und öffne sie erneut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα αποθηκευμένα δεδομένα σας δεν έχουν διαγραφεί. Ό,τι προσθέσετε τώρα όμως δεν θα αποθηκευτεί, γι’ αυτό κλείστε την εφαρμογή και ανοίξτε την ξανά."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your saved records haven't been deleted. Anything you add now won't be saved, so please close the app and open it again."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your saved records haven't been deleted. Anything you add now won't be saved, so please close the app and open it again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus registros guardados no se han borrado. Lo que añadas ahora no se guardará, así que cierra la app y vuelve a abrirla."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennettuja tietojasi ei ole poistettu. Nyt lisäämäsi tiedot eivät kuitenkaan tallennu, joten sulje sovellus ja avaa se uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos données enregistrées n’ont pas été supprimées. Ce que vous ajoutez maintenant ne sera pas enregistré : fermez l’app, puis rouvrez-la."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan yang tersimpan tidak terhapus. Namun, yang Anda tambahkan sekarang tidak akan disimpan, jadi tutup aplikasi lalu buka lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I dati salvati non sono stati eliminati. Quello che aggiungi ora però non verrà salvato: chiudi l’app e riaprila."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存済みの記録は消えていません。ただし、今入力した内容は保存されないため、アプリを一度終了してから開き直してください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De lagrede dataene dine er ikke slettet. Det du legger til nå, blir likevel ikke lagret, så lukk appen og åpne den igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je opgeslagen gegevens zijn niet verwijderd. Wat je nu toevoegt, wordt echter niet bewaard. Sluit de app en open hem opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisane dane nie zostały usunięte. To, co dodasz teraz, nie zostanie jednak zapisane, więc zamknij aplikację i otwórz ją ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seus registros salvos não foram apagados. O que você adicionar agora não será salvo, então feche o app e abra de novo."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённые записи не удалены. Но то, что вы добавите сейчас, не сохранится, поэтому закройте приложение и откройте его снова."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dina sparade data har inte raderats. Det du lägger till nu sparas dock inte, så stäng appen och öppna den igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูลที่บันทึกไว้ยังไม่ถูกลบ แต่สิ่งที่เพิ่มตอนนี้จะไม่ถูกบันทึก โปรดปิดแอปแล้วเปิดใหม่อีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı verilerin silinmedi. Ancak şimdi eklediklerin kaydedilmeyecek; uygulamayı kapatıp yeniden aç."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dữ liệu đã lưu không bị xóa. Tuy nhiên, những gì bạn thêm bây giờ sẽ không được lưu, vì vậy hãy đóng ứng dụng rồi mở lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存的记录没有被删除。但现在输入的内容不会被保存，请关闭应用后重新打开。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已儲存的紀錄並未刪除。不過現在輸入的內容不會儲存，請關閉 App 後重新開啟。"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
