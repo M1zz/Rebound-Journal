@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import AppIntents
 import TipKit
 import LeeoKit
 
@@ -32,6 +33,9 @@ struct ZinggumDolApp: App {
     #endif
 
     init() {
+        // Siri 인텐트가 같은 저장소를 쓴다 (→ StepIntents.swift)
+        let container = sharedModelContainer
+        AppDependencyManager.shared.add(dependency: container)
         LeeoEngagement.shared.registerLaunch()
         // 페이월·구매 이벤트가 FeedbackHub 로 모이게 한다.
         LeeoAnalyticsCenter.register(ZinggumDolSpec.self)

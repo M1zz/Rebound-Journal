@@ -24,6 +24,7 @@
 		22F76D629E121E2FE4B45B3A /* EmotionVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B48FFA161DD5D71A536AA1A /* EmotionVocabulary.swift */; };
 		23AD4F6CE44CD9D53655A5A9 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE3CA0CD04357580CE6039 /* GoalsView.swift */; };
 		34CAD3E117A9BABD6308CE97 /* StoneBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */; };
+		3E8233B791B92563D26DC5DC /* StepIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */; };
 		429D1D50CB2D9041CDDED650 /* ZinggumDolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CEB7F55F0C4DBCA5F58161 /* ZinggumDolSpec.swift */; };
 		4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174705416645E35FAB3931 /* LookBackView.swift */; };
 		46B781E09259FABE4C2E5E9D /* ZinggumDolWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 008D539F940765D19E5B644C /* ZinggumDolWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -71,6 +72,7 @@
 		C3B1B7D12D9462140008E38D /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1B7D02D9462140008E38D /* AppLanguage.swift */; };
 		C7A4812B83E1CF7E3F1F69CF /* ProgressObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B21196696E9C4AA400EB7 /* ProgressObserver.swift */; };
 		CE8613311D8C21A1850CFB35 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4793847AD7E6899F390C7B5 /* ConversationView.swift */; };
+		D1F47AB894E00563B3B480D5 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */; };
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
 		D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */; };
 		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
@@ -114,7 +116,9 @@
 		2865C3F121BCA8EFE72A7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
 		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
+		3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StepIntents.swift; sourceTree = "<group>"; };
 		469FA349854C6890405976FC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
 		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
 		51174705416645E35FAB3931 /* LookBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookBackView.swift; sourceTree = "<group>"; };
 		51F995B506A6AF31E454ED76 /* PebbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleView.swift; sourceTree = "<group>"; };
@@ -297,6 +301,7 @@
 				586F228A2A33861C004C7410 /* ZinggumDol */,
 				D2A6396157B5A91A4951FC2D /* ZinggumDolWidget */,
 				586F22892A33861C004C7410 /* Products */,
+				4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */,
 			);
 			sourceTree = "<group>";
 		};
@@ -684,6 +689,7 @@
 				586F228B2A33861C004C7410 /* ZinggumDolApp.swift */,
 				A8CEB7F55F0C4DBCA5F58161 /* ZinggumDolSpec.swift */,
 				C760ECB726D436E8330B1F4E /* ZinggumDolRoadmap.swift */,
+				3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -824,6 +830,7 @@
 				C3B1B7AD2D9462140008E38D /* Localizable.xcstrings in Resources */,
 				C3B1B7B12D9462140008E38D /* InfoPlist.xcstrings in Resources */,
 				586F22902A33861D004C7410 /* Assets.xcassets in Resources */,
+				D1F47AB894E00563B3B480D5 /* AppShortcuts.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -888,6 +895,7 @@
 				A431489DD48483EAE4C42A2D /* LeftAgo.swift in Sources */,
 				54C29520A0E09C2256F8E240 /* ScreenshotMode.swift in Sources */,
 				8DA74F20CF0F019BAEE5E7A0 /* ZinggumDolRoadmap.swift in Sources */,
+				3E8233B791B92563D26DC5DC /* StepIntents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
