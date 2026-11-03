@@ -33,6 +33,10 @@ struct ZinggumDolApp: App {
     #endif
 
     init() {
+        // 백업 금고 — 예약된 복원 적용 · 업데이트 직전 백업. 저장소를 열기 전에 가장 먼저.
+        LeeoVault.start(ZinggumDolSpec.self)
+        // 저장소는 금고 뒤에 연다 (프로퍼티 초기값으로 두면 init 보다 먼저 열린다)
+        sharedModelContainer = Self.makeModelContainer()
         // Siri 인텐트가 같은 저장소를 쓴다 (→ StepIntents.swift)
         let container = sharedModelContainer
         AppDependencyManager.shared.add(dependency: container)
@@ -57,7 +61,9 @@ struct ZinggumDolApp: App {
         ])
     }
 
-    var sharedModelContainer: ModelContainer = {
+    let sharedModelContainer: ModelContainer
+
+    private static func makeModelContainer() -> ModelContainer {
         // ⚠️ 스키마를 바꾸지 않는다. 기존 사용자 기록이 이 두 모델에 있다.
         let schema = Schema([
             JournalData.self,
@@ -74,7 +80,7 @@ struct ZinggumDolApp: App {
         } catch {
             return StoreFallback.memoryContainer(schema: schema, after: error)
         }
-    }()
+    }
 
     var body: some Scene {
         WindowGroup {

@@ -13,6 +13,8 @@ enum ZinggumDolSpec: LeeoAppSpec {
     /// (FeedbackHub는 `appIdentifier`로 앱을 가르므로 이 값이 바뀌어도 모이는 곳은 같다)
     static let appName = String(localized: "징검돌")
     static let developerEmail = "leeo@kakao.com"
+    /// 위젯과 나눠 쓰는 기록 — 백업 금고가 함께 떠 둔다.
+    static let appGroups = ["group.com.leeo.ReboundJournal"]
 
     /// ⚠️ appIdentifier 는 FeedbackHub 에 쌓인 피드백·사용 통계와의 계약이다. 바꾸지 않는다.
     static let feedback = LeeoFeedbackConfig(
