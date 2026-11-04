@@ -18,6 +18,7 @@ struct RootView: View {
     @EnvironmentObject var manager: DataManager
     @Environment(\.modelContext) private var modelContext
     @Environment(\.managedObjectContext) private var coreDataContext
+    @Environment(\.scenePhase) private var scenePhase
 
     @Query private var journals: [JournalData]
     @Query private var subGoals: [SubGoalData]
@@ -50,5 +51,14 @@ struct RootView: View {
                 // FeedbackHub 사용 통계 스냅샷 (LeeoKit 이 12시간 간격으로 스로틀)
                 UsageReporting.reportSnapshot(journals: journals, subGoals: subGoals)
             }
+            // Siri · Spotlight 가 목표를 찾게 한다 (→ StepIntents.swift)
+            .task { await reindexGoals() }
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .background { Task { await reindexGoals() } }
+            }
+    }
+
+    private func reindexGoals() async {
+        await StepGoalQuery.reindex(modelContext.container, locked: manager.savedPasscode.count == 4)
     }
 }

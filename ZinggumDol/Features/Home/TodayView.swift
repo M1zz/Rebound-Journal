@@ -116,6 +116,12 @@ struct TodayView: View {
             }
             .animation(.easeInOut(duration: 0.3), value: conversation?.id)
             .onOpenURL(perform: enter(from:))
+            // Spotlight · Siri 에서 목표를 눌러 들어왔을 때 (→ StepIntents.swift)
+            .onChange(of: StepRouter.shared.goalText, initial: true) { _, text in
+                guard let text else { return }
+                selectedGoal = text
+                StepRouter.shared.goalText = nil
+            }
             #if DEBUG
             // 확인·스크린샷용: 실행 인자 `-debug.open settings|addGoal|lookBack|records|goals|paywall`
             .task { openDebugScreen() }
