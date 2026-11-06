@@ -4,6 +4,200 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.1.3
+
+### 앱스토어 (한국어)
+
+Siri에게 말해 오늘 한 걸음을 남길 수 있어요.
+iPhone 검색에서 목표를 바로 찾아 열어요.
+매일 기록을 자동으로 백업해요.
+iCloud나 파일에서 기록을 되살릴 수 있어요.
+기록을 열지 못해도 앱이 꺼지지 않고 알려 줘요.
+
+### 앱스토어 (영어, en-US)
+
+Log today’s step just by asking Siri.
+Open your goals from iPhone search.
+Your records are backed up every day.
+Restore records from iCloud or a file.
+No more crash when records can’t open.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Log today’s step just by asking Siri.
+Open your goals from iPhone search.
+Your records are backed up every day.
+Restore records from iCloud or a file.
+No more crash when records can’t open.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+对 Siri 说一声，就能记录今天的一步。
+在 iPhone 搜索中直接打开目标。
+每天自动备份你的记录。
+可从 iCloud 或文件恢复记录。
+记录无法打开时不再闪退，而会提示。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+對 Siri 說一聲，就能記錄今天的一步。
+在 iPhone 搜尋中直接打開目標。
+每天自動備份你的紀錄。
+可從 iCloud 或檔案還原紀錄。
+紀錄無法開啟時不再閃退，而會提示。
+
+### 앱스토어 (일본어)
+
+Siriに話すだけで今日の一歩を記録できます。
+iPhoneの検索から目標をすぐ開けます。
+毎日、記録を自動でバックアップします。
+iCloudやファイルから記録を復元できます。
+記録を開けなくても落ちずにお知らせします。
+
+### 앱스토어 (러시아어)
+
+Запишите шаг дня, просто сказав Siri.
+Открывайте цели из поиска iPhone.
+Автоматическая копия каждый день.
+Восстановите записи из iCloud или файла.
+Без сбоя, если записи не открываются.
+
+### 앱스토어 (스페인어)
+
+Registra el paso de hoy con Siri.
+Abre tus metas desde la búsqueda.
+Copia de seguridad diaria automática.
+Restaura desde iCloud o un archivo.
+Sin cierres si no se abren tus datos.
+
+### 앱스토어 (독일어)
+
+Den heutigen Schritt per Siri notieren.
+Ziele direkt in der iPhone-Suche öffnen.
+Tägliches automatisches Backup.
+Aus iCloud oder Datei wiederherstellen.
+Kein Absturz mehr bei Ladefehlern.
+
+### 앱스토어 (프랑스어)
+
+Notez le pas du jour en parlant à Siri.
+Ouvrez vos objectifs via la recherche.
+Sauvegarde automatique chaque jour.
+Restauration via iCloud ou un fichier.
+Fini les plantages à l’ouverture.
+
+### 앱스토어 (이탈리아어)
+
+Registra il passo di oggi con Siri.
+Apri gli obiettivi dalla ricerca iPhone.
+Backup automatico ogni giorno.
+Ripristina da iCloud o da un file.
+Nessun arresto se i dati non si aprono.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+Registre o passo de hoje com a Siri.
+Abra suas metas pela busca do iPhone.
+Backup automático todos os dias.
+Restaure do iCloud ou de um arquivo.
+Sem travar quando os dados não abrem.
+
+### 앱스토어 (태국어)
+
+บอก Siri เพื่อบันทึกก้าวของวันนี้ได้
+เปิดเป้าหมายได้จากการค้นหาบน iPhone
+สำรองข้อมูลให้อัตโนมัติทุกวัน
+กู้คืนข้อมูลจาก iCloud หรือไฟล์ได้
+แอปไม่ปิดเองเมื่อเปิดข้อมูลไม่ได้
+
+### 앱스토어 (베트남어)
+
+Nói với Siri để ghi lại bước hôm nay.
+Mở mục tiêu ngay từ tìm kiếm iPhone.
+Tự động sao lưu dữ liệu mỗi ngày.
+Khôi phục dữ liệu từ iCloud hoặc tệp.
+Không còn thoát app khi lỗi mở dữ liệu.
+
+### 앱스토어 (체코어)
+
+Dnešní krok zapíšete přes Siri.
+Cíle otevřete z hledání iPhonu.
+Každý den automatická záloha.
+Obnova dat z iCloudu nebo ze souboru.
+Už žádný pád, když nejdou otevřít data.
+
+### 앱스토어 (덴마크어)
+
+Registrér dagens skridt med Siri.
+Åbn dine mål direkte fra søgning.
+Automatisk backup hver dag.
+Gendan data fra iCloud eller en fil.
+Intet nedbrud, hvis data ikke kan åbnes.
+
+### 앱스토어 (그리스어)
+
+Καταγράψτε το σημερινό βήμα με τη Siri.
+Ανοίξτε στόχους από την αναζήτηση.
+Αυτόματο αντίγραφο ασφαλείας κάθε μέρα.
+Επαναφορά από iCloud ή από αρχείο.
+Χωρίς κόλλημα αν δεν ανοίγουν δεδομένα.
+
+### 앱스토어 (핀란드어)
+
+Kirjaa päivän askel Sirin avulla.
+Avaa tavoitteet suoraan iPhonen hausta.
+Automaattinen varmuuskopio joka päivä.
+Palautus iCloudista tai tiedostosta.
+Ei kaatumista, jos tiedot eivät aukea.
+
+### 앱스토어 (인도네시아어)
+
+Catat langkah hari ini lewat Siri.
+Buka tujuan dari pencarian iPhone.
+Cadangan otomatis setiap hari.
+Pulihkan data dari iCloud atau file.
+App tak tertutup saat data gagal dibuka.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Registrer dagens steg med Siri.
+Åpne målene rett fra søk på iPhone.
+Automatisk sikkerhetskopi hver dag.
+Gjenopprett fra iCloud eller en fil.
+Ingen krasj om data ikke kan åpnes.
+
+### 앱스토어 (네덜란드어)
+
+Leg de stap van vandaag vast met Siri.
+Open doelen via zoeken op iPhone.
+Elke dag een automatische back-up.
+Zet terug vanuit iCloud of een bestand.
+Geen crash meer bij openen van gegevens.
+
+### 앱스토어 (폴란드어)
+
+Zapisz dzisiejszy krok przez Siri.
+Otwieraj cele z wyszukiwania iPhone’a.
+Codzienna automatyczna kopia zapasowa.
+Przywróć dane z iCloud lub z pliku.
+Bez awarii, gdy dane się nie otwierają.
+
+### 앱스토어 (스웨덴어)
+
+Logga dagens steg med Siri.
+Öppna mål direkt från sök på iPhone.
+Automatisk säkerhetskopia varje dag.
+Återställ data från iCloud eller en fil.
+Ingen krasch om data inte kan öppnas.
+
+### 앱스토어 (튀르키예어)
+
+Bugünkü adımı Siri ile kaydedin.
+Hedefleri iPhone aramasından açın.
+Her gün otomatik yedekleme.
+iCloud’dan veya dosyadan geri yükleyin.
+Veriler açılmasa da uygulama çökmez.
+
 ## 2.1.2
 
 ### 앱스토어 (한국어)
