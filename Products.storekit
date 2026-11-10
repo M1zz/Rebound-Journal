@@ -15,7 +15,7 @@
   ],
   "products" : [
     {
-      "displayPrice" : "7900",
+      "displayPrice" : "17000",
       "familyShareable" : true,
       "internalID" : "6E1B2C43",
       "localizations" : [
@@ -35,7 +35,7 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "7900",
+      "displayPrice" : "17000",
       "familyShareable" : false,
       "internalID" : "6E1B2C44",
       "localizations" : [
@@ -55,7 +55,7 @@
       "type" : "Consumable"
     },
     {
-      "displayPrice" : "2200",
+      "displayPrice" : "1100",
       "familyShareable" : false,
       "internalID" : "6E1B2C51",
       "localizations" : [
@@ -75,7 +75,7 @@
       "type" : "Consumable"
     },
     {
-      "displayPrice" : "5500",
+      "displayPrice" : "4400",
       "familyShareable" : false,
       "internalID" : "6E1B2C52",
       "localizations" : [
@@ -95,7 +95,7 @@
       "type" : "Consumable"
     },
     {
-      "displayPrice" : "11000",
+      "displayPrice" : "17000",
       "familyShareable" : false,
       "internalID" : "6E1B2C53",
       "localizations" : [
