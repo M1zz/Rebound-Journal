@@ -4,6 +4,152 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.1.4
+
+### 앱스토어 (한국어)
+
+조약돌이 더 말랑하고 귀여워졌어요.
+기쁠 때는 입을 벌려 활짝 웃어요.
+보낸 의견에 답장이 오면 앱에서 알려 줘요.
+
+### 앱스토어 (영어, en-US)
+
+Your pebble is softer and cuter now.
+It beams with a big open smile.
+See replies to your feedback in the app.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Your pebble is softer and cuter now.
+It beams with a big open smile.
+See replies to your feedback in the app.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+小石头变得更软萌、更可爱了。
+开心的时候会张嘴大笑。
+你的反馈有了回复，会在应用里提醒你。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+小石頭變得更軟萌、更可愛了。
+開心的時候會張嘴大笑。
+你的意見有了回覆，會在 App 裡提醒你。
+
+### 앱스토어 (일본어)
+
+小石がもっとぷにぷに、かわいくなりました。
+うれしいときは口を開けてにっこり笑います。
+送ったご意見への返信をアプリでお知らせします。
+
+### 앱스토어 (러시아어)
+
+Камешек стал мягче и милее.
+От радости он широко улыбается.
+Ответ на ваш отзыв придёт в приложение.
+
+### 앱스토어 (스페인어)
+
+Tu piedrecita es más blandita y tierna.
+Si se alegra, sonríe de oreja a oreja.
+Verás en la app si te respondemos.
+
+### 앱스토어 (독일어)
+
+Dein Kiesel ist weicher und niedlicher.
+Freut er sich, strahlt er richtig.
+Antworten auf dein Feedback in der App.
+
+### 앱스토어 (프랑스어)
+
+Ton galet est plus doux et plus mignon.
+Content, il sourit jusqu’aux oreilles.
+Les réponses à tes avis, dans l’app.
+
+### 앱스토어 (이탈리아어)
+
+Il tuo sassolino è più morbido e tenero.
+Quando è felice fa un sorriso enorme.
+Le risposte ai tuoi commenti, nell’app.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+Sua pedrinha ficou mais fofa e macia.
+Quando fica feliz, abre um sorrisão.
+Respostas aos seus comentários no app.
+
+### 앱스토어 (태국어)
+
+ก้อนหินน้อยนุ่มนิ่มและน่ารักขึ้น
+เวลาดีใจจะอ้าปากยิ้มกว้าง
+แอปจะแจ้งเมื่อมีคำตอบถึงความเห็นของคุณ
+
+### 앱스토어 (베트남어)
+
+Viên sỏi giờ mềm mại và đáng yêu hơn.
+Khi vui, sỏi cười thật tươi.
+Xem phản hồi cho góp ý ngay trong app.
+
+### 앱스토어 (체코어)
+
+Oblázek je teď měkčí a roztomilejší.
+Když má radost, směje se od ucha k uchu.
+Odpověď na váš názor najdete v aplikaci.
+
+### 앱스토어 (덴마크어)
+
+Din sten er blevet blødere og sødere.
+Når den er glad, smiler den stort.
+Se svar på din feedback direkte i appen.
+
+### 앱스토어 (그리스어)
+
+Το βότσαλο έγινε πιο απαλό και γλυκό.
+Όταν χαίρεται, χαμογελά πλατιά.
+Δες τις απαντήσεις στα σχόλιά σου εδώ.
+
+### 앱스토어 (핀란드어)
+
+Kivesi on nyt pehmeämpi ja suloisempi.
+Iloisena se hymyilee leveästi.
+Näet vastaukset palautteeseesi täällä.
+
+### 앱스토어 (인도네시아어)
+
+Kerikilmu kini lebih kenyal dan lucu.
+Saat senang, ia tersenyum lebar.
+Lihat balasan masukanmu di aplikasi.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Steinen din er blitt mykere og søtere.
+Når den er glad, smiler den bredt.
+Se svar på tilbakemeldingen din i appen.
+
+### 앱스토어 (네덜란드어)
+
+Je kiezel is nu zachter en schattiger.
+Is hij blij, dan lacht hij breeduit.
+Zie antwoorden op je feedback in de app.
+
+### 앱스토어 (폴란드어)
+
+Kamyk jest teraz miększy i słodszy.
+Z radości uśmiecha się od ucha do ucha.
+Zobacz odpowiedzi na swoje opinie.
+
+### 앱스토어 (스웨덴어)
+
+Din sten har blivit mjukare och sötare.
+När den är glad ler den stort.
+Se svar på din feedback direkt i appen.
+
+### 앱스토어 (튀르키예어)
+
+Çakıl taşın artık daha yumuşak ve tatlı.
+Sevinince kocaman gülümsüyor.
+Geri bildirimine gelen yanıtı gör.
+
 ## 2.1.3
 
 ### 앱스토어 (한국어)
