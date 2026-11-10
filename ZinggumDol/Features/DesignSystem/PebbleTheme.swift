@@ -25,10 +25,11 @@ enum PebbleTheme {
     /// 배경 위에서 아주 살짝만 구분되는 면.
     static let surfaceMuted = dynamic(light: 0xE7EDEC, dark: 0x161C1C)
 
-    /// 조약돌 본체 (밝은 쪽 → 그늘 쪽). 돌은 계속 따뜻하다.
-    static let pebbleLit = dynamic(light: 0xF1E3CB, dark: 0xDCC3A2)
-    static let pebbleMid = dynamic(light: 0xD6C0A0, dark: 0xB59572)
-    static let pebbleShade = dynamic(light: 0xAC9070, dark: 0x8A6D4E)
+    /// 조약돌 본체 (밝은 쪽 → 그늘 쪽). 따뜻하되 붉은 기는 뺀 강가 돌의 잿빛 모래색.
+    /// 살구빛 베이지는 윤기와 볼이 얹히면 돌이 아니라 살로 읽힌다.
+    static let pebbleLit = dynamic(light: 0xEFEBE0, dark: 0xD9D4C7)
+    static let pebbleMid = dynamic(light: 0xCFC9B9, dark: 0xADA696)
+    static let pebbleShade = dynamic(light: 0x9C9584, dark: 0x7C7566)
 
     /// 키 컬러 — 개울 물빛.
     ///

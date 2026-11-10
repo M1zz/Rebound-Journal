@@ -29,8 +29,8 @@ struct PebbleShape: Shape {
 
             // 두 개의 느린 물결을 겹쳐 규칙적이지 않게 만든다.
             let wobble: CGFloat = 1
-                + 0.055 * cos(angle * 2 + 0.7)
-                + 0.032 * cos(angle * 3 - 1.2)
+                + 0.040 * cos(angle * 2 + 0.7)
+                + 0.022 * cos(angle * 3 - 1.2)
 
             // 아래쪽(y가 커지는 방향)은 땅에 닿아 살짝 눌린다.
             let settle: CGFloat = 1 - 0.07 * max(0, sin(angle))
@@ -117,7 +117,13 @@ struct PebbleView: View {
         // 함께 바뀐 위치까지 무한 반복으로 잡혀서, 조약돌이 숨 쉬는 게 아니라 제자리를
         // 벗어나 위아래로 널뛰었다. 조약돌이 여섯 개 모인 '조약돌 고르기'에서 특히 심했다.
         .animation(.easeInOut(duration: mood.breathPeriod / 2).repeatForever(autoreverses: true)) { content in
-            content.scaleEffect(breathing ? 1.025 : 0.985, anchor: .bottom)
+            // 위로 늘어날 때 옆은 줄고, 내려앉을 때 옆으로 퍼진다. 부피가 그대로여야
+            // 딱딱한 것이 커졌다 작아지는 게 아니라 말랑한 것이 숨 쉬는 걸로 읽힌다.
+            content.scaleEffect(
+                x: breathing ? 0.985 : 1.022,
+                y: breathing ? 1.032 : 0.972,
+                anchor: .bottom
+            )
         }
         // '동작 줄이기'를 켜면 숨쉬기를 멈추고 가만히 있는다.
         .onAppear { breathing = !reduceMotion }
@@ -153,46 +159,71 @@ struct PebbleView: View {
     private var body_: some View {
         PebbleShape()
             .fill(
-                // 왼쪽 위에서 해가 든다.
-                LinearGradient(
+                // 왼쪽 위에서 해가 든다. 빛이 한 점에서 둥글게 퍼져야 납작한 면이 아니라
+                // 통통한 덩어리로 보인다.
+                RadialGradient(
                     colors: [skin.lit, skin.mid, skin.shade],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
+                    center: UnitPoint(x: 0.32, y: 0.24),
+                    startRadius: size * 0.04,
+                    endRadius: size * 0.86
                 )
             )
-            .overlay {
-                // 표면이 매끄럽다는 걸 알려주는 반사광 한 점.
-                Ellipse()
-                    .fill(Color.white.opacity(0.34))
-                    .frame(width: size * 0.26, height: size * 0.15)
-                    .rotationEffect(.degrees(-24))
-                    .offset(x: -size * 0.20, y: -size * 0.24)
-                    .blur(radius: size * 0.035)
-            }
             .overlay {
                 // 아래쪽 반사광 — 땅에서 되비치는 따뜻한 빛.
                 PebbleShape()
                     .fill(
                         LinearGradient(
-                            colors: [.clear, PebbleTheme.sunlight.opacity(0.22)],
+                            colors: [.clear, PebbleTheme.sunlight.opacity(0.14)],
                             startPoint: .center,
                             endPoint: .bottom
                         )
                     )
             }
-            .frame(width: size, height: size * 0.78)
+            .overlay {
+                // 가장자리를 따라 도는 빛. 속이 비치는 젤리처럼 테두리가 밝아진다.
+                PebbleShape()
+                    .stroke(
+                        LinearGradient(
+                            colors: [.white.opacity(0.42), .white.opacity(0.06)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        lineWidth: size * 0.05
+                    )
+                    .blur(radius: size * 0.028)
+                    .clipShape(PebbleShape())
+            }
+            .overlay {
+                // 또렷한 반사광 하나와 작은 점 하나. 흐리면 매트한 돌, 또렷하면 쫀득한 표면이다.
+                ZStack {
+                    Ellipse()
+                        .fill(Color.white.opacity(0.62))
+                        .frame(width: size * 0.21, height: size * 0.095)
+                        .rotationEffect(.degrees(-30))
+                        .offset(x: -size * 0.215, y: -size * 0.235)
+                    Circle()
+                        .fill(Color.white.opacity(0.5))
+                        .frame(width: size * 0.042)
+                        .offset(x: -size * 0.335, y: -size * 0.115)
+                }
+                .blur(radius: size * 0.008)
+            }
+            .frame(width: size, height: size * 0.84)
     }
 
     // MARK: 표정
 
     private var face: some View {
-        VStack(spacing: size * 0.055) {
-            HStack(spacing: faceWidth * 0.52) {
+        VStack(spacing: size * 0.035) {
+            HStack(spacing: size * 0.235) {
                 eye
                 eye
             }
+            // 눈이 감겼다 떠져도 입이 오르내리지 않게 눈 자리 높이를 못박는다.
+            .frame(height: size * 0.095)
             mouth
         }
+        .background { cheeks }
     }
 
     @ViewBuilder
@@ -201,24 +232,61 @@ struct PebbleView: View {
         if closed {
             // 웃거나 눈을 감은 상태 — 위로 볼록한 선(음수 곡률).
             FaceArc(curve: -0.75)
-                .stroke(skin.face, style: .init(lineWidth: size * 0.022, lineCap: .round))
-                .frame(width: size * 0.10, height: size * 0.035)
+                .stroke(skin.pupil, style: .init(lineWidth: size * 0.024, lineCap: .round))
+                .frame(width: size * 0.105, height: size * 0.036)
         } else {
-            Capsule()
-                .fill(skin.face)
-                .frame(width: size * 0.055, height: size * 0.075)
+            // 까만 콩 같은 눈에 빛 한 점. 눈을 키우는 대신 빛 한 점으로 생기를 준다.
+            Ellipse()
+                .fill(skin.pupil)
+                .frame(width: size * 0.078, height: size * 0.09)
+                .overlay(alignment: .topTrailing) {
+                    Circle()
+                        .fill(Color.white.opacity(0.92))
+                        .frame(width: size * 0.028)
+                        .offset(x: -size * 0.012, y: size * 0.014)
+                }
         }
     }
 
+    /// 눈 아래 바깥쪽의 발그레한 볼.
+    private var cheeks: some View {
+        HStack(spacing: size * 0.33) {
+            cheek
+            cheek
+        }
+        .offset(y: size * 0.03)
+    }
+
+    private var cheek: some View {
+        Ellipse()
+            .fill(Color(red: 1.0, green: 0.50, blue: 0.47).opacity(mood.blush))
+            .frame(width: size * 0.11, height: size * 0.062)
+            .blur(radius: size * 0.018)
+    }
+
     private var mouth: some View {
-        FaceArc(curve: mood.mouthCurve)
-            .stroke(
-                skin.face.opacity(0.85),
-                style: .init(lineWidth: size * 0.020, lineCap: .round)
-            )
+        let open: CGFloat = isSpeaking ? 0.7 : mood.mouthOpen
+        let shape = MouthShape(curve: mood.mouthCurve, open: open)
+        return shape
+            .fill(skin.pupil)
+            .overlay {
+                // 벌린 입 안쪽의 혀.
+                Ellipse()
+                    .fill(Color(red: 0.98, green: 0.47, blue: 0.52))
+                    .frame(width: size * 0.085, height: size * 0.06)
+                    .offset(y: size * 0.052)
+                    .opacity(Double(min(1, open * 1.6)))
+                    .clipShape(shape)
+            }
+            .overlay {
+                shape.stroke(
+                    skin.pupil,
+                    style: .init(lineWidth: size * 0.022, lineCap: .round, lineJoin: .round)
+                )
+            }
             .frame(
-                width: size * (isSpeaking ? 0.13 : 0.11),
-                height: size * (isSpeaking ? 0.075 : 0.05)
+                width: size * (isSpeaking ? 0.13 : 0.12),
+                height: size * (isSpeaking ? 0.075 : 0.055)
             )
             .animation(
                 isSpeaking && !reduceMotion
@@ -273,6 +341,43 @@ struct FaceArc: Shape {
             to: CGPoint(x: rect.maxX, y: baseline),
             control: CGPoint(x: rect.midX, y: baseline + rect.height * 1.8 * curve)
         )
+        return path
+    }
+}
+
+/// 입. `open`이 0이면 한 줄짜리 미소, 커질수록 윗입술은 펴지고 아랫입술이 내려가
+/// 벌린 입이 된다. 한 형태가 두 표정을 다 맡아야 표정 사이를 매끄럽게 오간다.
+struct MouthShape: Shape {
+    var curve: CGFloat
+    var open: CGFloat
+
+    var animatableData: AnimatablePair<CGFloat, CGFloat> {
+        get { AnimatablePair(curve, open) }
+        set { curve = newValue.first; open = newValue.second }
+    }
+
+    func path(in rect: CGRect) -> Path {
+        // 닫힌 입일 때 두 곡선이 정확히 겹쳐 한 줄이 되고, 벌어질수록 아랫입술의
+        // 조절점이 양 끝으로 벌어져 뾰족한 V 가 아니라 둥근 바가지 모양이 된다.
+        let depth = rect.height * 1.2 * curve
+        let left = CGPoint(x: rect.minX, y: rect.minY)
+        let right = CGPoint(x: rect.maxX, y: rect.minY)
+        let upper = rect.minY + depth * (1 - 0.8 * open)
+        let lower = rect.minY + depth * (1 + 0.9 * open)
+        let inset = rect.width * (1 / 3 - 0.27 * open)
+        var path = Path()
+        path.move(to: left)
+        path.addCurve(
+            to: right,
+            control1: CGPoint(x: rect.minX + rect.width / 3, y: upper),
+            control2: CGPoint(x: rect.maxX - rect.width / 3, y: upper)
+        )
+        path.addCurve(
+            to: left,
+            control1: CGPoint(x: rect.maxX - inset, y: lower),
+            control2: CGPoint(x: rect.minX + inset, y: lower)
+        )
+        path.closeSubpath()
         return path
     }
 }

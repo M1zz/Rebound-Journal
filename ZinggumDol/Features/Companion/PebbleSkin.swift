@@ -86,6 +86,19 @@ enum PebbleSkin: String, CaseIterable, Identifiable, Codable {
         default: shade
         }
     }
+
+    /// 눈동자와 입. 반짝이는 눈은 바탕이 충분히 짙어야 빛 한 점이 살아난다.
+    /// 그늘색보다 한참 짙은, 돌마다의 먹색이다.
+    var pupil: Color {
+        switch self {
+        case .sand: PebbleTheme.dynamic(light: 0x3D3933, dark: 0x3D3933)
+        case .slate: PebbleTheme.dynamic(light: 0x2E383C, dark: 0x2E383C)
+        case .moss: PebbleTheme.dynamic(light: 0x333D22, dark: 0x333D22)
+        case .sunset: PebbleTheme.dynamic(light: 0x54301F, dark: 0x54301F)
+        case .seashell: PebbleTheme.dynamic(light: 0x54443A, dark: 0x54443A)
+        case .inkstone: face
+        }
+    }
 }
 
 // MARK: - 저장

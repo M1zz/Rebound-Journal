@@ -60,4 +60,22 @@ enum PebbleMood: String, Equatable, Codable {
         case .warm: 0.62
         }
     }
+
+    /// 입이 벌어진 정도. 크게 웃을 때만 벌린다.
+    var mouthOpen: CGFloat {
+        switch self {
+        case .warm: 1
+        default: 0
+        }
+    }
+
+    /// 볼의 붉은 기. 기쁠수록 짙어진다.
+    var blush: Double {
+        switch self {
+        case .resting: 0.18
+        case .listening: 0.22
+        case .thinking: 0.16
+        case .warm: 0.38
+        }
+    }
 }
