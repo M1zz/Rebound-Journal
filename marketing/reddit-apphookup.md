@@ -1,12 +1,12 @@
 # r/AppHookup 홍보 글
 
 플레어: Developer (또는 iOS)
-올리기 전에 확인: App Store Connect 에 징검돌 프로 평생 이용권의 오퍼 코드 NOVE 가 만들어져 있고 11월 17일까지 유효한지, $4.99 가 미국 스토어의 평생 이용권 가격과 같은지 확인.
+올리기 전에 확인: App Store Connect 에 징검돌 프로 평생 이용권의 오퍼 코드 NOVE 가 만들어져 있고 11월 17일까지 유효한지, $9.99 가 미국 스토어의 평생 이용권 가격과 같은지 확인.
 11월 17일에 글을 Expired 플레어로 바꾸거나 지운다.
 
 ## 제목
 
-[iOS] [ZinggumDol] [Lifetime Pro $4.99 → FREE with code NOVE, until Nov 17] A journal for the days that went wrong, you talk it over with a small pebble
+[iOS] [ZinggumDol] [Lifetime Pro $9.99 → FREE with code NOVE, until Nov 17] A journal for the days that went wrong, you talk it over with a small pebble
 
 ## 본문
 
@@ -14,7 +14,7 @@ Hi r/AppHookup, solo dev here. ZinggumDol means "stepping stone" in Korean. It's
 
 **The deal**
 
-Lifetime Pro ($4.99, one-time, not a subscription) is free until Nov 17 with code NOVE:
+Lifetime Pro ($9.99, one-time, not a subscription) is free until Nov 17 with code NOVE:
 
 https://apps.apple.com/redeem?ctx=offercodes&id=6450388408&code=NOVE
 
