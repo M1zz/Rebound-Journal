@@ -169,6 +169,10 @@ enum PebbleBuddy: String, CaseIterable, Identifiable, Codable {
     case hamster
     case cat
     case bear
+    case seal
+    case raccoon
+    case capybara
+    case kiwi
 
     var id: String { rawValue }
 
@@ -181,10 +185,14 @@ enum PebbleBuddy: String, CaseIterable, Identifiable, Codable {
         case .cat: String(localized: "고양이")
         case .bunny: String(localized: "토끼")
         case .bear: String(localized: "곰")
+        case .seal: String(localized: "하프물범")
+        case .raccoon: String(localized: "라쿤")
+        case .capybara: String(localized: "카피바라")
+        case .kiwi: String(localized: "키위새")
         }
     }
 
-    /// 타고난 색. 넷이 나란히 있을 때 한눈에 서로 달라 보이게 고른다.
+    /// 타고난 색. 여럿이 나란히 있을 때 한눈에 서로 달라 보이게 고른다.
     var natural: PebblePalette {
         func d(_ light: UInt32, _ dark: UInt32) -> Color { PebbleTheme.dynamic(light: light, dark: dark) }
         return switch self {
@@ -200,6 +208,18 @@ enum PebbleBuddy: String, CaseIterable, Identifiable, Codable {
         case .bear: PebblePalette(
             fill: d(0xD9AC82, 0xBE916A), belly: d(0xF5DEC6, 0xDDC4AA),
             line: d(0x6E4A30, 0x5C3C25), pupil: d(0x2E1D12, 0x2E1D12))
+        case .seal: PebblePalette(
+            fill: d(0xFFFFFF, 0xE9EEF2), belly: d(0xFFFFFF, 0xE9EEF2),
+            line: d(0x7E8FA0, 0x6B7B8C), pupil: d(0x1E2228, 0x1E2228))
+        case .raccoon: PebblePalette(
+            fill: d(0xBDB8C0, 0xA39EA7), belly: d(0xF7F5F8, 0xDDD9DF),
+            line: d(0x5C5662, 0x4E4854), pupil: d(0x1F1C22, 0x1F1C22))
+        case .capybara: PebblePalette(
+            fill: d(0xC4915E, 0xA97A4C), belly: d(0x9C6B42, 0x845936),
+            line: d(0x6B4A2E, 0x5A3D25), pupil: d(0x2A1C12, 0x2A1C12))
+        case .kiwi: PebblePalette(
+            fill: d(0x8F7A62, 0x7A6753), belly: d(0x8F7A62, 0x7A6753),
+            line: d(0x4A3C2E, 0x3E3226), pupil: d(0x1E140C, 0x1E140C))
         }
     }
 
