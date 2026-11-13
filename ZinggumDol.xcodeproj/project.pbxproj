@@ -16,6 +16,7 @@
 		11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF711FB488680547B2D7443 /* AddGoalView.swift */; };
 		1443389351B86211E130710E /* InteractivePebble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C801681B2717EE30D8A22F /* InteractivePebble.swift */; };
+		F55C5C417ED7EE111AB578EB /* ChewyShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4F5732830B10A8BF5D346D72 /* ChewyShader.metal */; };
 		148F814C5575C0FE8A6820CC /* PebbleSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813DACAB5E98893A5F94005 /* PebbleSkin.swift */; };
 		19917646F34E9B4C8965EF04 /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
@@ -140,6 +141,7 @@
 		5EF711FB488680547B2D7443 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 		60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingFeedback.swift; sourceTree = "<group>"; };
 		65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneBridgeView.swift; sourceTree = "<group>"; };
+		4F5732830B10A8BF5D346D72 /* ChewyShader.metal */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.metal; path = ChewyShader.metal; sourceTree = "<group>"; };
 		67C801681B2717EE30D8A22F /* InteractivePebble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InteractivePebble.swift; sourceTree = "<group>"; };
 		70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScript.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				51F995B506A6AF31E454ED76 /* PebbleView.swift */,
 				C1CE57171C6D211922D643B5 /* PebbleVoice.swift */,
 				60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */,
+				4F5732830B10A8BF5D346D72 /* ChewyShader.metal */,
 				67C801681B2717EE30D8A22F /* InteractivePebble.swift */,
 			);
 			path = Companion;
@@ -889,6 +892,7 @@
 				64397E240888B4336D374D10 /* RecordExporter.swift in Sources */,
 				22F76D629E121E2FE4B45B3A /* EmotionVocabulary.swift in Sources */,
 				7AA013033C52E9098FE48081 /* AudioSessionQueue.swift in Sources */,
+				F55C5C417ED7EE111AB578EB /* ChewyShader.metal in Sources */,
 				1443389351B86211E130710E /* InteractivePebble.swift in Sources */,
 				5D6D3BFF2451BEC886B3D1DA /* DataEraser.swift in Sources */,
 				23AD4F6CE44CD9D53655A5A9 /* GoalsView.swift in Sources */,

@@ -16,6 +16,10 @@
 //   - 쓰다듬기    문지르면 눈을 지그시 감고 기댄다. 손을 떼면 기분 좋게 한 번 부르르.
 //   - 톡×5 이상  어지러워서 빙글 흔들린다.
 //
+//  몸은 통째로 커졌다 작아지지 않는다. 누른 자리가 오목하게 들어가고, 끌면 잡힌
+//  곳만 늘어나고, 놓으면 출렁이며 제자리를 찾는다 (`ChewyShader.metal`).
+//  손에 쥔 찹쌀떡처럼 느껴져야 또 만지고 싶어진다.
+//
 //  한 가지 반응만 되풀이하면 몇 번 만에 기계 장치처럼 읽힌다. 매번 조금씩 달라야
 //  "이번엔 뭘 하려나" 하고 한 번 더 건드려 보게 된다.
 //
@@ -53,6 +57,11 @@ struct InteractivePebble: View {
     /// 돌 옆에 잠깐 뜨는 한마디.
     @State private var remark: String?
 
+    /// 손가락이 닿은 자리와, 그 자리를 끌어당긴 만큼. 오목하게 눌린 정도.
+    @State private var touch: CGPoint?
+    @State private var pull: CGSize = .zero
+    @State private var dent: CGFloat = 0
+
     @State private var isPetting = false
     @State private var strokedDistance: CGFloat = 0
     @State private var lastDragX: CGFloat = 0
@@ -65,6 +74,7 @@ struct InteractivePebble: View {
     private let rigidHaptic = UIImpactFeedbackGenerator(style: .rigid)
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.pebbleBuddy) private var buddy
 
     var body: some View {
         PebbleView(mood: reaction ?? mood, size: size, isSpeaking: isSpeaking)
@@ -79,15 +89,28 @@ struct InteractivePebble: View {
                     SpringKeyframe(0, duration: 0.2)
                 }
             }
-            // 눌리면 옆으로 퍼지고 위아래로 납작해진다. 바닥에 붙어 있는 돌이라 아래를 축으로.
-            .scaleEffect(x: 1 + (1 - squash) * 0.6, y: squash, anchor: .bottom)
+            // 눌리면 배가 옆으로 퍼지며 납작해지고, 잡은 곳은 끌려 나온다. 바닥은 붙어 있다.
+            .modifier(ChewyEffect(
+                squish: squash,
+                pull: pull,
+                dent: dent,
+                touch: touch ?? centerOfBody,
+                base: CGPoint(x: frameSize.width / 2, y: frameSize.height - size * 0.055),
+                bodyHeight: size * (0.9 + buddy.earRise),
+                radius: size * 0.52,
+                margin: size * 0.6
+            ))
             .rotationEffect(.degrees(tilt + spin + nudge), anchor: .bottom)
             .offset(x: lean, y: hop)
             .overlay(alignment: .top) { floaterLayer }
             .overlay(alignment: .topTrailing) { remarkBubble }
             .contentShape(Rectangle())
             .onTapGesture(coordinateSpace: .local) { location in poke(at: location) }
-            .onLongPressGesture(minimumDuration: 0.45, maximumDistance: 10) { squeeze() }
+            .onLongPressGesture(minimumDuration: 0.45, maximumDistance: 10) {
+                squeeze()
+            } onPressingChanged: { pressing in
+                press(pressing)
+            }
             .simultaneousGesture(petting)
             .accessibilityAddTraits(.isButton)
             .accessibilityHint(Text("톡 건드리거나 문질러 쓰다듬을 수 있어요"))
@@ -122,6 +145,7 @@ struct InteractivePebble: View {
             tickle()
         default:
             if let location { push(from: location) }
+            poke(dentAt: location)
             playTap(nextTapReaction())
         }
     }
@@ -143,6 +167,34 @@ struct InteractivePebble: View {
         case .roll: roll()
         case .startle: startle()
         case .heart: heart()
+        }
+    }
+
+    /// PebbleView 가 차지하는 칸. 귀가 솟은 친구는 그만큼 위로 길다.
+    private var frameSize: CGSize {
+        CGSize(width: size * 1.35, height: size * (1.05 + buddy.earRise))
+    }
+
+    /// 손가락 자리를 모를 때(VoiceOver 등) 누르는 곳. 이마 한가운데.
+    private var centerOfBody: CGPoint {
+        CGPoint(x: frameSize.width / 2, y: frameSize.height - size * 0.5)
+    }
+
+    /// 누른 자리가 콕 들어갔다가 말랑하게 튀어나오며 제자리를 찾는다.
+    private func poke(dentAt location: CGPoint?) {
+        guard !reduceMotion else { return }
+        touch = location ?? centerOfBody
+        withAnimation(.easeOut(duration: 0.07)) { dent = 0.3 }
+        withAnimation(.spring(response: 0.38, dampingFraction: 0.28).delay(0.07)) { dent = 0 }
+    }
+
+    /// 손가락이 닿는 순간부터 천천히 눌린다. 꾹 누르기가 되기 전에 떼면 출렁 돌아온다.
+    private func press(_ pressing: Bool) {
+        guard !reduceMotion else { return }
+        if pressing {
+            withAnimation(.easeOut(duration: 0.45)) { squash = 0.8 }
+        } else if !isPetting {
+            withAnimation(.spring(response: 0.36, dampingFraction: 0.3)) { squash = 1 }
         }
     }
 
@@ -312,11 +364,17 @@ struct InteractivePebble: View {
                     say(Self.petLines)
                 }
 
-                // 손가락 쪽으로 살짝 기운다. 끌려가지는 않는다 — 돌은 무겁다.
-                let pull = max(-1, min(1, value.translation.width / (size * 0.9)))
-                withAnimation(.interactiveSpring(response: 0.3, dampingFraction: 0.7)) {
-                    tilt = pull * 7
-                    lean = pull * size * 0.05
+                // 잡은 곳이 손가락을 따라 늘어난다. 멀리 끌수록 덜 따라온다 — 떡은 질기다.
+                if !reduceMotion {
+                    touch = value.startLocation
+                    let stretched = Self.rubberBand(value.translation, limit: size * 0.26)
+                    withAnimation(.interactiveSpring(response: 0.16, dampingFraction: 0.8)) {
+                        pull = stretched
+                        squash = 1
+                    }
+                } else {
+                    let lean = max(-1, min(1, value.translation.width / (size * 0.9)))
+                    withAnimation(.interactiveSpring(response: 0.3, dampingFraction: 0.7)) { tilt = lean * 7 }
                 }
 
                 // 문지른 거리만큼 부드럽게 톡톡. 매 프레임 울리면 진동이 뭉개진다.
@@ -330,7 +388,9 @@ struct InteractivePebble: View {
             .onEnded { _ in
                 isPetting = false
                 strokedDistance = 0
-                withAnimation(.spring(response: 0.5, dampingFraction: 0.55)) {
+                // 놓으면 튕겨 돌아가며 몇 번 출렁인다.
+                withAnimation(.spring(response: 0.42, dampingFraction: 0.26)) {
+                    pull = .zero
                     tilt = 0
                     lean = 0
                 }
@@ -526,6 +586,15 @@ struct InteractivePebble: View {
 
     // MARK: - 보조
 
+    /// 끈 거리를 질기게 줄인다. 처음엔 손가락을 거의 따라오다가 `limit`에 가까워질수록 버틴다.
+    private static func rubberBand(_ translation: CGSize, limit: CGFloat) -> CGSize {
+        let distance = hypot(translation.width, translation.height)
+        guard distance > 0 else { return .zero }
+        let stretched = limit * (1 - exp(-distance / limit))
+        return CGSize(width: translation.width / distance * stretched,
+                      height: translation.height / distance * stretched)
+    }
+
     /// 부르르 떨 때 좌우로 오가는 길. 점점 잦아든다.
     private static func shiverPath(size: CGFloat) -> [CGFloat] {
         let amplitude = max(2.5, size * 0.035)
@@ -578,6 +647,25 @@ struct InteractivePebble: View {
         case "tickle": tickle()
         case "pet": pet()
         case "dizzy": dizzy()
+        case "chewy":
+            // 콕 → 꾹 → 끌었다 놓기를 차례로. 화면 녹화로 쫀득함을 확인하는 용도.
+            poke(dentAt: CGPoint(x: frameSize.width * 0.62, y: frameSize.height * 0.55))
+            try? await Task.sleep(for: .seconds(1.2))
+            press(true)
+            try? await Task.sleep(for: .seconds(0.4))
+            press(false)
+            try? await Task.sleep(for: .seconds(1.2))
+            touch = CGPoint(x: frameSize.width * 0.7, y: frameSize.height * 0.45)
+            for step in 1...12 {
+                withAnimation(.interactiveSpring(response: 0.16, dampingFraction: 0.8)) {
+                    pull = Self.rubberBand(CGSize(width: CGFloat(step) * 9, height: -CGFloat(step) * 4), limit: size * 0.26)
+                }
+                try? await Task.sleep(for: .milliseconds(30))
+            }
+            try? await Task.sleep(for: .seconds(0.3))
+            withAnimation(.spring(response: 0.42, dampingFraction: 0.26)) { pull = .zero }
+            try? await Task.sleep(for: .seconds(1.2))
+            squeeze()
         default: break
         }
     }
@@ -588,4 +676,49 @@ struct InteractivePebble: View {
     InteractivePebble(mood: .resting, size: 160)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(PebbleTheme.canvas)
+}
+
+// MARK: - 쫀득한 왜곡
+
+/// `ChewyShader.metal`을 거는 자리. 값이 바뀔 때 애니메이션이 셰이더 인자까지
+/// 이어지도록 `Animatable`로 둔다.
+///
+/// 늘어난 몸이 칸 밖으로 나가도 잘리지 않게 여백을 두고 그린 뒤, 레이아웃은 원래
+/// 크기 그대로 돌려준다.
+private struct ChewyEffect: ViewModifier, Animatable {
+    var squish: CGFloat
+    var pull: CGSize
+    var dent: CGFloat
+    let touch: CGPoint
+    let base: CGPoint
+    let bodyHeight: CGFloat
+    let radius: CGFloat
+    let margin: CGFloat
+
+    var animatableData: AnimatablePair<CGFloat, AnimatablePair<CGSize.AnimatableData, CGFloat>> {
+        get { AnimatablePair(squish, AnimatablePair(pull.animatableData, dent)) }
+        set {
+            squish = newValue.first
+            pull.animatableData = newValue.second.first
+            dent = newValue.second.second
+        }
+    }
+
+    func body(content: Content) -> some View {
+        content
+            .padding(margin)
+            .distortionEffect(
+                ShaderLibrary.chewy(
+                    .float2(base.x + margin, base.y + margin),
+                    .float(bodyHeight),
+                    .float(squish),
+                    .float2(touch.x + margin, touch.y + margin),
+                    .float2(pull.width, pull.height),
+                    .float(dent),
+                    .float(radius)
+                ),
+                maxSampleOffset: CGSize(width: margin, height: margin)
+            )
+            .padding(-margin)
+    }
 }

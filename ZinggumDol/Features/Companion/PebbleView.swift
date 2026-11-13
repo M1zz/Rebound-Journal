@@ -111,8 +111,8 @@ struct PebbleView: View {
         ZStack {
             sunGlow
             groundShadow
-            MochiEars(buddy: buddy, palette: palette, size: size, twitch: twitch)
-            mochiBody
+            chewyBody
+            MochiAccents(buddy: buddy, palette: palette, size: size, twitch: twitch)
             face
         }
         // 표정·결이 바뀔 때의 전환은 그림 안쪽에만 건다.
@@ -192,24 +192,75 @@ struct PebbleView: View {
 
     // MARK: 몸
 
-    /// 찹쌀떡 몸. 한 가지 색으로 칠하고 얇은 선을 두른다. 햄스터는 배가, 곰은
-    /// 주둥이가 몸보다 밝다.
-    private var mochiBody: some View {
-        let shape = MochiShape()
+    /// 쫀득한 찹쌀떡 몸.
+    ///
+    /// 몸과 귀를 한 실루엣으로 합쳐 한 번에 칠하고 한 번에 테를 두른다. 귀를 따로
+    /// 그려 붙이면 이음매마다 선이 지나가 도형을 모아 놓은 것처럼 보인다.
+    /// 위 왼쪽은 밝고 가장자리로 갈수록 그늘이 져서 무게가 실리고, 이마에 떡 같은
+    /// 윤기가 돈다.
+    private var chewyBody: some View {
+        let flick = (left: twitch == .left ? 1.0 : 0, right: twitch == .right ? 1.0 : 0)
+        let outline = ChewySilhouette(buddy: buddy, leftFlick: flick.left, rightFlick: flick.right)
+        let earInside = ChewySilhouette(buddy: buddy, part: .earInside, leftFlick: flick.left, rightFlick: flick.right)
+        let sheen = buddy.sheen
         return ZStack {
-            shape.fill(palette.fill)
+            outline.fill(
+                RadialGradient(
+                    colors: [
+                        palette.fill.mix(with: .white, by: 0.6),
+                        palette.fill,
+                        palette.fill.mix(with: palette.line, by: 0.13)
+                    ],
+                    center: UnitPoint(x: 0.42, y: 0.45),
+                    startRadius: 0,
+                    endRadius: size * 0.66
+                )
+            )
             if buddy == .hamster {
-                // 눈 아래부터 바닥까지 밝은 배. 몸 테두리를 넘지 않게 몸 모양으로 자른다.
                 Ellipse()
                     .fill(palette.belly)
                     .frame(width: size * 0.9, height: size * 0.5)
-                    .offset(y: size * 0.27)
+                    .offset(at(0, 0.37))
+                    .blur(radius: size * 0.008)
             }
+            earInside
+                .fill(buddy.earInsideColor(palette))
+                .blur(radius: size * 0.012)
+            // 가장자리 안쪽의 그늘. 테두리 바로 안이 살짝 어두워야 몸이 둥글게 부푼다.
+            outline
+                .stroke(palette.line.opacity(0.18), lineWidth: size * 0.1)
+                .blur(radius: size * 0.05)
+            // 이마의 윤기.
+            Ellipse()
+                .fill(Color.white.opacity(sheen))
+                .frame(width: size * 0.32, height: size * 0.11)
+                .rotationEffect(.degrees(-20))
+                .offset(at(-0.21, -0.07))
+                .blur(radius: size * 0.022)
+            Ellipse()
+                .fill(Color.white.opacity(sheen))
+                .frame(width: size * 0.14, height: size * 0.045)
+                .rotationEffect(.degrees(-20))
+                .offset(at(-0.24, -0.085))
+                .blur(radius: size * 0.007)
+            Circle()
+                .fill(Color.white.opacity(sheen))
+                .frame(width: size * 0.04)
+                .offset(at(-0.4, 0.06))
+                .blur(radius: size * 0.006)
         }
-        .frame(width: size * Layout.bodyWidth, height: size * Layout.bodyHeight)
-        .clipShape(shape)
-        .overlay { shape.stroke(palette.line, lineWidth: max(1, size * Layout.line)) }
-        .offset(at(0, Layout.bodyY))
+        .frame(width: footprint.width, height: footprint.height)
+        .clipShape(outline)
+        .overlay {
+            outline.stroke(
+                LinearGradient(
+                    colors: [palette.line.mix(with: palette.fill, by: 0.3), palette.line],
+                    startPoint: .top,
+                    endPoint: .bottom
+                ),
+                style: StrokeStyle(lineWidth: max(1, size * 0.02), lineJoin: .round)
+            )
+        }
     }
 
     // MARK: 표정
@@ -220,20 +271,53 @@ struct PebbleView: View {
             ForEach([-1.0, 1.0], id: \.self) { side in
                 Ellipse()
                     .fill(Color(red: 0.97, green: 0.64, blue: 0.65).opacity(min(0.75, mood.blush * 2.4)))
-                    .frame(width: size * 0.13, height: size * 0.072)
+                    .frame(width: size * 0.15, height: size * 0.085)
+                    .blur(radius: size * 0.018)
                     .offset(at(side * 0.285, Layout.eyeY + 0.085))
             }
-            if buddy == .bear {
+            if buddy == .raccoon {
+                // 눈가를 두른 마스크. 바깥으로 살짝 처져야 순해 보인다.
+                ForEach([-1.0, 1.0], id: \.self) { side in
+                    Ellipse()
+                        .fill(palette.line.opacity(0.55))
+                        .frame(width: size * 0.19, height: size * 0.12)
+                        .rotationEffect(.degrees(side * 14))
+                        .offset(at(side * (Layout.eyeX + 0.01), Layout.eyeY + 0.005))
+                }
+            }
+            if buddy == .bear || buddy == .raccoon {
                 Ellipse()
                     .fill(palette.belly)
                     .frame(width: size * 0.24, height: size * 0.15)
                     .offset(at(0, Layout.mouthY - 0.02))
             }
+            if buddy == .capybara {
+                // 뭉툭하고 넓은 코끝. 카피바라는 얼굴의 절반이 코다.
+                Capsule()
+                    .fill(palette.belly)
+                    .frame(width: size * 0.36, height: size * 0.19)
+                    .offset(at(0, Layout.mouthY + 0.005))
+            }
+            if buddy == .seal {
+                // 수염 자리 점.
+                ForEach([-1.0, 1.0], id: \.self) { side in
+                    ForEach(0..<3, id: \.self) { i in
+                        Circle()
+                            .fill(palette.line.opacity(0.6))
+                            .frame(width: size * 0.016)
+                            .offset(at(side * (0.085 + Double(i % 2) * 0.03), Layout.mouthY - 0.02 + Double(i) * 0.022))
+                    }
+                }
+            }
             ForEach([-1.0, 1.0], id: \.self) { side in
                 eye.offset(at(side * Layout.eyeX, Layout.eyeY))
             }
             nose
-            mouth.offset(at(0, Layout.mouthY + (buddy.hasNose ? 0.012 : 0)))
+            if buddy == .kiwi {
+                beak
+            } else {
+                mouth.offset(at(0, Layout.mouthY + buddy.mouthDrop))
+            }
         }
     }
 
@@ -247,9 +331,21 @@ struct PebbleView: View {
                 .frame(width: size * 0.095, height: size * 0.036)
         } else {
             // 점 눈. 크지 않고 멀찍이 낮게 있어야 멍하고 순해 보인다.
-            Circle()
-                .fill(palette.pupil)
-                .frame(width: size * 0.064, height: size * 0.064)
+            // 살짝 세로로 긴 눈에 반짝임 둘. 점 하나보다 촉촉하고 살아 있다.
+            let e = size * buddy.eyeSize
+            ZStack {
+                Ellipse()
+                    .fill(palette.pupil)
+                    .frame(width: e * 1.05, height: e * 1.25)
+                Circle()
+                    .fill(Color.white)
+                    .frame(width: e * 0.4)
+                    .offset(x: e * 0.18, y: -e * 0.25)
+                Circle()
+                    .fill(Color.white.opacity(0.9))
+                    .frame(width: e * 0.17)
+                    .offset(x: -e * 0.2, y: e * 0.3)
+            }
         }
     }
 
@@ -266,9 +362,41 @@ struct PebbleView: View {
                 .fill(Color(red: 0.96, green: 0.55, blue: 0.6))
                 .frame(width: size * 0.036, height: size * 0.025)
                 .offset(at(0, Layout.mouthY - 0.03))
-        case .cat:
+        case .seal, .raccoon:
+            Ellipse()
+                .fill(palette.pupil)
+                .frame(width: size * 0.05, height: size * 0.034)
+                .offset(at(0, Layout.mouthY - 0.035))
+        case .capybara:
+            // 넓은 코 위 콧구멍 두 개.
+            ForEach([-1.0, 1.0], id: \.self) { side in
+                Capsule()
+                    .fill(palette.pupil)
+                    .frame(width: size * 0.03, height: size * 0.018)
+                    .rotationEffect(.degrees(side * 20))
+                    .offset(at(side * 0.05, Layout.mouthY - 0.035))
+            }
+        case .cat, .kiwi:
             EmptyView()
         }
+    }
+
+    /// 키위새의 길고 가는 부리. 말할 때 부리 끝이 살랑인다.
+    private var beak: some View {
+        KiwiBeakShape()
+            .fill(Color(red: 0.93, green: 0.86, blue: 0.70))
+            .overlay {
+                KiwiBeakShape().stroke(palette.line, style: .init(lineWidth: max(1, size * 0.014), lineJoin: .round))
+            }
+            .frame(width: size * 0.09, height: size * 0.24)
+            .rotationEffect(.degrees(isSpeaking ? 7 : (mood.mouthOpen > 0 ? -5 : 0)), anchor: .top)
+            .offset(at(0, Layout.eyeY + 0.12))
+            .animation(
+                isSpeaking && !reduceMotion
+                    ? .easeInOut(duration: 0.16).repeatForever(autoreverses: true)
+                    : .easeOut(duration: 0.2),
+                value: isSpeaking
+            )
     }
 
     /// 다문 입은 ω. 크게 웃거나 말할 때만 벌린다.
@@ -420,7 +548,17 @@ enum PebbleEarTwitch { case none, left, right }
 private let innerPink = Color(red: 0.97, green: 0.72, blue: 0.74)
 
 private extension PebbleBuddy {
-    var hasNose: Bool { self != .cat }
+    /// 코가 있으면 입이 그만큼 내려간다. 카피바라는 넓은 코 아래로 더.
+    var mouthDrop: CGFloat {
+        switch self {
+        case .cat: 0
+        case .capybara: 0.035
+        default: 0.012
+        }
+    }
+
+    /// 점 눈 지름. 하프물범 새끼는 눈이 크고 까맣다.
+    var eyeSize: CGFloat { self == .seal ? 0.085 : 0.07 }
 }
 
 /// 찹쌀떡 실루엣 — 위는 둥글게 솟고, 아래는 바닥에 눌려 넓게 퍼진다.
@@ -442,8 +580,111 @@ struct MochiShape: Shape {
     }
 }
 
-/// 몸 뒤에 붙는 귀. 몸이 귀 밑동을 덮어 자연스럽게 이어진다.
-private struct MochiEars: View {
+/// 몸과 귀를 합친 실루엣, 또는 귀 안쪽만.
+///
+/// 그리는 칸은 `PebbleView`의 바닥 칸(가로 1.35 × 세로 1.05, 크기 대비)이다.
+/// 가운데를 원점으로 몸과 귀를 같은 자리에 놓고, 귀는 밑동을 축으로 쫑긋한다.
+struct ChewySilhouette: Shape {
+    enum Part { case outline, earInside }
+
+    let buddy: PebbleBuddy
+    var part: Part = .outline
+    var leftFlick: Double = 0
+    var rightFlick: Double = 0
+
+    var animatableData: AnimatablePair<Double, Double> {
+        get { AnimatablePair(leftFlick, rightFlick) }
+        set { leftFlick = newValue.first; rightFlick = newValue.second }
+    }
+
+    func path(in rect: CGRect) -> Path {
+        let size = rect.width / 1.35
+        let center = CGPoint(x: rect.midX, y: rect.midY)
+        let ears = [-1.0, 1.0].compactMap { side in
+            buddy.ear(side: side, flick: side < 0 ? leftFlick : rightFlick, size: size, center: center)
+        }
+        switch part {
+        case .earInside:
+            return ears.reduce(into: Path()) { $0.addPath($1.inside) }
+        case .outline:
+            let body = MochiShape().path(in: CGRect(
+                x: center.x - size * 0.54, y: center.y + size * (0.10 - 0.37),
+                width: size * 1.08, height: size * 0.74
+            ))
+            return ears.reduce(body) { $0.union($1.outline) }
+        }
+    }
+}
+
+private extension PebbleBuddy {
+    /// 이마 윤기의 세기. 진한 털에서는 은은하게.
+    var sheen: Double {
+        switch self {
+        case .bear, .capybara, .kiwi, .raccoon: 0.3
+        case .hamster: 0.55
+        default: 0.95
+        }
+    }
+
+    func earInsideColor(_ palette: PebblePalette) -> Color {
+        switch self {
+        case .bear, .capybara: palette.belly
+        case .raccoon: palette.line.opacity(0.5)
+        default: innerPink
+        }
+    }
+
+    /// 한쪽 귀의 겉과 안. `side`는 왼쪽 -1, 오른쪽 1. 귀가 없으면 nil.
+    func ear(side: CGFloat, flick: Double, size: CGFloat, center: CGPoint) -> (outline: Path, inside: Path)? {
+        // 귀 하나의 칸(크기 대비)과 놓일 자리, 기울기. 오른쪽은 왼쪽을 거울로 비춘다.
+        let x, y, w, h: CGFloat
+        var tilt: Double
+        var mirrored = side > 0
+        let outer: (CGRect) -> Path
+        let inner: (CGRect) -> Path
+        switch self {
+        case .cat, .raccoon:
+            (x, y, w, h) = self == .cat ? (0.265, -0.255, 0.24, 0.27) : (0.27, -0.25, 0.22, 0.23)
+            tilt = self == .cat ? 0 : 8
+            outer = { CatEarShape().path(in: $0) }
+            inner = { CatEarInnerShape().path(in: $0) }
+        case .hamster, .bear, .capybara:
+            let d: CGFloat = self == .hamster ? 0.14 : self == .bear ? 0.19 : 0.10
+            (x, y, w, h) = self == .hamster ? (0.33, -0.21, d, d) : self == .bear ? (0.32, -0.215, d, d) : (0.30, -0.24, d, d)
+            tilt = 0
+            outer = { Circle().path(in: $0) }
+            inner = { Circle().path(in: $0.insetBy(dx: $0.width * 0.25, dy: $0.height * 0.25)) }
+        case .bunny:
+            // 한쪽 귀는 서고, 한쪽은 옆으로 살짝 늘어졌다. 거울 없이 따로 기울인다.
+            (x, y, w, h) = (0.15, -0.40, 0.15, 0.42)
+            tilt = side < 0 ? 6 : 38
+            mirrored = false
+            outer = { Capsule().path(in: $0) }
+            inner = { r in
+                Capsule().path(in: CGRect(x: r.midX - size * 0.03, y: r.midY - size * 0.135 + size * 0.02,
+                                          width: size * 0.06, height: size * 0.27))
+            }
+        case .seal, .kiwi:
+            return nil
+        }
+        let frame = CGRect(x: -w * size / 2, y: -h * size / 2, width: w * size, height: h * size)
+        // 왼쪽 귀는 바깥(-)으로, 오른쪽은 거울이라 같은 값이 바깥(+)으로 기운다.
+        let flickDegrees = (self == .bunny ? (side < 0 ? 16 : 22) : 16) * flick
+        let angle: Double = self == .bunny
+            ? (side < 0 ? -tilt - flickDegrees : tilt - flickDegrees)
+            : (side < 0 ? -tilt - flickDegrees : tilt + flickDegrees)
+        var t = CGAffineTransform.identity
+        if mirrored { t = t.concatenating(CGAffineTransform(scaleX: -1, y: 1)) }
+        t = t.concatenating(CGAffineTransform(translationX: 0, y: -h * size / 2))
+            .concatenating(CGAffineTransform(rotationAngle: angle * .pi / 180))
+            .concatenating(CGAffineTransform(translationX: 0, y: h * size / 2))
+            .concatenating(CGAffineTransform(translationX: center.x + side * x * size, y: center.y + y * size))
+        return (outer(frame).applying(t), inner(frame).applying(t))
+    }
+}
+
+/// 몸 바깥에 얹는 것들. 카피바라의 유자, 키위새의 삐친 털.
+private struct MochiAccents: View {
     let buddy: PebbleBuddy
     let palette: PebblePalette
     let size: CGFloat
@@ -453,63 +694,34 @@ private struct MochiEars: View {
 
     var body: some View {
         switch buddy {
-        case .cat:
-            pair(x: 0.265, y: -0.255, tilt: 0) {
-                ZStack {
-                    CatEarShape().fill(palette.fill)
-                    CatEarShape().stroke(palette.line, style: .init(lineWidth: line, lineJoin: .round))
-                    CatEarInnerShape().fill(innerPink)
-                }
-                .frame(width: size * 0.24, height: size * 0.27)
-            }
-        case .bunny:
-            // 한쪽 귀는 서고, 한쪽은 옆으로 살짝 늘어졌다. 짝이 안 맞아야 장난스럽다.
-            ZStack {
-                bunnyEar
-                    .rotationEffect(.degrees(-6 - (twitch == .left ? 16 : 0)), anchor: .bottom)
-                    .offset(x: -size * 0.15, y: -size * 0.40)
-                bunnyEar
-                    .rotationEffect(.degrees(38 - (twitch == .right ? 22 : 0)), anchor: .bottom)
-                    .offset(x: size * 0.15, y: -size * 0.40)
-            }
-        case .hamster:
-            pair(x: 0.33, y: -0.21, tilt: 0) { roundEar(0.14, inner: innerPink) }
-        case .bear:
-            pair(x: 0.32, y: -0.215, tilt: 0) { roundEar(0.19, inner: palette.belly) }
+        case .capybara:
+            yuzu.offset(x: size * 0.05, y: -size * 0.315)
+        case .kiwi:
+            KiwiTuftShape()
+                .stroke(palette.line, style: .init(lineWidth: line, lineCap: .round))
+                .frame(width: size * 0.10, height: size * 0.08)
+                .offset(x: size * 0.01, y: -size * 0.30)
+                .rotationEffect(.degrees(twitch == .none ? 0 : 10), anchor: .bottom)
+        default:
+            EmptyView()
         }
     }
 
-    private var bunnyEar: some View {
+    /// 온천의 카피바라처럼 아무렇지 않게 얹고 있는 유자.
+    private var yuzu: some View {
         ZStack {
-            Capsule().fill(palette.fill)
-            Capsule().stroke(palette.line, lineWidth: line)
-            Capsule().fill(innerPink)
-                .frame(width: size * 0.06, height: size * 0.27)
-                .offset(y: size * 0.02)
+            Circle().fill(
+                RadialGradient(colors: [Color(red: 1.0, green: 0.88, blue: 0.45), Color(red: 1.0, green: 0.74, blue: 0.2)],
+                               center: UnitPoint(x: 0.35, y: 0.3), startRadius: 0, endRadius: size * 0.08)
+            )
+            Circle().stroke(Color(red: 0.78, green: 0.52, blue: 0.10), lineWidth: line)
+            Ellipse()
+                .fill(Color(red: 0.45, green: 0.70, blue: 0.35))
+                .frame(width: size * 0.07, height: size * 0.035)
+                .rotationEffect(.degrees(-25))
+                .offset(x: size * 0.035, y: -size * 0.06)
         }
-        .frame(width: size * 0.15, height: size * 0.42)
-    }
-
-    private func roundEar(_ diameter: CGFloat, inner: Color) -> some View {
-        ZStack {
-            Circle().fill(palette.fill)
-            Circle().stroke(palette.line, lineWidth: line)
-            Circle().fill(inner).frame(width: size * diameter * 0.5)
-        }
-        .frame(width: size * diameter, height: size * diameter)
-    }
-
-    /// 왼쪽 귀를 그리고 오른쪽은 거울로 비춘다. 쫑긋할 때는 그쪽 귀만 젖혀진다.
-    private func pair(x: CGFloat, y: CGFloat, tilt: Double, ear: () -> some View) -> some View {
-        let one = ear()
-        let flick = 16.0
-        return ZStack {
-            one.rotationEffect(.degrees(-tilt - (twitch == .left ? flick : 0)), anchor: .bottom)
-                .offset(x: -size * x, y: size * y)
-            one.scaleEffect(x: -1)
-                .rotationEffect(.degrees(tilt + (twitch == .right ? flick : 0)), anchor: .bottom)
-                .offset(x: size * x, y: size * y)
-        }
+        .frame(width: size * 0.13, height: size * 0.13)
     }
 }
 
@@ -539,6 +751,36 @@ private struct CatEarInnerShape: Shape {
         path.addLine(to: p(59, 84))
         path.addLine(to: p(68, 80))
         path.closeSubpath()
+        return path
+    }
+}
+
+/// 키위새 부리. 위가 넓고 아래로 가늘게 내려오다 끝이 살짝 앞으로 휜다.
+private struct KiwiBeakShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+        path.addQuadCurve(to: CGPoint(x: rect.midX + rect.width * 0.15, y: rect.maxY),
+                          control: CGPoint(x: rect.minX + rect.width * 0.2, y: rect.maxY * 0.75))
+        path.addQuadCurve(to: CGPoint(x: rect.maxX, y: rect.minY),
+                          control: CGPoint(x: rect.maxX - rect.width * 0.1, y: rect.maxY * 0.7))
+        path.addQuadCurve(to: CGPoint(x: rect.minX, y: rect.minY),
+                          control: CGPoint(x: rect.midX, y: rect.minY - rect.height * 0.06))
+        path.closeSubpath()
+        return path
+    }
+}
+
+/// 키위새 정수리의 삐친 털 두 가닥.
+private struct KiwiTuftShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        path.move(to: CGPoint(x: rect.midX - rect.width * 0.1, y: rect.maxY))
+        path.addQuadCurve(to: CGPoint(x: rect.minX, y: rect.minY + rect.height * 0.15),
+                          control: CGPoint(x: rect.midX - rect.width * 0.1, y: rect.minY))
+        path.move(to: CGPoint(x: rect.midX + rect.width * 0.05, y: rect.maxY))
+        path.addQuadCurve(to: CGPoint(x: rect.maxX, y: rect.minY),
+                          control: CGPoint(x: rect.midX + rect.width * 0.1, y: rect.minY + rect.height * 0.2))
         return path
     }
 }
