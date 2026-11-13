@@ -30,6 +30,7 @@ struct TodayView: View {
 
     @Environment(\.modelContext) private var modelContext
     @Environment(\.pebbleSkin) private var skin
+    @Environment(\.pebbleBuddy) private var buddy
     @Environment(\.foldLayout) private var fold
     @Query private var journals: [JournalData]
     @Query private var goals: [SubGoalData]
@@ -367,7 +368,8 @@ struct TodayView: View {
             action: Phrasing.say("오늘 남기러 가기", "오늘 남기러 가자"),
             mood: current.pebbleMood,
             updatedAt: Date(),
-            skin: skin
+            skin: skin,
+            buddy: buddy
         )
         PebbleSnapshot.save(snapshot)
         WidgetCenter.shared.reloadAllTimelines()

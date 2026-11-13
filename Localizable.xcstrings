@@ -5908,144 +5908,144 @@
         }
       }
     },
-    "강돌" : {
+    "구름" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "River Slate"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Říční oblázek"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Flodsten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Flussstein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ποτάμιο βότσαλο"
+            "value" : "Cloud"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "River Slate"
+            "value" : "Cloud"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mráček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sky"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wolke"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύννεφο"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Canto de río"
+            "value" : "Nube"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jokikivi"
+            "value" : "Pilvi"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Galet de rivière"
+            "value" : "Nuage"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu sungai"
+            "value" : "Awan"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sasso di fiume"
+            "value" : "Nuvola"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "川石"
+            "value" : "雲"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elvestein"
+            "value" : "Sky"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rivierkei"
+            "value" : "Wolk"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień rzeczny"
+            "value" : "Chmurka"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra de rio"
+            "value" : "Nuvem"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Речной камень"
+            "value" : "Облако"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Flodsten"
+            "value" : "Moln"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินแม่น้ำ"
+            "value" : "เมฆ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dere taşı"
+            "value" : "Bulut"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá sông"
+            "value" : "Mây"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "河石"
+            "value" : "云朵"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "河石"
+            "value" : "雲朵"
           }
         }
       }
@@ -6490,144 +6490,144 @@
         }
       }
     },
-    "개울가에서 주운 듯한 돌 다섯 가지가 더 열려요." : {
+    "친구의 몸 색 다섯 가지가 더 열려요." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Five more stones open up, like ones picked up by the stream."
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Odemkne se dalších pět kamenů, jako by je někdo posbíral u potoka."
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fem sten mere bliver låst op, som var de samlet op ved bækken."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fünf weitere Steine werden frei, wie am Bachufer aufgelesen."
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ξεκλειδώνουν άλλες πέντε πέτρες, σαν να τις μάζεψες δίπλα στο ρυάκι."
+            "value" : "Five more colors open up for your companion."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Five more stones open up, like ones picked up by the stream."
+            "value" : "Five more colors open up for your companion."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro kamaráda se odemkne dalších pět barev."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fem farver mere til din ven bliver låst op."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fünf weitere Farben für deinen Begleiter werden freigeschaltet."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκλειδώνουν πέντε ακόμη χρώματα για τον φίλο σας."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Se desbloquean cinco piedras más, como recogidas junto al arroyo."
+            "value" : "Se desbloquean cinco colores más para tu compañero."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Viisi kiveä lisää avautuu, kuin ojan varrelta poimittuina."
+            "value" : "Kaverillesi aukeaa viisi uutta väriä."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cinq autres galets, comme ramassés au bord du ruisseau, se débloquent."
+            "value" : "Cinq couleurs de plus se débloquent pour votre compagnon."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lima batu lagi terbuka, seolah dipungut di tepi anak sungai."
+            "value" : "Lima warna lagi terbuka untuk teman Anda."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Si sbloccano altre cinque pietre, come raccolte in riva al ruscello."
+            "value" : "Si sbloccano altri cinque colori per il tuo compagno."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "川辺で拾ったような石が、あと5種類使えるようになります。"
+            "value" : "ともだちの色がさらに5つ選べるようになります。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fem steiner til låses opp, som om de var plukket ved bekken."
+            "value" : "Fem farger til for vennen din låses opp."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Er komen vijf stenen bij, alsof ze langs de beek zijn opgeraapt."
+            "value" : "Er komen vijf extra kleuren vrij voor je maatje."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Odblokuje się jeszcze pięć kamieni, jakby zebranych nad strumykiem."
+            "value" : "Odblokujesz pięć kolejnych kolorów dla towarzysza."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mais cinco pedras são liberadas, como se fossem colhidas à beira do riacho."
+            "value" : "Mais cinco cores se abrem para o seu companheiro."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Откроются ещё пять камней, будто найденных у ручья."
+            "value" : "Откроются ещё пять цветов для вашего друга."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fem stenar till låses upp, som om de plockats vid bäcken."
+            "value" : "Fem färger till låses upp för din kompis."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ปลดล็อกหินเพิ่มอีกห้าก้อน เหมือนเก็บมาจากริมลำธาร"
+            "value" : "ปลดล็อกสีเพิ่มอีก 5 สีให้เพื่อนของคุณ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dere kenarından toplanmış gibi beş taş daha açılır."
+            "value" : "Arkadaşın için beş renk daha açılır."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mở thêm năm viên đá như nhặt bên bờ suối."
+            "value" : "Mở thêm năm màu cho bạn đồng hành."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "又会多出五块像是在溪边捡来的石头。"
+            "value" : "小伙伴会多出五种颜色。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "又會多出五塊像是在溪邊撿來的石頭。"
+            "value" : "小夥伴會多出五種顏色。"
           }
         }
       }
@@ -8112,145 +8112,145 @@
         }
       }
     },
-    "그 목표에 대해 조약돌과 이야기합니다." : {
+    "그 목표에 대해 징검돌과 이야기합니다." : {
       "comment" : "Siri: open goal description",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Talk with your pebble about that goal."
+            "value" : "Talk with ZinggumDol about that goal."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Talk with your pebble about that goal."
+            "value" : "Talk with ZinggumDol about that goal."
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Promluvte si s oblázkem o tomto cíli."
+            "value" : "Promluvte si se ZinggumDolem o tomto cíli."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tal med din sten om det mål."
+            "value" : "Tal med ZinggumDol om det mål."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sprich mit deinem Kiesel über dieses Ziel."
+            "value" : "Sprich mit ZinggumDol über dieses Ziel."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Μιλήστε με το βότσαλό σας γι’ αυτόν τον στόχο."
+            "value" : "Μιλήστε με το ZinggumDol γι’ αυτόν τον στόχο."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Habla con tu guijarro sobre esa meta."
+            "value" : "Habla con ZinggumDol sobre esa meta."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Juttele kivesi kanssa siitä tavoitteesta."
+            "value" : "Juttele ZinggumDolin kanssa siitä tavoitteesta."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Parlez de cet objectif avec votre galet."
+            "value" : "Parlez de cet objectif avec ZinggumDol."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mengobrol dengan kerikil Anda tentang target itu."
+            "value" : "Mengobrol dengan ZinggumDol tentang target itu."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Parla con il tuo sassolino di quell’obiettivo."
+            "value" : "Parla con ZinggumDol di quell’obiettivo."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "その目標について小石と話します。"
+            "value" : "その目標についてZinggumDolと話します。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Snakk med steinen din om det målet."
+            "value" : "Snakk med ZinggumDol om det målet."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Praat met je kiezel over dat doel."
+            "value" : "Praat met ZinggumDol over dat doel."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Porozmawiaj z kamykiem o tym celu."
+            "value" : "Porozmawiaj z ZinggumDolem o tym celu."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Converse com sua pedrinha sobre essa meta."
+            "value" : "Converse com o ZinggumDol sobre essa meta."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Поговорите с камешком об этой цели."
+            "value" : "Поговорите с ZinggumDol об этой цели."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Prata med din sten om det målet."
+            "value" : "Prata med ZinggumDol om det målet."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "คุยกับก้อนหินเรื่องเป้าหมายนั้น"
+            "value" : "คุยกับ ZinggumDol เรื่องเป้าหมายนั้น"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O hedef hakkında çakıl taşınla konuş."
+            "value" : "O hedef hakkında ZinggumDol ile konuş."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trò chuyện với viên đá về mục tiêu đó."
+            "value" : "Trò chuyện với ZinggumDol về mục tiêu đó."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "和小石子聊聊这个目标。"
+            "value" : "和 ZinggumDol 聊聊这个目标。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "和小石子聊聊這個目標。"
+            "value" : "和 ZinggumDol 聊聊這個目標。"
           }
         }
       }
@@ -13277,144 +13277,144 @@
         }
       }
     },
-    "내 조약돌 고르기" : {
+    "친구 색 고르기" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose your pebble"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vybrat můj oblázek"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vælg min sten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Meinen Kiesel wählen"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Επιλογή του βότσαλού μου"
+            "value" : "Choose your companion's color"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose your pebble"
+            "value" : "Choose your companion's color"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barva kamaráda"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg din vens farve"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbe des Begleiters wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρώμα για τον φίλο σας"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elegir mi guijarro"
+            "value" : "Elige el color de tu compañero"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valitse kiveni"
+            "value" : "Valitse kaverin väri"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choisir mon galet"
+            "value" : "Couleur de votre compagnon"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pilih kerikilku"
+            "value" : "Pilih warna teman"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Scegli il mio sassolino"
+            "value" : "Scegli il colore del compagno"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石を選ぶ"
+            "value" : "ともだちの色を選ぶ"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Velg steinen min"
+            "value" : "Velg vennens farge"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kies mijn kiezel"
+            "value" : "Kies de kleur van je maatje"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wybierz mój kamyk"
+            "value" : "Kolor towarzysza"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escolher minha pedrinha"
+            "value" : "Escolha a cor do companheiro"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Выбрать камешек"
+            "value" : "Цвет вашего друга"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Välj min sten"
+            "value" : "Välj kompisens färg"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เลือกก้อนหินของฉัน"
+            "value" : "เลือกสีให้เพื่อน"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çakıl taşımı seç"
+            "value" : "Arkadaşının rengini seç"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chọn viên đá của tôi"
+            "value" : "Chọn màu cho bạn đồng hành"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "挑选我的小石子"
+            "value" : "给小伙伴换颜色"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "挑選我的小石子"
+            "value" : "幫小夥伴換顏色"
           }
         }
       }
@@ -14451,36 +14451,12 @@
         }
       }
     },
-    "노을돌" : {
+    "노을" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kámen soumraku"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aftenrødsten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abendrotstein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Πέτρα του ηλιοβασιλέματος"
           }
         },
         "en-GB" : {
@@ -14489,106 +14465,130 @@
             "value" : "Sunset"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Červánky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgang"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abendrot"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δειλινό"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Piedra del ocaso"
+            "value" : "Atardecer"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Auringonlaskukivi"
+            "value" : "Iltarusko"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pierre du crépuscule"
+            "value" : "Couchant"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu senja"
+            "value" : "Senja"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pietra del tramonto"
+            "value" : "Tramonto"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "夕焼け石"
+            "value" : "夕焼け"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solnedgangsstein"
+            "value" : "Solnedgang"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zonsondergangsteen"
+            "value" : "Avondrood"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień zachodu słońca"
+            "value" : "Zachód"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra do entardecer"
+            "value" : "Pôr do sol"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закатный камень"
+            "value" : "Закат"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solnedgångssten"
+            "value" : "Solnedgång"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินยามเย็น"
+            "value" : "ยามเย็น"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gün batımı taşı"
+            "value" : "Gün batımı"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá hoàng hôn"
+            "value" : "Hoàng hôn"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "晚霞石"
+            "value" : "晚霞"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "晚霞石"
+            "value" : "晚霞"
           }
         }
       }
@@ -18450,144 +18450,144 @@
         }
       }
     },
-    "먹돌" : {
+    "먹" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inkstone"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inkoustový kámen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Blækssten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tuschestein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Πέτρα μελανιού"
+            "value" : "Ink"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inkstone"
+            "value" : "Ink"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkoust"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blæk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μελάνι"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Piedra de tinta"
+            "value" : "Tinta"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mustekivi"
+            "value" : "Muste"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pierre d’encre"
+            "value" : "Encre"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu tinta"
+            "value" : "Tinta"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pietra d’inchiostro"
+            "value" : "Inchiostro"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "墨石"
+            "value" : "墨"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Blekkstein"
+            "value" : "Blekk"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inktsteen"
+            "value" : "Inkt"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień atramentowy"
+            "value" : "Tusz"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra de tinta"
+            "value" : "Nanquim"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Чёрный камень"
+            "value" : "Тушь"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bläcksten"
+            "value" : "Bläck"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินหมึก"
+            "value" : "หมึก"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mürekkep taşı"
+            "value" : "Mürekkep"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá mực"
+            "value" : "Mực"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "墨石"
+            "value" : "墨色"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "墨石"
+            "value" : "墨色"
           }
         }
       }
@@ -19748,36 +19748,12 @@
         }
       }
     },
-    "모래알" : {
+    "모래" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sand"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zrnko písku"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sandkorn"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sandkorn"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Κόκκος άμμου"
           }
         },
         "en-GB" : {
@@ -19786,106 +19762,130 @@
             "value" : "Sand"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Písek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sand"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sand"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άμμος"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Grano de arena"
+            "value" : "Arena"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hiekanjyvä"
+            "value" : "Hiekka"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Grain de sable"
+            "value" : "Sable"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Butir pasir"
+            "value" : "Pasir"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Granello di sabbia"
+            "value" : "Sabbia"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "砂つぶ"
+            "value" : "砂"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sandkorn"
+            "value" : "Sand"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zandkorrel"
+            "value" : "Zand"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ziarnko piasku"
+            "value" : "Piasek"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Grão de areia"
+            "value" : "Areia"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Песчинка"
+            "value" : "Песок"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sandkorn"
+            "value" : "Sand"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เม็ดทราย"
+            "value" : "ทราย"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kum tanesi"
+            "value" : "Kum"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hạt cát"
+            "value" : "Cát"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "沙粒"
+            "value" : "沙色"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "沙粒"
+            "value" : "沙色"
           }
         }
       }
@@ -20749,144 +20749,144 @@
         }
       }
     },
-    "목표를 제한 없이 적고, 조약돌을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요." : {
+    "목표를 제한 없이 적고, 친구 색을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keep unlimited goals, choose your pebble, and export your records. Buy once, keep it for good."
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zapisujte cíle bez omezení, vybírejte oblázky a ukládejte záznamy do souboru. Jednou koupíte, navždy používáte."
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Skriv mål ned uden grænse, vælg din sten, og gem dine noter i en fil. Køb én gang, brug for altid."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ziele ohne Limit notieren, Kiesel auswählen und Einträge als Datei sichern. Einmal kaufen, immer nutzen."
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Σημειώστε στόχους χωρίς όριο, επιλέξτε βότσαλο και κρατήστε τις σημειώσεις σε αρχείο. Μία αγορά, για πάντα."
+            "value" : "Keep unlimited goals, choose your companion's color, and export your records. Buy once, keep it for good."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keep unlimited goals, choose your pebble, and export your records. Buy once, keep it for good."
+            "value" : "Keep unlimited goals, choose your companion's color, and export your records. Buy once, keep it for good."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisujte cíle bez omezení, vybírejte barvu kamaráda a ukládejte záznamy do souboru. Jednou koupíte, navždy používáte."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv mål ned uden grænse, vælg din vens farve, og gem dine noter i en fil. Køb én gang, brug for altid."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziele ohne Limit notieren, Farbe des Begleiters wählen und Einträge als Datei sichern. Einmal kaufen, immer nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώστε στόχους χωρίς όριο, επιλέξτε χρώμα για τον φίλο σας και κρατήστε τις σημειώσεις σε αρχείο. Μία αγορά, για πάντα."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anota metas sin límite, elige tu guijarro y guarda tus registros en un archivo. Se compra una vez y se usa siempre."
+            "value" : "Anota metas sin límite, elige el color de tu compañero y guarda tus registros en un archivo. Se compra una vez y se usa siempre."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kirjaa tavoitteita rajoituksetta, valitse kivesi ja säilytä merkinnät tiedostossa. Osta kerran, käytä aina."
+            "value" : "Kirjaa tavoitteita rajoituksetta, valitse kaverisi väri ja säilytä merkinnät tiedostossa. Osta kerran, käytä aina."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notez des objectifs sans limite, choisissez votre galet et conservez vos notes dans un fichier. Un seul achat, pour toujours."
+            "value" : "Notez des objectifs sans limite, choisissez la couleur de votre compagnon et conservez vos notes dans un fichier. Un seul achat, pour toujours."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Catat tujuan tanpa batas, pilih kerikil, dan simpan catatan sebagai berkas. Beli sekali, pakai selamanya."
+            "value" : "Catat tujuan tanpa batas, pilih warna teman, dan simpan catatan sebagai berkas. Beli sekali, pakai selamanya."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Annota obiettivi senza limiti, scegli il tuo sassolino e conserva le note in un file. Si compra una volta e si usa per sempre."
+            "value" : "Annota obiettivi senza limiti, scegli il colore del tuo compagno e conserva le note in un file. Si compra una volta e si usa per sempre."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "目標を無制限に書き、小石を選び、記録をファイルに残せます。一度買えば、ずっと使えます。"
+            "value" : "目標を無制限に書き、ともだちの色を選び、記録をファイルに残せます。一度買えば、ずっと使えます。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skriv ned mål uten grense, velg steinen din og ta vare på notatene i en fil. Kjøp én gang, bruk for alltid."
+            "value" : "Skriv ned mål uten grense, velg vennens farge og ta vare på notatene i en fil. Kjøp én gang, bruk for alltid."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schrijf onbeperkt doelen op, kies je kiezel en bewaar je notities in een bestand. Eén keer kopen, altijd gebruiken."
+            "value" : "Schrijf onbeperkt doelen op, kies de kleur van je maatje en bewaar je notities in een bestand. Eén keer kopen, altijd gebruiken."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zapisuj cele bez limitu, wybieraj kamyki i zachowuj wpisy w pliku. Kupujesz raz, używasz zawsze."
+            "value" : "Zapisuj cele bez limitu, wybieraj kolor towarzysza i zachowuj wpisy w pliku. Kupujesz raz, używasz zawsze."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anote metas sem limite, escolha sua pedrinha e guarde seus registros em um arquivo. Compre uma vez e use sempre."
+            "value" : "Anote metas sem limite, escolha a cor do seu companheiro e guarde seus registros em um arquivo. Compre uma vez e use sempre."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Записывайте цели без ограничений, выбирайте камешки и сохраняйте записи в файл. Одна покупка — навсегда."
+            "value" : "Записывайте цели без ограничений, выбирайте цвет друга и сохраняйте записи в файл. Одна покупка — навсегда."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skriv ner mål utan gräns, välj din sten och spara anteckningarna i en fil. Köp en gång, använd för alltid."
+            "value" : "Skriv ner mål utan gräns, välj kompisens färg och spara anteckningarna i en fil. Köp en gång, använd för alltid."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "จดเป้าหมายได้ไม่จำกัด เลือกก้อนหิน และเก็บบันทึกเป็นไฟล์ ซื้อครั้งเดียวใช้ได้ตลอด"
+            "value" : "จดเป้าหมายได้ไม่จำกัด เลือกสีให้เพื่อน และเก็บบันทึกเป็นไฟล์ ซื้อครั้งเดียวใช้ได้ตลอด"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hedefleri sınırsız yazın, çakıl taşınızı seçin ve notlarınızı dosya olarak saklayın. Bir kez alın, hep kullanın."
+            "value" : "Hedefleri sınırsız yazın, arkadaşınızın rengini seçin ve notlarınızı dosya olarak saklayın. Bir kez alın, hep kullanın."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ghi mục tiêu không giới hạn, chọn viên đá và lưu ghi chép thành tệp. Mua một lần, dùng mãi mãi."
+            "value" : "Ghi mục tiêu không giới hạn, chọn màu cho bạn đồng hành và lưu ghi chép thành tệp. Mua một lần, dùng mãi mãi."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "不限数量地写下目标，挑选小石子，把记录保存成文件。一次购买，长久使用。"
+            "value" : "不限数量地写下目标，给小伙伴换颜色，把记录保存成文件。一次购买，长久使用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "不限數量地寫下目標，挑選小石子，把記錄儲存成檔案。一次購買，長久使用。"
+            "value" : "不限數量地寫下目標，幫小夥伴換顏色，把記錄儲存成檔案。一次購買，長久使用。"
           }
         }
       }
@@ -29879,152 +29879,152 @@
         }
       }
     },
-    "언제든 다시 바꿀 수 있어요. 바꾸면 조약돌이 그 말투로 다시 인사해요." : {
+    "언제든 다시 바꿀 수 있어요. 바꾸면 징검돌이 그 말투로 다시 인사해요." : {
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You can change it anytime. The pebble will greet you again in that tone."
-          }
-        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "언제든 다시 바꿀 수 있어요. 바꾸면 조약돌이 그 말투로 다시 인사해요."
+            "value" : "언제든 다시 바꿀 수 있어요. 바꾸면 징검돌이 그 말투로 다시 인사해요."
           }
         },
-        "cs" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kdykoli to můžete změnit. Po změně vás oblázek znovu pozdraví novým způsobem."
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du kan altid ændre det. Når du gør, hilser stenen på dig igen på den måde."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Du kannst das jederzeit ändern. Danach begrüßt dich der Kiesel in der neuen Anrede."
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Μπορείτε να το αλλάξετε οποιαδήποτε στιγμή. Μετά την αλλαγή, το βότσαλο θα σας χαιρετήσει ξανά με αυτόν τον τρόπο."
+            "value" : "You can change it anytime. ZinggumDol will greet you again in that tone."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You can change it anytime. The pebble will greet you again in that tone."
+            "value" : "You can change it anytime. ZinggumDol will greet you again in that tone."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdykoli to můžete změnit. Po změně vás ZinggumDol znovu pozdraví novým způsobem."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan altid ændre det. Når du gør, hilser ZinggumDol på dig igen på den måde."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst das jederzeit ändern. Danach begrüßt dich ZinggumDol in der neuen Anrede."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να το αλλάξετε οποιαδήποτε στιγμή. Μετά την αλλαγή, το ZinggumDol θα σας χαιρετήσει ξανά με αυτόν τον τρόπο."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Puedes cambiarlo cuando quieras. Al cambiarlo, el guijarro te saludará de nuevo con ese trato."
+            "value" : "Puedes cambiarlo cuando quieras. Al cambiarlo, ZinggumDol te saludará de nuevo con ese trato."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voit vaihtaa tämän milloin tahansa. Vaihdon jälkeen kivi tervehtii sinua uudelleen uudella tavalla."
+            "value" : "Voit vaihtaa tämän milloin tahansa. Vaihdon jälkeen ZinggumDol tervehtii sinua uudelleen uudella tavalla."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vous pouvez le changer à tout moment. Ensuite, le galet vous saluera à nouveau avec ce ton."
+            "value" : "Vous pouvez le changer à tout moment. Ensuite, ZinggumDol vous saluera à nouveau avec ce ton."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anda bisa mengubahnya kapan saja. Setelah diubah, kerikil akan menyapa Anda lagi dengan gaya itu."
+            "value" : "Anda bisa mengubahnya kapan saja. Setelah diubah, ZinggumDol akan menyapa Anda lagi dengan gaya itu."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Puoi cambiarlo quando vuoi. Poi il sassolino ti saluterà di nuovo con quel tono."
+            "value" : "Puoi cambiarlo quando vuoi. Poi ZinggumDol ti saluterà di nuovo con quel tono."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "いつでも変えられます。変えると、小石がその話し方でもう一度あいさつします。"
+            "value" : "いつでも変えられます。変えると、ZinggumDolがその話し方でもう一度あいさつします。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Du kan endre det når som helst. Når du gjør det, hilser steinen på deg igjen på den måten."
+            "value" : "Du kan endre det når som helst. Når du gjør det, hilser ZinggumDol på deg igjen på den måten."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "U kunt dit altijd wijzigen. Daarna begroet de kiezel u opnieuw op die manier."
+            "value" : "U kunt dit altijd wijzigen. Daarna begroet ZinggumDol u opnieuw op die manier."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Możesz to zmienić w każdej chwili. Po zmianie kamyk przywita Cię ponownie w nowy sposób."
+            "value" : "Możesz to zmienić w każdej chwili. Po zmianie ZinggumDol przywita Cię ponownie w nowy sposób."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Você pode mudar quando quiser. Ao mudar, a pedrinha cumprimenta você de novo nesse tom."
+            "value" : "Você pode mudar quando quiser. Ao mudar, o ZinggumDol cumprimenta você de novo nesse tom."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Это можно изменить в любой момент. Камешек поприветствует вас уже в новом стиле."
+            "value" : "Это можно изменить в любой момент. ZinggumDol поприветствует вас уже в новом стиле."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Du kan ändra det när som helst. Efter ändringen hälsar stenen på dig igen på det sättet."
+            "value" : "Du kan ändra det när som helst. Efter ändringen hälsar ZinggumDol på dig igen på det sättet."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เปลี่ยนได้ทุกเมื่อ เมื่อเปลี่ยนแล้ว ก้อนหินจะทักทายอีกครั้งด้วยน้ำเสียงนั้น"
+            "value" : "เปลี่ยนได้ทุกเมื่อ เมื่อเปลี่ยนแล้ว ZinggumDol จะทักทายอีกครั้งด้วยน้ำเสียงนั้น"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "İstediğiniz zaman değiştirebilirsiniz. Değiştirince çakıl taşı sizi yeniden bu hitapla selamlar."
+            "value" : "İstediğiniz zaman değiştirebilirsiniz. Değiştirince ZinggumDol sizi yeniden bu hitapla selamlar."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bạn có thể đổi bất cứ lúc nào. Đổi xong, viên đá sẽ chào lại bạn bằng giọng điệu mới."
+            "value" : "Bạn có thể đổi bất cứ lúc nào. Đổi xong, ZinggumDol sẽ chào lại bạn bằng giọng điệu mới."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你可以随时更改。更改后，小石子会用新的语气重新跟你打招呼。"
+            "value" : "你可以随时更改。更改后，ZinggumDol 会用新的语气重新跟你打招呼。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你可以隨時更改。更改後，小石子會用新的語氣重新跟你打招呼。"
+            "value" : "你可以隨時更改。更改後，ZinggumDol 會用新的語氣重新跟你打招呼。"
           }
         }
       }
@@ -35216,144 +35216,144 @@
         }
       }
     },
-    "이끼돌" : {
+    "말차" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Moss"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mechový kámen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mosesten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Moosstein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Πέτρα με βρύα"
+            "value" : "Matcha"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Moss"
+            "value" : "Matcha"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matcha"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matcha"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matcha"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μάτσα"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Piedra de musgo"
+            "value" : "Matcha"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sammalkivi"
+            "value" : "Matcha"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pierre moussue"
+            "value" : "Matcha"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu lumut"
+            "value" : "Matcha"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pietra muschiosa"
+            "value" : "Matcha"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "苔石"
+            "value" : "抹茶"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mosestein"
+            "value" : "Matcha"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mossteen"
+            "value" : "Matcha"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień omszały"
+            "value" : "Matcha"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra de musgo"
+            "value" : "Matcha"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Мшистый камень"
+            "value" : "Матча"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mossten"
+            "value" : "Matcha"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินมอส"
+            "value" : "มัทฉะ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yosun taşı"
+            "value" : "Matcha"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá rêu"
+            "value" : "Matcha"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "苔藓石"
+            "value" : "抹茶"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "苔蘚石"
+            "value" : "抹茶"
           }
         }
       }
@@ -40843,144 +40843,144 @@
         }
       }
     },
-    "조가비" : {
+    "우유" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seashell"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mušle"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Musling"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Muschel"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Κοχύλι"
+            "value" : "Milk"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seashell"
+            "value" : "Milk"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mléko"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mælk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Milch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γάλα"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concha"
+            "value" : "Leche"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Simpukankuori"
+            "value" : "Maito"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Coquillage"
+            "value" : "Lait"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kerang"
+            "value" : "Susu"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Conchiglia"
+            "value" : "Latte"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "貝がら"
+            "value" : "ミルク"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skjell"
+            "value" : "Melk"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schelp"
+            "value" : "Melk"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Muszla"
+            "value" : "Mleko"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concha"
+            "value" : "Leite"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ракушка"
+            "value" : "Молоко"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Snäcka"
+            "value" : "Mjölk"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เปลือกหอย"
+            "value" : "นม"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deniz kabuğu"
+            "value" : "Süt"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vỏ sò"
+            "value" : "Sữa"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "贝壳"
+            "value" : "牛奶"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "貝殼"
+            "value" : "牛奶"
           }
         }
       }
@@ -41135,732 +41135,732 @@
         }
       }
     },
-    "조약돌" : {
+    "친구" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pebble"
-          }
-        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "조약돌"
+            "value" : "친구"
           }
         },
-        "cs" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oblázek"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kiesel"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Βότσαλο"
+            "value" : "Companion"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pebble"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guijarro"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kivi"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Galet"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kerikil"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sassolino"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "小石"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stein"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kiezel"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kamyk"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pedrinha"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Камешек"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sten"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ก้อนหิน"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Çakıl taşı"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viên đá"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "小石子"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "小石子"
-          }
-        }
-      }
-    },
-    "조약돌 고르기" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pebble finish"
+            "value" : "Companion"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Výběr oblázku"
+            "value" : "Kamarád"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vælg sten"
+            "value" : "Ven"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kiesel wählen"
+            "value" : "Begleiter"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Επιλογή βότσαλου"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pebble finish"
+            "value" : "Φίλος"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elegir guijarro"
+            "value" : "Compañero"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valitse kivi"
+            "value" : "Kaveri"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choisir un galet"
+            "value" : "Compagnon"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pilih kerikil"
+            "value" : "Teman"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Scegli il sassolino"
+            "value" : "Compagno"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石を選ぶ"
+            "value" : "ともだち"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Velg stein"
+            "value" : "Venn"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kiezel kiezen"
+            "value" : "Maatje"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wybierz kamyk"
+            "value" : "Towarzysz"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escolher pedrinha"
+            "value" : "Companheiro"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Выбор камешка"
+            "value" : "Друг"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Välj sten"
+            "value" : "Kompis"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เลือกก้อนหิน"
+            "value" : "เพื่อน"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çakıl taşı seç"
+            "value" : "Arkadaş"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chọn viên đá"
+            "value" : "Bạn đồng hành"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "挑选小石子"
+            "value" : "小伙伴"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "挑選小石子"
+            "value" : "小夥伴"
           }
         }
       }
     },
-    "조약돌의 결을 여섯 가지 중에서 골라요" : {
+    "색 고르기" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose from six pebble finishes"
+            "value" : "Choose a color"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a color"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vyberte si z šesti povrchů oblázku"
+            "value" : "Vyberte barvu"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vælg mellem seks overflader til stenen"
+            "value" : "Vælg en farve"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wähle den Kiesel aus sechs Oberflächen"
+            "value" : "Farbe wählen"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Διαλέξτε ανάμεσα σε έξι υφές βότσαλου"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose from six pebble finishes"
+            "value" : "Διαλέξτε χρώμα"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elige entre seis acabados de guijarro"
+            "value" : "Elige un color"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valitse kuudesta kiven pinnasta"
+            "value" : "Valitse väri"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choisissez parmi six aspects de galet"
+            "value" : "Choisir une couleur"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pilih dari enam tekstur kerikil"
+            "value" : "Pilih warna"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Scegli tra sei finiture di sassolino"
+            "value" : "Scegli un colore"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石の質感を6種類から選べます"
+            "value" : "色を選ぶ"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Velg blant seks overflater til steinen"
+            "value" : "Velg en farge"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kies uit zes kieseluitvoeringen"
+            "value" : "Kies een kleur"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wybierz jedną z sześciu faktur kamyka"
+            "value" : "Wybierz kolor"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escolha entre seis acabamentos de pedrinha"
+            "value" : "Escolha uma cor"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Шесть фактур камешка на выбор"
+            "value" : "Выберите цвет"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Välj bland sex ytor på stenen"
+            "value" : "Välj en färg"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เลือกพื้นผิวก้อนหินได้หกแบบ"
+            "value" : "เลือกสี"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Altı çakıl taşı dokusundan birini seçin"
+            "value" : "Rengini seç"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chọn một trong sáu kiểu bề mặt viên đá"
+            "value" : "Chọn màu"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "可以从六种小石子质感中挑选"
+            "value" : "选择颜色"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "可以從六種小石子質感中挑選"
+            "value" : "選擇顏色"
           }
         }
       }
     },
-    "조약돌이 생각하고 있어요" : {
+    "친구의 색을 여섯 가지 중에서 골라요" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pebble is thinking"
+            "value" : "Choose from six colors for your companion"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose from six colors for your companion"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte kamarádovi jednu ze šesti barev"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg mellem seks farver til din ven"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle aus sechs Farben für deinen Begleiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαλέξτε ανάμεσα σε έξι χρώματα για τον φίλο σας"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige entre seis colores para tu compañero"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kaverillesi yksi kuudesta väristä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez parmi six couleurs pour votre compagnon"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih dari enam warna untuk teman Anda"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli tra sei colori per il tuo compagno"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ともだちの色を6つから選べます"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg mellom seks farger til vennen din"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies uit zes kleuren voor je maatje"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz jeden z sześciu kolorów dla towarzysza"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolha entre seis cores para o seu companheiro"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбирайте из шести цветов для вашего друга"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj mellan sex färger till din kompis"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกสีให้เพื่อนได้ 6 สี"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkadaşın için altı renk arasından seç"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một trong sáu màu cho bạn đồng hành"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从六种颜色中为小伙伴挑选"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從六種顏色中為小夥伴挑選"
+          }
+        }
+      }
+    },
+    "징검돌이 생각하고 있어요" : {
+      "localizations" : {
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "조약돌이 생각하고 있어요"
+            "value" : "징검돌이 생각하고 있어요"
           }
         },
-        "cs" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oblázek přemýšlí"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stenen tænker"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Der Kiesel denkt nach"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Το βότσαλο σκέφτεται"
+            "value" : "ZinggumDol is thinking"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pebble is thinking"
+            "value" : "ZinggumDol is thinking"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol přemýšlí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol tænker"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZinggumDol denkt nach"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το ZinggumDol σκέφτεται"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El guijarro está pensando"
+            "value" : "ZinggumDol está pensando"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kivi miettii"
+            "value" : "ZinggumDol miettii"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le galet réfléchit"
+            "value" : "ZinggumDol réfléchit"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kerikil sedang berpikir"
+            "value" : "ZinggumDol sedang berpikir"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il sassolino sta pensando"
+            "value" : "ZinggumDol sta pensando"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石が考えています"
+            "value" : "ZinggumDolが考えています"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Steinen tenker"
+            "value" : "ZinggumDol tenker"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "De kiezel denkt na"
+            "value" : "ZinggumDol denkt na"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamyk myśli"
+            "value" : "ZinggumDol myśli"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A pedrinha está pensando"
+            "value" : "O ZinggumDol está pensando"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Камешек думает"
+            "value" : "ZinggumDol думает"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stenen funderar"
+            "value" : "ZinggumDol funderar"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ก้อนหินกำลังคิด"
+            "value" : "ZinggumDol กำลังคิด"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çakıl taşı düşünüyor"
+            "value" : "ZinggumDol düşünüyor"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Viên đá đang nghĩ"
+            "value" : "ZinggumDol đang nghĩ"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石子在思考"
+            "value" : "ZinggumDol 在思考"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石子在思考"
+            "value" : "ZinggumDol 在思考"
           }
         }
       }
     },
-    "조약돌이 존댓말을 쓸지 반말을 쓸지 설정에서 정할 수 있어요." : {
+    "징검돌이 존댓말을 쓸지 반말을 쓸지 설정에서 정할 수 있어요." : {
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You can set how the pebble speaks to you in Settings."
-          }
-        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "조약돌이 존댓말을 쓸지 반말을 쓸지 설정에서 정할 수 있어요."
+            "value" : "징검돌이 존댓말을 쓸지 반말을 쓸지 설정에서 정할 수 있어요."
           }
         },
-        "cs" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "V „Nastavení“ určíte, zda vám oblázek vyká, nebo tyká."
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I „Indstillinger“ kan du vælge, om stenen taler formelt eller afslappet til dig."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In den „Einstellungen“ legst du fest, ob der Kiesel dich siezt oder duzt."
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Στις «Ρυθμίσεις» ορίζετε αν το βότσαλο θα σας μιλά στον πληθυντικό ή στον ενικό."
+            "value" : "You can set how ZinggumDol speaks to you in Settings."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You can set how the pebble speaks to you in Settings."
+            "value" : "You can set how ZinggumDol speaks to you in Settings."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V „Nastavení“ určíte, zda vám ZinggumDol vyká, nebo tyká."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I „Indstillinger“ kan du vælge, om ZinggumDol taler formelt eller afslappet til dig."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In den „Einstellungen“ legst du fest, ob ZinggumDol dich siezt oder duzt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στις «Ρυθμίσεις» ορίζετε αν το ZinggumDol θα σας μιλά στον πληθυντικό ή στον ενικό."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "En «Ajustes» puedes decidir si el guijarro te habla de tú o de usted."
+            "value" : "En «Ajustes» puedes decidir si ZinggumDol te habla de tú o de usted."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kohdassa ”Asetukset” voit valita, teitittelekö vai sinutteleeko kivi sinua."
+            "value" : "Kohdassa ”Asetukset” voit valita, teitittelekö vai sinutteleeko ZinggumDol sinua."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dans « Réglages », vous choisissez si le galet vous tutoie ou vous vouvoie."
+            "value" : "Dans « Réglages », vous choisissez si ZinggumDol vous tutoie ou vous vouvoie."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Di «Pengaturan», Anda bisa memilih apakah kerikil berbicara formal atau santai."
+            "value" : "Di «Pengaturan», Anda bisa memilih apakah ZinggumDol berbicara formal atau santai."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In «Impostazioni» scegli se il sassolino ti dà del tu o del lei."
+            "value" : "In «Impostazioni» scegli se ZinggumDol ti dà del tu o del lei."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石が敬語で話すかタメ口で話すかは、設定で決められます。"
+            "value" : "ZinggumDolが敬語で話すかタメ口で話すかは、設定で決められます。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I «Innstillinger» kan du velge om steinen snakker formelt eller avslappet til deg."
+            "value" : "I «Innstillinger» kan du velge om ZinggumDol snakker formelt eller avslappet til deg."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In ‘Instellingen’ kiest u of de kiezel u met ‘u’ of ‘je’ aanspreekt."
+            "value" : "In ‘Instellingen’ kiest u of ZinggumDol u met ‘u’ of ‘je’ aanspreekt."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "W „Ustawieniach” możesz wybrać, czy kamyk zwraca się do Ciebie oficjalnie, czy swobodnie."
+            "value" : "W „Ustawieniach” możesz wybrać, czy ZinggumDol zwraca się do Ciebie oficjalnie, czy swobodnie."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Em «Ajustes» você escolhe se a pedrinha fala de modo formal ou descontraído."
+            "value" : "Em «Ajustes» você escolhe se o ZinggumDol fala de modo formal ou descontraído."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "В «Настройках» можно выбрать, обращается ли камешек к вам на «вы» или на «ты»."
+            "value" : "В «Настройках» можно выбрать, обращается ли ZinggumDol к вам на «вы» или на «ты»."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I ”Inställningar” kan du välja om stenen säger du eller ni till dig."
+            "value" : "I ”Inställningar” kan du välja om ZinggumDol säger du eller ni till dig."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ในการตั้งค่า คุณเลือกได้ว่าก้อนหินจะพูดสุภาพหรือพูดสบายๆ"
+            "value" : "ในการตั้งค่า คุณเลือกได้ว่า ZinggumDol จะพูดสุภาพหรือพูดสบายๆ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "“Ayarlar”dan çakıl taşının size “siz” mi “sen” mi diyeceğini seçebilirsiniz."
+            "value" : "“Ayarlar”dan ZinggumDol’un size “siz” mi “sen” mi diyeceğini seçebilirsiniz."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trong «Cài đặt», bạn chọn được viên đá nói chuyện trang trọng hay thân mật."
+            "value" : "Trong «Cài đặt», bạn chọn được ZinggumDol nói chuyện trang trọng hay thân mật."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你可以在「设置」中决定小石子对你说话的语气。"
+            "value" : "你可以在「设置」中决定 ZinggumDol 对你说话的语气。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你可以在「設定」中決定小石子對你說話的語氣。"
+            "value" : "你可以在「設定」中決定 ZinggumDol 對你說話的語氣。"
           }
         }
       }
@@ -73391,6 +73391,716 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "記錄今天的一步"
+          }
+        }
+      }
+    },
+    "토끼" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunny"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunny"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajíček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κουνελάκι"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conejito"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pupu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lapin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelinci"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coniglietto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うさぎ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konijn"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Króliczek"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coelhinho"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зайка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระต่าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavşan"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thỏ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小兔"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小兔"
+          }
+        }
+      }
+    },
+    "햄스터" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Křeček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χάμστερ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hámster"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamsteri"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criceto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハムスター"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chomik"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хомяк"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮมสเตอร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuột hamster"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仓鼠"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倉鼠"
+          }
+        }
+      }
+    },
+    "고양이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cat"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cat"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kočka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kat"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katze"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γάτα"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gato"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kissa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kucing"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gatto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ねこ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kat"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotek"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gato"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Котик"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katt"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แมว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kedi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mèo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小猫"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小貓"
+          }
+        }
+      }
+    },
+    "곰" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bear"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bear"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medvídek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjørn"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bär"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αρκουδάκι"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osito"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nalle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ourson"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beruang"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orsetto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "くま"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjørn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miś"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ursinho"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мишка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Björn"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมี"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayı"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gấu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小熊"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小熊"
+          }
+        }
+      }
+    },
+    "친구 고르기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a companion"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a companion"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte kamaráda"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg en ven"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begleiter wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαλέξτε φίλο"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un compañero"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kaveri"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir un compagnon"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih teman"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli un compagno"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ともだちを選ぶ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg en venn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een maatje"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz towarzysza"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolha um companheiro"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите друга"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en kompis"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกเพื่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkadaşını seç"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn bạn đồng hành"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择小伙伴"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇小夥伴"
           }
         }
       }

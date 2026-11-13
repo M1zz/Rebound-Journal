@@ -1,144 +1,144 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
-    "강돌" : {
+    "구름" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "River Slate"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Říční oblázek"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Flodsten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Flussstein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ποτάμιο βότσαλο"
+            "value" : "Cloud"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "River Slate"
+            "value" : "Cloud"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mráček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sky"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wolke"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύννεφο"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Canto de río"
+            "value" : "Nube"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jokikivi"
+            "value" : "Pilvi"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Galet de rivière"
+            "value" : "Nuage"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu sungai"
+            "value" : "Awan"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sasso di fiume"
+            "value" : "Nuvola"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "川石"
+            "value" : "雲"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Elvestein"
+            "value" : "Sky"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rivierkei"
+            "value" : "Wolk"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień rzeczny"
+            "value" : "Chmurka"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra de rio"
+            "value" : "Nuvem"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Речной камень"
+            "value" : "Облако"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Flodsten"
+            "value" : "Moln"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินแม่น้ำ"
+            "value" : "เมฆ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dere taşı"
+            "value" : "Bulut"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá sông"
+            "value" : "Mây"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "河石"
+            "value" : "云朵"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "河石"
+            "value" : "雲朵"
           }
         }
       }
@@ -427,36 +427,12 @@
         }
       }
     },
-    "노을돌" : {
+    "노을" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kámen soumraku"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aftenrødsten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abendrotstein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Πέτρα του ηλιοβασιλέματος"
           }
         },
         "en-GB" : {
@@ -465,106 +441,130 @@
             "value" : "Sunset"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Červánky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgang"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abendrot"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δειλινό"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Piedra del ocaso"
+            "value" : "Atardecer"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Auringonlaskukivi"
+            "value" : "Iltarusko"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pierre du crépuscule"
+            "value" : "Couchant"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu senja"
+            "value" : "Senja"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pietra del tramonto"
+            "value" : "Tramonto"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "夕焼け石"
+            "value" : "夕焼け"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solnedgangsstein"
+            "value" : "Solnedgang"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zonsondergangsteen"
+            "value" : "Avondrood"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień zachodu słońca"
+            "value" : "Zachód"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra do entardecer"
+            "value" : "Pôr do sol"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Закатный камень"
+            "value" : "Закат"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solnedgångssten"
+            "value" : "Solnedgång"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินยามเย็น"
+            "value" : "ยามเย็น"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gün batımı taşı"
+            "value" : "Gün batımı"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá hoàng hôn"
+            "value" : "Hoàng hôn"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "晚霞石"
+            "value" : "晚霞"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "晚霞石"
+            "value" : "晚霞"
           }
         }
       }
@@ -711,178 +711,154 @@
         }
       }
     },
-    "먹돌" : {
+    "먹" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inkstone"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inkoustový kámen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Blækssten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tuschestein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Πέτρα μελανιού"
+            "value" : "Ink"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inkstone"
+            "value" : "Ink"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inkoust"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blæk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tinte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μελάνι"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Piedra de tinta"
+            "value" : "Tinta"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mustekivi"
+            "value" : "Muste"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pierre d’encre"
+            "value" : "Encre"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batu tinta"
+            "value" : "Tinta"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pietra d’inchiostro"
+            "value" : "Inchiostro"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "墨石"
+            "value" : "墨"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Blekkstein"
+            "value" : "Blekk"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inktsteen"
+            "value" : "Inkt"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamień atramentowy"
+            "value" : "Tusz"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedra de tinta"
+            "value" : "Nanquim"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Чёрный камень"
+            "value" : "Тушь"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bläcksten"
+            "value" : "Bläck"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "หินหมึก"
+            "value" : "หมึก"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mürekkep taşı"
+            "value" : "Mürekkep"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đá mực"
+            "value" : "Mực"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "墨石"
+            "value" : "墨色"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "墨石"
+            "value" : "墨色"
           }
         }
       }
     },
-    "모래알" : {
+    "모래" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sand"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zrnko písku"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sandkorn"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sandkorn"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Κόκκος άμμου"
           }
         },
         "en-GB" : {
@@ -891,106 +867,130 @@
             "value" : "Sand"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Písek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sand"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sand"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άμμος"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Grano de arena"
+            "value" : "Arena"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hiekanjyvä"
+            "value" : "Hiekka"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Grain de sable"
+            "value" : "Sable"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Butir pasir"
+            "value" : "Pasir"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Granello di sabbia"
+            "value" : "Sabbia"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "砂つぶ"
+            "value" : "砂"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sandkorn"
+            "value" : "Sand"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zandkorrel"
+            "value" : "Zand"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ziarnko piasku"
+            "value" : "Piasek"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Grão de areia"
+            "value" : "Areia"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Песчинка"
+            "value" : "Песок"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sandkorn"
+            "value" : "Sand"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เม็ดทราย"
+            "value" : "ทราย"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kum tanesi"
+            "value" : "Kum"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hạt cát"
+            "value" : "Cát"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "沙粒"
+            "value" : "沙色"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "沙粒"
+            "value" : "沙色"
           }
         }
       }
@@ -1421,578 +1421,436 @@
         }
       }
     },
-    "이끼돌" : {
+    "말차" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Moss"
-          }
-        },
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mechový kámen"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mosesten"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Moosstein"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Πέτρα με βρύα"
+            "value" : "Matcha"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Moss"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Piedra de musgo"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sammalkivi"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pierre moussue"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Batu lumut"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pietra muschiosa"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "苔石"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mosestein"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mossteen"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kamień omszały"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pedra de musgo"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Мшистый камень"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mossten"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "หินมอส"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yosun taşı"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đá rêu"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "苔藓石"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "苔蘚石"
-          }
-        }
-      }
-    },
-    "조가비" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Seashell"
+            "value" : "Matcha"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mušle"
+            "value" : "Matcha"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Musling"
+            "value" : "Matcha"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Muschel"
+            "value" : "Matcha"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Κοχύλι"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Seashell"
+            "value" : "Μάτσα"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concha"
+            "value" : "Matcha"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Simpukankuori"
+            "value" : "Matcha"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Coquillage"
+            "value" : "Matcha"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kerang"
+            "value" : "Matcha"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Conchiglia"
+            "value" : "Matcha"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "貝がら"
+            "value" : "抹茶"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Skjell"
+            "value" : "Matcha"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schelp"
+            "value" : "Matcha"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Muszla"
+            "value" : "Matcha"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concha"
+            "value" : "Matcha"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ракушка"
+            "value" : "Матча"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Snäcka"
+            "value" : "Matcha"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เปลือกหอย"
+            "value" : "มัทฉะ"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deniz kabuğu"
+            "value" : "Matcha"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vỏ sò"
+            "value" : "Matcha"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "贝壳"
+            "value" : "抹茶"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "貝殼"
+            "value" : "抹茶"
           }
         }
       }
     },
-    "조약돌" : {
+    "우유" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pebble"
+            "value" : "Milk"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Milk"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oblázek"
+            "value" : "Mléko"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sten"
+            "value" : "Mælk"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kiesel"
+            "value" : "Milch"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Βότσαλο"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pebble"
+            "value" : "Γάλα"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Guijarro"
+            "value" : "Leche"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kivi"
+            "value" : "Maito"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Galet"
+            "value" : "Lait"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kerikil"
+            "value" : "Susu"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sassolino"
+            "value" : "Latte"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石"
+            "value" : "ミルク"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stein"
+            "value" : "Melk"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kiezel"
+            "value" : "Melk"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kamyk"
+            "value" : "Mleko"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedrinha"
+            "value" : "Leite"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Камешек"
+            "value" : "Молоко"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sten"
+            "value" : "Mjölk"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ก้อนหิน"
+            "value" : "นม"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çakıl taşı"
+            "value" : "Süt"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Viên đá"
+            "value" : "Sữa"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石子"
+            "value" : "牛奶"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石子"
+            "value" : "牛奶"
           }
         }
       }
     },
-    "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요." : {
+    "징검돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요." : {
       "comment" : "위젯 갤러리의 설명",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A word from the pebble. Tap to leave today's note."
-          }
-        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
+            "value" : "징검돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요."
           }
         },
-        "cs" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Slovo od oblázku. Klepnutím zapíšete dnešek."
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Et ord fra stenen. Tryk for at skrive dagen ned."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ein Satz vom Kiesel. Tippe, um heute etwas festzuhalten."
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Μια κουβέντα από το βότσαλο. Πατήστε για να σημειώσετε τη σημερινή μέρα."
+            "value" : "A word from ZinggumDol. Tap to leave today's note."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A word from the pebble. Tap to leave today's note."
+            "value" : "A word from ZinggumDol. Tap to leave today's note."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo od ZinggumDolu. Klepnutím zapíšete dnešek."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et ord fra ZinggumDol. Tryk for at skrive dagen ned."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Satz von ZinggumDol. Tippe, um heute etwas festzuhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια κουβέντα από το ZinggumDol. Πατήστε για να σημειώσετε τη σημερινή μέρα."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una frase del guijarro. Toca para anotar lo de hoy."
+            "value" : "Una frase de ZinggumDol. Toca para anotar lo de hoy."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kiven sana. Napauta kirjataksesi tämän päivän."
+            "value" : "ZinggumDolin sana. Napauta kirjataksesi tämän päivän."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un mot du galet. Touchez pour noter aujourd’hui."
+            "value" : "Un mot de ZinggumDol. Touchez pour noter aujourd’hui."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sepatah kata dari kerikil. Ketuk untuk mencatat hari ini."
+            "value" : "Sepatah kata dari ZinggumDol. Ketuk untuk mencatat hari ini."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una frase dal sassolino. Tocca per annotare oggi."
+            "value" : "Una frase da ZinggumDol. Tocca per annotare oggi."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石がかける一言。タップすると今日の話を残せます。"
+            "value" : "ZinggumDolがかける一言。タップすると今日の話を残せます。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Et ord fra steinen. Trykk for å skrive ned i dag."
+            "value" : "Et ord fra ZinggumDol. Trykk for å skrive ned i dag."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Een woordje van de kiezel. Tik om vandaag vast te leggen."
+            "value" : "Een woordje van ZinggumDol. Tik om vandaag vast te leggen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Słowo od kamyka. Dotknij, aby zapisać dzisiejszy dzień."
+            "value" : "Słowo od ZinggumDola. Dotknij, aby zapisać dzisiejszy dzień."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uma frase da pedrinha. Toque para anotar o dia de hoje."
+            "value" : "Uma frase do ZinggumDol. Toque para anotar o dia de hoje."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Фраза от камешка. Нажмите, чтобы записать сегодняшний день."
+            "value" : "Фраза от ZinggumDol. Нажмите, чтобы записать сегодняшний день."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ett ord från stenen. Tryck för att skriva ner i dag."
+            "value" : "Ett ord från ZinggumDol. Tryck för att skriva ner i dag."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "คำพูดจากก้อนหิน แตะเพื่อจดเรื่องของวันนี้"
+            "value" : "คำพูดจาก ZinggumDol แตะเพื่อจดเรื่องของวันนี้"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Çakıl taşından bir söz. Bugünü kaydetmek için dokunun."
+            "value" : "ZinggumDol’dan bir söz. Bugünü kaydetmek için dokunun."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Một câu nói từ viên đá. Chạm để ghi lại hôm nay."
+            "value" : "Một câu nói từ ZinggumDol. Chạm để ghi lại hôm nay."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石子带来的一句话。轻点即可留下今天的记录。"
+            "value" : "ZinggumDol 带来的一句话。轻点即可留下今天的记录。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "小石子帶來的一句話。輕點即可留下今天的記錄。"
+            "value" : "ZinggumDol 帶來的一句話。輕點即可留下今天的記錄。"
           }
         }
       }
@@ -2143,6 +2001,574 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ZinggumDol"
+          }
+        }
+      }
+    },
+    "토끼" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunny"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunny"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajíček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Häschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κουνελάκι"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conejito"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pupu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lapin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelinci"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coniglietto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うさぎ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konijn"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Króliczek"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coelhinho"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зайка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระต่าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavşan"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thỏ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小兔"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小兔"
+          }
+        }
+      }
+    },
+    "햄스터" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Křeček"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χάμστερ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hámster"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamsteri"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criceto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハムスター"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chomik"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хомяк"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮมสเตอร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamster"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuột hamster"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仓鼠"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倉鼠"
+          }
+        }
+      }
+    },
+    "고양이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cat"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cat"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kočka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kat"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katze"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γάτα"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gato"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kissa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chat"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kucing"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gatto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ねこ"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kat"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kotek"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gato"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Котик"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katt"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แมว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kedi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mèo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小猫"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小貓"
+          }
+        }
+      }
+    },
+    "곰" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bear"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bear"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medvídek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjørn"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bär"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αρκουδάκι"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osito"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nalle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ourson"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beruang"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orsetto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "くま"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjørn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miś"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ursinho"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мишка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Björn"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมี"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayı"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gấu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小熊"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小熊"
           }
         }
       }

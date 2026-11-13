@@ -35,6 +35,8 @@ struct PebbleSnapshot: Codable, Equatable {
     /// 그릴 조약돌의 결. 프로 권한까지 따진 값을 앱이 적어 준다.
     /// 옵셔널인 이유: 이 칸이 생기기 전에 저장된 장면도 그대로 읽혀야 한다.
     var skin: PebbleSkin? = nil
+    /// 그릴 친구. 이 칸이 생기기 전 장면이면 기본 친구로 그린다.
+    var buddy: PebbleBuddy? = nil
 
     // MARK: - 오가는 곳
 
@@ -94,7 +96,8 @@ struct PebbleSnapshot: Codable, Equatable {
             action: action,
             mood: .resting,
             updatedAt: updatedAt,
-            skin: skin
+            skin: skin,
+            buddy: buddy
         )
     }
 }

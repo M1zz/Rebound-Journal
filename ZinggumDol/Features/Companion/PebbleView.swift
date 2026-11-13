@@ -2,7 +2,8 @@
 //  PebbleView.swift
 //  ZinggumDol
 //
-//  "햇빛에 달궈진 작은 조약돌"(설계 고찰 §10)을 코드로만 그린다.
+//  곁에 있는 동물 친구를 코드로만 그린다. 몸은 "햇빛에 달궈진 작은 조약돌"
+//  (설계 고찰 §10)에서 왔고, 그 위에 친구마다 귀와 무늬를 더한다.
 //  이미지 에셋을 쓰지 않으므로 크기·표정·색이 전부 상태에 반응한다.
 //
 
@@ -85,6 +86,7 @@ struct PebbleView: View {
     var isSpeaking: Bool = false
 
     @Environment(\.pebbleSkin) private var skin
+    @Environment(\.pebbleBuddy) private var buddy
     @State private var breathing = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var blinking = false
@@ -102,7 +104,9 @@ struct PebbleView: View {
     var body: some View {
         ZStack {
             sunGlow
+            PebbleEars(buddy: buddy, skin: skin, size: size)
             body_
+            PebbleMarkings(buddy: buddy, skin: skin, size: size)
             face
                 .offset(y: size * 0.04)
         }
@@ -110,6 +114,8 @@ struct PebbleView: View {
         .animation(.easeInOut(duration: 0.45), value: mood)
         .animation(.easeInOut(duration: 0.45), value: skin)
         .frame(width: footprint.width, height: footprint.height)
+        // 귀가 솟은 만큼 위로 자리를 더 잡는다. 몸은 바닥에 그대로 앉아 있다.
+        .frame(height: footprint.height + size * buddy.earRise, alignment: .bottom)
         // 호흡의 무한 반복은 **크기에만** 건다.
         //
         // 예전에는 `.animation(repeatForever, value: breathing)`이 조약돌 전체에
@@ -130,7 +136,7 @@ struct PebbleView: View {
         .onChange(of: reduceMotion) { _, reduce in breathing = !reduce }
         .task(id: mood) { await blinkLoop() }
         .accessibilityElement()
-        .accessibilityLabel(Text("조약돌"))
+        .accessibilityLabel(Text(buddy.name))
         .accessibilityValue(accessibilityMood)
     }
 
@@ -376,6 +382,138 @@ struct MouthShape: Shape {
             to: left,
             control1: CGPoint(x: rect.maxX - inset, y: lower),
             control2: CGPoint(x: rect.minX + inset, y: lower)
+        )
+        path.closeSubpath()
+        return path
+    }
+}
+
+// MARK: - 친구의 귀와 무늬
+
+/// 몸 뒤에 붙는 귀. 몸이 귀 밑동을 덮어 자연스럽게 이어진다.
+private struct PebbleEars: View {
+    let buddy: PebbleBuddy
+    let skin: PebbleSkin
+    let size: CGFloat
+
+    private let innerPink = Color(red: 1.0, green: 0.62, blue: 0.64)
+
+    var body: some View {
+        switch buddy {
+        case .hamster:
+            pair(x: 0.35, y: -0.30, tilt: 0) { roundEar(0.13, inner: innerPink.opacity(0.75)) }
+        case .bear:
+            pair(x: 0.31, y: -0.345, tilt: 0) { roundEar(0.20, inner: skin.shade.opacity(0.55)) }
+        case .cat:
+            pair(x: 0.27, y: -0.40, tilt: 16) {
+                ZStack {
+                    CatEarShape().fill(fur)
+                    CatEarShape().fill(innerPink.opacity(0.7))
+                        .frame(width: size * 0.12, height: size * 0.13)
+                        .offset(y: size * 0.03)
+                }
+                .frame(width: size * 0.25, height: size * 0.25)
+            }
+        case .bunny:
+            pair(x: 0.15, y: -0.56, tilt: 9) {
+                ZStack {
+                    Ellipse().fill(fur)
+                    Ellipse().fill(innerPink.opacity(0.7))
+                        .frame(width: size * 0.07, height: size * 0.30)
+                        .offset(y: size * 0.03)
+                }
+                .frame(width: size * 0.16, height: size * 0.46)
+            }
+        }
+    }
+
+    private var fur: LinearGradient {
+        LinearGradient(colors: [skin.lit, skin.mid], startPoint: .top, endPoint: .bottom)
+    }
+
+    private func roundEar(_ diameter: CGFloat, inner: Color) -> some View {
+        ZStack {
+            Circle().fill(fur)
+            Circle().fill(inner).frame(width: size * diameter * 0.52)
+        }
+        .frame(width: size * diameter, height: size * diameter)
+    }
+
+    /// 왼쪽 귀를 그리고 오른쪽은 거울로 비춘다. 바깥으로 `tilt`도만큼 벌어진다.
+    private func pair(x: CGFloat, y: CGFloat, tilt: Double, ear: () -> some View) -> some View {
+        let one = ear()
+        return ZStack {
+            one.rotationEffect(.degrees(-tilt), anchor: .bottom)
+                .offset(x: -size * x, y: size * y)
+            one.rotationEffect(.degrees(tilt), anchor: .bottom)
+                .offset(x: size * x, y: size * y)
+        }
+    }
+}
+
+/// 몸 위의 작은 무늬. 동물로 읽히게 하는 한 가지씩만 더한다.
+private struct PebbleMarkings: View {
+    let buddy: PebbleBuddy
+    let skin: PebbleSkin
+    let size: CGFloat
+
+    var body: some View {
+        switch buddy {
+        case .hamster:
+            // 볼주머니처럼 아래로 퍼지는 밝은 얼굴.
+            Ellipse()
+                .fill(Color.white.opacity(0.45))
+                .frame(width: size * 0.62, height: size * 0.30)
+                .blur(radius: size * 0.03)
+                .offset(y: size * 0.17)
+        case .bear:
+            // 입가의 밝은 주둥이.
+            Ellipse()
+                .fill(Color.white.opacity(0.30))
+                .frame(width: size * 0.30, height: size * 0.18)
+                .blur(radius: size * 0.012)
+                .offset(y: size * 0.13)
+        case .cat:
+            // 양쪽 수염 두 가닥씩.
+            HStack(spacing: size * 0.44) {
+                whiskers.scaleEffect(x: -1)
+                whiskers
+            }
+            .offset(y: size * 0.12)
+        case .bunny:
+            EmptyView()
+        }
+    }
+
+    private var whiskers: some View {
+        Path { path in
+            path.move(to: CGPoint(x: 0, y: size * 0.02))
+            path.addLine(to: CGPoint(x: size * 0.12, y: 0))
+            path.move(to: CGPoint(x: 0, y: size * 0.05))
+            path.addLine(to: CGPoint(x: size * 0.12, y: size * 0.06))
+        }
+        .stroke(skin.pupil.opacity(0.35), style: .init(lineWidth: size * 0.011, lineCap: .round))
+        .frame(width: size * 0.12, height: size * 0.06)
+    }
+}
+
+/// 끝이 둥근 고양이 귀.
+private struct CatEarShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        let w = rect.width, h = rect.height
+        var path = Path()
+        path.move(to: CGPoint(x: rect.minX, y: rect.maxY))
+        path.addQuadCurve(
+            to: CGPoint(x: rect.midX - w * 0.12, y: rect.minY + h * 0.12),
+            control: CGPoint(x: rect.minX + w * 0.12, y: rect.minY + h * 0.45)
+        )
+        path.addQuadCurve(
+            to: CGPoint(x: rect.midX + w * 0.12, y: rect.minY + h * 0.12),
+            control: CGPoint(x: rect.midX, y: rect.minY - h * 0.05)
+        )
+        path.addQuadCurve(
+            to: CGPoint(x: rect.maxX, y: rect.maxY),
+            control: CGPoint(x: rect.maxX - w * 0.12, y: rect.minY + h * 0.45)
         )
         path.closeSubpath()
         return path

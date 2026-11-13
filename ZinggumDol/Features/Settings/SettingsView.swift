@@ -29,6 +29,7 @@ struct SettingsView: View {
     /// 익명 사용 통계를 보내는가. 저장은 '끄기' 키라 뒤집어서 든다 (→ UsageReporting).
     @AppStorage(UsageReporting.optOutKey) private var usageOptOut = false
     @AppStorage(PebbleSkin.storageKey) private var chosenSkin = PebbleSkin.free.rawValue
+    @AppStorage(PebbleBuddy.storageKey) private var chosenBuddy = PebbleBuddy.default.rawValue
     @State private var isConfirmingPasscodeRemoval = false
 
     @State private var paywallFeature: ProFeature?
@@ -114,12 +115,13 @@ struct SettingsView: View {
                     if let tipJar = store.tipJar {
                         TipRow(tipJar: tipJar)
                     }
-                    sectionHeader(String(localized: "조약돌"))
+                    sectionHeader(String(localized: "친구"))
                     if AppLanguage.isKorean {
                         // 존댓말·반말은 한국어에만 있는 구분이다. 다른 언어에서는
                         // 고를 것이 없으므로 아예 내보내지 않는다.
                         speechStyleSection
                     }
+                    buddySection
                     skinSection
                     companionFeedbackSection
                     sectionHeader(String(localized: "기록"))
@@ -247,7 +249,7 @@ struct SettingsView: View {
                     Text("징검돌 프로")
                         .font(PebbleTheme.title(20))
                         .foregroundStyle(PebbleTheme.ink)
-                    Text("목표를 제한 없이 적고, 조약돌을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요.")
+                    Text("목표를 제한 없이 적고, 친구 색을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요.")
                         .font(.subheadline)
                         .foregroundStyle(PebbleTheme.inkSoft)
                         .fixedSize(horizontal: false, vertical: true)
@@ -333,7 +335,67 @@ struct SettingsView: View {
         }
     }
 
-    // MARK: - 조약돌 결 (프로)
+    // MARK: - 친구 (누구나)
+
+    private var buddySection: some View {
+        card {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    rowIcon("pawprint")
+                    Text("친구 고르기").font(.body)
+                }
+
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 4), spacing: 12) {
+                    ForEach(PebbleBuddy.allCases) { option in
+                        let isSelected = (PebbleBuddy(rawValue: chosenBuddy) ?? .default) == option
+                        Button {
+                            chosenBuddy = option.rawValue
+                            TypingFeedback.shared.tap()
+                        } label: {
+                            optionTile(isSelected: isSelected) {
+                                PebbleView(mood: .resting, size: 46)
+                                    .environment(\.pebbleBuddy, option)
+                            } caption: {
+                                Text(option.name).font(PebbleTheme.label(12))
+                            }
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityAddTraits(isSelected ? [.isSelected] : [])
+                    }
+                }
+            }
+            .foregroundStyle(.primary)
+            .padding()
+        }
+    }
+
+    /// 친구·색 고르기의 한 칸. 그림 아래 이름, 고른 칸은 테두리로 알린다.
+    private func optionTile(
+        isSelected: Bool,
+        @ViewBuilder picture: () -> some View,
+        @ViewBuilder caption: () -> some View
+    ) -> some View {
+        VStack(spacing: 6) {
+            // 토끼 귀가 솟는 만큼까지 자리를 잡아 칸 높이가 친구마다 같게 한다.
+            picture()
+                .frame(height: 62, alignment: .bottom)
+            caption()
+                .foregroundStyle(isSelected ? PebbleTheme.key : PebbleTheme.inkSoft)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 8)
+        .background(
+            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .fill(isSelected ? PebbleTheme.key.opacity(0.10) : .clear)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .strokeBorder(isSelected ? PebbleTheme.key : .clear, lineWidth: 1.5)
+        )
+        .contentShape(Rectangle())
+    }
+
+    // MARK: - 친구 색 (프로)
     //
     // 잠긴 결도 **그대로 보여 준다.** 무엇을 고를 수 있는지 봐야 고르고 싶어진다.
     // 눌렀을 때만 페이월이 뜨고, 고른 결은 기억해 둔다 — 산 뒤에 다시 고르지 않아도 된다.
@@ -342,7 +404,7 @@ struct SettingsView: View {
             VStack(alignment: .leading, spacing: 12) {
                 HStack {
                     rowIcon("paintpalette")
-                    Text("조약돌 고르기").font(.body)
+                    Text("색 고르기").font(.body)
                     Spacer()
                     if !store.hasPro { proBadge }
                 }
@@ -371,10 +433,10 @@ struct SettingsView: View {
                 TypingFeedback.shared.tap()
             }
         } label: {
-            VStack(spacing: 6) {
+            optionTile(isSelected: isSelected) {
                 PebbleView(mood: .resting, size: 46)
                     .environment(\.pebbleSkin, option)
-                    .frame(height: 52)
+            } caption: {
                 HStack(spacing: 3) {
                     if isLocked {
                         Image(systemName: "lock.fill").font(.system(size: 9))
@@ -382,19 +444,7 @@ struct SettingsView: View {
                     Text(option.name)
                         .font(PebbleTheme.label(12))
                 }
-                .foregroundStyle(isSelected ? PebbleTheme.key : PebbleTheme.inkSoft)
             }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 8)
-            .background(
-                RoundedRectangle(cornerRadius: 14, style: .continuous)
-                    .fill(isSelected ? PebbleTheme.key.opacity(0.10) : .clear)
-            )
-            .overlay(
-                RoundedRectangle(cornerRadius: 14, style: .continuous)
-                    .strokeBorder(isSelected ? PebbleTheme.key : .clear, lineWidth: 1.5)
-            )
-            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(isSelected ? [.isSelected] : [])

@@ -100,15 +100,17 @@ struct ZinggumDolApp: App {
     }
 }
 
-/// 고른 조약돌 결을 앱 전체에 내려보낸다.
+/// 고른 친구와 결을 앱 전체에 내려보낸다.
 ///
 /// 프로 권한이 없으면(환불 등) 고른 값은 남겨 두고 기본 돌로 그린다.
 private struct SkinnedRoot: View {
     @EnvironmentObject private var store: LeeoStore
     @AppStorage(PebbleSkin.storageKey) private var chosenSkin = PebbleSkin.free.rawValue
+    @AppStorage(PebbleBuddy.storageKey) private var chosenBuddy = PebbleBuddy.default.rawValue
 
     var body: some View {
         RootView()
+            .environment(\.pebbleBuddy, PebbleBuddy(rawValue: chosenBuddy) ?? .default)
             .environment(
                 \.pebbleSkin,
                 PebbleSkin.effective(PebbleSkin(rawValue: chosenSkin) ?? .free, hasPro: store.hasPro)

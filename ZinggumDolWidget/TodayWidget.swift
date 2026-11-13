@@ -67,6 +67,7 @@ struct TodayWidgetView: View {
         }
         // 결도 앱이 정한 대로. 위젯은 권한을 따지지 않는다.
         .environment(\.pebbleSkin, snapshot.skin ?? .free)
+        .environment(\.pebbleBuddy, snapshot.buddy ?? .default)
     }
 
     private var snapshot: PebbleSnapshot { entry.snapshot }
@@ -163,7 +164,7 @@ struct TodayWidget: Widget {
                 .widgetURL(PebbleLink.record)
         }
         .configurationDisplayName("징검돌")
-        .description("조약돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요.")
+        .description("징검돌이 건네는 한 마디. 눌러서 오늘 얘기를 남길 수 있어요.")
         .supportedFamilies([
             .systemSmall,
             .systemMedium,

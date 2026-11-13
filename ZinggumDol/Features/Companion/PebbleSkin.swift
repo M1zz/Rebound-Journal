@@ -2,9 +2,9 @@
 //  PebbleSkin.swift
 //  ZinggumDol
 //
-//  조약돌의 결. 개울가에서 주울 법한 돌 몇 가지.
+//  친구의 결. 몸 색 몇 가지.
 //
-//  표정·호흡·목소리는 그대로 두고 **돌의 색만** 바꾼다. 조약돌이 하는 말과
+//  표정·호흡·목소리는 그대로 두고 **색만** 바꾼다. 친구가 하는 말과
 //  태도는 누구에게나 같아야 하고, 꾸미는 건 "내 돌"이라는 애착까지만이다.
 //
 //  기본 돌(모래)은 누구나 쓴다. 나머지는 프로에서 열린다. 기록을 막지 않는
@@ -34,12 +34,12 @@ enum PebbleSkin: String, CaseIterable, Identifiable, Codable {
 
     var name: String {
         switch self {
-        case .sand: String(localized: "모래알")
-        case .slate: String(localized: "강돌")
-        case .moss: String(localized: "이끼돌")
-        case .sunset: String(localized: "노을돌")
-        case .seashell: String(localized: "조가비")
-        case .inkstone: String(localized: "먹돌")
+        case .sand: String(localized: "모래")
+        case .slate: String(localized: "구름")
+        case .moss: String(localized: "말차")
+        case .sunset: String(localized: "노을")
+        case .seashell: String(localized: "우유")
+        case .inkstone: String(localized: "먹")
         }
     }
 
@@ -127,5 +127,55 @@ extension EnvironmentValues {
     var pebbleSkin: PebbleSkin {
         get { self[PebbleSkinKey.self] }
         set { self[PebbleSkinKey.self] = newValue }
+    }
+}
+
+// MARK: - 친구
+
+/// 곁에 있는 친구가 어떤 동물인가. 결(`PebbleSkin`)이 색이라면 이것은 모양이다.
+///
+/// 처음에는 말하는 조약돌이었다. 돌이 말을 거는 게 낯설다는 목소리가 있어, 같은
+/// 말랑한 몸에 귀와 작은 무늬를 더해 동물 친구로 만들었다. 표정·호흡·목소리는
+/// 모두 같다. 결과 서로 독립이라 어떤 친구든 어떤 색으로도 그릴 수 있다.
+///
+/// 누구나 고른다. 친구는 이 앱의 얼굴이라 프로로 잠그지 않는다 — 색만 프로다.
+enum PebbleBuddy: String, CaseIterable, Identifiable, Codable {
+    case bunny
+    case hamster
+    case cat
+    case bear
+
+    var id: String { rawValue }
+
+    static let `default`: PebbleBuddy = .bunny
+    static let storageKey = "pebble.buddy"
+
+    var name: String {
+        switch self {
+        case .hamster: String(localized: "햄스터")
+        case .cat: String(localized: "고양이")
+        case .bunny: String(localized: "토끼")
+        case .bear: String(localized: "곰")
+        }
+    }
+
+    /// 귀가 몸 위로 솟는 만큼(몸 크기 대비). 레이아웃이 그만큼 자리를 더 잡는다.
+    var earRise: CGFloat {
+        switch self {
+        case .bunny: 0.26
+        case .cat: 0.03
+        default: 0
+        }
+    }
+}
+
+private struct PebbleBuddyKey: EnvironmentKey {
+    static let defaultValue: PebbleBuddy = .default
+}
+
+extension EnvironmentValues {
+    var pebbleBuddy: PebbleBuddy {
+        get { self[PebbleBuddyKey.self] }
+        set { self[PebbleBuddyKey.self] = newValue }
     }
 }

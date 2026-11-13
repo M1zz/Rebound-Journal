@@ -388,6 +388,6 @@ struct ThinkingDots: View {
         }
         .animation(.easeInOut(duration: 0.22), value: phase)
         .onReceive(timer) { _ in phase = (phase + 1) % 3 }
-        .accessibilityLabel("조약돌이 생각하고 있어요")
+        .accessibilityLabel("징검돌이 생각하고 있어요")
     }
 }

@@ -119,7 +119,7 @@ struct LogStepIntent: AppIntent {
 struct OpenGoalIntent: OpenIntent {
     static let title = LocalizedStringResource("목표 열기", comment: "Siri/Spotlight: open a goal")
     static let description = IntentDescription(
-        LocalizedStringResource("그 목표에 대해 조약돌과 이야기합니다.", comment: "Siri: open goal description")
+        LocalizedStringResource("그 목표에 대해 징검돌과 이야기합니다.", comment: "Siri: open goal description")
     )
 
     @Parameter(title: LocalizedStringResource("목표", comment: "Siri: goal parameter"),

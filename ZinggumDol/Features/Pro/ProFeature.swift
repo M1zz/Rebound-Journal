@@ -35,7 +35,7 @@ enum ProFeature: String, CaseIterable, LeeoProFeature {
     var leeoTitle: String {
         switch self {
         case .moreGoals: String(localized: "목표를 원하는 만큼")
-        case .pebbleSkin: String(localized: "내 조약돌 고르기")
+        case .pebbleSkin: String(localized: "친구 색 고르기")
         case .export: String(localized: "기록 내보내기")
         }
     }
@@ -43,7 +43,7 @@ enum ProFeature: String, CaseIterable, LeeoProFeature {
     var leeoDetail: String {
         switch self {
         case .moreGoals: String(localized: "해보려는 게 여럿이어도 괜찮아요. 개수 제한 없이 적어 둘 수 있어요.")
-        case .pebbleSkin: String(localized: "개울가에서 주운 듯한 돌 다섯 가지가 더 열려요.")
+        case .pebbleSkin: String(localized: "친구의 몸 색 다섯 가지가 더 열려요.")
         case .export: String(localized: "지나온 기록을 글 파일로 꺼내 간직해요.")
         }
     }
@@ -60,7 +60,7 @@ enum ProFeature: String, CaseIterable, LeeoProFeature {
     static var benefits: [String] {
         [
             String(localized: "목표를 개수 제한 없이 적어 둬요"),
-            String(localized: "조약돌의 결을 여섯 가지 중에서 골라요"),
+            String(localized: "친구의 색을 여섯 가지 중에서 골라요"),
             String(localized: "지나온 기록을 파일로 내보내요"),
             String(localized: "한 번 사면 계속 써요. 구독이 아니에요")
         ]
