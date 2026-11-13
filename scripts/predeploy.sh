@@ -45,6 +45,8 @@ problems = []
 for path in ("Localizable.xcstrings", "InfoPlist.xcstrings"):
     data = json.load(open(path, encoding="utf-8"))
     for key, entry in data["strings"].items():
+        if entry.get("shouldTranslate") is False:   # 자리표시자뿐인 키('%@') 등 번역할 글이 없는 것
+            continue
         locs = entry.get("localizations", {})
         if not locs:
             problems.append(f"{path}: '{key[:40]}' 현지화 없음")
