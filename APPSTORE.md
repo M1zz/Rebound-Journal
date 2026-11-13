@@ -68,7 +68,7 @@ Mochimo
 
 ### 부제
 
-Look back with a squishy friend
+Reflect with a squishy friend
 
 ### 프로모션 텍스트
 
@@ -128,7 +128,7 @@ Mochimo
 
 ### 부제
 
-Look back with a squishy friend
+Reflect with a squishy friend
 
 ### 키워드
 
