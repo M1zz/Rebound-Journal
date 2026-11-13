@@ -220,21 +220,45 @@ final class SpeechCapture {
             converter = AVAudioConverter(from: inputFormat, to: analyzerFormat)
         }
 
-        input.installTap(onBus: 0, bufferSize: 4_096, format: inputFormat) { [weak self] buffer, _ in
-            // 오디오 스레드다. 상태를 건드리지 말고 버퍼만 넘긴다.
-            guard let self, let continuation = self.inputContinuation else { return }
-            guard let prepared = self.convert(buffer) else { return }
-            continuation.yield(AnalyzerInput(buffer: prepared))
-        }
+        guard let continuation = inputContinuation else { return }
+        input.installTap(
+            onBus: 0,
+            bufferSize: 4_096,
+            format: inputFormat,
+            block: Self.tapBlock(converter: converter, target: analyzerFormat, continuation: continuation)
+        )
 
         audioEngine.prepare()
         try audioEngine.start()
     }
 
+    /// 마이크가 버퍼를 건넬 때마다 부르는 블록. **오디오 스레드에서 돈다.**
+    ///
+    /// 그래서 이 블록은 메인 액터의 상태를 하나도 읽지 않는다. 필요한 것(변환기 ·
+    /// 목표 포맷 · 넘길 곳)은 탭을 걸 때 미리 받아 쥐고 들어간다.
+    ///
+    /// 예전에는 블록 안에서 `MainActor.assumeIsolated` 로 `converter` 를 읽었다.
+    /// 오디오 스레드는 메인이 아니라서 그 자리에서 앱이 멈췄다(2.1.4 크래시 —
+    /// AVFAudio 콜백 → `convert(_:)` → `assumeIsolated`). 메서드 안에서 만든 클로저는
+    /// 메인 액터에 묶일 수 있으니, 블록은 격리 없는 정적 함수에서 만든다.
+    nonisolated private static func tapBlock(
+        converter: AVAudioConverter?,
+        target: AVAudioFormat?,
+        continuation: AsyncStream<AnalyzerInput>.Continuation
+    ) -> AVAudioNodeTapBlock {
+        { buffer, _ in
+            guard let prepared = convert(buffer, with: converter, to: target) else { return }
+            continuation.yield(AnalyzerInput(buffer: prepared))
+        }
+    }
+
     /// 마이크 포맷을 분석기가 받는 포맷으로 맞춘다.
-    nonisolated private func convert(_ buffer: AVAudioPCMBuffer) -> AVAudioPCMBuffer? {
-        guard let converter = MainActor.assumeIsolated({ self.converter }),
-              let target = MainActor.assumeIsolated({ self.analyzerFormat }) else {
+    nonisolated private static func convert(
+        _ buffer: AVAudioPCMBuffer,
+        with converter: AVAudioConverter?,
+        to target: AVAudioFormat?
+    ) -> AVAudioPCMBuffer? {
+        guard let converter, let target else {
             return buffer   // 변환이 필요 없는 경우
         }
 
