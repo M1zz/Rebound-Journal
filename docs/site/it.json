@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: un diario gentile per i giorni andati storti",
-  "description": "Quando manchi un obiettivo, un sassolino ti parla per primo: cosa è successo, poi come ti senti. Senza account né pubblicità. Tre obiettivi gratis.",
+  "title": "Mochimo: un diario gentile per i giorni andati storti",
+  "description": "Quando manchi un obiettivo, un morbido compagno mochi ti parla per primo: cosa è successo, poi come ti senti. Senza account né pubblicità. Tre obiettivi gratis.",
   "hero": {
-    "headline": "Un passo falso non vuol dire\nessere caduti nel torrente",
-    "lead": "Il giorno in cui manchi l'obiettivo, è il sassolino a parlarti per primo. Ti chiede cosa è successo, non cosa hai sbagliato, e ti restituisce i fatti e lo stato d'animo ben separati.",
+    "headline": "Una giornata storta?\nVa bene lo stesso",
+    "lead": "Il giorno in cui manchi l'obiettivo, è il tuo compagno a parlarti per primo. Ti chiede cosa è successo, non cosa hai sbagliato, e ti restituisce i fatti e lo stato d'animo ben separati.",
     "cta": "Scaricala gratis su App Store",
     "note": "Parlare, scrivere e vedere la tua strada è gratis. Niente registrazione né pubblicità."
   },
   "demo": {
-    "title": "Parla con il sassolino",
-    "lead": "Oggi volevi fare una passeggiata la sera e non ce l'hai fatta. Scegli una risposta o scrivi la tua: il sassolino risponde esattamente come nell'app.",
+    "title": "Parla con il tuo compagno mochi",
+    "lead": "Oggi volevi fare una passeggiata la sera e non ce l'hai fatta. Scegli una risposta o scrivi la tua: il tuo compagno risponde esattamente come nell'app.",
     "note": "Stesso ordine e stesse frasi della conversazione nell'app. Niente di ciò che scrivi qui viene salvato.",
     "send": "Invia",
     "again": "Ricomincia",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Quando una giornata va storta, te la prendi con te stesso?",
-    "text": "La sera in cui salti l'allenamento, il primo pensiero di solito è «cosa c'è che non va in me?». A guardar meglio c'erano gli straordinari, pioveva, eri sfinito. ZinggumDol ti chiede cosa è successo e come ti senti in due momenti distinti, poi mette le due cose una accanto all'altra. Quando vedi che sono state le circostanze e non la tua forza di volontà, trovare il prossimo piccolo passo diventa più facile."
+    "text": "La sera in cui salti l'allenamento, il primo pensiero di solito è «cosa c'è che non va in me?». A guardar meglio c'erano gli straordinari, pioveva, eri sfinito. Mochimo ti chiede cosa è successo e come ti senti in due momenti distinti, poi mette le due cose una accanto all'altra. Quando vedi che sono state le circostanze e non la tua forza di volontà, trovare il prossimo piccolo passo diventa più facile."
   },
   "features": [
     {
-      "title": "Il sassolino parla per primo",
-      "text": "Fissa un obiettivo e il sassolino terrà d'occhio i giorni in cui ce l'hai fatta e quelli in cui ti sei bloccato. Quando un giorno ti sfugge, chiede «cosa è successo?» invece di «perché no?», e si ricorda quello che gli hai raccontato l'ultima volta.\nNei giorni in cui scrivere è troppo, dillo ad alta voce. La voce viene riconosciuta sul dispositivo e le registrazioni non vengono mai salvate.",
+      "title": "Il tuo compagno parla per primo",
+      "text": "Fissa un obiettivo e il tuo compagno terrà d'occhio i giorni in cui ce l'hai fatta e quelli in cui ti sei bloccato. Quando un giorno ti sfugge, chiede «cosa è successo?» invece di «perché no?», e si ricorda quello che gli hai raccontato l'ultima volta.\nNei giorni in cui scrivere è troppo, dillo ad alta voce. La voce viene riconosciuta sul dispositivo e le registrazioni non vengono mai salvate.",
       "shot": "02-conversation"
     },
     {
-      "title": "I tuoi giorni come pietre per attraversare il torrente",
-      "text": "Ogni settimana si stende come una fila di pietre. Anche i giorni in cui non ci hai messo piede restano lì; non si cancella niente.\nAnche con un buco o due, vedi che la strada continua.",
+      "title": "La tua settimana in sette piccoli mochi",
+      "text": "Ogni settimana si stende in sette piccoli mochi. I giorni in cui ce l’hai fatta diventano verde matcha, quelli in cui sei solo passato a scrivere diventano dorati. Anche i giorni saltati restano lì; non si cancella niente.\nAnche con un buco o due, vedi che la settimana resta intera.",
       "shot": "03-path"
     },
     {
       "title": "Rileggi quello che hai scritto",
-      "text": "Cosa è successo, come ti sei sentito e cosa proverai la prossima volta si raccolgono per data. Rileggi un giorno in cui ti eri bloccato allo stesso modo e vedrai cosa ha funzionato.\nUn widget mostra una frase del sassolino nella schermata Home, e un promemoria all'ora che scegli ti invita a ripensare alla giornata.",
+      "text": "Cosa è successo, come ti sei sentito e cosa proverai la prossima volta si raccolgono per data. Rileggi un giorno in cui ti eri bloccato allo stesso modo e vedrai cosa ha funzionato.\nUn widget mostra una frase del tuo compagno nella schermata Home, e un promemoria all'ora che scegli ti invita a ripensare alla giornata.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Apri l'app a fine giornata",
-        "text": "Il sassolino ti chiede com'è andata. Con un promemoria non te ne dimentichi."
+        "text": "Il tuo compagno ti chiede com'è andata. Con un promemoria non te ne dimentichi."
       },
       {
         "title": "Tocca o scrivi la risposta",
@@ -102,7 +102,7 @@
       ],
       [
         "Ripensarci",
-        "Il sassolino ti restituisce i fatti e lo stato d'animo, separati"
+        "Il tuo compagno ti restituisce i fatti e lo stato d'animo, separati"
       ],
       [
         "Prossimo passo",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Gratis",
       "items": [
-        "Tutte le conversazioni con il sassolino",
+        "Tutte le conversazioni con il tuo compagno",
         "Fino a tre obiettivi",
         "Parlare invece di scrivere",
         "La tua strada e tutto ciò che hai scritto",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Tutti gli obiettivi che vuoi",
-        "Sei finiture del sassolino tra cui scegliere",
+        "Sei colori per il tuo compagno",
         "Esportazione delle note in un file di testo"
       ],
       "note": "Si compra una volta e resta tuo. Non è un abbonamento."
@@ -148,7 +148,7 @@
       },
       {
         "q": "L'ho fatto, ma l'app dice di no.",
-        "a": "Tocca `L’ho fatto, solo non l’ho annotato`. Il sassolino accetta la correzione e ti chiede invece cosa ti ha aiutato. Quello che ha funzionato viene salvato e te lo ricorderà la prossima volta che ti blocchi."
+        "a": "Tocca `L’ho fatto, solo non l’ho annotato`. Il tuo compagno accetta la correzione e ti chiede invece cosa ti ha aiutato. Quello che ha funzionato viene salvato e te lo ricorderà la prossima volta che ti blocchi."
       },
       {
         "q": "Dove finisce quello che dico ad alta voce?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Quanti obiettivi posso avere?",
-        "a": "Tre gratis. Quando hai finito con uno, usa `Lascia andare` in Strada percorsa per liberare un posto. Per averne più di tre serve ZinggumDol Pro."
+        "a": "Tre gratis. Quando hai finito con uno, usa `Lascia andare` in Strada percorsa per liberare un posto. Per averne più di tre serve Mochimo Pro."
       },
       {
-        "q": "ZinggumDol Pro è un abbonamento?",
+        "q": "Mochimo Pro è un abbonamento?",
         "a": "No. Paghi una volta e resta tuo. Su un nuovo dispositivo o dopo una reinstallazione, tocca `Ripristina acquisti` in Impostazioni."
       },
       {
@@ -171,7 +171,7 @@
         "a": "In `Promemoria giornaliero`, dentro Impostazioni, lo attivi o disattivi e scegli l'orario."
       },
       {
-        "q": "Il sassolino mi ricorda anche i successi?",
+        "q": "Il tuo compagno mi ricorda anche i successi?",
         "a": "Sì. Si ricorda cosa ti ha aiutato e, in una giornata difficile, ti richiama alla mente qualcosa che sei riuscito a fare di recente."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Un passo falso oggi?\nLa pietra successiva è ancora lì",
+    "headline": "Oggi è andata storta?\nIl tuo compagno mochi ti aspetta",
     "cta": "Scaricala gratis su App Store"
   },
   "ui": {

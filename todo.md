@@ -1,11 +1,11 @@
-# 징검돌 — 리디자인 작업
+# 모찌모 — 리디자인 작업
 
-> 앱 이름: 리바운드 저널 → **징검돌** (2026-07-27)
+> 앱 이름: 리바운드 저널 → **모찌모** (2026-07-27)
 > 큰 목표는 넓은 개울, 쪼개기(§6)는 돌 하나 놓기, 헛디뎌도 개울에 빠진 건 아니다.
 > 메타포를 설명하지 않아도 이름만으로 읽히므로 §4를 지킨다.
 > 번들 ID(`com.leeo.ReboundJournal`)·App Group·iCloud 컨테이너·상품 ID는 그대로 둔다 — 바꾸면
 > 기존 사용자에게 별개 앱이 되고 CloudKit 컨테이너·entitlements가 끊긴다.
-> Xcode 프로젝트·타깃·스킴·폴더·타입 이름은 2026-10-03에 `ZinggumDol`로 바꿨다 (식별자는 그대로).
+> Xcode 프로젝트·타깃·스킴·폴더·타입 이름은 2026-10-03에 `Mochimo`로 바꿨다 (식별자는 그대로).
 
 설계 근거: `회고-앱-설계-고찰.md`, `회고-앱-설계-대화-전문_1.md` (2026-07-25)
 
@@ -29,7 +29,7 @@
 - [x] 개인정보 처리방침: https://m1zz.github.io/Rebound-Journal/privacy.html (App Store Connect 반영)
 - [ ] App Store 개인정보 라벨: 사용 데이터(제품 상호작용) · 식별자 없음으로 갱신 (웹에서)
 - [ ] 스크린샷: 화면이 통째로 바뀌었으니 새로 찍어야 함
-  - [x] 5.5인치(1242×2208) 한국어 6장 — iPhone SE(3세대) 시뮬레이터에서 찍어 확대. `~/Desktop/징검돌-스크린샷-5.5inch`
+  - [x] 5.5인치(1242×2208) 한국어 6장 — iPhone SE(3세대) 시뮬레이터에서 찍어 확대. `~/Desktop/모찌모-스크린샷-5.5inch`
   - [x] DEBUG 전용 `-shot <화면>` 실행 인자 (`Services/ScreenshotMode.swift`) — 데이터 심고 화면 바로 열기
   - [ ] App Store Connect 미디어 관리자에서 5.5인치 교체 (영어 현지화에 옛 5.5인치가 있으면 그것도)
   - [ ] 영어판 UI 번역 안 됨 (165개 중 3개) — 영어 스크린샷도 UI는 한국어로 나옴
@@ -52,7 +52,7 @@
 ## 1. 프로젝트 설정
 - [x] 배포 타깃 17.6 → 26.0 (SpeechAnalyzer / FoundationModels)
 - [x] 마이크·음성인식 사용 설명 Info.plist 키 추가
-- [x] 신규 파일 pbxproj 등록 스크립트 (`Scripts/add_sources_to_pbxproj.py`)
+- [x] 신규 파일 pbxproj 등록 스크립트 (`scripts/add_sources_to_pbxproj.py`)
 
 ## 2. 설계 원칙 → 구현 매핑
 

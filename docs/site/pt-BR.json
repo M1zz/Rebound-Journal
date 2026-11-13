@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: um diário gentil para os dias que deram errado",
-  "description": "Quando você falha numa meta, uma pedrinha fala primeiro: o que aconteceu e depois como você se sente. Sem cadastro, sem anúncios. Três metas grátis.",
+  "title": "Mochimo: um diário gentil para os dias que deram errado",
+  "description": "Quando você falha numa meta, um companheiro mochi bem fofinho fala primeiro: o que aconteceu e depois como você se sente. Sem cadastro, sem anúncios. Três metas grátis.",
   "hero": {
-    "headline": "Tropeçar não é\ncair no rio",
-    "lead": "No dia em que você não cumpre a meta, a pedrinha puxa conversa primeiro. Pergunta o que aconteceu, não o que você fez de errado, e devolve os fatos e o que você sente bem separados.",
+    "headline": "Dia difícil?\nTudo bem",
+    "lead": "No dia em que você não cumpre a meta, seu companheiro puxa conversa primeiro. Pergunta o que aconteceu, não o que você fez de errado, e devolve os fatos e o que você sente bem separados.",
     "cta": "Baixe grátis na App Store",
     "note": "Conversar, escrever e ver seu caminho é grátis. Sem cadastro e sem anúncios."
   },
   "demo": {
-    "title": "Converse com a pedrinha",
-    "lead": "Você ia caminhar hoje à noite e não foi. Escolha uma resposta ou escreva a sua, e a pedrinha responde do mesmo jeito que no app.",
+    "title": "Converse com seu companheiro mochi",
+    "lead": "Você ia caminhar hoje à noite e não foi. Escolha uma resposta ou escreva a sua, e seu companheiro responde do mesmo jeito que no app.",
     "note": "Mesma ordem e mesmas frases da conversa no app. Nada do que você escrever aqui é salvo.",
     "send": "Enviar",
     "again": "Começar de novo",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Quando o dia não sai como o planejado, você se culpa?",
-    "text": "Na noite em que você pula o treino, o primeiro pensamento costuma ser \"qual é o meu problema?\". Olhando com calma, teve hora extra, choveu, você estava exausto. O ZinggumDol pergunta o que aconteceu e como você se sente em momentos separados e coloca as duas coisas lado a lado. Quando você percebe que foram as circunstâncias e não a sua força de vontade, fica mais fácil achar o próximo passo pequeno."
+    "text": "Na noite em que você pula o treino, o primeiro pensamento costuma ser \"qual é o meu problema?\". Olhando com calma, teve hora extra, choveu, você estava exausto. O Mochimo pergunta o que aconteceu e como você se sente em momentos separados e coloca as duas coisas lado a lado. Quando você percebe que foram as circunstâncias e não a sua força de vontade, fica mais fácil achar o próximo passo pequeno."
   },
   "features": [
     {
-      "title": "A pedrinha puxa conversa primeiro",
-      "text": "Defina uma meta e a pedrinha acompanha os dias em que deu certo e os dias em que você travou. Quando um dia escapa, ela pergunta \"o que aconteceu?\" em vez de \"por que não?\", e lembra o que você contou da última vez.\nNos dias em que escrever pesa, é só falar. A voz é reconhecida no seu aparelho e as gravações nunca são salvas.",
+      "title": "Seu companheiro puxa conversa primeiro",
+      "text": "Defina uma meta e seu companheiro acompanha os dias em que deu certo e os dias em que você travou. Quando um dia escapa, ele pergunta \"o que aconteceu?\" em vez de \"por que não?\", e lembra o que você contou da última vez.\nNos dias em que escrever pesa, é só falar. A voz é reconhecida no seu aparelho e as gravações nunca são salvas.",
       "shot": "02-conversation"
     },
     {
-      "title": "Seus dias como pedras para atravessar o rio",
-      "text": "Cada semana vira uma fileira de pedras. Os dias em que você não pisou também ficam lá; nada é apagado.\nMesmo com um buraco ou outro, dá para ver que o caminho continua.",
+      "title": "Sua semana em sete mochis pequenininhos",
+      "text": "Cada semana vira sete mochis pequenininhos. Os dias em que deu certo ficam verde matcha, e os dias em que você só passou para anotar ficam dourados. Os dias que você pulou também ficam lá; nada é apagado.\nMesmo com um buraco ou outro, dá para ver que a semana continua inteira.",
       "shot": "03-path"
     },
     {
       "title": "Releia o que você escreveu",
-      "text": "O que aconteceu, como você se sentiu e o que vai tentar depois ficam guardados por data. Releia um dia em que você travou do mesmo jeito e veja o que funcionou.\nUm widget mostra uma frase da pedrinha na tela de início, e um lembrete no horário que você escolher convida a olhar para o dia.",
+      "text": "O que aconteceu, como você se sentiu e o que vai tentar depois ficam guardados por data. Releia um dia em que você travou do mesmo jeito e veja o que funcionou.\nUm widget mostra uma frase do seu companheiro na tela de início, e um lembrete no horário que você escolher convida a olhar para o dia.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Abra o app no fim do dia",
-        "text": "A pedrinha pergunta como foi seu dia. Com um lembrete você não esquece."
+        "text": "Seu companheiro pergunta como foi seu dia. Com um lembrete você não esquece."
       },
       {
         "title": "Toque ou escreva sua resposta",
@@ -102,7 +102,7 @@
       ],
       [
         "Olhar para trás",
-        "A pedrinha devolve o que aconteceu e o que você sente, separados"
+        "Seu companheiro devolve o que aconteceu e o que você sente, separados"
       ],
       [
         "Próximo passo",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Grátis",
       "items": [
-        "Todas as conversas com a pedrinha",
+        "Todas as conversas com seu companheiro",
         "Até três metas",
         "Falar em vez de digitar",
         "Seu caminho e tudo o que você escreveu",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Quantas metas você quiser",
-        "Seis acabamentos de pedrinha para escolher",
+        "Seis cores para o seu companheiro",
         "Exportar seus registros em arquivo de texto"
       ],
       "note": "Compra única, é seu para sempre. Não é assinatura."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Eu fiz, mas o app diz que não.",
-        "a": "Toque em `Fiz, só não registrei`. A pedrinha aceita a correção e pergunta o que ajudou. O que funcionou fica guardado, e ela traz de volta na próxima vez que você travar."
+        "a": "Toque em `Fiz, só não registrei`. Seu companheiro aceita a correção e pergunta o que ajudou. O que funcionou fica guardado, e ele traz de volta na próxima vez que você travar."
       },
       {
         "q": "Para onde vai o que eu falo em voz alta?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Quantas metas posso ter?",
-        "a": "Três de graça. Quando terminar uma, use `Soltar` em Caminho percorrido para abrir espaço. Para mais de três, você precisa do ZinggumDol Pro."
+        "a": "Três de graça. Quando terminar uma, use `Soltar` em Caminho percorrido para abrir espaço. Para mais de três, você precisa do Mochimo Pro."
       },
       {
-        "q": "O ZinggumDol Pro é assinatura?",
+        "q": "O Mochimo Pro é assinatura?",
         "a": "Não. Você paga uma vez e é seu. Em um aparelho novo ou depois de reinstalar, toque em `Restaurar compras` nos Ajustes."
       },
       {
@@ -171,8 +171,8 @@
         "a": "Em `Lembrete diário`, nos Ajustes, você liga, desliga e escolhe o horário."
       },
       {
-        "q": "A pedrinha me lembra do que eu já consegui?",
-        "a": "Sim. Ela guarda o que te ajudou e, num dia difícil, lembra de algo que você conseguiu há pouco tempo."
+        "q": "Seu companheiro me lembra do que eu já consegui?",
+        "a": "Sim. Ele guarda o que te ajudou e, num dia difícil, lembra de algo que você conseguiu há pouco tempo."
       },
       {
         "q": "Como apago tudo?",
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Tropeçou hoje?\nA próxima pedra continua lá",
+    "headline": "Hoje não deu certo?\nSeu companheiro mochi está te esperando",
     "cta": "Baixe grátis na App Store"
   },
   "ui": {

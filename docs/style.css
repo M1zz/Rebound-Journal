@@ -1,4 +1,4 @@
-/* 징검돌 · ZinggumDol — GitHub Pages 공용 스타일 */
+/* 모찌모 · Mochimo — GitHub Pages 공용 스타일 */
 :root{--bg:#EFF3F3;--surface:#FCFDFD;--line:#DBE3E2;--text:#232C2B;--muted:#566564;--accent:#5F8F93;--on-accent:#fff}
 @media (prefers-color-scheme: dark){:root{--bg:#111717;--surface:#1C2323;--line:#28302F;--text:#E9EFEE;--muted:#A3B0AF;--accent:#7FB3B6;--on-accent:#111717}}
 *{box-sizing:border-box}

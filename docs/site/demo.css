@@ -1,7 +1,5 @@
-/* 징검돌 웹 체험. 조약돌 색은 앱의 PebbleTheme 과 같다: 따뜻한 돌, 햇빛 후광, 강조는 물빛 키 색. */
+/* 모찌모 웹 체험. 색은 앱의 PebbleTheme(떡집 팔레트)과 같다. */
 .demo-card { display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--s5); align-items: stretch; }
-#demo { --lit: #F1E3CB; --mid: #D6C0A0; --shade: #AC9070; --sun: #E8A33D; }
-@media (prefers-color-scheme: dark) { #demo { --lit: #DCC3A2; --mid: #B59572; --shade: #8A6D4E; --sun: #E0A65A; } }
 
 .zg-stage { display: flex; flex-direction: column; background: var(--bg); border-radius: var(--r-inner);
             padding: var(--s4); min-height: 460px; }
@@ -14,34 +12,26 @@
            border-radius: 999px; min-height: 44px; padding: 0 var(--s4); cursor: pointer; }
 .zg-stop:hover { color: var(--text); }
 
-/* 조약돌: 햇빛에 달궈진 작은 돌. 얼굴은 웃는 눈 두 개와 입. */
-.zg-pebble { position: relative; width: 120px; height: 84px; margin: var(--s4) auto var(--s5);
-             border-radius: 52% 48% 44% 56% / 58% 56% 44% 42%;
-             background: radial-gradient(120% 110% at 30% 25%, var(--lit) 0 35%, var(--mid) 65%, var(--shade));
-             box-shadow: 0 0 40px 6px color-mix(in srgb, var(--sun) 35%, transparent), 0 10px 18px -8px rgb(0 0 0 / .25); }
-.zg-pebble b::before, .zg-pebble b::after { content: ""; position: absolute; top: 34px; width: 12px; height: 7px;
-             border: 2.5px solid #5b4632; border-bottom: 0; border-radius: 12px 12px 0 0; }
-.zg-pebble b::before { left: 34px; } .zg-pebble b::after { right: 34px; }
-.zg-pebble::after { content: ""; position: absolute; left: 50%; top: 46px; width: 14px; height: 7px; transform: translateX(-50%);
-             border: 2.5px solid #5b4632; border-top: 0; border-radius: 0 0 14px 14px; }
+/* 친구: 앱의 토끼 모찌. 찹쌀 바탕에 그린 그림이라 원으로 감싸 어두운 화면에서도 어울리게 한다. */
+.zg-pebble { width: 132px; height: 110px; margin: var(--s4) auto var(--s5);
+             background: #FFF8EF url("img/friend.png") center / cover no-repeat;
+             border-radius: 44%; transform-origin: 50% 100%; }
 .zg-pebble.talk { animation: zg-bob .5s var(--ease); }
-@keyframes zg-bob { 40% { transform: translateY(-6px) scale(1.03, .97); } }
+@keyframes zg-bob { 30% { transform: scale(1.06, .92); } 60% { transform: scale(.97, 1.04); } }
 
 .zg-log { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--s2);
           max-height: 300px; overflow-y: auto; margin-top: auto; }
 .zg-log li { max-width: 88%; padding: var(--s2) var(--s4); border-radius: 18px; line-height: 1.5; white-space: pre-line;
              animation: zg-in .35s var(--ease); }
 .zg-log li.zg-m-pebble { align-self: flex-start; background: var(--surface); border-bottom-left-radius: 6px;
-                       font-family: ui-serif, "New York", "Iowan Old Style", Georgia, serif; }
-/* 조약돌의 말은 세리프(앱과 같음). 한중일 · 태국 글자는 웹 세리프가 고르지 않아 본문 글꼴을 쓴다. */
-.zg-log li.zg-m-pebble:is(:lang(ko), :lang(ja), :lang(zh), :lang(th)) { font-family: inherit; }
+                       font-family: ui-rounded, "SF Pro Rounded", inherit; }
 .zg-log li.zg-m-user { align-self: flex-end; background: var(--accent); color: var(--on-accent); border-bottom-right-radius: 6px; }
 @keyframes zg-in { from { opacity: 0; transform: translateY(6px); } }
 
 .zg-side { display: flex; flex-direction: column; justify-content: flex-end; gap: var(--s4); }
 .zg-reply { display: flex; flex-direction: column; gap: var(--s2); }
 .zg-choice, .zg-send, .zg-again { font: inherit; font-weight: 600; min-height: 48px; padding: var(--s2) var(--s4);
-             border-radius: 14px; cursor: pointer; transition: transform .15s var(--ease), background .15s var(--ease); }
+             border-radius: 26px; cursor: pointer; transition: transform .15s var(--ease), background .15s var(--ease); }
 .zg-choice { color: var(--text); background: var(--bg); border: 1.5px solid color-mix(in srgb, var(--accent) 45%, var(--line)); }
 .zg-choice:hover { background: color-mix(in srgb, var(--accent) 12%, var(--bg)); }
 .zg-choice:active, .zg-send:active, .zg-again:active { transform: scale(.97); }

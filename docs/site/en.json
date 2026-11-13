@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: a gentle journal for the days that go wrong",
-  "description": "Miss a goal and a little pebble speaks first: it asks what happened, then how you feel, one at a time. No sign-up, no ads. Three goals are free.",
+  "title": "Mochimo: a gentle journal for the days that go wrong",
+  "description": "Miss a goal and a squishy mochi friend speaks first: it asks what happened, then how you feel, one at a time. No sign-up, no ads. Three goals are free.",
   "hero": {
-    "headline": "Missing a step\ndoesn't mean you fell in",
-    "lead": "On a day you miss your goal, the pebble speaks first. It asks what happened, not what you did wrong, then hands back the facts and your feelings as two separate things.",
+    "headline": "Rough day?\nThat's okay",
+    "lead": "On a day you miss your goal, your mochi friend speaks first. It asks what happened, not what you did wrong, then hands back the facts and your feelings as two separate things.",
     "cta": "Get it free on the App Store",
     "note": "Talking, journaling and your path are free. No sign-up, no ads."
   },
   "demo": {
-    "title": "Talk to the pebble",
-    "lead": "You meant to go for an evening walk today and didn't. Tap a reply or type your own, and the pebble answers just as it does in the app.",
+    "title": "Talk to your mochi friend",
+    "lead": "You meant to go for an evening walk today and didn't. Tap a reply or type your own, and your friend answers just as it does in the app.",
     "note": "Same order and same lines as the conversation in the app. Nothing you type here is saved anywhere.",
     "send": "Send",
     "again": "Start over",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "When a day doesn't go to plan, do you blame yourself?",
-    "text": "On a night you skipped the workout, the first thought is usually \"what's wrong with me?\" Look closer and there was a late shift, it was raining, you were worn out. ZinggumDol asks about what happened and how you feel in separate turns, then lays the two side by side. Once you see it was the circumstances and not your willpower, the next small step gets easier to find."
+    "text": "On a night you skipped the workout, the first thought is usually \"what's wrong with me?\" Look closer and there was a late shift, it was raining, you were worn out. Mochimo asks about what happened and how you feel in separate turns, then lays the two side by side. Once you see it was the circumstances and not your willpower, the next small step gets easier to find."
   },
   "features": [
     {
-      "title": "The pebble speaks first",
-      "text": "Set a goal and the pebble keeps track of the days you made it and the days you got stuck. When a day slips by, it asks \"what happened?\" instead of \"why didn't you?\", and it remembers what you told it last time so it can ask how things went since.\nOn days when writing feels like too much, just say it. Speech is recognized on your device and recordings are never saved.",
+      "title": "Your friend speaks first",
+      "text": "Set a goal and your friend keeps track of the days you made it and the days you got stuck. When a day slips by, it asks \"what happened?\" instead of \"why didn't you?\", and it remembers what you told it last time so it can ask how things went since.\nOn days when writing feels like too much, just say it. Speech is recognized on your device and recordings are never saved.",
       "shot": "02-conversation"
     },
     {
-      "title": "Your days laid out as stepping stones",
-      "text": "Each week is a row of stepping stones. The days you missed stay there too; nothing gets wiped away.\nEven with a gap or two, you can see the path still carries on.",
+      "title": "Your week as seven little mochi",
+      "text": "Each week is laid out as seven little mochi. Days you made it turn matcha green, days you just checked in turn golden. The days you missed stay there too; nothing gets wiped away.\nEven with a gap or two, you can see the week still holds together.",
       "shot": "03-path"
     },
     {
       "title": "Come back to what you wrote",
-      "text": "What happened, how you felt and what you'll try next pile up in date order. Look back at a day you got stuck in the same way and you'll see what worked.\nA Home Screen widget shows a word from the pebble, and a reminder at a time you pick nudges you to look back on the day.",
+      "text": "What happened, how you felt and what you'll try next pile up in date order. Look back at a day you got stuck in the same way and you'll see what worked.\nA Home Screen widget shows a word from your friend, and a reminder at a time you pick nudges you to look back on the day.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Open the app at the end of the day",
-        "text": "The pebble asks how today went. Set a reminder so you don't forget."
+        "text": "Your friend asks how today went. Set a reminder so you don't forget."
       },
       {
         "title": "Tap or type a reply",
@@ -102,7 +102,7 @@
       ],
       [
         "Looking back",
-        "The pebble hands back what happened and how you feel, kept apart"
+        "Your friend hands back what happened and how you feel, kept apart"
       ],
       [
         "Next step",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Free",
       "items": [
-        "Every conversation with the pebble",
+        "Every conversation with your friend",
         "Up to three goals",
         "Speak instead of typing",
         "Your path and everything you've written",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "As many goals as you like",
-        "Choose from six pebble finishes",
+        "Six colors for your friend",
         "Export your records as a text file"
       ],
       "note": "Buy once, keep it. Not a subscription."
@@ -148,7 +148,7 @@
       },
       {
         "q": "I actually did it, but the app says I didn't.",
-        "a": "Tap `I did it, just didn't log it`. The pebble takes the correction and asks what helped instead. What worked gets saved, and it brings it back the next time you get stuck."
+        "a": "Tap `I did it, just didn't log it`. Your friend takes the correction and asks what helped instead. What worked gets saved, and it brings it back the next time you get stuck."
       },
       {
         "q": "Where does what I say out loud go?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "How many goals can I have?",
-        "a": "Three for free. When you're done with one, use `Set Down` in The way you've come to free up a spot. For more than three, you'll need ZinggumDol Pro."
+        "a": "Three for free. When you're done with one, use `Set Down` in The way you've come to free up a spot. For more than three, you'll need Mochimo Pro."
       },
       {
-        "q": "Is ZinggumDol Pro a subscription?",
+        "q": "Is Mochimo Pro a subscription?",
         "a": "No. You pay once and keep it. On a new device or after reinstalling, tap `Restore Purchase` in Settings."
       },
       {
@@ -171,8 +171,8 @@
         "a": "Go to `Daily reminders` in Settings to turn them on or off and pick a time."
       },
       {
-        "q": "Does the pebble ever bring up my old wins?",
-        "a": "Yes. When you mention something that worked before, the pebble remembers it, and on a hard day it reminds you of something you managed recently."
+        "q": "Does your friend ever bring up my old wins?",
+        "a": "Yes. When you mention something that worked before, your friend remembers it, and on a hard day it reminds you of something you managed recently."
       },
       {
         "q": "How do I delete everything?",
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Missed a step today?\nThe next stone is still there",
+    "headline": "Rough day today?\nYour mochi friend is waiting",
     "cta": "Get it free on the App Store"
   },
   "ui": {

@@ -21,17 +21,17 @@
       "localizations" : [
         {
           "description" : "목표 제한 없이, 조약돌 고르기, 기록 내보내기",
-          "displayName" : "징검돌 프로 (평생)",
+          "displayName" : "모찌모 프로 (평생)",
           "locale" : "ko"
         },
         {
           "description" : "Unlimited goals, pebble finishes, record export",
-          "displayName" : "ZinggumDol Pro (Lifetime)",
+          "displayName" : "Mochimo Pro (Lifetime)",
           "locale" : "en_US"
         }
       ],
       "productID" : "com.leeo.ReboundJournal.pro",
-      "referenceName" : "ZinggumDol Pro Lifetime",
+      "referenceName" : "Mochimo Pro Lifetime",
       "type" : "NonConsumable"
     },
     {
@@ -40,18 +40,18 @@
       "internalID" : "6E1B2C44",
       "localizations" : [
         {
-          "description" : "다른 사람에게 징검돌 프로를 선물해요. 코드를 보내 주세요.",
-          "displayName" : "징검돌 프로 선물",
+          "description" : "다른 사람에게 모찌모 프로를 선물해요. 코드를 보내 주세요.",
+          "displayName" : "모찌모 프로 선물",
           "locale" : "ko"
         },
         {
-          "description" : "Give ZinggumDol Pro to someone else with a gift code.",
-          "displayName" : "Gift ZinggumDol Pro",
+          "description" : "Give Mochimo Pro to someone else with a gift code.",
+          "displayName" : "Gift Mochimo Pro",
           "locale" : "en_US"
         }
       ],
       "productID" : "com.leeo.ReboundJournal.gift.pro",
-      "referenceName" : "Gift ZinggumDol Pro",
+      "referenceName" : "Gift Mochimo Pro",
       "type" : "Consumable"
     },
     {

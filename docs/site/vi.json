@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: cuốn nhật ký dịu dàng cho những ngày không như ý",
-  "description": "Ngày lỡ mục tiêu, viên đá nhỏ sẽ lên tiếng trước: chuyện gì đã xảy ra, rồi bạn thấy thế nào. Không cần đăng ký, không quảng cáo. Miễn phí 3 mục tiêu.",
+  "title": "Mochimo: cuốn nhật ký dịu dàng cho những ngày không như ý",
+  "description": "Ngày lỡ mục tiêu, bạn mochi mềm mại sẽ lên tiếng trước: chuyện gì đã xảy ra, rồi bạn thấy thế nào. Không cần đăng ký, không quảng cáo. Miễn phí 3 mục tiêu.",
   "hero": {
-    "headline": "Hụt chân một bước\nkhông có nghĩa là rơi xuống suối",
-    "lead": "Ngày bạn lỡ mục tiêu, viên đá sẽ là người mở lời trước. Nó hỏi chuyện gì đã xảy ra chứ không hỏi bạn sai ở đâu, rồi trả lại cho bạn sự việc và cảm xúc tách riêng.",
+    "headline": "Một ngày không như ý?\nKhông sao đâu",
+    "lead": "Ngày bạn lỡ mục tiêu, bạn mochi sẽ là người mở lời trước. Nó hỏi chuyện gì đã xảy ra chứ không hỏi bạn sai ở đâu, rồi trả lại cho bạn sự việc và cảm xúc tách riêng.",
     "cta": "Tải miễn phí trên App Store",
     "note": "Trò chuyện, ghi chép và con đường đã qua đều miễn phí. Không đăng ký, không quảng cáo."
   },
   "demo": {
-    "title": "Trò chuyện với viên đá",
-    "lead": "Hôm nay bạn định đi bộ buổi tối mà không đi được. Chạm vào một câu trả lời hoặc tự viết, viên đá sẽ đáp lại y như trong ứng dụng.",
+    "title": "Trò chuyện với bạn mochi",
+    "lead": "Hôm nay bạn định đi bộ buổi tối mà không đi được. Chạm vào một câu trả lời hoặc tự viết, bạn mochi sẽ đáp lại y như trong ứng dụng.",
     "note": "Cùng thứ tự, cùng câu chữ như cuộc trò chuyện trong ứng dụng. Những gì bạn gõ ở đây không được lưu lại.",
     "send": "Gửi",
     "again": "Bắt đầu lại",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Những ngày không theo kế hoạch, bạn có đang tự trách mình?",
-    "text": "Buổi tối bỏ buổi tập, ý nghĩ đầu tiên thường là \"sao mình cứ thế này\". Nhưng nhìn kỹ lại thì hôm đó phải tăng ca, trời mưa, và bạn đã kiệt sức. ZinggumDol hỏi riêng chuyện gì đã xảy ra và bạn đang thấy thế nào, rồi đặt hai điều cạnh nhau. Khi thấy là do hoàn cảnh chứ không phải do ý chí, bước nhỏ tiếp theo sẽ dễ tìm hơn."
+    "text": "Buổi tối bỏ buổi tập, ý nghĩ đầu tiên thường là \"sao mình cứ thế này\". Nhưng nhìn kỹ lại thì hôm đó phải tăng ca, trời mưa, và bạn đã kiệt sức. Mochimo hỏi riêng chuyện gì đã xảy ra và bạn đang thấy thế nào, rồi đặt hai điều cạnh nhau. Khi thấy là do hoàn cảnh chứ không phải do ý chí, bước nhỏ tiếp theo sẽ dễ tìm hơn."
   },
   "features": [
     {
-      "title": "Viên đá mở lời trước",
-      "text": "Đặt một mục tiêu, viên đá sẽ cùng bạn dõi theo những ngày làm được và những ngày vướng lại. Ngày bị lỡ, nó hỏi \"đã có chuyện gì?\" chứ không hỏi \"sao không làm?\", và còn nhớ những gì bạn kể lần trước.\nNgày nào ngại viết, cứ nói ra thành lời. Giọng nói được nhận dạng ngay trên máy, bản ghi âm không bao giờ được lưu.",
+      "title": "Bạn mochi mở lời trước",
+      "text": "Đặt một mục tiêu, bạn mochi sẽ cùng bạn dõi theo những ngày làm được và những ngày vướng lại. Ngày bị lỡ, nó hỏi \"đã có chuyện gì?\" chứ không hỏi \"sao không làm?\", và còn nhớ những gì bạn kể lần trước.\nNgày nào ngại viết, cứ nói ra thành lời. Giọng nói được nhận dạng ngay trên máy, bản ghi âm không bao giờ được lưu.",
       "shot": "02-conversation"
     },
     {
-      "title": "Con đường đã qua xếp thành những viên đá",
-      "text": "Mỗi tuần trải ra thành một hàng đá bắc qua suối. Những ngày chưa bước lên, viên đá vẫn nằm đó; không gì bị xóa.\nDù có một hai chỗ trống, bạn vẫn thấy con đường tiếp tục.",
+      "title": "Mỗi tuần là bảy chiếc mochi nhỏ",
+      "text": "Mỗi tuần trải ra thành bảy chiếc mochi nhỏ. Ngày làm được có màu xanh matcha, ngày chỉ ghé ghi lại có màu vàng óng. Những ngày bỏ lỡ vẫn nằm đó; không gì bị xóa.\nDù có một hai chỗ trống, bạn vẫn thấy cả tuần nối liền với nhau.",
       "shot": "03-path"
     },
     {
       "title": "Đọc lại những gì đã kể",
-      "text": "Chuyện đã xảy ra, cảm xúc lúc đó và điều sẽ thử lần sau được xếp theo ngày. Đọc lại một ngày vướng lại giống vậy, bạn sẽ thấy điều gì đã có ích.\nTiện ích trên Màn hình chính hiện một câu của viên đá, và lời nhắc vào giờ bạn chọn mời bạn nhìn lại ngày hôm nay.",
+      "text": "Chuyện đã xảy ra, cảm xúc lúc đó và điều sẽ thử lần sau được xếp theo ngày. Đọc lại một ngày vướng lại giống vậy, bạn sẽ thấy điều gì đã có ích.\nTiện ích trên Màn hình chính hiện một câu của bạn mochi, và lời nhắc vào giờ bạn chọn mời bạn nhìn lại ngày hôm nay.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Mở ứng dụng lúc cuối ngày",
-        "text": "Viên đá sẽ hỏi hôm nay của bạn thế nào. Đặt lời nhắc để không quên."
+        "text": "Bạn mochi sẽ hỏi hôm nay của bạn thế nào. Đặt lời nhắc để không quên."
       },
       {
         "title": "Chạm chọn hoặc viết câu trả lời",
@@ -102,7 +102,7 @@
       ],
       [
         "Nhìn lại",
-        "Viên đá trả lại sự việc và cảm xúc của bạn tách riêng"
+        "Bạn mochi trả lại sự việc và cảm xúc của bạn tách riêng"
       ],
       [
         "Bước tiếp theo",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Miễn phí",
       "items": [
-        "Mọi cuộc trò chuyện với viên đá",
+        "Mọi cuộc trò chuyện với bạn mochi",
         "Tối đa ba mục tiêu",
         "Nói thay vì gõ",
         "Con đường đã qua và mọi điều đã viết",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Không giới hạn số mục tiêu",
-        "Chọn từ sáu bề mặt viên đá",
+        "Chọn từ sáu màu cho bạn mochi",
         "Xuất ghi chép ra tệp văn bản"
       ],
       "note": "Mua một lần, dùng mãi. Không phải gói đăng ký."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Mình đã làm rồi mà ứng dụng bảo là chưa.",
-        "a": "Chạm `Đã làm nhưng chưa ghi lại`. Viên đá vui vẻ nhận lời đính chính và hỏi xem điều gì đã giúp bạn. Cách hiệu quả sẽ được ghi lại và nhắc lại khi bạn vướng lần sau."
+        "a": "Chạm `Đã làm nhưng chưa ghi lại`. Bạn mochi vui vẻ nhận lời đính chính và hỏi xem điều gì đã giúp bạn. Cách hiệu quả sẽ được ghi lại và nhắc lại khi bạn vướng lần sau."
       },
       {
         "q": "Những gì mình nói ra đi đâu?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Có thể đặt bao nhiêu mục tiêu?",
-        "a": "Miễn phí ba mục tiêu. Xong mục tiêu nào thì `Buông` nó trong Con đường đã qua để có chỗ trống. Muốn nhiều hơn ba thì cần ZinggumDol Pro."
+        "a": "Miễn phí ba mục tiêu. Xong mục tiêu nào thì `Buông` nó trong Con đường đã qua để có chỗ trống. Muốn nhiều hơn ba thì cần Mochimo Pro."
       },
       {
-        "q": "ZinggumDol Pro có phải gói đăng ký không?",
+        "q": "Mochimo Pro có phải gói đăng ký không?",
         "a": "Không. Trả một lần là của bạn. Trên thiết bị mới hoặc sau khi cài lại, hãy chạm `Khôi phục giao dịch mua` trong Cài đặt."
       },
       {
@@ -171,7 +171,7 @@
         "a": "Vào `Nhắc nhở hằng ngày` trong Cài đặt để bật, tắt và chọn giờ."
       },
       {
-        "q": "Viên đá có nhắc lại những điều mình đã làm được không?",
+        "q": "Bạn mochi có nhắc lại những điều mình đã làm được không?",
         "a": "Có. Nó nhớ điều gì đã giúp bạn, và vào ngày khó khăn sẽ nhắc bạn về một việc bạn vừa làm được gần đây."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Hôm nay có hụt chân cũng không sao,\nviên đá tiếp theo vẫn ở đó",
+    "headline": "Hôm nay chưa như ý cũng không sao,\nbạn mochi vẫn đang chờ bạn",
     "cta": "Tải miễn phí trên App Store"
   },
   "ui": {

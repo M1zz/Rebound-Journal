@@ -1,0 +1,162 @@
+//
+//  MochimoApp.swift
+//  Mochimo
+//
+//  Created by hyunho lee on 2023/06/10.
+//
+
+import SwiftUI
+import SwiftData
+import AppIntents
+import TipKit
+import LeeoKit
+
+@main
+struct MochimoApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject private var manager = DataManager(preview: false)
+    /// 모찌모 프로 권한. 앱 어디서든 `store.hasPro` 로 묻는다.
+    @StateObject private var store = LeeoStore(
+        config: MochimoSpec.paywall!,
+        unlockOverride: MochimoApp.debugProOverride
+    )
+
+    #if DEBUG
+    /// 확인·스크린샷용. 실행 인자 `-debug.pro YES` / `-debug.pro NO` 로 프로 권한을 못박는다.
+    /// 인자가 없으면 실제 구매로 판정한다. 배포 빌드에는 이 길이 없다.
+    private static let debugProOverride: (@MainActor () -> Bool?)? = {
+        // 실행 인자는 문자열("YES")로 들어온다. `as? Bool` 로는 읽히지 않는다.
+        UserDefaults.standard.string(forKey: "debug.pro").map { ($0 as NSString).boolValue }
+    }
+    #else
+    private static let debugProOverride: (@MainActor () -> Bool?)? = nil
+    #endif
+
+    init() {
+        // 백업 금고 — 예약된 복원 적용 · 업데이트 직전 백업. 저장소를 열기 전에 가장 먼저.
+        LeeoVault.start(MochimoSpec.self)
+        // 저장소는 금고 뒤에 연다 (프로퍼티 초기값으로 두면 init 보다 먼저 열린다)
+        sharedModelContainer = Self.makeModelContainer()
+        // Siri 인텐트가 같은 저장소를 쓴다 (→ StepIntents.swift)
+        let container = sharedModelContainer
+        AppDependencyManager.shared.add(dependency: container)
+        LeeoEngagement.shared.registerLaunch()
+        // 페이월·구매 이벤트가 FeedbackHub 로 모이게 한다.
+        LeeoAnalyticsCenter.register(MochimoSpec.self)
+        // 크래시·멈춤 진단(MetricKit)도 같은 곳으로. 설정에서 통계를 끄면 이것도 보내지 않는다.
+        LeeoDiagnostics.shared.start(spec: MochimoSpec.self, isEnabled: { UsageReporting.isEnabled })
+
+        // 안내는 조건이 맞는 순간 바로 띄운다. TipKit의 기본값은 하루에 하나라,
+        // 그대로 두면 "대화를 한 번 끝냈을 때"라는 조건을 맞춰 놓고도 안내가
+        // 다음 날로 밀린다. 그때는 이미 그 안내가 필요한 순간이 아니다.
+        //
+        // 실패해도 앱은 그대로 돌아간다. 안내가 안 뜰 뿐이라 붙잡지 않는다.
+        #if DEBUG
+        // 확인용: 실행 인자 `-debug.tips YES` 면 조건과 상관없이 안내를 모두 띄운다.
+        if UserDefaults.standard.bool(forKey: "debug.tips") { Tips.showAllTipsForTesting() }
+        #endif
+        try? Tips.configure([
+            .displayFrequency(.immediate),
+            .datastoreLocation(.applicationDefault)
+        ])
+    }
+
+    let sharedModelContainer: ModelContainer
+
+    private static func makeModelContainer() -> ModelContainer {
+        // ⚠️ 스키마를 바꾸지 않는다. 기존 사용자 기록이 이 두 모델에 있다.
+        let schema = Schema([
+            JournalData.self,
+            SubGoalData.self
+        ])
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+
+        do {
+            let container = try ModelContainer(for: schema, configurations: [modelConfiguration])
+            #if DEBUG
+            ScreenshotMode.seed(container)
+            #endif
+            return container
+        } catch {
+            return StoreFallback.memoryContainer(schema: schema, after: error)
+        }
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            SkinnedRoot()
+                .storeFallbackNotice()
+                .environmentObject(manager)
+                .environmentObject(store)
+                .environment(\.managedObjectContext, manager.container.viewContext)
+                .modelContainer(sharedModelContainer)
+                .leeoSatisfactionCheck(MochimoSpec.self)
+                // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
+                .leeoFeedbackReplyNotice(MochimoSpec.self)
+                .leeoStyle(.pebble)
+                // 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
+                .foldAware()
+        }
+    }
+}
+
+/// 고른 친구와 결을 앱 전체에 내려보낸다.
+///
+/// 프로 권한이 없으면(환불 등) 고른 값은 남겨 두고 기본 돌로 그린다.
+private struct SkinnedRoot: View {
+    @EnvironmentObject private var store: LeeoStore
+    @AppStorage(PebbleSkin.storageKey) private var chosenSkin = PebbleSkin.free.rawValue
+    @AppStorage(PebbleBuddy.storageKey) private var chosenBuddy = PebbleBuddy.default.rawValue
+
+    var body: some View {
+        RootView()
+            .environment(\.pebbleBuddy, PebbleBuddy(rawValue: chosenBuddy) ?? .default)
+            .environment(
+                \.pebbleSkin,
+                PebbleSkin.effective(PebbleSkin(rawValue: chosenSkin) ?? .free, hasPro: store.hasPro)
+            )
+    }
+}
+
+// MARK: - 저장소를 못 연 날
+//
+// 예전에는 fatalError 로 죽었다. 그러면 마이그레이션 한 번 어긋난 사용자는 켤 때마다 죽고,
+// 기기 안에 멀쩡히 있는 기록도 못 본다. 이제는 디스크의 기록은 건드리지 않고 이번 실행만
+// 메모리에서 열고, 사용자에게 그 사실을 알린다.
+
+enum StoreFallback {
+    /// 이번 실행이 임시(메모리) 저장소로 열렸는가
+    private(set) static var isActive = false
+
+    static func memoryContainer(schema: Schema, after error: Error) -> ModelContainer {
+        isActive = true
+        print("⚠️ 저장소를 열지 못해 이번 실행은 메모리에서 엽니다: \(error)")
+        do {
+            return try ModelContainer(
+                for: schema,
+                configurations: ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none)
+            )
+        } catch {
+            // 메모리 저장소마저 안 되는 건 스키마 자체가 잘못된 것 — 개발 중에 바로 드러난다
+            fatalError("메모리 저장소도 열지 못함: \(error)")
+        }
+    }
+}
+
+extension View {
+    /// 임시 저장소로 열렸으면 한 번 알린다. 앱의 맨 바깥 화면에 붙인다.
+    func storeFallbackNotice() -> some View {
+        modifier(StoreFallbackNotice())
+    }
+}
+
+private struct StoreFallbackNotice: ViewModifier {
+    @State private var isPresented = StoreFallback.isActive
+
+    func body(content: Content) -> some View {
+        content.alert("기록을 열지 못했어요", isPresented: $isPresented) {
+        } message: {
+            Text("저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요.")
+        }
+    }
+}

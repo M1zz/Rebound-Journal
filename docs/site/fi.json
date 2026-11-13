@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: lempeä päiväkirja päiville, jotka menivät pieleen",
-  "description": "Kun tavoite jää kesken, pieni kivi puhuu ensin: mitä tapahtui ja sitten miltä sinusta tuntuu. Ei tiliä, ei mainoksia. Kolme tavoitetta ilmaiseksi.",
+  "title": "Mochimo: lempeä päiväkirja päiville, jotka menivät pieleen",
+  "description": "Kun tavoite jää kesken, pehmeä mochi-kaveri puhuu ensin: mitä tapahtui ja sitten miltä sinusta tuntuu. Ei tiliä, ei mainoksia. Kolme tavoitetta ilmaiseksi.",
   "hero": {
-    "headline": "Harha-askel ei tarkoita,\nettä putosit puroon",
-    "lead": "Päivänä, jona tavoite jää saavuttamatta, kivi puhuu ensin. Se kysyy, mitä tapahtui, ei mitä teit väärin, ja antaa tapahtuneen ja tunteesi takaisin erikseen.",
+    "headline": "Huono päivä?\nEi se haittaa",
+    "lead": "Päivänä, jona tavoite jää saavuttamatta, kaveri puhuu ensin. Se kysyy, mitä tapahtui, ei mitä teit väärin, ja antaa tapahtuneen ja tunteesi takaisin erikseen.",
     "cta": "Lataa ilmaiseksi App Storesta",
     "note": "Keskustelut, merkinnät ja kulkemasi tie ovat ilmaisia. Ei tiliä, ei mainoksia."
   },
   "demo": {
-    "title": "Juttele kiven kanssa",
-    "lead": "Aioit lähteä tänään iltakävelylle, mutta se jäi. Napauta vastausta tai kirjoita omasi, niin kivi vastaa juuri kuten sovelluksessa.",
+    "title": "Juttele mochi-kaverisi kanssa",
+    "lead": "Aioit lähteä tänään iltakävelylle, mutta se jäi. Napauta vastausta tai kirjoita omasi, niin kaveri vastaa juuri kuten sovelluksessa.",
     "note": "Sama järjestys ja samat lauseet kuin sovelluksen keskustelussa. Mitään tähän kirjoittamaasi ei tallenneta.",
     "send": "Lähetä",
     "again": "Aloita alusta",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Syytätkö itseäsi, kun päivä ei mene suunnitellusti?",
-    "text": "Iltana, jona treeni jäi väliin, ensimmäinen ajatus on usein ”mikä minussa on vikana?”. Tarkemmin katsottuna oli ylitöitä, satoi ja olit aivan poikki. ZinggumDol kysyy eri vaiheissa, mitä tapahtui ja miltä sinusta tuntuu, ja asettaa ne rinnakkain. Kun huomaat, että syy oli olosuhteissa eikä tahdonvoimassasi, seuraava pieni askel löytyy helpommin."
+    "text": "Iltana, jona treeni jäi väliin, ensimmäinen ajatus on usein ”mikä minussa on vikana?”. Tarkemmin katsottuna oli ylitöitä, satoi ja olit aivan poikki. Mochimo kysyy eri vaiheissa, mitä tapahtui ja miltä sinusta tuntuu, ja asettaa ne rinnakkain. Kun huomaat, että syy oli olosuhteissa eikä tahdonvoimassasi, seuraava pieni askel löytyy helpommin."
   },
   "features": [
     {
-      "title": "Kivi puhuu ensin",
-      "text": "Aseta tavoite, niin kivi pitää kirjaa päivistä, jolloin onnistuit, ja päivistä, jolloin jäit jumiin. Kun päivä lipsahtaa, se kysyy ”mitä tapahtui?” eikä ”miksi et?”, ja se muistaa, mitä kerroit viimeksi.\nJos kirjoittaminen tuntuu liialta, sano se ääneen. Puhe tunnistetaan laitteellasi, eikä äänitteitä tallenneta koskaan.",
+      "title": "Kaveri puhuu ensin",
+      "text": "Aseta tavoite, niin kaveri pitää kirjaa päivistä, jolloin onnistuit, ja päivistä, jolloin jäit jumiin. Kun päivä lipsahtaa, se kysyy ”mitä tapahtui?” eikä ”miksi et?”, ja se muistaa, mitä kerroit viimeksi.\nJos kirjoittaminen tuntuu liialta, sano se ääneen. Puhe tunnistetaan laitteellasi, eikä äänitteitä tallenneta koskaan.",
       "shot": "02-conversation"
     },
     {
-      "title": "Päiväsi kuin astinkivet",
-      "text": "Jokainen viikko on rivi astinkiviä. Myös päivät, joille et astunut, jäävät paikoilleen; mitään ei pyyhitä.\nVaikka välissä olisi aukko tai kaksi, näet, että polku jatkuu.",
+      "title": "Viikkosi seitsemänä pienenä mochina",
+      "text": "Jokainen viikko on seitsemän pientä mochia. Onnistuneet päivät muuttuvat matchanvihreiksi ja päivät, jolloin vain kävit kirjaamassa, kullankeltaisiksi. Myös väliin jääneet päivät pysyvät paikoillaan; mitään ei pyyhitä.\nVaikka välissä olisi aukko tai kaksi, näet, että viikko pysyy koossa.",
       "shot": "03-path"
     },
     {
       "title": "Lue uudelleen, mitä kirjoitit",
-      "text": "Mitä tapahtui, miltä tuntui ja mitä kokeilet seuraavaksi kertyy päivämäärän mukaan. Lue päivä, jolloin jäit jumiin samalla tavalla, ja näet, mikä auttoi.\nWidget näyttää kiven sanan Koti-valikossa, ja muistutus valitsemaasi aikaan kutsuu katsomaan päivää taaksepäin.",
+      "text": "Mitä tapahtui, miltä tuntui ja mitä kokeilet seuraavaksi kertyy päivämäärän mukaan. Lue päivä, jolloin jäit jumiin samalla tavalla, ja näet, mikä auttoi.\nWidget näyttää kaverin sanan Koti-valikossa, ja muistutus valitsemaasi aikaan kutsuu katsomaan päivää taaksepäin.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Avaa sovellus illalla",
-        "text": "Kivi kysyy, miten päivä meni. Muistutuksen kanssa se ei unohdu."
+        "text": "Kaveri kysyy, miten päivä meni. Muistutuksen kanssa se ei unohdu."
       },
       {
         "title": "Napauta tai kirjoita vastaus",
@@ -102,7 +102,7 @@
       ],
       [
         "Katse taaksepäin",
-        "Kivi antaa tapahtuneen ja tunteesi takaisin erillään"
+        "Kaveri antaa tapahtuneen ja tunteesi takaisin erillään"
       ],
       [
         "Seuraava askel",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Ilmainen",
       "items": [
-        "Kaikki keskustelut kiven kanssa",
+        "Kaikki keskustelut kaverin kanssa",
         "Enintään kolme tavoitetta",
         "Puhu kirjoittamisen sijaan",
         "Kulkemasi tie ja kaikki kirjoittamasi",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Niin monta tavoitetta kuin haluat",
-        "Kuusi kiven pintaa valittavana",
+        "Kuusi väriä kaverillesi",
         "Merkintöjen vienti tekstitiedostoksi"
       ],
       "note": "Osta kerran ja pidä. Ei tilausta."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Tein sen, mutta sovellus väittää muuta.",
-        "a": "Napauta `Tein sen, en vain kirjannut`. Kivi ottaa korjauksen vastaan ja kysyy sen sijaan, mikä auttoi. Toimiva keino tallentuu, ja kivi muistuttaa siitä, kun seuraavan kerran jäät jumiin."
+        "a": "Napauta `Tein sen, en vain kirjannut`. Kaveri ottaa korjauksen vastaan ja kysyy sen sijaan, mikä auttoi. Toimiva keino tallentuu, ja kaveri muistuttaa siitä, kun seuraavan kerran jäät jumiin."
       },
       {
         "q": "Minne ääneen sanomani menee?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Montako tavoitetta voin asettaa?",
-        "a": "Kolme ilmaiseksi. Kun olet valmis yhden kanssa, vapauta paikka valinnalla `Päästä irti` kohdassa Kuljettu matka. Yli kolmeen tarvitset ZinggumDol Pron."
+        "a": "Kolme ilmaiseksi. Kun olet valmis yhden kanssa, vapauta paikka valinnalla `Päästä irti` kohdassa Kuljettu matka. Yli kolmeen tarvitset Mochimo Pron."
       },
       {
-        "q": "Onko ZinggumDol Pro tilaus?",
+        "q": "Onko Mochimo Pro tilaus?",
         "a": "Ei. Maksat kerran ja se on sinun. Uudella laitteella tai uudelleenasennuksen jälkeen napauta asetuksissa `Palauta ostokset`."
       },
       {
@@ -171,7 +171,7 @@
         "a": "Kohdassa `Päivittäinen muistutus` asetuksissa kytket sen päälle tai pois ja valitset ajan."
       },
       {
-        "q": "Muistuttaako kivi myös onnistumisista?",
+        "q": "Muistuttaako kaveri myös onnistumisista?",
         "a": "Kyllä. Se muistaa, mikä sinua auttoi, ja raskaana päivänä se muistuttaa jostain, missä onnistuit äskettäin."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Harha-askel tänään?\nSeuraava kivi on yhä paikallaan",
+    "headline": "Menikö tänään pieleen?\nMochi-kaverisi odottaa sinua",
     "cta": "Lataa ilmaiseksi App Storesta"
   },
   "ui": {

@@ -1,7 +1,7 @@
 {
   "name": {
-    "ko": "징검돌",
-    "en": "ZinggumDol"
+    "ko": "모찌모",
+    "en": "Mochimo"
   },
   "url": "https://m1zz.github.io/Rebound-Journal/",
   "appStoreId": "6450388408",
@@ -9,9 +9,9 @@
   "copyright": "Leeo",
   "year": 2026,
   "color": {
-    "light": "#5F8F93",
-    "dark": "#7FB3B6",
-    "darkBg": "#111717"
+    "light": "#9A6127",
+    "dark": "#E2B36A",
+    "darkBg": "#1C1613"
   },
   "shots": [
     "01-home",

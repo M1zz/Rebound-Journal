@@ -1,0 +1,64 @@
+//
+//  RootView.swift
+//  Mochimo
+//
+//  새 진입점. 화면은 `TodayView`로 갈아끼웠지만, 기존 앱이 하던 두 가지 일은
+//  그대로 남겨야 한다.
+//
+//   1. CoreData → SwiftData 이관. 예전 버전에서 쓴 기록이 여기서 넘어온다.
+//   2. 비밀번호 잠금. 막힌 얘기를 적어두는 앱이라 이건 오히려 더 중요하다.
+//
+
+import SwiftUI
+import SwiftData
+import LeeoKit
+
+struct RootView: View {
+
+    @EnvironmentObject var manager: DataManager
+    @Environment(\.modelContext) private var modelContext
+    @Environment(\.managedObjectContext) private var coreDataContext
+    @Environment(\.scenePhase) private var scenePhase
+
+    @Query private var journals: [JournalData]
+    @Query private var subGoals: [SubGoalData]
+
+    var body: some View {
+        TodayView()
+            .fullScreenCover(item: $manager.fullScreenMode) { mode in
+                switch mode {
+                case .passcodeView:
+                    PasscodeView()
+                        .environmentObject(manager)
+                        .foldConfined()
+                case .setupPasscodeView:
+                    PasscodeView(setupMode: true)
+                        .environmentObject(manager)
+                        .foldConfined()
+                }
+            }
+            .onAppear {
+                if manager.savedPasscode.count == 4 && !manager.didEnterCorrectPasscode {
+                    manager.fullScreenMode = .passcodeView
+                }
+                manager.migrateCoreDataToSwiftData(
+                    nsContext: coreDataContext,
+                    modelContext: modelContext
+                )
+                // 조약돌 목소리로 쓸 소리 알갱이를 미리 만들어 둔다.
+                // 첫 말풍선이 찍히기 전에 준비돼 있어야 첫 마디부터 소리가 난다.
+                PebbleVoice.shared.prepare()
+                // FeedbackHub 사용 통계 스냅샷 (LeeoKit 이 12시간 간격으로 스로틀)
+                UsageReporting.reportSnapshot(journals: journals, subGoals: subGoals)
+            }
+            // Siri · Spotlight 가 목표를 찾게 한다 (→ StepIntents.swift)
+            .task { await reindexGoals() }
+            .onChange(of: scenePhase) { _, phase in
+                if phase == .background { Task { await reindexGoals() } }
+            }
+    }
+
+    private func reindexGoals() async {
+        await StepGoalQuery.reindex(modelContext.container, locked: manager.savedPasscode.count == 4)
+    }
+}

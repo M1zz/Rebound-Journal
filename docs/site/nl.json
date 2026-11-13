@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: een zacht dagboek voor dagen die anders liepen",
-  "description": "Mis je een doel, dan begint een kiezel het gesprek: wat er gebeurde, en daarna hoe je je voelt. Geen account, geen advertenties. Drie doelen gratis.",
+  "title": "Mochimo: een zacht dagboek voor dagen die anders liepen",
+  "description": "Mis je een doel, dan begint een zacht mochi-maatje het gesprek: wat er gebeurde, en daarna hoe je je voelt. Geen account, geen advertenties. Drie doelen gratis.",
   "hero": {
-    "headline": "Misstappen is nog niet\nin de beek vallen",
-    "lead": "Op een dag dat je je doel mist, begint de kiezel het gesprek. Hij vraagt wat er gebeurde, niet wat je fout deed, en geeft je de feiten en je gevoel los van elkaar terug.",
+    "headline": "Een rotdag?\nDat geeft niks",
+    "lead": "Op een dag dat je je doel mist, begint je maatje het gesprek. Hij vraagt wat er gebeurde, niet wat je fout deed, en geeft je de feiten en je gevoel los van elkaar terug.",
     "cta": "Gratis in de App Store",
     "note": "Praten, schrijven en je weg zien is gratis. Geen account, geen advertenties."
   },
   "demo": {
-    "title": "Praat met de kiezel",
-    "lead": "Je wilde vanavond een wandeling maken en het is er niet van gekomen. Tik een antwoord aan of typ je eigen, en de kiezel reageert precies zoals in de app.",
+    "title": "Praat met je mochi-maatje",
+    "lead": "Je wilde vanavond een wandeling maken en het is er niet van gekomen. Tik een antwoord aan of typ je eigen, en je maatje reageert precies zoals in de app.",
     "note": "Dezelfde volgorde en dezelfde zinnen als het gesprek in de app. Wat je hier typt, wordt nergens bewaard.",
     "send": "Versturen",
     "again": "Opnieuw beginnen",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Geef je jezelf de schuld als een dag anders loopt?",
-    "text": "Op de avond dat je de training oversloeg, denk je vaak eerst: wat is er mis met mij? Kijk je beter, dan moest je overwerken, regende het en was je doodop. ZinggumDol vraagt in aparte stappen wat er gebeurde en hoe je je voelt, en legt die twee naast elkaar. Zie je dat het aan de omstandigheden lag en niet aan je wilskracht, dan vind je de volgende kleine stap makkelijker."
+    "text": "Op de avond dat je de training oversloeg, denk je vaak eerst: wat is er mis met mij? Kijk je beter, dan moest je overwerken, regende het en was je doodop. Mochimo vraagt in aparte stappen wat er gebeurde en hoe je je voelt, en legt die twee naast elkaar. Zie je dat het aan de omstandigheden lag en niet aan je wilskracht, dan vind je de volgende kleine stap makkelijker."
   },
   "features": [
     {
-      "title": "De kiezel begint het gesprek",
-      "text": "Stel een doel in en de kiezel houdt de dagen bij dat het lukte en de dagen dat je vastliep. Glipt er een dag door, dan vraagt hij ‘wat gebeurde er?’ in plaats van ‘waarom niet?’, en hij weet nog wat je hem de vorige keer vertelde.\nIs schrijven je te veel, zeg het dan gewoon hardop. Spraak wordt op je apparaat herkend en opnames worden nooit bewaard.",
+      "title": "Je maatje begint het gesprek",
+      "text": "Stel een doel in en je maatje houdt de dagen bij dat het lukte en de dagen dat je vastliep. Glipt er een dag door, dan vraagt hij ‘wat gebeurde er?’ in plaats van ‘waarom niet?’, en hij weet nog wat je hem de vorige keer vertelde.\nIs schrijven je te veel, zeg het dan gewoon hardop. Spraak wordt op je apparaat herkend en opnames worden nooit bewaard.",
       "shot": "02-conversation"
     },
     {
-      "title": "Je dagen als stapstenen",
-      "text": "Elke week ligt er als een rij stapstenen. De dagen waarop je niet stapte, blijven ook liggen; er wordt niets gewist.\nOok met een gat hier en daar zie je dat de weg doorloopt.",
+      "title": "Je week als zeven kleine mochi’s",
+      "text": "Elke week ligt er als zeven kleine mochi’s. Dagen dat het lukte kleuren matchagroen, dagen dat je alleen even langskwam goudgeel. Ook de dagen die je miste blijven liggen; er wordt niets gewist.\nOok met een gat hier en daar zie je dat de week een geheel blijft.",
       "shot": "03-path"
     },
     {
       "title": "Lees terug wat je schreef",
-      "text": "Wat er gebeurde, hoe je je voelde en wat je hierna probeert, verzamelt zich op datum. Lees een dag terug waarop je net zo vastliep en je ziet wat hielp.\nEen widget laat een woordje van de kiezel zien op je beginscherm, en een herinnering op een tijd die jij kiest nodigt je uit terug te kijken op de dag.",
+      "text": "Wat er gebeurde, hoe je je voelde en wat je hierna probeert, verzamelt zich op datum. Lees een dag terug waarop je net zo vastliep en je ziet wat hielp.\nEen widget laat een woordje van je maatje zien op je beginscherm, en een herinnering op een tijd die jij kiest nodigt je uit terug te kijken op de dag.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Open de app aan het eind van de dag",
-        "text": "De kiezel vraagt hoe je dag was. Met een herinnering vergeet je het niet."
+        "text": "Je maatje vraagt hoe je dag was. Met een herinnering vergeet je het niet."
       },
       {
         "title": "Tik of typ een antwoord",
@@ -102,7 +102,7 @@
       ],
       [
         "Terugblik",
-        "De kiezel geeft wat er gebeurde en je gevoel apart terug"
+        "Je maatje geeft wat er gebeurde en je gevoel apart terug"
       ],
       [
         "Volgende stap",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Gratis",
       "items": [
-        "Alle gesprekken met de kiezel",
+        "Alle gesprekken met je maatje",
         "Tot drie doelen",
         "Praten in plaats van typen",
         "Je weg en alles wat je schreef",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Zoveel doelen als je wilt",
-        "Kies uit zes kiezelafwerkingen",
+        "Kies uit zes kleuren voor je maatje",
         "Notities exporteren als tekstbestand"
       ],
       "note": "Eenmalig kopen en houden. Geen abonnement."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Ik heb het wel gedaan, maar de app zegt van niet.",
-        "a": "Tik op `Gedaan, alleen niet genoteerd`. De kiezel neemt de correctie aan en vraagt in plaats daarvan wat hielp. Wat werkte, wordt bewaard en komt terug als je de volgende keer vastloopt."
+        "a": "Tik op `Gedaan, alleen niet genoteerd`. Je maatje neemt de correctie aan en vraagt in plaats daarvan wat hielp. Wat werkte, wordt bewaard en komt terug als je de volgende keer vastloopt."
       },
       {
         "q": "Waar gaat naartoe wat ik hardop zeg?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Hoeveel doelen kan ik hebben?",
-        "a": "Drie gratis. Ben je klaar met een doel, gebruik dan `Loslaten` in Afgelegde weg om plek te maken. Voor meer dan drie heb je ZinggumDol Pro nodig."
+        "a": "Drie gratis. Ben je klaar met een doel, gebruik dan `Loslaten` in Afgelegde weg om plek te maken. Voor meer dan drie heb je Mochimo Pro nodig."
       },
       {
-        "q": "Is ZinggumDol Pro een abonnement?",
+        "q": "Is Mochimo Pro een abonnement?",
         "a": "Nee. Je betaalt één keer en houdt het. Op een nieuw apparaat of na opnieuw installeren tik je in Instellingen op `Aankopen herstellen`."
       },
       {
@@ -171,7 +171,7 @@
         "a": "Bij `Dagelijkse herinnering` in Instellingen zet je hem aan of uit en kies je de tijd."
       },
       {
-        "q": "Herinnert de kiezel me ook aan wat wél lukte?",
+        "q": "Herinnert je maatje me ook aan wat wél lukte?",
         "a": "Ja. Hij onthoudt wat je hielp, en op een zware dag herinnert hij je aan iets wat je onlangs voor elkaar kreeg."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Vandaag misgestapt?\nDe volgende steen ligt er nog",
+    "headline": "Liep het vandaag mis?\nJe mochi-maatje wacht op je",
     "cta": "Gratis in de App Store"
   },
   "ui": {

@@ -1,0 +1,530 @@
+{
+  "ko": [
+    [
+      "모찌 친구가<br>먼저 말을 걸어요",
+      "지난번 얘기를 기억하고 어떻게 됐는지 물어요"
+    ],
+    [
+      "해낸 날엔<br>함께 기뻐해요",
+      "고르거나, 적거나, 말로 답해요"
+    ],
+    [
+      "한 주가<br>찹쌀떡 일곱 개로",
+      "비운 날도 지워지지 않아요"
+    ],
+    [
+      "남긴 이야기를<br>날짜순으로",
+      "있었던 일과 다음에 해볼 것까지"
+    ],
+    [
+      "말랑한 친구<br>아홉 중에서",
+      "콕 찌르면 쫀득하게 움직여요"
+    ]
+  ],
+  "en-US": [
+    [
+      "Your mochi friend<br>speaks first",
+      "It remembers last time and asks how it went"
+    ],
+    [
+      "It cheers the days<br>you made it",
+      "Tap a reply, type, or just say it"
+    ],
+    [
+      "Your week as<br>seven little mochi",
+      "Missed days never get erased"
+    ],
+    [
+      "Everything you wrote,<br>by date",
+      "What happened and what you'll try next"
+    ],
+    [
+      "Pick from nine<br>squishy friends",
+      "Poke one and watch it wobble"
+    ]
+  ],
+  "en-GB": [
+    [
+      "Your mochi friend<br>speaks first",
+      "It remembers last time and asks how it went"
+    ],
+    [
+      "It cheers you on<br>when you do it",
+      "Pick a reply, write, or just say it"
+    ],
+    [
+      "Your week as<br>seven little mochi",
+      "Missed days never get erased"
+    ],
+    [
+      "All your entries,<br>in date order",
+      "What happened and what you'll try next"
+    ],
+    [
+      "Pick from nine<br>squishy friends",
+      "Poke one and watch it wobble"
+    ]
+  ],
+  "zh-Hans": [
+    [
+      "麻薯小伙伴<br>会先开口",
+      "记得你上次说的话，问问后来怎么样了"
+    ],
+    [
+      "做到的日子<br>一起开心",
+      "点选、打字，或者直接说出来"
+    ],
+    [
+      "一周时光<br>化作七颗麻薯",
+      "空着的日子，也不会被抹去"
+    ],
+    [
+      "写下的故事<br>按日期排好",
+      "发生了什么，下次想试什么，都在这里"
+    ],
+    [
+      "九个软萌伙伴<br>任你挑",
+      "戳一戳，Q弹地晃起来"
+    ]
+  ],
+  "zh-Hant": [
+    [
+      "麻糬小夥伴<br>會先開口",
+      "記得你上次說的話，問問後來怎麼樣了"
+    ],
+    [
+      "做到的日子<br>一起開心",
+      "點選、打字，或者直接說出來"
+    ],
+    [
+      "一週時光<br>化作七顆麻糬",
+      "空著的日子，也不會被抹去"
+    ],
+    [
+      "寫下的故事<br>按日期排好",
+      "發生了什麼，下次想試什麼，都在這裡"
+    ],
+    [
+      "九個軟萌夥伴<br>任你挑",
+      "戳一戳，Q彈地晃起來"
+    ]
+  ],
+  "ja": [
+    [
+      "もちもちの友だちが<br>先に話しかける",
+      "前回の話を覚えていて、その後を聞いてくれる"
+    ],
+    [
+      "できた日は<br>いっしょに喜ぶ",
+      "選んでも、書いても、話しても答えられる"
+    ],
+    [
+      "一週間が<br>七つのおもちに",
+      "空いた日も、消えずに残ります"
+    ],
+    [
+      "書いたことを<br>日付順に",
+      "あったことも、次に試すことも"
+    ],
+    [
+      "もちもちの<br>九匹から選ぼう",
+      "つつくと、ぷるんと揺れます"
+    ]
+  ],
+  "ru": [
+    [
+      "Друг-моти<br>начнёт первым",
+      "Помнит прошлый разговор и интересуется, как дела"
+    ],
+    [
+      "Радуется вместе<br>в удачные дни",
+      "Выберите ответ, напишите или скажите"
+    ],
+    [
+      "Неделя —<br>семь моти",
+      "Пропущенные дни не стираются"
+    ],
+    [
+      "Все записи<br>по датам",
+      "Что случилось и что попробовать дальше"
+    ],
+    [
+      "Девять мягких<br>друзей",
+      "Ткните — и он забавно качнётся"
+    ]
+  ],
+  "es": [
+    [
+      "Tu amigo mochi<br>habla primero",
+      "Recuerda la última vez y te pregunta qué tal"
+    ],
+    [
+      "Lo celebra<br>cuando lo logras",
+      "Toca, escribe o simplemente dilo"
+    ],
+    [
+      "Tu semana en<br>siete mochis",
+      "Los días sin registrar nunca se borran"
+    ],
+    [
+      "Todo lo que escribes,<br>por fecha",
+      "Lo que pasó y lo que probarás después"
+    ],
+    [
+      "Elige entre<br>nueve blanditos",
+      "Tócalo y verás cómo se tambalea"
+    ]
+  ],
+  "de": [
+    [
+      "Dein Mochi-Freund<br>fragt zuerst",
+      "Er erinnert sich und fragt, wie es lief"
+    ],
+    [
+      "Freut sich mit,<br>wenn es klappt",
+      "Tippen, schreiben oder einfach sagen"
+    ],
+    [
+      "Deine Woche als<br>sieben Mochis",
+      "Verpasste Tage werden nie gelöscht"
+    ],
+    [
+      "Deine Einträge,<br>nach Datum",
+      "Was passiert ist und was du als Nächstes tust"
+    ],
+    [
+      "Neun knuddelige<br>Freunde",
+      "Stups einen an und er wackelt"
+    ]
+  ],
+  "fr": [
+    [
+      "Votre ami mochi<br>parle le premier",
+      "Il se souvient et vous demande comment ça va"
+    ],
+    [
+      "Il fête<br>chaque réussite",
+      "Touchez, écrivez ou dites-le simplement"
+    ],
+    [
+      "Votre semaine en<br>sept petits mochis",
+      "Les jours manqués ne sont jamais effacés"
+    ],
+    [
+      "Toutes vos notes,<br>par date",
+      "Ce qui s’est passé et ce que vous essaierez"
+    ],
+    [
+      "Neuf amis<br>tout moelleux",
+      "Touchez-en un, il se met à gigoter"
+    ]
+  ],
+  "it": [
+    [
+      "Il tuo amico mochi<br>parla per primo",
+      "Ricorda l’ultima volta e chiede com’è andata"
+    ],
+    [
+      "Festeggia con te<br>ogni traguardo",
+      "Tocca, scrivi o dillo a voce"
+    ],
+    [
+      "La settimana in<br>sette mochi",
+      "I giorni saltati non si cancellano mai"
+    ],
+    [
+      "Le tue note,<br>in ordine di data",
+      "Cosa è successo e cosa proverai dopo"
+    ],
+    [
+      "Scegli tra nove<br>amici morbidosi",
+      "Toccalo e lo vedrai ondeggiare"
+    ]
+  ],
+  "pt-BR": [
+    [
+      "Seu amigo mochi<br>fala primeiro",
+      "Lembra da última vez e pergunta como foi"
+    ],
+    [
+      "Comemora junto<br>cada conquista",
+      "Toque, digite ou simplesmente fale"
+    ],
+    [
+      "Sua semana em<br>sete mochis",
+      "Dias em branco nunca são apagados"
+    ],
+    [
+      "Seus registros<br>por data",
+      "O que aconteceu e o que tentar depois"
+    ],
+    [
+      "Escolha entre<br>nove fofinhos",
+      "Cutuque e veja ele balançar"
+    ]
+  ],
+  "th": [
+    [
+      "เพื่อนโมจิ<br>ทักก่อนเสมอ",
+      "จำเรื่องครั้งก่อนได้ แล้วถามว่าเป็นยังไงบ้าง"
+    ],
+    [
+      "วันที่ทำได้<br>ก็ดีใจไปด้วยกัน",
+      "แตะเลือก พิมพ์ หรือพูดออกมาก็ได้"
+    ],
+    [
+      "ทั้งสัปดาห์<br>เป็นโมจิเจ็ดลูก",
+      "วันที่ว่างไว้ก็ไม่ถูกลบทิ้ง"
+    ],
+    [
+      "เรื่องที่เขียน<br>เรียงตามวันที่",
+      "ทั้งเรื่องที่เกิดขึ้นและสิ่งที่จะลองต่อ"
+    ],
+    [
+      "เลือกเพื่อนนุ่มนิ่ม<br>จากเก้าตัว",
+      "จิ้มเบาๆ แล้วดูมันดุ๊กดิ๊ก"
+    ]
+  ],
+  "vi": [
+    [
+      "Bạn mochi<br>luôn mở lời trước",
+      "Nhớ chuyện lần trước và hỏi bạn thế nào rồi"
+    ],
+    [
+      "Cùng bạn vui<br>ngày làm được",
+      "Chạm chọn, gõ hoặc cứ nói ra"
+    ],
+    [
+      "Một tuần<br>là bảy viên mochi",
+      "Ngày bỏ trống cũng không bị xoá"
+    ],
+    [
+      "Mọi điều bạn viết,<br>theo ngày",
+      "Chuyện đã qua và điều sẽ thử tiếp"
+    ],
+    [
+      "Chọn một trong<br>chín bạn mềm mại",
+      "Chọc nhẹ là rung rinh ngay"
+    ]
+  ],
+  "cs": [
+    [
+      "Mochi kamarád<br>promluví první",
+      "Pamatuje si minule a zeptá se, jak to šlo"
+    ],
+    [
+      "Raduje se s vámi,<br>když se daří",
+      "Ťukněte, napište, nebo to řekněte"
+    ],
+    [
+      "Váš týden jako<br>sedm mochi",
+      "Vynechané dny se nikdy nesmažou"
+    ],
+    [
+      "Vaše záznamy<br>podle data",
+      "Co se stalo a co zkusíte příště"
+    ],
+    [
+      "Devět měkkých<br>kamarádů",
+      "Šťouchněte a uvidíte, jak se vrtí"
+    ]
+  ],
+  "da": [
+    [
+      "Din mochi-ven<br>taler først",
+      "Den husker sidst og spørger, hvordan det gik"
+    ],
+    [
+      "Glæder sig med,<br>når det lykkes",
+      "Tryk, skriv, eller sig det bare"
+    ],
+    [
+      "Din uge som<br>syv små mochi",
+      "Missede dage bliver aldrig slettet"
+    ],
+    [
+      "Alle dine noter,<br>efter dato",
+      "Hvad der skete, og hvad du prøver næste gang"
+    ],
+    [
+      "Vælg mellem ni<br>bløde venner",
+      "Prik til en, og se den vrikke"
+    ]
+  ],
+  "el": [
+    [
+      "Ο φίλος σου mochi<br>μιλά πρώτος",
+      "Θυμάται την τελευταία φορά και ρωτά πώς πήγε"
+    ],
+    [
+      "Χαίρεται μαζί σου<br>για κάθε βήμα",
+      "Πάτα, γράψε ή απλώς πες το"
+    ],
+    [
+      "Η εβδομάδα σου<br>σε επτά mochi",
+      "Οι χαμένες μέρες δεν σβήνονται ποτέ"
+    ],
+    [
+      "Όσα έγραψες,<br>κατά ημερομηνία",
+      "Τι έγινε και τι θα δοκιμάσεις μετά"
+    ],
+    [
+      "Εννιά αφράτοι<br>φίλοι",
+      "Άγγιξέ τον και δες τον να κουνιέται"
+    ]
+  ],
+  "fi": [
+    [
+      "Mochi-ystävä<br>puhuu ensin",
+      "Se muistaa viime kerran ja kysyy, miten meni"
+    ],
+    [
+      "Iloitsee kanssasi,<br>kun onnistut",
+      "Napauta, kirjoita tai sano ääneen"
+    ],
+    [
+      "Viikkosi<br>seitsemänä mochina",
+      "Väliin jääneitä päiviä ei koskaan poisteta"
+    ],
+    [
+      "Merkintäsi<br>päivä päivältä",
+      "Mitä tapahtui ja mitä kokeilet seuraavaksi"
+    ],
+    [
+      "Yhdeksän pehmeää<br>ystävää",
+      "Tökkää ja katso, miten se hytkyy"
+    ]
+  ],
+  "id": [
+    [
+      "Teman mochi<br>menyapa lebih dulu",
+      "Ingat cerita lalu dan bertanya hasilnya"
+    ],
+    [
+      "Ikut senang<br>saat Anda berhasil",
+      "Ketuk, ketik, atau ucapkan saja"
+    ],
+    [
+      "Seminggu jadi<br>tujuh mochi mungil",
+      "Hari yang terlewat tak pernah dihapus"
+    ],
+    [
+      "Catatan Anda,<br>urut tanggal",
+      "Apa yang terjadi dan apa yang dicoba lagi"
+    ],
+    [
+      "Pilih dari sembilan<br>teman kenyal",
+      "Colek sekali, lihat ia bergoyang"
+    ]
+  ],
+  "nb": [
+    [
+      "Mochi-vennen<br>snakker først",
+      "Den husker sist og spør hvordan det gikk"
+    ],
+    [
+      "Gleder seg med<br>når det lykkes",
+      "Trykk, skriv eller bare si det"
+    ],
+    [
+      "Uka di som<br>sju små mochi",
+      "Dager du gikk glipp av, slettes aldri"
+    ],
+    [
+      "Alt du har skrevet,<br>etter dato",
+      "Hva som skjedde og hva du prøver neste gang"
+    ],
+    [
+      "Velg blant ni<br>myke venner",
+      "Prikk på en og se den vugge"
+    ]
+  ],
+  "nl": [
+    [
+      "Uw mochivriendje<br>praat als eerste",
+      "Weet wat u vertelde en vraagt hoe het ging"
+    ],
+    [
+      "Viert met u<br>elk succes",
+      "Tik, typ of zeg het gewoon"
+    ],
+    [
+      "Uw week als<br>zeven mochi's",
+      "Gemiste dagen worden nooit gewist"
+    ],
+    [
+      "Al uw notities,<br>op datum",
+      "Wat er gebeurde en wat u hierna probeert"
+    ],
+    [
+      "Kies uit negen<br>zachte vriendjes",
+      "Por erin en kijk hoe hij wiebelt"
+    ]
+  ],
+  "pl": [
+    [
+      "Przyjaciel mochi<br>pyta pierwszy",
+      "Pamięta ostatnią rozmowę i ciekawi go, jak poszło"
+    ],
+    [
+      "Cieszy się z tobą<br>w udane dni",
+      "Stuknij, napisz albo po prostu powiedz"
+    ],
+    [
+      "Twój tydzień<br>w siedmiu mochi",
+      "Pominięte dni nigdy nie znikają"
+    ],
+    [
+      "Wszystkie wpisy<br>według dat",
+      "Co się wydarzyło i co spróbujesz dalej"
+    ],
+    [
+      "Dziewięciu<br>mięciutkich przyjaciół",
+      "Szturchnij i patrz, jak się trzęsie"
+    ]
+  ],
+  "sv": [
+    [
+      "Din mochivän<br>pratar först",
+      "Minns förra gången och frågar hur det gick"
+    ],
+    [
+      "Gläds med dig<br>när det går vägen",
+      "Tryck, skriv eller säg det bara"
+    ],
+    [
+      "Din vecka som<br>sju små mochi",
+      "Missade dagar raderas aldrig"
+    ],
+    [
+      "Allt du skrivit,<br>efter datum",
+      "Vad som hände och vad du provar härnäst"
+    ],
+    [
+      "Välj bland nio<br>mjuka vänner",
+      "Peta på en och se den gunga"
+    ]
+  ],
+  "tr": [
+    [
+      "Mochi dostunuz<br>ilk o konuşur",
+      "Son konuşmayı hatırlar, nasıl gittiğini sorar"
+    ],
+    [
+      "Başardığınızda<br>sizinle sevinir",
+      "Seçin, yazın ya da söyleyin"
+    ],
+    [
+      "Haftanız<br>yedi küçük mochi",
+      "Boş geçen günler asla silinmez"
+    ],
+    [
+      "Tüm notlarınız<br>tarih sırasıyla",
+      "Olanlar ve sırada deneyecekleriniz"
+    ],
+    [
+      "Dokuz yumuşacık<br>dost arasından seçin",
+      "Dürtün, nasıl kıpırdadığını görün"
+    ]
+  ]
+}

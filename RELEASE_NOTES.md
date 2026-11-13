@@ -8,147 +8,195 @@ App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 
 ### 앱스토어 (한국어)
 
-조약돌이 더 말랑하고 귀여워졌어요.
-기쁠 때는 입을 벌려 활짝 웃어요.
+징검돌이 모찌모로 새 이름을 얻었어요.
+말랑한 모찌 친구 아홉 중에서 골라요.
+콕 찌르고 쓰다듬으면 쫀득하게 움직여요.
+글씨가 커지고 화면이 더 포근해졌어요.
 보낸 의견에 답장이 오면 앱에서 알려 줘요.
 
 ### 앱스토어 (영어, en-US)
 
-Your pebble is softer and cuter now.
-It beams with a big open smile.
+ZinggumDol is now called Mochimo.
+Choose from nine squishy mochi friends.
+Poke your friend and watch it wobble.
+Bigger text and a cozier look.
 See replies to your feedback in the app.
 
 ### 앱스토어 (영어 영국, en-GB)
 
-Your pebble is softer and cuter now.
-It beams with a big open smile.
+ZinggumDol is now called Mochimo.
+Choose from nine squishy mochi friends.
+Poke your friend and watch it wobble.
+Bigger text and a cosier look.
 See replies to your feedback in the app.
 
 ### 앱스토어 (중국어 간체, zh-Hans)
 
-小石头变得更软萌、更可爱了。
-开心的时候会张嘴大笑。
-你的反馈有了回复，会在应用里提醒你。
+ZinggumDol 现在改名叫 Mochimo 了。
+九只软糯的麻薯小伙伴任你挑选。
+戳一戳小伙伴，它会软软地晃起来。
+字更大了，画面也更温馨。
+在 App 里就能看到反馈的回复。
 
 ### 앱스토어 (중국어 번체, zh-Hant)
 
-小石頭變得更軟萌、更可愛了。
-開心的時候會張嘴大笑。
-你的意見有了回覆，會在 App 裡提醒你。
+ZinggumDol 現在改名為 Mochimo 了。
+九位軟Q麻糬好友任你挑選。
+戳一戳好友，它會Q彈地晃起來。
+字更大了，畫面也更溫馨。
+在 App 裡就能看到意見回覆。
 
 ### 앱스토어 (일본어)
 
-小石がもっとぷにぷに、かわいくなりました。
-うれしいときは口を開けてにっこり笑います。
-送ったご意見への返信をアプリでお知らせします。
+ZinggumDolはMochimoに名前が変わりました。
+もちもちの友だち9匹から選べます。
+つつくと友だちがぷるんと動きます。
+文字が大きく、画面がやさしくなりました。
+送った意見への返信がアプリで届きます。
 
 ### 앱스토어 (러시아어)
 
-Камешек стал мягче и милее.
-От радости он широко улыбается.
-Ответ на ваш отзыв придёт в приложение.
+ZinggumDol теперь называется Mochimo.
+Выберите одного из девяти друзей-моти.
+Ткните друга, и он заколышется.
+Крупнее текст и уютнее оформление.
+Ответы на ваши отзывы видны в приложении.
 
 ### 앱스토어 (스페인어)
 
-Tu piedrecita es más blandita y tierna.
-Si se alegra, sonríe de oreja a oreja.
-Verás en la app si te respondemos.
+ZinggumDol ahora se llama Mochimo.
+Elige entre nueve amigos mochi.
+Toca a tu amigo y verás cómo se mueve.
+Letra más grande y un aire más acogedor.
+Mira en la app las respuestas a tu opinión.
 
 ### 앱스토어 (독일어)
 
-Dein Kiesel ist weicher und niedlicher.
-Freut er sich, strahlt er richtig.
+Aus ZinggumDol wird Mochimo.
+Wähle aus neun knautschigen Freunden.
+Stups deinen Freund an und er wackelt.
+Größere Schrift und gemütlicherer Look.
 Antworten auf dein Feedback in der App.
 
 ### 앱스토어 (프랑스어)
 
-Ton galet est plus doux et plus mignon.
-Content, il sourit jusqu’aux oreilles.
-Les réponses à tes avis, dans l’app.
+ZinggumDol s’appelle désormais Mochimo.
+Choisissez parmi neuf amis mochi.
+Touchez votre ami et il se met à gigoter.
+Texte plus grand et look plus douillet.
+Nos réponses à vos avis arrivent dans l’app.
 
 ### 앱스토어 (이탈리아어)
 
-Il tuo sassolino è più morbido e tenero.
-Quando è felice fa un sorriso enorme.
-Le risposte ai tuoi commenti, nell’app.
+ZinggumDol ora si chiama Mochimo.
+Scegli tra nove amici mochi morbidosi.
+Tocca il tuo amico e guardalo ondeggiare.
+Testo più grande e look più accogliente.
+Le risposte ai tuoi feedback nell’app.
 
 ### 앱스토어 (포르투갈어 브라질, pt-BR)
 
-Sua pedrinha ficou mais fofa e macia.
-Quando fica feliz, abre um sorrisão.
-Respostas aos seus comentários no app.
+O ZinggumDol agora se chama Mochimo.
+Escolha entre nove amigos mochi fofinhos.
+Cutuque seu amigo e veja ele balançar.
+Letras maiores e visual mais aconchegante.
+Veja respostas ao seu feedback no app.
 
 ### 앱스토어 (태국어)
 
-ก้อนหินน้อยนุ่มนิ่มและน่ารักขึ้น
-เวลาดีใจจะอ้าปากยิ้มกว้าง
-แอปจะแจ้งเมื่อมีคำตอบถึงความเห็นของคุณ
+ZinggumDol เปลี่ยนชื่อเป็น Mochimo แล้ว
+เลือกเพื่อนโมจินุ่มนิ่มได้เก้าตัว
+จิ้มเพื่อนแล้วดูมันดุ๊กดิ๊ก
+ตัวอักษรใหญ่ขึ้น หน้าตาอบอุ่นขึ้น
+ดูคำตอบความคิดเห็นของคุณได้ในแอป
 
 ### 앱스토어 (베트남어)
 
-Viên sỏi giờ mềm mại và đáng yêu hơn.
-Khi vui, sỏi cười thật tươi.
-Xem phản hồi cho góp ý ngay trong app.
+ZinggumDol nay đã đổi tên thành Mochimo.
+Chọn một trong chín bé mochi mềm mại.
+Chọc nhẹ để xem bé rung rinh.
+Chữ to hơn, giao diện ấm áp hơn.
+Xem phản hồi góp ý ngay trong ứng dụng.
 
 ### 앱스토어 (체코어)
 
-Oblázek je teď měkčí a roztomilejší.
-Když má radost, směje se od ucha k uchu.
-Odpověď na váš názor najdete v aplikaci.
+ZinggumDol se teď jmenuje Mochimo.
+Vyberte si z devíti měkoučkých kamarádů.
+Šťouchněte do kamaráda a zavlní se.
+Větší písmo a útulnější vzhled.
+Odpovědi na vaši zpětnou vazbu v aplikaci.
 
 ### 앱스토어 (덴마크어)
 
-Din sten er blevet blødere og sødere.
-Når den er glad, smiler den stort.
-Se svar på din feedback direkte i appen.
+ZinggumDol hedder nu Mochimo.
+Vælg mellem ni bløde mochi-venner.
+Prik til din ven, og se den vugge.
+Større tekst og et hyggeligere look.
+Se svar på din feedback i appen.
 
 ### 앱스토어 (그리스어)
 
-Το βότσαλο έγινε πιο απαλό και γλυκό.
-Όταν χαίρεται, χαμογελά πλατιά.
-Δες τις απαντήσεις στα σχόλιά σου εδώ.
+Το ZinggumDol λέγεται πλέον Mochimo.
+Διάλεξε έναν από εννέα αφράτους φίλους.
+Σκούντα τον φίλο σου και κουνιέται.
+Μεγαλύτερα γράμματα και πιο ζεστή όψη.
+Οι απαντήσεις στα σχόλιά σου στην εφαρμογή.
 
 ### 앱스토어 (핀란드어)
 
-Kivesi on nyt pehmeämpi ja suloisempi.
-Iloisena se hymyilee leveästi.
-Näet vastaukset palautteeseesi täällä.
+ZinggumDol on nyt nimeltään Mochimo.
+Valitse yhdeksästä pehmeästä ystävästä.
+Töki ystävää ja katso, kun se hytkyy.
+Isompi teksti ja kodikkaampi ilme.
+Näet palautteesi vastaukset sovelluksessa.
 
 ### 앱스토어 (인도네시아어)
 
-Kerikilmu kini lebih kenyal dan lucu.
-Saat senang, ia tersenyum lebar.
-Lihat balasan masukanmu di aplikasi.
+ZinggumDol kini bernama Mochimo.
+Pilih dari sembilan teman mochi kenyal.
+Colek teman Anda dan lihat ia bergoyang.
+Teks lebih besar, tampilan lebih hangat.
+Lihat balasan masukan Anda di dalam app.
 
 ### 앱스토어 (노르웨이어 보크말, nb)
 
-Steinen din er blitt mykere og søtere.
-Når den er glad, smiler den bredt.
-Se svar på tilbakemeldingen din i appen.
+ZinggumDol heter nå Mochimo.
+Velg blant ni myke mochi-venner.
+Pirk på vennen din og se den dirre.
+Større tekst og et koseligere utseende.
+Se svar på tilbakemeldinger i appen.
 
 ### 앱스토어 (네덜란드어)
 
-Je kiezel is nu zachter en schattiger.
-Is hij blij, dan lacht hij breeduit.
-Zie antwoorden op je feedback in de app.
+ZinggumDol heet nu Mochimo.
+Kies uit negen zachte mochi-maatjes.
+Por uw maatje en zie het wiebelen.
+Grotere tekst en een knussere look.
+Zie antwoorden op uw feedback in de app.
 
 ### 앱스토어 (폴란드어)
 
-Kamyk jest teraz miększy i słodszy.
-Z radości uśmiecha się od ucha do ucha.
-Zobacz odpowiedzi na swoje opinie.
+ZinggumDol nazywa się teraz Mochimo.
+Dziewięciu kumpli mochi do wyboru.
+Szturchnij kumpla i patrz, jak faluje.
+Większy tekst i przytulniejszy wygląd.
+Odpowiedzi na opinie zobaczysz w aplikacji.
 
 ### 앱스토어 (스웨덴어)
 
-Din sten har blivit mjukare och sötare.
-När den är glad ler den stort.
-Se svar på din feedback direkt i appen.
+ZinggumDol heter nu Mochimo.
+Välj bland nio mjuka mochi-vänner.
+Peta på din vän och se den dallra.
+Större text och ett mysigare utseende.
+Se svar på din feedback i appen.
 
 ### 앱스토어 (튀르키예어)
 
-Çakıl taşın artık daha yumuşak ve tatlı.
-Sevinince kocaman gülümsüyor.
-Geri bildirimine gelen yanıtı gör.
+ZinggumDol'un yeni adı Mochimo.
+Dokuz yumuşacık mochi dosttan seçin.
+Dostunuzu dürtün, esneyişini izleyin.
+Daha büyük yazı, daha sıcak görünüm.
+Görüşlerinize yanıtlar artık uygulamada.
 
 ## 2.1.3
 
@@ -541,11 +589,11 @@ Renkleri ayırt etmek zorsa daha kolay.
 ## 2.1.1
 
 새 언어 22개(총 24개). 앱 번역 · 스토어 문구 · 웹 페이지 · 스크린샷.
-대화가 홈 안에서 이어지고, 단계 표시와 마무리 카드가 생겼다. Xcode 프로젝트·타깃 이름을 ZinggumDol 로.
+대화가 홈 안에서 이어지고, 단계 표시와 마무리 카드가 생겼다. Xcode 프로젝트·타깃 이름을 Mochimo 로.
 
 ### 앱스토어 (한국어)
 
-이제 24개 언어로 징검돌을 쓸 수 있어요.
+이제 24개 언어로 모찌모를 쓸 수 있어요.
 일본어, 중국어 등 새 언어가 생겼어요.
 조약돌도 고른 언어로 말을 걸어요.
 대화가 홈에서 바로 이어져요.
@@ -553,7 +601,7 @@ Renkleri ayırt etmek zorsa daha kolay.
 
 ### 앱스토어 (영어, en-US)
 
-ZinggumDol is now in 24 languages.
+Mochimo is now in 24 languages.
 Japanese, Chinese and more are here.
 The pebble now talks in your language.
 Chats now continue right on Home.
@@ -561,7 +609,7 @@ See what you saved when a chat ends.
 
 ### 앱스토어 (영어 영국, en-GB)
 
-ZinggumDol is now in 24 languages.
+Mochimo is now in 24 languages.
 Japanese, Chinese and more are here.
 The pebble now talks in your language.
 Chats now carry on right on Home.
@@ -585,7 +633,7 @@ See what you saved when a chat ends.
 
 ### 앱스토어 (일본어)
 
-ZinggumDolが24の言語に対応しました。
+Mochimoが24の言語に対応しました。
 日本語で使えるようになりました。
 小石が日本語で話しかけてくれます。
 会話がホーム画面のまま続くようになりました。
@@ -593,7 +641,7 @@ ZinggumDolが24の言語に対応しました。
 
 ### 앱스토어 (러시아어)
 
-ZinggumDol теперь на 24 языках.
+Mochimo теперь на 24 языках.
 Приложение теперь на русском.
 Камешек говорит с вами по-русски.
 Беседа теперь идёт прямо на главной.
@@ -601,7 +649,7 @@ ZinggumDol теперь на 24 языках.
 
 ### 앱스토어 (스페인어)
 
-ZinggumDol ya está en 24 idiomas.
+Mochimo ya está en 24 idiomas.
 Ahora también en español.
 El guijarro te habla en español.
 Ahora la charla sigue en el inicio.
@@ -609,7 +657,7 @@ Al terminar, ves todo lo que guardaste.
 
 ### 앱스토어 (독일어)
 
-ZinggumDol gibt es jetzt in 24 Sprachen.
+Mochimo gibt es jetzt in 24 Sprachen.
 Die App ist jetzt auch auf Deutsch.
 Der Kiesel spricht mit dir auf Deutsch.
 Gespräche laufen nun auf der Startseite.
@@ -617,7 +665,7 @@ Am Ende siehst du, was du notiert hast.
 
 ### 앱스토어 (프랑스어)
 
-ZinggumDol parle désormais 24 langues.
+Mochimo parle désormais 24 langues.
 L’app est maintenant en français.
 Le galet vous répond en français.
 Les échanges continuent sur l’accueil.
@@ -625,7 +673,7 @@ Les échanges continuent sur l’accueil.
 
 ### 앱스토어 (이탈리아어)
 
-ZinggumDol ora parla 24 lingue.
+Mochimo ora parla 24 lingue.
 L’app è ora disponibile in italiano.
 Il sassolino ti parla in italiano.
 Le chiacchierate continuano nella Home.
@@ -633,7 +681,7 @@ Alla fine vedi ciò che hai annotato.
 
 ### 앱스토어 (포르투갈어 브라질, pt-BR)
 
-O ZinggumDol agora fala 24 idiomas.
+O Mochimo agora fala 24 idiomas.
 O app já está em português.
 A pedrinha fala com você em português.
 A conversa agora segue na tela inicial.
@@ -641,7 +689,7 @@ No fim, você vê tudo o que anotou.
 
 ### 앱스토어 (태국어)
 
-ZinggumDol รองรับ 24 ภาษาแล้ว
+Mochimo รองรับ 24 ภาษาแล้ว
 ตอนนี้ใช้งานเป็นภาษาไทยได้แล้ว
 ก้อนหินเล็กๆ คุยกับคุณเป็นภาษาไทย
 บทสนทนาดำเนินต่อบนหน้าหลักได้เลย
@@ -649,7 +697,7 @@ ZinggumDol รองรับ 24 ภาษาแล้ว
 
 ### 앱스토어 (베트남어)
 
-ZinggumDol nay có 24 ngôn ngữ.
+Mochimo nay có 24 ngôn ngữ.
 Ứng dụng nay đã có tiếng Việt.
 Viên đá nhỏ trò chuyện bằng tiếng Việt.
 Giờ trò chuyện ngay trên trang chính.
@@ -657,7 +705,7 @@ Cuối buổi, xem lại những gì bạn đã ghi.
 
 ### 앱스토어 (체코어)
 
-ZinggumDol je nyní ve 24 jazycích.
+Mochimo je nyní ve 24 jazycích.
 Aplikace je teď i v češtině.
 Oblázek s vámi mluví česky.
 Rozhovor teď pokračuje přímo na úvodu.
@@ -665,7 +713,7 @@ Na konci uvidíte, co jste si zapsali.
 
 ### 앱스토어 (덴마크어)
 
-ZinggumDol findes nu på 24 sprog.
+Mochimo findes nu på 24 sprog.
 Appen er nu også på dansk.
 Stenen taler med dig på dansk.
 Samtalen fortsætter nu på forsiden.
@@ -673,7 +721,7 @@ Til sidst ser du alt, du har noteret.
 
 ### 앱스토어 (그리스어)
 
-Το ZinggumDol μιλά πλέον 24 γλώσσες.
+Το Mochimo μιλά πλέον 24 γλώσσες.
 Τώρα και στα ελληνικά.
 Το βότσαλο σου μιλά στα ελληνικά.
 Η κουβέντα συνεχίζει στην αρχική.
@@ -681,7 +729,7 @@ Til sidst ser du alt, du har noteret.
 
 ### 앱스토어 (핀란드어)
 
-ZinggumDol on nyt 24 kielellä.
+Mochimo on nyt 24 kielellä.
 Sovellus on nyt myös suomeksi.
 Pikkukivi juttelee kanssasi suomeksi.
 Keskustelu jatkuu nyt kotinäkymässä.
@@ -689,7 +737,7 @@ Lopuksi näet, mitä kirjasit muistiin.
 
 ### 앱스토어 (인도네시아어)
 
-ZinggumDol kini hadir dalam 24 bahasa.
+Mochimo kini hadir dalam 24 bahasa.
 Aplikasi ini sudah berbahasa Indonesia.
 Kerikil menyapa dalam bahasa Indonesia.
 Obrolan kini berlanjut di layar utama.
@@ -697,7 +745,7 @@ Di akhir, lihat semua yang kamu catat.
 
 ### 앱스토어 (노르웨이어 보크말, nb)
 
-ZinggumDol finnes nå på 24 språk.
+Mochimo finnes nå på 24 språk.
 Appen er nå også på norsk.
 Steinen snakker med deg på norsk.
 Samtalen fortsetter nå på forsiden.
@@ -705,7 +753,7 @@ Til slutt ser du alt du har notert.
 
 ### 앱스토어 (네덜란드어)
 
-ZinggumDol is nu in 24 talen.
+Mochimo is nu in 24 talen.
 De app is nu ook in het Nederlands.
 De kiezel spreekt gewoon Nederlands.
 Het gesprek loopt nu op het beginscherm.
@@ -713,7 +761,7 @@ Aan het eind zie je wat je hebt bewaard.
 
 ### 앱스토어 (폴란드어)
 
-ZinggumDol jest teraz w 24 językach.
+Mochimo jest teraz w 24 językach.
 Aplikacja jest już po polsku.
 Kamyk rozmawia z Tobą po polsku.
 Rozmowa trwa teraz na ekranie głównym.
@@ -721,7 +769,7 @@ Na koniec widzisz, co udało się zapisać.
 
 ### 앱스토어 (스웨덴어)
 
-ZinggumDol finns nu på 24 språk.
+Mochimo finns nu på 24 språk.
 Appen finns nu även på svenska.
 Stenen pratar med dig på svenska.
 Samtalet fortsätter nu på startsidan.
@@ -729,7 +777,7 @@ Till sist ser du allt du har antecknat.
 
 ### 앱스토어 (튀르키예어)
 
-ZinggumDol artık 24 dilde.
+Mochimo artık 24 dilde.
 Uygulama artık Türkçe.
 Küçük taş seninle Türkçe konuşuyor.
 Sohbet artık ana ekranda devam ediyor.
@@ -737,11 +785,11 @@ Sonunda kaydettiklerini toplu görürsün.
 
 ## 2.1.0
 
-징검돌 프로(평생 1회 구매)와 리팩토링. 유료화 근거는 `docs/BUSINESS.md`.
+모찌모 프로(평생 1회 구매)와 리팩토링. 유료화 근거는 `docs/BUSINESS.md`.
 
 ### 앱스토어 (한국어)
 
-징검돌 프로가 생겼어요. 한 번 사면 계속 써요.
+모찌모 프로가 생겼어요. 한 번 사면 계속 써요.
 조약돌을 여섯 가지 결 중에서 고를 수 있어요.
 지나온 기록을 파일로 내보낼 수 있어요.
 목표를 길게 눌러 내려놓을 수 있어요.
@@ -749,7 +797,7 @@ Sonunda kaydettiklerini toplu görürsün.
 
 ### App Store (English)
 
-ZinggumDol Pro is here. No subscription.
+Mochimo Pro is here. No subscription.
 Choose from six pebble finishes.
 Export your records as a text file.
 Long-press a goal to set it down.
@@ -757,7 +805,7 @@ No more tracking permission prompt.
 
 ### App Store (en-GB)
 
-ZinggumDol Pro is here. No subscription.
+Mochimo Pro is here. No subscription.
 Choose from six pebble finishes.
 Export your records as a text file.
 Long-press a goal to set it down.
@@ -772,13 +820,13 @@ No more tracking permission prompt.
 - LeeoKit 2.7.0 → 3.x (legal/monetization 계약, App Store ID 6450388408)
 - 옛 흐름 코드 약 56개 파일, 쓰지 않던 에셋 55개 삭제. 폴더를 App/Model/Services/Features 로
 - 영어: 고치기 화면·닫기·목표 적기 버튼·위젯 문구 현지화, 영어 발화를 한국어로 다듬던 문제 수정,
-  영어 앱 이름을 스토어와 같은 ZinggumDol 로. 안 쓰는 카탈로그 키 235개 정리
+  영어 앱 이름을 스토어와 같은 Mochimo 로. 안 쓰는 카탈로그 키 235개 정리
 - ATT(추적 권한) 요청 제거 — 광고·추적이 없는 앱
 - 개인정보 처리방침·지원 페이지 `docs/` (GitHub Pages 켜야 열림)
 
 ## 2.0.1
 
-2.0.0(징검돌 리디자인) 위에 영어를 얹은 판.
+2.0.0(모찌모 리디자인) 위에 영어를 얹은 판.
 
 ### 앱스토어 (한국어)
 
@@ -788,7 +836,7 @@ No more tracking permission prompt.
 
 ### App Store (English)
 
-ZinggumDol now speaks English.
+Mochimo now speaks English.
 Dates follow your device language.
 Fixed the blank passcode keypad.
 
@@ -824,7 +872,7 @@ Fixed the blank passcode keypad.
 
 ────────────────────────────────────────
 
-리바운드 저널이 징검돌이 되었습니다.
+리바운드 저널이 모찌모가 되었습니다.
 
 앱을 열면 화면 가운데 작은 조약돌이 앉아 있습니다. 목록도 그래프도 먼저 보여주지 않습니다. 무엇에 닿았고 무엇이 조용했는지 조약돌이 먼저 보고, 먼저 말을 겁니다.
 
@@ -862,7 +910,7 @@ Fixed the blank passcode keypad.
 
 ────────────────────────────────────────
 
-Rebound Journal is now ZinggumDol.
+Rebound Journal is now Mochimo.
 
 Open the app and a small pebble is there, waiting. No lists, no charts up front. The pebble looks at what you reached and what has gone quiet, and it speaks first.
 
@@ -948,7 +996,7 @@ missed나 skipped로 바꾸면 §4를 어긴다.
 - 적어둔 날이 오늘이 아니면 관찰을 지우고 물러선다.
 
 이름
-- 기기 언어에 따라 갈린다. 한국어 '징검돌', 영어 'ZinggumDol'.
+- 기기 언어에 따라 갈린다. 한국어 '모찌모', 영어 'Mochimo'.
 - 표시 이름과 짧은 이름을 둘 다 맞췄다. 하나만 바꾸면 시스템 어딘가에서 옛 이름이 튀어나온다.
 
 색과 아이콘
@@ -965,7 +1013,7 @@ missed나 skipped로 바꾸면 §4를 어긴다.
 
 ### 올리기 전에 해야 할 것
 
-- [ ] App Store Connect에서 스토어 이름을 바꾼다. 한국어 '징검돌', 영어 'ZinggumDol'.
+- [ ] App Store Connect에서 스토어 이름을 바꾼다. 한국어 '모찌모', 영어 'Mochimo'.
       기기에 뜨는 이름은 코드로 언어별로 맞춰 뒀지만(InfoPlist.xcstrings), 스토어에
       노출되는 이름은 별개라 App Store Connect에서 현지화별로 따로 넣어야 한다.
 - [ ] App Group group.com.leeo.ReboundJournal 을 등록한다. Identifiers에 만들고 앱과

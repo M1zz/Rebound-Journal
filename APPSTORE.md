@@ -1,46 +1,48 @@
-# 징검돌 App Store 문구
+# 모찌모 App Store 문구
 
 ## ko
 
 ### 이름
 
-징검돌
+모찌모
 
 ### 부제
 
-헛디딘 날을 다정하게 돌아봐요
+말랑한 친구와 돌아보는 하루
 
 ### 프로모션 텍스트
 
-헛디뎠다고 개울에 빠진 건 아니에요. 먼저 말을 걸고 지난번 얘기를 기억하는 조약돌과 함께, 뜻대로 안 된 하루를 천천히 돌아봐요.
+뜻대로 안 된 날에도 괜찮아요. 먼저 말을 걸고 지난번 얘기를 기억하는 말랑한 모찌 친구와 함께 오늘을 천천히 돌아봐요.
 
 ### 설명
 
-헛디뎠다고 개울에 빠진 건 아니에요. 징검돌은 뜻대로 안 된 날을 위한 다정한 일기장이에요.
-조약돌 하나와 이야기를 나누듯, 있었던 일과 그때 마음을 천천히 꺼내 봐요.
+뜻대로 안 된 날에도 괜찮아요. 모찌모는 말랑한 모찌 친구와 이야기 나누듯 하루를 돌아보는 다정한 일기장이에요.
 
-조약돌이 먼저 말을 걸어요. 지난번에 들려준 얘기를 기억하고, 그 뒤로 어떻게 됐는지 물어봐요. 고를 수 있는 답을 누르거나 직접 적으면 있었던 일, 그때 기분, 다음에 해볼 것이 차곡차곡 남아요.
+친구가 먼저 말을 걸어요. 지난번에 들려준 얘기를 기억하고, 그 뒤로 어떻게 됐는지 물어봐요. 고를 수 있는 답을 누르거나 직접 적으면 있었던 일, 그때 기분, 다음에 해볼 것이 차곡차곡 남아요.
 
-조약돌과 이야기하기
-목표를 정해 두면 조약돌이 닿은 날과 막힌 날을 함께 지켜봐요. 하루를 놓쳐도 뭘 잘못했는지가 아니라 뭐가 걸렸는지를 물어요.
+말랑한 친구 아홉
+토끼, 햄스터, 고양이, 곰, 하프물범, 라쿤, 카피바라, 키위새, 원숭이 중에서 곁에 둘 친구를 골라요. 콕 찌르고 꾹 누르고 쓰다듬으면 찹쌀떡처럼 쫀득하게 움직여요.
+
+친구와 이야기하기
+목표를 정해 두면 친구가 해낸 날과 막힌 날을 함께 지켜봐요. 하루를 놓쳐도 뭘 잘못했는지가 아니라 뭐가 걸렸는지를 물어요.
 
 말로 남기기
 적기 힘든 날엔 소리 내어 말해도 돼요. 말은 기기 안에서 알아듣고 녹음은 저장하지 않아요. 지원하는 기기에서는 읽기 편하게 문장을 다듬어 줘요.
 
 지나온 길
-한 주가 징검돌 한 줄로 펼쳐져요. 밟지 못한 날도 그대로 남아요. 지워지는 건 없어요.
+한 주가 작은 찹쌀떡 일곱 개로 펼쳐져요. 해낸 날은 쑥색, 남기기만 한 날은 콩고물색이에요. 비운 날도 그대로 남아요. 지워지는 건 없어요.
 
 남긴 이야기
 있었던 일, 그때 마음, 다음에 해볼 것을 날짜순으로 다시 볼 수 있어요.
 
 위젯과 알림
-홈 화면에서 조약돌의 한마디를 보고, 정해 둔 시간에 오늘을 돌아보라는 알림을 받아요.
+홈 화면에서 친구의 한마디를 보고, 정해 둔 시간에 오늘을 돌아보라는 알림을 받아요.
 
 나만 보는 기록
 가입도 광고도 없어요. 기록은 내 기기와 내 iCloud에만 있고 암호로 앱을 잠글 수 있어요. 적은 내용은 개발자에게 보내지 않아요.
 
-징검돌 프로
-목표 세 개까지는 무료로 써요. 구독이 아닌 한 번 구매로 목표를 원하는 만큼 두고, 조약돌 결 여섯 가지 중에서 고르고, 기록을 텍스트 파일로 내보낼 수 있어요.
+모찌모 프로
+목표 세 개까지는 무료로 써요. 구독이 아닌 한 번 구매로 목표를 원하는 만큼 두고, 친구 색 여섯 가지 중에서 고르고, 기록을 텍스트 파일로 내보낼 수 있어요.
 
 ### 키워드
 
@@ -62,43 +64,45 @@ https://m1zz.github.io/Rebound-Journal/
 
 ### 이름
 
-ZinggumDol
+Mochimo
 
 ### 부제
 
-Journal for days that go wrong
+Look back with a squishy friend
 
 ### 프로모션 텍스트
 
-Missing a step doesn't mean you fell in. Look back on the days that didn't go to plan with a little pebble that speaks first and remembers what you told it.
+Rough day? That's okay. Look back on it with a squishy mochi friend who speaks first and remembers what you told it last time.
 
 ### 설명
 
-Missing a step doesn't mean you fell in. ZinggumDol is a gentle journal for the days that didn't go to plan.
-Talk things through with a little pebble, one reply at a time.
+Rough day? That's okay. Mochimo is a gentle journal where you look back on your day by chatting with a soft, squishy mochi friend.
 
-The pebble speaks first. It remembers what you told it last time and asks how things went since. Tap a reply or type your own, and keep a record of what happened, how you felt and what you'll try next.
+Your friend speaks first. It remembers what you told it last time and asks how things went since. Tap a reply or type your own, and keep a record of what happened, how you felt and what you'll try next.
 
-TALK IT OVER WITH A PEBBLE
-Set a goal and the pebble keeps track of the days you made it and the days you got stuck. When a day slips by, it asks what got in the way, never what you did wrong.
+NINE SQUISHY FRIENDS
+Pick a bunny, hamster, cat, bear, harp seal, raccoon, capybara, kiwi or monkey to keep you company. Poke, squeeze or pet it and it wobbles like a fresh rice cake.
+
+TALK IT OVER
+Set a goal and your friend keeps track of the days you made it and the days you got stuck. When a day slips by, it asks what got in the way, never what you did wrong.
 
 JUST SAY IT
 On days when writing feels like too much, say it out loud. Speech is recognized on your device, recordings are never saved, and on supported devices your words are cleaned up so they read easily.
 
 THE WAY YOU'VE COME
-Each week is laid out as a row of stepping stones. The days you missed stay there too. Nothing gets erased.
+Each week is laid out as seven little mochi. Days you made it turn matcha green, days you just checked in turn golden. The days you missed stay there too. Nothing gets erased.
 
 WHAT YOU'VE WRITTEN
 Look back at what happened, how you felt and what you'll try next, all in date order.
 
 WIDGET AND REMINDERS
-See a word from the pebble on your Home Screen, and get a gentle reminder at a time you pick to check in on your day.
+See a word from your friend on your Home Screen, and get a gentle reminder at a time you pick to check in on your day.
 
 JUST FOR YOU
 No sign-up and no ads. Your entries stay on your device and in your own iCloud, and you can lock the app with a passcode. Nothing you write is ever sent to the developer.
 
-ZINGGUMDOL PRO
-Free with up to three goals. A one-time purchase, not a subscription, unlocks unlimited goals, six pebble finishes and exporting your entries as a text file.
+MOCHIMO PRO
+Free with up to three goals. A one-time purchase, not a subscription, unlocks unlimited goals, six colors for your friend and exporting your entries as a text file.
 
 ### 키워드
 
@@ -120,46 +124,49 @@ https://m1zz.github.io/Rebound-Journal/en/
 
 ### 이름
 
-ZinggumDol
+Mochimo
 
 ### 부제
 
-A gentle failure journal
+Look back with a squishy friend
 
 ### 키워드
 
-resilience,setbacks,mistakes,comeback,reflection,lessons,diary,mood,wellbeing,growth,pebble
+resilience,setbacks,mistakes,comeback,reflection,lessons,diary,mood,wellbeing,growth,cute
 
 ### 프로모션 텍스트
 
-Missing a step doesn't mean you fell in. Look back on the days that didn't go to plan, in conversation with a little pebble that speaks first and remembers what you said.
+Rough day? That's okay. Look back on it with a squishy mochi friend who speaks first and remembers what you told it last time.
 
 ### 설명
 
-Missing a step doesn't mean you fell in. ZinggumDol is a gentle journal for the days that didn't go to plan, where you talk things through with a little pebble.
+Rough day? That's okay. Mochimo is a gentle journal where you look back on your day by chatting with a soft, squishy mochi friend.
 
-The pebble speaks first. It remembers what you told it last time and asks how things went since. Pick a reply or write your own, and leave what happened, how you felt and what you'll try next.
+Your friend speaks first. It remembers what you told it last time and asks how things went since. Tap a reply or type your own, and keep a record of what happened, how you felt and what you'll try next.
 
-TALK IT OVER WITH A PEBBLE
-Set a goal, and the pebble keeps an eye on what you reach and what gets stuck. When a day slips by, it asks what got in the way, never what you did wrong.
+NINE SQUISHY FRIENDS
+Pick a bunny, hamster, cat, bear, harp seal, raccoon, capybara, kiwi or monkey to keep you company. Poke, squeeze or pet it and it wobbles like a fresh rice cake.
+
+TALK IT OVER
+Set a goal and your friend keeps track of the days you made it and the days you got stuck. When a day slips by, it asks what got in the way, never what you did wrong.
 
 JUST SAY IT
-On days when writing feels like too much, say it aloud. Speech is recognised on your device, recordings are never saved, and on supported devices your words are tidied up so they read easily.
+On days when writing feels like too much, say it out loud. Speech is recognized on your device, recordings are never saved, and on supported devices your words are cleaned up so they read easily.
 
 THE WAY YOU'VE COME
-Each week is laid out as a row of stepping stones. Days you didn't step on stay there too; nothing gets wiped away.
+Each week is laid out as seven little mochi. Days you made it turn matcha green, days you just checked in turn golden. The days you missed stay there too. Nothing gets erased.
 
-WHAT YOU'VE LEFT
+WHAT YOU'VE WRITTEN
 Look back at what happened, how you felt and what you'll try next, all in date order.
 
 WIDGET AND REMINDERS
-See a word from the pebble on your Home Screen, and get a gentle nudge at a time you choose to look at how today went.
+See a word from your friend on your Home Screen, and get a gentle reminder at a time you pick to check in on your day.
 
-YOURS ALONE
-No sign-up and no ads. Your records live only on your device and in your own iCloud, and you can lock the app with a passcode. What you write is never sent to the developer.
+JUST FOR YOU
+No sign-up and no ads. Your entries stay on your device and in your own iCloud, and you can lock the app with a passcode. Nothing you write is ever sent to the developer.
 
-ZINGGUMDOL PRO
-Free to use with up to three goals. A one-off purchase, not a subscription, lets you keep as many goals as you like, choose from six pebble finishes and export your records as a text file.
+MOCHIMO PRO
+Free with up to three goals. A one-time purchase, not a subscription, unlocks unlimited goals, six colours for your friend and exporting your entries as a text file.
 
 ### 지원 URL
 
@@ -177,46 +184,49 @@ https://m1zz.github.io/Rebound-Journal/en/
 
 ### 이름
 
-ZinggumDol
+Mochimo
 
 ### 부제
 
-和小石子聊聊没能如愿的日子
+和软糯麻薯小伙伴回顾每一天
 
 ### 키워드
 
-失败日记,复盘,反思,心情,情绪日记,成长,挫折,抗挫力,自我关怀,治愈,心理,习惯,总结,自我提升,压力,焦虑,情绪管理,拖延,记录,自律,树洞,倾诉,复原力,正念,感恩
+日记,失败日记,复盘,反思,心情,情绪日记,成长,挫折,自我关怀,治愈,心理,习惯,目标,自律,树洞,倾诉,复原力,正念,解压,手账,萌宠,可爱,总结,焦虑,压力
 
 ### 프로모션 텍스트
 
-踏空一步,并不等于掉进了溪水里。和一颗会先开口、记得你说过什么的小石子聊聊,回顾那些没能如愿的日子。
+不顺心的日子也没关系。有一只软糯的麻薯小伙伴会先开口，还记得你上次说过的话，陪你慢慢回顾今天。
 
 ### 설명
 
-踏空一步,并不等于掉进了溪水里。ZinggumDol 是一本温柔的日记,专为没能如愿的日子而写,让你和一颗小石子慢慢把事情聊开。
+不顺心的日子也没关系。Mochimo 是一本温柔的日记，让你像和一只软糯的麻薯小伙伴聊天那样，回顾自己的一天。
 
-小石子会先开口。它记得你上次说过的话,会问问那之后怎么样了。选一个回答,或者自己写下来,留下发生了什么、当时的心情,以及接下来想试试什么。
+小伙伴会先开口。它记得你上次说过的话，还会问问后来怎么样了。点一个回答，或者自己写下来，发生了什么、当时的心情、下次想试试什么，都会一点点留下来。
 
-和小石子聊一聊
-设定一个目标,小石子会留意你走到了哪里、又被什么卡住。哪天落下了,它问的是「是什么绊住了你」,而不是「你做错了什么」。
+九只软糯小伙伴
+从小兔、仓鼠、小猫、小熊、竖琴海豹、浣熊、水豚、几维鸟和小猴里，挑一只陪在你身边。戳一戳、捏一捏、摸一摸，它就会像刚做好的麻薯一样软软地晃起来。
+
+和小伙伴聊一聊
+定下一个目标，小伙伴会陪你一起留意做到的日子和卡住的日子。哪天落下了，它问的是「是什么绊住了你」，而不是「你哪里做错了」。
 
 直接说出来
-不想动笔的日子,说出来就好。语音识别在你的设备上完成,录音不会被保存;在支持的设备上,你说的话还会被整理得更易读。
+不想动笔的日子，说出来就好。语音识别在你的设备上完成，录音不会被保存；在支持的设备上，你说的话还会被整理得更通顺易读。
 
 走过的路
-每一周都排成一排踏脚石。没有踏上的日子也会留在那里,什么都不会被抹去。
+每一周都摆成七颗小麻薯。做到的日子是抹茶绿，只是来记一笔的日子是黄豆粉色。空着的日子也会留在那里，什么都不会被抹去。
 
 你留下的
-按日期回看发生了什么、当时的心情,以及接下来想尝试的事。
+按日期回看发生了什么、当时的心情，以及下次想试试的事。
 
 小组件与提醒
-在主屏幕上看到小石子的一句话,并在你选定的时间收到轻轻的提醒,一起看看今天过得怎么样。
+在主屏幕上看到小伙伴的一句话，并在你选定的时间收到轻轻的提醒，一起回顾今天。
 
 只属于你
-无需注册,没有广告。你的记录只保存在你的设备和你自己的 iCloud 中,还可以用密码锁住 App。你写下的内容绝不会发送给开发者。
+无需注册，没有广告。你的记录只保存在你的设备和你自己的 iCloud 中，还可以用密码锁住 App。你写下的内容绝不会发送给开发者。
 
-ZINGGUMDOL PRO
-免费版最多可以放三个目标。一次性购买(不是订阅),即可保留任意数量的目标,从六种小石子质感中挑选,并把记录导出为文本文件。
+MOCHIMO PRO
+免费版最多可设三个目标。一次性购买（不是订阅），即可设置任意数量的目标，从六种颜色中为小伙伴挑选一种，并把记录导出为文本文件。
 
 ### 지원 URL
 
@@ -234,46 +244,49 @@ https://m1zz.github.io/Rebound-Journal/zh-Hans/
 
 ### 이름
 
-ZinggumDol
+Mochimo
 
 ### 부제
 
-和小石子聊聊沒能如願的日子
+和軟Q麻糬好友一起回顧每一天
 
 ### 키워드
 
-失敗日記,反思,心情日記,情緒日記,成長,挫折,復原力,自我關懷,療癒,心理,習慣,檢討,自我成長,壓力,焦慮,情緒管理,拖延,自律,樹洞,傾訴,正念,感恩,小石頭
+日記,失敗日記,反思,心情日記,情緒日記,成長,挫折,復原力,自我關懷,療癒,心理,習慣,目標,檢討,自我成長,壓力,焦慮,情緒管理,拖延,自律,樹洞,傾訴,正念,紓壓,手帳,可愛
 
 ### 프로모션 텍스트
 
-踏空一步,並不等於掉進了溪水裡。和一顆會先開口、記得你說過什麼的小石子聊聊,回顧那些沒能如願的日子。
+不順心的日子也沒關係。有一隻軟Q的麻糬好友會先開口，還記得你上次說過的話，陪你慢慢回顧今天。
 
 ### 설명
 
-踏空一步,並不等於掉進了溪水裡。ZinggumDol 是一本溫柔的日記,專為沒能如願的日子而寫,讓你和一顆小石子慢慢把事情聊開。
+不順心的日子也沒關係。Mochimo 是一本溫柔的日記，讓你像和一隻軟Q的麻糬好友聊天那樣，回顧自己的一天。
 
-小石子會先開口。它記得你上次說過的話,會問問那之後怎麼樣了。選一個回答,或者自己寫下來,留下發生了什麼、當時的心情,以及接下來想試試什麼。
+好友會先開口。它記得你上次說過的話，還會問問後來怎麼樣了。點一個回答，或者自己寫下來，發生了什麼、當時的心情、下次想試試什麼，都會一點一點留下來。
 
-和小石子聊一聊
-設定一個目標,小石子會留意你走到了哪裡、又被什麼卡住。哪天落下了,它問的是「是什麼絆住了你」,而不是「你做錯了什麼」。
+九位軟Q好友
+從小兔、倉鼠、小貓、小熊、豎琴海豹、浣熊、水豚、奇異鳥和小猴裡，挑一位陪在你身邊。戳一戳、捏一捏、摸一摸，它就會像剛做好的麻糬一樣Q彈地晃起來。
+
+和好友聊一聊
+定下一個目標，好友會陪你一起留意做到的日子和卡住的日子。哪天落下了，它問的是「是什麼絆住了你」，而不是「你哪裡做錯了」。
 
 直接說出來
-不想動筆的日子,說出來就好。語音辨識在你的裝置上完成,錄音不會被儲存;在支援的裝置上,你說的話還會被整理得更易讀。
+不想動筆的日子，說出來就好。語音辨識在你的裝置上完成，錄音不會被儲存；在支援的裝置上，你說的話還會被整理得更通順易讀。
 
 走過的路
-每一週都排成一排踏腳石。沒有踏上的日子也會留在那裡,什麼都不會被抹去。
+每一週都排成七顆小麻糬。做到的日子是抹茶綠，只是來記一筆的日子是黃豆粉色。空著的日子也會留在那裡，什麼都不會被抹去。
 
 你留下的
-按日期回看發生了什麼、當時的心情,以及接下來想嘗試的事。
+按日期回看發生了什麼、當時的心情，以及下次想試試的事。
 
-小元件與提醒
-在主螢幕上看到小石子的一句話,並在你選定的時間收到輕輕的提醒,一起看看今天過得怎麼樣。
+小工具與提醒
+在主畫面上看到好友的一句話，並在你選定的時間收到輕輕的提醒，一起回顧今天。
 
 只屬於你
-無需註冊,沒有廣告。你的記錄只儲存在你的裝置和你自己的 iCloud 中,還可以用密碼鎖住 App。你寫下的內容絕不會傳送給開發者。
+無需註冊，沒有廣告。你的記錄只儲存在你的裝置和你自己的 iCloud 中，還可以用密碼鎖住 App。你寫下的內容絕不會傳送給開發者。
 
-ZINGGUMDOL PRO
-免費版最多可以放三個目標。一次性購買(不是訂閱),即可保留任意數量的目標,從六種小石子質感中挑選,並把記錄匯出為文字檔。
+MOCHIMO PRO
+免費版最多可設三個目標。一次性購買（不是訂閱），即可設定任意數量的目標，從六種顏色中為好友挑選一種，並把記錄匯出為文字檔。
 
 ### 지원 URL
 
@@ -291,46 +304,49 @@ https://m1zz.github.io/Rebound-Journal/zh-Hant/
 
 ### 이름
 
-ZinggumDol: 失敗を振り返る日記
+Mochimo: 失敗を振り返る日記
 
 ### 부제
 
-小石と話す、思うようにいかない日の記録
+もちもちの友だちと話す、今日のこと
 
 ### 키워드
 
-反省,メンタル,感情,気分,習慣,成長,レジリエンス,自己肯定感,セルフケア,ストレス,不安,先延ばし,記録,内省,ジャーナル,マインドフル,感謝,自己啓発,心理,ノート,挫折,立ち直る
+反省,メンタル,感情,気分,習慣,成長,レジリエンス,自己肯定感,セルフケア,ストレス,不安,先延ばし,内省,ジャーナル,マインドフル,自己啓発,心理,挫折,立ち直る,目標,癒し,かわいい,記録
 
 ### 프로모션 텍스트
 
-一歩踏み外しても、川に落ちたわけじゃない。先に声をかけてくれて、前に話したことを覚えている小石と、思うようにいかなかった日を振り返ります。
+思うようにいかない日も、大丈夫。先に話しかけてくれて、前に話したことを覚えている、もちもちの友だちと一緒に今日をゆっくり振り返りましょう。
 
 ### 설명
 
-一歩踏み外しても、川に落ちたわけじゃない。ZinggumDolは、思うようにいかなかった日のためのやさしい日記です。ひとつの小石を相手に、ゆっくり話しながら振り返ります。
+思うようにいかない日も、大丈夫。Mochimoは、もちもちの友だちとおしゃべりするように一日を振り返る、やさしい日記です。
 
-小石のほうから声をかけます。前に話したことを覚えていて、「そのあと、どうなりましたか？」と聞いてくれます。選択肢から答えを選んでも、自分で書いてもかまいません。あったこと、そのときの気分、次に試してみたいことが残ります。
+友だちのほうから話しかけてくれます。前に話したことを覚えていて、「そのあと、どうなった？」と聞いてくれます。選択肢をタップしても、自分で書いてもかまいません。あったこと、そのときの気持ち、次に試してみたいことが少しずつ残っていきます。
 
-小石と話す
-目標をひとつ決めておくと、小石は今どこまで来ているか、何に引っかかっているかを見守ります。進めなかった日も「何が引っかかったの？」と聞くだけで、「何がいけなかったの？」とは聞きません。
+もちもちの友だち9匹
+うさぎ、ハムスター、ねこ、くま、タテゴトアザラシ、アライグマ、カピバラ、キーウィ、おさるの中から、そばにいてくれる友だちを選べます。つついたり、むにっと押したり、なでたりすると、つきたてのお餅のようにぷるんと動きます。
+
+友だちと話す
+目標を決めておくと、できた日もつまずいた日も、友だちが一緒に見守ってくれます。できなかった日も「何がいけなかったの？」ではなく、「何が引っかかったの？」と聞いてくれます。
 
 声で伝える
 書くのがつらい日は、話すだけで大丈夫です。音声認識はデバイス上で行われ、録音は保存されません。対応するデバイスでは、話した内容が読みやすく整理されます。
 
-歩いた道
-一週間が、一列の飛び石になります。踏めなかった日もそのまま残り、何も消えません。
+歩いてきた道
+一週間が小さなお餅7つになって並びます。できた日は抹茶色、記録だけした日はきなこ色。空いた日もそのまま残り、何も消えません。
 
 残したもの
-あったこと、そのときの気分、次に試したいことを、日付順に見返せます。
+あったこと、そのときの気持ち、次に試したいことを、日付順に見返せます。
 
 ウィジェットと通知
-ホーム画面で小石のひとことを見られます。好きな時間にやさしい通知が届き、今日はどうだったかを一緒に振り返れます。
+ホーム画面で友だちのひとことを見られます。好きな時間にやさしい通知が届き、今日を振り返るきっかけになります。
 
 あなただけのもの
 登録は不要で、広告もありません。記録はあなたのデバイスと、あなた自身のiCloudにだけ保存されます。アプリはパスコードでロックできます。書いた内容が開発者に送られることは一切ありません。
 
-ZINGGUMDOL PRO
-無料版では目標を3つまで書けます。一度だけの購入(サブスクではありません)で、目標を無制限に書き、6種類の小石の質感から選び、記録をテキストファイルに書き出せます。
+MOCHIMO PRO
+目標3つまでは無料で使えます。サブスクではなく一度だけの購入で、目標を好きなだけ立てられ、友だちの色を6色から選べ、記録をテキストファイルに書き出せます。
 
 ### 지원 URL
 
@@ -348,46 +364,49 @@ https://m1zz.github.io/Rebound-Journal/ja/
 
 ### 이름
 
-ZinggumDol: дневник неудач
+Mochimo: дневник неудач
 
 ### 부제
 
-Беседы с камешком
+Разбор дня с мягким другом
 
 ### 키워드
 
-рефлексия,настроение,эмоции,привычки,саморазвитие,стресс,тревога,самооценка,ошибки,осознанность,рост
+рефлексия,настроение,эмоции,привычки,саморазвитие,стресс,тревога,самооценка,ошибки,осознанность,цели
 
 ### 프로모션 텍스트
 
-Оступиться — не значит упасть в ручей. Вспомните непростые дни вместе с камешком: он заговорит первым и помнит, что вы ему рассказывали.
+Не задался день? Ничего страшного. Вспомните его вместе с мягким другом-моти: он заговорит первым и помнит, что вы рассказывали в прошлый раз.
 
 ### 설명
 
-Оступиться — не значит упасть в ручей. ZinggumDol — бережный дневник для дней, которые прошли не так, как хотелось: вы неспешно разговариваете с камешком и вспоминаете, что произошло.
+Не задался день? Ничего страшного. Mochimo — бережный дневник, в котором вы вспоминаете прошедший день, болтая с мягким и тягучим другом-моти.
 
-Камешек заговаривает первым. Он помнит, о чём вы говорили в прошлый раз, и спрашивает: «А что было потом?» Выберите готовый ответ или напишите свой. Останется то, что случилось, ваше настроение и то, что вы хотите попробовать дальше.
+Друг заговаривает первым. Он помнит, что вы рассказали в прошлый раз, и спрашивает, как всё сложилось дальше. Выберите готовый ответ или напишите свой — и у вас останется запись о том, что случилось, что вы чувствовали и что хотите попробовать дальше.
 
-Разговор с камешком
-Задайте цель, и камешек будет замечать, до чего вы дошли и что вас остановило. Если день пропущен, он спросит «Что помешало?», а не «Что вы сделали не так?».
+Девять мягких друзей
+Выберите себе компаньона: зайчика, хомячка, котика, мишку, тюленёнка, енота, капибару, птичку киви или обезьянку. Ткните, сожмите или погладьте его — и он заколышется, как свежий рисовый моти.
 
-Скажите вслух
-Когда писать не хочется, достаточно просто сказать. Распознавание речи работает на вашем устройстве, а запись голоса не сохраняется. На поддерживаемых устройствах сказанное ещё и приводится в удобочитаемый вид.
+Поговорить по душам
+Задайте цель, и друг будет отмечать дни, когда всё получилось, и дни, когда вы застряли. Если день выпал, он спросит, что помешало, а не что вы сделали не так.
+
+Просто скажите
+Когда писать совсем не хочется, скажите вслух. Речь распознаётся прямо на устройстве, записи голоса не сохраняются, а на поддерживаемых устройствах сказанное приводится в удобочитаемый вид.
 
 Пройденный путь
-Каждая неделя выстраивается в ряд камней для перехода через ручей. Дни, на которые вы не ступили, остаются на месте — ничего не стирается.
+Каждая неделя — это семь маленьких моти. Дни, когда всё получилось, становятся цвета матчи, а дни, когда вы просто заглянули, — золотистыми. Пропущенные дни тоже остаются на месте. Ничего не стирается.
 
-Что вы оставили
-Просматривайте по датам, что случилось, какое было настроение и что вы собирались попробовать дальше.
+Ваши записи
+Просматривайте по датам, что случилось, что вы чувствовали и что собирались попробовать дальше.
 
 Виджет и напоминания
-Фраза от камешка на экране «Домой» и мягкое напоминание в выбранное вами время, чтобы вместе посмотреть, как прошёл день.
+Фраза от друга на экране «Домой» и мягкое напоминание в выбранное вами время, чтобы вспомнить, как прошёл день.
 
 Только для вас
 Без регистрации и без рекламы. Записи хранятся только на вашем устройстве и в вашем личном iCloud, а приложение можно закрыть код-паролем. Написанное вами никогда не отправляется разработчику.
 
-ZINGGUMDOL PRO
-В бесплатной версии можно вести до трёх целей. Разовая покупка (не подписка) снимает ограничение на число целей, открывает шесть фактур камешка и позволяет экспортировать записи в текстовый файл.
+MOCHIMO PRO
+Бесплатно можно вести до трёх целей. Разовая покупка, а не подписка, снимает ограничение на число целей, открывает шесть цветов для друга и экспорт записей в текстовый файл.
 
 ### 지원 URL
 
@@ -405,46 +424,49 @@ https://m1zz.github.io/Rebound-Journal/ru/
 
 ### 이름
 
-ZinggumDol: diario de fallos
+Mochimo: diario de fallos
 
 ### 부제
 
-Habla con un guijarro
+Tu día con un amigo blandito
 
 ### 키워드
 
-reflexión,autoestima,emociones,hábitos,crecimiento,estrés,ansiedad,errores,resiliencia,mindfulness
+reflexión,autoestima,emociones,hábitos,crecimiento,estrés,ansiedad,errores,resiliencia,metas,ánimo
 
 ### 프로모션 텍스트
 
-Dar un mal paso no es caer al arroyo. Repasa los días que no salieron como querías con un guijarro que te habla primero y recuerda lo que le contaste.
+¿Un mal día? No pasa nada. Repásalo con un amigo mochi blandito que te habla primero y recuerda lo que le contaste la última vez.
 
 ### 설명
 
-Dar un mal paso no es caer al arroyo. ZinggumDol es un diario amable para los días que no salieron como querías: charlas con un guijarro y, poco a poco, repasas lo que pasó.
+¿Un mal día? No pasa nada. Mochimo es un diario amable en el que repasas tu día charlando con un amigo mochi, suave y blandito.
 
-El guijarro habla primero. Recuerda lo que le contaste la última vez y te pregunta: «¿Y qué pasó después?». Elige una respuesta o escribe la tuya. Quedan anotados lo que pasó, cómo te sentías y lo que quieres probar a continuación.
+Tu amigo habla primero. Recuerda lo que le contaste la última vez y te pregunta qué tal fue después. Toca una respuesta o escribe la tuya, y guarda lo que pasó, cómo te sentiste y lo que quieres probar la próxima vez.
 
-Charla con el guijarro
-Fija una meta y el guijarro se fijará en hasta dónde llegas y qué te frena. Si un día se te escapa, te preguntará «¿qué se interpuso?», no «¿qué hiciste mal?».
+Nueve amigos blanditos
+Elige quién te acompaña: un conejito, un hámster, un gato, un osito, una foca, un mapache, un capibara, un kiwi o un monito. Tócalo, apriétalo o acarícialo y se bambolea como un mochi recién hecho.
+
+Hablarlo juntos
+Fija una meta y tu amigo llevará la cuenta de los días que lo lograste y de los días que te atascaste. Si un día se te escapa, te pregunta qué se interpuso, nunca qué hiciste mal.
 
 Dilo en voz alta
-En los días en que escribir pesa, basta con hablar. El reconocimiento de voz se hace en tu dispositivo y la grabación no se guarda. En los dispositivos compatibles, lo que dices además se ordena para que se lea mejor.
+Los días en que escribir se hace cuesta arriba, dilo en voz alta. La voz se reconoce en tu dispositivo, las grabaciones nunca se guardan y, en los dispositivos compatibles, tus palabras se ordenan para que se lean mejor.
 
 Camino recorrido
-Cada semana se coloca como una hilera de piedras para cruzar el arroyo. Los días en que no pisaste siguen ahí; no se borra nada.
+Cada semana aparece como siete mochis pequeñitos. Los días que lo lograste se tiñen de verde matcha y los días que solo pasaste a contar se vuelven dorados. Los días que faltaste también se quedan ahí. No se borra nada.
 
-Lo que dejaste
-Revisa por fecha lo que pasó, cómo te sentías y lo que querías probar después.
+Lo que has escrito
+Repasa por fecha lo que pasó, cómo te sentiste y lo que querías probar después.
 
 Widget y avisos
-Una frase del guijarro en la pantalla de inicio y un aviso suave a la hora que elijas para ver juntos cómo te fue el día.
+Una frase de tu amigo en la pantalla de inicio y un aviso suave a la hora que elijas para repasar tu día.
 
 Solo tuyo
-Sin registro y sin anuncios. Tus registros se guardan solo en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código. Lo que escribes nunca se envía al desarrollador.
+Sin registro y sin anuncios. Tus registros se quedan en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código. Nada de lo que escribes se envía nunca al desarrollador.
 
-ZINGGUMDOL PRO
-La versión gratuita admite hasta tres metas. Con una compra única (no es una suscripción) tienes metas sin límite, eliges entre seis acabados de guijarro y exportas tus registros a un archivo de texto.
+MOCHIMO PRO
+Gratis con hasta tres metas. Una compra única, no una suscripción, desbloquea metas ilimitadas, seis colores para tu amigo y la exportación de tus registros a un archivo de texto.
 
 ### 지원 URL
 
@@ -462,46 +484,49 @@ https://m1zz.github.io/Rebound-Journal/es/
 
 ### 이름
 
-ZinggumDol: Tagebuch
+Mochimo: Tagebuch
 
 ### 부제
 
-Im Gespräch mit einem Kiesel
+Mit Mochi-Freund zurückschauen
 
 ### 키워드
 
-Rückblick,Reflexion,Stimmung,Gefühle,Gewohnheiten,Wachstum,Stress,Angst,Fehler,Resilienz,Selbstliebe
+Rückblick,Reflexion,Stimmung,Gefühle,Gewohnheiten,Wachstum,Stress,Angst,Fehler,Resilienz,Ziele
 
 ### 프로모션 텍스트
 
-Ein Fehltritt heißt nicht, dass du in den Bach gefallen bist. Blicke auf Tage zurück, die anders liefen – mit einem Kiesel, der zuerst fragt und sich erinnert.
+Blöder Tag? Ist okay. Schau mit einem knautschigen Mochi-Freund darauf zurück, der dich zuerst anspricht und sich merkt, was du ihm erzählt hast.
 
 ### 설명
 
-Ein Fehltritt heißt nicht, dass du in den Bach gefallen bist. ZinggumDol ist ein sanftes Tagebuch für die Tage, die anders gelaufen sind als geplant: Du sprichst mit einem Kiesel und schaust in Ruhe auf das, was passiert ist.
+Blöder Tag? Ist okay. Mochimo ist ein sanftes Tagebuch, in dem du auf deinen Tag zurückschaust, indem du mit einem weichen, knautschigen Mochi-Freund plauderst.
 
-Der Kiesel spricht zuerst. Er erinnert sich an das, was du ihm zuletzt erzählt hast, und fragt: „Wie ging es danach weiter?“ Wähle eine Antwort oder schreibe selbst. Festgehalten werden, was passiert ist, wie du dich gefühlt hast und was du als Nächstes ausprobieren möchtest.
+Dein Freund spricht dich zuerst an. Er weiß noch, was du ihm beim letzten Mal erzählt hast, und fragt, wie es seitdem gelaufen ist. Tippe auf eine Antwort oder schreib selbst und halte fest, was passiert ist, wie du dich gefühlt hast und was du als Nächstes ausprobieren willst.
 
-Im Gespräch mit dem Kiesel
-Lege ein Ziel fest, und der Kiesel achtet darauf, wie weit du gekommen bist und was dich aufhält. Wenn ein Tag ausfällt, fragt er „Was ist dir in die Quere gekommen?“ – nicht „Was hast du falsch gemacht?“.
+Neun knautschige Freunde
+Such dir aus, wer dir Gesellschaft leistet: Häschen, Hamster, Katze, Bär, Sattelrobbe, Waschbär, Capybara, Kiwi oder Äffchen. Stups, drück oder streichle ihn, und er wackelt wie ein frischer Reiskuchen.
+
+Darüber reden
+Leg ein Ziel fest, und dein Freund behält im Blick, an welchen Tagen du es geschafft hast und wo du festhingst. Rutscht ein Tag durch, fragt er, was dazwischenkam, und nie, was du falsch gemacht hast.
 
 Einfach aussprechen
-An Tagen, an denen Schreiben zu viel ist, sprichst du einfach. Die Spracherkennung läuft auf deinem Gerät, die Aufnahme wird nicht gespeichert. Auf unterstützten Geräten wird das Gesagte zusätzlich so geordnet, dass es sich gut liest.
+An Tagen, an denen Schreiben zu viel ist, sag es einfach laut. Die Sprache wird auf deinem Gerät erkannt, Aufnahmen werden nie gespeichert, und auf unterstützten Geräten werden deine Worte so geglättet, dass sie sich gut lesen.
 
-Zurückgelegter Weg
-Jede Woche reiht sich zu Trittsteinen aneinander. Auch Tage, auf die du nicht getreten bist, bleiben dort – nichts wird gelöscht.
+Dein bisheriger Weg
+Jede Woche liegt vor dir als sieben kleine Mochi. Tage, an denen du es geschafft hast, werden matchagrün, Tage, an denen du nur vorbeigeschaut hast, goldgelb. Auch die verpassten Tage bleiben stehen. Nichts wird gelöscht.
 
-Was du hinterlassen hast
+Was du festgehalten hast
 Sieh dir nach Datum an, was passiert ist, wie du dich gefühlt hast und was du als Nächstes ausprobieren wolltest.
 
 Widget und Erinnerungen
-Ein Satz vom Kiesel auf dem Home-Bildschirm und eine sanfte Erinnerung zu der Zeit, die du wählst, um gemeinsam auf den Tag zu schauen.
+Ein Satz von deinem Freund auf dem Home-Bildschirm und eine sanfte Erinnerung zu der Uhrzeit, die du wählst, um auf deinen Tag zu schauen.
 
 Nur für dich
-Keine Registrierung, keine Werbung. Deine Einträge liegen nur auf deinem Gerät und in deinem eigenen iCloud, und die App lässt sich mit einem Code sperren. Was du schreibst, wird nie an den Entwickler gesendet.
+Keine Registrierung, keine Werbung. Deine Einträge bleiben auf deinem Gerät und in deinem eigenen iCloud, und du kannst die App mit einem Code sperren. Nichts, was du schreibst, wird jemals an den Entwickler gesendet.
 
-ZINGGUMDOL PRO
-Kostenlos sind bis zu drei Ziele möglich. Mit einem einmaligen Kauf (kein Abo) notierst du Ziele ohne Limit, wählst aus sechs Kiesel-Oberflächen und exportierst deine Einträge als Textdatei.
+MOCHIMO PRO
+Kostenlos mit bis zu drei Zielen. Ein einmaliger Kauf, kein Abo, schaltet unbegrenzt viele Ziele frei, sechs Farben für deinen Freund und den Export deiner Einträge als Textdatei.
 
 ### 지원 URL
 
@@ -519,46 +544,49 @@ https://m1zz.github.io/Rebound-Journal/de/
 
 ### 이름
 
-ZinggumDol : journal intime
+Mochimo : journal intime
 
 ### 부제
 
-Parlez à un petit galet
+Un ami moelleux à qui parler
 
 ### 키워드
 
-introspection,humeur,émotions,habitudes,croissance,stress,anxiété,erreurs,résilience
+introspection,humeur,émotions,habitudes,croissance,stress,anxiété,erreurs,résilience,objectifs,bilan
 
 ### 프로모션 텍스트
 
-Un faux pas ne veut pas dire que vous êtes tombé dans le ruisseau. Revenez sur les jours qui n’ont pas tourné comme prévu avec un galet qui parle le premier.
+Journée difficile ? Ce n’est pas grave. Revenez-y avec un petit ami mochi tout doux qui parle le premier et se souvient de ce que vous lui avez confié.
 
 ### 설명
 
-Un faux pas ne veut pas dire que vous êtes tombé dans le ruisseau. ZinggumDol est un journal tout en douceur pour les jours qui n’ont pas tourné comme prévu : vous parlez avec un galet et revenez calmement sur ce qui s’est passé.
+Journée difficile ? Ce n’est pas grave. Mochimo est un journal tout en douceur où vous revenez sur votre journée en bavardant avec un petit ami mochi, moelleux et tout doux.
 
-Le galet parle le premier. Il se souvient de ce que vous lui avez dit la dernière fois et demande : « Et ensuite, comment ça s’est passé ? » Choisissez une réponse ou écrivez la vôtre. Restent notés ce qui s’est passé, ce que vous ressentiez et ce que vous voulez essayer ensuite.
+Votre ami parle le premier. Il se souvient de ce que vous lui avez raconté la dernière fois et vous demande comment les choses ont tourné depuis. Touchez une réponse ou écrivez la vôtre, et gardez une trace de ce qui s’est passé, de ce que vous avez ressenti et de ce que vous essaierez ensuite.
 
-Parler avec le galet
-Fixez un objectif, et le galet observe où vous en êtes arrivé et ce qui vous retient. Quand un jour a été manqué, il demande « Qu’est-ce qui vous a retenu ? », pas « Qu’avez-vous fait de mal ? ».
+Neuf amis tout doux
+Choisissez qui vous tient compagnie : un lapin, un hamster, un chat, un ours, un phoque, un raton laveur, un capybara, un kiwi ou un singe. Touchez-le, pressez-le ou caressez-le, et il gigote comme un mochi tout juste préparé.
+
+En parler ensemble
+Fixez un objectif, et votre ami note les jours où vous y êtes arrivé et ceux où vous avez bloqué. Quand un jour vous échappe, il demande ce qui vous a freiné, jamais ce que vous avez mal fait.
 
 Le dire à voix haute
-Les jours où écrire est trop, il suffit de parler. La reconnaissance vocale se fait sur votre appareil et l’enregistrement n’est pas conservé. Sur les appareils compatibles, ce que vous dites est aussi mis en forme pour se lire facilement.
+Les jours où écrire, c’est trop, dites-le simplement. La parole est reconnue sur votre appareil, les enregistrements ne sont jamais conservés et, sur les appareils compatibles, vos mots sont remis en forme pour se lire facilement.
 
 Chemin parcouru
-Chaque semaine s’aligne comme une rangée de pierres pour traverser le ruisseau. Les jours où vous n’avez pas posé le pied restent là : rien n’est effacé.
+Chaque semaine s’affiche en sept petits mochis. Les jours réussis prennent une teinte vert matcha, ceux où vous êtes simplement passé deviennent dorés. Les jours manqués restent là eux aussi. Rien n’est effacé.
 
-Ce que vous avez laissé
+Ce que vous avez écrit
 Retrouvez par date ce qui s’est passé, ce que vous ressentiez et ce que vous vouliez essayer ensuite.
 
 Widget et rappels
-Un mot du galet sur l’écran d’accueil et un rappel tout doux à l’heure de votre choix pour regarder ensemble comment s’est passée la journée.
+Un mot de votre ami sur l’écran d’accueil et un rappel tout doux à l’heure de votre choix pour faire le point sur votre journée.
 
 Rien que pour vous
-Sans inscription et sans publicité. Vos notes ne sont conservées que sur votre appareil et dans votre propre iCloud, et vous pouvez verrouiller l’app par un code. Ce que vous écrivez n’est jamais envoyé au développeur.
+Sans inscription et sans publicité. Vos notes restent sur votre appareil et dans votre propre iCloud, et vous pouvez verrouiller l’app par un code. Rien de ce que vous écrivez n’est envoyé au développeur.
 
-ZINGGUMDOL PRO
-La version gratuite permet jusqu’à trois objectifs. Un achat unique (pas un abonnement) permet d’en noter autant que vous voulez, de choisir parmi six aspects de galet et d’exporter vos notes dans un fichier texte.
+MOCHIMO PRO
+Gratuit jusqu’à trois objectifs. Un achat unique, et non un abonnement, débloque les objectifs illimités, six couleurs pour votre ami et l’export de vos notes dans un fichier texte.
 
 ### 지원 URL
 
@@ -576,46 +604,49 @@ https://m1zz.github.io/Rebound-Journal/fr/
 
 ### 이름
 
-ZinggumDol: diario gentile
+Mochimo: diario gentile
 
 ### 부제
 
-Parla con un sassolino
+Parla con un amico morbidoso
 
 ### 키워드
 
-riflessione,umore,emozioni,abitudini,crescita,stress,ansia,errori,resilienza,autostima,mindfulness
+riflessione,umore,emozioni,abitudini,crescita,stress,ansia,errori,resilienza,autostima,obiettivi
 
 ### 프로모션 텍스트
 
-Un passo falso non significa essere caduti nel ruscello. Ripensa ai giorni andati storti con un sassolino che parla per primo e si ricorda le tue parole.
+Giornata storta? Va bene così. Ripensaci insieme a un morbido amico mochi che parla per primo e si ricorda quello che gli hai raccontato l’ultima volta.
 
 ### 설명
 
-Un passo falso non significa essere caduti nel ruscello. ZinggumDol è un diario gentile per i giorni che non sono andati come volevi: parli con un sassolino e ripensi con calma a ciò che è successo.
+Giornata storta? Va bene così. Mochimo è un diario gentile in cui ripensi alla tua giornata chiacchierando con un amico mochi, morbido e gommoso.
 
-Il sassolino parla per primo. Ricorda quello che gli hai raccontato l’ultima volta e chiede: «E poi, com’è andata?» Scegli una risposta o scrivi la tua. Restano annotati ciò che è successo, come ti sentivi e cosa vuoi provare dopo.
+Il tuo amico parla per primo. Si ricorda quello che gli hai raccontato l’ultima volta e ti chiede com’è andata poi. Tocca una risposta o scrivi la tua, e tieni traccia di cosa è successo, come ti sei sentito e cosa proverai la prossima volta.
 
-Parla con il sassolino
-Stabilisci un obiettivo e il sassolino terrà d’occhio dove sei arrivato e cosa ti ostacola. Se un giorno salta, ti chiede «Cosa ti ha ostacolato?», non «Cosa hai sbagliato?».
+Nove amici morbidosi
+Scegli chi ti fa compagnia: un coniglietto, un criceto, un gatto, un orsetto, una foca, un procione, un capibara, un kiwi o una scimmietta. Toccalo, schiaccialo o accarezzalo e ondeggia come un mochi appena fatto.
+
+Parlarne insieme
+Stabilisci un obiettivo e il tuo amico tiene il conto dei giorni in cui ce l’hai fatta e di quelli in cui ti sei bloccato. Se un giorno ti sfugge, ti chiede cosa si è messo di mezzo, mai cosa hai sbagliato.
 
 Dillo a voce
-Nei giorni in cui scrivere pesa, basta parlare. Il riconoscimento vocale avviene sul tuo dispositivo e la registrazione non viene salvata. Sui dispositivi compatibili, ciò che dici viene anche riordinato per leggersi meglio.
+Nei giorni in cui scrivere pesa troppo, dillo ad alta voce. La voce viene riconosciuta sul dispositivo, le registrazioni non vengono mai salvate e, sui dispositivi compatibili, le tue parole vengono sistemate per leggersi meglio.
 
 Strada percorsa
-Ogni settimana si dispone come una fila di pietre per attraversare il ruscello. Anche i giorni in cui non hai messo piede restano lì: niente viene cancellato.
+Ogni settimana prende la forma di sette piccoli mochi. I giorni in cui ce l’hai fatta diventano verde matcha, quelli in cui sei solo passato a raccontare diventano dorati. Anche i giorni saltati restano lì. Niente viene cancellato.
 
-Quello che hai lasciato
+Quello che hai scritto
 Rivedi per data cosa è successo, come ti sentivi e cosa volevi provare dopo.
 
 Widget e promemoria
-Una frase del sassolino nella schermata Home e un promemoria delicato all’ora che scegli, per guardare insieme com’è andata la giornata.
+Una frase del tuo amico nella schermata Home e un promemoria delicato all’ora che scegli per ripensare alla tua giornata.
 
 Solo tuo
-Nessuna registrazione, nessuna pubblicità. Le tue note restano solo sul tuo dispositivo e nel tuo iCloud, e puoi bloccare l’app con un codice. Ciò che scrivi non viene mai inviato allo sviluppatore.
+Nessuna registrazione, nessuna pubblicità. Le tue note restano sul tuo dispositivo e nel tuo iCloud, e puoi bloccare l’app con un codice. Nulla di ciò che scrivi viene mai inviato allo sviluppatore.
 
-ZINGGUMDOL PRO
-La versione gratuita permette fino a tre obiettivi. Con un acquisto singolo (non è un abbonamento) annoti obiettivi senza limiti, scegli tra sei finiture di sassolino ed esporti le note in un file di testo.
+MOCHIMO PRO
+Gratis fino a tre obiettivi. Un acquisto singolo, non un abbonamento, sblocca obiettivi illimitati, sei colori per il tuo amico e l’esportazione delle note in un file di testo.
 
 ### 지원 URL
 
@@ -633,46 +664,49 @@ https://m1zz.github.io/Rebound-Journal/it/
 
 ### 이름
 
-ZinggumDol: diário de tropeços
+Mochimo: diário de tropeços
 
 ### 부제
 
-Converse com uma pedrinha
+Converse com um amigo fofinho
 
 ### 키워드
 
-reflexão,humor,emoções,hábitos,crescimento,estresse,ansiedade,erros,resiliência,autoestima
+reflexão,humor,emoções,hábitos,crescimento,estresse,ansiedade,erros,resiliência,autoestima,metas
 
 ### 프로모션 텍스트
 
-Um passo em falso não é cair no riacho. Revisite os dias que não saíram como planejado com uma pedrinha que puxa a conversa e lembra do que você contou.
+Dia difícil? Tudo bem. Relembre o dia com um amigo mochi fofinho que puxa a conversa e lembra o que você contou da última vez.
 
 ### 설명
 
-Um passo em falso não é cair no riacho. O ZinggumDol é um diário gentil para os dias que não saíram como você queria: você conversa com uma pedrinha e relembra com calma o que aconteceu.
+Dia difícil? Tudo bem. O Mochimo é um diário gentil em que você relembra o seu dia batendo papo com um amigo mochi macio e fofinho.
 
-A pedrinha fala primeiro. Ela lembra o que você contou da última vez e pergunta: «E o que aconteceu depois?» Escolha uma resposta ou escreva a sua. Ficam registrados o que aconteceu, como você se sentiu e o que quer tentar em seguida.
+O seu amigo puxa a conversa. Ele lembra o que você contou da última vez e pergunta como as coisas andaram desde então. Toque em uma resposta ou escreva a sua e guarde o que aconteceu, como você se sentiu e o que vai tentar na próxima.
 
-Converse com a pedrinha
-Defina uma meta e a pedrinha acompanha até onde você chegou e o que travou. Se um dia escapou, ela pergunta «o que atrapalhou?», e não «o que você fez de errado?».
+Nove amigos fofinhos
+Escolha quem vai te fazer companhia: coelhinho, hamster, gatinho, ursinho, foca, guaxinim, capivara, kiwi ou macaquinho. Cutuque, aperte ou faça carinho e ele balança como um mochi fresquinho.
+
+Conversem sobre isso
+Defina uma meta e o seu amigo acompanha os dias em que você conseguiu e os dias em que travou. Quando um dia escapa, ele pergunta o que atrapalhou, nunca o que você fez de errado.
 
 Fale em voz alta
-Nos dias em que escrever pesa, basta falar. O reconhecimento de voz acontece no seu dispositivo e a gravação não é salva. Em dispositivos compatíveis, o que você diz também é organizado para ficar mais fácil de ler.
+Nos dias em que escrever pesa, é só falar. A voz é reconhecida no seu dispositivo, as gravações nunca são salvas e, em dispositivos compatíveis, suas palavras são organizadas para ficarem fáceis de ler.
 
 Caminho percorrido
-Cada semana vira uma fileira de pedras para atravessar o riacho. Os dias em que você não pisou continuam lá; nada é apagado.
+Cada semana aparece como sete mochis pequeninos. Os dias em que você conseguiu ficam verde matcha, e os dias em que você só passou para contar ficam dourados. Os dias perdidos continuam lá também. Nada é apagado.
 
-O que você deixou
+O que você escreveu
 Revise por data o que aconteceu, como você se sentiu e o que queria tentar depois.
 
 Widget e lembretes
-Uma frase da pedrinha na tela de início e um lembrete suave no horário que você escolher, para olharem juntos como foi o dia.
+Uma frase do seu amigo na tela de início e um lembrete suave no horário que você escolher para relembrar o seu dia.
 
 Só seu
-Sem cadastro e sem anúncios. Seus registros ficam apenas no seu dispositivo e no seu próprio iCloud, e você pode bloquear o app com um código. O que você escreve nunca é enviado ao desenvolvedor.
+Sem cadastro e sem anúncios. Seus registros ficam no seu dispositivo e no seu próprio iCloud, e você pode bloquear o app com um código. Nada do que você escreve é enviado ao desenvolvedor.
 
-ZINGGUMDOL PRO
-A versão grátis permite até três metas. Com uma compra única (não é assinatura), você anota metas sem limite, escolhe entre seis acabamentos de pedrinha e exporta seus registros em um arquivo de texto.
+MOCHIMO PRO
+Grátis com até três metas. Uma compra única, não uma assinatura, libera metas ilimitadas, seis cores para o seu amigo e a exportação dos registros em um arquivo de texto.
 
 ### 지원 URL
 
@@ -690,46 +724,49 @@ https://m1zz.github.io/Rebound-Journal/pt-BR/
 
 ### 이름
 
-ZinggumDol: ไดอารี่ความผิดพลาด
+Mochimo: ไดอารี่ความผิดพลาด
 
 ### 부제
 
-คุยกับก้อนหินเล็กๆ
+คุยกับเพื่อนโมจินุ่มนิ่ม
 
 ### 키워드
 
-ไดอารี่,บันทึกอารมณ์,ทบทวนตัวเอง,สุขภาพจิต,ความเครียด,ความกังวล,นิสัย,พัฒนาตนเอง,กำลังใจ,ล้มเหลว
+บันทึกอารมณ์,ทบทวนตัวเอง,สุขภาพจิต,ความเครียด,ความกังวล,พัฒนาตนเอง,กำลังใจ,ล้มเหลว,เป้าหมาย,ฮีลใจ
 
 ### 프로모션 텍스트
 
-พลาดก้าวหนึ่งไม่ได้แปลว่าตกลงไปในลำธาร ย้อนมองวันที่ไม่เป็นดังใจไปกับก้อนหินเล็กๆ ที่ทักก่อนและจำสิ่งที่คุณเล่าได้
+วันที่ไม่เป็นดังใจก็ไม่เป็นไรนะ ย้อนมองวันนี้ช้าๆ ไปกับเพื่อนโมจินุ่มนิ่มที่ทักคุณก่อนและจำเรื่องที่คุณเล่าครั้งก่อนได้
 
 ### 설명
 
-พลาดก้าวหนึ่งไม่ได้แปลว่าตกลงไปในลำธาร ZinggumDol เป็นไดอารี่อ่อนโยนสำหรับวันที่ไม่เป็นดังใจ คุณจะได้คุยกับก้อนหินเล็กๆ และค่อยๆ ย้อนมองสิ่งที่เกิดขึ้น
+วันที่ไม่เป็นดังใจก็ไม่เป็นไรนะ Mochimo คือไดอารี่แสนอ่อนโยนที่ให้คุณย้อนมองวันของตัวเอง เหมือนได้นั่งคุยกับเพื่อนโมจินุ่มนิ่ม
 
-ก้อนหินจะเป็นฝ่ายทักก่อน มันจำสิ่งที่คุณเล่าครั้งก่อนได้ และถามว่า “แล้วหลังจากนั้นเป็นยังไงบ้าง” เลือกคำตอบที่มีให้หรือเขียนเองก็ได้ สิ่งที่เกิดขึ้น ความรู้สึกในตอนนั้น และสิ่งที่อยากลองทำต่อไปจะถูกบันทึกไว้
+เพื่อนจะเป็นฝ่ายทักก่อน มันจำเรื่องที่คุณเล่าครั้งก่อนได้ และถามว่าหลังจากนั้นเป็นยังไงบ้าง แตะเลือกคำตอบหรือพิมพ์เองก็ได้ สิ่งที่เกิดขึ้น ความรู้สึกในตอนนั้น และสิ่งที่อยากลองทำต่อไปจะค่อยๆ ถูกเก็บไว้
 
-คุยกับก้อนหิน
-ตั้งเป้าหมายไว้ ก้อนหินจะคอยดูว่าคุณไปถึงไหนและติดขัดตรงไหน ถ้าวันไหนพลาดไป มันจะถามว่า “อะไรที่ทำให้สะดุด” ไม่ใช่ “ทำอะไรผิดไป”
+เพื่อนนุ่มนิ่มเก้าตัว
+เลือกเพื่อนที่จะอยู่ข้างๆ คุณจากกระต่าย แฮมสเตอร์ แมว หมี แมวน้ำฮาร์ป แรคคูน คาปิบารา นกกีวี และลิง ลองจิ้ม บีบ หรือลูบเบาๆ แล้วเพื่อนจะดุ๊กดิ๊กหนึบหนับเหมือนโมจิที่เพิ่งทำเสร็จใหม่ๆ
+
+คุยกับเพื่อน
+ตั้งเป้าหมายไว้ แล้วเพื่อนจะคอยดูไปด้วยกันทั้งวันที่ทำได้และวันที่ติดขัด ถ้าวันไหนพลาดไป มันจะถามว่า “อะไรที่ทำให้สะดุด” ไม่ใช่ “ทำอะไรผิดไป”
 
 พูดออกมาได้เลย
 วันที่ไม่อยากเขียน แค่พูดก็พอ การรู้จำเสียงทำงานบนอุปกรณ์ของคุณ และไม่มีการเก็บเสียงที่บันทึกไว้ บนอุปกรณ์ที่รองรับ สิ่งที่คุณพูดจะถูกเรียบเรียงให้อ่านง่ายขึ้นด้วย
 
 เส้นทางที่ผ่านมา
-แต่ละสัปดาห์เรียงเป็นแถวหินข้ามลำธาร วันที่ไม่ได้ก้าวไปก็ยังอยู่ตรงนั้น ไม่มีอะไรถูกลบหายไป
+แต่ละสัปดาห์เรียงเป็นโมจิลูกเล็กๆ เจ็ดลูก วันที่ทำได้เป็นสีเขียวมัทฉะ วันที่แวะมาบันทึกเป็นสีเหลืองทอง วันที่ว่างไว้ก็ยังอยู่ตรงนั้น ไม่มีอะไรถูกลบหายไป
 
 สิ่งที่คุณทิ้งไว้
 ย้อนดูตามวันที่ว่าเกิดอะไรขึ้น รู้สึกอย่างไร และอยากลองทำอะไรต่อ
 
 วิดเจ็ตและการแจ้งเตือน
-เห็นคำพูดของก้อนหินบนหน้าจอโฮม และรับการแจ้งเตือนเบาๆ ตามเวลาที่เลือก เพื่อมองย้อนวันนี้ไปด้วยกัน
+เห็นคำพูดของเพื่อนบนหน้าจอโฮม และรับการแจ้งเตือนเบาๆ ตามเวลาที่เลือก เพื่อย้อนมองวันนี้ไปด้วยกัน
 
 เป็นของคุณคนเดียว
 ไม่ต้องสมัครสมาชิก ไม่มีโฆษณา บันทึกของคุณอยู่เฉพาะบนอุปกรณ์และใน iCloud ของคุณเอง และล็อกแอปด้วยรหัสผ่านได้ สิ่งที่คุณเขียนจะไม่ถูกส่งไปให้นักพัฒนาเลย
 
-ZINGGUMDOL PRO
-เวอร์ชันฟรีมีเป้าหมายได้สูงสุดสามข้อ ซื้อครั้งเดียว (ไม่ใช่การสมัครสมาชิก) เพื่อจดเป้าหมายได้ไม่จำกัด เลือกพื้นผิวก้อนหินได้หกแบบ และส่งออกบันทึกเป็นไฟล์ข้อความ
+MOCHIMO PRO
+ใช้ฟรีได้สูงสุดสามเป้าหมาย ซื้อครั้งเดียว (ไม่ใช่การสมัครสมาชิก) เพื่อตั้งเป้าหมายได้ไม่จำกัด เลือกสีให้เพื่อนได้หกสี และส่งออกบันทึกเป็นไฟล์ข้อความ
 
 ### 지원 URL
 
@@ -747,46 +784,49 @@ https://m1zz.github.io/Rebound-Journal/th/
 
 ### 이름
 
-ZinggumDol: nhật ký vấp ngã
+Mochimo: nhật ký vấp ngã
 
 ### 부제
 
-Trò chuyện cùng viên đá nhỏ
+Nhìn lại ngày cùng bé mochi
 
 ### 키워드
 
-nhật ký,tâm trạng,cảm xúc,thói quen,phát triển bản thân,căng thẳng,lo âu,sai lầm,tự trọng,chánh niệm
+tâm trạng,cảm xúc,thói quen,phát triển bản thân,căng thẳng,sai lầm,chánh niệm,mục tiêu,chữa lành
 
 ### 프로모션 텍스트
 
-Vấp một bước không có nghĩa là bạn đã ngã xuống suối. Nhìn lại những ngày không như ý cùng viên đá nhỏ luôn mở lời trước và nhớ những gì bạn kể.
+Ngày không như ý cũng không sao. Cùng bé mochi mềm mại luôn mở lời trước và nhớ những gì bạn kể lần trước, chậm rãi nhìn lại hôm nay.
 
 ### 설명
 
-Vấp một bước không có nghĩa là bạn đã ngã xuống suối. ZinggumDol là cuốn nhật ký dịu dàng dành cho những ngày không như ý: bạn trò chuyện với một viên đá nhỏ và chậm rãi nhìn lại những gì đã xảy ra.
+Ngày không như ý cũng không sao. Mochimo là cuốn nhật ký dịu dàng giúp bạn nhìn lại một ngày như đang trò chuyện với một bé mochi mềm mại.
 
-Viên đá luôn mở lời trước. Nó nhớ những gì bạn kể lần trước và hỏi: “Sau đó thì sao rồi?” Chọn một câu trả lời có sẵn hoặc tự viết. Chuyện đã xảy ra, tâm trạng lúc đó và điều bạn muốn thử tiếp theo sẽ được ghi lại.
+Bé luôn mở lời trước. Bé nhớ những gì bạn kể lần trước và hỏi xem sau đó mọi chuyện thế nào. Chạm vào một câu trả lời có sẵn hoặc tự viết, để chuyện đã xảy ra, cảm xúc lúc đó và điều bạn muốn thử tiếp theo được lưu lại từng chút một.
 
-Trò chuyện với viên đá
-Đặt một mục tiêu, viên đá sẽ để ý bạn đã đi tới đâu và điều gì đang vướng. Nếu bỏ lỡ một ngày, nó hỏi “Điều gì đã cản trở bạn?” chứ không hỏi “Bạn đã làm sai gì?”.
+Chín bé mochi mềm mại
+Chọn một bé ở bên bạn: thỏ, hamster, mèo, gấu, hải cẩu đàn hạc, gấu mèo, capybara, chim kiwi hoặc khỉ. Chọc, bóp hay vuốt ve, bé sẽ rung rinh dẻo quẹo như chiếc bánh mochi vừa mới làm.
+
+Trò chuyện cùng bé
+Đặt một mục tiêu, bé sẽ cùng bạn dõi theo những ngày làm được và những ngày bị vướng. Nếu bỏ lỡ một ngày, bé hỏi “Điều gì đã cản trở bạn?” chứ không hỏi “Bạn đã làm sai gì?”.
 
 Cứ nói ra
 Những ngày không muốn viết, bạn chỉ cần nói. Nhận dạng giọng nói diễn ra ngay trên thiết bị và bản ghi âm không được lưu. Trên các thiết bị được hỗ trợ, lời bạn nói còn được sắp xếp lại cho dễ đọc.
 
 Con đường đã qua
-Mỗi tuần xếp thành một hàng đá bước qua suối. Những ngày bạn chưa bước tới vẫn nằm đó; không có gì bị xóa đi.
+Mỗi tuần hiện ra thành bảy chiếc mochi nhỏ. Ngày làm được có màu xanh matcha, ngày chỉ ghé ghi lại có màu vàng óng. Những ngày bỏ trống vẫn nằm đó; không có gì bị xóa đi.
 
 Những điều bạn đã để lại
 Xem lại theo ngày chuyện gì đã xảy ra, tâm trạng ra sao và bạn muốn thử gì tiếp theo.
 
 Widget và nhắc nhở
-Thấy một câu nói của viên đá trên Màn hình chính, và nhận lời nhắc nhẹ nhàng vào giờ bạn chọn để cùng xem hôm nay thế nào.
+Thấy một câu nói của bé trên Màn hình chính, và nhận lời nhắc nhẹ nhàng vào giờ bạn chọn để cùng nhìn lại hôm nay.
 
 Chỉ của riêng bạn
 Không cần đăng ký, không có quảng cáo. Ghi chép chỉ nằm trên thiết bị và trong iCloud của chính bạn, và bạn có thể khóa ứng dụng bằng mật mã. Những gì bạn viết không bao giờ được gửi cho nhà phát triển.
 
-ZINGGUMDOL PRO
-Bản miễn phí cho phép tối đa ba mục tiêu. Mua một lần (không phải đăng ký) để ghi mục tiêu không giới hạn, chọn trong sáu kiểu bề mặt viên đá và xuất ghi chép thành tệp văn bản.
+MOCHIMO PRO
+Dùng miễn phí với tối đa ba mục tiêu. Mua một lần (không phải đăng ký) để đặt mục tiêu không giới hạn, chọn màu cho bé trong sáu màu và xuất ghi chép thành tệp văn bản.
 
 ### 지원 URL
 
@@ -804,46 +844,49 @@ https://m1zz.github.io/Rebound-Journal/vi/
 
 ### 이름
 
-ZinggumDol: deník nezdarů
+Mochimo: deník nezdarů
 
 ### 부제
 
-Povídání s oblázkem
+Den s měkoučkým kamarádem
 
 ### 키워드
 
-sebereflexe,nálada,emoce,návyky,růst,stres,úzkost,chyby,odolnost,sebevědomí,mindfulness,vděčnost
+zápisník,sebereflexe,nálada,emoce,návyky,cíle,stres,úzkost,chyby,odolnost,sebevědomí,vděčnost,mochi
 
 ### 프로모션 텍스트
 
-Klopýtnutí neznamená, že jste spadli do potoka. Ohlédněte se za dny, které nedopadly podle plánu, s oblázkem, který promluví první a pamatuje si, co jste mu řekli.
+Nevyšlo to podle plánu? Nevadí. Ohlédněte se za dnem s měkoučkým mochi kamarádem, který promluví první a pamatuje si, co jste mu řekli minule.
 
 ### 설명
 
-Klopýtnutí neznamená, že jste spadli do potoka. ZinggumDol je laskavý deník pro dny, které nedopadly podle představ: povídáte si s oblázkem a v klidu se ohlížíte za tím, co se stalo.
+Nevyšlo to podle plánu? Nevadí. Mochimo je laskavý deník, ve kterém se ohlížíte za dnem při povídání s měkoučkým kamarádem z mochi.
 
-Oblázek promluví první. Pamatuje si, co jste mu řekli minule, a zeptá se: „A jak to bylo potom?“ Vyberte odpověď, nebo napište vlastní. Zůstane zapsáno, co se stalo, jak vám bylo a co chcete zkusit dál.
+Kamarád promluví první. Pamatuje si, co jste mu řekli minule, a zeptá se, jak to bylo dál. Klepněte na odpověď, nebo napište vlastní. Zůstane zapsáno, co se stalo, jak vám bylo a co zkusíte příště.
 
-Povídání s oblázkem
-Stanovte si cíl a oblázek si všímá, kam jste se dostali a co vás zastavuje. Když se jeden den nepovede, zeptá se „Co vám stálo v cestě?“, ne „Co jste udělali špatně?“.
+Devět měkoučkých kamarádů
+Vyberte si, kdo vám bude dělat společnost: zajíček, křeček, kočka, medvěd, tuleň grónský, mýval, kapybara, kivi, nebo opička. Šťouchněte do něj, zmáčkněte ho nebo ho pohlaďte a zavlní se jako čerstvý rýžový koláček.
+
+Popovídejte si
+Stanovte si cíl a kamarád si všímá dnů, kdy se vám to povedlo, i dnů, kdy jste se zasekli. Když nějaký den uteče, zeptá se, co vám stálo v cestě, nikdy ne, co jste udělali špatně.
 
 Řekněte to nahlas
-V dnech, kdy je psaní příliš, stačí mluvit. Rozpoznávání řeči probíhá na vašem zařízení a nahrávka se neukládá. Na podporovaných zařízeních se navíc řečené upraví, aby se dobře četlo.
+V dnech, kdy je psaní příliš, stačí mluvit. Rozpoznávání řeči probíhá na vašem zařízení a nahrávka se nikdy neukládá. Na podporovaných zařízeních se navíc řečené upraví, aby se dobře četlo.
 
 Ušlá cesta
-Každý týden se seřadí jako řada kamenů přes potok. Dny, na které jste nešlápli, zůstávají na svém místě – nic se nemaže.
+Každý týden se rozloží do sedmi malých mochi. Dny, kdy se to povedlo, zezelenají jako matcha, a dny, kdy jste se jen zastavili, zezlátnou. Vynechané dny tam zůstávají také. Nic se nemaže.
 
-Co jste zanechali
-Prohlížejte si podle data, co se stalo, jak vám bylo a co jste chtěli zkusit dál.
+Co jste zapsali
+Prohlížejte si podle data, co se stalo, jak vám bylo a co zkusíte příště.
 
-Widget a upozornění
-Věta od oblázku na ploše a jemné upozornění v čas, který si vyberete, abyste se spolu podívali, jaký byl den.
+Widget a připomenutí
+Slovo od kamaráda na ploše a jemné připomenutí v čase, který si vyberete, abyste se ohlédli za svým dnem.
 
 Jen pro vás
 Bez registrace a bez reklam. Záznamy zůstávají jen ve vašem zařízení a ve vašem vlastním iCloudu a aplikaci můžete zamknout kódem. To, co píšete, se vývojáři nikdy neposílá.
 
-ZINGGUMDOL PRO
-Zdarma lze mít až tři cíle. Jednorázový nákup (ne předplatné) odemkne cíle bez omezení, výběr z šesti povrchů oblázku a export záznamů do textového souboru.
+MOCHIMO PRO
+Zdarma můžete mít až tři cíle. Jednorázový nákup (ne předplatné) odemkne cíle bez omezení, šest barev pro vašeho kamaráda a export záznamů do textového souboru.
 
 ### 지원 URL
 
@@ -861,46 +904,49 @@ https://m1zz.github.io/Rebound-Journal/cs/
 
 ### 이름
 
-ZinggumDol: dagbog
+Mochimo: dagbog
 
 ### 부제
 
-Tal med en lille sten
+Se tilbage med en blød ven
 
 ### 키워드
 
-refleksion,humør,følelser,vaner,vækst,stress,angst,fejl,robusthed,selvværd,mindfulness
+refleksion,humør,følelser,vaner,mål,stress,angst,fejl,robusthed,selvværd,mindfulness,journal
 
 ### 프로모션 텍스트
 
-Et fejltrin betyder ikke, at du er faldet i åen. Se tilbage på de dage, der ikke gik som planlagt, sammen med en sten, der taler først og husker, hvad du har fortalt.
+Gik dagen ikke som planlagt? Det er helt okay. Se tilbage på den med en blød mochi-ven, der taler først og husker, hvad du fortalte sidst.
 
 ### 설명
 
-Et fejltrin betyder ikke, at du er faldet i åen. ZinggumDol er en venlig dagbog til de dage, der ikke gik som planlagt: Du taler med en lille sten og ser i ro og mag tilbage på, hvad der skete.
+Gik dagen ikke som planlagt? Det er helt okay. Mochimo er en venlig dagbog, hvor du ser tilbage på din dag ved at snakke med en blød og nusset mochi-ven.
 
-Stenen taler først. Den husker, hvad du fortalte sidst, og spørger: „Hvordan gik det så bagefter?“ Vælg et svar, eller skriv dit eget. Det, der skete, hvordan du havde det, og hvad du vil prøve næste gang, bliver skrevet ned.
+Din ven taler først. Den husker, hvad du fortalte sidst, og spørger, hvordan det er gået siden. Tryk på et svar, eller skriv dit eget. Det, der skete, hvordan du havde det, og hvad du vil prøve næste gang, bliver gemt.
 
-Tal med stenen
-Sæt dig et mål, så holder stenen øje med, hvor langt du er nået, og hvad der står i vejen. Hvis en dag glipper, spørger den „Hvad kom i vejen?“, ikke „Hvad gjorde du forkert?“.
+Ni bløde venner
+Vælg en kanin, hamster, kat, bjørn, grønlandssæl, vaskebjørn, kapivar, kiwi eller abe til at holde dig med selskab. Prik, klem eller nus den, og den vugger som en frisk riskage.
+
+Snak om det
+Sæt dig et mål, så holder din ven øje med de dage, du nåede det, og de dage, du gik i stå. Hvis en dag glipper, spørger den, hvad der kom i vejen, aldrig hvad du gjorde forkert.
 
 Sig det højt
-På dage, hvor det er for meget at skrive, kan du bare tale. Stemmegenkendelsen sker på din enhed, og optagelsen gemmes ikke. På understøttede enheder bliver det, du siger, også ryddet op, så det er nemt at læse.
+På dage, hvor det er for meget at skrive, kan du bare tale. Stemmegenkendelsen sker på din enhed, og optagelsen gemmes aldrig. På understøttede enheder bliver det, du siger, også ryddet op, så det er nemt at læse.
 
 Vejen hidtil
-Hver uge stilles op som en række sten over åen. De dage, du ikke trådte på, bliver liggende – intet bliver slettet.
+Hver uge lægges ud som syv små mochi. Dage, hvor du nåede målet, bliver matchagrønne, og dage, hvor du bare kiggede forbi, bliver gyldne. De dage, du sprang over, bliver også liggende. Intet bliver slettet.
 
-Det, du har efterladt
-Gennemse efter dato, hvad der skete, hvordan du havde det, og hvad du ville prøve næste gang.
+Det, du har skrevet
+Se tilbage på, hvad der skete, hvordan du havde det, og hvad du vil prøve næste gang, sorteret efter dato.
 
 Widget og påmindelser
-En sætning fra stenen på hjemmeskærmen og en blid påmindelse på det tidspunkt, du vælger, så I sammen kan se på dagen.
+Et ord fra din ven på hjemmeskærmen og en blid påmindelse på det tidspunkt, du vælger, så du kan se tilbage på din dag.
 
 Kun din egen
 Ingen tilmelding og ingen reklamer. Dine noter ligger kun på din enhed og i din egen iCloud, og du kan låse appen med en kode. Det, du skriver, bliver aldrig sendt til udvikleren.
 
-ZINGGUMDOL PRO
-Den gratis version rummer op til tre mål. Med et engangskøb (ikke et abonnement) kan du skrive mål uden grænse, vælge mellem seks overflader til stenen og eksportere dine noter til en tekstfil.
+MOCHIMO PRO
+Gratis med op til tre mål. Et engangskøb (ikke et abonnement) giver dig ubegrænsede mål, seks farver til din ven og eksport af dine noter til en tekstfil.
 
 ### 지원 URL
 
@@ -918,46 +964,49 @@ https://m1zz.github.io/Rebound-Journal/da/
 
 ### 이름
 
-ZinggumDol: ημερολόγιο
+Mochimo: ημερολόγιο
 
 ### 부제
 
-Κουβέντα με ένα βότσαλο
+Κουβέντα με έναν αφράτο φίλο
 
 ### 키워드
 
-αναστοχασμός,διάθεση,συναισθήματα,συνήθειες,ανάπτυξη,άγχος,στρες,λάθη,ανθεκτικότητα,αυτοεκτίμηση
+αναστοχασμός,διάθεση,συναισθήματα,συνήθειες,ανάπτυξη,άγχος,στρες,λάθη,ανθεκτικότητα,στόχοι
 
 ### 프로모션 텍스트
 
-Ένα παραπάτημα δεν σημαίνει ότι έπεσες στο ρυάκι. Κοίτα πίσω στις μέρες που δεν πήγαν όπως ήθελες, με ένα βότσαλο που μιλά πρώτο και θυμάται τα λόγια σου.
+Δύσκολη μέρα; Δεν πειράζει. Θυμήσου τη με έναν αφράτο φίλο μότσι που μιλά πρώτος και θυμάται τι του είπες την προηγούμενη φορά.
 
 ### 설명
 
-Ένα παραπάτημα δεν σημαίνει ότι έπεσες στο ρυάκι. Το ZinggumDol είναι ένα απαλό ημερολόγιο για τις μέρες που δεν πήγαν όπως ήθελες: μιλάς με ένα βότσαλο και κοιτάς με την ησυχία σου πίσω σε ό,τι έγινε.
+Δύσκολη μέρα; Δεν πειράζει. Το Mochimo είναι ένα τρυφερό ημερολόγιο όπου κοιτάς πίσω στη μέρα σου κουβεντιάζοντας με έναν απαλό, αφράτο φίλο μότσι.
 
-Το βότσαλο μιλά πρώτο. Θυμάται όσα του είπες την προηγούμενη φορά και ρωτά: «Και πώς πήγε μετά;» Διάλεξε μια απάντηση ή γράψε τη δική σου. Καταγράφονται τι έγινε, πώς ένιωθες και τι θέλεις να δοκιμάσεις στη συνέχεια.
+Ο φίλος σου μιλά πρώτος. Θυμάται τι του είπες την προηγούμενη φορά και ρωτά πώς πήγαν τα πράγματα από τότε. Πάτησε μια απάντηση ή γράψε τη δική σου και κράτα τι έγινε, πώς ένιωσες και τι θα δοκιμάσεις την επόμενη φορά.
 
-Κουβέντα με το βότσαλο
-Όρισε έναν στόχο και το βότσαλο θα προσέχει πού έφτασες και τι σε εμποδίζει. Αν μια μέρα χαθεί, ρωτά «Τι σε εμπόδισε;», όχι «Τι έκανες λάθος;».
+Εννέα αφράτοι φίλοι
+Διάλεξε ποιος θα σου κάνει παρέα: κουνελάκι, χάμστερ, γατούλα, αρκουδάκι, φώκια, ρακούν, καπιμπάρα, πουλάκι κίβι ή μαϊμουδάκι. Σκούντα το, ζούλα το ή χάιδεψέ το και κουνιέται σαν φρεσκοφτιαγμένο μότσι.
+
+Μιλήστε το
+Όρισε έναν στόχο και ο φίλος σου κρατά λογαριασμό για τις μέρες που τα κατάφερες και τις μέρες που κόλλησες. Όταν χάνεται μια μέρα, ρωτά τι μπήκε στη μέση, ποτέ τι έκανες λάθος.
 
 Πες το φωναχτά
-Τις μέρες που το γράψιμο είναι πολύ, αρκεί να μιλήσεις. Η αναγνώριση ομιλίας γίνεται στη συσκευή σου και η ηχογράφηση δεν αποθηκεύεται. Στις συμβατές συσκευές, όσα λες οργανώνονται ώστε να διαβάζονται εύκολα.
+Τις μέρες που το γράψιμο είναι πολύ, πες το φωναχτά. Η ομιλία αναγνωρίζεται στη συσκευή σου, οι ηχογραφήσεις δεν αποθηκεύονται ποτέ και, στις συμβατές συσκευές, τα λόγια σου τακτοποιούνται ώστε να διαβάζονται εύκολα.
 
-Διαδρομή που έχεις διανύσει
-Κάθε εβδομάδα στήνεται σαν σειρά από πέτρες για να περάσεις το ρυάκι. Οι μέρες που δεν πάτησες μένουν κι αυτές εκεί – τίποτα δεν σβήνεται.
+Ο δρόμος σου ως τώρα
+Κάθε εβδομάδα απλώνεται σε επτά μικρά μότσι. Οι μέρες που τα κατάφερες γίνονται πράσινες σαν ματσά, οι μέρες που απλώς πέρασες να πεις τα νέα σου γίνονται χρυσαφένιες. Και οι μέρες που έλειψες μένουν εκεί. Τίποτα δεν σβήνεται.
 
-Όσα άφησες
+Όσα έγραψες
 Δες ανά ημερομηνία τι έγινε, πώς ένιωθες και τι ήθελες να δοκιμάσεις στη συνέχεια.
 
 Widget και υπενθυμίσεις
-Μια κουβέντα του βότσαλου στην Αρχική οθόνη και μια απαλή υπενθύμιση την ώρα που διαλέγεις, για να δείτε μαζί πώς πήγε η μέρα.
+Μια κουβέντα του φίλου σου στην Αρχική οθόνη και μια απαλή υπενθύμιση την ώρα που διαλέγεις, για να ξαναδείς τη μέρα σου.
 
 Μόνο δικό σου
-Χωρίς εγγραφή και χωρίς διαφημίσεις. Οι σημειώσεις σου μένουν μόνο στη συσκευή σου και στο δικό σου iCloud, και μπορείς να κλειδώσεις την εφαρμογή με κωδικό. Όσα γράφεις δεν στέλνονται ποτέ στον προγραμματιστή.
+Χωρίς εγγραφή και χωρίς διαφημίσεις. Οι σημειώσεις σου μένουν στη συσκευή σου και στο δικό σου iCloud, και μπορείς να κλειδώσεις την εφαρμογή με κωδικό. Τίποτα από όσα γράφεις δεν στέλνεται ποτέ στον προγραμματιστή.
 
-ZINGGUMDOL PRO
-Η δωρεάν έκδοση χωράει έως τρεις στόχους. Με μία εφάπαξ αγορά (όχι συνδρομή) γράφεις στόχους χωρίς όριο, διαλέγεις ανάμεσα σε έξι υφές βότσαλου και εξάγεις τις σημειώσεις σου σε αρχείο κειμένου.
+MOCHIMO PRO
+Δωρεάν έως τρεις στόχους. Μία εφάπαξ αγορά, όχι συνδρομή, ξεκλειδώνει απεριόριστους στόχους, έξι χρώματα για τον φίλο σου και εξαγωγή των σημειώσεων σε αρχείο κειμένου.
 
 ### 지원 URL
 
@@ -975,46 +1024,49 @@ https://m1zz.github.io/Rebound-Journal/el/
 
 ### 이름
 
-ZinggumDol: päiväkirja
+Mochimo: päiväkirja
 
 ### 부제
 
-Juttele pienen kiven kanssa
+Päivä pehmeän ystävän kanssa
 
 ### 키워드
 
-reflektio,mieliala,tunteet,tavat,kasvu,stressi,ahdistus,virheet,sinnikkyys,itsetunto,mindfulness
+reflektio,mieliala,tunteet,tavat,stressi,ahdistus,virheet,sinnikkyys,itsetunto,mindfulness
 
 ### 프로모션 텍스트
 
-Harha-askel ei tarkoita, että putosit puroon. Katso taaksepäin päiviin, jotka eivät menneet suunnitelmien mukaan, kiven kanssa, joka puhuu ensin ja muistaa kertomasi.
+Eikö päivä mennyt niin kuin piti? Ei se haittaa. Katso sitä taaksepäin pehmeän mochi-ystävän kanssa, joka puhuu ensin ja muistaa, mitä kerroit viimeksi.
 
 ### 설명
 
-Harha-askel ei tarkoita, että putosit puroon. ZinggumDol on lempeä päiväkirja päiville, jotka eivät menneet suunnitelmien mukaan: juttelet pienen kiven kanssa ja katsot rauhassa taaksepäin sitä, mitä tapahtui.
+Eikö päivä mennyt niin kuin piti? Ei se haittaa. Mochimo on lempeä päiväkirja, jossa katsot päivääsi taaksepäin jutellen pehmeän ja pullean mochi-ystävän kanssa.
 
-Kivi puhuu ensin. Se muistaa, mitä kerroit viimeksi, ja kysyy: ”Miten se meni sen jälkeen?” Valitse vastaus tai kirjoita oma. Talteen jäävät se, mitä tapahtui, miltä tuntui ja mitä aiot kokeilla seuraavaksi.
+Ystävä puhuu ensin. Se muistaa, mitä kerroit viimeksi, ja kysyy, miten asiat ovat sen jälkeen menneet. Napauta vastausta tai kirjoita oma. Talteen jäävät se, mitä tapahtui, miltä tuntui ja mitä kokeilet seuraavaksi.
 
-Juttele kiven kanssa
-Aseta tavoite, ja kivi pitää silmällä, mihin olet päässyt ja mikä on tullut vastaan. Jos päivä jää väliin, se kysyy ”Mikä tuli vastaan?”, ei ”Mitä teit väärin?”.
+Yhdeksän pehmeää ystävää
+Valitse seuraksesi pupu, hamsteri, kissa, karhu, grönlanninhylje, pesukarhu, kapybara, kiivi tai apina. Töki, purista tai silitä sitä, niin se hytkyy kuin tuore riisikakku.
+
+Juttele siitä
+Aseta tavoite, ja ystäväsi pitää kirjaa päivistä, jolloin onnistuit, ja päivistä, jolloin jäit jumiin. Jos päivä lipsahtaa ohi, se kysyy, mikä tuli vastaan, ei koskaan sitä, mitä teit väärin.
 
 Sano se ääneen
-Päivinä, kun kirjoittaminen tuntuu liialta, riittää että puhut. Puheentunnistus tapahtuu laitteellasi, eikä äänitettä tallenneta. Tuetuilla laitteilla sanomasi lisäksi jäsennetään helppolukuiseksi.
+Päivinä, kun kirjoittaminen tuntuu liialta, riittää että puhut. Puheentunnistus tapahtuu laitteellasi, eikä äänitettä koskaan tallenneta. Tuetuilla laitteilla sanomasi lisäksi jäsennetään helppolukuiseksi.
 
 Kuljettu matka
-Jokainen viikko asettuu kivirivistöksi puron yli. Päivät, joille et astunut, pysyvät siinä – mitään ei pyyhitä pois.
+Jokainen viikko asettuu seitsemäksi pieneksi mochiksi. Onnistuneet päivät muuttuvat matchanvihreiksi ja päivät, jolloin vain kävit kirjaamassa, kullankeltaisiksi. Väliin jääneetkin päivät pysyvät näkyvissä. Mitään ei pyyhitä pois.
 
-Jättämäsi asiat
-Selaa päivämäärän mukaan, mitä tapahtui, miltä tuntui ja mitä halusit kokeilla seuraavaksi.
+Kirjoittamasi
+Selaa päivämäärän mukaan, mitä tapahtui, miltä tuntui ja mitä aiot kokeilla seuraavaksi.
 
 Widget ja muistutukset
-Kiven sana Koti-valikossa ja hellä muistutus valitsemanasi aikana, jotta voitte katsoa yhdessä, millainen päivä oli.
+Ystäväsi sana Koti-valikossa ja hellä muistutus valitsemanasi aikana, jotta muistat katsoa päivääsi taaksepäin.
 
 Vain sinun
 Ei rekisteröitymistä eikä mainoksia. Merkintäsi pysyvät vain laitteellasi ja omassa iCloudissasi, ja sovelluksen voi lukita koodilla. Kirjoittamaasi ei koskaan lähetetä kehittäjälle.
 
-ZINGGUMDOL PRO
-Ilmaisversiossa voi olla enintään kolme tavoitetta. Kertaostoksella (ei tilaus) voit kirjata tavoitteita rajoituksetta, valita kuudesta kiven pinnasta ja viedä merkinnät tekstitiedostoon.
+MOCHIMO PRO
+Ilmaiseksi enintään kolme tavoitetta. Kertaostos (ei tilaus) avaa rajattomasti tavoitteita, kuusi väriä ystävällesi ja merkintöjen viennin tekstitiedostoon.
 
 ### 지원 URL
 
@@ -1032,11 +1084,11 @@ https://m1zz.github.io/Rebound-Journal/fi/
 
 ### 이름
 
-ZinggumDol: jurnal harian
+Mochimo: jurnal harian
 
 ### 부제
 
-Ngobrol dengan kerikil kecil
+Ngobrol dengan teman mochi
 
 ### 키워드
 
@@ -1044,34 +1096,37 @@ refleksi,suasana hati,emosi,kebiasaan,pertumbuhan,stres,kecemasan,kesalahan,keta
 
 ### 프로모션 텍스트
 
-Salah melangkah bukan berarti jatuh ke sungai. Tengok kembali hari-hari yang tak berjalan sesuai harapan bersama kerikil yang menyapa lebih dulu dan mengingat ceritamu.
+Hari yang berat? Tidak apa-apa. Tengok kembali hari ini bersama teman mochi kenyal yang menyapa lebih dulu dan ingat cerita Anda sebelumnya.
 
 ### 설명
 
-Salah melangkah bukan berarti jatuh ke sungai. ZinggumDol adalah jurnal lembut untuk hari-hari yang tak berjalan sesuai harapan: Anda ngobrol dengan sebuah kerikil dan pelan-pelan menengok kembali apa yang terjadi.
+Hari yang berat? Tidak apa-apa. Mochimo adalah jurnal lembut untuk menengok kembali hari Anda sambil ngobrol dengan teman mochi yang empuk dan kenyal.
 
-Kerikil menyapa lebih dulu. Ia mengingat apa yang Anda ceritakan sebelumnya dan bertanya, "Lalu bagaimana setelah itu?" Pilih salah satu jawaban atau tulis sendiri. Yang tercatat adalah apa yang terjadi, perasaan Anda saat itu, dan apa yang ingin dicoba berikutnya.
+Teman Anda menyapa lebih dulu. Ia ingat apa yang Anda ceritakan sebelumnya dan bertanya bagaimana kelanjutannya. Ketuk salah satu jawaban atau tulis sendiri, lalu apa yang terjadi, perasaan Anda saat itu, dan apa yang ingin dicoba berikutnya tersimpan sedikit demi sedikit.
 
-Ngobrol dengan kerikil
-Tetapkan sebuah tujuan, dan kerikil akan memperhatikan sampai mana Anda melangkah dan apa yang menghalangi. Jika satu hari terlewat, ia bertanya "Apa yang menghalangi?", bukan "Apa yang salah?".
+Sembilan teman kenyal
+Pilih kelinci, hamster, kucing, beruang, anjing laut harpa, rakun, kapibara, burung kiwi, atau monyet untuk menemani Anda. Colek, pencet, atau elus, dan ia akan bergoyang kenyal seperti mochi yang baru dibuat.
+
+Ngobrol dengan teman
+Tetapkan sebuah tujuan, dan teman Anda ikut memperhatikan hari-hari ketika Anda berhasil maupun tersendat. Jika satu hari terlewat, ia bertanya "Apa yang menghalangi?", bukan "Apa yang salah?".
 
 Katakan saja
 Di hari ketika menulis terasa berat, cukup bicara. Pengenalan suara berlangsung di perangkat Anda dan rekaman tidak disimpan. Di perangkat yang didukung, ucapan Anda juga dirapikan agar mudah dibaca.
 
 Jalan yang dilalui
-Setiap pekan tersusun seperti deretan batu pijakan di sungai. Hari-hari yang tak terinjak tetap ada di sana; tak ada yang terhapus.
+Setiap pekan tersusun menjadi tujuh mochi kecil. Hari ketika Anda berhasil berwarna hijau matcha, hari ketika Anda sekadar mampir mencatat berwarna kuning keemasan. Hari yang kosong tetap ada di sana; tak ada yang terhapus.
 
 Yang telah Anda tinggalkan
 Tinjau menurut tanggal apa yang terjadi, bagaimana perasaan Anda, dan apa yang ingin dicoba berikutnya.
 
 Widget dan pengingat
-Satu kalimat dari kerikil di Layar Utama dan pengingat lembut pada jam yang Anda pilih, untuk melihat bersama bagaimana hari ini berlalu.
+Lihat satu kalimat dari teman Anda di Layar Utama, dan dapatkan pengingat lembut pada jam yang Anda pilih untuk menengok hari ini.
 
 Hanya milik Anda
 Tanpa pendaftaran dan tanpa iklan. Catatan Anda hanya tersimpan di perangkat dan di iCloud Anda sendiri, dan app dapat dikunci dengan kode sandi. Apa yang Anda tulis tidak pernah dikirim ke pengembang.
 
-ZINGGUMDOL PRO
-Versi gratis memuat hingga tiga tujuan. Dengan sekali pembelian (bukan langganan), Anda bisa mencatat tujuan tanpa batas, memilih dari enam tekstur kerikil, dan mengekspor catatan sebagai berkas teks.
+MOCHIMO PRO
+Gratis hingga tiga tujuan. Dengan sekali pembelian (bukan langganan), Anda bisa mencatat tujuan tanpa batas, memilih satu dari enam warna untuk teman Anda, dan mengekspor catatan sebagai berkas teks.
 
 ### 지원 URL
 
@@ -1089,46 +1144,49 @@ https://m1zz.github.io/Rebound-Journal/id/
 
 ### 이름
 
-ZinggumDol: dagbok
+Mochimo: dagbok
 
 ### 부제
 
-Snakk med en liten stein
+Se tilbake med en myk venn
 
 ### 키워드
 
-refleksjon,humør,følelser,vaner,vekst,stress,angst,feil,motstandskraft,selvfølelse,mindfulness
+refleksjon,humør,følelser,vaner,mål,stress,angst,feil,motstandskraft,selvfølelse,mindfulness,journal
 
 ### 프로모션 텍스트
 
-Et feilsteg betyr ikke at du har falt i bekken. Se tilbake på dagene som ikke gikk som planlagt, sammen med en stein som snakker først og husker hva du har fortalt.
+Gikk ikke dagen som planlagt? Det går helt fint. Se tilbake på den med en myk mochi-venn som snakker først og husker hva du fortalte sist.
 
 ### 설명
 
-Et feilsteg betyr ikke at du har falt i bekken. ZinggumDol er en vennlig dagbok for dagene som ikke gikk som planlagt: Du snakker med en liten stein og ser i ro og mak tilbake på det som skjedde.
+Gikk ikke dagen som planlagt? Det går helt fint. Mochimo er en vennlig dagbok der du ser tilbake på dagen din ved å prate med en myk og klemmevennlig mochi-venn.
 
-Steinen snakker først. Den husker hva du fortalte sist og spør: «Hvordan gikk det etterpå?» Velg et svar eller skriv ditt eget. Det som skjedde, hvordan du hadde det og hva du vil prøve neste gang, blir skrevet ned.
+Vennen din snakker først. Den husker hva du fortalte sist og spør hvordan det har gått siden. Trykk på et svar eller skriv ditt eget. Det som skjedde, hvordan du hadde det og hva du vil prøve neste gang, blir tatt vare på.
 
-Snakk med steinen
-Sett deg et mål, så følger steinen med på hvor langt du har kommet og hva som står i veien. Hvis en dag glipper, spør den «Hva sto i veien?», ikke «Hva gjorde du galt?».
+Ni myke venner
+Velg en kanin, hamster, katt, bjørn, grønlandssel, vaskebjørn, kapybara, kiwi eller ape til å holde deg med selskap. Pirk, klem eller kos med den, så dirrer den som en fersk riskake.
+
+Snakk om det
+Sett deg et mål, så følger vennen din med på dagene du klarte det og dagene du sto fast. Hvis en dag glipper, spør den hva som kom i veien, aldri hva du gjorde galt.
 
 Si det høyt
-På dager da det er for mye å skrive, kan du bare snakke. Talegjenkjenningen skjer på enheten din, og opptaket lagres ikke. På støttede enheter blir det du sier også ryddet opp, slik at det er lett å lese.
+På dager da det er for mye å skrive, kan du bare snakke. Talegjenkjenningen skjer på enheten din, og opptaket lagres aldri. På støttede enheter blir det du sier også ryddet opp, slik at det er lett å lese.
 
 Veien så langt
-Hver uke settes opp som en rekke steiner over bekken. Dagene du ikke tråkket på, blir liggende – ingenting slettes.
+Hver uke legges ut som sju små mochi. Dager du klarte det blir matchagrønne, og dager du bare var innom blir gylne. Dagene du hoppet over blir også liggende. Ingenting slettes.
 
-Det du har lagt igjen
-Se etter dato hva som skjedde, hvordan du hadde det og hva du ville prøve neste gang.
+Det du har skrevet
+Se tilbake på hva som skjedde, hvordan du hadde det og hva du vil prøve neste gang, sortert etter dato.
 
 Widget og påminnelser
-En setning fra steinen på hjemskjermen og en mild påminnelse på tidspunktet du velger, så dere sammen kan se på hvordan dagen gikk.
+Et ord fra vennen din på Hjem-skjermen og en mild påminnelse på tidspunktet du velger, så du kan se tilbake på dagen.
 
 Bare din egen
 Ingen registrering og ingen reklame. Notatene dine ligger bare på enheten din og i din egen iCloud, og du kan låse appen med en kode. Det du skriver, blir aldri sendt til utvikleren.
 
-ZINGGUMDOL PRO
-Gratisversjonen rommer opptil tre mål. Med et engangskjøp (ikke et abonnement) kan du skrive ned mål uten grense, velge blant seks overflater til steinen og eksportere notatene til en tekstfil.
+MOCHIMO PRO
+Gratis med opptil tre mål. Et engangskjøp (ikke et abonnement) gir deg ubegrensede mål, seks farger til vennen din og eksport av notatene til en tekstfil.
 
 ### 지원 URL
 
@@ -1146,46 +1204,49 @@ https://m1zz.github.io/Rebound-Journal/nb/
 
 ### 이름
 
-ZinggumDol: dagboek
+Mochimo: dagboek
 
 ### 부제
 
-Praat met een kleine kiezel
+Terugblik met een zacht maatje
 
 ### 키워드
 
-reflectie,stemming,emoties,gewoontes,groei,stress,angst,fouten,veerkracht,zelfvertrouwen,mindfulness
+reflectie,stemming,emoties,gewoontes,stress,angst,fouten,veerkracht,zelfvertrouwen,mindfulness
 
 ### 프로모션 텍스트
 
-Een misstap betekent niet dat u in de beek bent gevallen. Blik terug op dagen die anders liepen, met een kiezel die als eerste praat en onthoudt wat u vertelde.
+Liep de dag anders dan gepland? Dat geeft niets. Blik erop terug met een zacht mochi-maatje dat als eerste praat en onthoudt wat u de vorige keer vertelde.
 
 ### 설명
 
-Een misstap betekent niet dat u in de beek bent gevallen. ZinggumDol is een zacht dagboek voor de dagen die anders liepen dan gepland: u praat met een kiezel en kijkt rustig terug op wat er gebeurde.
+Liep de dag anders dan gepland? Dat geeft niets. Mochimo is een zacht dagboek waarin u terugkijkt op uw dag door te kletsen met een zacht, knijpbaar mochi-maatje.
 
-De kiezel begint te praten. Hij onthoudt wat u de vorige keer vertelde en vraagt: “En hoe ging het daarna?” Kies een antwoord of schrijf zelf iets. Wat er gebeurde, hoe u zich voelde en wat u hierna wilt proberen, wordt vastgelegd.
+Uw maatje begint te praten. Het onthoudt wat u de vorige keer vertelde en vraagt hoe het sindsdien is gegaan. Tik op een antwoord of schrijf zelf iets. Wat er gebeurde, hoe u zich voelde en wat u hierna wilt proberen, wordt vastgelegd.
 
-Praat met de kiezel
-Stel een doel en de kiezel let op hoe ver u bent gekomen en wat u dwarszit. Als een dag misloopt, vraagt hij “Wat zat u dwars?”, niet “Wat deed u fout?”.
+Negen zachte maatjes
+Kies een konijn, hamster, kat, beer, zadelrob, wasbeer, capibara, kiwi of aapje om u gezelschap te houden. Por erin, knijp erin of aai het en het wiebelt als een verse rijstcake.
+
+Praat erover
+Stel een doel en uw maatje houdt bij op welke dagen het lukte en op welke dagen u vastliep. Glipt er een dag tussendoor, dan vraagt het wat er in de weg zat, nooit wat u fout deed.
 
 Zeg het hardop
-Op dagen dat schrijven te veel is, volstaat praten. Spraakherkenning gebeurt op uw apparaat en de opname wordt niet bewaard. Op ondersteunde apparaten wordt wat u zegt bovendien geordend zodat het prettig leest.
+Op dagen dat schrijven te veel is, volstaat praten. Spraakherkenning gebeurt op uw apparaat en de opname wordt nooit bewaard. Op ondersteunde apparaten wordt wat u zegt bovendien geordend zodat het prettig leest.
 
 Afgelegde weg
-Elke week wordt een rij stapstenen. Dagen waarop u niet stapte, blijven gewoon liggen – er wordt niets gewist.
+Elke week wordt een rij van zeven kleine mochi. Dagen waarop het lukte kleuren matchagroen, dagen waarop u alleen even langskwam kleuren goudgeel. Overgeslagen dagen blijven ook staan. Er wordt niets gewist.
 
-Wat u hebt achtergelaten
-Blader op datum door wat er gebeurde, hoe u zich voelde en wat u wilde proberen.
+Wat u hebt geschreven
+Kijk terug op wat er gebeurde, hoe u zich voelde en wat u wilde proberen, gewoon op datum.
 
 Widget en herinneringen
-Een zin van de kiezel op uw beginscherm en een zachte herinnering op een tijdstip naar keuze om samen terug te kijken op de dag.
+Een woordje van uw maatje op uw beginscherm en een zachte herinnering op een tijdstip naar keuze om terug te blikken op uw dag.
 
 Alleen van u
 Geen account en geen advertenties. Uw notities staan alleen op uw apparaat en in uw eigen iCloud, en u kunt de app met een code vergrendelen. Wat u schrijft, wordt nooit naar de ontwikkelaar gestuurd.
 
-ZINGGUMDOL PRO
-In de gratis versie passen maximaal drie doelen. Met een eenmalige aankoop (geen abonnement) noteert u onbeperkt doelen, kiest u uit zes kieseluitvoeringen en exporteert u uw notities naar een tekstbestand.
+MOCHIMO PRO
+Gratis met maximaal drie doelen. Een eenmalige aankoop (geen abonnement) geeft u onbeperkt doelen, zes kleuren voor uw maatje en export van uw notities naar een tekstbestand.
 
 ### 지원 URL
 
@@ -1203,46 +1264,49 @@ https://m1zz.github.io/Rebound-Journal/nl/
 
 ### 이름
 
-ZinggumDol: dziennik
+Mochimo: dziennik
 
 ### 부제
 
-Rozmowy z małym kamykiem
+Dzień z mięciutkim kumplem
 
 ### 키워드
 
-refleksja,nastrój,emocje,nawyki,rozwój,stres,lęk,błędy,odporność,samoocena,uważność,wdzięczność
+refleksja,nastrój,emocje,nawyki,cele,stres,lęk,błędy,odporność,samoocena,uważność,wdzięczność
 
 ### 프로모션 텍스트
 
-Potknięcie nie znaczy, że wpadłeś do strumyka. Spójrz na dni, które nie poszły po Twojej myśli, razem z kamykiem, który odzywa się pierwszy i pamięta, co mu powiedziano.
+Dzień nie poszedł po Twojej myśli? Nic nie szkodzi. Wróć do niego z mięciutkim kumplem mochi, który odzywa się pierwszy i pamięta, co mu ostatnio opowiedziałeś.
 
 ### 설명
 
-Potknięcie nie znaczy, że wpadłeś do strumyka. ZinggumDol to łagodny dziennik na dni, które nie poszły po Twojej myśli: rozmawiasz z kamykiem i w spokoju wracasz do tego, co się wydarzyło.
+Dzień nie poszedł po Twojej myśli? Nic nie szkodzi. Mochimo to łagodny dziennik, w którym wracasz do minionego dnia, gawędząc z mięciutkim kumplem mochi.
 
-Kamyk odzywa się pierwszy. Pamięta, co opowiadano mu ostatnio, i pyta: „A jak było potem?” Wybierz odpowiedź albo napisz własną. Zapisują się to, co się wydarzyło, nastrój i to, co chcesz spróbować dalej.
+Kumpel odzywa się pierwszy. Pamięta, co mu ostatnio opowiedziałeś, i pyta, co było dalej. Stuknij odpowiedź albo napisz własną. Zapisują się to, co się wydarzyło, jak się czułeś i co spróbujesz następnym razem.
 
-Rozmowa z kamykiem
-Wyznacz cel, a kamyk będzie zauważał, dokąd udało się dojść i co stanęło na drodze. Gdy jakiś dzień się nie uda, zapyta „Co stanęło na drodze?”, a nie „Co zrobiono źle?”.
+Dziewięciu mięciutkich kumpli
+Wybierz towarzysza: króliczka, chomika, kotka, misia, fokę grenlandzką, szopa pracza, kapibarę, kiwi albo małpkę. Szturchnij go, ściśnij albo pogłaszcz, a zafaluje jak świeży ryżowy przysmak.
+
+Pogadajcie o tym
+Wyznacz cel, a kumpel będzie śledził dni, w których się udało, i te, w których utknąłeś. Gdy jakiś dzień przemknie, zapyta, co stanęło na drodze, nigdy co zrobiłeś źle.
 
 Powiedz to na głos
-W dni, gdy pisanie to za dużo, wystarczy mówić. Rozpoznawanie mowy działa na Twoim urządzeniu, a nagranie nie jest zapisywane. Na obsługiwanych urządzeniach to, co mówisz, jest dodatkowo porządkowane, by łatwo się czytało.
+W dni, gdy pisanie to za dużo, wystarczy mówić. Rozpoznawanie mowy działa na Twoim urządzeniu, a nagranie nigdy nie jest zapisywane. Na obsługiwanych urządzeniach to, co mówisz, jest dodatkowo porządkowane, by łatwo się czytało.
 
 Przebyta droga
-Każdy tydzień układa się w rząd kamieni do przejścia przez strumyk. Dni, na które nie stanięto, też tam zostają – nic nie jest wymazywane.
+Każdy tydzień układa się w siedem małych mochi. Dni, w których się udało, zielenieją jak matcha, a dni, w których tylko zajrzałeś, złocą się. Pominięte dni też zostają. Nic nie jest wymazywane.
 
-To, co zostawiono
-Przeglądaj według dat, co się wydarzyło, jaki był nastrój i co chciano spróbować dalej.
+To, co zapisałeś
+Wracaj według dat do tego, co się wydarzyło, jak się czułeś i co chciałeś spróbować dalej.
 
 Widżet i przypomnienia
-Słowo od kamyka na ekranie początkowym i delikatne przypomnienie o wybranej porze, by razem spojrzeć, jak minął dzień.
+Słowo od kumpla na ekranie początkowym i delikatne przypomnienie o wybranej porze, by spojrzeć wstecz na swój dzień.
 
 Tylko Twoje
 Bez rejestracji i bez reklam. Wpisy są przechowywane tylko na Twoim urządzeniu i w Twoim własnym iCloud, a aplikację można zablokować kodem. To, co piszesz, nigdy nie trafia do programisty.
 
-ZINGGUMDOL PRO
-Wersja darmowa mieści do trzech celów. Jednorazowy zakup (to nie subskrypcja) pozwala zapisywać cele bez limitu, wybierać spośród sześciu faktur kamyka i eksportować wpisy do pliku tekstowego.
+MOCHIMO PRO
+Za darmo do trzech celów. Jednorazowy zakup (to nie subskrypcja) odblokowuje cele bez limitu, sześć kolorów dla kumpla i eksport wpisów do pliku tekstowego.
 
 ### 지원 URL
 
@@ -1260,46 +1324,49 @@ https://m1zz.github.io/Rebound-Journal/pl/
 
 ### 이름
 
-ZinggumDol: dagbok
+Mochimo: dagbok
 
 ### 부제
 
-Prata med en liten sten
+Se tillbaka med en mjuk vän
 
 ### 키워드
 
-reflektion,humör,känslor,vanor,utveckling,stress,ångest,misstag,motståndskraft,självkänsla
+reflektion,humör,känslor,vanor,mål,utveckling,stress,ångest,misstag,motståndskraft,självkänsla
 
 ### 프로모션 텍스트
 
-Ett felsteg betyder inte att du har ramlat i bäcken. Se tillbaka på dagar som inte gick som planerat tillsammans med en sten som pratar först och minns vad du berättat.
+Gick dagen inte som planerat? Det gör inget. Se tillbaka på den med en mjuk mochi-vän som pratar först och minns vad du berättade förra gången.
 
 ### 설명
 
-Ett felsteg betyder inte att du har ramlat i bäcken. ZinggumDol är en mild dagbok för dagar som inte gick som planerat: du pratar med en liten sten och tittar i lugn och ro tillbaka på vad som hände.
+Gick dagen inte som planerat? Det gör inget. Mochimo är en mild dagbok där du ser tillbaka på din dag genom att prata med en mjuk och klämbar mochi-vän.
 
-Stenen pratar först. Den minns vad du berättade förra gången och frågar: ”Hur gick det sedan?” Välj ett svar eller skriv ett eget. Det som hände, hur du mådde och vad du vill prova härnäst sparas.
+Din vän pratar först. Den minns vad du berättade förra gången och frågar hur det har gått sedan dess. Tryck på ett svar eller skriv ett eget. Det som hände, hur du mådde och vad du vill prova härnäst sparas.
 
-Prata med stenen
-Sätt ett mål, så håller stenen koll på hur långt du har kommit och vad som kommer i vägen. Om en dag missas frågar den ”Vad kom i vägen?”, inte ”Vad gjorde du fel?”.
+Nio mjuka vänner
+Välj en kanin, hamster, katt, björn, grönlandssäl, tvättbjörn, kapybara, kiwi eller apa att hålla dig sällskap. Peta, klämma eller klappa den, så dallrar den som en färsk riskaka.
+
+Prata om det
+Sätt ett mål, så håller din vän koll på dagarna du lyckades och dagarna du körde fast. Om en dag glider förbi frågar den vad som kom i vägen, aldrig vad du gjorde fel.
 
 Säg det högt
-På dagar då det är för mycket att skriva räcker det att prata. Taligenkänningen sker på din enhet och inspelningen sparas inte. På enheter som stöds ordnas dessutom det du säger så att det blir lättläst.
+På dagar då det är för mycket att skriva räcker det att prata. Taligenkänningen sker på din enhet och inspelningen sparas aldrig. På enheter som stöds ordnas dessutom det du säger så att det blir lättläst.
 
 Vägen hittills
-Varje vecka läggs ut som en rad stenar över bäcken. Dagar du inte klev på ligger kvar – ingenting raderas.
+Varje vecka läggs ut som sju små mochi. Dagar du lyckades blir matchagröna och dagar du bara tittade in blir gyllene. Dagarna du missade ligger också kvar. Ingenting raderas.
 
-Det du lämnat
-Bläddra efter datum bland vad som hände, hur du mådde och vad du ville prova härnäst.
+Det du har skrivit
+Se tillbaka på vad som hände, hur du mådde och vad du vill prova härnäst, i datumordning.
 
 Widget och påminnelser
-En mening från stenen på hemskärmen och en mild påminnelse vid den tid du väljer, så att ni tillsammans kan se hur dagen gick.
+Ett ord från din vän på hemskärmen och en mild påminnelse vid den tid du väljer, så att du kan se tillbaka på din dag.
 
 Bara din egen
 Ingen registrering och inga annonser. Dina anteckningar finns bara på din enhet och i din egen iCloud, och du kan låsa appen med en kod. Det du skriver skickas aldrig till utvecklaren.
 
-ZINGGUMDOL PRO
-Gratisversionen rymmer upp till tre mål. Med ett engångsköp (ingen prenumeration) skriver du ner mål utan gräns, väljer bland sex ytor på stenen och exporterar anteckningarna till en textfil.
+MOCHIMO PRO
+Gratis med upp till tre mål. Ett engångsköp (ingen prenumeration) ger dig obegränsat antal mål, sex färger till din vän och export av anteckningarna till en textfil.
 
 ### 지원 URL
 
@@ -1317,46 +1384,49 @@ https://m1zz.github.io/Rebound-Journal/sv/
 
 ### 이름
 
-ZinggumDol: günlük
+Mochimo: günlük
 
 ### 부제
 
-Küçük bir taşla sohbet
+Yumuşacık bir dostla sohbet
 
 ### 키워드
 
-yansıma,ruh hali,duygular,alışkanlık,gelişim,stres,kaygı,hatalar,dayanıklılık,özgüven,farkındalık
+yansıma,ruh hali,duygular,alışkanlık,stres,kaygı,hatalar,dayanıklılık,özgüven,farkındalık,mochi
 
 ### 프로모션 텍스트
 
-Yanlış bir adım, dereye düştüğünüz anlamına gelmez. İlk konuşan ve söylediklerinizi hatırlayan bir çakıl taşıyla, planlandığı gibi gitmeyen günlere bakın.
+Kötü bir gün mü geçirdiniz? Sorun değil. Önce sizinle konuşan ve geçen sefer anlattıklarınızı hatırlayan yumuşacık bir mochi dostla bugüne geri bakın.
 
 ### 설명
 
-Yanlış bir adım, dereye düştüğünüz anlamına gelmez. ZinggumDol, planlandığı gibi gitmeyen günler için yumuşak bir günlüktür: Bir çakıl taşıyla sohbet eder, olanlara sakince geri dönersiniz.
+Kötü bir gün mü geçirdiniz? Sorun değil. Mochimo, yumuşacık bir mochi dostla sohbet ederek gününüze geri baktığınız sevecen bir günlüktür.
 
-Çakıl taşı önce konuşur. Geçen sefer ona anlattıklarınızı hatırlar ve “Peki sonra ne oldu?” diye sorar. Hazır bir yanıtı seçin ya da kendiniz yazın. Olanlar, o anki ruh haliniz ve sonra denemek istedikleriniz kaydedilir.
+Sohbeti dostunuz başlatır. Geçen sefer anlattıklarınızı hatırlar ve sonrasında neler olduğunu sorar. Hazır bir yanıta dokunun ya da kendiniz yazın; olanlar, o anki hisleriniz ve sonra denemek istedikleriniz adım adım kaydedilir.
 
-Çakıl taşıyla sohbet
-Bir hedef belirleyin; çakıl taşı nereye kadar geldiğinizi ve sizi neyin engellediğini izler. Bir gün aksarsa “Sizi ne engelledi?” diye sorar, “Neyi yanlış yaptınız?” demez.
+Dokuz yumuşacık dost
+Size eşlik etmesi için tavşan, hamster, kedi, ayı, Grönland foku, rakun, kapibara, kivi kuşu ya da maymundan birini seçin. Dürtün, sıkın ya da okşayın; taze yapılmış bir mochi gibi tatlı tatlı esner.
+
+Dostunuzla sohbet
+Bir hedef belirleyin; dostunuz başardığınız ve takıldığınız günleri sizinle birlikte izler. Bir gün aksarsa “Sizi ne engelledi?” diye sorar, “Neyi yanlış yaptınız?” demez.
 
 Yüksek sesle söyleyin
 Yazmanın fazla geldiği günlerde konuşmanız yeter. Konuşma tanıma cihazınızda yapılır ve kayıt saklanmaz. Desteklenen cihazlarda söyledikleriniz ayrıca kolay okunacak şekilde düzenlenir.
 
 Kat Edilen Yol
-Her hafta, dereyi geçmek için dizilmiş bir taş sırası gibi görünür. Basmadığınız günler de orada kalır; hiçbir şey silinmez.
+Her hafta yedi küçük mochi olarak dizilir. Başardığınız günler matcha yeşili, sadece uğrayıp not aldığınız günler altın sarısı olur. Boş kalan günler de orada durur; hiçbir şey silinmez.
 
 Bıraktıklarınız
 Olanları, o anki ruh halinizi ve sonra denemek istediklerinizi tarihe göre gözden geçirin.
 
 Widget ve hatırlatmalar
-Ana Ekran’da çakıl taşından bir söz ve seçtiğiniz saatte nazik bir hatırlatma; günün nasıl geçtiğine birlikte bakın.
+Ana Ekran’da dostunuzdan bir söz ve seçtiğiniz saatte gününüze geri bakmanız için nazik bir hatırlatma.
 
 Sadece size ait
 Kayıt yok, reklam yok. Notlarınız yalnızca cihazınızda ve kendi iCloud’unuzda durur; uygulamayı parolayla kilitleyebilirsiniz. Yazdıklarınız hiçbir zaman geliştiriciye gönderilmez.
 
-ZINGGUMDOL PRO
-Ücretsiz sürümde üç hedefe kadar yazılabilir. Tek seferlik satın alma (abonelik değil) ile sınırsız hedef yazabilir, altı çakıl taşı dokusundan birini seçebilir ve notlarınızı metin dosyası olarak dışa aktarabilirsiniz.
+MOCHIMO PRO
+Üç hedefe kadar ücretsiz. Tek seferlik satın alma (abonelik değil) ile sınırsız hedef belirleyebilir, dostunuz için altı renkten birini seçebilir ve notlarınızı metin dosyası olarak dışa aktarabilirsiniz.
 
 ### 지원 URL
 

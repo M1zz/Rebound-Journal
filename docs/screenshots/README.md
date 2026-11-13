@@ -11,13 +11,13 @@ creative/<로케일>/search.png 검색 결과 3840×2560
 
 | 장 | 원본 | `-shot` | 화면 |
 |---|---|---|---|
-| 01 | 01-home | home | 조약돌이 먼저 말을 건다 (지난 기록을 기억한다) |
+| 01 | 01-home | home | 모찌 친구가 먼저 말을 건다 (지난 기록을 기억한다) |
 | 02 | 02-conversation | conversation | 해낸 날을 함께 기뻐하는 대화 |
-| 03 | 03-path | lookBack | 지나온 길 — 한 주가 징검돌 한 줄로 |
+| 03 | 03-path | lookBack | 지나온 길 — 한 주가 모찌모 한 줄로 |
 | 04 | 04-records | records | 남긴 것들 — 날짜순 기록과 다음에 해볼 것 |
-| 05 | 05-pebbles | settings | 설정 — 징검돌 프로, 조약돌 결 고르기 |
+| 05 | 05-friends | settings | 설정 — 말랑한 친구 아홉 고르기 |
 
-샘플 기록은 그 언어로 심는다(`ZinggumDol/Services/ScreenshotMode.swift` 의 `samples`).
+샘플 기록은 그 언어로 심는다(`Mochimo/Services/ScreenshotMode.swift` 의 `samples`).
 
 ## 다시 만드는 법
 
@@ -26,9 +26,9 @@ creative/<로케일>/search.png 검색 결과 3840×2560
    `xcrun simctl launch <기기> com.leeo.ReboundJournal -shot home -AppleLanguages "(de)" -AppleLocale de_DE`
    말풍선 타이핑이 끝날 때까지 기다린다(홈 약 14초, 대화 약 25초). 중간에 찍으면 말풍선이 덜 그려진다
 3. `xcrun simctl io <기기> screenshot raw/<로케일>/0N-….png`
-4. `python3 Scripts/make_marketing_screenshots.py [로케일 …]` — 문구는 `Scripts/marketing_captions.json`
-5. `python3 Scripts/make_creative_assets.py [언어 …]` — 헤더 · 검색 결과 (1장 헤드라인과 같은 이야기)
-6. `DeployBar --shotplan 징검돌` 로 언어마다 5장 · 헤더 · 검색 결과가 잡히는지 확인한다
+4. `python3 scripts/make_marketing_screenshots.py [로케일 …]` — 문구는 `scripts/marketing_captions.json`
+5. `python3 scripts/make_creative_assets.py [언어 …]` — 헤더 · 검색 결과 (1장 헤드라인과 같은 이야기)
+6. `DeployBar --shotplan 모찌모` 로 언어마다 5장 · 헤더 · 검색 결과가 잡히는지 확인한다
 
 ## 한국어와 다른 점
 

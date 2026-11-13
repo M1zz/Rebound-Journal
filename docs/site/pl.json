@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: łagodny dziennik na dni, które nie wyszły",
-  "description": "Gdy nie uda ci się cel, mały kamyk odzywa się pierwszy: co się stało, a potem jak się czujesz. Bez konta i reklam. Trzy cele za darmo.",
+  "title": "Mochimo: łagodny dziennik na dni, które nie wyszły",
+  "description": "Gdy nie uda ci się cel, mięciutki towarzysz mochi odzywa się pierwszy: co się stało, a potem jak się czujesz. Bez konta i reklam. Trzy cele za darmo.",
   "hero": {
-    "headline": "Potknięcie to jeszcze nie\nwpadnięcie do strumienia",
-    "lead": "W dniu, gdy nie zrealizujesz celu, kamyk odzywa się pierwszy. Pyta, co się stało, a nie co zrobiłeś źle, i oddaje ci fakty oraz uczucia osobno.",
+    "headline": "Gorszy dzień?\nNic nie szkodzi",
+    "lead": "W dniu, gdy nie zrealizujesz celu, towarzysz odzywa się pierwszy. Pyta, co się stało, a nie co zrobiłeś źle, i oddaje ci fakty oraz uczucia osobno.",
     "cta": "Pobierz za darmo z App Store",
     "note": "Rozmowy, wpisy i przebyta droga są za darmo. Bez konta i bez reklam."
   },
   "demo": {
-    "title": "Porozmawiaj z kamykiem",
-    "lead": "Miałeś dziś wieczorem iść na spacer i nie wyszło. Stuknij odpowiedź albo napisz własną, a kamyk odpowie tak samo jak w aplikacji.",
+    "title": "Porozmawiaj ze swoim towarzyszem mochi",
+    "lead": "Miałeś dziś wieczorem iść na spacer i nie wyszło. Stuknij odpowiedź albo napisz własną, a towarzysz odpowie tak samo jak w aplikacji.",
     "note": "Ta sama kolejność i te same zdania co w rozmowie w aplikacji. Nic, co tu wpiszesz, nie jest zapisywane.",
     "send": "Wyślij",
     "again": "Zacznij od nowa",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Gdy dzień nie idzie zgodnie z planem, obwiniasz siebie?",
-    "text": "Wieczorem po opuszczonym treningu pierwsza myśl to często „co jest ze mną nie tak?”. Gdy przyjrzysz się bliżej, były nadgodziny, padało, byłeś wykończony. ZinggumDol osobno pyta, co się stało i jak się czujesz, i kładzie jedno obok drugiego. Kiedy widzisz, że to były okoliczności, a nie brak silnej woli, łatwiej znaleźć następny mały krok."
+    "text": "Wieczorem po opuszczonym treningu pierwsza myśl to często „co jest ze mną nie tak?”. Gdy przyjrzysz się bliżej, były nadgodziny, padało, byłeś wykończony. Mochimo osobno pyta, co się stało i jak się czujesz, i kładzie jedno obok drugiego. Kiedy widzisz, że to były okoliczności, a nie brak silnej woli, łatwiej znaleźć następny mały krok."
   },
   "features": [
     {
-      "title": "Kamyk odzywa się pierwszy",
-      "text": "Ustaw cel, a kamyk będzie śledził dni, kiedy się udało, i dni, kiedy utknąłeś. Gdy dzień się wymknie, zapyta „co się stało?” zamiast „dlaczego nie?”, i pamięta, co mu ostatnio opowiedziałeś.\nGdy pisanie to za dużo, po prostu powiedz to na głos. Mowa jest rozpoznawana na urządzeniu, a nagrania nigdy nie są zapisywane.",
+      "title": "Towarzysz odzywa się pierwszy",
+      "text": "Ustaw cel, a towarzysz będzie śledził dni, kiedy się udało, i dni, kiedy utknąłeś. Gdy dzień się wymknie, zapyta „co się stało?” zamiast „dlaczego nie?”, i pamięta, co mu ostatnio opowiedziałeś.\nGdy pisanie to za dużo, po prostu powiedz to na głos. Mowa jest rozpoznawana na urządzeniu, a nagrania nigdy nie są zapisywane.",
       "shot": "02-conversation"
     },
     {
-      "title": "Twoje dni jak kamienie w strumieniu",
-      "text": "Każdy tydzień układa się w rząd kamieni. Dni, na które nie stanąłeś, też zostają; nic nie jest kasowane.\nNawet z jedną czy dwiema lukami widzisz, że droga biegnie dalej.",
+      "title": "Twój tydzień jako siedem małych mochi",
+      "text": "Każdy tydzień układa się w siedem małych mochi. Dni, które się udały, robią się zielone jak matcha, a dni, kiedy tylko zajrzałeś, złociste. Dni, które opuściłeś, też zostają; nic nie jest kasowane.\nNawet z jedną czy dwiema lukami widzisz, że tydzień trzyma się w całości.",
       "shot": "03-path"
     },
     {
       "title": "Przeczytaj, co napisałeś",
-      "text": "Co się stało, jak się czułeś i co spróbujesz następnym razem, zbiera się według dat. Przeczytaj dzień, w którym utknąłeś podobnie, a zobaczysz, co pomogło.\nWidżet pokazuje słowo od kamyka na ekranie początkowym, a przypomnienie o wybranej godzinie zaprasza, by spojrzeć wstecz na dzień.",
+      "text": "Co się stało, jak się czułeś i co spróbujesz następnym razem, zbiera się według dat. Przeczytaj dzień, w którym utknąłeś podobnie, a zobaczysz, co pomogło.\nWidżet pokazuje słowo od towarzysza na ekranie początkowym, a przypomnienie o wybranej godzinie zaprasza, by spojrzeć wstecz na dzień.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Otwórz aplikację wieczorem",
-        "text": "Kamyk zapyta, jak minął dzień. Z przypomnieniem nie zapomnisz."
+        "text": "Towarzysz zapyta, jak minął dzień. Z przypomnieniem nie zapomnisz."
       },
       {
         "title": "Stuknij albo napisz odpowiedź",
@@ -102,7 +102,7 @@
       ],
       [
         "Spojrzenie wstecz",
-        "Kamyk oddaje ci to, co się stało, i twoje uczucia osobno"
+        "Towarzysz oddaje ci to, co się stało, i twoje uczucia osobno"
       ],
       [
         "Następny krok",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Za darmo",
       "items": [
-        "Wszystkie rozmowy z kamykiem",
+        "Wszystkie rozmowy z towarzyszem",
         "Do trzech celów",
         "Mówienie zamiast pisania",
         "Przebyta droga i wszystko, co napisałeś",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Tyle celów, ile chcesz",
-        "Sześć wykończeń kamyka do wyboru",
+        "Sześć kolorów dla towarzysza",
         "Eksport wpisów do pliku tekstowego"
       ],
       "note": "Kupujesz raz i masz na zawsze. To nie subskrypcja."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Zrobiłem to, ale aplikacja twierdzi, że nie.",
-        "a": "Stuknij `Zrobione, tylko niezapisane`. Kamyk przyjmie poprawkę i zapyta, co pomogło. To, co zadziałało, zostaje zapisane i wróci, gdy następnym razem utkniesz."
+        "a": "Stuknij `Zrobione, tylko niezapisane`. Towarzysz przyjmie poprawkę i zapyta, co pomogło. To, co zadziałało, zostaje zapisane i wróci, gdy następnym razem utkniesz."
       },
       {
         "q": "Dokąd trafia to, co mówię na głos?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Ile celów mogę mieć?",
-        "a": "Trzy za darmo. Gdy skończysz z którymś, użyj `Odpuść` w Przebytej drodze, by zwolnić miejsce. Na więcej niż trzy potrzebujesz ZinggumDol Pro."
+        "a": "Trzy za darmo. Gdy skończysz z którymś, użyj `Odpuść` w Przebytej drodze, by zwolnić miejsce. Na więcej niż trzy potrzebujesz Mochimo Pro."
       },
       {
-        "q": "Czy ZinggumDol Pro to subskrypcja?",
+        "q": "Czy Mochimo Pro to subskrypcja?",
         "a": "Nie. Płacisz raz i jest twoje. Na nowym urządzeniu lub po ponownej instalacji stuknij `Przywróć zakupy` w Ustawieniach."
       },
       {
@@ -171,7 +171,7 @@
         "a": "W `Codzienne przypomnienie` w Ustawieniach włączysz je, wyłączysz i wybierzesz godzinę."
       },
       {
-        "q": "Czy kamyk przypomina mi też o sukcesach?",
+        "q": "Czy towarzysz przypomina mi też o sukcesach?",
         "a": "Tak. Pamięta, co ci pomogło, a w trudny dzień przypomina o czymś, co niedawno ci się udało."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Dziś się potknąłeś?\nNastępny kamień wciąż tam jest",
+    "headline": "Dziś nie wyszło?\nTwój towarzysz mochi na ciebie czeka",
     "cta": "Pobierz za darmo z App Store"
   },
   "ui": {

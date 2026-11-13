@@ -1,4 +1,4 @@
-# 징검돌 — 유료화 정리
+# 모찌모 — 유료화 정리
 
 > 2026-09-27 · 2.1.0 기준. 결정한 것, 그 이유, 아직 남은 판단을 적는다.
 
@@ -7,7 +7,7 @@
 **부분유료 + 평생 1회 구매.** 무료로 끝까지 쓸 수 있고, 한 번 사면 목표 개수 제한이 풀리고
 조약돌 꾸미기와 기록 내보내기가 열린다. 구독은 팔지 않는다.
 
-| | 무료 | 징검돌 프로 (평생) |
+| | 무료 | 모찌모 프로 (평생) |
 |---|---|---|
 | 조약돌과 대화하며 기록하기 | ✓ | ✓ |
 | 음성 입력 · 문장 다듬기 | ✓ | ✓ |
@@ -17,7 +17,7 @@
 | 조약돌 결 (6종) | 모래알 1종 | 6종 모두 |
 | 기록 내보내기 (텍스트 파일) | – | ✓ |
 
-상품 ID: `com.leeo.ReboundJournal.pro` (비소모성) — `App/ZinggumDolSpec.swift` 가 단일 출처.
+상품 ID: `com.leeo.ReboundJournal.pro` (비소모성) — `App/MochimoSpec.swift` 가 단일 출처.
 
 ## 2. 왜 이렇게 정했나
 
@@ -68,7 +68,7 @@
 
 ## 4. 측정
 
-FeedbackHub 사용 통계로 들어온다 (`ZinggumDolSpec.analytics` → `LeeoUsageAnalytics`).
+FeedbackHub 사용 통계로 들어온다 (`MochimoSpec.analytics` → `LeeoUsageAnalytics`).
 
 | 이벤트 | 뜻 |
 |---|---|
@@ -95,7 +95,7 @@ FeedbackHub 사용 통계로 들어온다 (`ZinggumDolSpec.analytics` → `LeeoU
 
 App Store Connect (2026-09-28, API 로 처리):
 - [x] 인앱 구매 `com.leeo.ReboundJournal.pro` 생성 (Apple ID 6816963693, 비소모성, 가족 공유 켬)
-- [x] 현지화 ko「징검돌 프로 (평생)」/ en-US「ZinggumDol Pro (Lifetime)」
+- [x] 현지화 ko「모찌모 프로 (평생)」/ en-US「Mochimo Pro (Lifetime)」
 - [x] 가격 $9.99 (기준 국가 미국, 나머지 자동 환산 — 한국 ₩17,000. 처음엔 ₩7,900 · 기준 국가 한국) · 판매 국가 175곳 전체 · 새 국가 자동 포함
 - [x] 심사 메모 (페이월 가는 길, 복원 위치)
 - [x] 버전 2.1.0 생성 (릴리즈 노트 칸은 비워 둠 — DeployBar 가 RELEASE_NOTES.md 로 채운다)

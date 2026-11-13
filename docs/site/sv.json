@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: en mild dagbok för dagar som inte blev som tänkt",
-  "description": "Missar du ett mål pratar en liten sten först: vad som hände, sedan hur du mår. Inget konto, ingen reklam. Tre mål gratis.",
+  "title": "Mochimo: en mild dagbok för dagar som inte blev som tänkt",
+  "description": "Missar du ett mål pratar en mjuk mochikompis först: vad som hände, sedan hur du mår. Inget konto, ingen reklam. Tre mål gratis.",
   "hero": {
-    "headline": "Ett snedsteg betyder inte\natt du ramlat i bäcken",
-    "lead": "Den dag du missar ditt mål är det stenen som pratar först. Den frågar vad som hände, inte vad du gjorde fel, och ger dig tillbaka händelsen och känslan var för sig.",
+    "headline": "En dålig dag?\nDet gör inget",
+    "lead": "Den dag du missar ditt mål är det kompisen som pratar först. Den frågar vad som hände, inte vad du gjorde fel, och ger dig tillbaka händelsen och känslan var för sig.",
     "cta": "Hämta gratis på App Store",
     "note": "Samtal, anteckningar och din väg är gratis. Inget konto, ingen reklam."
   },
   "demo": {
-    "title": "Prata med stenen",
-    "lead": "Du tänkte ta en kvällspromenad i dag men blev inte av. Tryck på ett svar eller skriv ett eget, så svarar stenen precis som i appen.",
+    "title": "Prata med din mochikompis",
+    "lead": "Du tänkte ta en kvällspromenad i dag men blev inte av. Tryck på ett svar eller skriv ett eget, så svarar kompisen precis som i appen.",
     "note": "Samma ordning och samma meningar som samtalet i appen. Inget du skriver här sparas.",
     "send": "Skicka",
     "again": "Börja om",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Lägger du skulden på dig själv när dagen inte blir som tänkt?",
-    "text": "Kvällen du hoppade över träningen är första tanken ofta ”vad är det för fel på mig?”. Tittar du närmare blev det övertid, det regnade och du var slut. ZinggumDol frågar vad som hände och hur du mår i olika steg och lägger dem bredvid varandra. När du ser att det var omständigheterna och inte din vilja blir nästa lilla steg lättare att hitta."
+    "text": "Kvällen du hoppade över träningen är första tanken ofta ”vad är det för fel på mig?”. Tittar du närmare blev det övertid, det regnade och du var slut. Mochimo frågar vad som hände och hur du mår i olika steg och lägger dem bredvid varandra. När du ser att det var omständigheterna och inte din vilja blir nästa lilla steg lättare att hitta."
   },
   "features": [
     {
-      "title": "Stenen pratar först",
-      "text": "Sätt ett mål så håller stenen koll på dagarna det gick och dagarna du fastnade. När en dag glider förbi frågar den ”vad hände?” i stället för ”varför inte?”, och den minns vad du berättade sist.\nDagar när det känns för tungt att skriva kan du säga det högt. Talet tolkas på enheten och inspelningar sparas aldrig.",
+      "title": "Kompisen pratar först",
+      "text": "Sätt ett mål så håller kompisen koll på dagarna det gick och dagarna du fastnade. När en dag glider förbi frågar den ”vad hände?” i stället för ”varför inte?”, och den minns vad du berättade sist.\nDagar när det känns för tungt att skriva kan du säga det högt. Talet tolkas på enheten och inspelningar sparas aldrig.",
       "shot": "02-conversation"
     },
     {
-      "title": "Dina dagar som stenar över bäcken",
-      "text": "Varje vecka ligger som en rad med stenar. Dagarna du inte klev på ligger också kvar; inget raderas.\nÄven med en lucka eller två ser du att vägen fortsätter.",
+      "title": "Din vecka som sju små mochi",
+      "text": "Varje vecka ligger som sju små mochi. Dagar du klarade det blir matchagröna, dagar du bara tittade in blir gyllene. Dagarna du missade ligger också kvar; inget raderas.\nÄven med en lucka eller två ser du att veckan hänger ihop.",
       "shot": "03-path"
     },
     {
       "title": "Läs det du skrev igen",
-      "text": "Vad som hände, hur du kände dig och vad du provar härnäst samlas i datumordning. Läs en dag när du fastnade på samma sätt och se vad som hjälpte.\nEn widget visar ett ord från stenen på hemskärmen, och en påminnelse på den tid du väljer bjuder in dig att se tillbaka på dagen.",
+      "text": "Vad som hände, hur du kände dig och vad du provar härnäst samlas i datumordning. Läs en dag när du fastnade på samma sätt och se vad som hjälpte.\nEn widget visar ett ord från kompisen på hemskärmen, och en påminnelse på den tid du väljer bjuder in dig att se tillbaka på dagen.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Öppna appen när dagen är slut",
-        "text": "Stenen frågar hur dagen var. Med en påminnelse glömmer du inte."
+        "text": "Kompisen frågar hur dagen var. Med en påminnelse glömmer du inte."
       },
       {
         "title": "Tryck eller skriv ditt svar",
@@ -102,7 +102,7 @@
       ],
       [
         "Se tillbaka",
-        "Stenen ger dig händelsen och känslan var för sig"
+        "Kompisen ger dig händelsen och känslan var för sig"
       ],
       [
         "Nästa steg",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Gratis",
       "items": [
-        "Alla samtal med stenen",
+        "Alla samtal med kompisen",
         "Upp till tre mål",
         "Prata i stället för att skriva",
         "Din väg och allt du har skrivit",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "Så många mål du vill",
-        "Välj bland sex stenytor",
+        "Välj bland sex färger till din kompis",
         "Exportera anteckningar som textfil"
       ],
       "note": "Köp en gång och behåll. Ingen prenumeration."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Jag gjorde det, men appen säger att jag inte gjorde det.",
-        "a": "Tryck på `Gjort, bara inte nedskrivet`. Stenen tar emot rättelsen och frågar i stället vad som hjälpte. Det som fungerade sparas och kommer fram igen nästa gång du fastnar."
+        "a": "Tryck på `Gjort, bara inte nedskrivet`. Kompisen tar emot rättelsen och frågar i stället vad som hjälpte. Det som fungerade sparas och kommer fram igen nästa gång du fastnar."
       },
       {
         "q": "Vart tar det vägen som jag säger högt?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Hur många mål kan jag ha?",
-        "a": "Tre gratis. När du är klar med ett mål använder du `Släpp` under Vägen hittills för att frigöra en plats. För fler än tre behöver du ZinggumDol Pro."
+        "a": "Tre gratis. När du är klar med ett mål använder du `Släpp` under Vägen hittills för att frigöra en plats. För fler än tre behöver du Mochimo Pro."
       },
       {
-        "q": "Är ZinggumDol Pro en prenumeration?",
+        "q": "Är Mochimo Pro en prenumeration?",
         "a": "Nej. Du betalar en gång och behåller det. På en ny enhet eller efter ominstallation trycker du på `Återställ köp` i Inställningar."
       },
       {
@@ -171,7 +171,7 @@
         "a": "Under `Daglig påminnelse` i Inställningar slår du på eller av den och väljer tid."
       },
       {
-        "q": "Påminner stenen mig om sånt som gick bra?",
+        "q": "Påminner kompisen mig om sånt som gick bra?",
         "a": "Ja. Den minns vad som hjälpte dig, och en tung dag påminner den om något du nyligen klarade."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Ett snedsteg i dag?\nNästa sten ligger kvar",
+    "headline": "Gick det snett i dag?\nDin mochikompis väntar på dig",
     "cta": "Hämta gratis på App Store"
   },
   "ui": {

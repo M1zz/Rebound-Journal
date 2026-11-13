@@ -1,15 +1,15 @@
 {
-  "title": "ZinggumDol: planlandığı gibi gitmeyen günler için nazik bir günlük",
-  "description": "Bir hedefi kaçırdığınızda küçük bir taş önce konuşur: ne olduğunu, sonra nasıl hissettiğinizi sorar. Üyelik yok, reklam yok. Üç hedef ücretsiz.",
+  "title": "Mochimo: planlandığı gibi gitmeyen günler için nazik bir günlük",
+  "description": "Bir hedefi kaçırdığınızda yumuşacık bir mochi arkadaş önce konuşur: ne olduğunu, sonra nasıl hissettiğinizi sorar. Üyelik yok, reklam yok. Üç hedef ücretsiz.",
   "hero": {
-    "headline": "Ayağınızın kayması\nderede olduğunuz anlamına gelmez",
-    "lead": "Hedefinizi kaçırdığınız gün taş önce konuşur. Neyi yanlış yaptığınızı değil, ne olduğunu sorar; yaşananları ve duygularınızı ayrı ayrı size geri verir.",
+    "headline": "Kötü bir gün mü?\nSorun değil",
+    "lead": "Hedefinizi kaçırdığınız gün mochi arkadaşınız önce konuşur. Neyi yanlış yaptığınızı değil, ne olduğunu sorar; yaşananları ve duygularınızı ayrı ayrı size geri verir.",
     "cta": "App Store'dan ücretsiz indirin",
     "note": "Sohbetler, notlar ve kat ettiğiniz yol ücretsiz. Üyelik yok, reklam yok."
   },
   "demo": {
-    "title": "Taşla konuşun",
-    "lead": "Bu akşam yürüyüşe çıkacaktınız ama olmadı. Bir cevaba dokunun ya da kendiniz yazın; taş, uygulamadaki gibi cevap verir.",
+    "title": "Mochi arkadaşınızla konuşun",
+    "lead": "Bu akşam yürüyüşe çıkacaktınız ama olmadı. Bir cevaba dokunun ya da kendiniz yazın; arkadaşınız, uygulamadaki gibi cevap verir.",
     "note": "Uygulamadaki sohbetle aynı sıra, aynı cümleler. Buraya yazdıklarınız hiçbir yere kaydedilmez.",
     "send": "Gönder",
     "again": "Baştan başla",
@@ -53,22 +53,22 @@
   },
   "problem": {
     "title": "Bir gün planlandığı gibi gitmeyince kendinizi mi suçluyorsunuz?",
-    "text": "Antrenmanı atladığınız akşam ilk düşünce genelde \"bende ne sorun var?\" olur. Yakından bakınca mesai uzamış, yağmur yağmış, siz de tükenmişsinizdir. ZinggumDol ne olduğunu ve nasıl hissettiğinizi ayrı adımlarda sorar ve ikisini yan yana koyar. Sebebin iradeniz değil koşullar olduğunu görünce bir sonraki küçük adımı bulmak kolaylaşır."
+    "text": "Antrenmanı atladığınız akşam ilk düşünce genelde \"bende ne sorun var?\" olur. Yakından bakınca mesai uzamış, yağmur yağmış, siz de tükenmişsinizdir. Mochimo ne olduğunu ve nasıl hissettiğinizi ayrı adımlarda sorar ve ikisini yan yana koyar. Sebebin iradeniz değil koşullar olduğunu görünce bir sonraki küçük adımı bulmak kolaylaşır."
   },
   "features": [
     {
-      "title": "Önce taş konuşur",
-      "text": "Bir hedef belirleyin; taş başardığınız ve takıldığınız günleri takip eder. Bir gün kaçınca \"neden yapmadın?\" değil \"ne oldu?\" diye sorar ve geçen sefer anlattıklarınızı hatırlar.\nYazmak ağır geldiğinde sesli söyleyin. Konuşma cihazınızda tanınır, kayıtlar asla saklanmaz.",
+      "title": "Önce mochi arkadaşınız konuşur",
+      "text": "Bir hedef belirleyin; arkadaşınız başardığınız ve takıldığınız günleri takip eder. Bir gün kaçınca \"neden yapmadın?\" değil \"ne oldu?\" diye sorar ve geçen sefer anlattıklarınızı hatırlar.\nYazmak ağır geldiğinde sesli söyleyin. Konuşma cihazınızda tanınır, kayıtlar asla saklanmaz.",
       "shot": "02-conversation"
     },
     {
-      "title": "Günleriniz basamak taşları gibi",
-      "text": "Her hafta bir sıra taş olarak uzanır. Basmadığınız günler de orada kalır; hiçbir şey silinmez.\nArada bir iki boşluk olsa da yolun devam ettiğini görürsünüz.",
+      "title": "Haftanız yedi küçük mochi",
+      "text": "Her hafta yedi küçük mochi olarak uzanır. Başardığınız günler matcha yeşili, yalnızca uğrayıp not bıraktığınız günler altın sarısı olur. Kaçırdığınız günler de orada kalır; hiçbir şey silinmez.\nArada bir iki boşluk olsa da haftanın bütün kaldığını görürsünüz.",
       "shot": "03-path"
     },
     {
       "title": "Yazdıklarınıza geri dönün",
-      "text": "Ne olduğu, nasıl hissettiğiniz ve bir dahaki sefere ne deneyeceğiniz tarihe göre birikir. Aynı şekilde takıldığınız bir güne bakın, neyin işe yaradığını görün.\nAna ekrandaki bir widget taştan bir söz gösterir; seçtiğiniz saatteki hatırlatma da günü gözden geçirmeye davet eder.",
+      "text": "Ne olduğu, nasıl hissettiğiniz ve bir dahaki sefere ne deneyeceğiniz tarihe göre birikir. Aynı şekilde takıldığınız bir güne bakın, neyin işe yaradığını görün.\nAna ekrandaki bir widget arkadaşınızdan bir söz gösterir; seçtiğiniz saatteki hatırlatma da günü gözden geçirmeye davet eder.",
       "shot": "04-records"
     }
   ],
@@ -81,7 +81,7 @@
       },
       {
         "title": "Gün bitince uygulamayı açın",
-        "text": "Taş gününüzün nasıl geçtiğini sorar. Hatırlatmayla unutmazsınız."
+        "text": "Arkadaşınız gününüzün nasıl geçtiğini sorar. Hatırlatmayla unutmazsınız."
       },
       {
         "title": "Dokunun ya da yazın",
@@ -102,7 +102,7 @@
       ],
       [
         "Geriye bakış",
-        "Taş, yaşananları ve duygularınızı ayrı ayrı geri verir"
+        "Arkadaşınız, yaşananları ve duygularınızı ayrı ayrı geri verir"
       ],
       [
         "Sonraki adım",
@@ -120,7 +120,7 @@
     "free": {
       "name": "Ücretsiz",
       "items": [
-        "Taşla tüm sohbetler",
+        "Arkadaşınızla tüm sohbetler",
         "En fazla üç hedef",
         "Yazmak yerine konuşmak",
         "Kat ettiğiniz yol ve yazdığınız her şey",
@@ -129,10 +129,10 @@
       ]
     },
     "pro": {
-      "name": "ZinggumDol Pro",
+      "name": "Mochimo Pro",
       "items": [
         "İstediğiniz kadar hedef",
-        "Altı taş dokusu arasından seçim",
+        "Arkadaşınız için altı renk",
         "Notları metin dosyası olarak dışa aktarma"
       ],
       "note": "Bir kez alın, hep sizin olsun. Abonelik değil."
@@ -148,7 +148,7 @@
       },
       {
         "q": "Yaptım ama uygulama yapmadığımı söylüyor.",
-        "a": "`Yaptım ama kaydedemedim` seçeneğine dokunun. Taş düzeltmeyi kabul eder ve bunun yerine neyin yardımcı olduğunu sorar. İşe yarayan şey saklanır, bir dahaki takıldığınızda size hatırlatılır."
+        "a": "`Yaptım ama kaydedemedim` seçeneğine dokunun. Arkadaşınız düzeltmeyi kabul eder ve bunun yerine neyin yardımcı olduğunu sorar. İşe yarayan şey saklanır, bir dahaki takıldığınızda size hatırlatılır."
       },
       {
         "q": "Sesli söylediklerim nereye gidiyor?",
@@ -156,10 +156,10 @@
       },
       {
         "q": "Kaç hedefim olabilir?",
-        "a": "Üç tanesi ücretsiz. Bir hedefle işiniz bitince Kat Edilen Yol'da `Bırak` ile yer açın. Üçten fazlası için ZinggumDol Pro gerekir."
+        "a": "Üç tanesi ücretsiz. Bir hedefle işiniz bitince Kat Edilen Yol'da `Bırak` ile yer açın. Üçten fazlası için Mochimo Pro gerekir."
       },
       {
-        "q": "ZinggumDol Pro bir abonelik mi?",
+        "q": "Mochimo Pro bir abonelik mi?",
         "a": "Hayır. Bir kez ödersiniz ve sizindir. Yeni bir cihazda veya yeniden yüklemeden sonra Ayarlar'da `Satın Alımları Geri Yükle`ye dokunun."
       },
       {
@@ -171,7 +171,7 @@
         "a": "Ayarlar'daki `Günlük hatırlatma` bölümünden açıp kapatır, saati seçersiniz."
       },
       {
-        "q": "Taş bana başardıklarımı da hatırlatır mı?",
+        "q": "Arkadaşım bana başardıklarımı da hatırlatır mı?",
         "a": "Evet. Size neyin iyi geldiğini hatırlar ve zor bir günde yakın zamanda başardığınız bir şeyi aklınıza getirir."
       },
       {
@@ -185,7 +185,7 @@
     ]
   },
   "closing": {
-    "headline": "Bugün ayağınız mı kaydı?\nBir sonraki taş hâlâ orada",
+    "headline": "Bugün olmadı mı?\nMochi arkadaşınız sizi bekliyor",
     "cta": "App Store'dan ücretsiz indirin"
   },
   "ui": {
