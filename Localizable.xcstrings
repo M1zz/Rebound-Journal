@@ -4442,7 +4442,9 @@
         }
       }
     },
-    "%@" : {},
+    "%@" : {
+      "shouldTranslate" : false
+    },
     "%@\n'%@', 그런 일이 있었고\n지금 마음은 '%@'%@.\n\n%@" : {
       "localizations" : {
         "cs" : {
