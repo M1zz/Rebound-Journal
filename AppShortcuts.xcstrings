@@ -2,159 +2,148 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Log ${goal} in ${applicationName}" : {
-      "extractionState" : "extracted_with_value",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Zapiš ${goal} v ${applicationName}"
           }
         },
         "da" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Registrér ${goal} i ${applicationName}"
           }
         },
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Halte ${goal} in ${applicationName} fest"
           }
         },
         "el" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Κατέγραψε ${goal} στο ${applicationName}"
-          }
-        },
-        "en" : {
-          "stringSet" : {
-            "state" : "new",
-            "values" : [
-              "Log ${goal} in ${applicationName}",
-              "Log today’s step in ${applicationName}"
-            ]
           }
         },
         "en-GB" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Log ${goal} in ${applicationName}"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Registra ${goal} en ${applicationName}"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Kirjaa ${goal} ${applicationName}iin"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Note ${goal} dans ${applicationName}"
           }
         },
         "id" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Catat ${goal} di ${applicationName}"
           }
         },
         "it" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Registra ${goal} in ${applicationName}"
           }
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "${applicationName}に${goal}を記録"
           }
         },
         "ko" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "${applicationName}에 ${goal} 기록해줘"
           }
         },
         "nb" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Registrer ${goal} i ${applicationName}"
           }
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Leg ${goal} vast in ${applicationName}"
           }
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Zapisz ${goal} w ${applicationName}"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Registre ${goal} no ${applicationName}"
           }
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Запиши ${goal} в ${applicationName}"
           }
         },
         "sv" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Logga ${goal} i ${applicationName}"
           }
         },
         "th" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "บันทึก ${goal} ใน ${applicationName}"
           }
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "${applicationName} içinde ${goal} kaydet"
           }
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Ghi ${goal} vào ${applicationName}"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "在${applicationName}记录${goal}"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "在${applicationName}記錄${goal}"
           }
         }
       }
     },
     "Log today’s step in ${applicationName}" : {
-      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
