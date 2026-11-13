@@ -17,7 +17,8 @@
 import SwiftUI
 
 enum PebbleSkin: String, CaseIterable, Identifiable, Codable {
-    /// 햇빛에 달궈진 모래빛 — 설계 고찰 §10의 원래 조약돌.
+    /// 친구마다 타고난 색 — 토끼는 우유빛, 햄스터는 살구빛, 곰은 밤빛.
+    /// 이름은 처음 조약돌의 모래빛에서 왔다. 저장된 값이라 바꾸지 않는다.
     case sand
     case slate
     case moss
@@ -34,7 +35,7 @@ enum PebbleSkin: String, CaseIterable, Identifiable, Codable {
 
     var name: String {
         switch self {
-        case .sand: String(localized: "모래")
+        case .sand: String(localized: "기본")
         case .slate: String(localized: "구름")
         case .moss: String(localized: "말차")
         case .sunset: String(localized: "노을")
@@ -101,6 +102,30 @@ enum PebbleSkin: String, CaseIterable, Identifiable, Codable {
     }
 }
 
+// MARK: - 실제로 칠할 색
+
+/// 친구를 칠하는 네 가지 색. 모찌 그림은 그라데이션 없이 납작하게 칠하고
+/// 얇은 선으로 테두리를 두른다.
+struct PebblePalette {
+    /// 몸 색.
+    var fill: Color
+    /// 햄스터의 배, 곰의 주둥이처럼 몸보다 밝은 자리.
+    var belly: Color
+    /// 테두리 선.
+    var line: Color
+    /// 눈 · 입.
+    var pupil: Color
+}
+
+extension PebbleSkin {
+    /// 이 결로 그 친구를 칠할 색. 기본 결은 친구마다 타고난 색을 쓴다.
+    func palette(for buddy: PebbleBuddy) -> PebblePalette {
+        self == .sand
+            ? buddy.natural
+            : PebblePalette(fill: lit, belly: Color.white.opacity(0.55), line: shade, pupil: pupil)
+    }
+}
+
 // MARK: - 저장
 
 extension PebbleSkin {
@@ -159,13 +184,28 @@ enum PebbleBuddy: String, CaseIterable, Identifiable, Codable {
         }
     }
 
+    /// 타고난 색. 넷이 나란히 있을 때 한눈에 서로 달라 보이게 고른다.
+    var natural: PebblePalette {
+        func d(_ light: UInt32, _ dark: UInt32) -> Color { PebbleTheme.dynamic(light: light, dark: dark) }
+        return switch self {
+        case .bunny: PebblePalette(
+            fill: d(0xFFFFFF, 0xEEE8E8), belly: d(0xFFFFFF, 0xEEE8E8),
+            line: d(0x8A6A66, 0x775A56), pupil: d(0x3A2B2A, 0x3A2B2A))
+        case .hamster: PebblePalette(
+            fill: d(0xF8CD95, 0xDDB07A), belly: d(0xFFF7EC, 0xEADFD2),
+            line: d(0x8A5A34, 0x74492A), pupil: d(0x3A2416, 0x3A2416))
+        case .cat: PebblePalette(
+            fill: d(0xFFF9F2, 0xEDE4D9), belly: d(0xFFF9F2, 0xEDE4D9),
+            line: d(0x7A5E4C, 0x6A5040), pupil: d(0x3A2B24, 0x3A2B24))
+        case .bear: PebblePalette(
+            fill: d(0xD9AC82, 0xBE916A), belly: d(0xF5DEC6, 0xDDC4AA),
+            line: d(0x6E4A30, 0x5C3C25), pupil: d(0x2E1D12, 0x2E1D12))
+        }
+    }
+
     /// 귀가 몸 위로 솟는 만큼(몸 크기 대비). 레이아웃이 그만큼 자리를 더 잡는다.
     var earRise: CGFloat {
-        switch self {
-        case .bunny: 0.26
-        case .cat: 0.03
-        default: 0
-        }
+        self == .bunny ? 0.12 : 0
     }
 }
 
