@@ -4,6 +4,176 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.1.6
+
+### 앱스토어 (한국어)
+
+잠금 화면에서 눌러 바로 말로 남겨요.
+답한 질문은 다시 묻지 않아요.
+어제 정한 한 걸음에서 이어 가요.
+여러 언어의 문구를 자연스럽게 다듬었어요.
+
+### 앱스토어 (영어, en-US)
+
+Tap the Lock Screen widget and just talk.
+Answered questions won't come back.
+Each day picks up from your last step.
+Wording is clearer in every language.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Tap the Lock Screen widget and just talk.
+Answered questions won't come back.
+Each day picks up from your last step.
+Wording is clearer in every language.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+在锁定屏幕轻点一下，直接用说的记录。
+回答过的问题不会再重复问了。
+每天从你上次定下的那一步接着聊。
+各语言的文字更自然了。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+在鎖定畫面輕點一下，直接用說的記錄。
+回答過的問題不會再重複問了。
+每天從你上次決定的那一步接著聊。
+各語言的文字更自然了。
+
+### 앱스토어 (일본어)
+
+ロック画面からタップして声で残せます。
+答えた質問をくり返し聞かなくなりました。
+前回決めた一歩の続きから話せます。
+各言語の文章がより自然になりました。
+
+### 앱스토어 (러시아어)
+
+Говорите голосом прямо с экрана блокировки.
+Отвеченные вопросы больше не повторяются.
+Разговор продолжается с вашего шага.
+Тексты на всех языках стали естественнее.
+
+### 앱스토어 (스페인어)
+
+Toca el widget de bloqueo y habla.
+Las preguntas ya respondidas no vuelven.
+Cada día sigue desde tu último paso.
+Textos más naturales en todos los idiomas.
+
+### 앱스토어 (독일어)
+
+Vom Sperrbildschirm aus einfach sprechen.
+Beantwortete Fragen kommen nicht wieder.
+Jeder Tag knüpft an deinen Schritt an.
+Natürlichere Texte in allen Sprachen.
+
+### 앱스토어 (프랑스어)
+
+Parlez depuis l’écran verrouillé.
+Les questions déjà traitées ne reviennent plus.
+Chaque jour reprend à votre dernière étape.
+Des textes plus naturels dans chaque langue.
+
+### 앱스토어 (이탈리아어)
+
+Tocca il widget sul blocco schermo e parla.
+Le domande già risposte non tornano più.
+Ogni giorno riparte dal tuo ultimo passo.
+Testi più naturali in tutte le lingue.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+Toque no widget da Tela Bloqueada e fale.
+Perguntas já respondidas não voltam mais.
+Cada dia continua do seu último passo.
+Textos mais naturais em todos os idiomas.
+
+### 앱스토어 (태국어)
+
+แตะวิดเจ็ตหน้าจอล็อกแล้วพูดได้เลย
+คำถามที่ตอบแล้วจะไม่ถามซ้ำอีก
+แต่ละวันคุยต่อจากก้าวที่คุณเลือกไว้
+ข้อความทุกภาษาเป็นธรรมชาติขึ้น
+
+### 앱스토어 (베트남어)
+
+Chạm tiện ích màn hình khóa rồi nói.
+Câu đã trả lời sẽ không bị hỏi lại.
+Mỗi ngày tiếp nối từ bước bạn đã chọn.
+Câu chữ tự nhiên hơn ở mọi ngôn ngữ.
+
+### 앱스토어 (체코어)
+
+Klepněte na zamčené obrazovce a mluvte.
+Zodpovězené otázky se už nevracejí.
+Každý den navazuje na váš poslední krok.
+Přirozenější texty ve všech jazycích.
+
+### 앱스토어 (덴마크어)
+
+Tryk på låseskærmen, og sig det bare.
+Besvarede spørgsmål kommer ikke igen.
+Hver dag fortsætter fra dit sidste skridt.
+Mere naturlige tekster på alle sprog.
+
+### 앱스토어 (그리스어)
+
+Πατήστε στην οθόνη κλειδώματος και μιλήστε.
+Όσα απαντήσατε δεν ξαναρωτιούνται.
+Κάθε μέρα συνεχίζει από το βήμα σας.
+Πιο φυσικά κείμενα σε όλες τις γλώσσες.
+
+### 앱스토어 (핀란드어)
+
+Napauta lukitulla näytöllä ja puhu.
+Vastattuja kysymyksiä ei kysytä uudestaan.
+Jokainen päivä jatkuu viime askeleestasi.
+Luontevammat tekstit kaikilla kielillä.
+
+### 앱스토어 (인도네시아어)
+
+Ketuk widget Layar Terkunci lalu bicara.
+Pertanyaan yang dijawab tak ditanya lagi.
+Tiap hari lanjut dari langkah terakhirmu.
+Kalimat lebih alami di semua bahasa.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Trykk på låst skjerm, og bare si det.
+Besvarte spørsmål kommer ikke tilbake.
+Hver dag fortsetter fra ditt siste steg.
+Mer naturlige tekster på alle språk.
+
+### 앱스토어 (네덜란드어)
+
+Tik op het toegangsscherm en praat.
+Beantwoorde vragen komen niet terug.
+Elke dag gaat verder vanaf je laatste stap.
+Natuurlijkere teksten in alle talen.
+
+### 앱스토어 (폴란드어)
+
+Stuknij widżet na ekranie blokady i mów.
+Pytania z odpowiedzią już nie wracają.
+Każdy dzień zaczyna od twojego kroku.
+Naturalniejsze teksty we wszystkich językach.
+
+### 앱스토어 (스웨덴어)
+
+Tryck på låsskärmen och säg det bara.
+Besvarade frågor kommer inte tillbaka.
+Varje dag fortsätter från ditt senaste steg.
+Naturligare texter på alla språk.
+
+### 앱스토어 (튀르키예어)
+
+Kilit ekranından dokunup sesle anlatın.
+Yanıtlanan sorular tekrar sorulmuyor.
+Her gün son adımınızdan devam ediyor.
+Tüm dillerde daha doğal metinler.
+
 ## 2.1.5
 
 ### 앱스토어 (한국어)
