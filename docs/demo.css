@@ -13,17 +13,17 @@
 .zg-stop:hover { color: var(--text); }
 
 /* 친구: 앱의 토끼 모찌. 찹쌀 바탕에 그린 그림이라 원으로 감싸 어두운 화면에서도 어울리게 한다. */
-.zg-pebble { width: 132px; height: 110px; margin: var(--s4) auto var(--s5);
+.zg-mochi { width: 132px; height: 110px; margin: var(--s4) auto var(--s5);
              background: #FFF8EF url("img/friend.png") center / cover no-repeat;
              border-radius: 44%; transform-origin: 50% 100%; }
-.zg-pebble.talk { animation: zg-bob .5s var(--ease); }
+.zg-mochi.talk { animation: zg-bob .5s var(--ease); }
 @keyframes zg-bob { 30% { transform: scale(1.06, .92); } 60% { transform: scale(.97, 1.04); } }
 
 .zg-log { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--s2);
           max-height: 300px; overflow-y: auto; margin-top: auto; }
 .zg-log li { max-width: 88%; padding: var(--s2) var(--s4); border-radius: 18px; line-height: 1.5; white-space: pre-line;
              animation: zg-in .35s var(--ease); }
-.zg-log li.zg-m-pebble { align-self: flex-start; background: var(--surface); border-bottom-left-radius: 6px;
+.zg-log li.zg-m-mochi { align-self: flex-start; background: var(--surface); border-bottom-left-radius: 6px;
                        font-family: ui-rounded, "SF Pro Rounded", inherit; }
 .zg-log li.zg-m-user { align-self: flex-end; background: var(--accent); color: var(--on-accent); border-bottom-right-radius: 6px; }
 @keyframes zg-in { from { opacity: 0; transform: translateY(6px); } }
@@ -46,5 +46,5 @@
 .zg-record dt { font-size: 0.8125rem; font-weight: 600; color: var(--accent); }
 .zg-record dd { margin: 0; }
 
-@media (prefers-reduced-motion: reduce) { .zg-pebble.talk, .zg-log li { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .zg-mochi.talk, .zg-log li { animation: none; } }
 @media (max-width: 760px) { .demo-card { grid-template-columns: 1fr; } .zg-stage { min-height: 380px; } }

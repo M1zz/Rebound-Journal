@@ -6,11 +6,11 @@
 
 ## 제목
 
-[iOS] [Mochimo] [Lifetime Pro $9.99 → FREE with code NOVE, until Nov 17] A journal for the days that went wrong, you talk it over with a small pebble
+[iOS] [Mochimo] [Lifetime Pro $9.99 → FREE with code NOVE, until Nov 17] A journal for the days that went wrong, you talk it over with a squishy mochi friend
 
 ## 본문
 
-Hi r/AppHookup, solo dev here. Mochimo means "stepping stone" in Korean. It's a journal for the days that didn't go to plan.
+Hi r/AppHookup, solo dev here. Mochimo is a journal for the days that didn't go to plan.
 
 **The deal**
 
@@ -25,22 +25,22 @@ Needs iOS 26.
 
 Most habit apps are good at the days you succeed. I wanted one for the other days. You set a goal, and when a day slips the app asks what got in the way. It never asks what you did wrong.
 
-You don't face a blank page. A little pebble speaks first, remembers what you told it last time, and asks how things went since. You tap a reply or type your own. At the end you have a short record of what happened, how you felt, and what you'll try next.
+You don't face a blank page. A little mochi friend speaks first, remembers what you told it last time, and asks how things went since. You tap a reply or type your own. At the end you have a short record of what happened, how you felt, and what you'll try next.
 
-The pebble is not a chatbot. I wrote its lines, nothing is generated on a server.
+The mochi friend is not a chatbot. I wrote its lines, nothing is generated on a server.
 
 **The parts I'd actually point out**
 
-Each week is a row of stepping stones. Missed days stay in the row, they don't get erased or turned into a broken streak.
+Each week is a row of little mochi. Missed days stay in the row, they don't get erased or turned into a broken streak.
 If typing feels like too much you can just say it. Speech is recognized on the phone and the recording isn't kept. On devices that support it the text gets tidied up, also on device.
-Home Screen widget with a line from the pebble.
+Home Screen widget with a line from your mochi friend.
 A daily reminder at a time you pick.
 Passcode lock, and it's in the free version.
 
 **Free vs Pro**
 
 Free: the conversations, voice input, every past entry, the weekly view, lock, reminders, widget. Up to three goals.
-Pro: unlimited goals, six pebble finishes, export your entries as a text file.
+Pro: unlimited goals, six mochi colors, export your entries as a text file.
 
 Privacy: no sign up, no ads. What you write stays on your phone and in your own iCloud, I can't see it. The app sends anonymous usage counts and you can switch that off in Settings.
 

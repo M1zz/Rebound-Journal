@@ -1,4 +1,4 @@
-// 모찌모 웹 체험: 목표를 놓친 날 조약돌과 나누는 대화를 앱과 같은 순서로 해 본다.
+// 모찌모 웹 체험: 목표를 놓친 날 모찌 친구와 나누는 대화를 앱과 같은 순서로 해 본다.
 // 순서는 ConversationEngine 과 같다: 관찰 → 확인 → 있었던 일 → 마음 → 되짚기 → (마음이 바닥이면 쉬기) 작은 한 걸음 → 마무리.
 // 문장은 앱의 Localizable.xcstrings, 예시 기록은 ScreenshotMode 의 샘플에서 가져왔다. 지난 기록이 없는 첫 대화라 '예전에 해낸 일' 마디는 없다.
 (() => {
@@ -25,7 +25,7 @@
         <div class="zg-stages" aria-hidden="true"><i></i><i></i><i></i><span></span></div>
         <button type="button" class="zg-stop">${esc(T.stop)}</button>
       </div>
-      <div class="zg-pebble" aria-hidden="true"><b></b></div>
+      <div class="zg-mochi" aria-hidden="true"><b></b></div>
       <ol class="zg-log" aria-live="polite"></ol>
     </div>
     <div class="zg-side">
@@ -33,7 +33,7 @@
       <p class="muted small">${esc(T.note)}</p>
     </div>`;
   const $ = s => root.querySelector(s);
-  const log = $(".zg-log"), reply = $(".zg-reply"), pebble = $(".zg-pebble"), stopBtn = $(".zg-stop");
+  const log = $(".zg-log"), reply = $(".zg-reply"), mochi = $(".zg-mochi"), stopBtn = $(".zg-stop");
 
   let s, live = false;   // 대화 상태 · 사용자가 손을 댔는지 (그 전에는 초점을 옮기지 않는다)
   root.addEventListener("pointerdown", () => { live = true; });
@@ -45,14 +45,14 @@
     li.textContent = text;
     log.append(li);
     log.scrollTop = log.scrollHeight;
-    if (who === "pebble" && !calm) { pebble.classList.remove("talk"); void pebble.offsetWidth; pebble.classList.add("talk"); }
+    if (who === "mochi" && !calm) { mochi.classList.remove("talk"); void mochi.offsetWidth; mochi.classList.add("talk"); }
   };
   const stage = n => {
     [...root.querySelectorAll(".zg-stages i")].forEach((d, i) => d.classList.toggle("on", i === n));
     $(".zg-stages span").textContent = T.stages[n];
   };
-  // 조약돌이 말하고 나서 답할 거리를 내놓는다 (앱은 글자가 찍힌 뒤에 답을 받는다)
-  const say = (text, then) => { reply.innerHTML = ""; line("pebble", text); setTimeout(then, calm ? 0 : 450); };
+  // 친구가 말하고 나서 답할 거리를 내놓는다 (앱은 글자가 찍힌 뒤에 답을 받는다)
+  const say = (text, then) => { reply.innerHTML = ""; line("mochi", text); setTimeout(then, calm ? 0 : 450); };
 
   const choices = list => {
     reply.innerHTML = list.map(([label], i) => `<button type="button" class="zg-choice" data-i="${i}">${esc(label)}</button>`).join("");
