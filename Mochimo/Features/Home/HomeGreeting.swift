@@ -161,8 +161,13 @@ enum HomeGreeting {
         let when = elapsedPhrase(from: journal.dateUnwrapped, to: now)
         let context: String
 
-        if let blocked = journal.review?.trimmingCharacters(in: .whitespacesAndNewlines),
-           !blocked.isEmpty {
+        // 그날 "다음엔 이만큼만" 하고 정한 게 있으면 그걸 묻는다. 어제 한 말에서
+        // 이어가야 이야기가 앞으로 간다. 없으면 그때 막혔다고 적은 말을 꺼낸다.
+        let said = [journal.nextPlan, journal.review]
+            .compactMap { $0?.trimmingCharacters(in: .whitespacesAndNewlines) }
+            .first { !$0.isEmpty }
+
+        if let blocked = said {
             // 어느 목표 얘기였는지 먼저 대고, 그때 사용자가 쓴 말을 그대로 인용한다.
             // 앱이 요약해 버리면 남의 말이 된다.
             let quote = condensed(blocked)

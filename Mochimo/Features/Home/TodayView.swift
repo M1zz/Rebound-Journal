@@ -462,6 +462,15 @@ struct TodayView: View {
         guard let pending = followUp else { return }
         followUp = nil
 
+        // 답을 들었으면 그 물음은 끝난다. 내일 같은 걸 또 묻지 않는다.
+        if let asked = journals.first(where: { $0.id == pending.journalID }) {
+            if answer == .later {
+                ProgressObserver.postponeFollowUp(asked)
+            } else {
+                ProgressObserver.closeFollowUp(asked)
+            }
+        }
+
         switch answer {
         case .done:
             resolve(pending)

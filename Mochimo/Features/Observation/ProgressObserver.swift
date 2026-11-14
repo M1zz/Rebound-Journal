@@ -447,12 +447,46 @@ enum ProgressObserver {
     /// 이야기가 끝난다. 묻지 않으면 "막혔다"는 기록만 남고 그 뒤가 없어서,
     /// 나중에 돌아봤을 때 실패 목록처럼 보인다.
     ///
-    /// 오늘 적은 건 묻지 않는다. 적자마자 "그건 어떻게 됐어요?"라고 물으면 재촉이 된다.
+    /// **같은 걸 두 번 묻지 않는다.** 답을 들었는데 다음 날 또 물으면 듣지 않은 것과 같다.
+    ///  - 오늘 적은 건 묻지 않는다. 적자마자 "그건 어떻게 됐어요?"라고 물으면 재촉이 된다.
+    ///  - 그 목표로 더 새 기록이 있으면 옛 기록은 묻지 않는다. 이야기는 이미 그 뒤로 넘어갔다.
+    ///  - 답을 들은 기록은 닫힌다 (`closeFollowUp`). "지금은 말고"만 며칠 뒤에 한 번 더 묻는다.
+    ///  - 두 주가 넘은 건 꺼내지 않는다. 밀린 물음이 줄줄이 올라오면 숙제 검사가 된다.
     static func unresolved(journals: [JournalData], now: Date = Date()) -> JournalData? {
         journals
             .filter { $0.isActiveRebound && nonEmpty($0.subGoal) != nil }
-            .filter { days(from: $0.dateUnwrapped, to: now) >= 1 }
+            .filter { record in
+                let asked = record.retryCount ?? 0
+                let age = days(from: record.dateUnwrapped, to: now)
+                return asked < followUpLimit
+                    && age >= 1 + asked * followUpPause
+                    && age <= followUpWindow
+            }
+            .filter { record in
+                !journals.contains { other in
+                    other.isValidForDisplay
+                        && other.dateUnwrapped > record.dateUnwrapped
+                        && matches(journal: other, goal: record.subGoalUnwrapped)
+                }
+            }
             .max { $0.dateUnwrapped < $1.dateUnwrapped }
+    }
+
+    /// 한 기록을 두고 물어보는 횟수의 끝. 스키마의 `retryCount`를 "물어본 횟수"로 쓴다.
+    static let followUpLimit = 2
+    /// "지금은 말고"를 들은 뒤 다시 묻기까지 두는 날수.
+    static let followUpPause = 3
+    /// 이보다 오래된 기록은 먼저 꺼내지 않는다.
+    static let followUpWindow = 14
+
+    /// 답을 들었다. 이 기록은 다시 묻지 않는다.
+    static func closeFollowUp(_ record: JournalData) {
+        record.retryCount = followUpLimit
+    }
+
+    /// "지금은 말고"를 들었다. 며칠 뒤에 한 번만 더 묻는다.
+    static func postponeFollowUp(_ record: JournalData) {
+        record.retryCount = (record.retryCount ?? 0) + 1
     }
 
     /// 이 목표에 대해 지난번에 남긴 기록 하나.
