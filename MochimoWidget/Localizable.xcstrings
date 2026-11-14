@@ -172,7 +172,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Δίπλα σου"
+            "value" : "Δίπλα σας"
           }
         },
         "en-GB" : {
@@ -196,7 +196,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "À vos côtés"
+            "value" : "À tes côtés"
           }
         },
         "id" : {
@@ -262,7 +262,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yanında"
+            "value" : "Yanınızdayım"
           }
         },
         "vi" : {
@@ -314,7 +314,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Χαρούμενος"
+            "value" : "Χαίρομαι"
           }
         },
         "en-GB" : {
@@ -404,7 +404,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mutlu"
+            "value" : "Seviniyorum"
           }
         },
         "vi" : {
@@ -516,7 +516,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zachód"
+            "value" : "Zachód słońca"
           }
         },
         "pt-BR" : {
@@ -634,7 +634,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ascolto"
+            "value" : "Ti ascolto"
           }
         },
         "ja" : {
@@ -954,7 +954,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Родной"
+            "value" : "Обычный"
           }
         },
         "sv" : {
@@ -1006,7 +1006,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Přemýšlí"
+            "value" : "Přemýšlím"
           }
         },
         "da" : {
@@ -1160,7 +1160,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ich bin hier."
+            "value" : "Ich bin da."
           }
         },
         "el" : {
@@ -1274,7 +1274,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "我在這兒。"
+            "value" : "我在這裡。"
           }
         }
       }
@@ -1296,13 +1296,13 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gå og skriv dagen ned"
+            "value" : "Skriv dagens note"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Heute festhalten"
+            "value" : "Heutigen Eintrag schreiben"
           }
         },
         "el" : {
@@ -1320,19 +1320,19 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ir a anotar lo de hoy"
+            "value" : "Anotar lo de hoy"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mene kirjaamaan tämä päivä"
+            "value" : "Kirjaa tämä päivä"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aller noter aujourd’hui"
+            "value" : "Écrire la note du jour"
           }
         },
         "id" : {
@@ -1344,25 +1344,25 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vai ad annotare oggi"
+            "value" : "Scrivi la nota di oggi"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "今日の分を残しに行く"
+            "value" : "今日の記録を書く"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gå og skriv ned i dag"
+            "value" : "Skriv dagens notat"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vandaag vastleggen"
+            "value" : "Notitie van vandaag schrijven"
           }
         },
         "pl" : {
@@ -1374,7 +1374,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ir anotar o dia de hoje"
+            "value" : "Anotar o dia de hoje"
           }
         },
         "ru" : {
@@ -1386,37 +1386,37 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gå och skriv ner i dag"
+            "value" : "Skriv dagens anteckning"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ไปจดของวันนี้"
+            "value" : "ไปจดบันทึกวันนี้"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bugünü kaydetmeye git"
+            "value" : "Bugünü yaz"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Đi ghi lại hôm nay"
+            "value" : "Viết ghi chép hôm nay"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "去留下今天的记录"
+            "value" : "去写今天的记录"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "去留下今天的記錄"
+            "value" : "去寫今天的記錄"
           }
         }
       }
@@ -1730,13 +1730,13 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Slovo od Mochimu. Klepnutím zapíšete dnešek."
+            "value" : "Pár slov od Mochima. Klepnutím zapíšete dnešek."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Et ord fra Mochimo. Tryk for at skrive dagen ned."
+            "value" : "Et par ord fra Mochimo. Tryk for at skrive dagens note."
           }
         },
         "de" : {
@@ -1748,7 +1748,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Μια κουβέντα από το Mochimo. Πατήστε για να σημειώσετε τη σημερινή μέρα."
+            "value" : "Δυο λόγια από το Mochimo. Πατήστε για να σημειώσετε τη σημερινή μέρα."
           }
         },
         "es" : {
@@ -1760,13 +1760,13 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mochimon sana. Napauta kirjataksesi tämän päivän."
+            "value" : "Muutama sana Mochimolta. Napauta ja kirjaa tämä päivä."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un mot de Mochimo. Touchez pour noter aujourd’hui."
+            "value" : "Un mot de Mochimo. Touchez pour écrire la note du jour."
           }
         },
         "id" : {
@@ -1778,25 +1778,25 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una frase da Mochimo. Tocca per annotare oggi."
+            "value" : "Una frase da Mochimo. Tocca per scrivere la nota di oggi."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mochimoがかける一言。タップすると今日の話を残せます。"
+            "value" : "Mochimoからのひとこと。タップして今日の話を記録できます。"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Et ord fra Mochimo. Trykk for å skrive ned i dag."
+            "value" : "Noen ord fra Mochimo. Trykk for å skrive dagens notat."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Een woordje van Mochimo. Tik om vandaag vast te leggen."
+            "value" : "Een woordje van Mochimo. Tik om iets over vandaag te noteren."
           }
         },
         "pl" : {
@@ -1820,7 +1820,7 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ett ord från Mochimo. Tryck för att skriva ner i dag."
+            "value" : "Några ord från Mochimo. Tryck för att skriva dagens anteckning."
           }
         },
         "th" : {
@@ -1832,25 +1832,25 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mochimo’dan bir söz. Bugünü kaydetmek için dokunun."
+            "value" : "Mochimo’dan birkaç söz. Bugünü yazmak için dokunun."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Một câu nói từ Mochimo. Chạm để ghi lại hôm nay."
+            "value" : "Một câu nói từ Mochimo. Chạm để viết ghi chép hôm nay."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mochimo 带来的一句话。轻点即可留下今天的记录。"
+            "value" : "Mochimo 想对你说的一句话。轻点即可写下今天的记录。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mochimo 帶來的一句話。輕點即可留下今天的記錄。"
+            "value" : "Mochimo 想對你說的一句話。點一下即可寫下今天的記錄。"
           }
         }
       }
@@ -3306,7 +3306,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Πες το"
+            "value" : "Πείτε το"
           }
         },
         "en" : {
@@ -3336,7 +3336,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le dire"
+            "value" : "Raconter à voix haute"
           }
         },
         "id" : {
@@ -3354,7 +3354,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "声で残す"
+            "value" : "声で記録"
           }
         },
         "ko" : {
@@ -3408,7 +3408,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sesle anlat"
+            "value" : "Sesle anlatın"
           }
         },
         "vi" : {
@@ -3436,7 +3436,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Klepněte a mochi kamarád hned poslouchá. Řekněte svůj den nahlas, bez psaní."
+            "value" : "Klepněte a váš mochi kamarád začne hned poslouchat. Povězte o svém dni nahlas, bez psaní."
           }
         },
         "da" : {
@@ -3454,7 +3454,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Πάτησε και ο φίλος σου mochi ακούει αμέσως. Πες τη μέρα σου φωναχτά, χωρίς πληκτρολόγηση."
+            "value" : "Πατήστε και ο φίλος σας mochi αρχίζει αμέσως να ακούει. Πείτε φωναχτά πώς πήγε η μέρα σας, χωρίς πληκτρολόγηση."
           }
         },
         "en" : {
@@ -3478,7 +3478,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Napauta, niin mochi-ystäväsi kuuntelee heti. Kerro päivästäsi ääneen, ilman kirjoittamista."
+            "value" : "Napauta, niin mochi-kaverisi kuuntelee heti. Kerro päivästäsi ääneen, ilman kirjoittamista."
           }
         },
         "fr" : {
@@ -3502,7 +3502,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "タップするとモチ友だちがすぐ耳を傾けます。文字を打たずに、声で今日を残せます。"
+            "value" : "タップすると、ともだちがすぐに耳を傾けます。文字を打たずに、声で今日を記録できます。"
           }
         },
         "ko" : {
@@ -3526,7 +3526,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stuknij, a twój przyjaciel mochi od razu słucha. Opowiedz o swoim dniu bez pisania."
+            "value" : "Stuknij, a Twój przyjaciel mochi od razu zacznie słuchać. Opowiedz o swoim dniu na głos, bez pisania."
           }
         },
         "pt-BR" : {
@@ -3538,13 +3538,13 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Нажмите, и друг-моти сразу слушает. Расскажите о своём дне вслух, без набора текста."
+            "value" : "Нажмите, и друг-моти сразу начнёт слушать. Расскажите о своём дне вслух, без набора текста."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tryck så lyssnar din mochi-vän direkt. Berätta om din dag högt, utan att skriva."
+            "value" : "Tryck så lyssnar din mochi-kompis direkt. Berätta om din dag högt, utan att skriva."
           }
         },
         "th" : {
@@ -3556,7 +3556,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dokun, mochi arkadaşın hemen dinlesin. Gününü yazmadan, sesli anlat."
+            "value" : "Dokunun, mochi arkadaşınız hemen dinlemeye başlasın. Gününüzü yazmadan, sesli anlatın."
           }
         },
         "vi" : {
@@ -3568,13 +3568,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "轻点一下，麻糬朋友马上倾听。不用打字，说说今天就好。"
+            "value" : "轻点一下，麻薯小伙伴马上听你说。不用打字，说说今天就好。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "輕點一下，麻糬朋友馬上傾聽。不用打字，說說今天就好。"
+            "value" : "點一下，麻糬夥伴馬上聽你說。不用打字，說說今天就好。"
           }
         }
       }

@@ -391,7 +391,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "De microfoon wordt gebruikt zodat u de dag met uw stem kunt terugblikken, als in een gesprek. Opnamen worden niet bewaard; alleen de uitgeschreven tekst blijft op uw apparaat."
+            "value" : "De microfoon wordt gebruikt zodat je met je stem kunt antwoorden in plaats van te typen. Opnamen worden nooit bewaard; alleen de tekst blijft op je apparaat."
           }
         },
         "pl" : {
@@ -439,13 +439,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用麦克风,是为了让你可以轻松地用说话的方式回顾。录音不会被保存,只有转写出的文字会留在你的设备上。"
+            "value" : "使用麦克风，是为了让你可以轻松地用说话的方式回顾。录音不会被保存，只有转写出的文字会留在你的设备上。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "使用麥克風,是為了讓你可以輕鬆地用說話的方式回顧。錄音不會被儲存,只有轉寫出的文字會留在你的裝置上。"
+            "value" : "使用麥克風，是為了讓你可以輕鬆地用說話的方式回顧。錄音不會被儲存，只有轉寫出的文字會留在你的裝置上。"
           }
         }
       }
@@ -540,7 +540,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wordt gebruikt om wat u zegt om te zetten in tekst. De herkenning gebeurt op uw apparaat en verlaat het niet."
+            "value" : "Wordt gebruikt om wat je zegt om te zetten in tekst. De herkenning gebeurt op je apparaat; er wordt niets verstuurd."
           }
         },
         "pl" : {
@@ -588,13 +588,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "用于把你说的话转成文字。识别在你的设备上完成,不会传到设备之外。"
+            "value" : "用于把你说的话转成文字。识别在你的设备上完成，不会传到设备之外。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "用於把你說的話轉成文字。辨識在你的裝置上完成,不會傳到裝置之外。"
+            "value" : "用於把你說的話轉成文字。辨識在你的裝置上完成，不會傳到裝置之外。"
           }
         }
       }

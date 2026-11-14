@@ -20,15 +20,15 @@
     "obs": "“%@” – bugün henüz bir şey yok.",
     "yes": "Evet, yapmadım",
     "actually": "Yaptım ama kaydedemedim",
-    "leave": "Şimdilik böyle bırakmak istiyorum",
+    "leave": "Belki sonra",
     "facts": "“%@” yapmaya niyetlendiğinizde ne oldu?",
     "factsPh": "Kısa olsun yeter; sadece o zaman ne olduğunu yazın.",
     "emotion": "Anlıyorum. Peki şimdi nasıl hissediyorsunuz?",
     "steps": [
       "Çok zor",
-      "Biraz çökkün",
+      "Keyifsiz",
       "İdare eder",
-      "İyi",
+      "Fena değil",
       "İyi"
     ],
     "sepOpen": "Anladığım kadarıyla şöyle.",
