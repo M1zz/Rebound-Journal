@@ -111,7 +111,14 @@ enum PebbleLink {
     /// 오늘 얘기를 남기러 들어온다.
     static let record = URL(string: "\(scheme)://record")!
 
+    /// 말로 남기러 들어온다. 답할 차례가 오면 키보드 대신 마이크가 먼저 켜진다.
+    static let speak = URL(string: "\(scheme)://record?voice=1")!
+
     static func isRecord(_ url: URL) -> Bool {
         url.scheme == scheme && url.host == "record"
+    }
+
+    static func wantsVoice(_ url: URL) -> Bool {
+        isRecord(url) && url.query?.contains("voice=1") == true
     }
 }

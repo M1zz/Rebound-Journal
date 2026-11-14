@@ -58,7 +58,19 @@ final class SpeechCapture {
     // MARK: 내부
 
     // 받아쓰기는 사용자가 실제로 말하는 언어를 따른다.
-    private let locale = Locale.current
+    // 기기 언어와 지역을 그대로 넘기면(예: 중국어 + 미국 지역) 인식 모델이 없다고 실패한다.
+    // 그래서 기기 언어 순서대로 받아쓰기가 아는 가장 가까운 말을 고른다.
+    private var locale = Locale.current
+
+    private static func spokenLocale() async -> Locale? {
+        let candidates = Locale.preferredLanguages.map(Locale.init(identifier:)) + [Locale.current]
+        for candidate in candidates {
+            if let supported = await SpeechTranscriber.supportedLocale(equivalentTo: candidate) {
+                return supported
+            }
+        }
+        return nil
+    }
     private let audioEngine = AVAudioEngine()
     private var analyzer: SpeechAnalyzer?
     private var transcriber: SpeechTranscriber?
@@ -156,6 +168,8 @@ final class SpeechCapture {
     // MARK: - 세션
 
     private func beginSession() async throws {
+        guard let spoken = await Self.spokenLocale() else { throw CaptureError.unsupportedLanguage }
+        locale = spoken
         AudioSessionQueue.isRecording = true
         do {
             try await AudioSessionQueue.perform { session in
@@ -313,5 +327,6 @@ final class SpeechCapture {
 
     enum CaptureError: Error {
         case noInput
+        case unsupportedLanguage
     }
 }

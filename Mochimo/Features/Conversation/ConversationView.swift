@@ -55,6 +55,8 @@ struct ConversationView: View {
     private let repeatedIDs: Set<UUID>
     /// 사용자가 "마칠게요"를 눌렀을 때. 홈 인사로 돌아간다.
     private let onFinish: () -> Void
+    /// 말로 남기러 왔다. 적을 차례가 오면 마이크를 먼저 켠다 — 자기 전 누워서 쓰는 사람에게 키보드는 한 단계가 더 많다.
+    private let listensFirst: Bool
 
     @State private var isConfirmingLeave = false
 
@@ -62,8 +64,10 @@ struct ConversationView: View {
         observation: GoalObservation,
         journals: [JournalData],
         preface: [ConversationEngine.Utterance] = [],
+        listensFirst: Bool = false,
         onFinish: @escaping () -> Void
     ) {
+        self.listensFirst = listensFirst
         let engine = ConversationEngine(observation: observation, journals: journals)
         let saidAtHome = Set(preface.filter { $0.speaker == .pebble }.map(\.text))
         _engine = State(initialValue: engine)
@@ -98,6 +102,10 @@ struct ConversationView: View {
         }
         .task(id: engine.transcript.count) { await revealPending() }
         .onChange(of: engine.beat) { _, _ in resetInput() }
+        .onChange(of: isPebbleSpeaking) { _, speaking in
+            guard !speaking else { return }
+            Task { await listenIfInvited() }
+        }
         // 끝나는 순간 저장한다. 마무리 카드의 징검다리에 오늘 돌이 켜져 있어야 한다.
         .onChange(of: engine.isFinished) { _, finished in
             if finished { engine.persist(in: modelContext) }
@@ -632,6 +640,13 @@ struct ConversationView: View {
             freeform = .listening
             await speech.start()
         }
+    }
+
+    /// 말로 남기러 온 사람에게는 적을 차례에 바로 듣기 시작한다.
+    private func listenIfInvited() async {
+        guard listensFirst, case .freeform = engine.response,
+              freeform == .editing, draft.isEmpty, speech.phase == .idle else { return }
+        await toggleMic()
     }
 
     private func handleSend() async {

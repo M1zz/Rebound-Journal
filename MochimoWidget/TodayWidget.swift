@@ -175,6 +175,82 @@ struct TodayWidget: Widget {
     }
 }
 
+// MARK: - 말로 남기기
+
+/// 누르면 바로 들을 준비를 하는 위젯.
+///
+/// 자기 전 누워서 두세 마디 남기려는 사람에게는 앱을 열고, 고르고, 자판을 띄우는 단계가
+/// 다 짐이다. 잠금 화면에서 한 번 누르면 모찌가 먼저 묻고, 답할 차례에 마이크가 켜진다.
+struct SpeakWidgetView: View {
+
+    @Environment(\.widgetFamily) private var family
+    let entry: PebbleEntry
+
+    var body: some View {
+        Group {
+            switch family {
+            case .accessoryCircular:
+                ZStack {
+                    AccessoryWidgetBackground()
+                    Image(systemName: "mic.fill")
+                        .font(.system(size: 22, weight: .semibold))
+                }
+                .widgetAccentable()
+            case .accessoryRectangular:
+                HStack(spacing: 8) {
+                    Image(systemName: "mic.fill")
+                        .font(.system(size: 18, weight: .semibold))
+                    Text("말로 남기기")
+                        .font(.system(size: 15, weight: .semibold))
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.8)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .widgetAccentable()
+            default:
+                small
+            }
+        }
+        .environment(\.pebbleSkin, entry.snapshot.skin ?? .free)
+        .environment(\.pebbleBuddy, entry.snapshot.buddy ?? .default)
+    }
+
+    private var small: some View {
+        VStack(spacing: 10) {
+            PebbleView(mood: .listening, size: 56)
+            Label("말로 남기기", systemImage: "mic.fill")
+                .font(PebbleTheme.label(13))
+                .foregroundStyle(PebbleTheme.onKey)
+                .lineLimit(1)
+                .minimumScaleFactor(0.75)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 7)
+                .background(Capsule().fill(PebbleTheme.key))
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
+struct SpeakWidget: Widget {
+
+    private let kind = "SpeakWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: PebbleProvider()) { entry in
+            SpeakWidgetView(entry: entry)
+                .containerBackground(PebbleTheme.canvas, for: .widget)
+                .widgetURL(PebbleLink.speak)
+        }
+        .configurationDisplayName("말로 남기기")
+        .description("누르면 모찌가 바로 귀 기울여요. 자판 없이 말로 오늘을 남겨요.")
+        .supportedFamilies([
+            .systemSmall,
+            .accessoryCircular,
+            .accessoryRectangular
+        ])
+    }
+}
+
 #Preview(as: .systemMedium) {
     TodayWidget()
 } timeline: {

@@ -10,5 +10,6 @@ import WidgetKit
 struct MochimoWidgetBundle: WidgetBundle {
     var body: some Widget {
         TodayWidget()
+        SpeakWidget()
     }
 }

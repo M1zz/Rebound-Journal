@@ -39,6 +39,8 @@ struct TodayView: View {
     @State private var conversation: GoalObservation?
     /// 대화 위에 남겨 둘, 홈에서 이미 오간 말.
     @State private var conversationPreface: [ConversationEngine.Utterance] = []
+    /// '말로 남기기' 위젯으로 들어왔다. 답할 차례마다 마이크가 먼저 켜진다.
+    @State private var listensFirst = false
     @State private var isAddingGoal = false
     @State private var isShowingSettings = false
     @State private var isLookingBack = false
@@ -100,6 +102,7 @@ struct TodayView: View {
                         observation: conversation,
                         journals: journals,
                         preface: conversationPreface,
+                        listensFirst: listensFirst,
                         onFinish: endConversation
                     )
                     .id(conversation.id)
@@ -242,6 +245,7 @@ struct TodayView: View {
     private func endConversation() {
         conversation = nil
         conversationPreface = []
+        listensFirst = false
         // 대화가 끝나면 선택을 놓는다. 다음에 열었을 때 조약돌이 다시 스스로
         // 고르게 두어야, 사용자가 고른 목표에 계속 매여 있지 않는다.
         selectedGoal = nil
@@ -384,6 +388,7 @@ struct TodayView: View {
     /// 바로 그 자리로 데려간다.
     private func enter(from url: URL) {
         guard PebbleLink.isRecord(url) else { return }
+        listensFirst = PebbleLink.wantsVoice(url)
         if observation.invitesConversation {
             guard conversation == nil else { return }
             startConversation(observation, answered: nil)
