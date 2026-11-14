@@ -331,13 +331,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
+            "value" : "The microphone lets you answer by speaking instead of typing. Recordings are never saved; only the text stays on your device."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The microphone lets you look back out loud. Recordings are never saved, only the text stays on your device."
+            "value" : "The microphone lets you answer by speaking instead of typing. Recordings are never saved; only the text stays on your device."
           }
         },
         "es" : {

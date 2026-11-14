@@ -2587,13 +2587,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "'%@' — not yet today."
+            "value" : "No '%@' yet today."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "'%@' — not yet today."
+            "value" : "No '%@' yet today."
           }
         },
         "es" : {
@@ -2735,13 +2735,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "'%@' — not yet today."
+            "value" : "No '%@' yet today."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "'%@' — not yet today."
+            "value" : "No '%@' yet today."
           }
         },
         "es" : {
@@ -4329,13 +4329,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Set one goal down in 'The way you've come,' and you can write a new one."
+            "value" : "Let go of one goal in 'Your path so far' and you can add a new one."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Set one goal down in 'The way you've come,' and you can write a new one."
+            "value" : "Let go of one goal in 'Your path so far' and you can add a new one."
           }
         },
         "es" : {
@@ -4912,13 +4912,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you said you'd stopped on '%2$@'."
+            "value" : "%1$@ you said you'd gotten stuck on '%2$@'."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you said you'd stopped on '%2$@'."
+            "value" : "%1$@ you said you'd got stuck on '%2$@'."
           }
         },
         "es" : {
@@ -5054,13 +5054,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you said you'd stopped on '%2$@'."
+            "value" : "%1$@ you said you'd gotten stuck on '%2$@'."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you said you'd stopped on '%2$@'."
+            "value" : "%1$@ you said you'd got stuck on '%2$@'."
           }
         },
         "es" : {
@@ -6060,13 +6060,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "es" : {
@@ -6208,13 +6208,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "es" : {
@@ -6504,13 +6504,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@, a day you left a note"
+            "value" : "%@, a day you wrote a note"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@, a day you left a note"
+            "value" : "%@, a day you wrote a note"
           }
         },
         "es" : {
@@ -6652,13 +6652,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@, nothing left"
+            "value" : "%@, no note"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@, nothing left"
+            "value" : "%@, no note"
           }
         },
         "es" : {
@@ -7090,13 +7090,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You got to '%2$@' %1$@.%3$@"
+            "value" : "You did '%2$@' %1$@.%3$@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You got to '%2$@' %1$@.%3$@"
+            "value" : "You did '%2$@' %1$@.%3$@"
           }
         },
         "es" : {
@@ -7238,13 +7238,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You got to '%2$@' %1$@.%3$@"
+            "value" : "You did '%2$@' %1$@.%3$@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You got to '%2$@' %1$@.%3$@"
+            "value" : "You did '%2$@' %1$@.%3$@"
           }
         },
         "es" : {
@@ -7386,13 +7386,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "es" : {
@@ -7534,13 +7534,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ you got to '%2$@'.%3$@"
+            "value" : "%1$@ you did '%2$@'.%3$@"
           }
         },
         "es" : {
@@ -8915,13 +8915,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld day ago"
+                  "value" : "logged %lld day ago"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld days ago"
+                  "value" : "logged %lld days ago"
                 }
               }
             }
@@ -8933,13 +8933,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld day ago"
+                  "value" : "logged %lld day ago"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld days ago"
+                  "value" : "logged %lld days ago"
                 }
               }
             }
@@ -9363,13 +9363,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld week ago"
+                  "value" : "logged %lld week ago"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld weeks ago"
+                  "value" : "logged %lld weeks ago"
                 }
               }
             }
@@ -9381,13 +9381,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld week ago"
+                  "value" : "logged %lld week ago"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "left %lld weeks ago"
+                  "value" : "logged %lld weeks ago"
                 }
               }
             }
@@ -11350,13 +11350,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tickly tickly"
+            "value" : "That tickles"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tickly tickly"
+            "value" : "That tickles"
           }
         },
         "es" : {
@@ -12519,13 +12519,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beside you"
+            "value" : "Here with you"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beside you"
+            "value" : "Here with you"
           }
         },
         "es" : {
@@ -13545,13 +13545,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It's fine. It just went unnoticed."
+            "value" : "That's okay. It just slipped out of sight."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It's fine. It just went unnoticed."
+            "value" : "That's okay. It just slipped out of sight."
           }
         },
         "es" : {
@@ -16776,13 +16776,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "That happens. Forgetting doesn't erase it."
+            "value" : "It happens. It's still here, even if you forgot."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "That happens. Forgetting doesn't erase it."
+            "value" : "It happens. It's still here, even if you forgot."
           }
         },
         "es" : {
@@ -16926,13 +16926,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "That happens. Forgotten is just forgotten."
+            "value" : "It happens. You forgot, and that's all it is."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "That happens. Forgotten is just forgotten."
+            "value" : "It happens. You forgot, and that's all it is."
           }
         },
         "es" : {
@@ -17520,13 +17520,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stop talking"
+            "value" : "Done speaking"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stop talking"
+            "value" : "Done speaking"
           }
         },
         "es" : {
@@ -19553,13 +19553,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No need to hurry the rest."
+            "value" : "No need to rush the rest."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No need to hurry the rest."
+            "value" : "No need to rush the rest."
           }
         },
         "es" : {
@@ -20003,13 +20003,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kept, so what worked doesn't get forgotten."
+            "value" : "Saved, so you won't forget what worked."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kept, so what worked doesn't get forgotten."
+            "value" : "Saved, so you won't forget what worked."
           }
         },
         "es" : {
@@ -20294,13 +20294,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What you've left"
+            "value" : "Your notes"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What you've left"
+            "value" : "Your notes"
           }
         },
         "es" : {
@@ -20444,13 +20444,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your records stay. It just leaves the list."
+            "value" : "Your notes stay. The goal just comes off the list."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your records stay. It just leaves the list."
+            "value" : "Your notes stay. The goal just comes off the list."
           }
         },
         "es" : {
@@ -20588,13 +20588,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No words left."
+            "value" : "Nothing written."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No words left."
+            "value" : "Nothing written."
           }
         },
         "es" : {
@@ -21022,13 +21022,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Set Down"
+            "value" : "Let Go"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Set Down"
+            "value" : "Let Go"
           }
         },
         "es" : {
@@ -21894,13 +21894,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Okay, leaving it."
+            "value" : "Okay, no rush."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Okay, leaving it."
+            "value" : "Okay, no rush."
           }
         },
         "es" : {
@@ -22044,13 +22044,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Okay, leaving it. I'll be here."
+            "value" : "Okay, no rush. I'll be here."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Okay, leaving it. I'll be here."
+            "value" : "Okay, no rush. I'll be here."
           }
         },
         "es" : {
@@ -22636,13 +22636,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave the others. Shall we look at just this one?"
+            "value" : "Let's set the others aside and look at just this one."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave the others. Shall we look at just this one?"
+            "value" : "Let's set the others aside and look at just this one."
           }
         },
         "es" : {
@@ -22786,13 +22786,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Take the others slowly."
+            "value" : "No rush on the others."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Take the others slowly."
+            "value" : "No rush on the others."
           }
         },
         "es" : {
@@ -23374,13 +23374,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll keep this so you can use it again."
+            "value" : "I'll save this so you can use it again."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll keep this so you can use it again."
+            "value" : "I'll save this so you can use it again."
           }
         },
         "es" : {
@@ -25996,13 +25996,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "If nothing comes to mind, leave it blank. We'll find it later."
+            "value" : "If nothing comes to mind, you can skip this. We'll figure it out together later."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "If nothing comes to mind, leave it blank. We'll find it later."
+            "value" : "If nothing comes to mind, you can skip this. We'll figure it out together later."
           }
         },
         "es" : {
@@ -26718,13 +26718,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The microphone isn't available. Writing is fine too."
+            "value" : "The microphone isn't available. You can type instead."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The microphone isn't available. Writing is fine too."
+            "value" : "The microphone isn't available. You can type instead."
           }
         },
         "es" : {
@@ -27308,13 +27308,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Really hard"
+            "value" : "Really rough"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Really hard"
+            "value" : "Really rough"
           }
         },
         "es" : {
@@ -28044,13 +28044,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sound when speaking"
+            "value" : "Sound while talking"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sound when speaking"
+            "value" : "Sound while talking"
           }
         },
         "es" : {
@@ -28192,13 +28192,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Haptics when speaking"
+            "value" : "Haptics while talking"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Haptics when speaking"
+            "value" : "Haptics while talking"
           }
         },
         "es" : {
@@ -31390,13 +31390,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keep unlimited goals, choose your companion's color, and export your records. Buy once, keep it for good."
+            "value" : "Keep unlimited goals, choose your friend's color, and export your records. Buy once, keep it for good."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keep unlimited goals, choose your companion's color, and export your records. Buy once, keep it for good."
+            "value" : "Keep unlimited goals, choose your friend's color, and export your records. Buy once, keep it for good."
           }
         },
         "es" : {
@@ -31674,13 +31674,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Didn't"
+            "value" : "Didn't do it"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Didn't"
+            "value" : "Didn't do it"
           }
         },
         "es" : {
@@ -33274,13 +33274,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What are you heading toward?"
+            "value" : "What are you working toward?"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What are you heading toward?"
+            "value" : "What are you working toward?"
           }
         },
         "es" : {
@@ -34164,13 +34164,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Swipe or long-press a goal to rename it or set it down."
+            "value" : "Swipe or touch and hold a goal to rename it or let it go."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Swipe or long-press a goal to rename it or set it down."
+            "value" : "Swipe or touch and hold a goal to rename it or let it go."
           }
         },
         "es" : {
@@ -36665,13 +36665,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spinny spinny…"
+            "value" : "Round and round…"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spinny spinny…"
+            "value" : "Round and round…"
           }
         },
         "es" : {
@@ -40608,13 +40608,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nothing left yet."
+            "value" : "No notes yet."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nothing left yet."
+            "value" : "No notes yet."
           }
         },
         "es" : {
@@ -40900,13 +40900,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No stories left yet."
+            "value" : "No notes yet."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No stories left yet."
+            "value" : "No notes yet."
           }
         },
         "es" : {
@@ -41050,13 +41050,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You haven't told me what you're up to yet."
+            "value" : "You haven't told me what you're working on yet."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You haven't told me what you're up to yet."
+            "value" : "You haven't told me what you're working on yet."
           }
         },
         "es" : {
@@ -41782,13 +41782,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hello. I'm Mochimo."
+            "value" : "Hi, I'm Mochimo."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hello. I'm Mochimo."
+            "value" : "Hi, I'm Mochimo."
           }
         },
         "es" : {
@@ -44118,13 +44118,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "left yesterday"
+            "value" : "logged yesterday"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "left yesterday"
+            "value" : "logged yesterday"
           }
         },
         "es" : {
@@ -45868,13 +45868,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This is far enough.\nPlans made on a tired day rarely hold.\nIt's kept, so it's fine."
+            "value" : "Let's stop here.\nPlans made on a tired day rarely stick.\nIt's saved, so you're all set."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This is far enough.\nPlans made on a tired day rarely hold.\nIt's kept, so it's fine."
+            "value" : "Let's stop here.\nPlans made on a tired day rarely stick.\nIt's saved, so you're all set."
           }
         },
         "es" : {
@@ -48344,13 +48344,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "left today"
+            "value" : "logged today"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "left today"
+            "value" : "logged today"
           }
         },
         "es" : {
@@ -48494,13 +48494,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave today's note"
+            "value" : "Write today's note"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave today's note"
+            "value" : "Write today's note"
           }
         },
         "es" : {
@@ -48930,13 +48930,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Today's talk is saved"
+            "value" : "Today's chat is saved"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Today's talk is saved"
+            "value" : "Today's chat is saved"
           }
         },
         "es" : {
@@ -50257,13 +50257,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "left a long time ago"
+            "value" : "logged a long time ago"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "left a long time ago"
+            "value" : "logged a long time ago"
           }
         },
         "es" : {
@@ -50983,13 +50983,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Is there something you're trying to do lately? Tell me one."
+            "value" : "Is there something you've been trying to do lately? Tell me just one."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Is there something you're trying to do lately? Tell me one."
+            "value" : "Is there something you've been trying to do lately? Tell me just one."
           }
         },
         "es" : {
@@ -52447,13 +52447,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Records under this goal will follow the new name."
+            "value" : "Notes under this goal will use the new name."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Records under this goal will follow the new name."
+            "value" : "Notes under this goal will use the new name."
           }
         },
         "es" : {
@@ -52733,13 +52733,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Set this goal down?"
+            "value" : "Let go of this goal?"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Set this goal down?"
+            "value" : "Let go of this goal?"
           }
         },
         "es" : {
@@ -53319,13 +53319,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll keep this one. Tomorrow, only this far."
+            "value" : "I'll write this down. Tomorrow, just this much."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll keep this one. Tomorrow, only this far."
+            "value" : "I'll write this down. Tomorrow, just this much."
           }
         },
         "es" : {
@@ -53769,13 +53769,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave it as is"
+            "value" : "Keep it as is"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave it as is"
+            "value" : "Keep it as is"
           }
         },
         "es" : {
@@ -54857,13 +54857,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier note is folded away."
+                  "value" : "%lld earlier note is tucked away."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier notes are folded away."
+                  "value" : "%lld earlier notes are tucked away."
                 }
               }
             }
@@ -54875,13 +54875,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier note is folded away."
+                  "value" : "%lld earlier note is tucked away."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier notes are folded away."
+                  "value" : "%lld earlier notes are tucked away."
                 }
               }
             }
@@ -55305,13 +55305,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier note is folded away."
+                  "value" : "%lld earlier note is tucked away."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier notes are folded away."
+                  "value" : "%lld earlier notes are tucked away."
                 }
               }
             }
@@ -55323,13 +55323,13 @@
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier note is folded away."
+                  "value" : "%lld earlier note is tucked away."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld earlier notes are folded away."
+                  "value" : "%lld earlier notes are tucked away."
                 }
               }
             }
@@ -56712,13 +56712,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What happened and how you feel can be looked at separately."
+            "value" : "What happened and how you feel are two separate things."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What happened and how you feel can be looked at separately."
+            "value" : "What happened and how you feel are two separate things."
           }
         },
         "es" : {
@@ -57006,13 +57006,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Write it before I forget"
+            "value" : "Let me write it down before I forget"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Write it before I forget"
+            "value" : "Let me write it down before I forget"
           }
         },
         "es" : {
@@ -58342,13 +58342,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Good. I'll keep it now."
+            "value" : "That's great. I'll note it down now."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Good. I'll keep it now."
+            "value" : "That's great. I'll note it down now."
           }
         },
         "es" : {
@@ -58492,13 +58492,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Let's talk a moment"
+            "value" : "Let's talk for a moment"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Let's talk a moment"
+            "value" : "Let's talk for a moment"
           }
         },
         "es" : {
@@ -59074,13 +59074,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Written down. Just this much tomorrow."
+            "value" : "Got it. Just this much tomorrow."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Written down. Just this much tomorrow."
+            "value" : "Got it. Just this much tomorrow."
           }
         },
         "es" : {
@@ -59368,13 +59368,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Written down. This much is enough."
+            "value" : "Got it. This much is plenty."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Written down. This much is enough."
+            "value" : "Got it. This much is plenty."
           }
         },
         "es" : {
@@ -59518,13 +59518,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll write it"
+            "value" : "I'll write it down"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll write it"
+            "value" : "I'll write it down"
           }
         },
         "es" : {
@@ -62002,13 +62002,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What you've said so far is kept."
+            "value" : "What you've said so far will be saved."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What you've said so far is kept."
+            "value" : "What you've said so far will be saved."
           }
         },
         "es" : {
@@ -62481,13 +62481,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll leave it for now"
+            "value" : "Not right now"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll leave it for now"
+            "value" : "Not right now"
           }
         },
         "es" : {
@@ -62625,13 +62625,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'd rather leave it for now"
+            "value" : "Maybe later"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'd rather leave it for now"
+            "value" : "Maybe later"
           }
         },
         "es" : {
@@ -62773,13 +62773,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It's hard to hear right now. Writing is fine too."
+            "value" : "I can't listen right now. You can type instead."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It's hard to hear right now. Writing is fine too."
+            "value" : "I can't listen right now. You can type instead."
           }
         },
         "es" : {
@@ -63503,13 +63503,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The way you've come"
+            "value" : "Your path so far"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The way you've come"
+            "value" : "Your path so far"
           }
         },
         "es" : {
@@ -68199,13 +68199,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Companion"
+            "value" : "Friend"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Companion"
+            "value" : "Friend"
           }
         },
         "es" : {
@@ -68347,13 +68347,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose a companion"
+            "value" : "Choose a friend"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose a companion"
+            "value" : "Choose a friend"
           }
         },
         "es" : {
@@ -68489,13 +68489,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose your companion's color"
+            "value" : "Choose your friend's color"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose your companion's color"
+            "value" : "Choose your friend's color"
           }
         },
         "es" : {
@@ -68631,13 +68631,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Five more colors open up for your companion."
+            "value" : "Five more colors open up for your friend."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Five more colors open up for your companion."
+            "value" : "Five more colors open up for your friend."
           }
         },
         "es" : {
@@ -68773,13 +68773,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose from six colors for your companion"
+            "value" : "Choose from six colors for your friend"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose from six colors for your companion"
+            "value" : "Choose from six colors for your friend"
           }
         },
         "es" : {
@@ -69059,13 +69059,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It's fine to write something big."
+            "value" : "It's okay to think big."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It's fine to write something big."
+            "value" : "It's okay to think big."
           }
         },
         "es" : {
@@ -69777,13 +69777,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap it, or rub to pet it"
+            "value" : "Tap, or rub gently to pet"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap it, or rub to pet it"
+            "value" : "Tap, or rub gently to pet"
           }
         },
         "es" : {
@@ -70361,13 +70361,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave it however feels right"
+            "value" : "Set it whichever way you like"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave it however feels right"
+            "value" : "Set it whichever way you like"
           }
         },
         "es" : {
@@ -71379,13 +71379,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll add more with Pro"
+            "value" : "Add more with Pro"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I'll add more with Pro"
+            "value" : "Add more with Pro"
           }
         },
         "es" : {
@@ -73110,13 +73110,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Only that you did it."
+            "value" : "Marked as done, no note."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Only that you did it."
+            "value" : "Marked as done, no note."
           }
         },
         "es" : {
@@ -73397,13 +73397,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I did it, just didn't note it"
+            "value" : "I did it, just didn't log it"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I did it, just didn't note it"
+            "value" : "I did it, just didn't log it"
           }
         },
         "es" : {

@@ -148,7 +148,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beside you"
+            "value" : "Here with you"
           }
         },
         "cs" : {
@@ -178,7 +178,7 @@
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beside you"
+            "value" : "Here with you"
           }
         },
         "es" : {
@@ -1284,7 +1284,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave today's note"
+            "value" : "Write today's note"
           }
         },
         "cs" : {
@@ -1314,7 +1314,7 @@
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave today's note"
+            "value" : "Write today's note"
           }
         },
         "es" : {
@@ -1718,13 +1718,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A word from Mochimo. Tap to leave today's note."
+            "value" : "A few words from Mochimo. Tap to write today's note."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A word from Mochimo. Tap to leave today's note."
+            "value" : "A few words from Mochimo. Tap to write today's note."
           }
         },
         "cs" : {

@@ -89,7 +89,7 @@ Set a goal and your friend keeps track of the days you made it and the days you 
 JUST SAY IT
 On days when writing feels like too much, say it out loud. Speech is recognized on your device, recordings are never saved, and on supported devices your words are cleaned up so they read easily.
 
-THE WAY YOU'VE COME
+YOUR PATH SO FAR
 Each week is laid out as seven little mochi. Days you made it turn matcha green, days you just checked in turn golden. The days you missed stay there too. Nothing gets erased.
 
 WHAT YOU'VE WRITTEN
@@ -153,7 +153,7 @@ Set a goal and your friend keeps track of the days you made it and the days you 
 JUST SAY IT
 On days when writing feels like too much, say it out loud. Speech is recognized on your device, recordings are never saved, and on supported devices your words are cleaned up so they read easily.
 
-THE WAY YOU'VE COME
+YOUR PATH SO FAR
 Each week is laid out as seven little mochi. Days you made it turn matcha green, days you just checked in turn golden. The days you missed stay there too. Nothing gets erased.
 
 WHAT YOU'VE WRITTEN

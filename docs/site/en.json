@@ -17,15 +17,15 @@
     "workedSample": "The rain stopped, so I walked all the way to the river. My head feels clear.",
     "factsSample": "Got home at 9 after working late. No energy left to walk.",
     "nextSample": "On late days, just one lap around the block",
-    "obs": "'%@' — not yet today.",
+    "obs": "No '%@' yet today.",
     "yes": "Right, I didn't",
     "actually": "I did it, just didn't log it",
-    "leave": "I'd rather leave it for now",
+    "leave": "Maybe later",
     "facts": "When you meant to do '%@', what happened?",
     "factsPh": "Short is fine. Just what happened.",
     "emotion": "I see. And how are you feeling now?",
     "steps": [
-      "Really hard",
+      "Really rough",
       "Low",
       "So-so",
       "Okay",
@@ -85,7 +85,7 @@
       },
       {
         "title": "Tap or type a reply",
-        "text": "You can stop any time with `I'd rather leave it for now`."
+        "text": "You can stop any time with `Maybe later`."
       }
     ]
   },
@@ -113,7 +113,7 @@
         "On a really low day it asks nothing more and suggests a rest"
       ]
     ],
-    "note": "You can leave at any point, and whatever you've said so far is kept."
+    "note": "You can leave at any point, and whatever you've said so far is saved."
   },
   "pricing": {
     "title": "Talking and journaling are free. Pro is there if you want more.",
@@ -144,7 +144,7 @@
     "items": [
       {
         "q": "Do I have to explain every missed day?",
-        "a": "No. Tap `I'd rather leave it for now` at any point and the conversation ends right there. What you've said so far is kept, so you can pick it up later."
+        "a": "No. Tap `Maybe later` at any point and the conversation ends right there. What you've said so far is saved, so you can pick it up later."
       },
       {
         "q": "I actually did it, but the app says I didn't.",
@@ -156,7 +156,7 @@
       },
       {
         "q": "How many goals can I have?",
-        "a": "Three for free. When you're done with one, use `Set Down` in The way you've come to free up a spot. For more than three, you'll need Mochimo Pro."
+        "a": "Three for free. When you're done with one, use `Let Go` in Your path so far to free up a spot. For more than three, you'll need Mochimo Pro."
       },
       {
         "q": "Is Mochimo Pro a subscription?",
