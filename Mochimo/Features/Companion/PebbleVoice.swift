@@ -120,6 +120,11 @@ final class PebbleVoice {
             buffer = grains[tone.index % grains.count]
         }
         guard let buffer else { return }
+        // 알갱이 형식이 지금 연결과 다르면(출력 기기가 바뀌어 그래프를 다시 세운 직후 등)
+        // scheduleBuffer 가 ObjC 예외를 던져 앱이 죽는다(2.1.5 진단). 그 글자는 조용히 넘긴다.
+        let connected = player.outputFormat(forBus: 0)
+        guard buffer.format.channelCount == connected.channelCount,
+              buffer.format.sampleRate == connected.sampleRate else { return }
 
         if !player.isPlaying { player.play() }
         // 앞 알갱이를 자르지 않고 이어 붙인다. 겹쳐 울리는 게 오히려 수다스럽게 들린다.
