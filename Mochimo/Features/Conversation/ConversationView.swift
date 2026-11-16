@@ -251,8 +251,12 @@ struct ConversationView: View {
             // 한두 마디일 때 화면 가운데가 통째로 비어 보인다.
             .defaultScrollAnchor(.bottom)
             // 조약돌이 말하는 중에 화면을 누르면 끝까지 건너뛴다.
+            // 적는 중이면 키보드도 내려간다. 여러 줄 입력칸이라 Return 으로는 안 내려간다.
             .contentShape(Rectangle())
-            .onTapGesture { skipTyping() }
+            .onTapGesture {
+                isDraftFocused = false
+                skipTyping()
+            }
             .onChange(of: engine.transcript.count) { _, _ in scroll(proxy) }
             .onChange(of: isThinking) { _, _ in scroll(proxy) }
             .onChange(of: speech.displayText) { _, _ in scroll(proxy) }
@@ -409,6 +413,17 @@ struct ConversationView: View {
                     .lineLimit(1...5)
                     .focused($isDraftFocused)
                     .disabled(speech.isListening)
+                    .toolbar {
+                        ToolbarItemGroup(placement: .keyboard) {
+                            Spacer()
+                            Button {
+                                isDraftFocused = false
+                            } label: {
+                                Image(systemName: "keyboard.chevron.compact.down")
+                            }
+                            .accessibilityLabel(Text("키보드 내리기"))
+                        }
+                    }
 
                 if canSend {
                     Button {
