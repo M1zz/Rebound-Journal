@@ -33,6 +33,14 @@ struct GoalObservation: Equatable, Identifiable {
     let kind: Kind
     var id: String { headline }
 
+    /// 이 관찰이 얘기하는 목표. 목표가 없거나 조용한 날이면 nil.
+    var goal: String? {
+        switch kind {
+        case .neverAttempted(let goal), .reached(let goal, _), .notReached(let goal, _): goal
+        case .noGoalYet, .quiet: nil
+        }
+    }
+
     /// 조약돌이 화면에서 말하는 한 줄. 사실만 담고 평가하지 않는다.
     ///
     /// 매일 여는 화면이라 같은 문장이 반복되면 안내판처럼 읽힌다. 뜻은 그대로

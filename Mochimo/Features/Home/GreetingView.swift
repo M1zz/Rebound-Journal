@@ -20,6 +20,9 @@ struct GreetingView: View {
     /// 지금 할 수 있는 답들. 비어 있으면 조약돌이 혼자 말하고 끝난다.
     let choices: [ReplyChoice]
     var onSelect: (ReplyChoice) -> Void
+    /// 조약돌이 꺼낸 얘기 말고 내가 고를 수 있는 목표들. 누르면 그 얘기로 바로 대화가 열린다.
+    var topics: [String] = []
+    var onTopic: (String) -> Void = { _ in }
     /// 글자가 늘어나는 동안 계속 불린다. 화면을 따라 내리는 데 쓴다.
     var onProgress: () -> Void = {}
 
@@ -78,6 +81,10 @@ struct GreetingView: View {
             ReplyOptions(choices: choices, onSelect: onSelect)
                 .padding(.top, 16)
         }
+        if !topics.isEmpty {
+            TopicStrip(topics: topics, onSelect: onTopic)
+                .padding(.top, choices.isEmpty ? 16 : 8)
+        }
     }
 
     // MARK: 등장
@@ -107,5 +114,45 @@ struct GreetingView: View {
         TypingFeedback.shared.end()
         shown.insert(typingID)
         self.typingID = nil
+    }
+}
+
+/// 다른 목표로 바로 얘기를 여는 작은 칩들.
+///
+/// 예전에는 메뉴 ▸ 내 목표 ▸ 목표 ▸ 다시 인사 ▸ 단추까지 다섯 걸음이었다.
+/// 조약돌이 고른 얘기 바로 아래에 두어 한 번에 고르게 한다.
+private struct TopicStrip: View {
+    let topics: [String]
+    var onSelect: (String) -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(Phrasing.say("다른 얘기도 할 수 있어요", "다른 얘기도 할 수 있어"))
+                .font(PebbleTheme.label(13))
+                .foregroundStyle(PebbleTheme.inkFaint)
+            ScrollView(.horizontal) {
+                HStack(spacing: 8) {
+                    ForEach(topics, id: \.self) { topic in
+                        Button {
+                            TypingFeedback.shared.tap()
+                            onSelect(topic)
+                        } label: {
+                            Text(topic)
+                                .font(PebbleTheme.body(15))
+                                .foregroundStyle(PebbleTheme.ink)
+                                .lineLimit(1)
+                                .padding(.horizontal, 16)
+                                .padding(.vertical, 10)
+                                .background(PebbleTheme.surface, in: Capsule())
+                                .overlay(Capsule().strokeBorder(PebbleTheme.hairline, lineWidth: 1))
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityHint(Text("이 목표로 이야기해요"))
+                    }
+                }
+            }
+            .scrollIndicators(.hidden)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }

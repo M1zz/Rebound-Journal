@@ -83,9 +83,7 @@ struct TodayView: View {
         FoldSplitView {
             todayStack
         } result: {
-            LookBackView(showsClose: false) { goal in
-                selectedGoal = goal
-            }
+            LookBackView(showsClose: false, onPickGoal: choose(goal:))
             .environment(\.foldLayout, .single)
         }
     }
@@ -141,9 +139,7 @@ struct TodayView: View {
             AddGoalView()
         }
         .sheet(isPresented: $isLookingBack) {
-            LookBackView { goal in
-                selectedGoal = goal
-            }
+            LookBackView(onPickGoal: choose(goal:))
         }
         .sheet(isPresented: $isShowingSettings) {
             SettingsView()
@@ -152,9 +148,7 @@ struct TodayView: View {
             AllRecordsView()
         }
         .sheet(isPresented: $isShowingGoals) {
-            GoalsView { goal in
-                selectedGoal = goal
-            }
+            GoalsView(onTalk: choose(goal:))
         }
         #if DEBUG
         .task { await openScreenshotScene() }
@@ -242,6 +236,29 @@ struct TodayView: View {
         conversation = observation
     }
 
+    /// 내가 고른 목표로 바로 얘기를 연다.
+    ///
+    /// 고르고 나서 조약돌이 다시 인사하고 단추를 한 번 더 누르게 하면, 이미 정한
+    /// 얘기를 두 번 고르는 셈이다. 대화 중이면(펼친 화면의 옆 판) 지금 대화는 두고
+    /// 다음 인사의 주제만 바꾼다.
+    private func choose(goal: String) {
+        guard conversation == nil else {
+            selectedGoal = goal
+            return
+        }
+        startConversation(ProgressObserver.observation(for: goal, journals: journals), answered: goal)
+    }
+
+    /// 조약돌이 꺼낸 얘기 말고 고를 수 있는 목표들. 물음에 답하는 중에는 두지 않는다.
+    private var otherTopics: [String] {
+        guard followUp == nil, !isFirstMeeting else { return [] }
+        let current = observation.goal
+        return goals
+            .sorted { ($0.date ?? .distantPast) < ($1.date ?? .distantPast) }
+            .compactMap(\.goalText)
+            .filter { !$0.isEmpty && $0 != current }
+    }
+
     private func endConversation() {
         conversation = nil
         conversationPreface = []
@@ -269,6 +286,8 @@ struct TodayView: View {
                         lines: greeting,
                         choices: choices,
                         onSelect: handle(choice:),
+                        topics: otherTopics,
+                        onTopic: choose(goal:),
                         // 글자가 늘어나는 동안에도 따라 내려간다. 새 말이 시작할 때만
                         // 맞추면 긴 말풍선이 자라면서 화면 아래로 빠져나간다.
                         onProgress: { scrollToLatest(proxy, animated: false) },
