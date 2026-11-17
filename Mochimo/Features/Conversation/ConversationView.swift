@@ -94,11 +94,19 @@ struct ConversationView: View {
             PebbleTheme.canvas.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                companion
-                stageBar
-                thread
+                // 적는 동안에는 키보드 위가 좁다. 조약돌을 프사로 줄이고 지금 묻는
+                // 말 하나만 남겨, 남은 자리를 모두 답 칸에 준다.
+                if isWriting {
+                    writingHeader
+                        .transition(.opacity)
+                } else {
+                    companion
+                    stageBar
+                    thread
+                }
                 inputArea
             }
+            .animation(.easeOut(duration: 0.25), value: isWriting)
         }
         .task(id: engine.transcript.count) { await revealPending() }
         .onChange(of: engine.beat) { _, _ in resetInput() }
@@ -120,6 +128,51 @@ struct ConversationView: View {
         } message: {
             Text(Phrasing.say("지금까지 말한 건 남아요.", "지금까지 말한 건 남아."))
         }
+    }
+
+    // MARK: - 적는 중
+
+    /// 키보드를 올리고 답을 적는 중인지.
+    private var isWriting: Bool {
+        guard isDraftFocused, freeform == .editing,
+              case .freeform = engine.response else { return false }
+        return true
+    }
+
+    /// 지금 답하는 물음. 조약돌의 마지막 말이다.
+    private var currentQuestion: String {
+        engine.transcript.last(where: { $0.speaker == .pebble })?.text
+            ?? preface.last(where: { $0.speaker == .pebble })?.text
+            ?? ""
+    }
+
+    /// 적는 동안의 머리. 프사가 된 조약돌과 물음 말풍선 하나.
+    private var writingHeader: some View {
+        HStack(alignment: .top, spacing: 10) {
+            PebbleView(mood: engine.mood, size: 34)
+                .frame(width: 46, height: 46)
+                .accessibilityHidden(true)
+            ChatBubble(speaker: .pebble) {
+                ScrollView {
+                    Text(currentQuestion)
+                        .font(PebbleTheme.companionFont(16))
+                        .foregroundStyle(PebbleTheme.ink)
+                        .lineSpacing(4)
+                        .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .scrollBounceBehavior(.basedOnSize)
+                .frame(maxHeight: 120)
+                .fixedSize(horizontal: false, vertical: true)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(.horizontal, 20)
+        .padding(.top, 10)
+        .padding(.bottom, 14)
+        // 머리를 누르면 키보드를 내리고 지금까지의 대화로 돌아간다.
+        .contentShape(Rectangle())
+        .onTapGesture { isDraftFocused = false }
     }
 
     // MARK: - 단계
@@ -338,18 +391,22 @@ struct ConversationView: View {
                 // 대화 줄기와 답하는 자리를 선으로 가른다. 선 위는 이미 오간 말,
                 // 선 아래는 지금 내가 할 일이다. 같은 오른쪽에 있어도 섞여 보이지 않는다.
                 VStack(spacing: 16) {
-                    Rectangle()
-                        .fill(PebbleTheme.hairline)
-                        .frame(height: 1)
-                        .padding(.horizontal, -20)
+                    if !isWriting {
+                        Rectangle()
+                            .fill(PebbleTheme.hairline)
+                            .frame(height: 1)
+                            .padding(.horizontal, -20)
+                    }
                     responseControls
                 }
                 .transition(.opacity.combined(with: .move(edge: .bottom)))
             }
         }
         .animation(.easeOut(duration: 0.22), value: isPebbleSpeaking)
-        .padding(.horizontal, 28)
+        .padding(.horizontal, isWriting ? 20 : 28)
         .padding(.bottom, 10)
+        // 적는 중이면 키보드 위 남은 자리를 답 칸이 다 쓴다.
+        .frame(maxHeight: isWriting ? .infinity : nil, alignment: .top)
     }
 
     @ViewBuilder
@@ -410,7 +467,8 @@ struct ConversationView: View {
                     .font(PebbleTheme.body(16))
                     .foregroundStyle(PebbleTheme.ink)
                     .textFieldStyle(.plain)
-                    .lineLimit(1...5)
+                    .lineLimit(isWriting ? 1...40 : 1...5)
+                    .frame(maxHeight: isWriting ? .infinity : nil, alignment: .topLeading)
                     .focused($isDraftFocused)
                     .disabled(speech.isListening)
                     .toolbar {
