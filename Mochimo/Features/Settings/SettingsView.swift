@@ -785,6 +785,7 @@ private struct ExportFile: Identifiable {
 
 /// 파일을 넘기는 공유 시트. `ShareLink`는 누르기 전에 파일이 있어야 해서,
 /// 누른 뒤에 파일을 만드는 이 자리에는 맞지 않는다.
+#if os(iOS)
 private struct ShareSheet: UIViewControllerRepresentable {
     let items: [Any]
 
@@ -794,6 +795,20 @@ private struct ShareSheet: UIViewControllerRepresentable {
 
     func updateUIViewController(_ controller: UIActivityViewController, context: Context) {}
 }
+#else
+/// 맥: 만든 파일을 Finder 에서 바로 보여 준다. 공유 시트보다 맥에서 익숙한 길이다.
+private struct ShareSheet: View {
+    let items: [Any]
+
+    var body: some View {
+        ProgressView()
+            .onAppear {
+                let urls = items.compactMap { $0 as? URL }
+                NSWorkspace.shared.activateFileViewerSelecting(urls)
+            }
+    }
+}
+#endif
 
 #Preview {
     SettingsView()

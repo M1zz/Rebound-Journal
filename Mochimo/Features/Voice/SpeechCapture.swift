@@ -100,7 +100,7 @@ final class SpeechCapture {
             // 세션을 녹음용으로 연 뒤에 실패했을 수 있다. 붙잡고 있으면 조약돌 목소리가
             // 계속 비켜서 있게 되므로 놓아 준다.
             if AudioSessionQueue.isRecording {
-                try? await AudioSessionQueue.perform { try $0.setActive(false, options: .notifyOthersOnDeactivation) }
+                try? await AudioSessionQueue.close()
                 AudioSessionQueue.isRecording = false
             }
             phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
@@ -131,7 +131,7 @@ final class SpeechCapture {
         finalizedText = finalizedText.trimmingCharacters(in: .whitespacesAndNewlines)
 
         // 메인 스레드에서 끄지 않는다. 조약돌 목소리가 켜 둔 세션이 살아 있을 수 있다.
-        try? await AudioSessionQueue.perform { try $0.setActive(false, options: .notifyOthersOnDeactivation) }
+        try? await AudioSessionQueue.close()
         AudioSessionQueue.isRecording = false
         phase = .idle
     }
@@ -172,10 +172,7 @@ final class SpeechCapture {
         locale = spoken
         AudioSessionQueue.isRecording = true
         do {
-            try await AudioSessionQueue.perform { session in
-                try session.setCategory(.playAndRecord, mode: .measurement, options: [.duckOthers, .defaultToSpeaker])
-                try session.setActive(true, options: .notifyOthersOnDeactivation)
-            }
+            try await AudioSessionQueue.openForRecording()
         } catch {
             AudioSessionQueue.isRecording = false
             throw error

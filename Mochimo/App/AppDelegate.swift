@@ -5,8 +5,9 @@
 //  Created by hyunho lee on 12/8/24.
 //
 
-import UIKit
 import UserNotifications
+#if os(iOS)
+import UIKit
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
@@ -20,6 +21,18 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
         return true
     }
 }
+#else
+import AppKit
+
+final class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        UNUserNotificationCenter.current().delegate = self
+    }
+
+    /// 창을 닫아도 메뉴 막대의 모찌는 남는다. 앱을 끝내지 않는다.
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { false }
+}
+#endif
 
 // MARK: - 앱이 켜져 있을 때 온 알림도 보여 준다
 

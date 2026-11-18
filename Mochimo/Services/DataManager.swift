@@ -15,6 +15,7 @@
 import SwiftUI
 import CoreData
 import SwiftData
+import UserNotifications
 
 /// 앱 전체를 덮는 화면. 지금은 비밀번호 화면만 이렇게 띄운다.
 ///

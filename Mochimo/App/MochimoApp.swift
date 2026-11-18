@@ -13,7 +13,11 @@ import LeeoKit
 
 @main
 struct MochimoApp: App {
+    #if os(iOS)
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    #else
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    #endif
     @StateObject private var manager = DataManager(preview: false)
     /// 모찌모 프로 권한. 앱 어디서든 `store.hasPro` 로 묻는다.
     @StateObject private var store = LeeoStore(
@@ -83,7 +87,7 @@ struct MochimoApp: App {
     }
 
     var body: some Scene {
-        WindowGroup {
+        WindowGroup(id: MochimoWindow.main) {
             SkinnedRoot()
                 .storeFallbackNotice()
                 .environmentObject(manager)
@@ -100,6 +104,21 @@ struct MochimoApp: App {
                 .foldAware()
         }
         .commands { MochimoCommands() }
+        // 맥 창은 처음에 대화와 지나온 길이 나란히 들어갈 만큼 연다. 아이패드에서는 쓰이지 않는다.
+        .defaultSize(width: 1100, height: 760)
+
+        #if os(macOS)
+        // 메뉴 막대의 모찌 (→ MenuBarPebble.swift)
+        MenuBarExtra {
+            QuickNoteView()
+                .environmentObject(manager)
+                .modelContainer(sharedModelContainer)
+        } label: {
+            MenuBarPebbleLabel()
+                .modelContainer(sharedModelContainer)
+        }
+        .menuBarExtraStyle(.window)
+        #endif
     }
 }
 

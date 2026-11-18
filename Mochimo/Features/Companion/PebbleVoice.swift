@@ -105,7 +105,7 @@ final class PebbleVoice {
             // 다음 글자쯤이면 준비된다.
             let engineUp = isWired
                 && engine.isRunning
-                && AVAudioSession.sharedInstance().category == .playback
+                && AudioSessionQueue.isOpenForPlayback
             if !engineUp { requestSessionIfNeeded() }
             return
         }
@@ -166,7 +166,7 @@ final class PebbleVoice {
         isWired
             && engine.isRunning
             && engine.outputNode.lastRenderTime != nil
-            && AVAudioSession.sharedInstance().category == .playback
+            && AudioSessionQueue.isOpenForPlayback
     }
 
     /// 세션을 전용 큐에서 열고, 다 열리면 메인에서 그래프를 세우고 엔진을 켠다.
@@ -185,18 +185,10 @@ final class PebbleVoice {
         isActivatingSession = true
 
         Task {
-            // .playback — 무음 스위치를 켜 두어도 들린다.
-            //
-            // .ambient로 두면 무음 모드에서 아무 소리도 나지 않는다. 대부분 무음으로
-            // 두고 쓰는데 그러면 이 기능이 있는 줄도 모르게 된다. 소리를 끄는 스위치는
-            // 설정 안에 따로 있으니, 그쪽을 진짜 스위치로 삼는다.
-            // .mixWithOthers를 함께 줘서 듣던 음악은 끊지 않는다.
+            // 무음 스위치를 켜 두어도 들리게 재생용으로 연다 (→ AudioSessionQueue).
             let opened: Bool
             do {
-                try await AudioSessionQueue.perform { session in
-                    try session.setCategory(.playback, mode: .default, options: [.mixWithOthers])
-                    try session.setActive(true, options: [])
-                }
+                try await AudioSessionQueue.openForPlayback()
                 opened = true
             } catch {
                 opened = false

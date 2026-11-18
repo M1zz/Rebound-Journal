@@ -28,7 +28,7 @@
 		3E8233B791B92563D26DC5DC /* StepIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */; };
 		429D1D50CB2D9041CDDED650 /* MochimoSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CEB7F55F0C4DBCA5F58161 /* MochimoSpec.swift */; };
 		4471FF57FE391671BCB980CC /* LookBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51174705416645E35FAB3931 /* LookBackView.swift */; };
-		46B781E09259FABE4C2E5E9D /* MochimoWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 008D539F940765D19E5B644C /* MochimoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46B781E09259FABE4C2E5E9D /* MochimoWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 008D539F940765D19E5B644C /* MochimoWidget.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4A0B7EC081C07FD8AB6AD5FB /* PebbleVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE57171C6D211922D643B5 /* PebbleVoice.swift */; };
 		54C29520A0E09C2256F8E240 /* ScreenshotMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959FB2999C0F85A2C9E069F /* ScreenshotMode.swift */; };
 		586F228C2A33861C004C7410 /* MochimoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586F228B2A33861C004C7410 /* MochimoApp.swift */; };
@@ -44,6 +44,7 @@
 		58FAF68D2D01F0C8008BE152 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68C2D01F0C8008BE152 /* SettingsView.swift */; };
 		58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */; };
 		5D6D3BFF2451BEC886B3D1DA /* DataEraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCB78F6E3C142BD77F217C /* DataEraser.swift */; };
+		6372DC4E5B64BEE1372916C3 /* MenuBarPebble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF2D176CDF548606D577AB /* MenuBarPebble.swift */; };
 		63887F65C27E9D8200CB1C13 /* MoodDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75756BFB99B04A753A30E8E5 /* MoodDrawing.swift */; };
 		64397E240888B4336D374D10 /* RecordExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D42F909752BBA4FA405C /* RecordExporter.swift */; };
 		69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */; };
@@ -73,6 +74,7 @@
 		C3B1B7C12D9462140008E38D /* UsageReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1B7C02D9462140008E38D /* UsageReporting.swift */; };
 		C3B1B7D12D9462140008E38D /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1B7D02D9462140008E38D /* AppLanguage.swift */; };
 		C7A4812B83E1CF7E3F1F69CF /* ProgressObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B21196696E9C4AA400EB7 /* ProgressObserver.swift */; };
+		C9B1C71EFCF27B895AADB57E /* PlatformCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21021911D43E09FD0A0697 /* PlatformCompat.swift */; };
 		CE8613311D8C21A1850CFB35 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4793847AD7E6899F390C7B5 /* ConversationView.swift */; };
 		D1F47AB894E00563B3B480D5 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */; };
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
@@ -149,6 +151,7 @@
 		70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScript.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
 		75756BFB99B04A753A30E8E5 /* MoodDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoodDrawing.swift; sourceTree = "<group>"; };
+		7FAF2D176CDF548606D577AB /* MenuBarPebble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuBarPebble.swift; sourceTree = "<group>"; };
 		893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		979420319212C0F8FD12EB31 /* ConversationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationEngine.swift; sourceTree = "<group>"; };
 		9813DACAB5E98893A5F94005 /* PebbleSkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PebbleSkin.swift; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 		C3B1B7E02D9462140008E38D /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Version.xcconfig; path = Config/Version.xcconfig; sourceTree = "<group>"; };
 		C4793847AD7E6899F390C7B5 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
 		C760ECB726D436E8330B1F4E /* MochimoRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MochimoRoadmap.swift; sourceTree = "<group>"; };
+		CA21021911D43E09FD0A0697 /* PlatformCompat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformCompat.swift; sourceTree = "<group>"; };
 		CD3E27FB44F5B7F23F520FD2 /* HomeGreeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGreeting.swift; sourceTree = "<group>"; };
 		D41606D32B4E15054B74956C /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		D72BF35EA7595CD8ACE31DEA /* PebbleSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSnapshot.swift; sourceTree = "<group>"; };
@@ -271,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */,
+				CA21021911D43E09FD0A0697 /* PlatformCompat.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -489,6 +494,7 @@
 				BFEF96E14F52D15708378F21 /* TodayView.swift */,
 				B2DE3CA0CD04357580CE6039 /* GoalsView.swift */,
 				16D851C813D0A61396CDC575 /* LeftAgo.swift */,
+				7FAF2D176CDF548606D577AB /* MenuBarPebble.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -908,6 +914,8 @@
 				3E8233B791B92563D26DC5DC /* StepIntents.swift in Sources */,
 				04DF9B8401B3D56EEAB084DB /* AppCommands.swift in Sources */,
 				63887F65C27E9D8200CB1C13 /* MoodDrawing.swift in Sources */,
+				C9B1C71EFCF27B895AADB57E /* PlatformCompat.swift in Sources */,
+				6372DC4E5B64BEE1372916C3 /* MenuBarPebble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,6 +938,7 @@
 /* Begin PBXTargetDependency section */
 		F7B674EB54D2867F9D4771C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 6197BA0BEE272FF88DD1207C /* MochimoWidget */;
 			targetProxy = F7294EA2E61984123CAAC5DF /* PBXContainerItemProxy */;
 		};
@@ -1120,10 +1129,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Mochimo/Mochimo.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Mochimo/Mochimo-macOS.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mochimo/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mochimo-Info.plist";
@@ -1140,12 +1151,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1159,10 +1172,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Mochimo/Mochimo.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Mochimo/Mochimo-macOS.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mochimo/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mochimo-Info.plist";
@@ -1179,12 +1194,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

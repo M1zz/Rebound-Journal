@@ -163,9 +163,9 @@ struct TodayView: View {
             .proPaywall(isPresented: $isShowingDebugPaywall)
             #endif
             .navigationTitle("모찌모")
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar { toolbarItems }
-            .toolbarBackground(PebbleTheme.canvas, for: .navigationBar)
+            .navigationBarBackground(PebbleTheme.canvas)
         }
         .sheet(isPresented: $isAddingGoal, onDismiss: resetGreeting) {
             AddGoalView()
@@ -623,7 +623,7 @@ struct TodayView: View {
     private var navigationItems: some ToolbarContent {
         // 펼친 화면에서는 지나온 길이 늘 옆 판에 서 있으므로 여는 단추가 필요 없다.
         if !showsLookBeside {
-            ToolbarItem(placement: .topBarLeading) {
+            ToolbarItem(placement: .leadingBar) {
                 // 지나온 길. 이어진 점들이 징검다리를 그대로 닮았다.
                 Button {
                     isLookingBack = true
@@ -635,7 +635,7 @@ struct TodayView: View {
             }
         }
 
-        ToolbarItem(placement: .topBarTrailing) {
+        ToolbarItem(placement: .trailingBar) {
             Menu {
                 // 지금 향하는 곳들을 보고 이름을 고치거나 내려놓는 자리.
                 Button {

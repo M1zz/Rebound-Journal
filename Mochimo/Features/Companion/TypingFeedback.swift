@@ -17,7 +17,9 @@
 
 import CoreHaptics
 import Foundation
+#if canImport(UIKit)
 import UIKit
+#endif
 
 @MainActor
 final class TypingFeedback {
@@ -233,3 +235,14 @@ private extension Character {
             && !CharacterSet.punctuationCharacters.contains(scalar)
     }
 }
+
+#if os(macOS)
+/// 맥에는 손에 닿는 진동이 없다. 같은 코드가 그대로 돌게 아무것도 하지 않는 짝을 둔다.
+final class UIImpactFeedbackGenerator {
+    enum FeedbackStyle { case light, medium, heavy, soft, rigid }
+    init(style: FeedbackStyle = .medium) {}
+    func prepare() {}
+    func impactOccurred() {}
+    func impactOccurred(intensity: CGFloat) {}
+}
+#endif

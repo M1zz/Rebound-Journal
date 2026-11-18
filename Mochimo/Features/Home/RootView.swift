@@ -25,7 +25,7 @@ struct RootView: View {
 
     var body: some View {
         TodayView()
-            .fullScreenCover(item: $manager.fullScreenMode) { mode in
+            .coverScreen(item: $manager.fullScreenMode) { mode in
                 switch mode {
                 case .passcodeView:
                     PasscodeView()

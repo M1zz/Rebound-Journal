@@ -98,11 +98,15 @@ struct PasscodeView: View {
     /// 아이폰 듀오를 펴면 이 화면은 고르는 쪽 판 한 장에만 서므로(`foldConfined`) 그 판 크기로 재고,
     /// 네 줄이 판 높이 안에 들도록 높이로도 줄인다. 접혀 있으면 예전 셈 그대로다.
     private static var keySize: CGFloat {
+        #if os(macOS)
+        return 64
+        #else
         let fold = FoldState.current
         guard fold.isUnfolded else { return UIScreen.main.bounds.width / 3 - 50 }
         let pane = fold.choosePaneSize
         // 제목 · 점 · 사이 간격 · 위 여백이 차지하는 높이를 빼고 네 줄로 나눈다.
         return max(44, min(pane.width / 3 - 50, (pane.height - 260) / 4))
+        #endif
     }
 
     /// Verify setup passcode
@@ -142,6 +146,7 @@ struct PasscodeView: View {
 }
 
 /// 비밀번호 화면 뒤로 앱을 흐리게 비춘다.
+#if os(iOS)
 private struct BackgroundBlurView: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
         let view = UIVisualEffectView(effect: UIBlurEffect(style: .light))
@@ -153,3 +158,8 @@ private struct BackgroundBlurView: UIViewRepresentable {
 
     func updateUIView(_ uiView: UIView, context: Context) {}
 }
+#else
+private struct BackgroundBlurView: View {
+    var body: some View { Rectangle().fill(.ultraThinMaterial) }
+}
+#endif

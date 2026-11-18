@@ -8,7 +8,11 @@
 //
 
 import SwiftUI
+#if canImport(UIKit)
 import UIKit
+#else
+import AppKit
+#endif
 
 enum PebbleTheme {
 
@@ -127,16 +131,31 @@ enum PebbleTheme {
 
     /// 라이트·다크 한 쌍. `lightHigh`·`darkHigh`를 주면 '대비 증가'일 때 그 값을 쓴다.
     static func dynamic(light: UInt32, dark: UInt32, lightHigh: UInt32? = nil, darkHigh: UInt32? = nil) -> Color {
+        #if canImport(UIKit)
         Color(uiColor: UIColor { traits in
             let isDark = traits.userInterfaceStyle == .dark
             let isHigh = traits.accessibilityContrast == .high
             let rgb = isDark ? (isHigh ? darkHigh ?? dark : dark) : (isHigh ? lightHigh ?? light : light)
             return UIColor(rgb: rgb)
         })
+        #else
+        Color(nsColor: NSColor(name: nil) { appearance in
+            let isDark = appearance.bestMatch(from: [.darkAqua, .aqua]) == .darkAqua
+            let isHigh = NSWorkspace.shared.accessibilityDisplayShouldIncreaseContrast
+            let rgb = isDark ? (isHigh ? darkHigh ?? dark : dark) : (isHigh ? lightHigh ?? light : light)
+            return NSColor(rgb: rgb)
+        })
+        #endif
     }
 }
 
-private extension UIColor {
+#if canImport(UIKit)
+private typealias PlatformColor = UIColor
+#else
+private typealias PlatformColor = NSColor
+#endif
+
+private extension PlatformColor {
     convenience init(rgb: UInt32) {
         self.init(
             red: CGFloat((rgb >> 16) & 0xFF) / 255,

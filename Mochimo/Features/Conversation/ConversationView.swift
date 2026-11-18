@@ -480,16 +480,14 @@ struct ConversationView: View {
                     .frame(maxHeight: isWriting ? .infinity : nil, alignment: .topLeading)
                     .focused($isDraftFocused)
                     .disabled(speech.isListening)
-                    .toolbar {
-                        ToolbarItemGroup(placement: .keyboard) {
-                            Spacer()
-                            Button {
-                                isDraftFocused = false
-                            } label: {
-                                Image(systemName: "keyboard.chevron.compact.down")
-                            }
-                            .accessibilityLabel(Text("키보드 내리기"))
+                    .keyboardToolbar {
+                        Spacer()
+                        Button {
+                            isDraftFocused = false
+                        } label: {
+                            Image(systemName: "keyboard.chevron.compact.down")
                         }
+                        .accessibilityLabel(Text("키보드 내리기"))
                     }
 
                 if canSend {
