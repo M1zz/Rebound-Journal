@@ -42,9 +42,21 @@ enum MochimoSpec: LeeoAppSpec {
     /// 설정에서 통계를 끄면 이것도 멈춘다 (`OptOutAwareAnalytics`).
     static let analytics: any LeeoAnalytics = OptOutAwareAnalytics()
 
-    /// 평생 이용권 상품 ID.
+    /// 평생 이용권 상품 ID (비소모성).
     /// ⚠️ App Store Connect·구매자 영수증과의 계약이다. 한 번 팔기 시작하면 바꾸지 않는다.
     static let proProductID = "com.leeo.ReboundJournal.pro"
+
+    /// 자동 갱신 구독 (구독 그룹 "모찌모 프로"). 연간이 그룹 레벨 1, 월간이 2.
+    /// 평생 이용권과 **같은 프로**를 연다. 구독 전용 기능은 없다.
+    /// ⚠️ 상품 ID 는 App Store Connect 와의 계약이다. 바꾸지 않는다.
+    static let yearlyProductID = "com.leeo.ReboundJournal.pro.yearly"
+    static let monthlyProductID = "com.leeo.ReboundJournal.pro.monthly"
+
+    /// 결제 화면에 보이는 순서. 맨 앞이 처음 골라져 있다 — 평생 이용권을 앞세운다.
+    static let productIDs = [proProductID, yearlyProductID, monthlyProductID]
+
+    /// 구독을 팔면 이용약관 링크가 심사 필수다. 따로 쓴 약관이 없어 Apple 표준 약관(EULA)을 건다.
+    static let termsURL = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!
 
     /// 프로 선물 상품 ID — 소모성. 받는 사람은 평생 이용권(`proProductID`)을 산 것과 같아진다.
     /// ⚠️ `productIDs` · `entitlementIDs` 에 넣지 않는다. 넣으면 선물을 산 사람 자신이 프로가 된다.
@@ -58,15 +70,17 @@ enum MochimoSpec: LeeoAppSpec {
         "com.leeo.ReboundJournal.tip.large"
     ]
 
-    /// 수익모델 — 무료로 쓰다가 **한 번 사면 평생** (구독 아님). 근거는 `docs/BUSINESS.md`.
+    /// 수익모델 — 무료로 쓰다가 **한 번 사서 평생**, 또는 **월 · 연 구독**. 셋 다 같은 프로를 연다
+    /// (entitlementIDs = 판매 상품 전체). 근거는 `docs/BUSINESS.md`.
     ///
     /// 게이트 키는 `ProFeature.rawValue` 와 같다.
     ///  - goal: 무료로 품을 수 있는 목표 수. '새 목표 적기'에서만 따진다. 대화 중에 스스로
     ///    쪼갠 목표는 개수에 들어가지만 막지 않는다 — 대화 한가운데 페이월을 띄우지 않는다.
     ///  - pebbleSkin / export: 프로 전용.
-    static let monetization = LeeoMonetization.freemium(
-        LeeoPurchaseConfig(
-            productIDs: [proProductID],
+    static let monetization = LeeoMonetization.freemiumSubscription(
+        LeeoSubscriptionConfig(
+            productIDs: productIDs,
+            termsURL: termsURL,
             gate: LeeoGatePolicy(
                 freeLimits: [ProFeature.moreGoals.rawValue: ProFeature.freeGoalLimit],
                 proOnly: [ProFeature.pebbleSkin.rawValue, ProFeature.export.rawValue],

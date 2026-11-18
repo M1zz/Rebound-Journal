@@ -2,7 +2,7 @@
 //  ProFeature.swift
 //  Mochimo
 //
-//  모찌모 프로 — 한 번 사면 계속 쓰는 부분유료.
+//  모찌모 프로 — 부분유료. 한 번 사서 계속 쓰거나, 월 · 연으로 구독한다 (같은 프로).
 //
 //  ---
 //
@@ -62,7 +62,7 @@ enum ProFeature: String, CaseIterable, LeeoProFeature {
             String(localized: "목표를 개수 제한 없이 적어 둬요"),
             String(localized: "친구의 색을 여섯 가지 중에서 골라요"),
             String(localized: "지나온 기록을 파일로 내보내요"),
-            String(localized: "한 번 사면 계속 써요. 구독이 아니에요")
+            String(localized: "한 번 사서 계속 쓰거나, 구독으로 가볍게 시작해요")
         ]
     }
 }
@@ -89,7 +89,7 @@ private struct ProPaywallModifier: ViewModifier {
         content.sheet(isPresented: $isPresented) {
             LeeoPaywallView<MochimoSpec>(
                 title: feature == nil ? String(localized: "모찌모 프로") : nil,
-                // "구독이 아니에요"는 혜택 목록 마지막 줄에 있다. 부제에서 되풀이하지 않는다.
+                // 사는 방법(평생 · 구독)은 혜택 목록 마지막 줄에 있다. 부제에서 되풀이하지 않는다.
                 subtitle: feature == nil ? String(localized: "무료로 쓰던 건 그대로, 몇 가지가 더 열려요.") : nil,
                 features: ProFeature.benefits,
                 leadFeature: feature,

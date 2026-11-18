@@ -42,7 +42,8 @@
 가입도 광고도 없어요. 기록은 내 기기와 내 iCloud에만 있고 암호로 앱을 잠글 수 있어요. 적은 내용은 개발자에게 보내지 않아요.
 
 모찌모 프로
-목표 세 개까지는 무료로 써요. 구독이 아닌 한 번 구매로 목표를 원하는 만큼 두고, 친구 색 여섯 가지 중에서 고르고, 기록을 텍스트 파일로 내보낼 수 있어요.
+목표 세 개까지는 무료로 써요. 한 번 구매하거나 월 · 연 구독을 하면 목표를 원하는 만큼 두고, 친구 색 여섯 가지 중에서 고르고, 기록을 텍스트 파일로 내보낼 수 있어요. 구독은 해지하기 전까지 자동으로 갱신돼요.
+이용약관: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 키워드
 
@@ -102,7 +103,8 @@ JUST FOR YOU
 No sign-up and no ads. Your entries stay on your device and in your own iCloud, and you can lock the app with a passcode. Nothing you write is ever sent to the developer.
 
 MOCHIMO PRO
-Free with up to three goals. A one-time purchase, not a subscription, unlocks unlimited goals, six colors for your friend and exporting your entries as a text file.
+Free with up to three goals. A one-time purchase or a monthly or yearly subscription unlocks unlimited goals, six colors for your friend and exporting your entries as a text file. Subscriptions renew automatically until cancelled.
+Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 키워드
 
@@ -166,7 +168,8 @@ JUST FOR YOU
 No sign-up and no ads. Your entries stay on your device and in your own iCloud, and you can lock the app with a passcode. Nothing you write is ever sent to the developer.
 
 MOCHIMO PRO
-Free with up to three goals. A one-time purchase, not a subscription, unlocks unlimited goals, six colours for your friend and exporting your entries as a text file.
+Free with up to three goals. A one-time purchase or a monthly or yearly subscription unlocks unlimited goals, six colours for your friend and exporting your entries as a text file. Subscriptions renew automatically until cancelled.
+Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -226,7 +229,8 @@ Mochimo
 无需注册，没有广告。你的记录只保存在你的设备和你自己的 iCloud 中，还可以用密码锁住 App。你写下的内容绝不会发送给开发者。
 
 MOCHIMO PRO
-免费版最多可设三个目标。一次性购买（不是订阅），即可设置任意数量的目标，从六种颜色中为小伙伴挑选一种，并把记录导出为文本文件。
+免费版最多可设三个目标。一次性购买，或按月、按年订阅，即可设置任意数量的目标，从六种颜色中为小伙伴挑选一种，并把记录导出为文本文件。订阅在取消前会自动续期。
+使用条款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -286,7 +290,8 @@ Mochimo
 無需註冊，沒有廣告。你的記錄只儲存在你的裝置和你自己的 iCloud 中，還可以用密碼鎖住 App。你寫下的內容絕不會傳送給開發者。
 
 MOCHIMO PRO
-免費版最多可設三個目標。一次性購買（不是訂閱），即可設定任意數量的目標，從六種顏色中為好友挑選一種，並把記錄匯出為文字檔。
+免費版最多可設三個目標。一次性購買，或按月、按年訂閱，即可設定任意數量的目標，從六種顏色中為好友挑選一種，並把記錄匯出為文字檔。訂閱在取消前會自動續訂。
+使用條款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -346,7 +351,8 @@ Mochimo: 失敗を振り返る日記
 登録は不要で、広告もありません。記録はあなたのデバイスと、あなた自身のiCloudにだけ保存されます。アプリはパスコードでロックできます。書いた内容が開発者に送られることは一切ありません。
 
 MOCHIMO PRO
-目標3つまでは無料で使えます。サブスクではなく一度だけの購入で、目標を好きなだけ立てられ、友だちの色を6色から選べ、記録をテキストファイルに書き出せます。
+目標3つまでは無料で使えます。一度だけの購入、または月額・年額のサブスクリプションで、目標を好きなだけ立てられ、友だちの色を6色から選べ、記録をテキストファイルに書き出せます。サブスクリプションは解約するまで自動的に更新されます。
+利用規約：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -406,7 +412,8 @@ Mochimo: дневник неудач
 Без регистрации и без рекламы. Записи хранятся только на вашем устройстве и в вашем личном iCloud, а приложение можно закрыть код-паролем. Написанное вами никогда не отправляется разработчику.
 
 MOCHIMO PRO
-Бесплатно можно вести до трёх целей. Разовая покупка, а не подписка, снимает ограничение на число целей, открывает шесть цветов для друга и экспорт записей в текстовый файл.
+Бесплатно можно вести до трёх целей. Разовая покупка либо подписка на месяц или год снимает ограничение на число целей, открывает шесть цветов для друга и экспорт записей в текстовый файл. Подписка продлевается автоматически, пока вы её не отмените.
+Условия использования: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -466,7 +473,8 @@ Solo tuyo
 Sin registro y sin anuncios. Tus registros se quedan en tu dispositivo y en tu propio iCloud, y puedes bloquear la app con un código. Nada de lo que escribes se envía nunca al desarrollador.
 
 MOCHIMO PRO
-Gratis con hasta tres metas. Una compra única, no una suscripción, desbloquea metas ilimitadas, seis colores para tu amigo y la exportación de tus registros a un archivo de texto.
+Gratis con hasta tres metas. Una compra única o una suscripción mensual o anual desbloquea metas ilimitadas, seis colores para tu amigo y la exportación de tus registros a un archivo de texto. Las suscripciones se renuevan automáticamente hasta que las canceles.
+Términos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -526,7 +534,8 @@ Nur für dich
 Keine Registrierung, keine Werbung. Deine Einträge bleiben auf deinem Gerät und in deinem eigenen iCloud, und du kannst die App mit einem Code sperren. Nichts, was du schreibst, wird jemals an den Entwickler gesendet.
 
 MOCHIMO PRO
-Kostenlos mit bis zu drei Zielen. Ein einmaliger Kauf, kein Abo, schaltet unbegrenzt viele Ziele frei, sechs Farben für deinen Freund und den Export deiner Einträge als Textdatei.
+Kostenlos mit bis zu drei Zielen. Ein einmaliger Kauf oder ein Monats- oder Jahresabo schaltet unbegrenzt viele Ziele frei, sechs Farben für deinen Freund und den Export deiner Einträge als Textdatei. Abos verlängern sich automatisch, bis du sie kündigst.
+Nutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -586,7 +595,8 @@ Rien que pour vous
 Sans inscription et sans publicité. Vos notes restent sur votre appareil et dans votre propre iCloud, et vous pouvez verrouiller l’app par un code. Rien de ce que vous écrivez n’est envoyé au développeur.
 
 MOCHIMO PRO
-Gratuit jusqu’à trois objectifs. Un achat unique, et non un abonnement, débloque les objectifs illimités, six couleurs pour votre ami et l’export de vos notes dans un fichier texte.
+Gratuit jusqu’à trois objectifs. Un achat unique ou un abonnement mensuel ou annuel débloque les objectifs illimités, six couleurs pour votre ami et l’export de vos notes dans un fichier texte. Les abonnements se renouvellent automatiquement jusqu’à leur résiliation.
+Conditions d’utilisation : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -646,7 +656,8 @@ Solo tuo
 Nessuna registrazione, nessuna pubblicità. Le tue note restano sul tuo dispositivo e nel tuo iCloud, e puoi bloccare l’app con un codice. Nulla di ciò che scrivi viene mai inviato allo sviluppatore.
 
 MOCHIMO PRO
-Gratis fino a tre obiettivi. Un acquisto singolo, non un abbonamento, sblocca obiettivi illimitati, sei colori per il tuo amico e l’esportazione delle note in un file di testo.
+Gratis fino a tre obiettivi. Un acquisto singolo oppure un abbonamento mensile o annuale sblocca obiettivi illimitati, sei colori per il tuo amico e l’esportazione delle note in un file di testo. Gli abbonamenti si rinnovano automaticamente fino alla disdetta.
+Condizioni d’uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -706,7 +717,8 @@ Só seu
 Sem cadastro e sem anúncios. Seus registros ficam no seu dispositivo e no seu próprio iCloud, e você pode bloquear o app com um código. Nada do que você escreve é enviado ao desenvolvedor.
 
 MOCHIMO PRO
-Grátis com até três metas. Uma compra única, não uma assinatura, libera metas ilimitadas, seis cores para o seu amigo e a exportação dos registros em um arquivo de texto.
+Grátis com até três metas. Uma compra única ou uma assinatura mensal ou anual libera metas ilimitadas, seis cores para o seu amigo e a exportação dos registros em um arquivo de texto. As assinaturas são renovadas automaticamente até o cancelamento.
+Termos de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -766,7 +778,8 @@ Mochimo: ไดอารี่ความผิดพลาด
 ไม่ต้องสมัครสมาชิก ไม่มีโฆษณา บันทึกของคุณอยู่เฉพาะบนอุปกรณ์และใน iCloud ของคุณเอง และล็อกแอปด้วยรหัสผ่านได้ สิ่งที่คุณเขียนจะไม่ถูกส่งไปให้นักพัฒนาเลย
 
 MOCHIMO PRO
-ใช้ฟรีได้สูงสุดสามเป้าหมาย ซื้อครั้งเดียว (ไม่ใช่การสมัครสมาชิก) เพื่อตั้งเป้าหมายได้ไม่จำกัด เลือกสีให้เพื่อนได้หกสี และส่งออกบันทึกเป็นไฟล์ข้อความ
+ใช้ฟรีได้สูงสุดสามเป้าหมาย ซื้อครั้งเดียว หรือสมัครสมาชิกรายเดือนหรือรายปี เพื่อตั้งเป้าหมายได้ไม่จำกัด เลือกสีให้เพื่อนได้หกสี และส่งออกบันทึกเป็นไฟล์ข้อความ การสมัครสมาชิกจะต่ออายุอัตโนมัติจนกว่าจะยกเลิก
+ข้อกำหนดการใช้งาน: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -826,7 +839,8 @@ Chỉ của riêng bạn
 Không cần đăng ký, không có quảng cáo. Ghi chép chỉ nằm trên thiết bị và trong iCloud của chính bạn, và bạn có thể khóa ứng dụng bằng mật mã. Những gì bạn viết không bao giờ được gửi cho nhà phát triển.
 
 MOCHIMO PRO
-Dùng miễn phí với tối đa ba mục tiêu. Mua một lần (không phải đăng ký) để đặt mục tiêu không giới hạn, chọn màu cho bé trong sáu màu và xuất ghi chép thành tệp văn bản.
+Dùng miễn phí với tối đa ba mục tiêu. Mua một lần, hoặc đăng ký theo tháng hay theo năm, để đặt mục tiêu không giới hạn, chọn màu cho bé trong sáu màu và xuất ghi chép thành tệp văn bản. Gói đăng ký tự động gia hạn cho đến khi bạn hủy.
+Điều khoản sử dụng: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -886,7 +900,8 @@ Jen pro vás
 Bez registrace a bez reklam. Záznamy zůstávají jen ve vašem zařízení a ve vašem vlastním iCloudu a aplikaci můžete zamknout kódem. To, co píšete, se vývojáři nikdy neposílá.
 
 MOCHIMO PRO
-Zdarma můžete mít až tři cíle. Jednorázový nákup (ne předplatné) odemkne cíle bez omezení, šest barev pro vašeho kamaráda a export záznamů do textového souboru.
+Zdarma můžete mít až tři cíle. Jednorázový nákup nebo měsíční či roční předplatné odemkne cíle bez omezení, šest barev pro vašeho kamaráda a export záznamů do textového souboru. Předplatné se automaticky obnovuje, dokud ho nezrušíte.
+Podmínky použití: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -946,7 +961,8 @@ Kun din egen
 Ingen tilmelding og ingen reklamer. Dine noter ligger kun på din enhed og i din egen iCloud, og du kan låse appen med en kode. Det, du skriver, bliver aldrig sendt til udvikleren.
 
 MOCHIMO PRO
-Gratis med op til tre mål. Et engangskøb (ikke et abonnement) giver dig ubegrænsede mål, seks farver til din ven og eksport af dine noter til en tekstfil.
+Gratis med op til tre mål. Et engangskøb eller et måneds- eller årsabonnement giver dig ubegrænsede mål, seks farver til din ven og eksport af dine noter til en tekstfil. Abonnementer fornyes automatisk, indtil du opsiger dem.
+Vilkår for brug: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1006,7 +1022,8 @@ Widget και υπενθυμίσεις
 Χωρίς εγγραφή και χωρίς διαφημίσεις. Οι σημειώσεις σου μένουν στη συσκευή σου και στο δικό σου iCloud, και μπορείς να κλειδώσεις την εφαρμογή με κωδικό. Τίποτα από όσα γράφεις δεν στέλνεται ποτέ στον προγραμματιστή.
 
 MOCHIMO PRO
-Δωρεάν έως τρεις στόχους. Μία εφάπαξ αγορά, όχι συνδρομή, ξεκλειδώνει απεριόριστους στόχους, έξι χρώματα για τον φίλο σου και εξαγωγή των σημειώσεων σε αρχείο κειμένου.
+Δωρεάν έως τρεις στόχους. Μία εφάπαξ αγορά ή μια μηνιαία ή ετήσια συνδρομή ξεκλειδώνει απεριόριστους στόχους, έξι χρώματα για τον φίλο σου και εξαγωγή των σημειώσεων σε αρχείο κειμένου. Οι συνδρομές ανανεώνονται αυτόματα μέχρι να τις ακυρώσεις.
+Όροι χρήσης: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1066,7 +1083,8 @@ Vain sinun
 Ei rekisteröitymistä eikä mainoksia. Merkintäsi pysyvät vain laitteellasi ja omassa iCloudissasi, ja sovelluksen voi lukita koodilla. Kirjoittamaasi ei koskaan lähetetä kehittäjälle.
 
 MOCHIMO PRO
-Ilmaiseksi enintään kolme tavoitetta. Kertaostos (ei tilaus) avaa rajattomasti tavoitteita, kuusi väriä ystävällesi ja merkintöjen viennin tekstitiedostoon.
+Ilmaiseksi enintään kolme tavoitetta. Kertaostos tai kuukausi- tai vuositilaus avaa rajattomasti tavoitteita, kuusi väriä ystävällesi ja merkintöjen viennin tekstitiedostoon. Tilaukset uusiutuvat automaattisesti, kunnes perut ne.
+Käyttöehdot: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1126,7 +1144,8 @@ Hanya milik Anda
 Tanpa pendaftaran dan tanpa iklan. Catatan Anda hanya tersimpan di perangkat dan di iCloud Anda sendiri, dan app dapat dikunci dengan kode sandi. Apa yang Anda tulis tidak pernah dikirim ke pengembang.
 
 MOCHIMO PRO
-Gratis hingga tiga tujuan. Dengan sekali pembelian (bukan langganan), Anda bisa mencatat tujuan tanpa batas, memilih satu dari enam warna untuk teman Anda, dan mengekspor catatan sebagai berkas teks.
+Gratis hingga tiga tujuan. Dengan sekali pembelian atau langganan bulanan maupun tahunan, Anda bisa mencatat tujuan tanpa batas, memilih satu dari enam warna untuk teman Anda, dan mengekspor catatan sebagai berkas teks. Langganan diperpanjang otomatis sampai Anda membatalkannya.
+Ketentuan Penggunaan: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1186,7 +1205,8 @@ Bare din egen
 Ingen registrering og ingen reklame. Notatene dine ligger bare på enheten din og i din egen iCloud, og du kan låse appen med en kode. Det du skriver, blir aldri sendt til utvikleren.
 
 MOCHIMO PRO
-Gratis med opptil tre mål. Et engangskjøp (ikke et abonnement) gir deg ubegrensede mål, seks farger til vennen din og eksport av notatene til en tekstfil.
+Gratis med opptil tre mål. Et engangskjøp eller et måneds- eller årsabonnement gir deg ubegrensede mål, seks farger til vennen din og eksport av notatene til en tekstfil. Abonnementer fornyes automatisk til du sier dem opp.
+Vilkår for bruk: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1246,7 +1266,8 @@ Alleen van u
 Geen account en geen advertenties. Uw notities staan alleen op uw apparaat en in uw eigen iCloud, en u kunt de app met een code vergrendelen. Wat u schrijft, wordt nooit naar de ontwikkelaar gestuurd.
 
 MOCHIMO PRO
-Gratis met maximaal drie doelen. Een eenmalige aankoop (geen abonnement) geeft u onbeperkt doelen, zes kleuren voor uw maatje en export van uw notities naar een tekstbestand.
+Gratis met maximaal drie doelen. Een eenmalige aankoop of een maand- of jaarabonnement geeft u onbeperkt doelen, zes kleuren voor uw maatje en export van uw notities naar een tekstbestand. Abonnementen worden automatisch verlengd tot u ze opzegt.
+Gebruiksvoorwaarden: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1306,7 +1327,8 @@ Tylko Twoje
 Bez rejestracji i bez reklam. Wpisy są przechowywane tylko na Twoim urządzeniu i w Twoim własnym iCloud, a aplikację można zablokować kodem. To, co piszesz, nigdy nie trafia do programisty.
 
 MOCHIMO PRO
-Za darmo do trzech celów. Jednorazowy zakup (to nie subskrypcja) odblokowuje cele bez limitu, sześć kolorów dla kumpla i eksport wpisów do pliku tekstowego.
+Za darmo do trzech celów. Jednorazowy zakup albo subskrypcja miesięczna lub roczna odblokowuje cele bez limitu, sześć kolorów dla kumpla i eksport wpisów do pliku tekstowego. Subskrypcje odnawiają się automatycznie do momentu anulowania.
+Warunki użytkowania: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1366,7 +1388,8 @@ Bara din egen
 Ingen registrering och inga annonser. Dina anteckningar finns bara på din enhet och i din egen iCloud, och du kan låsa appen med en kod. Det du skriver skickas aldrig till utvecklaren.
 
 MOCHIMO PRO
-Gratis med upp till tre mål. Ett engångsköp (ingen prenumeration) ger dig obegränsat antal mål, sex färger till din vän och export av anteckningarna till en textfil.
+Gratis med upp till tre mål. Ett engångsköp eller en månads- eller årsprenumeration ger dig obegränsat antal mål, sex färger till din vän och export av anteckningarna till en textfil. Prenumerationer förnyas automatiskt tills du säger upp dem.
+Användarvillkor: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 
@@ -1426,7 +1449,8 @@ Sadece size ait
 Kayıt yok, reklam yok. Notlarınız yalnızca cihazınızda ve kendi iCloud’unuzda durur; uygulamayı parolayla kilitleyebilirsiniz. Yazdıklarınız hiçbir zaman geliştiriciye gönderilmez.
 
 MOCHIMO PRO
-Üç hedefe kadar ücretsiz. Tek seferlik satın alma (abonelik değil) ile sınırsız hedef belirleyebilir, dostunuz için altı renkten birini seçebilir ve notlarınızı metin dosyası olarak dışa aktarabilirsiniz.
+Üç hedefe kadar ücretsiz. Tek seferlik satın alma ya da aylık veya yıllık abonelik ile sınırsız hedef belirleyebilir, dostunuz için altı renkten birini seçebilir ve notlarınızı metin dosyası olarak dışa aktarabilirsiniz. Abonelikler iptal edilene kadar otomatik olarak yenilenir.
+Kullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 지원 URL
 

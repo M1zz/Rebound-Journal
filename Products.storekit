@@ -10,9 +10,7 @@
     ]
   },
   "identifier" : "7C3E1A52",
-  "nonRenewingSubscriptions" : [
-
-  ],
+  "nonRenewingSubscriptions" : [],
   "products" : [
     {
       "displayPrice" : "17000",
@@ -124,14 +122,72 @@
     "_failTransactionsEnabled" : false,
     "_locale" : "ko",
     "_renewalBillingIssuesEnabled" : false,
+    "_storeKitErrors" : [],
     "_storefront" : "KOR",
-    "_storeKitErrors" : [
-
-    ],
     "_timeRate" : 0
   },
   "subscriptionGroups" : [
-
+    {
+      "id" : "7A3D91C0",
+      "localizations" : [],
+      "name" : "모찌모 프로",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "9900",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "7A3D91C1",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "목표 제한 없이, 친구 색 고르기, 기록 내보내기",
+              "displayName" : "모찌모 프로 (연간)",
+              "locale" : "ko"
+            },
+            {
+              "description" : "Unlimited goals, friend colors, record export",
+              "displayName" : "Mochimo Pro (Yearly)",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.leeo.ReboundJournal.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Mochimo Pro Yearly",
+          "subscriptionGroupID" : "7A3D91C0",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : []
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1500",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "7A3D91C2",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "목표 제한 없이, 친구 색 고르기, 기록 내보내기",
+              "displayName" : "모찌모 프로 (월간)",
+              "locale" : "ko"
+            },
+            {
+              "description" : "Unlimited goals, friend colors, record export",
+              "displayName" : "Mochimo Pro (Monthly)",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.leeo.ReboundJournal.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Mochimo Pro Monthly",
+          "subscriptionGroupID" : "7A3D91C0",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : []
+        }
+      ]
+    }
   ],
   "version" : {
     "major" : 4,

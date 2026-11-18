@@ -72211,144 +72211,144 @@
         }
       }
     },
-    "한 번 사면 계속 써요. 구독이 아니에요" : {
+    "한 번 사서 계속 쓰거나, 구독으로 가볍게 시작해요" : {
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jednou koupíte, navždy používáte. Není to předplatné"
+            "value" : "Kupte jednou a používejte napořád, nebo začněte zlehka s předplatným"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Køb én gang, brug for altid. Det er ikke et abonnement"
+            "value" : "Køb én gang og behold det, eller start let med et abonnement"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Einmal kaufen, immer nutzen. Kein Abo"
+            "value" : "Einmal kaufen und behalten oder ganz entspannt mit einem Abo starten"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Μία αγορά, για πάντα. Δεν είναι συνδρομή"
+            "value" : "Αγόρασε μία φορά για πάντα ή ξεκίνα ανάλαφρα με συνδρομή"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Buy once, keep it for good. No subscription"
+            "value" : "Buy once and keep it, or start light with a subscription"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Buy once, keep it for good. No subscription"
+            "value" : "Buy once and keep it, or start light with a subscription"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Se compra una vez y se usa siempre. No es una suscripción"
+            "value" : "Cómpralo una vez para siempre o empieza sin compromiso con una suscripción"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Osta kerran, käytä aina. Ei tilausta"
+            "value" : "Osta kerran omaksi tai aloita kevyesti tilauksella"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un seul achat, pour toujours. Ce n’est pas un abonnement"
+            "value" : "Achetez une fois pour toujours, ou commencez en douceur avec un abonnement"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beli sekali, pakai selamanya. Bukan langganan"
+            "value" : "Beli sekali untuk selamanya, atau mulai ringan dengan langganan"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Si compra una volta e si usa per sempre. Non è un abbonamento"
+            "value" : "Compra una volta per sempre oppure inizia senza pensieri con un abbonamento"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一度買えば、ずっと使えます。サブスクではありません"
+            "value" : "一度買ってずっと使うか、サブスクで気軽に始められます"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kjøp én gang, bruk for alltid. Det er ikke et abonnement"
+            "value" : "Kjøp én gang og behold det, eller start enkelt med et abonnement"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eén keer kopen, altijd gebruiken. Geen abonnement"
+            "value" : "Eén keer kopen en houden, of rustig beginnen met een abonnement"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kupujesz raz, używasz zawsze. To nie subskrypcja"
+            "value" : "Kup raz na zawsze albo zacznij spokojnie od subskrypcji"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Compre uma vez e use sempre. Não é assinatura"
+            "value" : "Compre uma vez e use sempre, ou comece leve com uma assinatura"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Одна покупка — навсегда. Это не подписка"
+            "value" : "Купите один раз навсегда или начните с подписки"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Köp en gång, använd för alltid. Ingen prenumeration"
+            "value" : "Köp en gång och behåll, eller börja enkelt med en prenumeration"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ซื้อครั้งเดียวใช้ได้ตลอด ไม่ใช่การสมัครสมาชิก"
+            "value" : "ซื้อครั้งเดียวใช้ได้ตลอด หรือเริ่มต้นเบา ๆ ด้วยการสมัครสมาชิก"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bir kez alın, hep kullanın. Abonelik değildir"
+            "value" : "Bir kez alıp hep kullanın ya da abonelikle rahatça başlayın"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mua một lần, dùng mãi mãi. Không phải đăng ký"
+            "value" : "Mua một lần dùng mãi mãi, hoặc bắt đầu nhẹ nhàng với gói đăng ký"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次购买，长久使用。不是订阅"
+            "value" : "一次购买长久使用，或用订阅轻松开始"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次購買，長久使用。不是訂閱"
+            "value" : "一次購買長久使用，或用訂閱輕鬆開始"
           }
         }
       }

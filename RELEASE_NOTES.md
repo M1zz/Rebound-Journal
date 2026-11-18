@@ -4,6 +4,176 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.2.0
+
+### 앱스토어 (한국어)
+
+모찌모 프로를 월 또는 연 구독으로도 시작할 수 있어요.
+한 번 사서 계속 쓰는 평생 이용권은 그대로예요.
+대화 중에 키보드를 쉽게 내릴 수 있어요.
+소리 출력이 바뀐 직후 앱이 꺼지던 문제를 고쳤어요.
+
+### 앱스토어 (영어, en-US)
+
+Mochimo Pro now has monthly and yearly plans.
+The buy once lifetime option is still here.
+Dismiss the keyboard easily while you chat.
+Fixed a crash right after audio output changed.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Mochimo Pro now has monthly and yearly plans.
+The buy once lifetime option is still here.
+Dismiss the keyboard easily while you chat.
+Fixed a crash right after audio output changed.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+Mochimo Pro 现在可以按月或按年订阅。
+一次购买长久使用的方式依然保留。
+聊天时可以轻松收起键盘。
+修复了音频输出切换后闪退的问题。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+Mochimo Pro 現在可以按月或按年訂閱。
+一次購買長久使用的方式依然保留。
+聊天時可以輕鬆收起鍵盤。
+修正了音訊輸出切換後閃退的問題。
+
+### 앱스토어 (일본어)
+
+Mochimo Proを月額または年額でも始められます。
+一度買ってずっと使える買い切りもそのままです。
+会話中にキーボードを簡単に閉じられます。
+音声出力の切り替え直後に落ちる問題を直しました。
+
+### 앱스토어 (러시아어)
+
+Mochimo Pro теперь доступен по подписке на месяц или год.
+Разовая покупка навсегда никуда не делась.
+Клавиатуру теперь легко убрать во время разговора.
+Исправлен сбой сразу после смены аудиовыхода.
+
+### 앱스토어 (스페인어)
+
+Mochimo Pro ya tiene planes mensual y anual.
+La compra única para siempre sigue disponible.
+Oculta el teclado fácilmente mientras conversas.
+Corregido un cierre al cambiar la salida de audio.
+
+### 앱스토어 (독일어)
+
+Mochimo Pro gibt es jetzt auch im Monats- oder Jahresabo.
+Der Einmalkauf für immer bleibt erhalten.
+Die Tastatur lässt sich im Gespräch leicht ausblenden.
+Absturz direkt nach Wechsel der Audioausgabe behoben.
+
+### 앱스토어 (프랑스어)
+
+Mochimo Pro existe maintenant en abonnement mensuel ou annuel.
+L’achat unique à vie reste disponible.
+Masquez facilement le clavier pendant la conversation.
+Correction d’un plantage après un changement de sortie audio.
+
+### 앱스토어 (이탈리아어)
+
+Mochimo Pro ora è disponibile anche con abbonamento mensile o annuale.
+L’acquisto singolo per sempre resta disponibile.
+Chiudi facilmente la tastiera durante la conversazione.
+Risolto un arresto dopo il cambio di uscita audio.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+O Mochimo Pro agora tem planos mensal e anual.
+A compra única para sempre continua disponível.
+Oculte o teclado facilmente durante a conversa.
+Corrigido um fechamento após trocar a saída de áudio.
+
+### 앱스토어 (태국어)
+
+Mochimo Pro มีแบบรายเดือนและรายปีแล้ว
+แบบซื้อครั้งเดียวใช้ได้ตลอดยังมีเหมือนเดิม
+ซ่อนแป้นพิมพ์ได้ง่ายขึ้นระหว่างคุย
+แก้ปัญหาแอปปิดเองหลังเปลี่ยนเอาต์พุตเสียง
+
+### 앱스토어 (베트남어)
+
+Mochimo Pro nay có gói theo tháng và theo năm.
+Lựa chọn mua một lần dùng mãi vẫn còn đó.
+Ẩn bàn phím dễ dàng khi đang trò chuyện.
+Sửa lỗi thoát ứng dụng sau khi đổi đầu ra âm thanh.
+
+### 앱스토어 (체코어)
+
+Mochimo Pro nově nabízí měsíční a roční předplatné.
+Jednorázový nákup napořád zůstává.
+Klávesnici teď během rozhovoru snadno schováte.
+Opraven pád hned po změně zvukového výstupu.
+
+### 앱스토어 (덴마크어)
+
+Mochimo Pro fås nu også som måneds- eller årsabonnement.
+Engangskøbet for altid findes stadig.
+Skjul nemt tastaturet, mens du skriver.
+Rettet et nedbrud lige efter skift af lydudgang.
+
+### 앱스토어 (그리스어)
+
+Το Mochimo Pro διατίθεται πλέον και με μηνιαία ή ετήσια συνδρομή.
+Η εφάπαξ αγορά για πάντα παραμένει.
+Κρύψε εύκολα το πληκτρολόγιο στη συνομιλία.
+Διορθώθηκε κλείσιμο μετά από αλλαγή εξόδου ήχου.
+
+### 앱스토어 (핀란드어)
+
+Mochimo Pro on nyt saatavilla myös kuukausi- tai vuositilauksena.
+Kertaosto pysyvään käyttöön on yhä tarjolla.
+Näppäimistön saa helposti piiloon keskustelussa.
+Korjattu kaatuminen äänilähdön vaihtuessa.
+
+### 앱스토어 (인도네시아어)
+
+Mochimo Pro kini tersedia dengan langganan bulanan atau tahunan.
+Pilihan beli sekali untuk selamanya tetap ada.
+Sembunyikan papan ketik dengan mudah saat mengobrol.
+Memperbaiki aplikasi tertutup setelah keluaran audio berubah.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Mochimo Pro finnes nå også som måneds- eller årsabonnement.
+Engangskjøpet for alltid er her fortsatt.
+Skjul tastaturet enkelt mens du skriver.
+Rettet et krasj rett etter bytte av lydutgang.
+
+### 앱스토어 (네덜란드어)
+
+Mochimo Pro is er nu ook als maand- of jaarabonnement.
+De eenmalige aankoop voor altijd blijft bestaan.
+Verberg het toetsenbord eenvoudig tijdens het gesprek.
+Crash direct na wisselen van audio-uitvoer opgelost.
+
+### 앱스토어 (폴란드어)
+
+Mochimo Pro jest teraz dostępne także w subskrypcji miesięcznej lub rocznej.
+Jednorazowy zakup na zawsze pozostaje.
+Łatwo schowasz klawiaturę podczas rozmowy.
+Naprawiono awarię tuż po zmianie wyjścia audio.
+
+### 앱스토어 (스웨덴어)
+
+Mochimo Pro finns nu även som månads- eller årsprenumeration.
+Engångsköpet för alltid finns kvar.
+Dölj enkelt tangentbordet medan du skriver.
+Åtgärdade en krasch direkt efter byte av ljudutgång.
+
+### 앱스토어 (튀르키예어)
+
+Mochimo Pro artık aylık veya yıllık abonelikle de alınabilir.
+Tek seferlik ömür boyu satın alma seçeneği duruyor.
+Sohbet sırasında klavyeyi kolayca gizleyin.
+Ses çıkışı değiştikten sonraki çökme düzeltildi.
+
 ## 2.1.6
 
 ### 앱스토어 (한국어)
