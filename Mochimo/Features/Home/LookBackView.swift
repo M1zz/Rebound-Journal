@@ -200,6 +200,7 @@ struct LookBackView: View {
                             if let plan = entry.note.plan {
                                 planRow(plan)
                             }
+                            MoodDrawingThumbnail(journalID: entry.note.journalID)
                         }
                     }
                 }
@@ -422,6 +423,7 @@ struct LookBackView: View {
                 if let plan = note.plan {
                     planRow(plan)
                 }
+                MoodDrawingThumbnail(journalID: note.journalID, height: 70)
             }
             Spacer(minLength: 0)
         }

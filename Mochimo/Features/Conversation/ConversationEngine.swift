@@ -48,6 +48,8 @@ final class ConversationEngine {
     private var facts: String = ""
     private var emotionValue: Int?
     private var emotionWord: String?
+    /// 아이패드에서 펜슬로 그린 그날 기분 (PNG). 저장할 때 기록 ID 이름의 파일로 둔다.
+    var moodDrawing: Data?
     private var smallerGoal: String = ""
     private let pastSuccess: PastSuccess?
     /// 같은 목표를 두고 지난번에 적은 것. 다시 묻기 전에 꺼내 준다.
@@ -353,6 +355,9 @@ final class ConversationEngine {
             retryCount: nil
         )
         context.insert(journal)
+        if let moodDrawing, let id = journal.id {
+            MoodDrawingStore.save(moodDrawing, for: id)
+        }
         UsageReporting.logShot(isGoalIn: path == .reached, resolvedRebound: false)
 
         // 사용자가 스스로 쪼갠 목표는 곧바로 추적 대상이 된다.

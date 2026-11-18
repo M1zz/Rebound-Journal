@@ -79,3 +79,29 @@ struct SpeechStyleSettingTip: Tip {
         [MaxDisplayCount(1)]
     }
 }
+
+/// 아이패드: 답 칸에 펜슬로 바로 써도 글자가 된다는 안내.
+///
+/// 시스템이 해 주는 일이지만 모르는 사람이 많다. 처음 적을 차례가 왔을 때 한 번만,
+/// 답 칸 바로 위에 띄운다.
+struct PencilWritingTip: Tip {
+
+    var title: Text {
+        Text(Phrasing.say("펜슬로 바로 써도 돼요", "펜슬로 바로 써도 돼"))
+    }
+
+    var message: Text? {
+        Text(Phrasing.say(
+            "답 칸에 손글씨로 쓰면 글자로 바뀌어요.",
+            "답 칸에 손글씨로 쓰면 글자로 바뀌어."
+        ))
+    }
+
+    var image: Image? {
+        Image(systemName: "applepencil")
+    }
+
+    var options: [Option] {
+        [MaxDisplayCount(1)]
+    }
+}

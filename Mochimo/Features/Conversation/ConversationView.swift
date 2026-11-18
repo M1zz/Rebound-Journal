@@ -23,6 +23,7 @@
 //
 
 import SwiftUI
+import TipKit
 import SwiftData
 import LeeoKit
 
@@ -59,6 +60,8 @@ struct ConversationView: View {
     private let listensFirst: Bool
 
     @State private var isConfirmingLeave = false
+    @State private var isDrawingMood = false
+    private let pencilTip = PencilWritingTip()
 
     init(
         observation: GoalObservation,
@@ -452,6 +455,12 @@ struct ConversationView: View {
                         .foregroundStyle(PebbleTheme.inkFaint)
                 }
 
+                if MoodDrawingStore.canDraw {
+                    TipView(pencilTip)
+                        .tipBackground(PebbleTheme.surface)
+                        .tint(PebbleTheme.key)
+                }
+
                 composer(placeholder: placeholder)
             }
         }
@@ -495,6 +504,8 @@ struct ConversationView: View {
                             .clipShape(Circle())
                     }
                     .accessibilityLabel(Text("보내기"))
+                    // 하드웨어 키보드: Return 은 줄바꿈이라 ⌘Return 으로 보낸다.
+                    .keyboardShortcut(.return, modifiers: .command)
                     .transition(.scale.combined(with: .opacity))
                 }
             }
@@ -642,6 +653,10 @@ struct ConversationView: View {
                 .frame(minHeight: 38)
                 .fixedSize(horizontal: false, vertical: true)
 
+                if MoodDrawingStore.canDraw {
+                    drawMoodButton
+                }
+
                 ReplyOptions(choices: [
                     ReplyChoice(id: "done", label: Phrasing.say("이걸로 할게요", "이걸로 할게"), isPrimary: true)
                 ]) { _ in
@@ -649,6 +664,34 @@ struct ConversationView: View {
                 }
             }
         }
+        #if os(iOS)
+        .sheet(isPresented: $isDrawingMood) {
+            MoodCanvasSheet { png in
+                if let png { engine.moodDrawing = png }
+            }
+        }
+        #endif
+    }
+
+    /// 아이패드: 눈금에 낙서 한 장을 덧붙인다. 그렸으면 체크가 달린다.
+    private var drawMoodButton: some View {
+        Button {
+            isDrawingMood = true
+        } label: {
+            Label {
+                Text(engine.moodDrawing == nil
+                     ? Phrasing.say("펜슬로 기분 그리기", "펜슬로 기분 그리기")
+                     : Phrasing.say("그림 담았어요 · 다시 그리기", "그림 담았어 · 다시 그리기"))
+            } icon: {
+                Image(systemName: engine.moodDrawing == nil ? "pencil.tip" : "checkmark")
+            }
+            .font(PebbleTheme.label(14))
+            .foregroundStyle(engine.moodDrawing == nil ? PebbleTheme.inkSoft : PebbleTheme.key)
+            .padding(.horizontal, 14)
+            .padding(.vertical, 8)
+            .background(PebbleTheme.surfaceMuted, in: Capsule())
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: - 말풍선 등장

@@ -99,6 +99,7 @@ struct MochimoApp: App {
                 // 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
         }
+        .commands { MochimoCommands() }
     }
 }
 

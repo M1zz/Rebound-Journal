@@ -21,6 +21,13 @@ final class StepRouter {
     static let shared = StepRouter()
     /// 열어 달라는 목표. TodayView 가 그 목표로 바꾸고 비운다.
     var goalText: String?
+    /// 메뉴 · 단축키로 고른 일. TodayView 가 하고 비운다.
+    var command: AppCommand?
+}
+
+/// 아이패드 키보드 · 맥 메뉴에서 부르는 일.
+enum AppCommand: Equatable {
+    case talk, addGoal, goals, lookBack, records, settings
 }
 
 struct StepGoalEntity: AppEntity {

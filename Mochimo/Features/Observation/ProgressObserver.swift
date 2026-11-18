@@ -271,6 +271,8 @@ struct PreviousNote: Equatable {
     let review: String?
     let plan: String?
     let reached: Bool
+    /// 원본 기록. 그날 그린 기분 그림을 찾는 데 쓴다.
+    var journalID: String? = nil
 
     /// 조약돌이 대화에서 꺼낼 한 줄. 비교하거나 나무라지 않고 사실만 옮긴다.
     var recall: String? {
@@ -547,7 +549,8 @@ enum ProgressObserver {
                 date: journal.dateUnwrapped,
                 review: nonEmpty(journal.review),
                 plan: nonEmpty(journal.nextPlan),
-                reached: journal.isGoalInUnwrapped
+                reached: journal.isGoalInUnwrapped,
+                journalID: journal.id
             )
         )
     }
@@ -562,7 +565,8 @@ enum ProgressObserver {
                     date: $0.dateUnwrapped,
                     review: nonEmpty($0.review),
                     plan: nonEmpty($0.nextPlan),
-                    reached: $0.isGoalInUnwrapped
+                    reached: $0.isGoalInUnwrapped,
+                    journalID: $0.id
                 )
             }
     }

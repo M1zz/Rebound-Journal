@@ -77,15 +77,41 @@ struct TodayView: View {
         }
     }
 
+    /// 창이 넓다(아이패드 · 맥). 대화 옆에 지나온 길을 늘 세워 둔다.
+    @State private var isWide = false
+
+    /// 지나온 길이 옆 판에 이미 서 있는지. 그러면 여는 단추가 필요 없다.
+    private var showsLookBeside: Bool { fold.isUnfolded || isWide }
+
     var body: some View {
         // 아이폰 듀오를 펴면 접힌 선 아래(가로면 왼쪽)에 조약돌과의 대화, 위(오른쪽)에 지나온 길이 선다.
-        // 접혀 있으면 `FoldSplitView` 는 대화만 그린다. 지금 화면 그대로.
+        // 아이패드 · 맥처럼 창이 넓으면 대화 오른쪽에 지나온 길을 세운다.
+        // 대화 판은 늘 같은 자리에 둔다. 창 폭이 바뀔 때 다른 뷰가 되면 하던 대화가 처음부터 다시 시작된다.
         FoldSplitView {
-            todayStack
+            HStack(spacing: 0) {
+                todayStack
+                    // 너무 넓으면 말풍선이 한 줄로 늘어져 읽기 어렵다.
+                    .frame(maxWidth: isWide && !fold.isUnfolded ? 560 : .infinity)
+                if isWide && !fold.isUnfolded {
+                    Rectangle()
+                        .fill(PebbleTheme.hairline)
+                        .frame(width: 1)
+                        .ignoresSafeArea()
+                    lookBeside
+                }
+            }
         } result: {
-            LookBackView(showsClose: false, onPickGoal: choose(goal:))
-            .environment(\.foldLayout, .single)
+            lookBeside
         }
+        .onGeometryChange(for: Bool.self) { $0.size.width >= Self.wideWidth } action: { isWide = $0 }
+    }
+
+    /// 이만큼 넓으면 두 판으로 나눈다. 아이패드 세로(820)는 나누고, 화면 분할로 좁아지면 한 판.
+    private static let wideWidth: CGFloat = 760
+
+    private var lookBeside: some View {
+        LookBackView(showsClose: false, onPickGoal: choose(goal:))
+            .environment(\.foldLayout, .single)
     }
 
     private var todayStack: some View {
@@ -124,6 +150,12 @@ struct TodayView: View {
                 guard let text else { return }
                 selectedGoal = text
                 StepRouter.shared.goalText = nil
+            }
+            // 메뉴 · 키보드 단축키 (→ AppCommands.swift)
+            .onChange(of: StepRouter.shared.command) { _, command in
+                guard let command else { return }
+                StepRouter.shared.command = nil
+                run(command)
             }
             #if DEBUG
             // 확인·스크린샷용: 실행 인자 `-debug.open settings|addGoal|lookBack|records|goals|paywall`
@@ -201,8 +233,8 @@ struct TodayView: View {
             }
             .buttonStyle(.plain)
             // 펼친 화면에서는 지나온 길이 이미 옆 판에 있다. 같은 것을 시트로 또 띄우지 않는다.
-            .allowsHitTesting(!fold.isUnfolded)
-            .accessibilityHint(fold.isUnfolded ? Text(verbatim: "") : Text("지나온 길을 열어요"))
+            .allowsHitTesting(!showsLookBeside)
+            .accessibilityHint(showsLookBeside ? Text(verbatim: "") : Text("지나온 길을 열어요"))
         }
     }
 
@@ -257,6 +289,26 @@ struct TodayView: View {
             .sorted { ($0.date ?? .distantPast) < ($1.date ?? .distantPast) }
             .compactMap(\.goalText)
             .filter { !$0.isEmpty && $0 != current }
+    }
+
+    /// 메뉴나 단축키로 고른 일. 대화 중에는 다른 데로 가는 문을 닫아 둔다 (도구 모음과 같다).
+    private func run(_ command: AppCommand) {
+        guard conversation == nil else { return }
+        switch command {
+        case .talk:
+            if observation.invitesConversation {
+                startConversation(observation, answered: nil)
+            } else if let goal = goals.compactMap(\.goalText).first(where: { !$0.isEmpty }) {
+                choose(goal: goal)
+            } else {
+                isAddingGoal = true
+            }
+        case .addGoal: isAddingGoal = true
+        case .goals: isShowingGoals = true
+        case .lookBack: if !showsLookBeside { isLookingBack = true }
+        case .records: isShowingAllRecords = true
+        case .settings: isShowingSettings = true
+        }
     }
 
     private func endConversation() {
@@ -570,7 +622,7 @@ struct TodayView: View {
     @ToolbarContentBuilder
     private var navigationItems: some ToolbarContent {
         // 펼친 화면에서는 지나온 길이 늘 옆 판에 서 있으므로 여는 단추가 필요 없다.
-        if !fold.isUnfolded {
+        if !showsLookBeside {
             ToolbarItem(placement: .topBarLeading) {
                 // 지나온 길. 이어진 점들이 징검다리를 그대로 닮았다.
                 Button {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01F995C513311A6681E79643 /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
+		04DF9B8401B3D56EEAB084DB /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31426DD095CE5E8470BD382B /* AppCommands.swift */; };
 		0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 469FA349854C6890405976FC /* Localizable.xcstrings */; };
 		06F0FF92FAC5834101C977C9 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41606D32B4E15054B74956C /* ChatBubble.swift */; };
 		09C90182AB3E3A381FE6C20D /* ConversationScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */; };
@@ -16,7 +17,6 @@
 		11941837DCAE9B55481767CA /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF711FB488680547B2D7443 /* AddGoalView.swift */; };
 		1443389351B86211E130710E /* InteractivePebble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C801681B2717EE30D8A22F /* InteractivePebble.swift */; };
-		F55C5C417ED7EE111AB578EB /* ChewyShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4F5732830B10A8BF5D346D72 /* ChewyShader.metal */; };
 		148F814C5575C0FE8A6820CC /* PebbleSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813DACAB5E98893A5F94005 /* PebbleSkin.swift */; };
 		19917646F34E9B4C8965EF04 /* PebbleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */; };
 		19C90CE25F9813D9B2A30AFF /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
@@ -44,6 +44,7 @@
 		58FAF68D2D01F0C8008BE152 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68C2D01F0C8008BE152 /* SettingsView.swift */; };
 		58FAF68F2D01F2C4008BE152 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FAF68E2D01F2C4008BE152 /* PasscodeView.swift */; };
 		5D6D3BFF2451BEC886B3D1DA /* DataEraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCB78F6E3C142BD77F217C /* DataEraser.swift */; };
+		63887F65C27E9D8200CB1C13 /* MoodDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75756BFB99B04A753A30E8E5 /* MoodDrawing.swift */; };
 		64397E240888B4336D374D10 /* RecordExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D42F909752BBA4FA405C /* RecordExporter.swift */; };
 		69D35D4F9C11B83306F132D1 /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */; };
 		76CCE816D1E2A31C5D918B96 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F652E997127C9970155311C /* LeeoKit */; };
@@ -77,6 +78,7 @@
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
 		D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */; };
 		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
+		F55C5C417ED7EE111AB578EB /* ChewyShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4F5732830B10A8BF5D346D72 /* ChewyShader.metal */; };
 		F7558BD1606AB36D5F5F8F82 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */; };
 		F9A98A3CD084B1D28F3E8157 /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */; };
 /* End PBXBuildFile section */
@@ -115,11 +117,13 @@
 		1B48FFA161DD5D71A536AA1A /* EmotionVocabulary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmotionVocabulary.swift; sourceTree = "<group>"; };
 		277B21196696E9C4AA400EB7 /* ProgressObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressObserver.swift; sourceTree = "<group>"; };
 		2865C3F121BCA8EFE72A7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31426DD095CE5E8470BD382B /* AppCommands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
 		346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
 		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
 		3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StepIntents.swift; sourceTree = "<group>"; };
 		469FA349854C6890405976FC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		4F5732830B10A8BF5D346D72 /* ChewyShader.metal */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.metal; path = ChewyShader.metal; sourceTree = "<group>"; };
 		50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechStyle.swift; sourceTree = "<group>"; };
 		51174705416645E35FAB3931 /* LookBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookBackView.swift; sourceTree = "<group>"; };
 		51F995B506A6AF31E454ED76 /* PebbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleView.swift; sourceTree = "<group>"; };
@@ -141,10 +145,10 @@
 		5EF711FB488680547B2D7443 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 		60CB6E6CB6A40303AFA6401B /* TypingFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingFeedback.swift; sourceTree = "<group>"; };
 		65C7D628DD35E3A201903F78 /* StoneBridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneBridgeView.swift; sourceTree = "<group>"; };
-		4F5732830B10A8BF5D346D72 /* ChewyShader.metal */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.metal; path = ChewyShader.metal; sourceTree = "<group>"; };
 		67C801681B2717EE30D8A22F /* InteractivePebble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InteractivePebble.swift; sourceTree = "<group>"; };
 		70C3253570E9ACC5A2B2E548 /* ConversationScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationScript.swift; sourceTree = "<group>"; };
 		753BFD81E3954E97EE45C6A4 /* Phrasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrasing.swift; sourceTree = "<group>"; };
+		75756BFB99B04A753A30E8E5 /* MoodDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MoodDrawing.swift; sourceTree = "<group>"; };
 		893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		979420319212C0F8FD12EB31 /* ConversationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationEngine.swift; sourceTree = "<group>"; };
 		9813DACAB5E98893A5F94005 /* PebbleSkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PebbleSkin.swift; sourceTree = "<group>"; };
@@ -419,6 +423,7 @@
 				1B48FFA161DD5D71A536AA1A /* EmotionVocabulary.swift */,
 				753BFD81E3954E97EE45C6A4 /* Phrasing.swift */,
 				50FB690568C52FDBE7A4B227 /* SpeechStyle.swift */,
+				75756BFB99B04A753A30E8E5 /* MoodDrawing.swift */,
 			);
 			path = Conversation;
 			sourceTree = "<group>";
@@ -693,6 +698,7 @@
 				A8CEB7F55F0C4DBCA5F58161 /* MochimoSpec.swift */,
 				C760ECB726D436E8330B1F4E /* MochimoRoadmap.swift */,
 				3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */,
+				31426DD095CE5E8470BD382B /* AppCommands.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -900,6 +906,8 @@
 				54C29520A0E09C2256F8E240 /* ScreenshotMode.swift in Sources */,
 				8DA74F20CF0F019BAEE5E7A0 /* MochimoRoadmap.swift in Sources */,
 				3E8233B791B92563D26DC5DC /* StepIntents.swift in Sources */,
+				04DF9B8401B3D56EEAB084DB /* AppCommands.swift in Sources */,
+				63887F65C27E9D8200CB1C13 /* MoodDrawing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,7 +1148,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1179,7 +1187,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
