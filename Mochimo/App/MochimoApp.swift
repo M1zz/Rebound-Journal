@@ -91,6 +91,8 @@ struct MochimoApp: App {
                 .environment(\.managedObjectContext, manager.container.viewContext)
                 .modelContainer(sharedModelContainer)
                 .leeoSatisfactionCheck(MochimoSpec.self)
+                // 프로가 되면 콘페티, 모든 사용자는 한 번 감사를 받는다 (LeeoKit 3.46).
+                .leeoCelebrations(appName: MochimoSpec.displayName)
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
                 .leeoFeedbackReplyNotice(MochimoSpec.self)
                 .leeoStyle(.pebble)
