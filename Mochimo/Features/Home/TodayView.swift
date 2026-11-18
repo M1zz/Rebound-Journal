@@ -43,6 +43,9 @@ struct TodayView: View {
     @State private var listensFirst = false
     @State private var isAddingGoal = false
     @State private var isShowingSettings = false
+    #if DEBUG
+    @State private var isShowingGiftReview = false
+    #endif
     @State private var isLookingBack = false
     @State private var isShowingAllRecords = false
     @State private var isShowingGoals = false
@@ -179,6 +182,11 @@ struct TodayView: View {
         .sheet(isPresented: $isShowingAllRecords) {
             AllRecordsView()
         }
+        #if DEBUG
+        .sheet(isPresented: $isShowingGiftReview) {
+            GiftReviewShot()
+        }
+        #endif
         .sheet(isPresented: $isShowingGoals) {
             GoalsView(onTalk: choose(goal:))
         }
@@ -201,6 +209,8 @@ struct TodayView: View {
         case "records": isShowingAllRecords = true
         case "addGoal": isAddingGoal = true
         case "settings": isShowingSettings = true
+        // 선물 상품의 심사 이미지 — 결제 없이 선물 화면을 그대로 그린다.
+        case "gift": isShowingGiftReview = true
         default: break
         }
     }
@@ -706,3 +716,19 @@ struct TodayView: View {
     }
     #endif
 }
+
+#if DEBUG
+/// `-shot gift`: 인앱 상품 심사용 그림. 결제하지 않는 미리보기라 StoreKit 상품이 없어도 그려진다.
+private struct GiftReviewShot: View {
+    @EnvironmentObject private var store: LeeoStore
+
+    var body: some View {
+        NavigationStack {
+            if let gift = store.gift {
+                LeeoGiftView<MochimoSpec>(previewPrice: "$9.99", gift: gift)
+                    .leeoStyle(.pebble)
+            }
+        }
+    }
+}
+#endif

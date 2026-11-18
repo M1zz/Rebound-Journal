@@ -8,195 +8,195 @@ App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 
 ### 앱스토어 (한국어)
 
-모찌모 프로를 월 또는 연 구독으로도 시작할 수 있어요.
-한 번 사서 계속 쓰는 평생 이용권은 그대로예요.
+이제 아이패드와 맥에서도 모찌모를 만나요.
+아이패드에서는 펜슬로 그날 기분을 그려요.
+맥에서는 메뉴 막대의 모찌에게 한 줄 남겨요.
 첫 화면에서 하고 싶은 얘기를 바로 골라요.
-답을 적는 칸이 넓어지고 키보드도 쉽게 내려요.
-소리 출력이 바뀐 직후 앱이 꺼지던 문제를 고쳤어요.
+모찌모 프로를 월 또는 연 구독으로도 시작해요.
 
 ### 앱스토어 (영어, en-US)
 
-Mochimo Pro now has monthly and yearly plans.
-The buy once lifetime option is still here.
+Mochimo is now on iPad and Mac.
+On iPad, draw how your day felt with Pencil.
+On Mac, leave a quick line from the menu bar.
 Pick what to talk about right from the home screen.
-More room to write, and the keyboard hides easily.
-Fixed a crash right after audio output changed.
+Start Mochimo Pro with a monthly or yearly plan.
 
 ### 앱스토어 (영어 영국, en-GB)
 
-Mochimo Pro now has monthly and yearly plans.
-The buy once lifetime option is still here.
+Mochimo is now on iPad and Mac.
+On iPad, draw how your day felt with Pencil.
+On Mac, leave a quick line from the menu bar.
 Pick what to talk about right from the home screen.
-More room to write, and the keyboard hides easily.
-Fixed a crash right after audio output changed.
+Start Mochimo Pro with a monthly or yearly plan.
 
 ### 앱스토어 (중국어 간체, zh-Hans)
 
-Mochimo Pro 现在可以按月或按年订阅。
-一次购买长久使用的方式依然保留。
+Mochimo 现已登陆 iPad 和 Mac。
+在 iPad 上，可以用 Pencil 画下当天的心情。
+在 Mac 上，从菜单栏就能随手记一句。
 在首页就能直接选想聊的话题。
-写回答的空间更大，键盘也能轻松收起。
-修复了音频输出切换后闪退的问题。
+Mochimo Pro 也可以按月或按年订阅。
 
 ### 앱스토어 (중국어 번체, zh-Hant)
 
-Mochimo Pro 現在可以按月或按年訂閱。
-一次購買長久使用的方式依然保留。
+Mochimo 現已登上 iPad 和 Mac。
+在 iPad 上，可以用 Pencil 畫下當天的心情。
+在 Mac 上，從選單列就能隨手記一句。
 在首頁就能直接選想聊的話題。
-寫回答的空間更大，鍵盤也能輕鬆收起。
-修正了音訊輸出切換後閃退的問題。
+Mochimo Pro 也可以按月或按年訂閱。
 
 ### 앱스토어 (일본어)
 
-Mochimo Proを月額または年額でも始められます。
-一度買ってずっと使える買い切りもそのままです。
+MochimoがiPadとMacでも使えるようになりました。
+iPadではPencilでその日の気分を描けます。
+Macではメニューバーからさっと一言残せます。
 話したいことをホーム画面からすぐ選べます。
-答えを書く欄が広くなり、キーボードも簡単に閉じられます。
-音声出力の切り替え直後に落ちる問題を直しました。
+Mochimo Proを月額・年額プランでも始められます。
 
 ### 앱스토어 (러시아어)
 
-Mochimo Pro теперь доступен по подписке на месяц или год.
-Разовая покупка навсегда никуда не делась.
-Тему разговора можно выбрать прямо на главном экране.
-Больше места для ответа, а клавиатуру легко убрать.
-Исправлен сбой сразу после смены аудиовыхода.
+Mochimo теперь есть на iPad и Mac.
+На iPad можно нарисовать настроение дня с Pencil.
+На Mac пара слов прямо из строки меню.
+Тему разговора можно выбрать на главном экране.
+Mochimo Pro теперь и по месячной или годовой подписке.
 
 ### 앱스토어 (스페인어)
 
-Mochimo Pro ya tiene planes mensual y anual.
-La compra única para siempre sigue disponible.
+Mochimo ya está en iPad y Mac.
+En el iPad, dibuja cómo fue tu día con el Pencil.
+En el Mac, deja una línea desde la barra de menús.
 Elige de qué hablar desde la pantalla de inicio.
-Más espacio para escribir y el teclado se oculta fácil.
-Corregido un cierre al cambiar la salida de audio.
+Empieza Mochimo Pro con un plan mensual o anual.
 
 ### 앱스토어 (독일어)
 
-Mochimo Pro gibt es jetzt auch im Monats- oder Jahresabo.
-Der Einmalkauf für immer bleibt erhalten.
+Mochimo gibt es jetzt auf iPad und Mac.
+Auf dem iPad zeichnest du deine Tagesstimmung mit dem Pencil.
+Auf dem Mac notierst du kurz etwas über die Menüleiste.
 Wähle direkt auf dem Startbildschirm, worüber du reden willst.
-Mehr Platz zum Schreiben, die Tastatur lässt sich leicht ausblenden.
-Absturz direkt nach Wechsel der Audioausgabe behoben.
+Mochimo Pro gibt es auch im Monats- oder Jahresabo.
 
 ### 앱스토어 (프랑스어)
 
-Mochimo Pro existe maintenant en abonnement mensuel ou annuel.
-L’achat unique à vie reste disponible.
+Mochimo arrive sur iPad et Mac.
+Sur iPad, dessinez l’humeur du jour au Pencil.
+Sur Mac, notez une ligne depuis la barre des menus.
 Choisissez le sujet dès l’écran d’accueil.
-Plus de place pour écrire, et le clavier se masque facilement.
-Correction d’un plantage après un changement de sortie audio.
+Mochimo Pro existe aussi en abonnement mensuel ou annuel.
 
 ### 앱스토어 (이탈리아어)
 
-Mochimo Pro ora è disponibile anche con abbonamento mensile o annuale.
-L’acquisto singolo per sempre resta disponibile.
-Scegli di cosa parlare direttamente dalla schermata iniziale.
-Più spazio per scrivere e la tastiera si chiude facilmente.
-Risolto un arresto dopo il cambio di uscita audio.
+Mochimo ora è anche su iPad e Mac.
+Su iPad, disegna con la Pencil come è andata la giornata.
+Su Mac, lascia una riga dalla barra dei menu.
+Scegli di cosa parlare dalla schermata iniziale.
+Mochimo Pro anche con abbonamento mensile o annuale.
 
 ### 앱스토어 (포르투갈어 브라질, pt-BR)
 
-O Mochimo Pro agora tem planos mensal e anual.
-A compra única para sempre continua disponível.
+Mochimo agora está no iPad e no Mac.
+No iPad, desenhe como foi seu dia com o Pencil.
+No Mac, deixe uma linha direto da barra de menus.
 Escolha o assunto direto na tela inicial.
-Mais espaço para escrever e o teclado some fácil.
-Corrigido um fechamento após trocar a saída de áudio.
+Comece o Mochimo Pro com plano mensal ou anual.
 
 ### 앱스토어 (태국어)
 
-Mochimo Pro มีแบบรายเดือนและรายปีแล้ว
-แบบซื้อครั้งเดียวใช้ได้ตลอดยังมีเหมือนเดิม
+ตอนนี้ Mochimo ใช้บน iPad และ Mac ได้แล้ว
+บน iPad วาดอารมณ์ของวันด้วย Pencil ได้
+บน Mac จดสั้น ๆ จากแถบเมนูได้ทันที
 เลือกเรื่องที่อยากคุยได้ทันทีจากหน้าแรก
-ช่องเขียนคำตอบกว้างขึ้น และซ่อนแป้นพิมพ์ได้ง่าย
-แก้ปัญหาแอปปิดเองหลังเปลี่ยนเอาต์พุตเสียง
+เริ่ม Mochimo Pro แบบรายเดือนหรือรายปีก็ได้
 
 ### 앱스토어 (베트남어)
 
-Mochimo Pro nay có gói theo tháng và theo năm.
-Lựa chọn mua một lần dùng mãi vẫn còn đó.
+Mochimo đã có trên iPad và Mac.
+Trên iPad, vẽ tâm trạng trong ngày bằng Pencil.
+Trên Mac, ghi nhanh một dòng từ thanh menu.
 Chọn chuyện muốn nói ngay từ màn hình chính.
-Ô viết câu trả lời rộng hơn, ẩn bàn phím cũng dễ.
-Sửa lỗi thoát ứng dụng sau khi đổi đầu ra âm thanh.
+Bắt đầu Mochimo Pro theo gói tháng hoặc năm.
 
 ### 앱스토어 (체코어)
 
-Mochimo Pro nově nabízí měsíční a roční předplatné.
-Jednorázový nákup napořád zůstává.
+Mochimo je teď i na iPadu a Macu.
+Na iPadu nakreslíte náladu dne tužkou Pencil.
+Na Macu zapíšete větu přímo z řádku nabídek.
 Téma rozhovoru vyberete hned na úvodní obrazovce.
-Víc místa na psaní a klávesnici snadno schováte.
-Opraven pád hned po změně zvukového výstupu.
+Mochimo Pro nově i s měsíčním či ročním předplatným.
 
 ### 앱스토어 (덴마크어)
 
-Mochimo Pro fås nu også som måneds- eller årsabonnement.
-Engangskøbet for altid findes stadig.
+Mochimo findes nu også til iPad og Mac.
+På iPad kan du tegne dagens humør med Pencil.
+På Mac skriver du en linje direkte fra menulinjen.
 Vælg, hvad du vil tale om, direkte fra startskærmen.
-Mere plads til at skrive, og tastaturet skjules nemt.
-Rettet et nedbrud lige efter skift af lydudgang.
+Mochimo Pro fås også som måneds- eller årsabonnement.
 
 ### 앱스토어 (그리스어)
 
-Το Mochimo Pro διατίθεται πλέον και με μηνιαία ή ετήσια συνδρομή.
-Η εφάπαξ αγορά για πάντα παραμένει.
-Διάλεξε θέμα συζήτησης κατευθείαν από την αρχική οθόνη.
-Περισσότερος χώρος για γράψιμο και εύκολο κλείσιμο πληκτρολογίου.
-Διορθώθηκε κλείσιμο μετά από αλλαγή εξόδου ήχου.
+Το Mochimo ήρθε σε iPad και Mac.
+Στο iPad, ζωγράφισε τη διάθεση της μέρας με το Pencil.
+Στο Mac, γράψε μια γραμμή από τη γραμμή μενού.
+Διάλεξε θέμα συζήτησης από την αρχική οθόνη.
+Το Mochimo Pro και με μηνιαία ή ετήσια συνδρομή.
 
 ### 앱스토어 (핀란드어)
 
-Mochimo Pro on nyt saatavilla myös kuukausi- tai vuositilauksena.
-Kertaosto pysyvään käyttöön on yhä tarjolla.
+Mochimo on nyt myös iPadilla ja Macilla.
+iPadilla piirrät päivän mielialan Pencilillä.
+Macilla kirjoitat rivin suoraan valikkoriviltä.
 Valitse puheenaihe suoraan aloitusnäytöltä.
-Enemmän tilaa kirjoittaa, ja näppäimistö piiloutuu helposti.
-Korjattu kaatuminen äänilähdön vaihtuessa.
+Mochimo Pro nyt myös kuukausi- tai vuositilauksena.
 
 ### 앱스토어 (인도네시아어)
 
-Mochimo Pro kini tersedia dengan langganan bulanan atau tahunan.
-Pilihan beli sekali untuk selamanya tetap ada.
+Mochimo kini hadir di iPad dan Mac.
+Di iPad, gambar suasana hatimu dengan Pencil.
+Di Mac, tulis satu baris langsung dari bar menu.
 Pilih topik obrolan langsung dari layar utama.
-Ruang menulis lebih luas dan papan ketik mudah disembunyikan.
-Memperbaiki aplikasi tertutup setelah keluaran audio berubah.
+Mulai Mochimo Pro dengan paket bulanan atau tahunan.
 
 ### 앱스토어 (노르웨이어 보크말, nb)
 
-Mochimo Pro finnes nå også som måneds- eller årsabonnement.
-Engangskjøpet for alltid er her fortsatt.
+Mochimo finnes nå på iPad og Mac.
+På iPad kan du tegne dagens humør med Pencil.
+På Mac skriver du en linje rett fra menylinjen.
 Velg hva du vil snakke om rett fra startskjermen.
-Mer plass til å skrive, og tastaturet skjules enkelt.
-Rettet et krasj rett etter bytte av lydutgang.
+Mochimo Pro fås også med måneds- eller årsabonnement.
 
 ### 앱스토어 (네덜란드어)
 
-Mochimo Pro is er nu ook als maand- of jaarabonnement.
-De eenmalige aankoop voor altijd blijft bestaan.
+Mochimo is er nu ook voor iPad en Mac.
+Teken op de iPad met Pencil hoe je dag voelde.
+Schrijf op de Mac snel een regel via de menubalk.
 Kies meteen op het beginscherm waarover je wilt praten.
-Meer ruimte om te schrijven en het toetsenbord verdwijnt makkelijk.
-Crash direct na wisselen van audio-uitvoer opgelost.
+Mochimo Pro nu ook met een maand- of jaarabonnement.
 
 ### 앱스토어 (폴란드어)
 
-Mochimo Pro jest teraz dostępne także w subskrypcji miesięcznej lub rocznej.
-Jednorazowy zakup na zawsze pozostaje.
+Mochimo jest już na iPadzie i Macu.
+Na iPadzie narysujesz nastrój dnia rysikiem Pencil.
+Na Macu zapiszesz zdanie prosto z paska menu.
 Temat rozmowy wybierzesz od razu na ekranie głównym.
-Więcej miejsca na pisanie i łatwe chowanie klawiatury.
-Naprawiono awarię tuż po zmianie wyjścia audio.
+Mochimo Pro także w subskrypcji miesięcznej lub rocznej.
 
 ### 앱스토어 (스웨덴어)
 
-Mochimo Pro finns nu även som månads- eller årsprenumeration.
-Engångsköpet för alltid finns kvar.
+Mochimo finns nu på iPad och Mac.
+På iPad kan du rita dagens humör med Pencil.
+På Mac skriver du en rad direkt från menyraden.
 Välj vad du vill prata om direkt från startskärmen.
-Mer plats att skriva, och tangentbordet döljs enkelt.
-Åtgärdade en krasch direkt efter byte av ljudutgång.
+Mochimo Pro finns nu även som månads- eller årsabonnemang.
 
 ### 앱스토어 (튀르키예어)
 
-Mochimo Pro artık aylık veya yıllık abonelikle de alınabilir.
-Tek seferlik ömür boyu satın alma seçeneği duruyor.
+Mochimo artık iPad ve Mac’te.
+iPad’de günün ruh halini Pencil ile çiz.
+Mac’te menü çubuğundan hemen bir satır bırak.
 Ne konuşmak istediğinizi ana ekrandan hemen seçin.
-Yazmak için daha fazla alan, klavye de kolayca gizlenir.
-Ses çıkışı değiştikten sonraki çökme düzeltildi.
+Mochimo Pro’yu aylık veya yıllık planla başlatın.
 
 ## 2.1.6
 

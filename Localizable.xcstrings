@@ -76984,6 +76984,292 @@
           }
         }
       }
+    },
+    "아이패드와 맥에서도" : {
+      "comment" : "Roadmap item: iPad and Mac apps",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Také na iPadu a Macu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Også på iPad og Mac"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auch auf iPad und Mac"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Και σε iPad και Mac"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On iPad and Mac too"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On iPad and Mac too"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "También en iPad y Mac"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myös iPadilla ja Macilla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aussi sur iPad et Mac"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juga di iPad dan Mac"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anche su iPad e Mac"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadとMacでも"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Også på iPad og Mac"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ook op iPad en Mac"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Również na iPadzie i Macu"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Também no iPad e no Mac"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теперь и на iPad и Mac"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Även på iPad och Mac"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้บน iPad และ Mac ได้ด้วย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad ve Mac’te de"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cả trên iPad và Mac"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad 和 Mac 上也能用"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad 和 Mac 上也能用"
+          }
+        }
+      }
+    },
+    "아이패드에서는 펜슬로 기분을 그리고, 맥에서는 메뉴 막대에서 바로 남겨요." : {
+      "comment" : "Roadmap item detail: iPad and Mac apps",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na iPadu nakreslíte náladu tužkou, na Macu zapíšete rovnou z řádku nabídek."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegn dit humør med Pencil på iPad, og skriv direkte fra menulinjen på Mac."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeichne auf dem iPad deine Stimmung mit dem Pencil und notiere auf dem Mac direkt über die Menüleiste."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στο iPad ζωγράφισε τη διάθεσή σου με το Pencil, στο Mac γράψε κατευθείαν από τη γραμμή μενού."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw your mood with Pencil on iPad, and jot a line from the menu bar on Mac."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw your mood with Pencil on iPad, and jot a line from the menu bar on Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibuja tu ánimo con el Pencil en el iPad y escribe desde la barra de menús en el Mac."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piirrä mielialasi Pencilillä iPadilla ja kirjoita Macilla suoraan valikkoriviltä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dessinez votre humeur au Pencil sur iPad et notez une ligne depuis la barre des menus sur Mac."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gambar suasana hati dengan Pencil di iPad, dan tulis langsung dari bar menu di Mac."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disegna il tuo umore con la Pencil su iPad e scrivi dalla barra dei menu su Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadではPencilで気分を描き、Macではメニューバーからすぐ残せます。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegn humøret med Pencil på iPad, og skriv rett fra menylinjen på Mac."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teken je stemming met Pencil op de iPad en schrijf op de Mac direct via de menubalk."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na iPadzie narysujesz nastrój rysikiem, a na Macu zapiszesz coś prosto z paska menu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desenhe seu humor com o Pencil no iPad e escreva direto da barra de menus no Mac."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На iPad рисуйте настроение с Pencil, а на Mac пишите прямо из строки меню."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rita ditt humör med Pencil på iPad och skriv direkt från menyraden på Mac."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บน iPad วาดอารมณ์ด้วย Pencil ส่วนบน Mac จดได้ทันทีจากแถบเมนู"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad’de ruh halini Pencil ile çiz, Mac’te menü çubuğundan hemen yaz."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trên iPad vẽ tâm trạng bằng Pencil, trên Mac ghi ngay từ thanh menu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPad 上用 Pencil 画心情，在 Mac 上从菜单栏随手记下。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPad 上用 Pencil 畫心情，在 Mac 上從選單列隨手記下。"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

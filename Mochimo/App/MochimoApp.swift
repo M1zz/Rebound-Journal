@@ -58,6 +58,8 @@ struct MochimoApp: App {
         #if DEBUG
         // 확인용: 실행 인자 `-debug.tips YES` 면 조건과 상관없이 안내를 모두 띄운다.
         if UserDefaults.standard.bool(forKey: "debug.tips") { Tips.showAllTipsForTesting() }
+        // 스크린샷에는 안내 카드가 겹치지 않게 한다.
+        if ScreenshotMode.isActive { Tips.hideAllTipsForTesting() }
         #endif
         try? Tips.configure([
             .displayFrequency(.immediate),
@@ -67,13 +69,28 @@ struct MochimoApp: App {
 
     let sharedModelContainer: ModelContainer
 
+    /// 스크린샷을 찍는 중인지(DEBUG `-shot`). 감사 팝업 같은 한 번뿐인 창을 띄우지 않는다.
+    private static var isTakingScreenshots: Bool {
+        #if DEBUG
+        ScreenshotMode.isActive
+        #else
+        false
+        #endif
+    }
+
     private static func makeModelContainer() -> ModelContainer {
         // ⚠️ 스키마를 바꾸지 않는다. 기존 사용자 기록이 이 두 모델에 있다.
         let schema = Schema([
             JournalData.self,
             SubGoalData.self
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        var modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        #if DEBUG
+        // 스크린샷 모드는 기록을 지우고 샘플을 심는다. 이 기기의 진짜 기록과 iCloud 에 닿지 않게 메모리에서만 연다.
+        if ScreenshotMode.isActive {
+            modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none)
+        }
+        #endif
 
         do {
             let container = try ModelContainer(for: schema, configurations: [modelConfiguration])
@@ -96,7 +113,7 @@ struct MochimoApp: App {
                 .modelContainer(sharedModelContainer)
                 .leeoSatisfactionCheck(MochimoSpec.self)
                 // 프로가 되면 콘페티, 모든 사용자는 한 번 감사를 받는다 (LeeoKit 3.46).
-                .leeoCelebrations(appName: MochimoSpec.displayName)
+                .celebrations(enabled: !Self.isTakingScreenshots)
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
                 .leeoFeedbackReplyNotice(MochimoSpec.self)
                 .leeoStyle(.pebble)
@@ -179,6 +196,18 @@ private struct StoreFallbackNotice: ViewModifier {
         content.alert("기록을 열지 못했어요", isPresented: $isPresented) {
         } message: {
             Text("저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요.")
+        }
+    }
+}
+
+private extension View {
+    /// 프로가 되면 콘페티, 모든 사용자는 한 번 감사를 받는다 (LeeoKit). 스크린샷을 찍을 때는 붙이지 않는다.
+    @ViewBuilder
+    func celebrations(enabled: Bool) -> some View {
+        if enabled {
+            leeoCelebrations(appName: MochimoSpec.displayName)
+        } else {
+            self
         }
     }
 }
