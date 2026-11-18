@@ -15,7 +15,6 @@ cd "$(dirname "$0")/.."
 
 PROJECT="Mochimo.xcodeproj"
 SCHEME="Mochimo"
-DESTINATION="generic/platform=iOS"
 
 echo "▸ 배포 전 검사 시작"
 
@@ -72,15 +71,20 @@ print("  ✓ 번역 구멍 없음")
 PY
 
 # ── 4. Release 컴파일 확인 (테스트 타깃이 생기기 전까지의 최소선)
-echo "  · Release 빌드 확인 중…"
-xcodebuild build \
-  -project "$PROJECT" \
-  -scheme "$SCHEME" \
-  -configuration Release \
-  -destination "$DESTINATION" \
-  CODE_SIGNING_ALLOWED=NO \
-  -quiet
-echo "  ✓ Release 빌드 통과"
+# 아이폰 · 아이패드와 맥이 같은 타깃이다. 한쪽만 고치다 다른 쪽이 깨지기 쉬워 둘 다 본다.
+for DESTINATION in "generic/platform=iOS" "generic/platform=macOS"; do
+  echo "  · Release 빌드 확인 중… ($DESTINATION)"
+  xcodebuild build \
+    -project "$PROJECT" \
+    -scheme "$SCHEME" \
+    -configuration Release \
+    -destination "$DESTINATION" \
+    CODE_SIGNING_ALLOWED=NO \
+    -quiet
+  echo "  ✓ Release 빌드 통과 ($DESTINATION)"
+done
+# 빌드가 문자열 카탈로그를 다시 쓴다. 커밋된 모양으로 되돌려 작업 트리를 깨끗이 둔다.
+git checkout -q -- Localizable.xcstrings InfoPlist.xcstrings AppShortcuts.xcstrings
 
 # ── 테스트 (테스트 타깃을 추가하면 주석을 풀 것)
 # xcodebuild test \
