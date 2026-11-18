@@ -14,7 +14,7 @@ struct MochimoCommands: Commands {
 
     var body: some Commands {
         CommandGroup(replacing: .newItem) {
-            command("모찌와 이야기하기", .talk, key: "t")
+            command("모찌모와 이야기하기", .talk, key: "t")
             command("목표 추가", .addGoal, key: "n")
         }
         CommandGroup(replacing: .appSettings) {
