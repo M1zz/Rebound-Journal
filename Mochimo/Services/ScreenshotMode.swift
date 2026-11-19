@@ -9,7 +9,7 @@
 //      xcrun simctl launch <기기> com.leeo.ReboundJournal -shot lookBack -AppleLanguages "(en)"
 //
 //  `-shot` 이 붙으면 기존 데이터를 비우고 그 언어로 된 기록을 새로 심는다.
-//  값: home · conversation · lookBack · records · addGoal · settings
+//  값: home · conversation · writing(답 쓰는 화면) · lookBack · records · addGoal · settings · gift
 //
 
 #if DEBUG
@@ -61,6 +61,12 @@ enum ScreenshotMode {
         let parts = id.split(separator: "-")
         if parts.count >= 2, let two = samples["\(parts[0])-\(parts[1])"] { return two }
         return samples[String(parts[0])]
+    }
+
+    /// `-shot writing`: 답 칸에 미리 적어 두는 글. 오늘 걷기 기록과 같은 말이다.
+    static var writingDraft: String {
+        if isKorean { return "비가 그쳐서 한강까지 걸었다. 걷고 나니 머리가 맑아졌다." }
+        return localSample?[3] ?? "The rain stopped, so I walked all the way to the river. My head feels clear."
     }
 
     static func seed(_ container: ModelContainer) {

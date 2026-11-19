@@ -112,6 +112,19 @@ struct ConversationView: View {
             .animation(.easeOut(duration: 0.25), value: isWriting)
         }
         .task(id: engine.transcript.count) { await revealPending() }
+        #if DEBUG
+        // `-shot writing`: 물음이 나오면 답 칸에 글을 넣고 적는 화면으로 들어간다.
+        .task(id: engine.response) {
+            guard ScreenshotMode.scene == "writing", case .freeform = engine.response, draft.isEmpty else { return }
+            try? await Task.sleep(for: .seconds(1))
+            draft = ScreenshotMode.writingDraft
+            // 입력 칸은 모찌가 말을 다 할 때까지 숨어 있다(긴 말은 몇 초). 그동안 포커스가 풀리면 다시 건다.
+            for _ in 0..<40 {
+                if !isDraftFocused { isDraftFocused = true }
+                try? await Task.sleep(for: .milliseconds(500))
+            }
+        }
+        #endif
         .onChange(of: engine.beat) { _, _ in resetInput() }
         .onChange(of: isPebbleSpeaking) { _, speaking in
             guard !speaking else { return }
@@ -384,6 +397,15 @@ struct ConversationView: View {
 
     // MARK: - 입력 영역
 
+    /// iPhone 의 키보드 위 단추 줄이 떠 있는 모양인지. 아이패드 · 맥은 키보드 줄이 따로 없다.
+    private static var hasFloatingKeyboardBar: Bool {
+        #if os(iOS)
+        UIDevice.current.userInterfaceIdiom == .phone
+        #else
+        false
+        #endif
+    }
+
     @ViewBuilder
     private var inputArea: some View {
         Group {
@@ -407,7 +429,9 @@ struct ConversationView: View {
         }
         .animation(.easeOut(duration: 0.22), value: isPebbleSpeaking)
         .padding(.horizontal, isWriting ? 20 : 28)
-        .padding(.bottom, 10)
+        // 키보드 위 '내리기' 단추는 떠 있는 동그라미라 안전 영역에 들지 않는다.
+        // 적는 중에는 그만큼 올려 보내기 단추가 가려지지 않게 한다.
+        .padding(.bottom, isDraftFocused && Self.hasFloatingKeyboardBar ? 58 : 10)
         // 적는 중이면 키보드 위 남은 자리를 답 칸이 다 쓴다.
         .frame(maxHeight: isWriting ? .infinity : nil, alignment: .top)
     }

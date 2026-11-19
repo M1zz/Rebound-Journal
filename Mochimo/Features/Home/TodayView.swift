@@ -201,7 +201,7 @@ struct TodayView: View {
         guard let scene = ScreenshotMode.scene, scene != "home" else { return }
         try? await Task.sleep(for: .seconds(1))
         switch scene {
-        case "conversation":
+        case "conversation", "writing":
             // 스크린샷은 대화만 담는다. 홈 인사가 위에 붙으면 다른 목표 얘기가 섞일 수 있다.
             conversationPreface = []
             conversation = observation
