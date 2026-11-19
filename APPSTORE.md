@@ -108,7 +108,7 @@ Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ### 키워드
 
-failure,resilience,mistakes,setbacks,comeback,reflection,rebound,retrospective,lessons,growth,diary
+setbacks,retrospective,rejection,feelings,gratitude,mindset,mood,cute,mistakes,failure,resilience
 
 ### 지원 URL
 
