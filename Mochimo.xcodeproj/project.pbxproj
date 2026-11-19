@@ -78,6 +78,8 @@
 		CE8613311D8C21A1850CFB35 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4793847AD7E6899F390C7B5 /* ConversationView.swift */; };
 		D1F47AB894E00563B3B480D5 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */; };
 		D3848842E44F49CEA26DED2F /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */; };
+		A1B2C3D4E5F60718293A4B02 /* ModernSpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B01 /* ModernSpeechEngine.swift */; };
+		A1B2C3D4E5F60718293A4B04 /* LegacySpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B03 /* LegacySpeechEngine.swift */; };
 		D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */; };
 		DAF13DE1F5C1718D03E1A3A9 /* PebbleTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC69F56A1D0236F1410A4C3 /* PebbleTips.swift */; };
 		F55C5C417ED7EE111AB578EB /* ChewyShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4F5732830B10A8BF5D346D72 /* ChewyShader.metal */; };
@@ -111,6 +113,8 @@
 
 /* Begin PBXFileReference section */
 		008D539F940765D19E5B644C /* MochimoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MochimoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F60718293A4B01 /* ModernSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernSpeechEngine.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B03 /* LegacySpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacySpeechEngine.swift; sourceTree = "<group>"; };
 		0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCapture.swift; sourceTree = "<group>"; };
 		0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleMood.swift; sourceTree = "<group>"; };
 		12B7A8A52995BD59714800CA /* AllRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordsView.swift; sourceTree = "<group>"; };
@@ -677,6 +681,8 @@
 		CA880938DAE64BB9D60E8EA3 /* Voice */ = {
 			isa = PBXGroup;
 			children = (
+				A1B2C3D4E5F60718293A4B01 /* ModernSpeechEngine.swift */,
+				A1B2C3D4E5F60718293A4B03 /* LegacySpeechEngine.swift */,
 				0C323EBA60E30BE1C49124A3 /* SpeechCapture.swift */,
 			);
 			path = Voice;
@@ -881,6 +887,8 @@
 				7F7EA0D7EF545F8E5796648B /* ConversationEngine.swift in Sources */,
 				CE8613311D8C21A1850CFB35 /* ConversationView.swift in Sources */,
 				7AD4B3AD16DEE51B757ED1D7 /* Paraphraser.swift in Sources */,
+				A1B2C3D4E5F60718293A4B02 /* ModernSpeechEngine.swift in Sources */,
+				A1B2C3D4E5F60718293A4B04 /* LegacySpeechEngine.swift in Sources */,
 				D44B07903E7A50E2C7F5B1DD /* SpeechCapture.swift in Sources */,
 				8E5A6F4788FBCF515D6875D7 /* TodayView.swift in Sources */,
 				1320A56A87450A83C60BD3F3 /* AddGoalView.swift in Sources */,
@@ -957,7 +965,7 @@
 				INFOPLIST_FILE = MochimoWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "모찌모";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -985,7 +993,7 @@
 				INFOPLIST_FILE = MochimoWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "모찌모";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1054,7 +1062,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1111,7 +1119,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1146,7 +1154,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1189,7 +1197,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

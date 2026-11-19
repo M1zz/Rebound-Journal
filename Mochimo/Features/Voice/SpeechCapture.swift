@@ -4,11 +4,11 @@
 //
 //  음성 입력 (설계 고찰 §7, §8).
 //
-//  iOS 26의 SpeechAnalyzer를 쓴다. SFSpeechRecognizer의 세션당 1분 제한이 없어서,
-//  §8에서 걱정했던 "짧은 발화 단위로 쪼개야 하는" 제약을 피할 수 있다. 사용자가
-//  천천히, 멈칫거리며 말해도 끊기지 않는다 — 막힌 얘기를 할 때 그렇게 말하게 된다.
+//  여기는 화면이 보는 상태(듣는 중 · 들린 글 · 신뢰도)만 쥔다. 실제로 듣는 일은
+//  엔진이 한다 — iOS 26부터는 SpeechAnalyzer(`ModernSpeechEngine`), 그 아래는
+//  SFSpeechRecognizer(`LegacySpeechEngine`). 화면은 어느 쪽인지 모른다.
 //
-//  전사는 기기 안에서 끝나고, 오디오는 어디에도 저장하지 않는다.
+//  어느 엔진이든 전사는 기기 안에서 끝나고, 오디오는 어디에도 저장하지 않는다.
 //
 
 import AVFoundation
@@ -57,27 +57,7 @@ final class SpeechCapture {
 
     // MARK: 내부
 
-    // 받아쓰기는 사용자가 실제로 말하는 언어를 따른다.
-    // 기기 언어와 지역을 그대로 넘기면(예: 중국어 + 미국 지역) 인식 모델이 없다고 실패한다.
-    // 그래서 기기 언어 순서대로 받아쓰기가 아는 가장 가까운 말을 고른다.
-    private var locale = Locale.current
-
-    private static func spokenLocale() async -> Locale? {
-        let candidates = Locale.preferredLanguages.map(Locale.init(identifier:)) + [Locale.current]
-        for candidate in candidates {
-            if let supported = await SpeechTranscriber.supportedLocale(equivalentTo: candidate) {
-                return supported
-            }
-        }
-        return nil
-    }
-    private let audioEngine = AVAudioEngine()
-    private var analyzer: SpeechAnalyzer?
-    private var transcriber: SpeechTranscriber?
-    private var inputContinuation: AsyncStream<AnalyzerInput>.Continuation?
-    private var resultsTask: Task<Void, Never>?
-    private var converter: AVAudioConverter?
-    private var analyzerFormat: AVAudioFormat?
+    private var engine: (any SpeechEngine)?
     private var confidenceSamples: [Double] = []
 
     // MARK: - 시작 / 정지
@@ -112,16 +92,8 @@ final class SpeechCapture {
         guard phase == .listening || phase == .preparing else { return }
         phase = .finishing
 
-        audioEngine.inputNode.removeTap(onBus: 0)
-        audioEngine.stop()
-        inputContinuation?.finish()
-        inputContinuation = nil
-
-        try? await analyzer?.finalizeAndFinishThroughEndOfInput()
-        resultsTask?.cancel()
-        resultsTask = nil
-        analyzer = nil
-        transcriber = nil
+        await engine?.finish()
+        engine = nil
 
         // 확정되지 않은 꼬리도 버리지 않는다. 사용자가 말한 건 말한 것이다.
         if !volatileText.isEmpty {
@@ -168,8 +140,7 @@ final class SpeechCapture {
     // MARK: - 세션
 
     private func beginSession() async throws {
-        guard let spoken = await Self.spokenLocale() else { throw CaptureError.unsupportedLanguage }
-        locale = spoken
+        guard let engine = await makeEngine() else { throw SpeechEngineError.unsupportedLanguage }
         AudioSessionQueue.isRecording = true
         do {
             try await AudioSessionQueue.openForRecording()
@@ -177,153 +148,64 @@ final class SpeechCapture {
             AudioSessionQueue.isRecording = false
             throw error
         }
-
-        let transcriber = SpeechTranscriber(
-            locale: locale,
-            transcriptionOptions: [],
-            // volatileResults — 말하는 동안 화면에 글이 따라 나온다. 사용자가 자기 말이
-            // 잡히고 있다는 걸 눈으로 확인할 수 있어야 불안하지 않다.
-            reportingOptions: [.volatileResults],
-            attributeOptions: [.transcriptionConfidence]
-        )
-        self.transcriber = transcriber
-
-        let analyzer = SpeechAnalyzer(modules: [transcriber])
-        self.analyzer = analyzer
-
-        let (stream, continuation) = AsyncStream<AnalyzerInput>.makeStream()
-        inputContinuation = continuation
-
-        resultsTask = Task { [weak self] in
-            await self?.consume(transcriber)
-        }
-
-        Task { [weak self] in
-            guard let self else { return }
-            do {
-                try await self.prepareAssets(for: transcriber)
-                self.analyzerFormat = await SpeechAnalyzer.bestAvailableAudioFormat(
-                    compatibleWith: [transcriber]
-                )
-                try await analyzer.start(inputSequence: stream)
-                try self.startTap()
-            } catch {
-                self.phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
-            }
-        }
+        self.engine = engine
+        try await engine.begin()
     }
 
-    /// 한국어 인식 모델이 없으면 내려받는다. 최초 1회만 걸린다.
-    private func prepareAssets(for transcriber: SpeechTranscriber) async throws {
-        if await AssetInventory.status(forModules: [transcriber]) != .installed,
-           let request = try await AssetInventory.assetInstallationRequest(supporting: [transcriber]) {
-            try await request.downloadAndInstall()
+    private func makeEngine() async -> (any SpeechEngine)? {
+        let report: (SpeechEvent) -> Void = { [weak self] in self?.apply($0) }
+        if #available(iOS 26.0, macOS 26.0, *) {
+            return await ModernSpeechEngine(report: report)
         }
-        try await AssetInventory.reserve(locale: locale)
-    }
-
-    private func startTap() throws {
-        let input = audioEngine.inputNode
-        let inputFormat = input.outputFormat(forBus: 0)
-        guard inputFormat.sampleRate > 0 else { throw CaptureError.noInput }
-
-        if let analyzerFormat, analyzerFormat != inputFormat {
-            converter = AVAudioConverter(from: inputFormat, to: analyzerFormat)
-        }
-
-        guard let continuation = inputContinuation else { return }
-        input.installTap(
-            onBus: 0,
-            bufferSize: 4_096,
-            format: inputFormat,
-            block: Self.tapBlock(converter: converter, target: analyzerFormat, continuation: continuation)
-        )
-
-        audioEngine.prepare()
-        try audioEngine.start()
-    }
-
-    /// 마이크가 버퍼를 건넬 때마다 부르는 블록. **오디오 스레드에서 돈다.**
-    ///
-    /// 그래서 이 블록은 메인 액터의 상태를 하나도 읽지 않는다. 필요한 것(변환기 ·
-    /// 목표 포맷 · 넘길 곳)은 탭을 걸 때 미리 받아 쥐고 들어간다.
-    ///
-    /// 예전에는 블록 안에서 `MainActor.assumeIsolated` 로 `converter` 를 읽었다.
-    /// 오디오 스레드는 메인이 아니라서 그 자리에서 앱이 멈췄다(2.1.4 크래시 —
-    /// AVFAudio 콜백 → `convert(_:)` → `assumeIsolated`). 메서드 안에서 만든 클로저는
-    /// 메인 액터에 묶일 수 있으니, 블록은 격리 없는 정적 함수에서 만든다.
-    nonisolated private static func tapBlock(
-        converter: AVAudioConverter?,
-        target: AVAudioFormat?,
-        continuation: AsyncStream<AnalyzerInput>.Continuation
-    ) -> AVAudioNodeTapBlock {
-        { buffer, _ in
-            guard let prepared = convert(buffer, with: converter, to: target) else { return }
-            continuation.yield(AnalyzerInput(buffer: prepared))
-        }
-    }
-
-    /// 마이크 포맷을 분석기가 받는 포맷으로 맞춘다.
-    nonisolated private static func convert(
-        _ buffer: AVAudioPCMBuffer,
-        with converter: AVAudioConverter?,
-        to target: AVAudioFormat?
-    ) -> AVAudioPCMBuffer? {
-        guard let converter, let target else {
-            return buffer   // 변환이 필요 없는 경우
-        }
-
-        let ratio = target.sampleRate / buffer.format.sampleRate
-        let capacity = AVAudioFrameCount(Double(buffer.frameLength) * ratio) + 1_024
-        guard let output = AVAudioPCMBuffer(pcmFormat: target, frameCapacity: capacity) else { return nil }
-
-        var consumed = false
-        var error: NSError?
-        converter.convert(to: output, error: &error) { _, status in
-            if consumed {
-                status.pointee = .noDataNow
-                return nil
-            }
-            consumed = true
-            status.pointee = .haveData
-            return buffer
-        }
-        return error == nil && output.frameLength > 0 ? output : nil
+        return LegacySpeechEngine(report: report)
     }
 
     // MARK: - 결과
 
-    private func consume(_ transcriber: SpeechTranscriber) async {
-        do {
-            for try await result in transcriber.results {
-                let text = String(result.text.characters)
-
-                if result.isFinal {
-                    finalizedText = finalizedText.isEmpty
-                        ? text
-                        : finalizedText + " " + text
-                    volatileText = ""
-                    absorbConfidence(from: result.text)
-                } else {
-                    volatileText = text
-                }
+    private func apply(_ event: SpeechEvent) {
+        switch event {
+        case .volatile(let text):
+            volatileText = text
+        case .finalized(let text, let confidences):
+            if !text.isEmpty {
+                finalizedText = finalizedText.isEmpty ? text : finalizedText + " " + text
             }
-        } catch {
-            // 스트림이 끊겨도 지금까지 들은 말은 남는다.
             volatileText = ""
+            absorb(confidences)
+        case .failed:
+            phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
         }
     }
 
     /// 구간별 신뢰도를 평균 낸다. 낮으면 §7의 재확인 흐름으로 넘어간다.
-    private func absorbConfidence(from text: AttributedString) {
-        let values = text.runs.compactMap { $0.transcriptionConfidence }
+    private func absorb(_ values: [Double]) {
         guard !values.isEmpty else { return }
         confidenceSamples.append(contentsOf: values)
         confidence = confidenceSamples.reduce(0, +) / Double(confidenceSamples.count)
     }
+}
 
-    enum CaptureError: Error {
-        case noInput
-        case unsupportedLanguage
-    }
+// MARK: - 엔진
+
+/// 엔진이 들은 것을 알리는 말.
+enum SpeechEvent {
+    /// 아직 흔들리는 글. 다음 알림이 이것을 통째로 바꾼다.
+    case volatile(String)
+    /// 확정된 한 토막. 앞서 확정된 글 뒤에 붙는다.
+    case finalized(String, confidences: [Double])
+    /// 듣기를 시작한 뒤에 실패했다.
+    case failed
+}
+
+/// 마이크를 열고 들은 말을 글로 알린다. 오디오 세션은 `SpeechCapture`가 열고 닫는다.
+@MainActor
+protocol SpeechEngine: AnyObject {
+    func begin() async throws
+    /// 마이크를 닫고 남은 말을 마저 알린 뒤 돌아온다.
+    func finish() async
+}
+
+enum SpeechEngineError: Error {
+    case noInput
+    case unsupportedLanguage
 }

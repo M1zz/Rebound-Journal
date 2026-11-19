@@ -19,7 +19,7 @@ Lifetime Pro ($9.99, one-time, not a subscription) is free until Nov 17 with cod
 https://apps.apple.com/redeem?ctx=offercodes&id=6450388408&code=NOVE
 
 Download the app first, then open the link: https://apps.apple.com/app/id6450388408
-Needs iOS 26.
+Needs iOS 18 or later.
 
 **What it is**
 

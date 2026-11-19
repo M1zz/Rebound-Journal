@@ -14,10 +14,14 @@
 //  모델을 쓸 수 없는 기기에서도 재요청은 없다. 들린 원문을 그대로 편집 가능한
 //  텍스트로 띄우는 것이 폴백이다.
 //
+//  온디바이스 모델은 iOS 26부터 있다. 그 아래(iOS 18~)에서는 "모델을 쓸 수 없는 기기"와
+//  똑같이 군다 — 정리 없이 들린 대로 적는다.
+//
 
 import FoundationModels
 import Foundation
 
+@available(iOS 26.0, macOS 26.0, *)
 @Generable
 struct TidiedUtterance {
     @Guide(description: "사용자가 말한 내용을, 사용자가 말한 언어 그대로 자연스러운 한두 문장으로 정리한 것. 번역하지 말고, 없는 내용을 지어내지 말 것.")
@@ -36,11 +40,15 @@ final class Paraphraser {
 
     /// 이 기기에서 온디바이스 모델을 쓸 수 있는지.
     var isAvailable: Bool {
-        SystemLanguageModel.default.isAvailable
+        guard #available(iOS 26.0, macOS 26.0, *) else { return false }
+        return SystemLanguageModel.default.isAvailable
     }
 
     var unavailabilityReason: String? {
-        switch SystemLanguageModel.default.availability {
+        guard #available(iOS 26.0, macOS 26.0, *) else {
+            return String(localized: "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요.")
+        }
+        return switch SystemLanguageModel.default.availability {
         case .available:
             nil
         case .unavailable(.deviceNotEligible):
@@ -61,8 +69,12 @@ final class Paraphraser {
     ///            편집 가능한 상태로 보여주기만 한다.
     func tidy(_ raw: String, answering question: String) async -> String? {
         let trimmed = raw.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !trimmed.isEmpty, isAvailable else { return nil }
+        guard !trimmed.isEmpty, isAvailable, #available(iOS 26.0, macOS 26.0, *) else { return nil }
+        return await tidyWithModel(trimmed, answering: question)
+    }
 
+    @available(iOS 26.0, macOS 26.0, *)
+    private func tidyWithModel(_ trimmed: String, answering question: String) async -> String? {
         let session = LanguageModelSession {
             """
             당신은 사용자가 음성으로 말한 내용을 글로 다듬는 역할만 맡습니다.
