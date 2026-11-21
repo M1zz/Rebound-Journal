@@ -77,7 +77,7 @@ enum RecordExporter {
 
     private static func dayTitle(_ day: Date) -> String {
         let formatter = DateFormatter()
-        formatter.locale = .current
+        formatter.locale = AppLanguage.locale
         formatter.setLocalizedDateFormatFromTemplate("yMMMdEEEE")
         return formatter.string(from: day)
     }

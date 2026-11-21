@@ -106,6 +106,7 @@ struct MochimoApp: App {
     var body: some Scene {
         WindowGroup(id: MochimoWindow.main) {
             SkinnedRoot()
+                .arabicNumbers()
                 .storeFallbackNotice()
                 .environmentObject(manager)
                 .environmentObject(store)
@@ -128,6 +129,7 @@ struct MochimoApp: App {
         // 메뉴 막대의 모찌 (→ MenuBarPebble.swift)
         MenuBarExtra {
             QuickNoteView()
+                .arabicNumbers()
                 .environmentObject(manager)
                 .modelContainer(sharedModelContainer)
         } label: {
@@ -196,6 +198,19 @@ private struct StoreFallbackNotice: ViewModifier {
         content.alert("기록을 열지 못했어요", isPresented: $isPresented) {
         } message: {
             Text("저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요.")
+        }
+    }
+}
+
+extension View {
+    /// 아랍어에서는 화면의 숫자 · 날짜를 0~9 와 양력으로 맞춘다 (§`AppLanguage.locale`).
+    /// 다른 언어는 기기 설정을 그대로 따르게 손대지 않는다.
+    @ViewBuilder
+    func arabicNumbers() -> some View {
+        if AppLanguage.isArabic {
+            environment(\.locale, AppLanguage.locale)
+        } else {
+            self
         }
     }
 }

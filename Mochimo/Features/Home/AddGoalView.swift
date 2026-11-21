@@ -183,8 +183,8 @@ struct AddGoalView: View {
         switch step {
         case .full:
             Phrasing.say(
-                String(localized: "지금 해보려는 게 벌써 \(goals.count)개예요."),
-                String(localized: "지금 해보려는 게 벌써 \(goals.count)개야.")
+                String(localized: "지금 해보려는 게 벌써 \(goals.count)개예요.", locale: AppLanguage.locale),
+                String(localized: "지금 해보려는 게 벌써 \(goals.count)개야.", locale: AppLanguage.locale)
             )
         case .direction:
             Phrasing.say("무엇을 향해 가고 있어요?", "무엇을 향해 가고 있어?")

@@ -37,17 +37,18 @@ struct StoneDay: Identifiable, Equatable {
     /// 요일 한 글자.
     var weekdayLabel: String {
         // 로캘의 요일 약칭을 쓴다. 한국어 "월", 영어 "M".
-        let symbols = Calendar.current.veryShortWeekdaySymbols
-        let index = Calendar.current.component(.weekday, from: date) - 1
+        let calendar = AppLanguage.calendar
+        let symbols = calendar.veryShortWeekdaySymbols
+        let index = calendar.component(.weekday, from: date) - 1
         return symbols[max(0, min(symbols.count - 1, index))]
     }
 
     var dayNumber: Int {
-        Calendar.current.component(.day, from: date)
+        AppLanguage.calendar.component(.day, from: date)
     }
 
     var accessibilityDescription: String {
-        let day = String(localized: "\(Calendar.current.component(.month, from: date))월 \(dayNumber)일")
+        let day = String(localized: "\(AppLanguage.calendar.component(.month, from: date))월 \(dayNumber)일", locale: AppLanguage.locale)
         return switch state {
         case .reached: String(localized: "\(day), 해낸 날")
         case .recorded: String(localized: "\(day), 기록을 남긴 날")
@@ -126,7 +127,7 @@ enum WeekStones {
         }
 
         let formatter = DateFormatter()
-        formatter.locale = .current
+        formatter.locale = AppLanguage.locale
         formatter.setLocalizedDateFormatFromTemplate("MMMd")
         return String(localized: "\(formatter.string(from: start)) 주")
     }

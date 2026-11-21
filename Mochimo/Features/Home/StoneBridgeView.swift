@@ -49,14 +49,14 @@ struct StoneBridgeView: View {
             Spacer()
 
             Button(action: onPrevious) {
-                Image(systemName: "chevron.left")
+                Image(systemName: "chevron.backward")
                     .font(.system(size: 15, weight: .semibold))
                     .foregroundStyle(PebbleTheme.inkFaint)
                     .frame(width: 44, height: 44)
             }
             .accessibilityLabel(Text("이전 주"))
             Button(action: onNext) {
-                Image(systemName: "chevron.right")
+                Image(systemName: "chevron.forward")
                     .font(.system(size: 15, weight: .semibold))
                     .foregroundStyle(canGoForward ? PebbleTheme.inkFaint : PebbleTheme.hairline)
                     .frame(width: 44, height: 44)

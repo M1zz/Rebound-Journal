@@ -26,8 +26,8 @@ enum LeftAgo {
 
         return switch days {
         case ..<0: String(localized: "오늘 남김")
-        case 0..<7: String(localized: "\(days)일 전에 남김")
-        case 7..<30: String(localized: "\(days / 7)주 전에 남김")
+        case 0..<7: String(localized: "\(days)일 전에 남김", locale: AppLanguage.locale)
+        case 7..<30: String(localized: "\(days / 7)주 전에 남김", locale: AppLanguage.locale)
         default: String(localized: "오래전에 남김")
         }
     }

@@ -123,14 +123,14 @@ struct GoalObservation: Equatable, Identifiable {
                 )
                 : Phrasing.pick(
                     formal: [
-                        String(localized: "'\(goal)' 얘기 안 한 지 \(daysAgo)일 됐네요."),
-                        String(localized: "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요."),
-                        String(localized: "'\(goal)' 요즘 어때요? \(daysAgo)일 동안 소식이 없어서요.")
+                        String(localized: "'\(goal)' 얘기 안 한 지 \(daysAgo)일 됐네요.", locale: AppLanguage.locale),
+                        String(localized: "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네요.", locale: AppLanguage.locale),
+                        String(localized: "'\(goal)' 요즘 어때요? \(daysAgo)일 동안 소식이 없어서요.", locale: AppLanguage.locale)
                     ],
                     casual: [
-                        String(localized: "'\(goal)' 얘기 안 한 지 \(daysAgo)일 됐네."),
-                        String(localized: "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네."),
-                        String(localized: "'\(goal)' 요즘 어때? \(daysAgo)일 동안 소식이 없어서.")
+                        String(localized: "'\(goal)' 얘기 안 한 지 \(daysAgo)일 됐네.", locale: AppLanguage.locale),
+                        String(localized: "'\(goal)'\(goal.particle("은", "는")) \(daysAgo)일째 조용하네.", locale: AppLanguage.locale),
+                        String(localized: "'\(goal)' 요즘 어때? \(daysAgo)일 동안 소식이 없어서.", locale: AppLanguage.locale)
                     ],
                     seed: Phrasing.today(with: goal)
                 )
@@ -219,7 +219,7 @@ struct GoalObservation: Equatable, Identifiable {
         switch days {
         case 0: String(localized: "오늘")
         case 1: String(localized: "어제")
-        case 2...6: String(localized: "\(days)일 전")
+        case 2...6: String(localized: "\(days)일 전", locale: AppLanguage.locale)
         case 7...13: String(localized: "지난주")
         default: String(localized: "얼마 전")
         }

@@ -179,6 +179,7 @@ struct AllRecordsView: View {
                     // 그때 스스로 정한 다음 걸음 (§6).
                     HStack(alignment: .top, spacing: 5) {
                         Image(systemName: "arrow.turn.down.right")
+                            .flipsForRightToLeftLayoutDirection(true)
                             .font(.system(size: 10))
                             .foregroundStyle(PebbleTheme.key)
                             .padding(.top, 3)
@@ -250,7 +251,7 @@ struct AllRecordsView: View {
         if calendar.isDateInYesterday(day) { return String(localized: "어제") }
 
         let formatter = DateFormatter()
-        formatter.locale = .current
+        formatter.locale = AppLanguage.locale
         formatter.setLocalizedDateFormatFromTemplate(
             calendar.isDate(day, equalTo: Date(), toGranularity: .year) ? "MMMdEEEE" : "yMMMd"
         )

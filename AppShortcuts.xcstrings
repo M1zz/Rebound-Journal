@@ -3,6 +3,12 @@
   "strings" : {
     "Log ${goal} in ${applicationName}" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل ${goal} في ${applicationName}"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +151,12 @@
     },
     "Log today’s step in ${applicationName}" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل خطوة اليوم في ${applicationName}"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

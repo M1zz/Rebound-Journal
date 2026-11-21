@@ -3,6 +3,12 @@
   "strings" : {
     "  기분: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  الشعور: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +151,12 @@
     },
     "  다음 걸음: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  الخطوة التالية: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,6 +299,12 @@
     },
     "  있었던 일: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  ما حدث: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -429,6 +447,58 @@
     },
     "'%@' 얘기 안 한 지 %lld일 됐네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نتحدث عن «%1$@» منذ %#@days@."
+          },
+          "substitutions" : {
+            "days" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يوم واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يومين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أيام"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يومًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -571,6 +641,58 @@
     },
     "'%@' 얘기 안 한 지 %lld일 됐네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نتحدث عن «%1$@» منذ %#@days@."
+          },
+          "substitutions" : {
+            "days" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يوم واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يومين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أيام"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يومًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -713,6 +835,12 @@
     },
     "'%@' 오늘 했구나. 기분 좋겠다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%@» اليوم. لا بد أن شعورك رائع."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -855,6 +983,12 @@
     },
     "'%@' 오늘 했군요. 기분 좋겠어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%@» اليوم. لا بد أن شعورك رائع."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -997,6 +1131,58 @@
     },
     "'%@' 요즘 어때? %lld일 동안 소식이 없어서." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما أخبار «%1$@» هذه الأيام؟ لم أسمع شيئًا منذ %#@days@."
+          },
+          "substitutions" : {
+            "days" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يوم واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يومين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أيام"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يومًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1139,6 +1325,58 @@
     },
     "'%@' 요즘 어때요? %lld일 동안 소식이 없어서요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما أخبار «%1$@» هذه الأيام؟ لم أسمع شيئًا منذ %#@days@."
+          },
+          "substitutions" : {
+            "days" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يوم واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يومين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أيام"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يومًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1281,6 +1519,12 @@
     },
     "'%@' 적어둔 거 기억나. 해봤어?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أتذكّر أنك كتبت «%@». هل جرّبته؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1423,6 +1667,12 @@
     },
     "'%@' 적어둔 거 기억나요. 해봤어요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أتذكّر أنك كتبت «%@». هل جرّبته؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1565,6 +1815,12 @@
     },
     "'%@' 하려고 했을 때, 무슨 일이 있었어?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين نويت «%@»، ماذا حدث؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1707,6 +1963,12 @@
     },
     "'%@' 하려고 했을 때, 무슨 일이 있었어요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حين نويت «%@»، ماذا حدث؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1850,6 +2112,12 @@
     "‘%@’ 한 걸음 디뎠어요." : {
       "comment" : "Siri: step done. Argument is the goal",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطوت خطوة نحو «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1992,6 +2260,12 @@
     },
     "'%@', %@ 했었잖아." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%1$@» %2$@، أليس كذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2134,6 +2408,12 @@
     },
     "'%@', %@ 했었잖아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%1$@» %2$@، أليس كذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2276,6 +2556,12 @@
     },
     "'%@', 뭐 때문에 잘 안 됐어?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي صعّب «%@»؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2418,6 +2704,12 @@
     },
     "'%@', 뭐 때문에 잘 안 됐어요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي صعّب «%@»؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2560,6 +2852,12 @@
     },
     "'%@', 오늘은 아직이네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يُسجَّل شيء عن «%@» اليوم بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2708,6 +3006,12 @@
     },
     "'%@', 오늘은 아직이네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يُسجَّل شيء عن «%@» اليوم بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2856,6 +3160,12 @@
     },
     "'%@', 요즘 어때? 아직 한 번도 못 물어봤네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما أخبار «%@» هذه الأيام؟ لم أسأل عن ذلك بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2998,6 +3308,12 @@
     },
     "'%@', 요즘 어때요? 아직 한 번도 못 물어봤네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما أخبار «%@» هذه الأيام؟ لم أسأل عن ذلك بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3140,6 +3456,58 @@
     },
     "'%@'%@ %lld일째 조용하네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا أخبار عن «%1$@» منذ %#@days@.%2$@"
+          },
+          "substitutions" : {
+            "days" : {
+              "argNum" : 3,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يوم واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يومين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أيام"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يومًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3288,6 +3656,58 @@
     },
     "'%@'%@ %lld일째 조용하네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا أخبار عن «%1$@» منذ %#@days@.%2$@"
+          },
+          "substitutions" : {
+            "days" : {
+              "argNum" : 3,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "zero" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يوم واحد"
+                    }
+                  },
+                  "two" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "يومين"
+                    }
+                  },
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg أيام"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يومًا"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg يوم"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3436,6 +3856,12 @@
     },
     "'%@'%@ 오늘 아직 못 했네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تُنجز «%1$@» اليوم بعد.%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3578,6 +4004,12 @@
     },
     "'%@'%@ 오늘 아직 못 했네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تُنجز «%1$@» اليوم بعد.%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3720,6 +4152,12 @@
     },
     "'%@'%@ 적어두고 아직 얘기를 못 나눴네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كتبت «%1$@»، لكننا لم نتحدث عنه بعد.%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3862,6 +4300,12 @@
     },
     "'%@'%@ 적어두고 아직 얘기를 못 나눴네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كتبت «%1$@»، لكننا لم نتحدث عنه بعد.%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4004,6 +4448,12 @@
     },
     "'%@'에 대해 %@ '%@'라고 적었어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ كتبت «%3$@» عن «%1$@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4152,6 +4602,12 @@
     },
     "'%@'에 대해 %@ '%@'라고 적으셨어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ كتبت «%3$@» عن «%1$@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4302,6 +4758,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع هدفًا واحدًا جانبًا في «طريقك حتى الآن»، وعندها يمكنك إضافة هدف جديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4447,6 +4909,12 @@
     },
     "%@\n'%@', 그런 일이 있었고\n지금 마음은 '%@'%@.\n\n%@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@\nإذن حدث «%2$@»،\nوشعورك الآن «%3$@».%4$@\n\n%5$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4589,6 +5057,12 @@
     },
     "%@ '%@' 얘기하면서 '%@'라고 남겼지." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@، وأنت تتحدث عن «%2$@»، كتبت «%3$@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4737,6 +5211,12 @@
     },
     "%@ '%@' 얘기하면서 '%@'라고 남기셨죠." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@، وأنت تتحدث عن «%2$@»، كتبت «%3$@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4885,6 +5365,12 @@
     },
     "%@ '%@' 하다가 멈췄다고 했었죠." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ قلت إنك تعثّرت في «%2$@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5027,6 +5513,12 @@
     },
     "%@ '%@' 하다가 멈췄다고 했었지." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ قلت إنك تعثّرت في «%2$@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5169,6 +5661,12 @@
     },
     "%@ '%@' 했던 거 기억나." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أتذكّر أنك أنجزت «%2$@» %1$@."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5311,6 +5809,12 @@
     },
     "%@ '%@' 했던 거 기억나요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أتذكّر أنك أنجزت «%2$@» %1$@."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5453,6 +5957,12 @@
     },
     "%@ '%@'%@ 두고 '%@'라고 하셨어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ قلت عن «%2$@»: «%4$@».%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5601,6 +6111,12 @@
     },
     "%@ '%@'%@ 두고 '%@'라고 했잖아." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ قلت عن «%2$@»: «%4$@».%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5749,6 +6265,12 @@
     },
     "%@ '%@'%@ 잘 안 됐다고 하셨잖아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ قلت إن «%2$@» لم يسر على ما يرام.%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5891,6 +6413,12 @@
     },
     "%@ '%@'%@ 잘 안 됐다고 했잖아." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ قلت إن «%2$@» لم يسر على ما يرام.%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6033,6 +6561,12 @@
     },
     "%@ '%@'%@ 해내셨죠." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ أنجزت «%2$@».%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6181,6 +6715,12 @@
     },
     "%@ '%@'%@ 해냈지." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ أنجزت «%2$@».%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6329,6 +6869,12 @@
     },
     "%@ 주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوع %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6477,6 +7023,12 @@
     },
     "%@, 기록을 남긴 날" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@، يوم كتبت فيه ملاحظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6625,6 +7177,12 @@
     },
     "%@, 남긴 기록 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@، بلا ملاحظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6773,6 +7331,12 @@
     },
     "%@, 아직 오지 않은 날" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@، يوم لم يأتِ بعد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6921,6 +7485,12 @@
     },
     "%@, 해낸 날" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@، يوم أنجزت فيه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7063,6 +7633,12 @@
     },
     "%@에 '%@'%@ 해내셨잖아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%2$@» %1$@.%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7211,6 +7787,12 @@
     },
     "%@에 '%@'%@ 해냈잖아." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%2$@» %1$@.%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7359,6 +7941,12 @@
     },
     "%@에는 '%@'%@ 해내셨어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ أنجزت «%2$@».%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7507,6 +8095,12 @@
     },
     "%@에는 '%@'%@ 해냈어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ أنجزت «%2$@».%3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7655,6 +8249,12 @@
     },
     "%@에는 '%@'도 했었잖아." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ أنجزت «%2$@» أيضًا، أليس كذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7797,6 +8397,12 @@
     },
     "%@에는 '%@'도 했었잖아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ أنجزت «%2$@» أيضًا، أليس كذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7939,6 +8545,12 @@
     },
     "%lld" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8087,6 +8699,12 @@
     },
     "%lld단계 중 %lld단계, %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطوة %2$lld من %1$lld، %3$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8229,6 +8847,12 @@
     },
     "%lld월 %lld일" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8377,6 +9001,48 @@
     },
     "%lld일 전" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "اليوم"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قبل يوم"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قبل يومين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قبل %lld أيام"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قبل %lld يومًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قبل %lld يوم"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -8825,6 +9491,48 @@
     },
     "%lld일 전에 남김" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل اليوم"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل يوم"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل يومين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل %lld أيام"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل %lld يومًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل %lld يوم"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -9273,6 +9981,48 @@
     },
     "%lld주 전에 남김" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل هذا الأسبوع"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل أسبوع"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل أسبوعين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل %lld أسابيع"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل %lld أسبوعًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سُجّل قبل %lld أسبوع"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -9721,6 +10471,12 @@
     },
     "|" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "|"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9869,6 +10625,12 @@
     },
     "4개 중 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld من 4"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10018,6 +10780,12 @@
     "Face ID 잠금" : {
       "comment" : "Roadmap item: Face ID lock",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القفل بـ Face ID"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10160,6 +10928,12 @@
     },
     "Log Today’s Step" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل خطوة اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10309,6 +11083,12 @@
     "Pro 선물하기" : {
       "comment" : "Roadmap item: gift Pro",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إهداء Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10452,6 +11232,12 @@
     "Siri에게 말하거나 단축어로 바로 기록을 남겨요." : {
       "comment" : "Roadmap item detail: Siri and Shortcuts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحدّث إلى Siri أو استخدم الاختصارات لتكتب ملاحظتك فورًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10595,6 +11381,12 @@
     "Siri에게 앱 이름 없이 말해도 목표를 찾아 오늘 한 걸음을 남겨요." : {
       "comment" : "Roadmap item detail: smarter Siri",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قل لـ Siri ما تريد دون ذكر اسم التطبيق، وسيجد هدفك ويسجّل خطوة اليوم."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10738,6 +11530,12 @@
     "Siri와 단축어" : {
       "comment" : "Roadmap item: Siri and Shortcuts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri والاختصارات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10881,6 +11679,12 @@
     "VoiceOver로 더 편하게" : {
       "comment" : "Roadmap item: better VoiceOver support",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجربة أفضل مع VoiceOver"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11025,6 +11829,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معنوياتي منخفضة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11173,6 +11983,12 @@
     },
     "가벼운 스트레칭부터 시작하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البدء بتمارين إطالة خفيفة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11323,6 +12139,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا يدغدغني"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11465,6 +12287,12 @@
     },
     "감사한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الامتنان"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11613,6 +12441,12 @@
     },
     "같은 이름의 목표가 이미 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يوجد هدف بهذا الاسم بالفعل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11757,6 +12591,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للمطوّر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11905,6 +12745,12 @@
     },
     "개발자에게 메일 보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راسل المطوّر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12053,6 +12899,12 @@
     },
     "개인정보 보호정책" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سياسة الخصوصية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12201,6 +13053,12 @@
     },
     "건강" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12350,6 +13208,12 @@
     "결제는 보내는 분이 하고, Pro는 받는 분이 써요." : {
       "comment" : "Roadmap item detail: gift Pro",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تدفع أنت، ويحصل من تختاره على Pro."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12492,6 +13356,12 @@
     },
     "곁에 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بجانبك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12642,6 +13512,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأكمل الحديث"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12784,6 +13660,12 @@
     },
     "곰" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12926,6 +13808,12 @@
     },
     "고양이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13068,6 +13956,12 @@
     },
     "고치기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13218,6 +14112,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على ردّ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13368,6 +14268,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا بأس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13518,6 +14424,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا بأس. غاب عن نظرك فحسب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13666,6 +14578,12 @@
     },
     "괴로운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الضيق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13814,6 +14732,12 @@
     },
     "구름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غيمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13956,6 +14880,12 @@
     },
     "구매 복원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة المشتريات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14098,6 +15028,12 @@
     },
     "규칙적인 생활" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روتين منتظم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14248,6 +15184,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وماذا حدث بعد ذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14397,6 +15339,12 @@
     "그 목표에 대해 모찌모와 이야기합니다." : {
       "comment" : "Siri: open goal description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحدّث مع Mochimo عن هذا الهدف."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14541,6 +15489,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وكيف سار ذلك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14691,6 +15645,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هكذا كانت ظروف ذلك اليوم، وليس لأن إرادتك ضعيفة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14833,6 +15793,12 @@
     },
     "그날 어땠나요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف كان ذلك اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14977,6 +15943,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأتركه كما هو"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15125,6 +16097,12 @@
     },
     "그때 '%@'%@ 해보자고 하셨어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلت وقتها إنك ستجرّب «%1$@».%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15273,6 +16251,12 @@
     },
     "그때 '%@'%@ 해보자고 했었어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلت وقتها إنك ستجرّب «%1$@».%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15421,6 +16405,12 @@
     },
     "그때 기분" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شعورك حينها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15565,6 +16555,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماذا حدث حينها؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15715,6 +16711,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنتحدث عن ذلك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15863,6 +16865,12 @@
     },
     "그때는 '%@'라고 하셨죠." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلت حينها: «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16011,6 +17019,12 @@
     },
     "그때는 '%@'라고 했었지." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلت حينها: «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16161,6 +17175,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا. نتحدث في وقت آخر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16311,6 +17331,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فهمت. وكيف شعورك الآن؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16455,6 +17481,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صحيح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16605,6 +17637,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذن هذا ما حدث. كيف شعورك الآن؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16749,6 +17787,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحدث هذا. النسيان لا يعني أنه اختفى."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16899,6 +17943,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحدث هذا. نسيت فحسب، ولا شيء أكثر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17047,6 +18097,12 @@
     },
     "그럼 '%@'%@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذن، في الطريق إلى «%1$@»،\nما الشيء الصغير الذي يمكنك إنجازه غدًا مباشرة؟%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17195,6 +18251,12 @@
     },
     "그럼 '%@'%@ 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذن، في الطريق إلى «%1$@»،\nما الشيء الصغير الذي يمكنك إنجازه غدًا مباشرة؟%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17345,6 +18407,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذن لنتحدث عن ذلك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17493,6 +18561,12 @@
     },
     "그만 말하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهيت من الكلام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17643,6 +18717,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كفى، هههه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17787,6 +18867,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عادي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17936,6 +19022,12 @@
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: large text layouts",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تكبير الخط، تترتب الشاشات بشكل أنيق دون أن ينقطع شيء."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18078,6 +19170,12 @@
     },
     "기대되는" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترقّب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18226,6 +19324,12 @@
     },
     "기록" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السجلات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18368,6 +19472,12 @@
     },
     "기록 내보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير السجلات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18510,6 +19620,12 @@
     },
     "기록을 내보내지 못했어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر تصدير سجلاتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18652,6 +19768,12 @@
     },
     "기록을 열지 못했어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر فتح سجلاتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18794,6 +19916,12 @@
     },
     "기본" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأصلي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18936,6 +20064,12 @@
     },
     "기분이 좋은" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزاج الطيب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19084,6 +20218,12 @@
     },
     "기뻐하고 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسرور"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19234,6 +20374,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أفزعتني!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19376,6 +20522,12 @@
     },
     "끔찍한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شعور فظيع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19526,6 +20678,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا داعي للاستعجال في الباقي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19676,6 +20834,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع الباقي جانبًا وانظر إلى هذا فقط."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19826,6 +20990,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الباقي يمكن أن ينتظر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19976,6 +21146,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظته، حتى لا تنسى ما نجح معك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20125,6 +21301,12 @@
     "남겼어요. 헛디딘 날도 길의 일부예요. 앱에서 무엇이 막았는지 천천히 돌아봐요." : {
       "comment" : "Siri: step missed, gentle",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّلته. الأيام التي تتعثّر فيها جزء من الطريق أيضًا. تأمّل في التطبيق بهدوء ما الذي اعترضك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20267,6 +21449,12 @@
     },
     "남긴 것들" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظاتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20417,6 +21605,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تبقى ملاحظاتك كما هي. يُزال الهدف من القائمة فقط."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20561,6 +21755,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا شيء مكتوب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20711,6 +21911,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صرت مسطّحًا…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20853,6 +22059,12 @@
     },
     "내 목표" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أهدافي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20995,6 +22207,12 @@
     },
     "내려놓기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضعه جانبًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21137,6 +22355,12 @@
     },
     "내보낸 날: %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ التصدير: %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21281,6 +22505,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لو فعلت شيئًا واحدًا فقط غدًا، فماذا سيكون؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21425,6 +22655,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما رأيك أن تجرّب شيئًا صغيرًا جدًا غدًا؟ خمس دقائق لا أكثر. ماذا يمكن أن يكون؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21567,6 +22803,12 @@
     },
     "냉정한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البرود"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21717,6 +22959,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21867,6 +23115,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا، لا داعي للعجلة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22017,6 +23271,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا، لا داعي للعجلة. سأكون هنا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22167,6 +23427,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا، نتحدث في وقت آخر إذن."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22315,6 +23581,12 @@
     },
     "노을" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غروب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22459,6 +23731,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط للرد بهذه العبارة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22609,6 +23887,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنضع الباقي جانبًا وننظر إلى هذا وحده."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22759,6 +24043,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا عجلة في الباقي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22907,6 +24197,12 @@
     },
     "다음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23055,6 +24351,12 @@
     },
     "다음 주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسبوع القادم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23203,6 +24505,12 @@
     },
     "다음 한 걸음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطوة التالية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23347,6 +24655,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأدوّن هذا لتستخدمه مرة أخرى."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23495,6 +24809,12 @@
     },
     "다음에 해보기로 한 것" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما ستجرّبه في المرة القادمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23637,6 +24957,12 @@
     },
     "다이어트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرشاقة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23787,6 +25113,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يسعدني ذلك. سأعتبره منجزًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23929,6 +25261,12 @@
     },
     "닫기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24078,6 +25416,12 @@
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
       "comment" : "Roadmap item detail: colors and contrast",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى كل شيء واضحًا عند تفعيل زيادة التباين، أو إذا صعب عليك التمييز بين الألوان."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24221,6 +25565,12 @@
     "더 똑똑해진 Siri" : {
       "comment" : "Roadmap item: smarter Siri",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri أذكى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24364,6 +25714,12 @@
     "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
       "comment" : "Roadmap item detail: more languages",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق بلغات أكثر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24507,6 +25863,12 @@
     "더 많은 언어" : {
       "comment" : "Roadmap item: more languages",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغات أكثر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24649,6 +26011,12 @@
     },
     "더 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزيد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24799,6 +26167,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أتدحرج، أتدحرج"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24941,6 +26315,12 @@
     },
     "독서 습관 만들기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بناء عادة القراءة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25089,6 +26469,12 @@
     },
     "독서하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القراءة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25237,6 +26623,12 @@
     },
     "돌아보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نظرة إلى الوراء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25381,6 +26773,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أستمع إليك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25531,6 +26929,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا ما فهمته منك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25675,6 +27079,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دافئ جدًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25819,6 +27229,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس لدي ما أقوله. أنا هنا فحسب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25969,6 +27385,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إن لم يخطر شيء ببالك فاتركه فارغًا. سنجده معًا لاحقًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26117,6 +27539,12 @@
     },
     "라쿤" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راكون"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26259,6 +27687,12 @@
     },
     "마무리" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الختام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26401,6 +27835,12 @@
     },
     "마음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشعور"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26543,6 +27983,12 @@
     },
     "마이크" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميكروفون"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26691,6 +28137,12 @@
     },
     "마이크를 쓸 수 없어요. 적어주셔도 괜찮아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميكروفون غير متاح. يمكنك الكتابة بدلًا من ذلك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26841,6 +28293,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهيت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26983,6 +28441,12 @@
     },
     "만족스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القناعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27131,6 +28595,12 @@
     },
     "만족한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرضا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27281,6 +28751,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأمر صعب جدًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27429,6 +28905,12 @@
     },
     "말로 답하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أجب بصوتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27577,6 +29059,12 @@
     },
     "말차" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماتشا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27719,6 +29207,12 @@
     },
     "말투" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسلوب الكلام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27869,6 +29363,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك اختيار أسلوب الكلام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28017,6 +29517,12 @@
     },
     "말할 때 소리" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوت أثناء الكلام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28165,6 +29671,12 @@
     },
     "말할 때 진동" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اهتزاز أثناء الكلام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28315,6 +29827,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بالضبط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28465,6 +29983,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صحيح، لم أفعل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28613,6 +30137,12 @@
     },
     "매일 10분씩 영어 팟캐스트 듣기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عشر دقائق من بودكاست إنجليزي يوميًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28761,6 +30291,12 @@
     },
     "매일 알림" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تذكير يومي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28909,6 +30445,12 @@
     },
     "먹" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حبر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29051,6 +30593,12 @@
     },
     "먼저 내보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صدّر أولًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29193,6 +30741,12 @@
     },
     "멈추기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيقاف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29341,6 +30895,12 @@
     },
     "메뉴" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القائمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29489,6 +31049,12 @@
     },
     "며칠 전" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29637,6 +31203,12 @@
     },
     "며칠 전에" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل أيام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29785,6 +31357,12 @@
     },
     "모두 지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف كل شيء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29927,6 +31505,12 @@
     },
     "모두 지웠어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم حذف كل شيء."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30069,6 +31653,12 @@
     },
     "모든 기록 지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف كل السجلات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30211,6 +31801,12 @@
     },
     "모든 기록을 지울까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تحذف كل السجلات؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30355,6 +31951,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف كل البيانات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30504,6 +32106,12 @@
     "목표" : {
       "comment" : "Siri: goal parameter\nSiri: one small goal",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الهدف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30647,6 +32255,12 @@
     "목표 열기" : {
       "comment" : "Siri/Spotlight: open a goal",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح هدف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30789,6 +32403,12 @@
     },
     "목표 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة هدف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30937,6 +32557,12 @@
     },
     "목표 하나 적어두기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن هدفًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31079,6 +32705,12 @@
     },
     "목표를 개수 제한 없이 적어 둬요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن أهدافًا بلا حد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31221,6 +32853,12 @@
     },
     "목표를 원하는 만큼" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أهداف بلا حدود"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31363,6 +33001,12 @@
     },
     "목표를 제한 없이 적고, 친구 색을 고르고, 기록을 파일로 간직해요. 한 번 사면 계속 써요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّن أهدافًا بلا حد، واختر لون صديقك، واحتفظ بسجلاتك في ملف. اشترِ مرة واحدة واحتفظ به للأبد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31505,6 +33149,12 @@
     },
     "목표와 남긴 기록이 모두 사라지고 되돌릴 수 없어요. iCloud로 이어진 다른 기기에서도 지워져요. 설정과 구매는 그대로 남아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ستختفي كل أهدافك وسجلاتك ولا يمكن التراجع عن ذلك. ستُحذف أيضًا من أجهزتك الأخرى المتصلة عبر iCloud. تبقى إعداداتك ومشترياتك كما هي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31647,6 +33297,12 @@
     },
     "못 했어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم أفعل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31789,6 +33445,12 @@
     },
     "무감각한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخدر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31937,6 +33599,12 @@
     },
     "무관심한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللامبالاة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32085,6 +33753,12 @@
     },
     "무난한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بين بين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32233,6 +33907,12 @@
     },
     "무력한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العجز"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32381,6 +34061,12 @@
     },
     "무료로 쓰던 건 그대로, 몇 가지가 더 열려요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل ما كان مجانيًا يبقى مجانيًا، وتُفتح لك أشياء أخرى."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32525,6 +34211,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتسع النسخة المجانية لثلاثة أهداف. وهذا هو الثالث."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32667,6 +34359,12 @@
     },
     "무서운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخوف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32817,6 +34515,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأخبرك بما حدث"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32959,6 +34663,12 @@
     },
     "무슨 일이 있었나요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماذا حدث"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33103,6 +34813,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الأمر؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33247,6 +34963,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي تسعى إليه؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33395,6 +35117,12 @@
     },
     "무표정한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفراغ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33543,6 +35271,12 @@
     },
     "물을 많이 마시고 일찍 자기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شرب الكثير من الماء والنوم مبكرًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33693,6 +35427,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي ساعدك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33843,6 +35583,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأخبرك بما نجح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33987,6 +35733,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي نجح؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34137,6 +35889,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسحب الهدف أو المسه مطوّلًا لتغيير اسمه أو وضعه جانبًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34281,6 +36039,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغيير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34431,6 +36195,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سعيد برؤيتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34573,6 +36343,12 @@
     },
     "밤 11시에 알람 설정하고 핸드폰 멀리 두기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضبط منبّه على 11 مساءً وإبعاد الهاتف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34722,6 +36498,12 @@
     "보기 편한 색과 대비" : {
       "comment" : "Roadmap item: better colors and contrast",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألوان وتباين أوضح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34864,6 +36646,12 @@
     },
     "보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35012,6 +36800,12 @@
     },
     "보통의" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شعور عادي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35160,6 +36954,12 @@
     },
     "분노스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الغضب الشديد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35310,6 +37110,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل ناديتني؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35452,6 +37258,12 @@
     },
     "불만족스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدم الرضا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35600,6 +37412,12 @@
     },
     "불안한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القلق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35748,6 +37566,12 @@
     },
     "비밀번호 삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إزالة رمز الدخول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35896,6 +37720,12 @@
     },
     "비밀번호 설정" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعيين رمز الدخول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36044,6 +37874,12 @@
     },
     "비밀번호 입력" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل رمز الدخول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36192,6 +38028,12 @@
     },
     "비밀번호 확인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تأكيد رمز الدخول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36340,6 +38182,12 @@
     },
     "비밀번호가 맞지 않아요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز الدخول غير صحيح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36488,6 +38336,12 @@
     },
     "비참한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البؤس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36638,6 +38492,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدور وأدور…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36782,6 +38642,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بوب!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36924,6 +38790,12 @@
     },
     "뿌듯한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرضا عن النفس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37072,6 +38944,12 @@
     },
     "사용 통계" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إحصاءات الاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37214,6 +39092,12 @@
     },
     "사용 통계 (개발자)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إحصاءات الاستخدام (للمطوّر)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37362,6 +39246,12 @@
     },
     "상쾌한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الانتعاش"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37512,6 +39402,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أُضيف كهدف جديد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37654,6 +39550,12 @@
     },
     "색 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر لونًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37798,6 +39700,12 @@
       "comment" : "디버그 메뉴 — #if DEBUG 안이라 Xcode 가 뽑지 못한다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء بيانات تجريبية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37946,6 +39854,12 @@
     },
     "생각하고 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أفكّر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38094,6 +40008,12 @@
     },
     "설레는" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللهفة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38242,6 +40162,12 @@
     },
     "설정" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38390,6 +40316,12 @@
     },
     "설정 열기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح الإعدادات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38532,6 +40464,12 @@
     },
     "설정에서 Apple Intelligence를 켜면 말한 내용을 더 잘 정리해 드려요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فعّل Apple Intelligence في الإعدادات لأرتّب كلامك بشكل أفضل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38680,6 +40618,12 @@
     },
     "소식을 퍼뜨리세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انشر الخبر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38830,6 +40774,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مممم…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38972,6 +40922,12 @@
     },
     "슬픈" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحزن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39120,6 +41076,12 @@
     },
     "시간" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوقت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39268,6 +41230,12 @@
     },
     "신나는" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحماس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39416,6 +41384,12 @@
     },
     "실망스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخيبة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39565,6 +41539,12 @@
     "쓰다가 앱이 꺼져도 쓰던 이야기가 남아 있어요." : {
       "comment" : "Roadmap item detail: keep unfinished writing",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إذا أُغلق التطبيق وأنت تكتب، يبقى ما كتبته في مكانه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39707,6 +41687,12 @@
     },
     "쓰다듬기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ربتة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39850,6 +41836,12 @@
     "쓰던 이야기 이어 쓰기" : {
       "comment" : "Roadmap item: keep unfinished writing",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أكمل ما كنت تكتبه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39992,6 +41984,12 @@
     },
     "쓸쓸한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوحدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40140,6 +42138,12 @@
     },
     "아쉬운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40289,6 +42293,12 @@
     "아이패드나 맥에서 키보드만으로 주요 기능을 쓸 수 있어요." : {
       "comment" : "Roadmap item detail: keyboard control",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم الميزات الرئيسية بلوحة المفاتيح وحدها على iPad أو Mac."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40431,6 +42441,12 @@
     },
     "아직 기록 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا شيء بعد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40581,6 +42597,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا ملاحظات بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40729,6 +42751,12 @@
     },
     "아직 남긴 기록이 없어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تكتب شيئًا بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40873,6 +42901,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا أحاديث محفوظة بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41023,6 +43057,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تخبرني بعد بما تعمل عليه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41167,6 +43207,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا شيء تعمل عليه بعد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41309,6 +43355,12 @@
     },
     "아침 일찍 일어나기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاستيقاظ مبكرًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41457,6 +43509,12 @@
     },
     "아침 일찍 일어나서 하루를 알차게 보냈어요!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيقظت مبكرًا واستثمرت يومي جيدًا!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41605,6 +43663,12 @@
     },
     "아침에 일어나지 못하고 늦잠 잤어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم أستطع النهوض وغلبني النوم."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41755,6 +43819,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبًا، أنا Mochimo."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41905,6 +43975,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا. سأكون هنا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42053,6 +44129,12 @@
     },
     "알림 켜기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفعيل التذكير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42201,6 +44283,12 @@
     },
     "알아보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعرف المزيد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42344,6 +44432,12 @@
     "암호 대신 Face ID로 내 기록을 열 수 있어요." : {
       "comment" : "Roadmap item detail: Face ID lock",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح يومياتك بـ Face ID بدلًا من رمز الدخول."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42488,6 +44582,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "آه!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42630,6 +44730,12 @@
     },
     "앱 공유하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شارك التطبيق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42778,6 +44884,12 @@
     },
     "앱 비밀번호" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز دخول التطبيق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42926,6 +45038,12 @@
     },
     "앱을 연 날, 대화를 끝낸 날, 목표를 만든 것 같은 행동의 종류, 기록과 목표의 개수, 구매 화면을 본 것만 보냅니다. 적으신 내용은 한 글자도 나가지 않고, 누가 보냈는지는 이 기기에서 만든 무작위 번호로만 구분합니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يُرسَل إلا: الأيام التي فتحت فيها التطبيق أو أنهيت فيها محادثة، وأنواع ما قمت به (مثل إنشاء هدف)، وعدد سجلاتك وأهدافك، وما إذا رأيت شاشة الشراء. لا يغادر جهازك حرف واحد مما تكتبه، ولا يُميَّز المرسلون إلا برقم عشوائي يُنشأ على هذا الجهاز."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43068,6 +45186,12 @@
     },
     "야식 참기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الامتناع عن الأكل ليلًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43216,6 +45340,12 @@
     },
     "야식을 참지 못했어요. 배고파서 라면을 먹었습니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم أقاوم وجبة آخر الليل. جعت فأكلت نودلز."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43366,6 +45496,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شكرًا لأنك أخبرتني. كيف شعورك الآن؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43509,6 +45645,12 @@
     "어떤 목표인가요?" : {
       "comment" : "Siri: ask which goal",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أي هدف؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43653,6 +45795,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأخبرك كيف سار الأمر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43795,6 +45943,12 @@
     },
     "어수선한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التشتت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43943,6 +46097,12 @@
     },
     "어제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أمس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44091,6 +46251,12 @@
     },
     "어제 남김" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سُجّل أمس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44241,6 +46407,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أشعر بالدوار…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44385,6 +46557,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تغييره في أي وقت، وسيحيّيك Mochimo من جديد بذلك الأسلوب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44533,6 +46711,12 @@
     },
     "얼마 전" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل مدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44681,6 +46865,12 @@
     },
     "얼마 전에" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل مدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44830,6 +47020,12 @@
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "comment" : "Roadmap item detail: what's new",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق أول مرة بعد التحديث، سترى ما الجديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44973,6 +47169,12 @@
     "업데이트 소식" : {
       "comment" : "Roadmap item: what's new",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الجديد بعد التحديثات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45117,6 +47319,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنا هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45259,6 +47467,12 @@
     },
     "여기 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنا هنا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45409,6 +47623,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يكفي هذا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45553,6 +47773,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأتوقف هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45697,6 +47923,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نتوقف هنا؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45841,6 +48073,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنتوقف هنا.\nالخطط التي نضعها في يوم متعب نادرًا ما تنجح.\nحفظت ما قلته، فلا تقلق."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45991,6 +48229,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنبدأ من هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46139,6 +48383,12 @@
     },
     "열정적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشغف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46287,6 +48537,12 @@
     },
     "영어 공부를 하려다가 미루고 말았어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كنت أنوي دراسة الإنجليزية ثم أجّلتها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46435,6 +48691,12 @@
     },
     "영어 공부하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دراسة الإنجليزية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46583,6 +48845,12 @@
     },
     "영어 실력 향상" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحسين الإنجليزية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46731,6 +48999,12 @@
     },
     "영어 팟캐스트를 들으면서 출근했어요! 생각보다 재미있었습니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استمعت إلى بودكاست بالإنجليزية في طريقي إلى العمل! كان ممتعًا أكثر مما توقعت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46881,6 +49155,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هيّا!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47025,6 +49305,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوه، فعلتها! سأدوّن ذلك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47167,6 +49453,12 @@
     },
     "오늘" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47315,6 +49607,12 @@
     },
     "오늘 '%@' 했네! 잘했어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%@» اليوم! أحسنت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47457,6 +49755,12 @@
     },
     "오늘 '%@' 했네요! 잘했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزت «%@» اليوم! أحسنت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47599,6 +49903,12 @@
     },
     "오늘 '%@', 해냈네." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليوم أنجزت «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47747,6 +50057,12 @@
     },
     "오늘 '%@', 해냈네요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليوم أنجزت «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47889,6 +50205,12 @@
     },
     "오늘 '%@'%@ 어떻게 됐어?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف سار «%1$@» اليوم؟%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48031,6 +50353,12 @@
     },
     "오늘 '%@'%@ 어떻게 됐어요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف سار «%1$@» اليوم؟%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48175,6 +50503,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما حُفظ اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48317,6 +50651,12 @@
     },
     "오늘 남김" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سُجّل اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48467,6 +50807,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب ملاحظة اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48616,6 +50962,12 @@
     "오늘 목표를 디뎠는지 남깁니다." : {
       "comment" : "Siri: log step description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يسجّل ما إذا خطوت خطوة اليوم نحو هدف."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48759,6 +51111,12 @@
     "오늘 목표를 디뎠으면 켜고, 못 했으면 끕니다." : {
       "comment" : "Siri: reached parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شغّله إن خطوت خطوة اليوم، وأطفئه إن لم تفعل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48903,6 +51261,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حُفظ حديث اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49045,6 +51409,12 @@
     },
     "오늘 어땠는지, 잠깐 같이 볼까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل نلقي نظرة معًا على يومك؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49194,6 +51564,12 @@
     "오늘 한 걸음 남기기" : {
       "comment" : "Siri: log today's step toward a goal",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجّل خطوة اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49338,6 +51714,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنجزته اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49482,6 +51864,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأجلس بجانبك اليوم فحسب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49632,6 +52020,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنتوقف هنا اليوم.\nالراحة الآن أفضل من البحث عن إجابات.\nكتبته، فلن يضيع."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49782,6 +52176,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنتوقف هنا.\nلا داعي لأن تُجبر نفسك على إجابة الآن.\nحفظته، وسننظر فيه معًا في المرة القادمة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -49932,6 +52332,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا وحده يكفي اليوم."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50082,6 +52488,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأبقى هادئًا اليوم."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50230,6 +52642,12 @@
     },
     "오래전에 남김" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سُجّل منذ زمن بعيد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50380,6 +52798,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعم؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50524,6 +52948,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أتساءل إن كان هناك شيء عزمت عليه مؤخرًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50668,6 +53098,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم أسمع بعد عمّا تحاول فعله هذه الأيام."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50812,6 +53248,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بين حين وآخر، سأسألك أنا أولًا عن سير ما تعمل عليه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -50956,6 +53398,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل هناك شيء تحاول فعله هذه الأيام؟ أخبرني بشيء واحد فقط."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51098,6 +53546,12 @@
     },
     "용기있는" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشجاعة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51246,6 +53700,12 @@
     },
     "우유" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حليب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51388,6 +53848,12 @@
     },
     "운동하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ممارسة الرياضة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51536,6 +54002,12 @@
     },
     "운동하러 갔다가 중간에 포기하고 왔어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ذهبت للتمرين واستسلمت في المنتصف."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51686,6 +54158,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إمم…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51830,6 +54308,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هممم؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51972,6 +54456,12 @@
     },
     "의욕적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الهمّة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52120,6 +54610,12 @@
     },
     "이 기기에서는 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترتيب غير متاح على هذا الجهاز. سأكتبه كما سمعته."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52270,6 +54766,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تحذف هذه الملاحظة؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52420,6 +54922,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ستحمل الملاحظات المسجّلة تحت هذا الهدف الاسم الجديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52562,6 +55070,12 @@
     },
     "이 목표로 이야기해요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحدّث عن هذا الهدف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52706,6 +55220,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تضع هذا الهدف جانبًا؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52848,6 +55368,12 @@
     },
     "이 목표의 이번 주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا الهدف هذا الأسبوع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52992,6 +55518,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أريد الحديث عن هذا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53142,6 +55674,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأبدأ بهذا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53292,6 +55830,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأدوّن هذا. غدًا، هذا القدر فقط."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53442,6 +55986,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأختار هذا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53592,6 +56142,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مضى هذا اليوم. لا بأس، ما زال هنا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53742,6 +56298,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتركه كما هو"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -53892,6 +56454,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ التعديلات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54040,6 +56608,12 @@
     },
     "이름 고치기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة التسمية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54182,6 +56756,12 @@
     },
     "이번 주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا الأسبوع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54332,6 +56912,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يُحفظ شيء هذه المرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54476,6 +57062,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الذي اختلف هذه المرة؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54625,6 +57217,12 @@
     "이야기할 목표" : {
       "comment" : "Siri: open goal parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الهدف الذي تريد الحديث عنه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54767,6 +57365,48 @@
     },
     "이전 이야기 %lld개는 접어뒀어." : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا أحاديث سابقة مطويّة."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ حديثًا سابقًا واحدًا."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ حديثين سابقين."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ %lld أحاديث سابقة."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ %lld حديثًا سابقًا."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ %lld حديث سابق."
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -55215,6 +57855,48 @@
     },
     "이전 이야기 %lld개는 접어뒀어요." : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا أحاديث سابقة مطويّة."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ حديثًا سابقًا واحدًا."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ حديثين سابقين."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ %lld أحاديث سابقة."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ %lld حديثًا سابقًا."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "طويتُ %lld حديث سابق."
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -55663,6 +58345,12 @@
     },
     "이전 주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسبوع السابق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55811,6 +58499,12 @@
     },
     "익명 사용 통계 보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال إحصاءات استخدام مجهولة الهوية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55953,6 +58647,12 @@
     },
     "일반적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المألوف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56101,6 +58801,12 @@
     },
     "일상적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرتابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56251,6 +58957,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأمور لم تسر كما أردت، وهذا ليس ذنبك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56393,6 +59105,12 @@
     },
     "입력한 숫자" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأرقام المُدخلة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56541,6 +59259,12 @@
     },
     "있었던 일" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما حدث"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56685,6 +59409,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك النظر إلى ما حدث وإلى شعورك كلٌّ على حدة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56829,6 +59559,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسيت الأمر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56979,6 +59715,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأكتبه قبل أن أنسى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57127,6 +59869,12 @@
     },
     "자기계발" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطوير الذات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57277,6 +60025,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أظل أؤجّله"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57425,6 +60179,12 @@
     },
     "자랑스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفخر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57573,6 +60333,12 @@
     },
     "자신감이 생긴" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الثقة بالنفس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57721,6 +60487,12 @@
     },
     "자책하는" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوم الذات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57871,6 +60643,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلما صغر كان أفضل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58021,6 +60799,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلما صغر كان أفضل. خمس دقائق تكفي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58171,6 +60955,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّنته. في المرة القادمة التي تصعب فيها الأمور، سأذكّرك به."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58315,6 +61105,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رائع. سأدوّنه الآن."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58465,6 +61261,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنتحدث قليلًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58613,6 +61415,12 @@
     },
     "잠시 후 다시 해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حاول مرة أخرى بعد قليل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58755,6 +61563,12 @@
     },
     "저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجلاتك المحفوظة لم تُحذف. لكن ما تضيفه الآن لن يُحفظ، لذا أغلق التطبيق وافتحه من جديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58897,6 +61711,12 @@
     },
     "적어둔 목표 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا هدف مدوّن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59047,6 +61867,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّنته. غدًا هذا القدر فقط."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59197,6 +62023,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّنته. سأريك إياه في المرة القادمة التي يصعب فيها الأمر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59341,6 +62173,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّنته. هذا القدر يكفي تمامًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59491,6 +62329,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سأكتبه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59639,6 +62483,12 @@
     },
     "절망적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليأس"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59787,6 +62637,12 @@
     },
     "정리 기능을 준비하고 있어요. 지금은 들린 대로 적어둘게요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أجهّز ميزة الترتيب. سأكتبه الآن كما سمعته."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59937,6 +62793,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أرتّب كلامك…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60085,6 +62947,12 @@
     },
     "정말 비밀번호를 삭제하고 보안을 낮추겠습니까?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تريد حقًا إزالة رمز الدخول وتخفيض مستوى الأمان؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60233,6 +63101,12 @@
     },
     "정말 지울까요?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تحذف كل شيء؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60377,6 +63251,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس تمامًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60527,6 +63407,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لو بدأت بشيء أصغر، فبماذا يمكنك أن تبدأ؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60671,6 +63557,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بخير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60821,6 +63713,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا لطيف…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -60965,6 +63863,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أحبّ صحبتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61107,6 +64011,12 @@
     },
     "좌절스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإحباط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61255,6 +64165,12 @@
     },
     "중립적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحياد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61405,6 +64321,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنتحدث الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61547,6 +64469,12 @@
     },
     "지금 해보려는 것" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما تعمل عليه الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61689,6 +64617,48 @@
     },
     "지금 해보려는 게 벌써 %lld개야." : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا تعمل على شيء الآن."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على شيء واحد بالفعل."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على شيئين بالفعل."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على %lld أشياء بالفعل."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على %lld شيئًا بالفعل."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على %lld شيء بالفعل."
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61831,6 +64801,48 @@
     },
     "지금 해보려는 게 벌써 %lld개예요." : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا تعمل على شيء الآن."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على شيء واحد بالفعل."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على شيئين بالفعل."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على %lld أشياء بالفعل."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على %lld شيئًا بالفعل."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "أنت تعمل الآن على %lld شيء بالفعل."
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -61975,6 +64987,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيُحفظ ما قلته حتى الآن."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -62118,6 +65136,48 @@
     "지금까지 이야기를 %lld번 나눴어요" : {
       "comment" : "Tip ask card: how many conversations the user has had with the pebble so far",
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم نتحدث بعد"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تحدّثنا حتى الآن مرة واحدة"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تحدّثنا حتى الآن مرتين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تحدّثنا حتى الآن %lld مرات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تحدّثنا حتى الآن %lld مرة"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تحدّثنا حتى الآن %lld مرة"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -62454,6 +65514,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -62598,6 +65664,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ربما لاحقًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -62746,6 +65818,12 @@
     },
     "지금은 듣기가 어려워요. 적어주셔도 괜찮아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا أستطيع الاستماع الآن. يمكنك الكتابة بدلًا من ذلك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -62896,6 +65974,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وكيف هو الآن؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63044,6 +66128,12 @@
     },
     "지금은 정리 기능을 쓸 수 없어요. 들린 대로 적어둘게요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترتيب غير متاح الآن. سأكتبه كما سمعته."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63192,6 +66282,12 @@
     },
     "지나온 기록을 글 파일로 꺼내 간직해요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احتفظ بكل ما كتبته في ملف نصي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63334,6 +66430,12 @@
     },
     "지나온 기록을 파일로 내보내요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صدّر سجلاتك في ملف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63476,6 +66578,12 @@
     },
     "지나온 길" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طريقك حتى الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63624,6 +66732,12 @@
     },
     "지나온 길을 열어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح طريقك حتى الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63766,6 +66880,12 @@
     },
     "지난 기록엔 '%@'라고 남아 있어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظتك الأخيرة تقول: «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -63914,6 +67034,12 @@
     },
     "지난 기록엔 '%@'라고 남아 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظتك الأخيرة تقول: «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64062,6 +67188,12 @@
     },
     "지난번에 '%@'%@ 정하셨었죠." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في المرة الماضية استقررت على «%1$@».%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64210,6 +67342,12 @@
     },
     "지난번에 '%@'%@ 정했었지." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في المرة الماضية استقررت على «%1$@».%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64358,6 +67496,12 @@
     },
     "지난번엔 '%@'%@ 해보기로 했었어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في المرة الماضية قررت أن تجرّب «%1$@».%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64506,6 +67650,12 @@
     },
     "지난번엔 '%@'%@ 해보기로 했었어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في المرة الماضية قررت أن تجرّب «%1$@».%2$@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64654,6 +67804,12 @@
     },
     "지난번엔 '%@'라고 적었어." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في المرة الماضية كتبت: «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64802,6 +67958,12 @@
     },
     "지난번엔 '%@'라고 적으셨어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في المرة الماضية كتبت: «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -64950,6 +68112,12 @@
     },
     "지난주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسبوع الماضي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65098,6 +68266,12 @@
     },
     "지난주에" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في الأسبوع الماضي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65246,6 +68420,12 @@
     },
     "지난주쯤" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في الأسبوع الماضي تقريبًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65394,6 +68574,12 @@
     },
     "지루한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65542,6 +68728,12 @@
     },
     "지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65692,6 +68884,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بعد الحذف لا يمكن استعادته."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65840,6 +69038,12 @@
     },
     "지우지 못했어요. 잠시 후 다시 해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر الحذف. حاول مرة أخرى بعد قليل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65982,6 +69186,12 @@
     },
     "지원 및 개인정보 보호" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم والخصوصية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66130,6 +69340,12 @@
     },
     "모찌모" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66278,6 +69494,12 @@
     },
     "모찌모 기록" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سجلات Mochimo"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66420,6 +69642,12 @@
     },
     "모찌모 프로" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66562,6 +69790,12 @@
     },
     "모찌모 프로를 쓰고 있어요. 고마워요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنت تستخدم Mochimo Pro. شكرًا لك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66704,6 +69938,12 @@
     },
     "모찌모가 생각하고 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo يفكّر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66854,6 +70094,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك ضبط أسلوب كلام Mochimo معك من الإعدادات."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67002,6 +70248,12 @@
     },
     "짜증나는" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الانزعاج"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67150,6 +70402,12 @@
     },
     "짧아도 괜찮아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بضع كلمات تكفي."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67294,6 +70552,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا بأس بالاختصار. فقط ما حدث حينها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67442,6 +70706,12 @@
     },
     "책을 30분 읽었어요. 집중이 잘 됐습니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قرأت 30 دقيقة. كان تركيزي جيدًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67591,6 +70861,12 @@
     "처음 쓰는 분을 위한 안내" : {
       "comment" : "Roadmap item: onboarding",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دليل سريع لمن يبدأ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67734,6 +71010,12 @@
     "처음 열었을 때 무엇을 할 수 있는지 짧게 보여 줘요." : {
       "comment" : "Roadmap item detail: onboarding",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق أول مرة، تعرض جولة قصيرة ما يمكنه فعله."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67876,6 +71158,12 @@
     },
     "체력 기르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بناء اللياقة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68024,6 +71312,12 @@
     },
     "취소" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68172,6 +71466,12 @@
     },
     "친구" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصديق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68320,6 +71620,12 @@
     },
     "친구 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر صديقًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68462,6 +71768,12 @@
     },
     "친구 색 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر لون صديقك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68604,6 +71916,12 @@
     },
     "친구의 몸 색 다섯 가지가 더 열려요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تُفتح خمسة ألوان أخرى لصديقك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68746,6 +72064,12 @@
     },
     "친구의 색을 여섯 가지 중에서 골라요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر لون صديقك من بين ستة ألوان"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68888,6 +72212,12 @@
     },
     "카피바라" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كابيبارا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69032,6 +72362,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا بأس أن تحلم بشيء كبير."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69181,6 +72517,12 @@
     "큰 글씨에 맞춘 화면" : {
       "comment" : "Roadmap item: layouts that fit large text sizes",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصميم يناسب الخط الكبير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69324,6 +72666,12 @@
     "키보드로 조작하기" : {
       "comment" : "Roadmap item: keyboard control",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحكم بلوحة المفاتيح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69466,6 +72814,12 @@
     },
     "키위새" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طائر الكيوي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69608,6 +72962,12 @@
     },
     "토끼" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أرنب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69750,6 +73110,12 @@
     },
     "톡 건드리거나 문질러 쓰다듬을 수 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر أو امسح بلطف لتربّت عليه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69894,6 +73260,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نقرة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70036,6 +73408,12 @@
     },
     "파괴적인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الانهيار"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70184,6 +73562,12 @@
     },
     "편안한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الراحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70334,6 +73718,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر ما يريحك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70483,6 +73873,12 @@
     "펼치는 아이폰 화면" : {
       "comment" : "Roadmap item: foldable iPhone layout",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصميم iPhone القابل للطي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70626,6 +74022,12 @@
     "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요." : {
       "comment" : "Roadmap item detail: foldable iPhone layout",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "على iPhone القابل للطي، استخدم الشاشة العريضة كلوحين جنبًا إلى جنب."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70768,6 +74170,12 @@
     },
     "평범한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الهدوء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -70916,6 +74324,12 @@
     },
     "평점주기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قيّم التطبيق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71066,6 +74480,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قفزة!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71208,6 +74628,12 @@
     },
     "프로" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71352,6 +74778,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف المزيد مع Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71494,6 +74926,12 @@
     },
     "프로에서 열려요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متاح مع Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71636,6 +75074,12 @@
     },
     "피곤한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التعب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71784,6 +75228,12 @@
     },
     "하프물범" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فقمة القيثارة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71927,6 +75377,12 @@
     "한 걸음을 남길 목표" : {
       "comment" : "Siri: goal parameter description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الهدف الذي تسجّل له خطوة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72071,6 +75527,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دورة كاملة!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72213,6 +75675,12 @@
     },
     "한 번 사서 계속 쓰거나, 구독으로 가볍게 시작해요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشترِ مرة واحدة واحتفظ به، أو ابدأ بخفة باشتراك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72355,6 +75823,12 @@
     },
     "한참 전에" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منذ زمن بعيد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72503,6 +75977,12 @@
     },
     "해보려는 게 여럿이어도 괜찮아요. 개수 제한 없이 적어 둘 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعمل على أكثر من شيء؟ دوّن منها ما تشاء."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72645,6 +76125,12 @@
     },
     "햄스터" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هامستر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72789,6 +76275,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فعلته، لكن لم أسجّله"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -72933,6 +76425,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فعلته، لكن لم أدوّنه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73083,6 +76581,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سُجّل كمنجز، دون ملاحظة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73226,6 +76730,12 @@
     "했어요" : {
       "comment" : "Siri: whether the goal was done today",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فعلته"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73370,6 +76880,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فعلته، لكني لم أسجّله فقط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73518,6 +77034,12 @@
     },
     "행복한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السعادة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73668,6 +77190,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هيهي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73810,6 +77338,12 @@
     },
     "혐오스러운" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاشمئزاز"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -73960,6 +77494,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تقصد شيئًا كهذا؟"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74109,6 +77649,12 @@
     "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요." : {
       "comment" : "Roadmap item detail: better VoiceOver support",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ VoiceOver كل زر وكل محتوى، بالترتيب الصحيح."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74251,6 +77797,12 @@
     },
     "확인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74399,6 +77951,12 @@
     },
     "확인을 위해 '%@'라고 적어 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للتأكيد، اكتب «%@»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74543,6 +78101,12 @@
       "comment" : "조약돌을 만졌을 때 한마디 — Phrasing.say 가 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هههه، هذا يدغدغني!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74685,6 +78249,12 @@
     },
     "원숭이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قرد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74827,6 +78397,12 @@
     },
     "키보드 내리기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إخفاء لوحة المفاتيح"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -74977,6 +78553,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكننا الحديث عن شيء آخر أيضًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75121,6 +78703,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسم مزاجك بالقلم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75265,6 +78853,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أُضيف الرسم · أعد الرسم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75409,6 +79003,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسم شعور اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75553,6 +79153,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب بالقلم إن شئت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75697,6 +79303,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكتابة اليدوية في خانة الرد تتحول إلى نص."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75841,6 +79453,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح التطبيق ولنتحدث."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75985,6 +79603,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حُفظ. خطوة أخرى اليوم."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76129,6 +79753,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب سطرًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76273,6 +79903,12 @@
       "comment" : "조약돌 문구 — Phrasing.say/pick 이 실행 중에 찾는다",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس بعد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76416,6 +80052,12 @@
     "그날 그린 기분" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزاج الذي رسمته ذلك اليوم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76559,6 +80201,12 @@
     "모찌모와 이야기하기" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحدّث مع Mochimo"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76702,6 +80350,12 @@
     "모찌모 열기" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح Mochimo"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76845,6 +80499,12 @@
     "끝내기" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76988,6 +80648,12 @@
     "아이패드와 맥에서도" : {
       "comment" : "Roadmap item: iPad and Mac apps",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "على iPad وMac أيضًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -77131,6 +80797,12 @@
     "아이패드에서는 펜슬로 기분을 그리고, 맥에서는 메뉴 막대에서 바로 남겨요." : {
       "comment" : "Roadmap item detail: iPad and Mac apps",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسم مزاجك بالقلم على iPad، ودوّن سطرًا من شريط القائمة على Mac."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

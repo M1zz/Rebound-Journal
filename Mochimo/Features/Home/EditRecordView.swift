@@ -227,7 +227,7 @@ struct EditRecordView: View {
 
     private var when: String {
         let formatter = DateFormatter()
-        formatter.locale = .current
+        formatter.locale = AppLanguage.locale
         formatter.setLocalizedDateFormatFromTemplate("yMMMdEEEE")
         return formatter.string(from: record.dateUnwrapped)
     }

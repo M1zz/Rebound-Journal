@@ -958,6 +958,7 @@ enum MochimoTipMoments {
         talks.filter { count >= $0 }.map { threshold in
             LeeoTipMoment(id: "talks.\(threshold)",
                           message: String(localized: "지금까지 이야기를 \(count)번 나눴어요",
+                                          locale: AppLanguage.locale,
                                           comment: "Tip ask card: how many conversations the user has had with the pebble so far"))
         }
     }

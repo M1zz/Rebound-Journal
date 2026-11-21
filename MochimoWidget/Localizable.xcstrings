@@ -3,6 +3,12 @@
   "strings" : {
     "구름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غيمة"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +151,12 @@
     },
     "곁에 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بجانبك"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,6 +299,12 @@
     },
     "기뻐하고 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسرور"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -429,6 +447,12 @@
     },
     "노을" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غروب"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -571,6 +595,12 @@
     },
     "듣고 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أستمع إليك"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -713,6 +743,12 @@
     },
     "먹" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حبر"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -855,6 +891,12 @@
     },
     "기본" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأصلي"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -997,6 +1039,12 @@
     },
     "생각하고 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أفكّر"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1139,6 +1187,12 @@
     },
     "여기 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنا هنا."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1281,6 +1335,12 @@
     },
     "오늘 남기러 가기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب ملاحظة اليوم"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1423,6 +1483,12 @@
     },
     "말차" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ماتشا"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1565,6 +1631,12 @@
     },
     "우유" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حليب"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1709,6 +1781,12 @@
       "comment" : "위젯 갤러리의 설명",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمات قليلة من Mochimo. اضغط لتكتب ملاحظة اليوم."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1859,6 +1937,12 @@
       "comment" : "위젯 갤러리의 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2007,6 +2091,12 @@
     },
     "토끼" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أرنب"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2149,6 +2239,12 @@
     },
     "햄스터" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هامستر"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2291,6 +2387,12 @@
     },
     "고양이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قطة"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2433,6 +2535,12 @@
     },
     "곰" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دب"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2575,6 +2683,12 @@
     },
     "하프물범" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فقمة القيثارة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2717,6 +2831,12 @@
     },
     "라쿤" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راكون"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2859,6 +2979,12 @@
     },
     "카피바라" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كابيبارا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3001,6 +3127,12 @@
     },
     "키위새" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طائر الكيوي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3143,6 +3275,12 @@
     },
     "원숭이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قرد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3285,6 +3423,12 @@
     },
     "말로 남기기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قلها بصوتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3433,6 +3577,12 @@
     },
     "누르면 모찌가 바로 귀 기울여요. 자판 없이 말로 오늘을 남겨요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط وسيصغي إليك صديقك الموتشي فورًا. شارك يومك بصوتك دون كتابة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

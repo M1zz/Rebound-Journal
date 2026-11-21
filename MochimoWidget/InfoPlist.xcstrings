@@ -4,6 +4,12 @@
     "CFBundleDisplayName" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -153,6 +159,12 @@
     "CFBundleName" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

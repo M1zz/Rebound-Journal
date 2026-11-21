@@ -213,7 +213,7 @@ struct LookBackView: View {
         if calendar.isDateInToday(day) { return String(localized: "오늘") }
         if calendar.isDateInYesterday(day) { return String(localized: "어제") }
         let formatter = DateFormatter()
-        formatter.locale = .current
+        formatter.locale = AppLanguage.locale
         formatter.setLocalizedDateFormatFromTemplate("MMMdEEEE")
         return formatter.string(from: day)
     }
@@ -365,8 +365,8 @@ struct LookBackView: View {
                 }
                 if entries.count > Self.visibleNotes {
                     Text(Phrasing.say(
-                        String(localized: "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어요."),
-                        String(localized: "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어.")
+                        String(localized: "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어요.", locale: AppLanguage.locale),
+                        String(localized: "이전 이야기 \(entries.count - Self.visibleNotes)개는 접어뒀어.", locale: AppLanguage.locale)
                     ))
                         .font(PebbleTheme.label(12))
                         .foregroundStyle(PebbleTheme.inkFaint)
@@ -435,6 +435,7 @@ struct LookBackView: View {
     private func planRow(_ plan: String) -> some View {
         HStack(alignment: .top, spacing: 5) {
             Image(systemName: "arrow.turn.down.right")
+                .flipsForRightToLeftLayoutDirection(true)
                 .font(.system(size: 10))
                 .foregroundStyle(PebbleTheme.key)
                 .padding(.top, 3)

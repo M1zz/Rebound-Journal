@@ -5,6 +5,12 @@
       "comment" : "홈 화면에 뜨는 앱 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -155,6 +161,12 @@
       "comment" : "표시 이름을 못 쓰는 자리의 짧은 이름",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mochimo"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -304,6 +316,12 @@
     "NSMicrophoneUsageDescription" : {
       "comment" : "Privacy - Microphone Usage Description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتيح لك الميكروفون أن تجيب بصوتك بدلًا من الكتابة. لا يُحفظ أي تسجيل، ويبقى النص وحده على جهازك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -453,6 +471,12 @@
     "NSSpeechRecognitionUsageDescription" : {
       "comment" : "Privacy - Speech Recognition Usage Description",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُستخدم لتحويل كلامك إلى نص. يجري التعرّف على الكلام على جهازك ولا يغادره."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

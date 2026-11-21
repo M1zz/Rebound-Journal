@@ -55,6 +55,8 @@ struct PasscodeView: View {
                     KeypadButton(index: index + 1)
                 })
             }).padding([.leading, .trailing, .top], 40)
+            // 숫자판은 전화 자판처럼 어느 언어에서나 1 2 3 이 왼쪽부터 놓인다. 아랍어에서 뒤집히지 않게 한다.
+            .environment(\.layoutDirection, .leftToRight)
             KeypadButton(index: 0)
         }.foregroundColor(Color("Default"))
     }

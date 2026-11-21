@@ -188,7 +188,7 @@ struct SettingsView: View {
                 if locked {
                     proBadge
                 }
-                Image(systemName: "chevron.right")
+                Image(systemName: "chevron.forward")
             }
             .foregroundStyle(.primary)
             .padding()
@@ -595,7 +595,7 @@ struct SettingsView: View {
                     rowIcon("square.and.arrow.up")
                     Text(String(localized: "앱 공유하기")).font(.body)
                     Spacer()
-                    Image(systemName: "chevron.right")
+                    Image(systemName: "chevron.forward")
                 }
                 .foregroundStyle(.primary)
                 .padding()
@@ -714,7 +714,7 @@ private struct GiftRows: View {
                 .frame(width: 22, height: 22, alignment: .center)
             Text(title).font(.body)
             Spacer()
-            Image(systemName: "chevron.right")
+            Image(systemName: "chevron.forward")
         }
         .foregroundStyle(.primary)
         .padding()
@@ -746,7 +746,7 @@ private struct TipRow: View {
                             .foregroundStyle(.secondary)
                     }
                     Spacer()
-                    Image(systemName: "chevron.right")
+                    Image(systemName: "chevron.forward")
                 }
                 .foregroundStyle(.primary)
                 .padding()
