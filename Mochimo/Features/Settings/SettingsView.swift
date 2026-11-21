@@ -702,6 +702,7 @@ private struct GiftRows: View {
                                                      initialCategory: .purchase)
                         .leeoStyle(.pebble)
                 }
+                .arabicLayout()
             }
         }
     }

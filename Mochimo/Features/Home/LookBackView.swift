@@ -59,6 +59,7 @@ struct LookBackView: View {
         .presentationDragIndicator(.visible)
         .sheet(isPresented: $isAddingGoal) {
             AddGoalView()
+                .arabicLayout()
         }
         .confirmationDialog(
             Phrasing.say("이 목표를 내려놓을까요?", "이 목표를 내려놓을까?"),

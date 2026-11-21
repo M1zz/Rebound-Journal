@@ -63,6 +63,7 @@ struct AllRecordsView: View {
         }
         .sheet(item: $editing) { record in
             EditRecordView(record: record)
+                .arabicLayout()
         }
         .confirmationDialog(
             Phrasing.say("이 기록을 지울까요?", "이 기록을 지울까?"),

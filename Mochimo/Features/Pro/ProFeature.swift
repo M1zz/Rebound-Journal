@@ -100,6 +100,7 @@ private struct ProPaywallModifier: ViewModifier {
                 }
             )
             .leeoStyle(.pebble)
+            .arabicLayout()
         }
     }
 }

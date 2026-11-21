@@ -172,15 +172,19 @@ struct TodayView: View {
         }
         .sheet(isPresented: $isAddingGoal, onDismiss: resetGreeting) {
             AddGoalView()
+                .arabicLayout()
         }
         .sheet(isPresented: $isLookingBack) {
             LookBackView(onPickGoal: choose(goal:))
+                .arabicLayout()
         }
         .sheet(isPresented: $isShowingSettings) {
             SettingsView()
+                .arabicLayout()
         }
         .sheet(isPresented: $isShowingAllRecords) {
             AllRecordsView()
+                .arabicLayout()
         }
         #if DEBUG
         .sheet(isPresented: $isShowingGiftReview) {
@@ -189,6 +193,7 @@ struct TodayView: View {
         #endif
         .sheet(isPresented: $isShowingGoals) {
             GoalsView(onTalk: choose(goal:))
+                .arabicLayout()
         }
         #if DEBUG
         .task { await openScreenshotScene() }

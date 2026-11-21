@@ -691,6 +691,7 @@ struct ConversationView: View {
             MoodCanvasSheet { png in
                 if let png { engine.moodDrawing = png }
             }
+            .arabicLayout()
         }
         #endif
     }

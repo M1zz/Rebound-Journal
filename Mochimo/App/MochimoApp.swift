@@ -106,13 +106,13 @@ struct MochimoApp: App {
     var body: some Scene {
         WindowGroup(id: MochimoWindow.main) {
             SkinnedRoot()
-                .arabicNumbers()
+                .arabicLayout()
                 .storeFallbackNotice()
                 .environmentObject(manager)
                 .environmentObject(store)
                 .environment(\.managedObjectContext, manager.container.viewContext)
                 .modelContainer(sharedModelContainer)
-                .leeoSatisfactionCheck(MochimoSpec.self)
+                .satisfactionCheck(enabled: !Self.isTakingScreenshots)
                 // 프로가 되면 콘페티, 모든 사용자는 한 번 감사를 받는다 (LeeoKit 3.46).
                 .celebrations(enabled: !Self.isTakingScreenshots)
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
@@ -129,7 +129,7 @@ struct MochimoApp: App {
         // 메뉴 막대의 모찌 (→ MenuBarPebble.swift)
         MenuBarExtra {
             QuickNoteView()
-                .arabicNumbers()
+                .arabicLayout()
                 .environmentObject(manager)
                 .modelContainer(sharedModelContainer)
         } label: {
@@ -203,12 +203,15 @@ private struct StoreFallbackNotice: ViewModifier {
 }
 
 extension View {
-    /// 아랍어에서는 화면의 숫자 · 날짜를 0~9 와 양력으로 맞춘다 (§`AppLanguage.locale`).
+    /// 아랍어에서는 화면을 오른쪽에서 왼쪽으로 놓고, 숫자 · 날짜를 0~9 와 양력으로 맞춘다 (§`AppLanguage.locale`).
+    /// 맥은 앱 언어만 아랍어일 때 창 안을 왼쪽부터 그려서 방향을 직접 준다. 맥의 시트는 따로 뜬 창이라
+    /// 이 값을 물려받지 못하니, 시트 안 화면에도 붙인다. 아이폰 · 아이패드에서는 원래 방향과 같아 아무것도 바뀌지 않는다.
     /// 다른 언어는 기기 설정을 그대로 따르게 손대지 않는다.
     @ViewBuilder
-    func arabicNumbers() -> some View {
+    func arabicLayout() -> some View {
         if AppLanguage.isArabic {
             environment(\.locale, AppLanguage.locale)
+                .environment(\.layoutDirection, .rightToLeft)
         } else {
             self
         }
@@ -216,6 +219,17 @@ extension View {
 }
 
 private extension View {
+    /// 쓰다 보면 "즐겁게 쓰고 계신가요?" 를 묻는다 (LeeoKit). 스크린샷을 찍을 때는 붙이지 않는다 —
+    /// 같은 기기에서 여러 번 띄우다 보면 조건이 차서 화면을 가린다.
+    @ViewBuilder
+    func satisfactionCheck(enabled: Bool) -> some View {
+        if enabled {
+            leeoSatisfactionCheck(MochimoSpec.self)
+        } else {
+            self
+        }
+    }
+
     /// 프로가 되면 콘페티, 모든 사용자는 한 번 감사를 받는다 (LeeoKit). 스크린샷을 찍을 때는 붙이지 않는다.
     @ViewBuilder
     func celebrations(enabled: Bool) -> some View {

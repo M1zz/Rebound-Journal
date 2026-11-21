@@ -63,6 +63,7 @@ struct GoalsView: View {
         .presentationDragIndicator(.visible)
         .sheet(isPresented: $isAddingGoal) {
             AddGoalView()
+                .arabicLayout()
         }
         .alert(String(localized: "이름 고치기"), isPresented: Binding(
             get: { renaming != nil },
