@@ -22,7 +22,6 @@ struct ChatBubble<Content: View>: View {
 
     let speaker: Speaker
     @ViewBuilder var content: Content
-    @Environment(\.layoutDirection) private var layoutDirection
 
     var body: some View {
         HStack(alignment: .bottom, spacing: 0) {
@@ -32,18 +31,12 @@ struct ChatBubble<Content: View>: View {
                 .padding(.horizontal, 20)
                 .padding(.vertical, 16)
                 .background(background)
-                .clipShape(BubbleShape(pointingLeft: pointsLeft))
+                .clipShape(BubbleShape(pointingLeft: speaker == .pebble))
                 // 선 대신 따뜻한 그림자로 살짝 띄운다. 선을 두르면 서류 칸처럼 딱딱하다.
                 .shadow(color: Color(red: 0.65, green: 0.44, blue: 0.16).opacity(0.10), radius: 10, y: 4)
 
             if speaker == .pebble { Spacer(minLength: 44) }
         }
-    }
-
-    /// 각진 모서리는 말한 쪽을 향한다. 조약돌은 앞쪽(leading)에 있으니, 오른쪽에서 왼쪽으로 읽는
-    /// 아랍어에서는 오른쪽이다. 모양(Path)은 글 방향을 따라 뒤집히지 않아 직접 고른다.
-    private var pointsLeft: Bool {
-        (speaker == .pebble) == (layoutDirection == .leftToRight)
     }
 
     private var background: Color {
