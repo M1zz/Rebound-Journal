@@ -40,3 +40,4 @@ li{margin:7px 0}
 
 footer{color:var(--muted);font-size:13px;margin-top:44px;border-top:1px solid var(--line);padding-top:20px}
 footer a{color:var(--muted)}
+[dir="rtl"] ul{padding-left:0;padding-right:20px}
