@@ -57,6 +57,7 @@ SEARCH = {
     "pl": ("dziennik porażek", "Kamyk, który<br>pyta pierwszy", "Zapisz, dokąd dotarłeś<br>i co stanęło na drodze"),
     "sv": ("misslyckandedagbok", "En sten som<br>pratar först", "Skriv ner hur långt du kom och<br>vad som kom i vägen, som i ett samtal"),
     "tr": ("başarısızlık günlüğü", "İlk konuşan<br>küçük bir taş", "Nereye ulaştığını, neyin<br>engellediğini sohbet gibi yaz"),
+    "ar": ("يوميات المشاعر", "صديقك الموتشي<br>يبدأ الحديث أولًا", "تحدّث عمّا نجح معك<br>وعمّا تعثّرت فيه"),
 }
 
 # 헤더는 처음 온 사람에게 **한 가지 약속**만 한다(Apple: 단일한 생각, 빽빽하지 않게).
@@ -87,7 +88,11 @@ HEADER = {
     "pl": ("Łagodny dziennik na trudne dni", "Potknięcie to nie<br>wpadnięcie do strumyka"),
     "sv": ("En mild dagbok för tunga dagar", "Ett felsteg är inte<br>ett fall i bäcken"),
     "tr": ("Zor günler için yumuşak bir günlük", "Yanlış adım, dereye<br>düşmek değildir"),
+    "ar": ("دفتر يوميات حنون للأيام الصعبة", "يوم صعب؟<br>لا بأس"),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어. 검색 결과 그림은 글을 오른쪽, 폰을 왼쪽에 거울처럼 놓는다.
+RTL = {"ar"}
 
 # ⚠️ 바탕 · 글자색은 기존 스크린샷(make_marketing_screenshots.py)과 같다. 다르면 페이지에서
 #    헤더만 남의 앱처럼 보인다.
@@ -186,11 +191,15 @@ def search_html(lang):
     col = int(sw * 0.56)
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
+    text_left = l
+    if lang in RTL:
+        text_left = r - col
+        ph_left = text_left - int(sw * 0.04) - ph_w
     img = (RAW / STORE.get(lang, lang) / "01-home.png").as_uri()
     return f"""
 <div class="glow" style="left:{ph_left - 300}px;top:500px;width:1700px;height:1700px;background:rgba(244,213,141,.40)"></div>
 {phone(img, ph_left, t - 360, ph_w, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+<div class="text" style="left:{text_left}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="250" data-min="140" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:84px;margin-top:52px">{sub}</div>
@@ -221,8 +230,9 @@ def html_lang(lang):
 
 def render(lang, kind):
     W, H, _ = SPEC[kind]
+    direction = "rtl" if lang in RTL else "ltr"
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{html_lang(lang)}"><head><meta charset="utf-8"><style>'
+    page = (f'<!doctype html><html lang="{html_lang(lang)}" dir="{direction}"><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"zinggumdol-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")

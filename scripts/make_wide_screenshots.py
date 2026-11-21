@@ -13,7 +13,7 @@
 """
 import pathlib, subprocess, sys, tempfile, time
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from make_marketing_screenshots import CAPTIONS, CHROME, RAW, OUT, html_lang
+from make_marketing_screenshots import CAPTIONS, CHROME, RAW, OUT, html_lang, html_dir
 
 DEVICES = {
     # 캔버스, 글 크기(제목 · 보조), 그림 틀, 찍을 장(원본 이름, 문구 번호)
@@ -79,7 +79,7 @@ def render(device, locale):
         body = (f'<div class="glow" style="left:-300px;top:500px;width:2400px;height:2000px"></div>'
                 f'<div class="frame" style="{d["frame"]}"><img src="{src.as_uri()}"></div>'
                 f'<div class="text"><div class="headline">{headline}</div><div class="sub">{sub}</div></div>')
-        page = (f'<!doctype html><html lang="{html_lang(locale)}"><head><meta charset="utf-8">'
+        page = (f'<!doctype html><html lang="{html_lang(locale)}" dir="{html_dir(locale)}"><head><meta charset="utf-8">'
                 f'<style>{css(d)}</style></head><body>{body}{fit_js(d)}</body></html>')
         html_path = pathlib.Path(tempfile.gettempdir()) / f"mochimo-{device}-{locale}-{name}.html"
         html_path.write_text(page, encoding="utf-8")

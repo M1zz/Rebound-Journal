@@ -83,6 +83,19 @@ def html_lang(locale):
     return {"en-US": "en", "pt-BR": "pt"}.get(locale, locale)
 
 
+# 오른쪽에서 왼쪽으로 쓰는 언어. 글은 오른쪽에 붙이고, 비스듬한 폰은 왼쪽으로 옮겨 거울처럼 놓는다.
+RTL = {"ar"}
+
+
+def html_dir(locale):
+    return "rtl" if locale in RTL else "ltr"
+
+
+RTL_LAYOUTS = {
+    "left": (".text{top:210px;text-align:right}", "left:62px;top:900px;width:930px;transform:rotate(-4deg)"),
+}
+
+
 def render(locale):
     captions = CAPTIONS[locale]
     assert len(captions) == len(SHOTS), locale
@@ -92,11 +105,11 @@ def render(locale):
         src = RAW / locale / name
         if not src.exists():
             raise SystemExit(f"원본 없음: {src}")
-        text_css, phone_style = LAYOUTS[layout]
+        text_css, phone_style = (RTL_LAYOUTS if locale in RTL else {}).get(layout, LAYOUTS[layout])
         body = (f'<div class="glow" style="left:-200px;top:700px;width:1600px;height:1600px"></div>'
                 f'<div class="phone" style="{phone_style}"><img src="{src.as_uri()}"></div>'
                 f'<div class="text"><div class="headline">{headline}</div><div class="sub">{sub}</div></div>')
-        page = (f'<!doctype html><html lang="{html_lang(locale)}"><head><meta charset="utf-8">'
+        page = (f'<!doctype html><html lang="{html_lang(locale)}" dir="{html_dir(locale)}"><head><meta charset="utf-8">'
                 f'<style>{BASE_CSS}{text_css}</style></head><body>{body}{FIT_JS}</body></html>')
         html_path = pathlib.Path(tempfile.gettempdir()) / f"zinggumdol-marketing-{locale}-{name}.html"
         html_path.write_text(page, encoding="utf-8")
