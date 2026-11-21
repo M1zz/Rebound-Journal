@@ -4,6 +4,158 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.2.1
+
+### 앱스토어 (한국어)
+
+이제 아랍어로도 모찌모와 이야기할 수 있어요.
+아랍어에서는 화면이 오른쪽부터 자연스럽게 놓여요.
+더 편하게 쓰도록 여러 곳을 다듬었어요.
+
+### 앱스토어 (영어, en-US)
+
+Mochimo now speaks Arabic.
+In Arabic, screens flow naturally right to left.
+Small touches here and there for a smoother feel.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Mochimo now speaks Arabic.
+In Arabic, screens flow naturally right to left.
+Small touches here and there for a smoother feel.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+Mochimo 现在支持阿拉伯语了。
+阿拉伯语界面会自然地从右向左排列。
+多处细节优化，用起来更顺手。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+Mochimo 現在支援阿拉伯語了。
+阿拉伯語介面會自然地由右向左排列。
+多處細節優化，用起來更順手。
+
+### 앱스토어 (일본어)
+
+Mochimoがアラビア語に対応しました。
+アラビア語では画面が右から左へ自然に並びます。
+細かなところを使いやすく整えました。
+
+### 앱스토어 (러시아어)
+
+Mochimo теперь говорит по-арабски.
+На арабском экраны идут справа налево.
+Мелкие улучшения для большего удобства.
+
+### 앱스토어 (스페인어)
+
+Mochimo ya está disponible en árabe.
+En árabe, todo se lee de derecha a izquierda.
+Pequeños ajustes para un uso más cómodo.
+
+### 앱스토어 (독일어)
+
+Mochimo spricht jetzt Arabisch.
+Auf Arabisch läuft alles von rechts nach links.
+Kleine Feinschliffe für mehr Komfort.
+
+### 앱스토어 (프랑스어)
+
+Mochimo parle désormais arabe.
+En arabe, tout se lit de droite à gauche.
+Quelques retouches pour plus de confort.
+
+### 앱스토어 (이탈리아어)
+
+Mochimo ora parla arabo.
+In arabo, tutto scorre da destra a sinistra.
+Piccoli ritocchi per un uso più comodo.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+O Mochimo agora fala árabe.
+Em árabe, tudo flui da direita para a esquerda.
+Pequenos ajustes para um uso mais confortável.
+
+### 앱스토어 (태국어)
+
+Mochimo รองรับภาษาอาหรับแล้ว
+ในภาษาอาหรับ หน้าจอเรียงจากขวาไปซ้ายอย่างเป็นธรรมชาติ
+ปรับรายละเอียดหลายจุดให้ใช้งานสะดวกขึ้น
+
+### 앱스토어 (베트남어)
+
+Mochimo giờ đã có tiếng Ả Rập.
+Với tiếng Ả Rập, màn hình hiển thị từ phải sang trái.
+Tinh chỉnh nhiều chỗ để dùng thoải mái hơn.
+
+### 앱스토어 (체코어)
+
+Mochimo teď mluví arabsky.
+V arabštině se vše čte zprava doleva.
+Drobná vylepšení pro pohodlnější používání.
+
+### 앱스토어 (덴마크어)
+
+Mochimo taler nu arabisk.
+På arabisk læses alt fra højre mod venstre.
+Små justeringer, så appen føles endnu bedre.
+
+### 앱스토어 (그리스어)
+
+Το Mochimo μιλά πλέον αραβικά.
+Στα αραβικά όλα διαβάζονται από δεξιά προς αριστερά.
+Μικρές βελτιώσεις για πιο άνετη χρήση.
+
+### 앱스토어 (핀란드어)
+
+Mochimo puhuu nyt arabiaa.
+Arabiaksi kaikki etenee oikealta vasemmalle.
+Pieniä hiomisia sujuvampaa käyttöä varten.
+
+### 앱스토어 (인도네시아어)
+
+Mochimo kini tersedia dalam bahasa Arab.
+Dalam bahasa Arab, layar tersusun dari kanan ke kiri.
+Penyempurnaan kecil agar lebih nyaman dipakai.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Mochimo snakker nå arabisk.
+På arabisk leses alt fra høyre mot venstre.
+Små justeringer for en enda bedre opplevelse.
+
+### 앱스토어 (네덜란드어)
+
+Mochimo spreekt nu Arabisch.
+In het Arabisch loopt alles van rechts naar links.
+Kleine verbeteringen voor meer gebruiksgemak.
+
+### 앱스토어 (폴란드어)
+
+Mochimo mówi teraz po arabsku.
+Po arabsku wszystko czyta się od prawej do lewej.
+Drobne poprawki dla wygodniejszego używania.
+
+### 앱스토어 (스웨덴어)
+
+Mochimo talar nu arabiska.
+På arabiska läses allt från höger till vänster.
+Små justeringar för en smidigare upplevelse.
+
+### 앱스토어 (튀르키예어)
+
+Mochimo artık Arapça konuşuyor.
+Arapçada ekranlar sağdan sola doğal biçimde akar.
+Daha rahat kullanım için küçük iyileştirmeler.
+
+### 앱스토어 (아랍어)
+
+أصبح Mochimo يتحدث العربية الآن.
+تُعرض الشاشات بالعربية من اليمين إلى اليسار بشكل طبيعي.
+لمسات صغيرة هنا وهناك لاستخدام أكثر راحة.
+
 ## 2.2.0
 
 ### 앱스토어 (한국어)
