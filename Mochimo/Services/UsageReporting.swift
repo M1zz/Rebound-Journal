@@ -36,6 +36,10 @@ enum UsageReporting {
         case retryStarted = "retry_started"
         /// 조약돌과 대화를 한 번 끝냈다 — 이 앱이 가치를 주는 자리. 하루 한 건.
         case conversationFinished = "conversation_finished"
+        /// 삶의 목표를 새로 적음
+        case lifeGoalCreated = "life_goal_created"
+        /// 삶의 목표를 이룸
+        case lifeGoalReached = "life_goal_reached"
     }
 
     // MARK: - 끄기

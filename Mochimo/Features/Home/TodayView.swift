@@ -49,6 +49,9 @@ struct TodayView: View {
     @State private var isLookingBack = false
     @State private var isShowingAllRecords = false
     @State private var isShowingGoals = false
+    /// 꿈을 찾아서가 옮겨 보낸 것. 있으면 가져올지 묻는다 (→ DreamImport.swift).
+    @State private var dreamTransfer: DreamTransfer?
+    @Environment(\.scenePhase) private var scenePhase
     #if DEBUG
     @State private var isShowingDebugPaywall = false
     #endif
@@ -148,6 +151,9 @@ struct TodayView: View {
             }
             .animation(.easeInOut(duration: 0.3), value: conversation?.id)
             .onOpenURL(perform: enter(from:))
+            .onChange(of: scenePhase, initial: true) { _, phase in
+                if phase == .active { checkDreamTransfer() }
+            }
             // Spotlight · Siri 에서 목표를 눌러 들어왔을 때 (→ StepIntents.swift)
             .onChange(of: StepRouter.shared.goalText, initial: true) { _, text in
                 guard let text else { return }
@@ -194,6 +200,17 @@ struct TodayView: View {
         .sheet(isPresented: $isShowingGoals) {
             GoalsView(onTalk: choose(goal:))
                 .arabicLayout()
+        }
+        .sheet(isPresented: Binding(
+            get: { dreamTransfer != nil },
+            set: { if !$0 { dreamTransfer = nil } }
+        )) {
+            if let dreamTransfer {
+                DreamImportSheet(transfer: dreamTransfer) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { isShowingGoals = true }
+                }
+                .arabicLayout()
+            }
         }
         #if DEBUG
         .task { await openScreenshotScene() }
@@ -472,7 +489,28 @@ struct TodayView: View {
     /// 홈 화면에서 "남기러 가기"를 눌렀는데 앱이 인사만 하고 가만히 있으면
     /// 한 번 더 눌러야 한다. 누른 사람은 이미 남길 마음으로 들어온 것이니
     /// 바로 그 자리로 데려간다.
+    private func checkDreamTransfer() {
+        #if DEBUG
+        if ScreenshotMode.isActive { return }
+        #endif
+        guard dreamTransfer == nil, conversation == nil else { return }
+        #if DEBUG
+        // 확인용: `-debug.importDreams YES` 면 묻지 않고 가져온다.
+        if UserDefaults.standard.bool(forKey: "debug.importDreams"), let transfer = DreamImport.pending() {
+            DreamImport.run(transfer, into: modelContext)
+            DreamImport.discard()
+            return
+        }
+        #endif
+        dreamTransfer = DreamImport.pending()
+    }
+
     private func enter(from url: URL) {
+        // 꿈을 찾아서의 '모찌모로 옮기기' 가 연다. 파일은 이미 App Group 에 와 있다.
+        if url.host() == "import-dreams" {
+            checkDreamTransfer()
+            return
+        }
         guard PebbleLink.isRecord(url) else { return }
         listensFirst = PebbleLink.wantsVoice(url)
         if observation.invitesConversation {
@@ -614,7 +652,7 @@ struct TodayView: View {
                 nextPlan: nil,
                 isRebounded: true,
                 purpose: nil,
-                mainGoal: nil,
+                mainGoal: blocked.mainGoal,
                 subGoal: followUp.goal,
                 linkedReboundId: followUp.journalID,
                 isResolved: nil,
@@ -714,7 +752,7 @@ struct TodayView: View {
         case "addGoal": isAddingGoal = true
         case "lookBack": isLookingBack = true
         case "records": isShowingAllRecords = true
-        case "goals": isShowingGoals = true
+        case "goals", "lifeGoal": isShowingGoals = true
         case "paywall": isShowingDebugPaywall = true
         default: break
         }

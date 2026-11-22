@@ -107,7 +107,7 @@ struct LogStepIntent: AppIntent {
             nextPlan: nil,
             isRebounded: false,
             purpose: nil,
-            mainGoal: nil,
+            mainGoal: LifeGoalLink.lifeGoalTitle(forGoal: goal.text, in: context),
             subGoal: goal.text,
             linkedReboundId: nil,
             // 미해결 상태는 실패 기록에만 둔다(기존 스키마 규약).

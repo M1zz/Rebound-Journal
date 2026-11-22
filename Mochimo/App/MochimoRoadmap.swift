@@ -17,6 +17,12 @@ import LeeoKit
 extension MochimoSpec {
     static var roadmap: [LeeoRoadmapItem] {[
         // MARK: 다음에 만들어요
+        .init(id: "lifegoals", status: .building,
+              title: String(localized: "내 삶의 목표", comment: "Roadmap item: life goals (bucket list)"),
+              detail: String(localized: "언젠가 꼭 이루고 싶은 것을 적고, 가로막는 것을 하나씩 치우며 건너가요.", comment: "Roadmap item detail: life goals")),
+        .init(id: "photos", status: .building,
+              title: String(localized: "기록에 사진 붙이기", comment: "Roadmap item: photos in records"),
+              detail: String(localized: "남긴 기록마다 사진을 붙여 그날을 함께 간직해요.", comment: "Roadmap item detail: photos in records")),
         .init(id: "autosave", status: .planned,
               title: String(localized: "쓰던 이야기 이어 쓰기", comment: "Roadmap item: keep unfinished writing"),
               detail: String(localized: "쓰다가 앱이 꺼져도 쓰던 이야기가 남아 있어요.", comment: "Roadmap item detail: keep unfinished writing")),

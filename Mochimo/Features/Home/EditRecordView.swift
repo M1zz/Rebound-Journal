@@ -39,7 +39,10 @@ struct EditRecordView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 26) {
                         goalLine
-                        reachedSection
+                        // 삶의 목표에 남긴 기록은 했다 · 못 했다를 묻지 않는다. 그날의 일을 적어 둔 것뿐이다.
+                        if record.isGoalIn != nil {
+                            reachedSection
+                        }
                         textSection(
                             title: String(localized: "무슨 일이 있었나요"),
                             placeholder: String(localized: "짧아도 괜찮아요."),
@@ -51,6 +54,12 @@ struct EditRecordView: View {
                             placeholder: Phrasing.say("작을수록 좋아요.", "작을수록 좋아."),
                             text: $plan
                         )
+                        if let id = record.id {
+                            VStack(alignment: .leading, spacing: 10) {
+                                label(String(localized: "사진"))
+                                RecordPhotosView(recordID: id, editable: true)
+                            }
+                        }
                         Color.clear.frame(height: 16)
                     }
                     .padding(.horizontal, 22)
@@ -99,10 +108,16 @@ struct EditRecordView: View {
             Text(when)
                 .font(PebbleTheme.label(12))
                 .foregroundStyle(PebbleTheme.inkFaint)
-            Text(record.subGoalUnwrapped.isEmpty ? String(localized: "적어둔 목표 없음") : record.subGoalUnwrapped)
+            Text(goalName)
                 .font(PebbleTheme.body(17))
                 .foregroundStyle(PebbleTheme.ink)
         }
+    }
+
+    private var goalName: String {
+        if !record.subGoalUnwrapped.isEmpty { return record.subGoalUnwrapped }
+        if !record.mainGoalUnwrapped.isEmpty { return record.mainGoalUnwrapped }
+        return String(localized: "적어둔 목표 없음")
     }
 
     // MARK: 칸들
@@ -245,6 +260,14 @@ struct EditRecordView: View {
     }
 
     private func save() {
+        // 했다 · 못 했다를 묻지 않은 기록(삶의 목표에 남긴 것)은 그대로 비워 둔다.
+        guard record.isGoalIn != nil else {
+            record.review = trimmed(review)
+            record.nextPlan = trimmed(plan)
+            record.emotionValue = emotionValue
+            record.emotionText = emotionWord
+            return
+        }
         record.isGoalIn = reached
         record.review = trimmed(review)
         record.nextPlan = trimmed(plan)

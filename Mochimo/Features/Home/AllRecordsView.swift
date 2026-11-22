@@ -85,6 +85,7 @@ struct AllRecordsView: View {
     }
 
     private func delete(_ record: JournalData) {
+        RecordPhotoCleanup.deletePhotos(of: record.id, in: modelContext)
         modelContext.delete(record)
     }
 
@@ -191,9 +192,13 @@ struct AllRecordsView: View {
                     }
                 }
 
+                if let id = entry.id {
+                    RecordPhotosView(recordID: id)
+                }
+
                 // 적힌 말이 하나도 없는 기록도 지우지 않는다. 그날 뭔가 있었다는
                 // 사실 자체가 기록이다.
-                if review == nil && plan == nil {
+                if review == nil && plan == nil && entry.isGoalIn != nil {
                     Text(entry.isGoalInUnwrapped
                         ? Phrasing.say("했다고만 남겼어요.", "했다고만 남겼어.")
                         : Phrasing.say("남긴 말은 없어요.", "남긴 말은 없어."))

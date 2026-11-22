@@ -79,10 +79,14 @@ struct MochimoApp: App {
     }
 
     private static func makeModelContainer() -> ModelContainer {
-        // ⚠️ 스키마를 바꾸지 않는다. 기존 사용자 기록이 이 두 모델에 있다.
+        // ⚠️ 있는 모델과 속성을 지우거나 이름을 바꾸지 않는다. 기존 사용자 기록이 JournalData · SubGoalData 에 있다.
+        //    더하는 것은 선택값으로만 (CloudKit). 새 모델 · 속성은 CloudKit 콘솔에서 프로덕션 스키마로 배포해야 동기화된다.
         let schema = Schema([
             JournalData.self,
-            SubGoalData.self
+            SubGoalData.self,
+            LifeGoalData.self,
+            ObstacleData.self,
+            RecordPhoto.self
         ])
         var modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
         #if DEBUG

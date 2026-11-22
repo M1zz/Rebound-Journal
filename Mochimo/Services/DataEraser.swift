@@ -32,6 +32,15 @@ enum DataEraser {
         for goal in try modelContext.fetch(FetchDescriptor<SubGoalData>()) {
             modelContext.delete(goal)
         }
+        for life in try modelContext.fetch(FetchDescriptor<LifeGoalData>()) {
+            modelContext.delete(life)
+        }
+        for obstacle in try modelContext.fetch(FetchDescriptor<ObstacleData>()) {
+            modelContext.delete(obstacle)
+        }
+        for photo in try modelContext.fetch(FetchDescriptor<RecordPhoto>()) {
+            modelContext.delete(photo)
+        }
         try modelContext.save()
 
         try eraseLegacyStore(legacyContainer)

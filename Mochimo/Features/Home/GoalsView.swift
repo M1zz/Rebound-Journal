@@ -24,6 +24,8 @@ struct GoalsView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var goals: [SubGoalData]
     @Query private var journals: [JournalData]
+    @Query(sort: \LifeGoalData.date) private var lifeGoals: [LifeGoalData]
+    @Query private var obstacles: [ObstacleData]
 
     /// 목표를 골라 이야기하러 갈 때.
     var onTalk: (String) -> Void
@@ -33,6 +35,10 @@ struct GoalsView: View {
     @State private var newName = ""
     @State private var pendingRelease: SubGoalData?
     @State private var renameConflict = false
+    @State private var isAddingLifeGoal = false
+    @State private var openLifeGoal: LifeGoalData?
+    /// 삶의 목표 화면에서 돌을 눌렀다. 그 화면이 닫힌 뒤 이 화면도 닫고 이야기하러 간다.
+    @State private var pendingTalk: String?
 
     var body: some View {
         ZStack {
@@ -41,19 +47,37 @@ struct GoalsView: View {
             VStack(spacing: 0) {
                 header
 
-                if goals.isEmpty {
+                if goals.isEmpty && lifeGoals.isEmpty {
                     empty
                 } else {
                     List {
+                        lifeGoalSection
+                            .listRowBackground(Color.clear)
+                            .listRowSeparator(.hidden)
+                            .listRowInsets(EdgeInsets(top: 5, leading: 22, bottom: 5, trailing: 22))
+
+                        sectionTitle(String(localized: "지금 해보는 것"))
+                            .listRowBackground(Color.clear)
+                            .listRowSeparator(.hidden)
+                            .listRowInsets(EdgeInsets(top: 18, leading: 26, bottom: 2, trailing: 22))
+
                         ForEach(sortedGoals, id: \.persistentModelID) { goal in
                             row(goal)
                                 .listRowBackground(Color.clear)
                                 .listRowSeparator(.hidden)
                                 .listRowInsets(EdgeInsets(top: 5, leading: 22, bottom: 5, trailing: 22))
                         }
-                        footer
-                            .listRowBackground(Color.clear)
+                        if goals.isEmpty {
+                            Text(Phrasing.say("아직 해보려는 게 없어요.", "아직 해보려는 게 없어."))
+                                .font(PebbleTheme.body(14))
+                                .foregroundStyle(PebbleTheme.inkFaint)
+                                .listRowBackground(Color.clear)
+                                .listRowSeparator(.hidden)
+                        } else {
+                            footer
+                                .listRowBackground(Color.clear)
                             .listRowSeparator(.hidden)
+                        }
                     }
                     .listStyle(.plain)
                     .scrollContentBackground(.hidden)
@@ -61,9 +85,38 @@ struct GoalsView: View {
             }
         }
         .presentationDragIndicator(.visible)
+        #if DEBUG
+        // 확인용: `-debug.open lifeGoal` 이면 첫 삶의 목표를 연다.
+        .task {
+            if UserDefaults.standard.string(forKey: "debug.open") == "lifeGoal" {
+                try? await Task.sleep(for: .seconds(0.6))
+                openLifeGoal = activeLifeGoals.first ?? lifeGoals.first
+            }
+        }
+        #endif
         .sheet(isPresented: $isAddingGoal) {
             AddGoalView()
                 .arabicLayout()
+        }
+        .sheet(isPresented: $isAddingLifeGoal) {
+            AddLifeGoalView { created in
+                // 적자마자 그 목표 화면을 연다. 모찌가 바로 첫 물음을 건넨다.
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) { openLifeGoal = created }
+            }
+            .arabicLayout()
+        }
+        .sheet(item: $openLifeGoal, onDismiss: {
+            if let pendingTalk {
+                self.pendingTalk = nil
+                dismiss()
+                onTalk(pendingTalk)
+            }
+        }) { life in
+            LifeGoalView(lifeGoal: life) { stone in
+                pendingTalk = stone
+                openLifeGoal = nil
+            }
+            .arabicLayout()
         }
         .alert(String(localized: "이름 고치기"), isPresented: Binding(
             get: { renaming != nil },
@@ -111,8 +164,17 @@ struct GoalsView: View {
                 .font(PebbleTheme.title(20))
                 .foregroundStyle(PebbleTheme.ink)
             Spacer()
-            Button {
-                isAddingGoal = true
+            Menu {
+                Button {
+                    isAddingLifeGoal = true
+                } label: {
+                    Label(String(localized: "삶의 목표 적기"), systemImage: "sparkles")
+                }
+                Button {
+                    isAddingGoal = true
+                } label: {
+                    Label(String(localized: "지금 해볼 목표 적기"), systemImage: "flag")
+                }
             } label: {
                 Image(systemName: "plus")
                     .font(.system(size: 16, weight: .semibold))
@@ -178,6 +240,12 @@ struct GoalsView: View {
                     Text(touched.map { LeftAgo.label(for: $0) } ?? String(localized: "아직 기록 없음"))
                         .font(PebbleTheme.label(12))
                         .foregroundStyle(PebbleTheme.inkFaint)
+                    if let life = lifeGoals.first(where: { $0.id != nil && $0.id == goal.lifeGoalID }) {
+                        Label(life.titleUnwrapped, systemImage: "sparkles")
+                            .font(PebbleTheme.label(12))
+                            .foregroundStyle(PebbleTheme.key)
+                            .lineLimit(1)
+                    }
                     // 이 목표의 이번 주. 밝은 돌이 닿은 날이다.
                     WeekStoneStrip(
                         days: WeekStones.thisWeek(journals: journals, goal: text),
@@ -248,14 +316,143 @@ struct GoalsView: View {
                 .font(PebbleTheme.companionFont(18))
                 .foregroundStyle(PebbleTheme.inkSoft)
             ReplyOptions(choices: [
-                ReplyChoice(id: "add", label: String(localized: "목표 하나 적어두기"), isPrimary: true)
-            ]) { _ in
-                isAddingGoal = true
+                ReplyChoice(id: "add", label: String(localized: "목표 하나 적어두기"), isPrimary: true),
+                ReplyChoice(id: "life", label: String(localized: "삶의 목표 적기"))
+            ]) { choice in
+                if choice.id == "life" { isAddingLifeGoal = true } else { isAddingGoal = true }
             }
             .frame(maxWidth: 260)
             Spacer()
         }
         .padding(.horizontal, 24)
+    }
+
+    // MARK: - 내 삶의 목표
+    //
+    // 언젠가 꼭 이루고 싶은 것들. 개수 제한 없이 무료로 적는다 — 버킷리스트는 원래 여러 개다.
+    // 매일 묻지는 않는다. 그 아래 놓은 돌(지금 해보는 것)을 조약돌이 묻는다.
+
+    private var activeLifeGoals: [LifeGoalData] { lifeGoals.filter(\.isActive) }
+
+    @ViewBuilder
+    private var lifeGoalSection: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                sectionTitle(String(localized: "내 삶의 목표"))
+                Spacer()
+                Button {
+                    isAddingLifeGoal = true
+                } label: {
+                    Image(systemName: "plus.circle")
+                        .font(.system(size: 17))
+                        .foregroundStyle(PebbleTheme.key)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(Text("삶의 목표 적기"))
+            }
+            .padding(.horizontal, 4)
+
+            if activeLifeGoals.isEmpty {
+                Button {
+                    isAddingLifeGoal = true
+                } label: {
+                    Text(Phrasing.say(
+                        "언젠가 꼭 해보고 싶은 게 있어요? 적어 두면 가로막는 것부터 같이 치워 봐요.",
+                        "언젠가 꼭 해보고 싶은 게 있어? 적어 두면 가로막는 것부터 같이 치워 보자."
+                    ))
+                    .font(PebbleTheme.body(14))
+                    .foregroundStyle(PebbleTheme.inkSoft)
+                    .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(16)
+                    .background(PebbleTheme.surfaceMuted)
+                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                }
+                .buttonStyle(.plain)
+            }
+
+            ForEach(activeLifeGoals, id: \.persistentModelID) { life in
+                lifeGoalRow(life)
+            }
+
+            let reached = lifeGoals.filter(\.isReached)
+            let resting = lifeGoals.filter(\.isResting)
+            if !reached.isEmpty || !resting.isEmpty {
+                ScrollView(.horizontal) {
+                    HStack(spacing: 8) {
+                        ForEach(reached + resting, id: \.persistentModelID) { life in
+                            Button {
+                                openLifeGoal = life
+                            } label: {
+                                Label(life.titleUnwrapped, systemImage: life.isReached ? "sparkles" : "moon.zzz")
+                                    .font(PebbleTheme.label(12))
+                                    .foregroundStyle(life.isReached ? PebbleTheme.key : PebbleTheme.inkFaint)
+                                    .lineLimit(1)
+                                    .padding(.horizontal, 12)
+                                    .padding(.vertical, 7)
+                                    .background(PebbleTheme.surface)
+                                    .clipShape(Capsule())
+                                    .overlay { Capsule().strokeBorder(PebbleTheme.hairline, lineWidth: 1) }
+                            }
+                            .buttonStyle(.plain)
+                            .accessibilityHint(life.isReached ? Text("이룬 목표") : Text("잠시 내려놓은 목표"))
+                        }
+                    }
+                    .padding(.horizontal, 1)
+                }
+                .scrollIndicators(.hidden)
+            }
+        }
+    }
+
+    private func lifeGoalRow(_ life: LifeGoalData) -> some View {
+        let blocking = obstacles.filter { $0.lifeGoalID == life.id && !$0.isCleared }
+        let caption: String = if let first = blocking.first {
+            String(localized: "가로막는 것: \(first.textUnwrapped)", locale: AppLanguage.locale)
+        } else if life.nextQuestion != nil {
+            Phrasing.say("모찌가 물어볼 게 있어요", "모찌가 물어볼 게 있어")
+        } else {
+            Phrasing.say("가로막는 것을 적어 봐요", "가로막는 것을 적어 봐")
+        }
+
+        return Button {
+            openLifeGoal = life
+        } label: {
+            HStack(spacing: 14) {
+                Image(systemName: "sparkles")
+                    .font(.system(size: 14))
+                    .foregroundStyle(PebbleTheme.sunlight)
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(life.titleUnwrapped)
+                        .font(PebbleTheme.body(16))
+                        .foregroundStyle(PebbleTheme.ink)
+                        .multilineTextAlignment(.leading)
+                    Text(caption)
+                        .font(PebbleTheme.label(12))
+                        .foregroundStyle(PebbleTheme.inkFaint)
+                        .lineLimit(1)
+                }
+                Spacer(minLength: 8)
+                Image(systemName: "chevron.forward")
+                    .font(.system(size: 12, weight: .semibold))
+                    .foregroundStyle(PebbleTheme.inkFaint)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(PebbleTheme.gutter)
+            .background(PebbleTheme.mochi.opacity(0.22))
+            .clipShape(RoundedRectangle(cornerRadius: PebbleTheme.cardRadius, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: PebbleTheme.cardRadius, style: .continuous)
+                    .strokeBorder(PebbleTheme.mochiEdge.opacity(0.5), lineWidth: 1)
+            }
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func sectionTitle(_ text: String) -> some View {
+        Text(text)
+            .font(PebbleTheme.label(13))
+            .foregroundStyle(PebbleTheme.inkFaint)
     }
 
     // MARK: - 이름 고치기

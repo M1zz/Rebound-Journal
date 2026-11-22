@@ -177,6 +177,7 @@ struct QuickNoteView: View {
             isGoalIn: reached,
             review: text.isEmpty ? nil : text,
             isRebounded: false,
+            mainGoal: LifeGoalLink.lifeGoalTitle(forGoal: goal, in: modelContext),
             subGoal: goal,
             // 미해결 상태는 닿지 못한 기록에만 둔다(기존 스키마 규약).
             isResolved: reached ? nil : false

@@ -61,6 +61,9 @@ final class ConversationEngine {
     /// 이미 저장했는지. 끝났을 때와 그만둘 때 둘 다 저장을 부르므로 한 번만 남긴다.
     private var didPersist = false
 
+    /// 저장한 기록의 id. 마무리 카드가 이 기록에 사진을 붙인다.
+    private(set) var savedJournalID: String?
+
     // MARK: 단계
 
     /// 대화가 지금 어디쯤인지. 남은 길이 보여야 언제 끝날지 몰라 불안하지 않다.
@@ -347,7 +350,8 @@ final class ConversationEngine {
             nextPlan: smallerGoal.isEmpty ? nil : smallerGoal,
             isRebounded: false,
             purpose: nil,
-            mainGoal: nil,
+            // 삶의 목표에서 놓은 돌이면 그 이름을 적어 둔다. 삶의 목표 화면이 이 이름으로 기록을 모은다.
+            mainGoal: LifeGoalLink.lifeGoalTitle(forGoal: goal, in: context),
             subGoal: goal,
             linkedReboundId: nil,
             // 미해결 상태는 실패 기록에만 둔다(기존 스키마 규약).
@@ -355,6 +359,7 @@ final class ConversationEngine {
             retryCount: nil
         )
         context.insert(journal)
+        savedJournalID = journal.id
         if let moodDrawing, let id = journal.id {
             MoodDrawingStore.save(moodDrawing, for: id)
         }
@@ -366,10 +371,14 @@ final class ConversationEngine {
             let existing = (try? context.fetch(FetchDescriptor<SubGoalData>())) ?? []
             let alreadyThere = existing.contains { $0.goalText == smallerGoal }
             if !alreadyThere {
+                // 삶의 목표로 가는 돌에서 더 작게 쪼갠 것도 같은 삶의 목표를 향한다.
+                let parent = existing.first { $0.goalText == goal }
                 context.insert(SubGoalData(
                     id: UUID().uuidString,
                     date: Date(),
-                    goalText: smallerGoal
+                    goalText: smallerGoal,
+                    lifeGoalID: parent?.lifeGoalID,
+                    obstacleID: parent?.obstacleID
                 ))
                 UsageReporting.log(.goalCreated)
             }

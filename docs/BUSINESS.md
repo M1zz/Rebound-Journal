@@ -92,7 +92,8 @@ FeedbackHub 사용 통계로 들어온다 (`MochimoSpec.analytics` → `LeeoUsag
 
 **봐야 할 숫자:** 한도 도달률(goal_created 대비 gate_blocked), 페이월→구매 전환율.
 한도 도달이 너무 드물면(설치 대비 5% 미만) 무료 한도 3이 너그러운 것이고, 전환이 너무 낮고 이탈이
-늘면 인색한 것이다. `ProFeature.freeGoalLimit` 한 줄로 조정한다 (AddGoalView 의 "세 개" 문구도 함께).
+늘면 인색한 것이다.
+'내 삶의 목표'(버킷리스트, 2026-11-22)는 개수에 넣지 않는다 — 여러 개 적는 게 본래 모양이다. 한도는 매일 묻는 '지금 해보는 것'에만. `ProFeature.freeGoalLimit` 한 줄로 조정한다 (AddGoalView 의 "세 개" 문구도 함께).
 
 ## 5. 남은 판단
 

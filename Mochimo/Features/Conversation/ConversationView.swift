@@ -294,7 +294,8 @@ struct ConversationView: View {
                     if engine.isFinished && !isPebbleSpeaking {
                         ConversationSummaryCard(
                             summary: engine.summary,
-                            week: WeekStones.thisWeek(journals: allJournals, goal: engine.goal)
+                            week: WeekStones.thisWeek(journals: allJournals, goal: engine.goal),
+                            savedJournalID: engine.savedJournalID
                         )
                         .transition(.opacity.combined(with: .move(edge: .bottom)))
 
@@ -867,6 +868,8 @@ struct ConversationView: View {
 struct ConversationSummaryCard: View {
     let summary: ConversationEngine.Summary
     let week: [StoneDay]
+    /// 남긴 기록. 있으면 그 자리에서 사진을 붙일 수 있다.
+    var savedJournalID: String? = nil
 
     var body: some View {
         SoftCard {
@@ -912,6 +915,10 @@ struct ConversationSummaryCard: View {
                     }
                 }
 
+                if summary.isSaved, let savedJournalID {
+                    RecordPhotosView(recordID: savedJournalID, editable: true)
+                }
+
                 if !summary.goal.isEmpty {
                     VStack(alignment: .leading, spacing: 8) {
                         Text(String(localized: "이 목표의 이번 주"))
@@ -923,7 +930,7 @@ struct ConversationSummaryCard: View {
                 }
             }
         }
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .contain)
     }
 
     private func row(_ icon: String, _ text: String, caption: String? = nil) -> some View {

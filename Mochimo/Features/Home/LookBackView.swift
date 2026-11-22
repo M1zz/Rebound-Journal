@@ -21,6 +21,7 @@ struct LookBackView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var journals: [JournalData]
     @Query private var goals: [SubGoalData]
+    @Query(sort: \LifeGoalData.reachedDate, order: .reverse) private var lifeGoals: [LifeGoalData]
 
     /// 시트로 열 때만 닫기 단추를 단다. 아이폰 듀오를 폈을 때 옆 판에 늘 서 있을 때는 닫을 것이 없다.
     var showsClose = true
@@ -32,6 +33,8 @@ struct LookBackView: View {
     @State private var expandedGoal: String?
     @State private var isAddingGoal = false
     @State private var pendingRelease: SubGoalData?
+    @State private var openLifeGoal: LifeGoalData?
+    @State private var pendingTalk: String?
 
     private static let visibleNotes = 4
 
@@ -45,6 +48,7 @@ struct LookBackView: View {
                 ScrollView {
                     VStack(spacing: 30) {
                         bridgeArea
+                        reachedLifeArea
                         goalsArea
                         Color.clear.frame(height: 24)
                     }
@@ -217,6 +221,61 @@ struct LookBackView: View {
         formatter.locale = AppLanguage.locale
         formatter.setLocalizedDateFormatFromTemplate("MMMdEEEE")
         return formatter.string(from: day)
+    }
+
+    // MARK: - 이룬 삶의 목표
+    //
+    // 건너간 개울. 여기 있는 건 지워지지 않는다 — 눌러서 무엇을 넘어 왔는지 다시 본다.
+
+    @ViewBuilder
+    private var reachedLifeArea: some View {
+        let reached = lifeGoals.filter(\.isReached)
+        if !reached.isEmpty {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("이룬 삶의 목표")
+                    .font(PebbleTheme.label(14))
+                    .accessibilityAddTraits(.isHeader)
+                    .foregroundStyle(PebbleTheme.inkFaint)
+                    .padding(.horizontal, 4)
+                ForEach(reached, id: \.persistentModelID) { life in
+                    Button {
+                        openLifeGoal = life
+                    } label: {
+                        HStack(spacing: 12) {
+                            Image(systemName: "sparkles")
+                                .foregroundStyle(PebbleTheme.sunlight)
+                            Text(life.titleUnwrapped)
+                                .font(PebbleTheme.body(16))
+                                .foregroundStyle(PebbleTheme.ink)
+                                .multilineTextAlignment(.leading)
+                            Spacer(minLength: 8)
+                            if let date = life.reachedDate {
+                                Text(date, format: .dateTime.year().month().day())
+                                    .font(PebbleTheme.label(12))
+                                    .foregroundStyle(PebbleTheme.inkFaint)
+                            }
+                        }
+                        .padding(16)
+                        .background(PebbleTheme.mochi.opacity(0.22))
+                        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .sheet(item: $openLifeGoal, onDismiss: {
+                if let pendingTalk {
+                    self.pendingTalk = nil
+                    onPickGoal(pendingTalk)
+                    dismiss()
+                }
+            }) { life in
+                LifeGoalView(lifeGoal: life) { stone in
+                    pendingTalk = stone
+                    openLifeGoal = nil
+                }
+                .arabicLayout()
+            }
+        }
     }
 
     // MARK: - 목표

@@ -26,6 +26,16 @@ struct AddGoalView: View {
     @EnvironmentObject private var store: LeeoStore
     @Query private var goals: [SubGoalData]
 
+    /// 삶의 목표에서 돌을 놓으러 왔을 때. 무엇을 향해 가는지는 이미 정해져 있으니 쪼개기부터 묻는다.
+    struct Stone {
+        let lifeGoalID: String
+        /// 줄여 보려는 장애물. 없으면 삶의 목표 자체를 향해 놓는다.
+        let obstacleID: String?
+        /// 질문에 넣을 말 — 장애물이나 삶의 목표.
+        let toward: String
+    }
+    var stone: Stone? = nil
+
     private enum Step { case full, direction, smaller }
 
     @State private var step: Step = .direction
@@ -74,11 +84,17 @@ struct AddGoalView: View {
             .padding(.horizontal, 24)
             .padding(.bottom, 16)
         }
-        .onAppear(perform: checkRoom)
+        .onAppear {
+            if let stone {
+                direction = stone.toward
+                step = .smaller
+            }
+            checkRoom()
+        }
         // 여기서 산 경우. 막혔던 자리에서 곧바로 이어 쓴다.
         .onChange(of: store.hasPro) { _, hasPro in
             if hasPro && step == .full {
-                withAnimation(.easeInOut(duration: 0.25)) { step = .direction }
+                withAnimation(.easeInOut(duration: 0.25)) { step = stone == nil ? .direction : .smaller }
                 isFocused = true
             }
         }
@@ -188,6 +204,11 @@ struct AddGoalView: View {
             )
         case .direction:
             Phrasing.say("무엇을 향해 가고 있어요?", "무엇을 향해 가고 있어?")
+        case .smaller where stone?.obstacleID != nil:
+            Phrasing.say(
+                String(localized: "'\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 조금이라도 줄이려면,\n내일 바로 해볼 수 있는 작은 일 하나는 뭘까요?"),
+                String(localized: "'\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 조금이라도 줄이려면,\n내일 바로 해볼 수 있는 작은 일 하나는 뭘까?")
+            )
         case .smaller:
             Phrasing.say(
                 String(localized: "그럼 '\(trimmed(direction))'\(trimmed(direction).particle("을", "를")) 향해서,\n내일 바로 해낼 수 있을 만큼 작은 일 하나는 뭘까요?"),
@@ -232,13 +253,19 @@ struct AddGoalView: View {
         case .smaller:
             // 추적 대상은 **쪼갠 것**이다. 쪼개지 못했으면 큰 목표를 그대로 둔다.
             // 큰 목표만 남아도 대화에서 다시 쪼개기 질문을 받게 된다.
-            let tracked = trimmed(smallest).isEmpty ? trimmed(direction) : trimmed(smallest)
-            guard !tracked.isEmpty else { dismiss(); return }
+            // 삶의 목표에서 왔으면 쪼갠 게 없을 때 아무것도 놓지 않는다 — 장애물이나 먼 목표를
+            // 그대로 매일 묻게 되면 돌이 아니라 개울을 통째로 묻는 셈이다.
+            let tracked = trimmed(smallest).isEmpty
+                ? (stone == nil ? trimmed(direction) : "")
+                : trimmed(smallest)
+            guard !tracked.isEmpty, !goals.contains(where: { $0.goalText == tracked }) else { dismiss(); return }
 
             modelContext.insert(SubGoalData(
                 id: UUID().uuidString,
                 date: Date(),
-                goalText: tracked
+                goalText: tracked,
+                lifeGoalID: stone?.lifeGoalID,
+                obstacleID: stone?.obstacleID
             ))
             UsageReporting.log(.goalCreated)
             dismiss()
