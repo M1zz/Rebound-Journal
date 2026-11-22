@@ -4,6 +4,183 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.3.0
+
+### 앱스토어 (한국어)
+
+꿈과 버킷리스트를 내 삶의 목표로 적어 보세요.
+가로막는 것을 하나씩 치우며 목표에 다가가요.
+이제 모든 기록에 사진을 붙일 수 있어요.
+꿈을 찾아서의 목표를 그대로 옮겨 올 수 있어요.
+
+### 앱스토어 (영어, en-US)
+
+Write your dreams and bucket list as Life Goals.
+Clear what stands in the way, one step at a time.
+Add photos to any entry.
+Bring your goals over from Dream Seeker.
+
+### 앱스토어 (영어 영국, en-GB)
+
+Write your dreams and bucket list as Life Goals.
+Clear what stands in the way, one step at a time.
+Add photos to any entry.
+Bring your goals over from Dream Seeker.
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+把梦想和人生清单写成人生目标。
+一件件清除挡在前面的障碍，慢慢靠近。
+每条记录都可以添加照片了。
+可以把「寻梦」里的目标原样搬过来。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+把夢想和人生清單寫成人生目標。
+一件件清除擋在前面的障礙，慢慢靠近。
+每則紀錄都可以加上照片了。
+可以把「尋夢」裡的目標原樣搬過來。
+
+### 앱스토어 (일본어)
+
+夢やバケットリストを人生の目標として書けます。
+行く手をふさぐものを一つずつ取り除いて近づこう。
+すべての記録に写真を添えられます。
+「夢をさがして」の目標をそのまま移せます。
+
+### 앱스토어 (러시아어)
+
+Записывайте мечты и бакет-лист как цели жизни.
+Убирайте препятствия одно за другим.
+К любой записи можно добавить фото.
+Цели из Dream Seeker можно перенести.
+
+### 앱스토어 (스페인어)
+
+Anota tus sueños y tu lista de deseos.
+Quita los obstáculos uno a uno.
+Añade fotos a cualquier registro.
+Trae tus metas desde Dream Seeker.
+
+### 앱스토어 (독일어)
+
+Halte Träume und Bucket List als Lebensziele fest.
+Räume Hindernisse eins nach dem anderen weg.
+Füge jedem Eintrag Fotos hinzu.
+Übernimm deine Ziele aus Dream Seeker.
+
+### 앱스토어 (프랑스어)
+
+Notez vos rêves comme objectifs de vie.
+Levez les obstacles un par un.
+Ajoutez des photos à chaque note.
+Importez vos objectifs depuis Dream Seeker.
+
+### 앱스토어 (이탈리아어)
+
+Scrivi sogni e bucket list come obiettivi di vita.
+Supera gli ostacoli uno alla volta.
+Aggiungi foto a ogni annotazione.
+Porta qui i tuoi obiettivi da Dream Seeker.
+
+### 앱스토어 (포르투갈어 브라질, pt-BR)
+
+Anote sonhos e sua bucket list como metas de vida.
+Tire os obstáculos do caminho, um por vez.
+Adicione fotos a qualquer registro.
+Traga suas metas do Dream Seeker.
+
+### 앱스토어 (태국어)
+
+เขียนความฝันและบักเก็ตลิสต์เป็นเป้าหมายชีวิต
+ค่อยๆ เคลียร์สิ่งที่ขวางทางทีละอย่าง
+แนบรูปภาพในทุกบันทึกได้แล้ว
+ย้ายเป้าหมายจาก Dream Seeker มาได้เลย
+
+### 앱스토어 (베트남어)
+
+Ghi ước mơ và danh sách điều muốn làm.
+Gỡ từng trở ngại một để tiến gần hơn.
+Thêm ảnh vào mọi ghi chép.
+Chuyển mục tiêu từ Dream Seeker sang.
+
+### 앱스토어 (체코어)
+
+Zapište si sny a bucket list jako životní cíle.
+Odklízejte překážky jednu po druhé.
+Ke každému záznamu přidáte fotky.
+Převeďte si cíle z Dream Seeker.
+
+### 앱스토어 (덴마크어)
+
+Skriv drømme og bucket list som livsmål.
+Ryd forhindringerne af vejen én ad gangen.
+Tilføj billeder til alle noter.
+Flyt dine mål over fra Dream Seeker.
+
+### 앱스토어 (그리스어)
+
+Γράψε όνειρα και bucket list ως στόχους ζωής.
+Βγάλε τα εμπόδια από τη μέση ένα ένα.
+Πρόσθεσε φωτογραφίες σε κάθε καταγραφή.
+Φέρε τους στόχους σου από το Dream Seeker.
+
+### 앱스토어 (핀란드어)
+
+Kirjaa unelmat ja bucket list elämän tavoitteiksi.
+Raivaa esteet pois yksi kerrallaan.
+Lisää kuvia mihin tahansa merkintään.
+Siirrä tavoitteesi Dream Seekeristä.
+
+### 앱스토어 (인도네시아어)
+
+Tulis impian dan bucket list jadi tujuan hidup.
+Singkirkan hambatan satu per satu.
+Tambahkan foto ke setiap catatan.
+Pindahkan tujuanmu dari Dream Seeker.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Skriv drømmer og bucket list som livsmål.
+Rydd hindringene av veien én etter én.
+Legg til bilder i alle notater.
+Flytt målene dine fra Dream Seeker.
+
+### 앱스토어 (네덜란드어)
+
+Schrijf dromen en bucketlist op als levensdoelen.
+Ruim obstakels een voor een op.
+Voeg foto's toe aan elke notitie.
+Haal je doelen over uit Dream Seeker.
+
+### 앱스토어 (폴란드어)
+
+Zapisz marzenia i bucket listę jako cele życia.
+Usuwaj przeszkody jedną po drugiej.
+Dodawaj zdjęcia do każdego wpisu.
+Przenieś cele z Dream Seeker.
+
+### 앱스토어 (스웨덴어)
+
+Skriv drömmar och bucket list som livsmål.
+Röj undan hindren ett i taget.
+Lägg till bilder i alla anteckningar.
+Flytta över dina mål från Dream Seeker.
+
+### 앱스토어 (튀르키예어)
+
+Hayallerini yaşam hedefi olarak yaz.
+Engelleri tek tek ortadan kaldır.
+Her kayda fotoğraf ekleyebilirsin.
+Hedeflerini Dream Seeker'dan taşı.
+
+### 앱스토어 (아랍어)
+
+اكتب أحلامك وقائمة أمنياتك كأهداف للحياة.
+أزل العقبات من طريقك واحدة تلو الأخرى.
+أضف صورًا إلى أي تسجيل.
+انقل أهدافك من Dream Seeker.
+
 ## 2.2.1
 
 ### 앱스토어 (한국어)
