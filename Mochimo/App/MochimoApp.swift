@@ -41,10 +41,11 @@ struct MochimoApp: App {
         LeeoVault.start(MochimoSpec.self)
         // 저장소는 금고 뒤에 연다 (프로퍼티 초기값으로 두면 init 보다 먼저 열린다)
         sharedModelContainer = Self.makeModelContainer()
-        // Siri 인텐트가 같은 저장소를 쓴다 (→ StepIntents.swift)
-        if let container = sharedModelContainer {
-            AppDependencyManager.shared.add(dependency: container)
-        }
+        // Siri 인텐트가 같은 저장소를 쓴다 (→ StepIntents.swift).
+        // 저장소를 못 열었어도 **언제나** 넣는다. 아무것도 넣지 않으면 인텐트가 `@Dependency` 를
+        // 읽는 순간 앱이 죽는다 — Siri · 단축어에서 부르면 사용자는 이유도 모른 채 실패만 본다.
+        let intentStore = IntentStore(container: sharedModelContainer, isTemporary: StoreFallback.isActive)
+        AppDependencyManager.shared.add(dependency: intentStore)
         LeeoEngagement.shared.registerLaunch()
         // 페이월·구매 이벤트가 FeedbackHub 로 모이게 한다.
         LeeoAnalyticsCenter.register(MochimoSpec.self)

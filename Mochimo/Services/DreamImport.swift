@@ -72,23 +72,50 @@ enum DreamImport {
         return decode(url)
     }
 
+    /// 와 있는 파일을 읽은 결과.
+    enum Pending {
+        case transfer(DreamTransfer)
+        /// 파일은 있는데 읽지 못했다(망가졌거나, 꿈을 찾아서가 더 새 모양으로 썼다). 파일은 지우지 않는다.
+        case unreadable
+    }
+
     /// 같은 것을 **메인 스레드 밖에서** 읽는다. 파일에는 사진이 통째로 들어 있어 수십 MB 일 수
     /// 있는데, 앱이 켜질 때와 앞으로 올 때마다 메인에서 읽고 풀면 그동안 화면이 멈춘다. 켜지는
     /// 도중에 오래 멈추면 시스템이 앱을 끈다(0x8BADF00D). '다음에 할게요' 를 고르면 파일이 남아
     /// 매번 되풀이된다.
-    static func pendingInBackground() async -> DreamTransfer? {
+    ///
+    /// 파일이 없으면 `nil`. 있는데 읽지 못하면 `.unreadable` — 예전에는 조용히 `nil` 이라, 옮기기를
+    /// 누른 사람은 아무 일도 안 일어난 줄로만 알았다.
+    static func pendingInBackground() async -> Pending? {
         guard let url = fileURL, FileManager.default.fileExists(atPath: url.path) else { return nil }
-        return await Task.detached(priority: .userInitiated) { decode(url) }.value
+        return await Task.detached(priority: .userInitiated) {
+            decode(url).map(Pending.transfer) ?? .unreadable
+        }.value
     }
 
     nonisolated private static func decode(_ url: URL) -> DreamTransfer? {
-        guard let data = try? Data(contentsOf: url, options: .mappedIfSafe) else { return nil }
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .iso8601
-        return try? decoder.decode(DreamTransfer.self, from: data)
+        do {
+            let data = try Data(contentsOf: url, options: .mappedIfSafe)
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            return try decoder.decode(DreamTransfer.self, from: data)
+        } catch {
+            print("⚠️ 꿈을 찾아서에서 온 파일을 읽지 못했습니다: \(error)")
+            return nil
+        }
     }
 
-    /// 가져오지 않기로 했거나 다 가져왔으면 파일을 지운다. 다음에 또 묻지 않게.
+    /// 다 가져온 뒤 파일을 지운다. 다음에 또 묻지 않게.
+    ///
+    /// 이번 실행이 임시(메모리) 저장소로 열렸으면 지우지 않는다(→ StoreFallback). 그때는 저장이
+    /// 성공해도 메모리에만 있어서, 파일까지 지우면 앱이 꺼질 때 버킷리스트가 통째로 사라진다.
+    /// 남겨 두면 저장소가 제대로 열리는 다음 실행에서 다시 묻는다.
+    static func discardAfterImport() {
+        guard !StoreFallback.isActive else { return }
+        discard()
+    }
+
+    /// 가져오지 않기로 했으면 파일을 지운다. 다음에 또 묻지 않게.
     static func discard() {
         guard let url = fileURL else { return }
         try? FileManager.default.removeItem(at: url)
@@ -245,7 +272,7 @@ struct DreamImportSheet: View {
                             Task {
                                 let ready = await DreamImport.shrunk(transfer)
                                 if let count = DreamImport.run(ready, into: modelContext, photosReady: true) {
-                                    DreamImport.discard()
+                                    DreamImport.discardAfterImport()
                                     withAnimation { imported = count }
                                 } else {
                                     // 저장하지 못했다. 파일은 남겨 두고 닫는다 — 저장 실패는 맨 바깥 화면이

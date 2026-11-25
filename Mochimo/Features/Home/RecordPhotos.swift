@@ -12,6 +12,7 @@ import SwiftUI
 import SwiftData
 import PhotosUI
 import ImageIO
+import UniformTypeIdentifiers
 
 // MARK: - 줄이기
 
@@ -19,32 +20,32 @@ enum PhotoShrinker {
     static let longEdge: CGFloat = 1600
 
     /// 사진 데이터를 긴 변 1600, JPEG 로 줄인다. 읽을 수 없는 데이터면 nil.
-    static func jpeg(_ data: Data) -> Data? {
-        #if canImport(UIKit)
-        // 읽히기는 했는데 크기가 0 인 그림이 있다. 그대로 가면 0×0 으로 그리다 죽는다.
-        guard let image = UIImage(data: data), image.size.width >= 1, image.size.height >= 1 else { return nil }
-        let scale = min(1, longEdge / max(image.size.width, image.size.height))
-        let size = CGSize(width: image.size.width * scale, height: image.size.height * scale)
-        let format = UIGraphicsImageRendererFormat()
-        format.scale = 1
-        let resized = UIGraphicsImageRenderer(size: size, format: format).image { _ in
-            image.draw(in: CGRect(origin: .zero, size: size))
-        }
-        return resized.jpegData(compressionQuality: 0.8)
-        #else
-        guard let image = NSImage(data: data),
-              let cg = image.cgImage(forProposedRect: nil, context: nil, hints: nil),
-              cg.width > 0, cg.height > 0 else { return nil }
-        let scale = min(1, longEdge / CGFloat(max(cg.width, cg.height)))
-        let width = Int(CGFloat(cg.width) * scale), height = Int(CGFloat(cg.height) * scale)
-        guard let context = CGContext(data: nil, width: width, height: height, bitsPerComponent: 8, bytesPerRow: 0,
-                                      space: CGColorSpaceCreateDeviceRGB(),
-                                      bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue) else { return nil }
-        context.interpolationQuality = .high
-        context.draw(cg, in: CGRect(x: 0, y: 0, width: width, height: height))
-        guard let small = context.makeImage() else { return nil }
-        return NSBitmapImageRep(cgImage: small).representation(using: .jpeg, properties: [.compressionFactor: 0.8])
-        #endif
+    ///
+    /// 원본을 통째로 풀지 않는다. 예전에는 `UIImage(data:)` 로 다 푼 뒤 다시 그렸는데, 48MP 사진
+    /// 한 장이 풀면 190MB 쯤 된다. 여러 장을 고르거나 가져오기에서 연달아 줄이면 메모리가 차 앱이
+    /// 꺼졌다. ImageIO 는 처음부터 1600 크기로만 푼다(원본보다 키우지는 않는다). 방향(EXIF)도
+    /// 여기서 바로 세운다.
+    ///
+    /// 한 장에 수십 ms 가 걸린다. 부르는 쪽은 메인 스레드 밖에서 부른다.
+    nonisolated static func jpeg(_ data: Data) -> Data? {
+        guard !data.isEmpty,
+              let source = CGImageSourceCreateWithData(data as CFData, [kCGImageSourceShouldCache: false] as CFDictionary),
+              let small = CGImageSourceCreateThumbnailAtIndex(source, 0, [
+                  kCGImageSourceCreateThumbnailFromImageAlways: true,
+                  kCGImageSourceCreateThumbnailWithTransform: true,
+                  kCGImageSourceShouldCacheImmediately: true,
+                  kCGImageSourceThumbnailMaxPixelSize: Int(longEdge)
+              ] as CFDictionary),
+              // 읽히기는 했는데 크기가 0 인 그림이 있다. 그대로 가면 0×0 으로 그리다 죽는다.
+              small.width > 0, small.height > 0 else { return nil }
+        let output = NSMutableData()
+        guard let destination = CGImageDestinationCreateWithData(
+            output as CFMutableData, UTType.jpeg.identifier as CFString, 1, nil
+        ) else { return nil }
+        CGImageDestinationAddImage(destination, small,
+                                   [kCGImageDestinationLossyCompressionQuality: 0.8] as CFDictionary)
+        guard CGImageDestinationFinalize(destination) else { return nil }
+        return output as Data
     }
 
     static func image(_ data: Data?) -> Image? {
@@ -106,6 +107,8 @@ struct RecordPhotosView: View {
     @Query private var photos: [RecordPhoto]
     @State private var picked: [PhotosPickerItem] = []
     @State private var viewing: ViewedPhoto?
+    /// 고른 사진 중 읽지 못한 장 수. 0 이 아니면 알린다.
+    @State private var unreadablePhotos = 0
 
     init(recordID: String, editable: Bool = false) {
         self.recordID = recordID
@@ -129,6 +132,13 @@ struct RecordPhotosView: View {
             .onChange(of: picked) { _, items in add(items) }
             .sheet(item: $viewing) { photo in
                 PhotoViewer(photo: photo)
+            }
+            .alert(
+                Text("사진 \(unreadablePhotos)장을 읽지 못했어요"),
+                isPresented: Binding(get: { unreadablePhotos > 0 }, set: { if !$0 { unreadablePhotos = 0 } })
+            ) {
+            } message: {
+                Text("사진이 iCloud 에만 있거나 읽을 수 없는 형식일 수 있어요. 잠시 뒤 다시 골라 주세요.")
             }
         }
     }
@@ -192,11 +202,23 @@ struct RecordPhotosView: View {
         guard !items.isEmpty else { return }
         picked = []
         Task {
+            var unreadable = 0
             for item in items {
-                guard let raw = try? await item.loadTransferable(type: Data.self),
-                      let data = PhotoShrinker.jpeg(raw) else { continue }
+                guard let raw = try? await item.loadTransferable(type: Data.self) else {
+                    unreadable += 1
+                    continue
+                }
+                // 줄이기는 메인 밖에서. 여러 장을 고르면 그동안 화면이 멈춘다.
+                let shrunk = await Task.detached(priority: .userInitiated) { PhotoShrinker.jpeg(raw) }.value
+                guard let data = shrunk else {
+                    unreadable += 1
+                    continue
+                }
                 modelContext.insert(RecordPhoto(recordID: recordID, data: data))
             }
+            // 붙인 사진도 적은 것이다. 자동 저장을 기다리다 앱이 꺼지면 사라진다.
+            modelContext.saveNow()
+            if unreadable > 0 { unreadablePhotos = unreadable }
         }
     }
 }

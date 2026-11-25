@@ -30,6 +30,45 @@ enum AppCommand: Equatable {
     case talk, addGoal, goals, lookBack, records, settings
 }
 
+// MARK: - 인텐트가 쓰는 저장소
+
+/// 인텐트에 넘기는 저장소. 앱이 켜질 때 저장소를 열지 못했으면 `container` 가 비어 있다.
+///
+/// `ModelContainer` 를 바로 `@Dependency` 로 넘기면, 저장소를 못 연 날에는 넘길 것이 없어
+/// 인텐트가 의존성을 읽는 순간 앱이 죽는다. 비어 있을 수 있는 상자로 감싸 늘 넘긴다.
+final class IntentStore: Sendable {
+    let container: ModelContainer?
+    /// 이번 실행이 임시(메모리) 저장소로 열렸다(→ StoreFallback). 남겨도 앱이 꺼지면 사라진다.
+    let isTemporary: Bool
+
+    init(container: ModelContainer?, isTemporary: Bool) {
+        self.container = container
+        self.isTemporary = isTemporary
+    }
+
+    /// 읽기용. 저장소가 없으면 사용자에게 보일 말로 던진다.
+    func readable() throws -> ModelContainer {
+        guard let container else { throw IntentStoreError.unavailable }
+        return container
+    }
+
+    /// 쓰기용. 임시 저장소면 남겨도 사라지니, 남겼다고 답하지 않고 던진다.
+    func writable() throws -> ModelContainer {
+        guard let container, !isTemporary else { throw IntentStoreError.unavailable }
+        return container
+    }
+}
+
+/// Siri · 단축어에 그대로 읽히는 말.
+enum IntentStoreError: Error, CustomLocalizedStringResourceConvertible {
+    case unavailable
+
+    var localizedStringResource: LocalizedStringResource {
+        LocalizedStringResource("지금은 기록을 저장할 수 없어요. 모찌모 앱을 열어 확인해 주세요.",
+                                comment: "Siri: the app's data store could not be opened, so nothing can be saved now")
+    }
+}
+
 struct StepGoalEntity: AppEntity {
     static let typeDisplayRepresentation = TypeDisplayRepresentation(
         name: LocalizedStringResource("목표", comment: "Siri: one small goal")
@@ -45,9 +84,9 @@ struct StepGoalEntity: AppEntity {
 extension StepGoalEntity: IndexedEntity {}
 
 struct StepGoalQuery: EntityStringQuery {
-    @Dependency private var container: ModelContainer
+    @Dependency private var store: IntentStore
 
-    private func goals() -> [StepGoalEntity] { Self.goals(in: container) }
+    private func goals() throws -> [StepGoalEntity] { Self.goals(in: try store.readable()) }
 
     static func goals(in container: ModelContainer) -> [StepGoalEntity] {
         let all = (try? ModelContext(container).fetch(FetchDescriptor<SubGoalData>())) ?? []
@@ -66,14 +105,14 @@ struct StepGoalQuery: EntityStringQuery {
     }
 
     func entities(for identifiers: [String]) async throws -> [StepGoalEntity] {
-        goals().filter { identifiers.contains($0.id) }
+        try goals().filter { identifiers.contains($0.id) }
     }
 
     func entities(matching string: String) async throws -> [StepGoalEntity] {
-        goals().filter { $0.text.localizedCaseInsensitiveContains(string) }
+        try goals().filter { $0.text.localizedCaseInsensitiveContains(string) }
     }
 
-    func suggestedEntities() async throws -> [StepGoalEntity] { goals() }
+    func suggestedEntities() async throws -> [StepGoalEntity] { try goals() }
 }
 
 struct LogStepIntent: AppIntent {
@@ -92,10 +131,11 @@ struct LogStepIntent: AppIntent {
                default: true)
     var reached: Bool
 
-    @Dependency private var container: ModelContainer
+    @Dependency private var store: IntentStore
 
     func perform() async throws -> some IntentResult & ProvidesDialog {
-        let context = ModelContext(container)
+        // 저장소를 못 열었거나 임시 저장소면 남겼다고 답하지 않는다 — 앱이 꺼지면 사라진다.
+        let context = ModelContext(try store.writable())
         context.insert(JournalData(
             id: UUID().uuidString,
             date: Date(),

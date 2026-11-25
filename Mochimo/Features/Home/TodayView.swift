@@ -51,6 +51,9 @@ struct TodayView: View {
     @State private var isShowingGoals = false
     /// 꿈을 찾아서가 옮겨 보낸 것. 있으면 가져올지 묻는다 (→ DreamImport.swift).
     @State private var dreamTransfer: DreamTransfer?
+    /// 꿈을 찾아서에서 온 파일을 읽지 못했다는 알림.
+    @State private var isShowingUnreadableDreams = false
+    @MainActor private static var didReportUnreadableDreams = false
     @Environment(\.scenePhase) private var scenePhase
     #if DEBUG
     @State private var isShowingDebugPaywall = false
@@ -211,6 +214,10 @@ struct TodayView: View {
                 }
                 .arabicLayout()
             }
+        }
+        .alert("꿈을 찾아서에서 온 파일을 읽지 못했어요", isPresented: $isShowingUnreadableDreams) {
+        } message: {
+            Text("파일은 그대로 두었어요. 두 앱을 모두 최신으로 올린 뒤, 꿈을 찾아서에서 다시 옮겨 주세요.")
         }
         #if DEBUG
         .task { await openScreenshotScene() }
@@ -497,15 +504,25 @@ struct TodayView: View {
         #if DEBUG
         // 확인용: `-debug.importDreams YES` 면 묻지 않고 가져온다.
         if UserDefaults.standard.bool(forKey: "debug.importDreams"), let transfer = DreamImport.pending() {
-            if DreamImport.run(transfer, into: modelContext) != nil { DreamImport.discard() }
+            if DreamImport.run(transfer, into: modelContext) != nil { DreamImport.discardAfterImport() }
             return
         }
         #endif
         Task {
-            let transfer = await DreamImport.pendingInBackground()
+            let pending = await DreamImport.pendingInBackground()
             // 읽는 사이 대화가 열렸거나 이미 묻고 있으면 끼어들지 않는다.
             guard dreamTransfer == nil, conversation == nil else { return }
-            dreamTransfer = transfer
+            switch pending {
+            case .transfer(let transfer):
+                dreamTransfer = transfer
+            case .unreadable:
+                // 앞으로 올 때마다 다시 읽으니, 이번 실행에 한 번만 알린다.
+                guard !Self.didReportUnreadableDreams else { return }
+                Self.didReportUnreadableDreams = true
+                isShowingUnreadableDreams = true
+            case nil:
+                break
+            }
         }
     }
 

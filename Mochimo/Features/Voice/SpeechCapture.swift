@@ -73,6 +73,9 @@ final class SpeechCapture {
     }
     private let audioEngine = AVAudioEngine()
     private var analyzer: SpeechAnalyzer?
+    /// `analyzer` 를 실제로 켰는가(`start(inputSequence:)` 가 끝났는가). 켜지 않은 분석기에
+    /// '끝까지 확정하고 마치기' 를 부르면 돌아오지 않을 수 있어, 그때는 바로 취소한다.
+    private var analyzerStarted = false
     private var transcriber: SpeechTranscriber?
     private var inputContinuation: AsyncStream<AnalyzerInput>.Continuation?
     private var resultsTask: Task<Void, Never>?
@@ -127,6 +130,9 @@ final class SpeechCapture {
         inputContinuation = nil
         resultsTask?.cancel()
         resultsTask = nil
+        // 켠 분석기를 그냥 놓으면 모델을 쥔 채 남는다. 확정할 말은 없으니 바로 끝낸다.
+        if analyzerStarted { await analyzer?.cancelAndFinishNow() }
+        analyzerStarted = false
         analyzer = nil
         transcriber = nil
         if AudioSessionQueue.isRecording {
@@ -159,7 +165,14 @@ final class SpeechCapture {
         inputContinuation?.finish()
         inputContinuation = nil
 
-        try? await analyzer?.finalizeAndFinishThroughEndOfInput()
+        if analyzerStarted {
+            try? await analyzer?.finalizeAndFinishThroughEndOfInput()
+        } else {
+            // 준비 중에 멈췄다 — 분석기는 아직 켜지지 않았다. 켜지 않은 분석기에 확정을 부르면
+            // 돌아오지 않아 `.finishing` 에 갇힐 수 있다. 확정할 말도 없으니 바로 끝낸다.
+            await analyzer?.cancelAndFinishNow()
+        }
+        analyzerStarted = false
         resultsTask?.cancel()
         resultsTask = nil
         analyzer = nil
@@ -239,6 +252,7 @@ final class SpeechCapture {
 
         let analyzer = SpeechAnalyzer(modules: [transcriber])
         self.analyzer = analyzer
+        analyzerStarted = false
 
         let (stream, continuation) = AsyncStream<AnalyzerInput>.makeStream()
         inputContinuation = continuation
@@ -260,8 +274,12 @@ final class SpeechCapture {
                 try await analyzer.start(inputSequence: stream)
                 // 준비하는 사이 사용자가 멈췄거나 다시 시작했다. 여기서 마이크를 켜면 화면은
                 // 멈춘 줄 아는데 탭이 걸린 채 남고, 다음에 시작할 때 같은 버스에 탭을 또 걸다가
-                // 예외로 앱이 죽는다.
-                guard self.generation == session else { return }
+                // 예외로 앱이 죽는다. 멈추기는 이 분석기가 안 켜진 줄 알고 지나갔으니 여기서 끈다.
+                guard self.generation == session else {
+                    await analyzer.cancelAndFinishNow()
+                    return
+                }
+                self.analyzerStarted = true
                 try self.startTap()
             } catch {
                 guard self.generation == session else { return }

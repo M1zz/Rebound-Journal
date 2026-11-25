@@ -20520,6 +20520,154 @@
         }
       }
     },
+    "꿈을 찾아서에서 온 파일을 읽지 못했어요" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّرت قراءة الملف القادم من بحثًا عن الحلم"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soubor z Dream Seeker se nepodařilo přečíst"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filen fra Dream Seeker kunne ikke læses"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Datei aus Dream Seeker konnte nicht gelesen werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατή η ανάγνωση του αρχείου από το Dream Seeker"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't read the file from Dream Seeker"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't read the file from Dream Seeker"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo leer el archivo de Dream Seeker"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dream Seekerin tiedostoa ei voitu lukea"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de lire le fichier venant de Dream Seeker"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File dari Dream Seeker tidak bisa dibaca"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile leggere il file da Dream Seeker"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夢をさがしてから届いたファイルを読み込めませんでした"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke lese filen fra Dream Seeker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het bestand uit Dream Seeker kon niet worden gelezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się odczytać pliku z Dream Seeker"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível ler o arquivo do Dream Seeker"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось прочитать файл из Dream Seeker"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att läsa filen från Dream Seeker"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านไฟล์จาก Dream Seeker ไม่ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dream Seeker'dan gelen dosya okunamadı"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không đọc được tệp từ Dream Seeker"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法读取来自寻梦的文件"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法讀取來自尋夢的檔案"
+          }
+        }
+      }
+    },
     "끔찍한" : {
       "localizations" : {
         "ar" : {
@@ -39240,6 +39388,302 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "使用統計（開發者）"
+          }
+        }
+      }
+    },
+    "사진 %lld장을 읽지 못했어요" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّرت قراءة الصور: %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nepodařilo se načíst fotky: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, der ikke kunne læses: %lld"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht lesbare Fotos: %lld"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογραφίες που δεν διαβάστηκαν: %lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos that couldn't be read: %lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos that couldn't be read: %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos que no se pudieron leer: %lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvia, joita ei voitu lukea: %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos illisibles : %lld"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ada %lld foto yang tidak bisa dibaca"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto non leggibili: %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld枚の写真を読み込めませんでした"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder som ikke kunne leses: %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto's die niet konden worden gelezen: %lld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się odczytać zdjęć: %lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos que não puderam ser lidas: %lld"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось прочитать фото: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder som inte kunde läsas: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านรูปภาพไม่ได้ %lld รูป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okunamayan fotoğraf: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không đọc được %lld ảnh"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有 %lld 张照片无法读取"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有 %lld 張照片無法讀取"
+          }
+        }
+      }
+    },
+    "사진이 iCloud 에만 있거나 읽을 수 없는 형식일 수 있어요. 잠시 뒤 다시 골라 주세요." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قد تكون الصورة محفوظة في iCloud فقط أو بتنسيق غير مدعوم. حاول اختيارها مرة أخرى بعد قليل."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotka může být jen na iCloudu nebo v nepodporovaném formátu. Zkus ji za chvíli vybrat znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoet ligger måske kun på iCloud eller har et format, der ikke kan læses. Prøv at vælge det igen om lidt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Foto liegt vielleicht nur in iCloud oder hat ein nicht lesbares Format. Wähle es gleich noch einmal aus."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η φωτογραφία ίσως βρίσκεται μόνο στο iCloud ή έχει μορφή που δεν διαβάζεται. Δοκίμασε να την επιλέξεις ξανά σε λίγο."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The photo may be stored only in iCloud or in a format that can't be read. Try choosing it again in a moment."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The photo may be stored only in iCloud or in a format that can't be read. Try choosing it again in a moment."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puede que la foto solo esté en iCloud o tenga un formato que no se puede leer. Vuelve a elegirla en un momento."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuva voi olla vain iCloudissa tai muodossa, jota ei voi lukea. Yritä valita se hetken päästä uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La photo n'est peut-être que dans iCloud ou dans un format illisible. Réessaie de la choisir dans un instant."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto mungkin hanya ada di iCloud atau formatnya tidak bisa dibaca. Coba pilih lagi sebentar lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La foto potrebbe essere solo su iCloud o in un formato non leggibile. Riprova a sceglierla tra poco."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真がiCloudにしかないか、読み込めない形式の可能性があります。少し待ってからもう一度選んでください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildet ligger kanskje bare i iCloud eller har et format som ikke kan leses. Prøv å velge det igjen om litt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De foto staat misschien alleen in iCloud of heeft een onleesbaar formaat. Kies hem zo meteen opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdjęcie może być tylko w iCloud albo w nieczytelnym formacie. Spróbuj wybrać je ponownie za chwilę."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A foto pode estar só no iCloud ou em um formato que não dá para ler. Tente escolher de novo daqui a pouco."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможно, фото хранится только в iCloud или в нечитаемом формате. Попробуйте выбрать его ещё раз чуть позже."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilden finns kanske bara i iCloud eller har ett format som inte kan läsas. Försök välja den igen om en stund."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปภาพอาจอยู่ใน iCloud เท่านั้นหรือเป็นรูปแบบที่อ่านไม่ได้ ลองเลือกใหม่อีกครั้งในอีกสักครู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraf yalnızca iCloud'da ya da okunamayan bir biçimde olabilir. Biraz sonra yeniden seçmeyi dene."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh có thể chỉ nằm trên iCloud hoặc ở định dạng không đọc được. Hãy thử chọn lại sau giây lát."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片可能只存储在 iCloud 中，或格式无法读取。请稍后重新选择。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片可能只儲存在 iCloud 中，或格式無法讀取。請稍後重新選擇。"
           }
         }
       }
@@ -65816,6 +66260,155 @@
         }
       }
     },
+    "지금은 기록을 저장할 수 없어요. 모찌모 앱을 열어 확인해 주세요." : {
+      "comment" : "Siri: the app's data store could not be opened, so nothing can be saved now",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يمكن حفظ السجلات الآن. افتح تطبيق Mochimo للتحقق."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záznamy teď nelze uložit. Otevři aplikaci Mochimo a zkontroluj to."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optegnelser kan ikke gemmes lige nu. Åbn Mochimo-appen for at tjekke."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einträge können gerade nicht gespeichert werden. Öffne die Mochimo-App, um nachzusehen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν είναι δυνατή η αποθήκευση σημειώσεων τώρα. Άνοιξε την εφαρμογή Mochimo για να το ελέγξεις."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't save records right now. Open the Mochimo app to check."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't save records right now. Open the Mochimo app to check."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora no se pueden guardar registros. Abre la app Mochimo para revisarlo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkintöjä ei voi tallentaa juuri nyt. Avaa Mochimo-sovellus ja tarkista."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d'enregistrer pour le moment. Ouvre l'app Mochimo pour vérifier."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan tidak bisa disimpan sekarang. Buka aplikasi Mochimo untuk memeriksa."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al momento non è possibile salvare. Apri l'app Mochimo per controllare."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今は記録を保存できません。Mochimoアプリを開いて確認してください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan ikke lagre notater akkurat nå. Åpne Mochimo-appen for å sjekke."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities kunnen nu niet worden bewaard. Open de Mochimo-app om het te controleren."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie można teraz zapisać wpisów. Otwórz aplikację Mochimo, aby sprawdzić."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não dá para salvar registros agora. Abra o app Mochimo para verificar."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сейчас записи нельзя сохранить. Откройте приложение Mochimo, чтобы проверить."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det går inte att spara anteckningar just nu. Öppna Mochimo-appen och kontrollera."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอนนี้บันทึกไม่ได้ เปิดแอป Mochimo เพื่อตรวจสอบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlar şu anda kaydedilemiyor. Kontrol etmek için Mochimo uygulamasını aç."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện không thể lưu ghi chép. Hãy mở ứng dụng Mochimo để kiểm tra."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在无法保存记录。请打开 Mochimo 应用查看。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在無法儲存記錄。請打開 Mochimo App 查看。"
+          }
+        }
+      }
+    },
     "지금은 듣기가 어려워요. 적어주셔도 괜찮아요." : {
       "localizations" : {
         "ar" : {
@@ -73556,6 +74149,154 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "想搞破壞"
+          }
+        }
+      }
+    },
+    "파일은 그대로 두었어요. 두 앱을 모두 최신으로 올린 뒤, 꿈을 찾아서에서 다시 옮겨 주세요." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تركنا الملف كما هو. حدّث التطبيقين إلى أحدث إصدار، ثم انقل البيانات مجددًا من بحثًا عن الحلم."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soubor zůstal na místě. Aktualizuj obě aplikace a pak přesun zopakuj z Dream Seeker."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filen er ikke rørt. Opdater begge apps, og flyt så igen fra Dream Seeker."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Datei bleibt erhalten. Aktualisiere beide Apps und übertrage dann erneut aus Dream Seeker."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το αρχείο έμεινε ως έχει. Ενημέρωσε και τις δύο εφαρμογές και κάνε ξανά τη μεταφορά από το Dream Seeker."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The file was left as is. Update both apps, then move your data again from Dream Seeker."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The file was left as is. Update both apps, then move your data again from Dream Seeker."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El archivo sigue ahí. Actualiza ambas apps y vuelve a pasar los datos desde Dream Seeker."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiedosto jätettiin ennalleen. Päivitä molemmat sovellukset ja siirrä tiedot uudelleen Dream Seekeristä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le fichier a été conservé. Mets à jour les deux apps, puis refais le transfert depuis Dream Seeker."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File dibiarkan apa adanya. Perbarui kedua aplikasi, lalu pindahkan lagi dari Dream Seeker."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il file è stato lasciato com'è. Aggiorna entrambe le app, poi ripeti il trasferimento da Dream Seeker."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルはそのまま残しています。両方のアプリを最新にしてから、夢をさがしてからもう一度移してください。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filen ble latt være. Oppdater begge appene, og flytt deretter på nytt fra Dream Seeker."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het bestand is bewaard. Werk beide apps bij en zet daarna opnieuw over vanuit Dream Seeker."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plik pozostał bez zmian. Zaktualizuj obie aplikacje, a potem przenieś dane ponownie z Dream Seeker."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O arquivo foi mantido. Atualize os dois apps e transfira de novo pelo Dream Seeker."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Файл оставлен как есть. Обновите оба приложения и снова перенесите данные из Dream Seeker."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filen lämnades kvar. Uppdatera båda apparna och flytta sedan igen från Dream Seeker."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บไฟล์ไว้ตามเดิมแล้ว อัปเดตทั้งสองแอปเป็นเวอร์ชันล่าสุด แล้วย้ายใหม่จาก Dream Seeker"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosya olduğu gibi bırakıldı. İki uygulamayı da güncelle, sonra Dream Seeker'dan yeniden taşı."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tệp vẫn được giữ nguyên. Hãy cập nhật cả hai ứng dụng rồi chuyển lại từ Dream Seeker."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件已原样保留。请将两个应用都更新到最新版本，然后从寻梦重新迁移。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檔案已原樣保留。請將兩個 App 都更新到最新版本，然後從尋夢重新遷移。"
           }
         }
       }
