@@ -267,6 +267,7 @@ struct AddGoalView: View {
                 lifeGoalID: stone?.lifeGoalID,
                 obstacleID: stone?.obstacleID
             ))
+            modelContext.saveNow()
             UsageReporting.log(.goalCreated)
             dismiss()
         }

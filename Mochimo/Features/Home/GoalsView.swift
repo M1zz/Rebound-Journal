@@ -105,7 +105,7 @@ struct GoalsView: View {
             }
             .arabicLayout()
         }
-        .sheet(item: $openLifeGoal, onDismiss: {
+        .sheet(item: $openLifeGoal.droppingGone(), onDismiss: {
             if let pendingTalk {
                 self.pendingTalk = nil
                 dismiss()
@@ -144,7 +144,8 @@ struct GoalsView: View {
             presenting: pendingRelease
         ) { goal in
             Button(String(localized: "내려놓기"), role: .destructive) {
-                modelContext.delete(goal)
+                // 확인창이 떠 있는 사이 이미 지워진 목표면 다시 건드리지 않는다.
+                if !goal.isGone { modelContext.delete(goal) }
                 pendingRelease = nil
             }
             Button(String(localized: "취소"), role: .cancel) { }
@@ -469,6 +470,8 @@ struct GoalsView: View {
     private func commitRename() {
         guard let goal = renaming else { return }
         defer { renaming = nil }
+        // 이름을 적는 사이 지워진 목표면(다른 창 · 동기화) 읽지 않는다. 읽으면 앱이 죽는다.
+        guard !goal.isGone else { return }
 
         let old = goal.goalText ?? ""
         let new = newName.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -484,5 +487,7 @@ struct GoalsView: View {
             if journal.subGoal == old { journal.subGoal = new }
             if journal.mainGoal == old { journal.mainGoal = new }
         }
+        // 목표와 지난 기록의 이름이 반만 바뀐 채 꺼지면 기록이 목표와 끊긴다. 한 번에 내린다.
+        modelContext.saveNow()
     }
 }

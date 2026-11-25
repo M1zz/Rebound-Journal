@@ -134,6 +134,12 @@ struct ConversationView: View {
         .onChange(of: engine.isFinished) { _, finished in
             if finished { engine.persist(in: modelContext) }
         }
+        // 듣는 중에 화면이 사라지면(맥에서 창을 닫을 때 등) 마이크와 녹음용 세션을 놓는다.
+        // 쥔 채 두면 마이크가 켜진 채 남고 조약돌 목소리도 계속 비켜서 있다. 듣는 중이 아니면 아무 일도 없다.
+        .onDisappear {
+            let speech = speech
+            Task { await speech.stop() }
+        }
         .confirmationDialog(
             Text(Phrasing.say("여기까지 할까요?", "여기까지 할까?")),
             isPresented: $isConfirmingLeave,

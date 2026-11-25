@@ -75,6 +75,12 @@ struct LifeGoalView: View {
         ZStack {
             PebbleTheme.canvas.ignoresSafeArea()
 
+            // 이 목표가 지워졌으면(여기서 '지우기' · 다른 창 · iCloud 동기화) 읽지 않고 닫는다.
+            // 시트가 내려가는 동안에도 화면은 다시 그려지는데, 그때 지워진 모델의 속성을 읽으면
+            // 앱이 죽는다 (→ PersistentModel.isGone).
+            if lifeGoal.isGone {
+                Color.clear.onAppear { dismiss() }
+            } else {
             VStack(spacing: 0) {
                 header
 
@@ -94,6 +100,7 @@ struct LifeGoalView: View {
                 }
                 .scrollIndicators(.hidden)
             }
+            }
         }
         .presentationDragIndicator(.visible)
         .sheet(item: Binding(
@@ -107,7 +114,7 @@ struct LifeGoalView: View {
             LifeNoteSheet(lifeGoalTitle: title)
                 .arabicLayout()
         }
-        .sheet(item: $editingRecord) { record in
+        .sheet(item: $editingRecord.droppingGone()) { record in
             EditRecordView(record: record)
                 .arabicLayout()
         }
@@ -137,6 +144,7 @@ struct LifeGoalView: View {
             titleVisibility: .visible
         ) {
             Button(Phrasing.say("네, 이뤘어요", "응, 이뤘어")) {
+                guard !lifeGoal.isGone else { return }
                 withAnimation { lifeGoal.reachedDate = Date() }
                 UsageReporting.log(.lifeGoalReached)
             }
@@ -266,6 +274,7 @@ struct LifeGoalView: View {
                 ]) { choice in
                     if choice.id == "save" && !draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
                         lifeGoal.setAnswer(question, draft)
+                        modelContext.saveNow()
                     } else if choice.id == "skip" {
                         skipped.insert(question)
                     }
@@ -622,6 +631,11 @@ struct LifeGoalView: View {
 
     private func commitClear() {
         guard let clearing else { return }
+        // 넘은 얘기를 적는 사이 지워진 장애물이면 건드리지 않는다.
+        guard !clearing.isGone else {
+            self.clearing = nil
+            return
+        }
         let note = clearedNote.trimmingCharacters(in: .whitespacesAndNewlines)
         withAnimation {
             clearing.clearedDate = Date()
@@ -631,6 +645,7 @@ struct LifeGoalView: View {
     }
 
     private func commitRename() {
+        guard !lifeGoal.isGone else { return }
         let new = newName.trimmingCharacters(in: .whitespacesAndNewlines)
         let old = title
         guard !new.isEmpty, new != old else { return }
@@ -638,9 +653,12 @@ struct LifeGoalView: View {
         for journal in journals where journal.mainGoal == old {
             journal.mainGoal = new
         }
+        // 목표와 지난 기록의 이름이 반만 바뀐 채 꺼지면 기록이 목표와 끊긴다. 한 번에 내린다.
+        modelContext.saveNow()
     }
 
     private func deleteLifeGoal() {
+        guard !lifeGoal.isGone else { dismiss(); return }
         for obstacle in obstacles { modelContext.delete(obstacle) }
         for stone in stones {
             stone.lifeGoalID = nil
@@ -754,6 +772,8 @@ struct LifeNoteSheet: View {
             mainGoal: lifeGoalTitle
         ))
         saved = true
+        // 적은 글과 붙인 사진을 바로 디스크에 내린다.
+        modelContext.saveNow()
         dismiss()
     }
 }
@@ -830,6 +850,7 @@ struct AddLifeGoalView: View {
         guard !trimmed.isEmpty else { return }
         let life = LifeGoalData(title: trimmed)
         modelContext.insert(life)
+        modelContext.saveNow()
         UsageReporting.log(.lifeGoalCreated)
         dismiss()
         onCreated(life)

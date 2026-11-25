@@ -182,6 +182,8 @@ struct QuickNoteView: View {
             // 미해결 상태는 닿지 못한 기록에만 둔다(기존 스키마 규약).
             isResolved: reached ? nil : false
         ))
+        // 메뉴 막대에서는 적자마자 '끝내기' 를 누르기 쉽다. 자동 저장을 기다리지 않고 바로 내린다.
+        modelContext.saveNow()
         UsageReporting.logShot(isGoalIn: reached, resolvedRebound: false)
         note = ""
         withAnimation(.easeOut(duration: 0.2)) { justSaved = true }

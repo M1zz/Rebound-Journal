@@ -173,6 +173,20 @@ enum StoreFallback {
     /// 이번 실행이 임시(메모리) 저장소로 열렸는가
     private(set) static var isActive = false
 
+    /// 방금 적은 것을 디스크에 내리지 못했다는 알림. 맨 바깥 화면이 받아 한 번 알린다.
+    static let saveFailed = Notification.Name("mochimo.store.saveFailed")
+    /// 저장 실패는 이번 실행에 한 번만 알린다. 디스크가 찼으면 적을 때마다 실패하는데,
+    /// 그때마다 창을 띄우면 쓰던 글을 가로막는다.
+    @MainActor private static var didReportSaveFailure = false
+
+    @MainActor
+    static func reportSaveFailure(_ error: Error) {
+        print("⚠️ 기록을 저장하지 못했습니다: \(error)")
+        guard !didReportSaveFailure else { return }
+        didReportSaveFailure = true
+        NotificationCenter.default.post(name: saveFailed, object: nil)
+    }
+
     static func memoryContainer(schema: Schema, after error: Error) -> ModelContainer {
         isActive = true
         print("⚠️ 저장소를 열지 못해 이번 실행은 메모리에서 엽니다: \(error)")
@@ -182,7 +196,9 @@ enum StoreFallback {
                 configurations: ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none)
             )
         } catch {
-            // 메모리 저장소마저 안 되는 건 스키마 자체가 잘못된 것 — 개발 중에 바로 드러난다
+            // 메모리 저장소마저 안 되는 건 스키마 자체가 잘못된 것 — 개발 중에 바로 드러난다.
+            // 여기서 더 물러설 곳은 없다. 모든 화면이 이 모델들을 @Query 로 읽어서, 모델이 빠진
+            // 저장소를 건네면 첫 화면을 그리다 죽는다(같은 죽음이 한 박자 늦을 뿐이다).
             fatalError("메모리 저장소도 열지 못함: \(error)")
         }
     }
@@ -203,6 +219,58 @@ private struct StoreFallbackNotice: ViewModifier {
         } message: {
             Text("저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요.")
         }
+        // 적은 것을 디스크에 내리지 못했을 때도 같은 말로 알린다 (→ ModelContext.saveNow).
+        .onReceive(NotificationCenter.default.publisher(for: StoreFallback.saveFailed)) { _ in
+            isPresented = true
+        }
+    }
+}
+
+// MARK: - 적은 것을 바로 내리기 · 지워진 모델
+
+extension ModelContext {
+    /// 방금 적은 것을 바로 디스크에 내린다.
+    ///
+    /// 이 앱은 따로 저장을 부르지 않고 SwiftData 의 자동 저장에 맡겨 왔다. 자동 저장은 잠깐 뒤에
+    /// 돌아서, 그 사이 앱이 죽거나 꺼지면 방금 남긴 기록이 조용히 사라진다. 사용자가 적은 것은
+    /// 그 자리에서 내린다.
+    ///
+    /// 실패해도 바뀐 것은 컨텍스트에 남아 자동 저장이 다시 시도한다. 사용자에게는 한 번 알린다.
+    @MainActor @discardableResult
+    func saveNow() -> Bool {
+        guard hasChanges else { return true }
+        do {
+            try save()
+            return true
+        } catch {
+            StoreFallback.reportSaveFailure(error)
+            return false
+        }
+    }
+}
+
+extension PersistentModel {
+    /// 지워졌거나(이 화면 · 다른 창 · iCloud 동기화) 저장소에서 떨어져 나간 모델인지.
+    ///
+    /// 시트나 확인창이 모델을 쥐고 있는 사이 그 모델이 지워지고 저장까지 끝나면, 속성을 읽는
+    /// 순간 SwiftData 가 "backing data could no longer be found" 로 앱을 죽인다. 쥐고 있던
+    /// 모델을 읽거나 고치기 전에 이것부터 본다.
+    var isGone: Bool { isDeleted || modelContext == nil }
+}
+
+extension Binding {
+    /// `.sheet(item:)` 에 모델을 넘길 때 쓴다. 쥐고 있던 모델이 지워졌으면 없는 것으로 읽혀 시트가 닫힌다.
+    ///
+    /// 시트는 화면을 다시 그릴 때마다 `item.id` 를 읽는데, 이 앱의 모델은 `id` 가 저장된 속성이라
+    /// 지워진 모델이면 거기서 죽는다. 시트 안 화면이 스스로 닫기 전에 바깥에서 먼저 막는다.
+    func droppingGone<Model: PersistentModel>() -> Binding<Model?> where Value == Model? {
+        Binding(
+            get: {
+                guard let model = wrappedValue, !model.isGone else { return nil }
+                return model
+            },
+            set: { wrappedValue = $0 }
+        )
     }
 }
 

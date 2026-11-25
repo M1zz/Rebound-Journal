@@ -14,12 +14,25 @@ extension String {
         return formatter.date(from: self)
     }
     
+    /// 알림 시각("9:00 AM")을 읽는다.
+    ///
+    /// 적을 때는 기기 언어의 오전 · 오후 글자로 적힌다("9:00 오전"). 그런데 처음 값은 영어 "9:00 AM" 이라
+    /// 한국어 · 일본어 기기에서는 읽히지 않았고, 시각을 한 번도 안 바꾼 사람은 알림을 켜도 오지 않았다.
+    /// 기기 언어로 먼저 읽고, 안 되면 영어 표기와 24시간 표기로 읽는다(언어 · 지역을 바꾼 뒤에도 읽히게).
     var time: Date? {
-        date(format: "h:mm a")
+        if let date = date(format: "h:mm a") { return date }
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        for format in ["h:mm a", "H:mm"] {
+            formatter.dateFormat = format
+            if let date = formatter.date(from: self) { return date }
+        }
+        return nil
     }
-    
+
+    /// 알림을 걸 시 · 분. 끝내 못 읽으면 처음 값인 아침 9시로 본다 — 빈 값으로 걸면 알림이 영영 오지 않는다.
     var dateComponents: DateComponents {
-        guard let dateObject = time else { return DateComponents() }
+        guard let dateObject = time else { return DateComponents(hour: 9, minute: 0) }
         return Calendar.current.dateComponents([.hour, .minute], from: dateObject)
     }
 }

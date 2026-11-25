@@ -100,6 +100,12 @@ extension DataManager {
 
 extension DataManager {
 
+    /// 1.x 저장소가 열려 있고 `JournalEntry` 를 읽을 수 있는지.
+    static func canReadLegacyEntries(in container: NSPersistentContainer) -> Bool {
+        !container.persistentStoreCoordinator.persistentStores.isEmpty
+            && container.managedObjectModel.entitiesByName["JournalEntry"] != nil
+    }
+
     /// SwiftData에 아직 없는 CoreData 기록을 옮겨 온다.
     ///
     /// 앱을 열 때마다 불린다. id로 이미 옮긴 것을 걸러내므로 여러 번 불러도 겹치지 않는다.
@@ -132,6 +138,9 @@ extension DataManager {
     }
 
     private func coreDataEntriesNotYetMigrated(context: NSManagedObjectContext, modelContext: ModelContext) -> [JournalEntry] {
+        // 옛 저장소를 열지 못했으면(위 `loadPersistentStores` 실패) 옮길 것이 없다. 모델에 엔티티가
+        // 없는 채로 fetch 를 돌리면 Swift 오류가 아니라 NSException 이 나와 앱이 켜지다 죽는다.
+        guard Self.canReadLegacyEntries(in: container) else { return [] }
         do {
             let migrated = Set(try modelContext.fetch(FetchDescriptor<JournalData>()).compactMap(\.id))
             let entries = try context.fetch(NSFetchRequest<JournalEntry>(entityName: "JournalEntry"))

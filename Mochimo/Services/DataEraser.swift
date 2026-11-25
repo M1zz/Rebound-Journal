@@ -53,6 +53,8 @@ enum DataEraser {
 
     /// 1.x CoreData 기록. 이관이 다시 가져가지 못하게 원본을 비운다.
     private static func eraseLegacyStore(_ container: NSPersistentContainer) throws {
+        // 옛 저장소가 열리지 않았으면 비울 것도, 이관이 다시 가져갈 것도 없다 (→ DataManager).
+        guard DataManager.canReadLegacyEntries(in: container) else { return }
         let context = container.viewContext
         let entries = try context.fetch(NSFetchRequest<NSManagedObject>(entityName: "JournalEntry"))
         guard !entries.isEmpty else { return }

@@ -350,30 +350,71 @@ final class PebbleVoice {
             utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
             utterance.rate = AVSpeechUtteranceDefaultSpeechRate
 
-            var chunks: [AVAudioPCMBuffer] = []
-            var converter: AVAudioConverter?
-            var finished = false
+            let collector = GrainCollector(target: target, continuation: continuation)
+            synthesizer.write(utterance) { buffer in collector.receive(buffer) }
 
-            synthesizer.write(utterance) { buffer in
-                guard !finished else { return }
-                guard let pcm = buffer as? AVAudioPCMBuffer else { return }
-
-                if pcm.frameLength == 0 {
-                    // 빈 버퍼가 끝을 알린다.
-                    finished = true
-                    continuation.resume(returning: join(chunks, format: target))
-                    return
-                }
-
-                // write()는 보통 Int16 PCM을 준다. float으로 바꿔 두지 않으면
-                // floatChannelData가 nil이라 한 조각도 못 쌓는다.
-                if converter == nil, pcm.format != target {
-                    converter = AVAudioConverter(from: pcm.format, to: target)
-                }
-                if let converted = convert(pcm, using: converter, to: target) {
-                    chunks.append(converted)
-                }
+            // 콜백이 영영 오지 않는 기기가 있다(목소리가 내려받아지지 않았거나 합성기가 응답하지 않을 때).
+            // 그대로 두면 이 기다림이 끝나지 않아 알갱이 준비가 통째로 멈춘다. 잠깐 기다리고,
+            // 그때까지 모인 것으로 마무리한다. 없으면 폴백 톤이 나간다.
+            DispatchQueue.global(qos: .utility).asyncAfter(deadline: .now() + Self.synthesisTimeout) {
+                collector.finish()
             }
+        }
+    }
+
+    /// 음절 하나를 합성하는 데 기다려 주는 시간. 보통은 수십 밀리초면 끝난다.
+    private nonisolated static let synthesisTimeout: TimeInterval = 4
+
+    /// TTS 콜백이 주는 조각을 모으고, 기다리던 쪽을 **딱 한 번** 깨운다.
+    ///
+    /// `write()` 의 콜백은 합성기의 스레드에서 오고, 어느 스레드인지 정해져 있지 않다. 예전에는
+    /// 끝났는지를 잠그지 않은 변수 하나로 봤다. 끝 신호(빈 버퍼)가 두 번 오거나 두 스레드에서
+    /// 겹쳐 오면 continuation 을 두 번 깨우게 되고, 그건 곧바로 앱이 죽는 길이다. 조각 배열도
+    /// 같은 틈으로 동시에 고쳐졌다. 여기서는 전부 자물쇠 하나 안에서 한다.
+    private final class GrainCollector: @unchecked Sendable {
+        private let lock = NSLock()
+        private let target: AVAudioFormat
+        private var chunks: [AVAudioPCMBuffer] = []
+        private var converter: AVAudioConverter?
+        private var continuation: CheckedContinuation<AVAudioPCMBuffer?, Never>?
+
+        init(target: AVAudioFormat, continuation: CheckedContinuation<AVAudioPCMBuffer?, Never>) {
+            self.target = target
+            self.continuation = continuation
+        }
+
+        func receive(_ buffer: AVAudioBuffer) {
+            guard let pcm = buffer as? AVAudioPCMBuffer else { return }
+            // 빈 버퍼가 끝을 알린다.
+            guard pcm.frameLength > 0 else {
+                finish()
+                return
+            }
+
+            lock.lock()
+            defer { lock.unlock() }
+            // 이미 깨웠으면(끝났거나 시간이 다 됐으면) 늦게 온 조각은 버린다.
+            guard continuation != nil else { return }
+
+            // write()는 보통 Int16 PCM을 준다. float으로 바꿔 두지 않으면
+            // floatChannelData가 nil이라 한 조각도 못 쌓는다.
+            if converter == nil, pcm.format != target {
+                converter = AVAudioConverter(from: pcm.format, to: target)
+            }
+            if let converted = PebbleVoice.convert(pcm, using: converter, to: target) {
+                chunks.append(converted)
+            }
+        }
+
+        /// 지금까지 모인 것으로 마무리한다. 여러 번 불려도 깨우는 것은 처음 한 번뿐이다.
+        func finish() {
+            lock.lock()
+            let waiting = continuation
+            continuation = nil
+            let collected = chunks
+            chunks = []
+            lock.unlock()
+            waiting?.resume(returning: PebbleVoice.join(collected, format: target))
         }
     }
 
@@ -412,6 +453,8 @@ final class PebbleVoice {
             return copy
         }
 
+        // 표본율이 0 인 형식이 오면 비율이 무한대가 되고, 그걸 정수로 바꾸는 순간 죽는다.
+        guard buffer.format.sampleRate > 0 else { return nil }
         let ratio = target.sampleRate / buffer.format.sampleRate
         let capacity = AVAudioFrameCount(Double(buffer.frameLength) * ratio) + 2_048
         guard let output = AVAudioPCMBuffer(pcmFormat: target, frameCapacity: capacity) else { return nil }

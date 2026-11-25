@@ -61,7 +61,7 @@ struct AllRecordsView: View {
                 }
             }
         }
-        .sheet(item: $editing) { record in
+        .sheet(item: $editing.droppingGone()) { record in
             EditRecordView(record: record)
                 .arabicLayout()
         }
@@ -85,6 +85,8 @@ struct AllRecordsView: View {
     }
 
     private func delete(_ record: JournalData) {
+        // 확인창을 띄워 둔 사이 이미 지워진 기록이면(다른 창 · 동기화) 다시 건드리지 않는다.
+        guard !record.isGone else { return }
         RecordPhotoCleanup.deletePhotos(of: record.id, in: modelContext)
         modelContext.delete(record)
     }

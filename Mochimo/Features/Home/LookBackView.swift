@@ -91,6 +91,11 @@ struct LookBackView: View {
     /// 향하던 곳을 바꾸는 건 실패가 아니다. 그때 남긴 이야기는 여전히 내 것이라
     /// 지나온 기록과 내보내기에 그대로 남는다.
     private func release(_ goal: SubGoalData) {
+        // 확인창이 떠 있는 사이 이미 지워진 목표면 읽지 않는다 (→ PersistentModel.isGone).
+        guard !goal.isGone else {
+            pendingRelease = nil
+            return
+        }
         if expandedGoal == goal.goalText { expandedGoal = nil }
         modelContext.delete(goal)
         pendingRelease = nil
@@ -262,7 +267,7 @@ struct LookBackView: View {
                     .buttonStyle(.plain)
                 }
             }
-            .sheet(item: $openLifeGoal, onDismiss: {
+            .sheet(item: $openLifeGoal.droppingGone(), onDismiss: {
                 if let pendingTalk {
                     self.pendingTalk = nil
                     onPickGoal(pendingTalk)

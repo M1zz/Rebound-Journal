@@ -33,6 +33,11 @@ struct EditRecordView: View {
         ZStack {
             PebbleTheme.canvas.ignoresSafeArea()
 
+            // 고치는 사이 이 기록이 지워졌으면(다른 창 · iCloud 동기화) 읽지 않고 닫는다.
+            // 지워진 모델의 속성을 읽으면 앱이 죽는다 (→ PersistentModel.isGone).
+            if record.isGone {
+                Color.clear.onAppear { dismiss() }
+            } else {
             VStack(spacing: 0) {
                 header
 
@@ -75,6 +80,7 @@ struct EditRecordView: View {
                 }
                 .padding(.horizontal, 22)
                 .padding(.bottom, 12)
+            }
             }
         }
         .onAppear(perform: load)
@@ -250,7 +256,7 @@ struct EditRecordView: View {
     // MARK: 읽고 쓰기
 
     private func load() {
-        guard !didLoad else { return }
+        guard !didLoad, !record.isGone else { return }
         didLoad = true
         reached = record.isGoalInUnwrapped
         review = record.review ?? ""
@@ -260,6 +266,10 @@ struct EditRecordView: View {
     }
 
     private func save() {
+        // 그사이 지워진 기록이면 고칠 것이 없다. 지워진 모델에 쓰면 앱이 죽는다.
+        guard !record.isGone else { return }
+        // 고친 글은 바로 디스크에 내린다. 자동 저장을 기다리다 앱이 꺼지면 고친 것이 사라진다.
+        defer { record.modelContext?.saveNow() }
         // 했다 · 못 했다를 묻지 않은 기록(삶의 목표에 남긴 것)은 그대로 비워 둔다.
         guard record.isGoalIn != nil else {
             record.review = trimmed(review)

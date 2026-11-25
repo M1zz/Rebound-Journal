@@ -383,5 +383,7 @@ final class ConversationEngine {
                 UsageReporting.log(.goalCreated)
             }
         }
+        // 대화 한 번을 통째로 남긴 자리다. 자동 저장을 기다리다 앱이 꺼지면 다 사라진다.
+        context.saveNow()
     }
 }

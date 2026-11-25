@@ -41,7 +41,8 @@ private extension Array where Element == JournalData {
 
             if journalDate == expectedDate {
                 streak += 1
-                expectedDate = calendar.date(byAdding: .day, value: -1, to: expectedDate)!
+                guard let previous = calendar.date(byAdding: .day, value: -1, to: expectedDate) else { break }
+                expectedDate = previous
             } else if journalDate < expectedDate {
                 // 기록이 연속되지 않았으므로 종료
                 break

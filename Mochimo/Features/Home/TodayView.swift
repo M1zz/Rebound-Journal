@@ -497,8 +497,7 @@ struct TodayView: View {
         #if DEBUG
         // 확인용: `-debug.importDreams YES` 면 묻지 않고 가져온다.
         if UserDefaults.standard.bool(forKey: "debug.importDreams"), let transfer = DreamImport.pending() {
-            DreamImport.run(transfer, into: modelContext)
-            DreamImport.discard()
+            if DreamImport.run(transfer, into: modelContext) != nil { DreamImport.discard() }
             return
         }
         #endif
@@ -664,6 +663,8 @@ struct TodayView: View {
                 retryCount: nil
             )
         )
+        // 막힌 기록을 닫은 것과 넘어선 기록이 짝으로 남아야 한다. 한 번에 내린다.
+        modelContext.saveNow()
     }
 
     // MARK: - 도구 모음

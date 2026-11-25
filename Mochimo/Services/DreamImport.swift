@@ -95,8 +95,12 @@ enum DreamImport {
     }
 
     /// 옮겨 온 목표 수를 돌려준다. 이미 가져온 목표(`importedFrom`)는 건너뛴다 — 두 번 눌러도 겹치지 않는다.
+    ///
+    /// 디스크에 내리지 못했으면 `nil`. 그때는 **파일을 지우면 안 된다** — 옮겨 온 것은 아직 메모리에만
+    /// 있어서, 파일까지 지우면 앱이 꺼질 때 버킷리스트가 통째로 사라진다. 파일을 남겨 두면 다음에
+    /// 다시 묻고, 그사이 자동 저장이 됐더라도 `importedFrom` 으로 겹치지 않는다.
     @discardableResult
-    static func run(_ transfer: DreamTransfer, into context: ModelContext) -> Int {
+    static func run(_ transfer: DreamTransfer, into context: ModelContext) -> Int? {
         let already = Set(((try? context.fetch(FetchDescriptor<LifeGoalData>())) ?? []).compactMap(\.importedFrom))
         var count = 0
 
@@ -143,8 +147,7 @@ enum DreamImport {
             }
             count += 1
         }
-        try? context.save()
-        return count
+        return context.saveNow() ? count : nil
     }
 
     /// 삶의 목표에 남기는 기록 한 줄. 했다 · 못 했다는 비워 둔다.
@@ -209,9 +212,14 @@ struct DreamImportSheet: View {
                     ]) { choice in
                         switch choice.id {
                         case "import":
-                            let count = DreamImport.run(transfer, into: modelContext)
-                            DreamImport.discard()
-                            withAnimation { imported = count }
+                            if let count = DreamImport.run(transfer, into: modelContext) {
+                                DreamImport.discard()
+                                withAnimation { imported = count }
+                            } else {
+                                // 저장하지 못했다. 파일은 남겨 두고 닫는다 — 저장 실패는 맨 바깥 화면이
+                                // 알리고(→ StoreFallback), 다음에 앱이 앞으로 올 때 다시 묻는다.
+                                dismiss()
+                            }
                         case "no":
                             DreamImport.discard()
                             dismiss()
