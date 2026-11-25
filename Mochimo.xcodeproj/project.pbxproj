@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9F9F2963C637E279C4731D2 /* ObjCGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */; };
 		01F995C513311A6681E79643 /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
 		04DF9B8401B3D56EEAB084DB /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31426DD095CE5E8470BD382B /* AppCommands.swift */; };
@@ -114,6 +115,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3FAE88DED9F638D145564937 /* Mochimo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mochimo-Bridging-Header.h; sourceTree = "<group>"; };
+		3852E6FF4E11A09117634779 /* ObjCGuard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCGuard.h; sourceTree = "<group>"; };
+		9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCGuard.m; sourceTree = "<group>"; };
 		008D539F940765D19E5B644C /* MochimoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MochimoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E9DA94B94CF352275DBE84 /* LifeGoalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LifeGoalView.swift; sourceTree = "<group>"; };
 		0573D9A38B692215DBBA001C /* RecordPhotos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordPhotos.swift; sourceTree = "<group>"; };
@@ -349,7 +353,8 @@
 				C3A07BCB2DBBCED10057D3C3 /* ViewModel */,
 				58FE87B22E37A04E00B91E3C /* Mochimo.entitlements */,
 				586F228F2A33861D004C7410 /* Assets.xcassets */,
-			);
+			
+				3FAE88DED9F638D145564937 /* Mochimo-Bridging-Header.h */,);
 			path = Mochimo;
 			sourceTree = "<group>";
 		};
@@ -730,7 +735,9 @@
 				FFDCB78F6E3C142BD77F217C /* DataEraser.swift */,
 				5959FB2999C0F85A2C9E069F /* ScreenshotMode.swift */,
 				73FEC27AE3011B2636BACED0 /* DreamImport.swift */,
-			);
+			
+				9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */,
+				3852E6FF4E11A09117634779 /* ObjCGuard.h */,);
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -933,7 +940,8 @@
 				6E07FC651FD7D8F2B1F73D3B /* RecordPhotos.swift in Sources */,
 				816A3EA0442F1101ECAA093F /* LifeGoalView.swift in Sources */,
 				5CE5EFDF458014D296B92AD5 /* DreamImport.swift in Sources */,
-			);
+			
+				B9F9F2963C637E279C4731D2 /* ObjCGuard.m in Sources */,);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A11D78B82E961502C7054877 /* Sources */ = {
@@ -1171,6 +1179,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mochimo/Mochimo-Bridging-Header.h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -1214,6 +1223,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mochimo/Mochimo-Bridging-Header.h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

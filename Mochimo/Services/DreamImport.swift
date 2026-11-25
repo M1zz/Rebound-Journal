@@ -21,12 +21,12 @@
 import SwiftUI
 import SwiftData
 
-struct DreamTransfer: Codable {
+struct DreamTransfer: Codable, Sendable {
     var version: Int
     var exportedAt: Date
     var goals: [Goal]
 
-    struct Goal: Codable {
+    struct Goal: Codable, Sendable {
         var id: String
         var title: String
         var added: Date
@@ -40,12 +40,12 @@ struct DreamTransfer: Codable {
         var records: [Record]
     }
 
-    struct Step: Codable {
+    struct Step: Codable, Sendable {
         var title: String
         var date: Date?
     }
 
-    struct Record: Codable {
+    struct Record: Codable, Sendable {
         var date: Date?
         var step: String?
         var text: String
@@ -68,7 +68,21 @@ enum DreamImport {
 
     /// 가져올 파일이 와 있으면 그 내용.
     static func pending() -> DreamTransfer? {
-        guard let url = fileURL, let data = try? Data(contentsOf: url) else { return nil }
+        guard let url = fileURL else { return nil }
+        return decode(url)
+    }
+
+    /// 같은 것을 **메인 스레드 밖에서** 읽는다. 파일에는 사진이 통째로 들어 있어 수십 MB 일 수
+    /// 있는데, 앱이 켜질 때와 앞으로 올 때마다 메인에서 읽고 풀면 그동안 화면이 멈춘다. 켜지는
+    /// 도중에 오래 멈추면 시스템이 앱을 끈다(0x8BADF00D). '다음에 할게요' 를 고르면 파일이 남아
+    /// 매번 되풀이된다.
+    static func pendingInBackground() async -> DreamTransfer? {
+        guard let url = fileURL, FileManager.default.fileExists(atPath: url.path) else { return nil }
+        return await Task.detached(priority: .userInitiated) { decode(url) }.value
+    }
+
+    nonisolated private static func decode(_ url: URL) -> DreamTransfer? {
+        guard let data = try? Data(contentsOf: url, options: .mappedIfSafe) else { return nil }
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .iso8601
         return try? decoder.decode(DreamTransfer.self, from: data)

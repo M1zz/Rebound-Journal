@@ -42,6 +42,9 @@ final class PebbleVoice {
     private let toneShaper = AVAudioUnitEQ(numberOfBands: 2)
     private let format = AVAudioFormat(standardFormatWithSampleRate: 44_100, channels: 1)!
     private var isWired = false
+    /// 그래프를 세우다 어긋났다. 노드가 반쯤 붙은 엔진에 다시 붙이면 또 어긋나므로,
+    /// 이번 실행에서는 소리를 내지 않는다. 대화는 소리 없이 그대로 간다.
+    private var isBroken = false
 
     /// 오디오 세션을 여는 중인지. 세션 설정·활성화는 메인 스레드를 오래 붙잡을 수 있어서
     /// (시스템이 "UI unresponsiveness" 경고를 낸다) `AudioSessionQueue`에서 한다.
@@ -66,7 +69,7 @@ final class PebbleVoice {
             object: engine,
             queue: .main
         ) { [weak self] _ in
-            MainActor.assumeIsolated { self?.player.stop() }
+            MainActor.assumeIsolated { self?.stop() }
         }
     }
 
@@ -95,7 +98,7 @@ final class PebbleVoice {
     ///   - progress: 문장에서의 위치(0...1). 끝으로 갈수록 음을 살짝 낮춘다.
     ///   - step: 글자 사이 간격(초).
     func blip(for character: Character, progress: Double, step: Double) {
-        guard isEnabled else { return }
+        guard isEnabled, !isBroken else { return }
         guard let tone = Self.tone(for: character, progress: progress) else { return }
 
         // 세션이 준비되지 않았으면 이 글자는 조용히 넘긴다. 준비는 뒤에서 한다.
@@ -126,9 +129,18 @@ final class PebbleVoice {
         guard buffer.format.channelCount == connected.channelCount,
               buffer.format.sampleRate == connected.sampleRate else { return }
 
-        if !player.isPlaying { player.play() }
-        // 앞 알갱이를 자르지 않고 이어 붙인다. 겹쳐 울리는 게 오히려 수다스럽게 들린다.
-        player.scheduleBuffer(buffer, at: nil, options: [])
+        // 여기까지 확인하고도 AVFAudio 는 어긋날 수 있다 — 확인한 직후 출력 기기가 바뀌거나, 전화가
+        // 와서 엔진이 서는 순간. 그때 던지는 것은 Swift 가 못 잡는 예외라 앱이 죽는다. 잡아서 이
+        // 글자만 넘기고, 플레이어를 세워 다음 글자에서 처음부터 다시 켜게 한다 (→ ObjCGuard).
+        do {
+            try ObjCGuard.perform {
+                if !self.player.isPlaying { self.player.play() }
+                // 앞 알갱이를 자르지 않고 이어 붙인다. 겹쳐 울리는 게 오히려 수다스럽게 들린다.
+                self.player.scheduleBuffer(buffer, at: nil, options: [])
+            }
+        } catch {
+            stop()
+        }
     }
 
     /// 말풍선 없이 내는 짧은 소리. 조약돌을 만졌을 때 "응", "음" 하고 대답한다.
@@ -149,7 +161,7 @@ final class PebbleVoice {
 
     func stop() {
         guard isWired else { return }
-        player.stop()
+        try? ObjCGuard.perform { self.player.stop() }
     }
 
     // MARK: - 엔진
@@ -204,16 +216,32 @@ final class PebbleVoice {
             return
         }
         lastSessionFailure = nil
-        buildGraph()
+        guard !isBroken else { return }
+
+        // 소리를 낼 곳이 없으면(출력 기기 없음 · 통화 중 · 다른 앱이 쥠) 출력 형식이 0Hz · 0채널로
+        // 나온다. 그 상태로 믹서에 잇거나 엔진을 켜면 예외로 죽는다. 잠깐 쉬었다 다시 본다.
+        let hardware = engine.outputNode.outputFormat(forBus: 0)
+        guard hardware.sampleRate > 0, hardware.channelCount > 0 else {
+            lastSessionFailure = Date()
+            return
+        }
+
+        do {
+            try ObjCGuard.perform { self.buildGraph() }
+        } catch {
+            isBroken = true
+            return
+        }
         guard !engine.isRunning else { return }
-        engine.prepare()
         // 실패해도 다음 글자에서 다시 시도한다. 붙잡지 않는다.
-        try? engine.start()
+        try? ObjCGuard.perform {
+            self.engine.prepare()
+            try? self.engine.start()
+        }
     }
 
     private func buildGraph() {
         guard !isWired else { return }
-        isWired = true
 
         engine.attach(player)
         engine.attach(pitchUnit)
@@ -241,6 +269,8 @@ final class PebbleVoice {
         engine.connect(player, to: pitchUnit, format: format)
         engine.connect(pitchUnit, to: toneShaper, format: format)
         engine.connect(toneShaper, to: engine.mainMixerNode, format: format)
+        // 다 이은 뒤에야 선 것으로 친다. 도중에 어긋나면 `isBroken` 이 맡는다.
+        isWired = true
     }
 
     // MARK: - 글자에서 소리 고르기

@@ -11,6 +11,7 @@
 import SwiftUI
 import SwiftData
 import PhotosUI
+import ImageIO
 
 // MARK: - 줄이기
 
@@ -20,7 +21,8 @@ enum PhotoShrinker {
     /// 사진 데이터를 긴 변 1600, JPEG 로 줄인다. 읽을 수 없는 데이터면 nil.
     static func jpeg(_ data: Data) -> Data? {
         #if canImport(UIKit)
-        guard let image = UIImage(data: data) else { return nil }
+        // 읽히기는 했는데 크기가 0 인 그림이 있다. 그대로 가면 0×0 으로 그리다 죽는다.
+        guard let image = UIImage(data: data), image.size.width >= 1, image.size.height >= 1 else { return nil }
         let scale = min(1, longEdge / max(image.size.width, image.size.height))
         let size = CGSize(width: image.size.width * scale, height: image.size.height * scale)
         let format = UIGraphicsImageRendererFormat()
@@ -31,7 +33,8 @@ enum PhotoShrinker {
         return resized.jpegData(compressionQuality: 0.8)
         #else
         guard let image = NSImage(data: data),
-              let cg = image.cgImage(forProposedRect: nil, context: nil, hints: nil) else { return nil }
+              let cg = image.cgImage(forProposedRect: nil, context: nil, hints: nil),
+              cg.width > 0, cg.height > 0 else { return nil }
         let scale = min(1, longEdge / CGFloat(max(cg.width, cg.height)))
         let width = Int(CGFloat(cg.width) * scale), height = Int(CGFloat(cg.height) * scale)
         guard let context = CGContext(data: nil, width: width, height: height, bitsPerComponent: 8, bytesPerRow: 0,
@@ -52,6 +55,44 @@ enum PhotoShrinker {
         return NSImage(data: data).map(Image.init(nsImage:))
         #endif
     }
+
+    /// 목록에 놓는 작은 그림. 76pt 칸에 1600px 원본을 통째로 풀면 한 장에 10MB 가까이 들고,
+    /// 화면이 다시 그려질 때마다 또 푼다 — 사진이 많은 기록에서 메모리가 차 앱이 꺼진다.
+    /// ImageIO 로 작게만 풀고, 한 번 푼 것은 쥐고 있다(메모리가 모자라면 시스템이 비운다).
+    static func thumbnail(_ data: Data?, key: String, maxPixel: Int = 240) -> Image? {
+        let cacheKey = "\(key)|\(maxPixel)" as NSString
+        if let cached = thumbnails.object(forKey: cacheKey) {
+            return Image(decorative: cached.image, scale: 1)
+        }
+        guard let data, !data.isEmpty,
+              let source = CGImageSourceCreateWithData(data as CFData, [kCGImageSourceShouldCache: false] as CFDictionary),
+              let small = CGImageSourceCreateThumbnailAtIndex(source, 0, [
+                  kCGImageSourceCreateThumbnailFromImageAlways: true,
+                  kCGImageSourceCreateThumbnailWithTransform: true,
+                  kCGImageSourceShouldCacheImmediately: true,
+                  kCGImageSourceThumbnailMaxPixelSize: maxPixel
+              ] as CFDictionary) else { return nil }
+        thumbnails.setObject(Thumbnail(small), forKey: cacheKey)
+        return Image(decorative: small, scale: 1)
+    }
+
+    private final class Thumbnail {
+        let image: CGImage
+        init(_ image: CGImage) { self.image = image }
+    }
+
+    private static let thumbnails: NSCache<NSString, Thumbnail> = {
+        let cache = NSCache<NSString, Thumbnail>()
+        cache.countLimit = 200
+        return cache
+    }()
+}
+
+/// 크게 볼 사진 한 장. 모델이 아니라 **그때의 데이터**를 쥔다 — 보는 사이 사진이 지워지면
+/// (다른 기기에서 지운 것이 동기화로 오는 때도) 지워진 모델의 속성을 읽다 앱이 죽는다.
+struct ViewedPhoto: Identifiable {
+    let id: String
+    let data: Data?
 }
 
 // MARK: - 기록 하나의 사진들
@@ -64,7 +105,7 @@ struct RecordPhotosView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var photos: [RecordPhoto]
     @State private var picked: [PhotosPickerItem] = []
-    @State private var viewing: RecordPhoto?
+    @State private var viewing: ViewedPhoto?
 
     init(recordID: String, editable: Bool = false) {
         self.recordID = recordID
@@ -93,10 +134,11 @@ struct RecordPhotosView: View {
     }
 
     private func thumbnail(_ photo: RecordPhoto) -> some View {
-        Button {
-            viewing = photo
+        let key = photo.id ?? "\(photo.persistentModelID.hashValue)"
+        return Button {
+            viewing = ViewedPhoto(id: key, data: photo.data)
         } label: {
-            (PhotoShrinker.image(photo.data) ?? Image(systemName: "photo"))
+            (PhotoShrinker.thumbnail(photo.data, key: key) ?? Image(systemName: "photo"))
                 .resizable()
                 .scaledToFill()
                 .frame(width: 76, height: 76)
@@ -161,7 +203,7 @@ struct RecordPhotosView: View {
 
 /// 사진 한 장을 크게.
 private struct PhotoViewer: View {
-    let photo: RecordPhoto
+    let photo: ViewedPhoto
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {

@@ -76,8 +76,13 @@ final class SpeechCapture {
     private var transcriber: SpeechTranscriber?
     private var inputContinuation: AsyncStream<AnalyzerInput>.Continuation?
     private var resultsTask: Task<Void, Never>?
-    private var converter: AVAudioConverter?
     private var analyzerFormat: AVAudioFormat?
+    /// 듣기를 한 번 시작할 때마다 오르는 번호. 준비(모델 받기 · 분석기 켜기)는 뒤에서 오래 걸릴 수
+    /// 있어서, 그사이 사용자가 멈추거나 다시 시작하면 늦게 끝난 옛 준비가 마이크를 켜면 안 된다.
+    /// 번호가 달라졌으면 그 준비는 아무것도 하지 않고 물러난다.
+    private var generation = 0
+    /// 마이크 버스에 탭을 걸어 두었는가. 걸지 않았을 때는 입력 노드를 건드리지 않는다.
+    private var hasTap = false
     private var confidenceSamples: [Double] = []
 
     // MARK: - 시작 / 정지
@@ -85,6 +90,9 @@ final class SpeechCapture {
     func start() async {
         guard phase == .idle || isFailed else { return }
         reset()
+        generation += 1
+        // 지난번이 어긋난 채 끝났으면 탭 · 엔진이 남아 있을 수 있다. 깨끗이 하고 시작한다.
+        tearDownAudio()
         phase = .preparing
 
         guard await requestPermission() else {
@@ -97,13 +105,39 @@ final class SpeechCapture {
             try await beginSession()
             phase = .listening
         } catch {
-            // 세션을 녹음용으로 연 뒤에 실패했을 수 있다. 붙잡고 있으면 조약돌 목소리가
-            // 계속 비켜서 있게 되므로 놓아 준다.
-            if AudioSessionQueue.isRecording {
-                try? await AudioSessionQueue.close()
-                AudioSessionQueue.isRecording = false
-            }
-            phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
+            await fail()
+        }
+    }
+
+    /// 듣기를 열다가 어긋났다. 마이크 · 분석기 · 세션을 모두 놓고 텍스트로만 간다.
+    ///
+    /// 세션을 녹음용으로 붙잡은 채 두면 조약돌 목소리가 계속 비켜서 있게 된다.
+    private func fail() async {
+        generation += 1
+        tearDownAudio()
+        inputContinuation?.finish()
+        inputContinuation = nil
+        resultsTask?.cancel()
+        resultsTask = nil
+        analyzer = nil
+        transcriber = nil
+        if AudioSessionQueue.isRecording {
+            try? await AudioSessionQueue.close()
+            AudioSessionQueue.isRecording = false
+        }
+        phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
+    }
+
+    /// 탭을 걷고 엔진을 세운다. 여러 번 불러도 되고, 탭이 없어도 된다.
+    ///
+    /// AVFAudio 는 어긋나면 NSException 을 던진다. 받아쓰기는 곁들이는 기능이라 잡아서 넘긴다
+    /// (→ ObjCGuard).
+    private func tearDownAudio() {
+        guard hasTap || audioEngine.isRunning else { return }
+        hasTap = false
+        try? ObjCGuard.perform {
+            self.audioEngine.inputNode.removeTap(onBus: 0)
+            self.audioEngine.stop()
         }
     }
 
@@ -111,9 +145,10 @@ final class SpeechCapture {
     func stop() async {
         guard phase == .listening || phase == .preparing else { return }
         phase = .finishing
+        // 아직 준비 중이던 것이 있으면 늦게 끝나도 마이크를 켜지 못하게 한다.
+        generation += 1
 
-        audioEngine.inputNode.removeTap(onBus: 0)
-        audioEngine.stop()
+        tearDownAudio()
         inputContinuation?.finish()
         inputContinuation = nil
 
@@ -198,17 +233,25 @@ final class SpeechCapture {
             await self?.consume(transcriber)
         }
 
+        let session = generation
         Task { [weak self] in
             guard let self else { return }
             do {
                 try await self.prepareAssets(for: transcriber)
+                guard self.generation == session else { return }
                 self.analyzerFormat = await SpeechAnalyzer.bestAvailableAudioFormat(
                     compatibleWith: [transcriber]
                 )
+                guard self.generation == session else { return }
                 try await analyzer.start(inputSequence: stream)
+                // 준비하는 사이 사용자가 멈췄거나 다시 시작했다. 여기서 마이크를 켜면 화면은
+                // 멈춘 줄 아는데 탭이 걸린 채 남고, 다음에 시작할 때 같은 버스에 탭을 또 걸다가
+                // 예외로 앱이 죽는다.
+                guard self.generation == session else { return }
                 try self.startTap()
             } catch {
-                self.phase = .unavailable(String(localized: "지금은 듣기가 어려워요. 적어주셔도 괜찮아요."))
+                guard self.generation == session else { return }
+                await self.fail()
             }
         }
     }
@@ -225,70 +268,87 @@ final class SpeechCapture {
     private func startTap() throws {
         let input = audioEngine.inputNode
         let inputFormat = input.outputFormat(forBus: 0)
-        guard inputFormat.sampleRate > 0 else { throw CaptureError.noInput }
-
-        if let analyzerFormat, analyzerFormat != inputFormat {
-            converter = AVAudioConverter(from: inputFormat, to: analyzerFormat)
-        }
-
+        guard inputFormat.sampleRate > 0, inputFormat.channelCount > 0 else { throw CaptureError.noInput }
         guard let continuation = inputContinuation else { return }
-        input.installTap(
-            onBus: 0,
-            bufferSize: 4_096,
-            format: inputFormat,
-            block: Self.tapBlock(converter: converter, target: analyzerFormat, continuation: continuation)
-        )
 
-        audioEngine.prepare()
-        try audioEngine.start()
+        let block = Self.tapBlock(target: analyzerFormat, continuation: continuation)
+        try ObjCGuard.perform {
+            // 같은 버스에 탭이 둘이면 예외다. 남은 것이 있을 수 있으니 먼저 걷는다.
+            input.removeTap(onBus: 0)
+            // 형식은 넘기지 않는다(nil = 버스의 지금 형식). 앞에서 읽어 둔 형식을 넘기면, 그사이
+            // 블루투스 이어폰이 통화 모드로 바뀌는 등 하드웨어 형식이 달라졌을 때 "형식이
+            // 하드웨어와 다르다" 는 예외로 죽는다. 변환은 블록이 받은 버퍼의 실제 형식으로 한다.
+            input.installTap(onBus: 0, bufferSize: 4_096, format: nil, block: block)
+            self.audioEngine.prepare()
+        }
+        hasTap = true
+        do {
+            try audioEngine.start()
+        } catch {
+            tearDownAudio()
+            throw error
+        }
     }
 
     /// 마이크가 버퍼를 건넬 때마다 부르는 블록. **오디오 스레드에서 돈다.**
     ///
-    /// 그래서 이 블록은 메인 액터의 상태를 하나도 읽지 않는다. 필요한 것(변환기 ·
-    /// 목표 포맷 · 넘길 곳)은 탭을 걸 때 미리 받아 쥐고 들어간다.
+    /// 그래서 이 블록은 메인 액터의 상태를 하나도 읽지 않는다. 필요한 것(목표 포맷 · 넘길 곳)은
+    /// 탭을 걸 때 미리 받아 쥐고 들어간다.
     ///
     /// 예전에는 블록 안에서 `MainActor.assumeIsolated` 로 `converter` 를 읽었다.
     /// 오디오 스레드는 메인이 아니라서 그 자리에서 앱이 멈췄다(2.1.4 크래시 —
     /// AVFAudio 콜백 → `convert(_:)` → `assumeIsolated`). 메서드 안에서 만든 클로저는
     /// 메인 액터에 묶일 수 있으니, 블록은 격리 없는 정적 함수에서 만든다.
     nonisolated private static func tapBlock(
-        converter: AVAudioConverter?,
         target: AVAudioFormat?,
         continuation: AsyncStream<AnalyzerInput>.Continuation
     ) -> AVAudioNodeTapBlock {
-        { buffer, _ in
-            guard let prepared = convert(buffer, with: converter, to: target) else { return }
+        let bridge = TapBridge(target: target)
+        return { buffer, _ in
+            guard let prepared = bridge.convert(buffer) else { return }
             continuation.yield(AnalyzerInput(buffer: prepared))
         }
     }
 
-    /// 마이크 포맷을 분석기가 받는 포맷으로 맞춘다.
-    nonisolated private static func convert(
-        _ buffer: AVAudioPCMBuffer,
-        with converter: AVAudioConverter?,
-        to target: AVAudioFormat?
-    ) -> AVAudioPCMBuffer? {
-        guard let converter, let target else {
-            return buffer   // 변환이 필요 없는 경우
-        }
+    /// 마이크 포맷을 분석기가 받는 포맷으로 맞춘다. 오디오 스레드에서만 쓴다(탭 블록 하나가 쥔다).
+    ///
+    /// 변환기는 **들어온 버퍼의 형식**으로 만든다. 듣는 도중 마이크가 바뀌면(이어폰을 꽂거나 뺌)
+    /// 형식도 바뀌는데, 처음 형식으로 만든 변환기에 다른 형식의 버퍼를 넣으면 한 조각도 못 건진다.
+    private final class TapBridge: @unchecked Sendable {
+        private let target: AVAudioFormat?
+        private var converter: AVAudioConverter?
+        private var source: AVAudioFormat?
 
-        let ratio = target.sampleRate / buffer.format.sampleRate
-        let capacity = AVAudioFrameCount(Double(buffer.frameLength) * ratio) + 1_024
-        guard let output = AVAudioPCMBuffer(pcmFormat: target, frameCapacity: capacity) else { return nil }
+        init(target: AVAudioFormat?) { self.target = target }
 
-        var consumed = false
-        var error: NSError?
-        converter.convert(to: output, error: &error) { _, status in
-            if consumed {
-                status.pointee = .noDataNow
-                return nil
+        func convert(_ buffer: AVAudioPCMBuffer) -> AVAudioPCMBuffer? {
+            guard let target, buffer.format != target else {
+                return buffer   // 변환이 필요 없는 경우
             }
-            consumed = true
-            status.pointee = .haveData
-            return buffer
+            guard buffer.format.sampleRate > 0, buffer.frameLength > 0 else { return nil }
+            if converter == nil || source != buffer.format {
+                converter = AVAudioConverter(from: buffer.format, to: target)
+                source = buffer.format
+            }
+            guard let converter else { return nil }
+
+            let ratio = target.sampleRate / buffer.format.sampleRate
+            let capacity = AVAudioFrameCount(Double(buffer.frameLength) * ratio) + 1_024
+            guard let output = AVAudioPCMBuffer(pcmFormat: target, frameCapacity: capacity) else { return nil }
+
+            var consumed = false
+            var error: NSError?
+            converter.convert(to: output, error: &error) { _, status in
+                if consumed {
+                    status.pointee = .noDataNow
+                    return nil
+                }
+                consumed = true
+                status.pointee = .haveData
+                return buffer
+            }
+            return error == nil && output.frameLength > 0 ? output : nil
         }
-        return error == nil && output.frameLength > 0 ? output : nil
     }
 
     // MARK: - 결과

@@ -502,7 +502,12 @@ struct TodayView: View {
             return
         }
         #endif
-        dreamTransfer = DreamImport.pending()
+        Task {
+            let transfer = await DreamImport.pendingInBackground()
+            // 읽는 사이 대화가 열렸거나 이미 묻고 있으면 끼어들지 않는다.
+            guard dreamTransfer == nil, conversation == nil else { return }
+            dreamTransfer = transfer
+        }
     }
 
     private func enter(from url: URL) {
