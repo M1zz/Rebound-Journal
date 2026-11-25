@@ -4,6 +4,183 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.3.1
+
+### 앱스토어 (English)
+
+More stable, with safer saving
+The app now tells you when a sale is on
+New subscribers start at a lower price
+You can hide the sale notice for 3 days
+
+### 앱스토어 (한국어)
+
+더 안정적이고 기록도 더 안전하게 지켜요
+할인 기간에는 앱을 열 때 소식을 알려 드려요
+처음 구독하면 할인된 값으로 시작할 수 있어요
+원하지 않으면 3일 동안 보지 않을 수 있어요
+
+### 앱스토어 (en-GB)
+
+More stable, with safer saving
+The app now tells you when a sale is on
+New subscribers start at a lower price
+You can hide the sale notice for 3 days
+
+### 앱스토어 (简体中文)
+
+运行更稳定，记录保存更安全
+优惠期间打开应用时会通知你
+首次订阅可以优惠价开始
+也可以选择3天内不再显示
+
+### 앱스토어 (繁體中文)
+
+運作更穩定，紀錄保存更安全
+優惠期間開啟 App 時會通知你
+首次訂閱可用優惠價開始
+也可以選擇3天內不再顯示
+
+### 앱스토어 (日本語)
+
+より安定し、記録もより安全に守ります
+セール期間中はアプリを開くとお知らせします
+初めての登録なら割引価格で始められます
+お知らせは3日間非表示にできます
+
+### 앱스토어 (Русский)
+
+Стабильнее работа, надёжнее сохранение
+Приложение сообщит о скидках при запуске
+Новая подписка по сниженной цене
+Уведомление можно скрыть на 3 дня
+
+### 앱스토어 (Español)
+
+Más estable y tus registros, más seguros
+La app te avisa cuando hay ofertas
+Tu primera suscripción tiene descuento
+Puedes ocultar el aviso durante 3 días
+
+### 앱스토어 (Deutsch)
+
+Stabiler und sichereres Speichern
+Die App zeigt dir laufende Angebote
+Neue Abos starten zum reduzierten Preis
+Du kannst den Hinweis 3 Tage ausblenden
+
+### 앱스토어 (Français)
+
+Plus stable, sauvegarde plus sûre
+L’app vous prévient pendant les promos
+Premier abonnement à prix réduit
+Vous pouvez masquer l’annonce 3 jours
+
+### 앱스토어 (Italiano)
+
+Più stabile, e le tue voci più al sicuro
+L’app ti avvisa quando c’è un’offerta
+Con il primo abbonamento parti scontato
+Puoi nascondere l’avviso per 3 giorni
+
+### 앱스토어 (pt-BR)
+
+Mais estável e com salvamento seguro
+O app avisa quando há promoção
+A primeira assinatura tem desconto
+Você pode ocultar o aviso por 3 dias
+
+### 앱스토어 (ไทย)
+
+เสถียรขึ้นและบันทึกได้ปลอดภัยขึ้น
+ช่วงลดราคา เราจะแจ้งเมื่อคุณเปิดแอป
+สมัครครั้งแรกเริ่มได้ในราคาพิเศษ
+ซ่อนการแจ้งเตือนได้ 3 วัน
+
+### 앱스토어 (Tiếng Việt)
+
+Ổn định hơn, lưu dữ liệu an toàn hơn
+Khi có ưu đãi, ứng dụng sẽ báo cho bạn
+Lần đăng ký đầu tiên có giá ưu đãi
+Bạn có thể ẩn thông báo trong 3 ngày
+
+### 앱스토어 (Čeština)
+
+Stabilnější chod a bezpečnější záznamy
+Během slev vám dáme vědět po otevření
+Noví předplatitelé začnou se slevou
+Oznámení můžete na 3 dny skrýt
+
+### 앱스토어 (Dansk)
+
+Mere stabil og sikrere gemning
+Appen fortæller dig, når der er udsalg
+Nye abonnenter starter til nedsat pris
+Du kan skjule beskeden i 3 dage
+
+### 앱스토어 (Ελληνικά)
+
+Πιο σταθερή, με πιο ασφαλείς καταγραφές
+Η εφαρμογή σας ενημερώνει για προσφορές
+Οι νέοι συνδρομητές ξεκινούν με έκπτωση
+Μπορείτε να την κρύψετε για 3 μέρες
+
+### 앱스토어 (Suomi)
+
+Vakaampi, ja tallennus on varmempaa
+Alennuksista kerrotaan, kun avaat apin
+Uudet tilaajat aloittavat alennushintaan
+Ilmoituksen voi piilottaa 3 päiväksi
+
+### 앱스토어 (Indonesia)
+
+Lebih stabil, catatanmu lebih aman
+App memberi tahu saat ada diskon
+Pelanggan baru mulai dengan harga diskon
+Pemberitahuan bisa disembunyikan 3 hari
+
+### 앱스토어 (Norsk bokmål)
+
+Mer stabil, og notatene dine er tryggere
+Appen sier fra når det er salg
+Nye abonnenter starter til redusert pris
+Du kan skjule meldingen i 3 dager
+
+### 앱스토어 (Nederlands)
+
+Stabieler, en je notities zijn veiliger
+De app laat weten wanneer er korting is
+Nieuwe abonnees beginnen met korting
+Je kunt de melding 3 dagen verbergen
+
+### 앱스토어 (Polski)
+
+Stabilniej i bezpieczniej zapisuje
+Aplikacja powie Ci o promocjach
+Nowi subskrybenci zaczną w niższej cenie
+Powiadomienie możesz ukryć na 3 dni
+
+### 앱스토어 (Svenska)
+
+Stabilare och säkrare sparande
+Appen berättar nu när det är rea
+Nya prenumeranter börjar till lägre pris
+Du kan dölja meddelandet i 3 dagar
+
+### 앱스토어 (Türkçe)
+
+Daha kararlı, kayıtların daha güvende
+Uygulama indirimleri size haber verir
+Yeni aboneler indirimli başlayabilir
+Bildirimi 3 gün gizleyebilirsiniz
+
+### 앱스토어 (아랍어)
+
+أداء أكثر ثباتًا وحفظ أكثر أمانًا
+نخبرك بالعروض عند فتح التطبيق
+المشتركون الجدد يبدؤون بسعر مخفّض
+يمكنك إخفاء التنبيه لمدة 3 أيام
+
 ## 2.3.0
 
 ### 앱스토어 (한국어)
