@@ -58,6 +58,7 @@ struct TodayView: View {
     #if DEBUG
     @State private var isShowingDebugPaywall = false
     #endif
+    @State private var isShowingSalePaywall = false
 
     /// 지금 조약돌이 얘기하는 목표. nil이면 앱이 알아서 고른다.
     ///
@@ -154,6 +155,9 @@ struct TodayView: View {
             }
             .animation(.easeInOut(duration: 0.3), value: conversation?.id)
             .onOpenURL(perform: enter(from:))
+            // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 프로 요금제를 연다 (LeeoKit).
+            .leeoSaleBanner { isShowingSalePaywall = true }
+            .proPaywall(isPresented: $isShowingSalePaywall)
             .onChange(of: scenePhase, initial: true) { _, phase in
                 if phase == .active { checkDreamTransfer() }
             }
