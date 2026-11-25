@@ -91,20 +91,28 @@ final class SpeechCapture {
         guard phase == .idle || isFailed else { return }
         reset()
         generation += 1
+        // 이 시작의 번호. 아래에서 기다리는 사이(권한 창 · 언어 고르기 · 세션 열기) 사용자가 멈추거나
+        // 화면을 닫으면 번호가 오른다. 그러면 깨어난 뒤에 마이크를 켜지 않고 물러난다 — 안 그러면
+        // 화면이 사라진 뒤에 마이크가 켜지고, 세션이 녹음용으로 남아 조약돌 목소리가 조용해진다.
+        let session = generation
         // 지난번이 어긋난 채 끝났으면 탭 · 엔진이 남아 있을 수 있다. 깨끗이 하고 시작한다.
         tearDownAudio()
         phase = .preparing
 
-        guard await requestPermission() else {
+        let allowed = await requestPermission()
+        guard generation == session else { return }
+        guard allowed else {
             // 권한이 없어도 대화는 계속된다. 텍스트 입력이 늘 열려 있다.
             phase = .unavailable(String(localized: "마이크를 쓸 수 없어요. 적어주셔도 괜찮아요."))
             return
         }
 
         do {
-            try await beginSession()
+            try await beginSession(session)
+            guard generation == session else { return }
             phase = .listening
         } catch {
+            guard generation == session else { return }
             await fail()
         }
     }
@@ -135,10 +143,9 @@ final class SpeechCapture {
     private func tearDownAudio() {
         guard hasTap || audioEngine.isRunning else { return }
         hasTap = false
-        try? ObjCGuard.perform {
-            self.audioEngine.inputNode.removeTap(onBus: 0)
-            self.audioEngine.stop()
-        }
+        // 둘을 따로 감싼다. 한 블록이면 탭 걷기가 어긋났을 때 엔진 세우기를 건너뛰어 마이크가 켜진 채 남는다.
+        try? ObjCGuard.perform { self.audioEngine.inputNode.removeTap(onBus: 0) }
+        try? ObjCGuard.perform { self.audioEngine.stop() }
     }
 
     /// 듣기를 멈추고 남은 말을 확정한다.
@@ -202,8 +209,9 @@ final class SpeechCapture {
 
     // MARK: - 세션
 
-    private func beginSession() async throws {
+    private func beginSession(_ session: Int) async throws {
         guard let spoken = await Self.spokenLocale() else { throw CaptureError.unsupportedLanguage }
+        guard generation == session else { throw CancellationError() }
         locale = spoken
         AudioSessionQueue.isRecording = true
         do {
@@ -211,6 +219,12 @@ final class SpeechCapture {
         } catch {
             AudioSessionQueue.isRecording = false
             throw error
+        }
+        // 세션을 여는 사이 멈췄다. 방금 연 녹음용 세션을 도로 닫고 물러난다.
+        guard generation == session else {
+            try? await AudioSessionQueue.close()
+            AudioSessionQueue.isRecording = false
+            throw CancellationError()
         }
 
         let transcriber = SpeechTranscriber(
@@ -266,9 +280,16 @@ final class SpeechCapture {
     }
 
     private func startTap() throws {
-        let input = audioEngine.inputNode
-        let inputFormat = input.outputFormat(forBus: 0)
-        guard inputFormat.sampleRate > 0, inputFormat.channelCount > 0 else { throw CaptureError.noInput }
+        // 입력 노드를 처음 읽는 것부터 감싼다 — 마이크가 없거나 형식이 무효면 여기서도 예외가 난다.
+        var node: AVAudioInputNode?
+        var hasInput = false
+        try ObjCGuard.perform {
+            let found = self.audioEngine.inputNode
+            let format = found.outputFormat(forBus: 0)
+            hasInput = format.sampleRate > 0 && format.channelCount > 0
+            node = found
+        }
+        guard hasInput, let input = node else { throw CaptureError.noInput }
         guard let continuation = inputContinuation else { return }
 
         let block = Self.tapBlock(target: analyzerFormat, continuation: continuation)
@@ -282,11 +303,18 @@ final class SpeechCapture {
             self.audioEngine.prepare()
         }
         hasTap = true
+        // 엔진 켜기는 Swift 오류도 던지고 예외도 던진다. 둘 다 받는다.
+        var startError: Error?
         do {
-            try audioEngine.start()
+            try ObjCGuard.perform {
+                do { try self.audioEngine.start() } catch { startError = error }
+            }
         } catch {
+            startError = error
+        }
+        if let startError {
             tearDownAudio()
-            throw error
+            throw startError
         }
     }
 

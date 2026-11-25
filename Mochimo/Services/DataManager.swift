@@ -83,6 +83,27 @@ extension DataManager {
         }
     }
 
+    /// 알림을 켜 두었는데 걸린 것이 없거나 다음에 울릴 때가 없으면 다시 건다. 앱을 열 때마다 본다.
+    ///
+    /// 예전 판은 처음 값 "9:00 AM" 을 한국어 · 일본어 기기에서 읽지 못해 빈 시각으로 걸었다. 그렇게
+    /// 걸린 알림은 영영 울리지 않는데, 스위치는 켜져 있어 사용자는 고장인 줄도 모른다. 읽는 법을
+    /// 고친 것만으로는 이미 걸린 것이 낫지 않으므로 여기서 한 번 다시 건다.
+    ///
+    /// 허락을 새로 묻지 않는다 — 이미 받은 사람 것만 고친다. 묻는 것은 스위치를 켤 때의 일이다.
+    func repairDailyReminderIfNeeded() {
+        guard enableReminders else { return }
+        let center = UNUserNotificationCenter.current()
+        center.getNotificationSettings { settings in
+            guard settings.authorizationStatus == .authorized || settings.authorizationStatus == .provisional else { return }
+            center.getPendingNotificationRequests { requests in
+                let reminder = requests.first { $0.identifier == "reminder" }
+                let fires = (reminder?.trigger as? UNCalendarNotificationTrigger)?.nextTriggerDate() != nil
+                guard !fires else { return }
+                DispatchQueue.main.async { self.addDailyReminder() }
+            }
+        }
+    }
+
     private func addDailyReminder() {
         let center = UNUserNotificationCenter.current()
 

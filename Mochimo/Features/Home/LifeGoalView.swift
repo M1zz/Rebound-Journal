@@ -47,8 +47,10 @@ struct LifeGoalView: View {
 
     private enum Field { case answer, obstacle }
 
-    private var id: String { lifeGoal.id ?? "" }
-    private var title: String { lifeGoal.titleUnwrapped }
+    // 지워진 모델은 읽지 않는다. 본문은 `isGone` 을 먼저 보지만, 시트 내용처럼 본문 밖에서
+    // 다시 그려지는 자리도 이 둘을 읽는다(기록 남기기 시트가 뜬 사이 목표가 지워지는 경우).
+    private var id: String { lifeGoal.isGone ? "" : (lifeGoal.id ?? "") }
+    private var title: String { lifeGoal.isGone ? "" : lifeGoal.titleUnwrapped }
 
     private var obstacles: [ObstacleData] {
         allObstacles.filter { $0.lifeGoalID == id }

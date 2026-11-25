@@ -99,8 +99,27 @@ enum DreamImport {
     /// 디스크에 내리지 못했으면 `nil`. 그때는 **파일을 지우면 안 된다** — 옮겨 온 것은 아직 메모리에만
     /// 있어서, 파일까지 지우면 앱이 꺼질 때 버킷리스트가 통째로 사라진다. 파일을 남겨 두면 다음에
     /// 다시 묻고, 그사이 자동 저장이 됐더라도 `importedFrom` 으로 겹치지 않는다.
+    /// 사진을 미리 줄여 둔 사본. **메인 스레드 밖에서** 돈다.
+    ///
+    /// 줄이기는 한 장에 수십 ms 가 걸린다. 버킷리스트에 사진이 수십 장이면 메인에서 하는 동안 화면이
+    /// 몇 초 멈추고, 그사이 사용자는 눌린 줄 몰라 또 누른다. 넣기(`run`)는 메인의 컨텍스트에서 해야
+    /// 하므로 무거운 줄이기만 먼저 떼어 낸다.
+    static func shrunk(_ transfer: DreamTransfer) async -> DreamTransfer {
+        await Task.detached(priority: .userInitiated) {
+            var ready = transfer
+            for goalIndex in ready.goals.indices {
+                for recordIndex in ready.goals[goalIndex].records.indices {
+                    let photos = ready.goals[goalIndex].records[recordIndex].photos
+                    ready.goals[goalIndex].records[recordIndex].photos = photos.map { PhotoShrinker.jpeg($0) ?? $0 }
+                }
+            }
+            return ready
+        }.value
+    }
+
+    /// `photosReady` — 사진을 이미 줄였으면(`shrunk`) 다시 줄이지 않는다.
     @discardableResult
-    static func run(_ transfer: DreamTransfer, into context: ModelContext) -> Int? {
+    static func run(_ transfer: DreamTransfer, into context: ModelContext, photosReady: Bool = false) -> Int? {
         let already = Set(((try? context.fetch(FetchDescriptor<LifeGoalData>())) ?? []).compactMap(\.importedFrom))
         var count = 0
 
@@ -134,7 +153,8 @@ enum DreamImport {
                                 .joined(separator: "\n"),
                               in: context)
                 for photo in record.photos {
-                    context.insert(RecordPhoto(recordID: id, data: PhotoShrinker.jpeg(photo) ?? photo,
+                    context.insert(RecordPhoto(recordID: id,
+                                               data: photosReady ? photo : (PhotoShrinker.jpeg(photo) ?? photo),
                                                date: record.date ?? goal.added))
                 }
             }
@@ -147,7 +167,11 @@ enum DreamImport {
             }
             count += 1
         }
-        return context.saveNow() ? count : nil
+        // 지난번에 넣고 저장만 못 한 것도 이번에 내려가면 옮겨 온 것이다 — 빼면 "이미 다 옮겨 와
+        // 있었어요" 라고 틀리게 말한다.
+        let pending = Set(context.insertedModelsArray.compactMap { ($0 as? LifeGoalData)?.importedFrom })
+        let carried = count == 0 ? transfer.goals.filter { pending.contains($0.id) }.count : 0
+        return context.saveNow() ? count + carried : nil
     }
 
     /// 삶의 목표에 남기는 기록 한 줄. 했다 · 못 했다는 비워 둔다.
@@ -177,6 +201,8 @@ struct DreamImportSheet: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
     @State private var imported: Int?
+    /// 옮기는 중. 사진을 줄이는 동안 단추를 또 받지 않는다.
+    @State private var isImporting = false
 
     var body: some View {
         ZStack {
@@ -210,15 +236,23 @@ struct DreamImportSheet: View {
                         ReplyChoice(id: "later", label: Phrasing.say("다음에 할게요", "다음에 할게")),
                         ReplyChoice(id: "no", label: Phrasing.say("안 옮길래요", "안 옮길래"))
                     ]) { choice in
+                        // 옮기는 동안에는 어느 단추도 받지 않는다 — 두 번 누르면 두 번 돌고, 도중에
+                        // '안 옮길래요' 를 누르면 옮기던 파일이 지워진다.
+                        guard !isImporting else { return }
                         switch choice.id {
                         case "import":
-                            if let count = DreamImport.run(transfer, into: modelContext) {
-                                DreamImport.discard()
-                                withAnimation { imported = count }
-                            } else {
-                                // 저장하지 못했다. 파일은 남겨 두고 닫는다 — 저장 실패는 맨 바깥 화면이
-                                // 알리고(→ StoreFallback), 다음에 앱이 앞으로 올 때 다시 묻는다.
-                                dismiss()
+                            isImporting = true
+                            Task {
+                                let ready = await DreamImport.shrunk(transfer)
+                                if let count = DreamImport.run(ready, into: modelContext, photosReady: true) {
+                                    DreamImport.discard()
+                                    withAnimation { imported = count }
+                                } else {
+                                    // 저장하지 못했다. 파일은 남겨 두고 닫는다 — 저장 실패는 맨 바깥 화면이
+                                    // 알리고(→ StoreFallback), 다음에 앱이 앞으로 올 때 다시 묻는다.
+                                    dismiss()
+                                }
+                                isImporting = false
                             }
                         case "no":
                             DreamImport.discard()

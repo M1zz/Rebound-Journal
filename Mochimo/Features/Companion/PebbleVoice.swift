@@ -45,6 +45,7 @@ final class PebbleVoice {
     /// 그래프를 세우다 어긋났다. 노드가 반쯤 붙은 엔진에 다시 붙이면 또 어긋나므로,
     /// 이번 실행에서는 소리를 내지 않는다. 대화는 소리 없이 그대로 간다.
     private var isBroken = false
+    private var graphFailures = 0
 
     /// 오디오 세션을 여는 중인지. 세션 설정·활성화는 메인 스레드를 오래 붙잡을 수 있어서
     /// (시스템이 "UI unresponsiveness" 경고를 낸다) `AudioSessionQueue`에서 한다.
@@ -229,7 +230,16 @@ final class PebbleVoice {
         do {
             try ObjCGuard.perform { self.buildGraph() }
         } catch {
-            isBroken = true
+            // 출력 기기가 바뀌는 순간처럼 잠깐의 일일 수 있다. 붙이다 만 노드를 떼고 한 번은 다시
+            // 해 본다. 두 번째도 어긋나면 이번 실행은 소리 없이 간다.
+            try? ObjCGuard.perform {
+                self.engine.detach(self.player)
+                self.engine.detach(self.pitchUnit)
+                self.engine.detach(self.toneShaper)
+            }
+            graphFailures += 1
+            if graphFailures >= 2 { isBroken = true }
+            lastSessionFailure = Date()
             return
         }
         guard !engine.isRunning else { return }

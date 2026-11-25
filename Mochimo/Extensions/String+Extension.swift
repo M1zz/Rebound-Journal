@@ -27,6 +27,13 @@ extension String {
             formatter.dateFormat = format
             if let date = formatter.date(from: self) { return date }
         }
+        // 예전 판은 그때의 기기 언어로 적었다("9:00 오후"). 그 뒤 기기 언어를 바꾸면 위 어느 것으로도
+        // 안 읽힌다. 앱이 아는 언어들로 한 번씩 읽어 본다 — 여기까지 오는 일은 드물어 느려도 된다.
+        formatter.dateFormat = "h:mm a"
+        for identifier in Bundle.main.localizations where identifier != "Base" {
+            formatter.locale = Locale(identifier: identifier)
+            if let date = formatter.date(from: self) { return date }
+        }
         return nil
     }
 
@@ -34,6 +41,19 @@ extension String {
     var dateComponents: DateComponents {
         guard let dateObject = time else { return DateComponents(hour: 9, minute: 0) }
         return Calendar.current.dateComponents([.hour, .minute], from: dateObject)
+    }
+}
+
+extension Date {
+    /// 알림 시각을 적어 두는 모양 — 언어와 상관없는 24시간 표기("21:00").
+    ///
+    /// 예전에는 기기 언어의 오전 · 오후 글자로 적어서("9:00 오후"), 기기 언어를 바꾸면 읽지 못했다.
+    /// 읽는 쪽(`String.time`)은 옛 모양도 그대로 읽는다.
+    var reminderTimeStorage: String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "HH:mm"
+        return formatter.string(from: self)
     }
 }
 

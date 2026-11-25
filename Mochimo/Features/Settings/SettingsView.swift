@@ -539,7 +539,7 @@ struct SettingsView: View {
                     Text("시간").font(.body)
                     Spacer()
                     DatePicker(String(localized: "시간"), selection: $remindersTime.onChange { date in
-                        manager.reminderTime = date.string(format: "h:mm a")
+                        manager.reminderTime = date.reminderTimeStorage
                         manager.scheduleDailyReminderIfNeeded()
                     }, displayedComponents: .hourAndMinute)
                     .labelsHidden()

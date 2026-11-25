@@ -42,8 +42,9 @@ struct MochimoApp: App {
         // 저장소는 금고 뒤에 연다 (프로퍼티 초기값으로 두면 init 보다 먼저 열린다)
         sharedModelContainer = Self.makeModelContainer()
         // Siri 인텐트가 같은 저장소를 쓴다 (→ StepIntents.swift)
-        let container = sharedModelContainer
-        AppDependencyManager.shared.add(dependency: container)
+        if let container = sharedModelContainer {
+            AppDependencyManager.shared.add(dependency: container)
+        }
         LeeoEngagement.shared.registerLaunch()
         // 페이월·구매 이벤트가 FeedbackHub 로 모이게 한다.
         LeeoAnalyticsCenter.register(MochimoSpec.self)
@@ -67,7 +68,8 @@ struct MochimoApp: App {
         ])
     }
 
-    let sharedModelContainer: ModelContainer
+    /// nil 이면 저장소를 디스크로도 메모리로도 열지 못한 것 — 화면 대신 안내만 띄운다(`StoreBrokenView`).
+    let sharedModelContainer: ModelContainer?
 
     /// 스크린샷을 찍는 중인지(DEBUG `-shot`). 감사 팝업 같은 한 번뿐인 창을 띄우지 않는다.
     private static var isTakingScreenshots: Bool {
@@ -78,7 +80,7 @@ struct MochimoApp: App {
         #endif
     }
 
-    private static func makeModelContainer() -> ModelContainer {
+    private static func makeModelContainer() -> ModelContainer? {
         // ⚠️ 있는 모델과 속성을 지우거나 이름을 바꾸지 않는다. 기존 사용자 기록이 JournalData · SubGoalData 에 있다.
         //    더하는 것은 선택값으로만 (CloudKit). 새 모델 · 속성은 CloudKit 콘솔에서 프로덕션 스키마로 배포해야 동기화된다.
         let schema = Schema([
@@ -109,6 +111,7 @@ struct MochimoApp: App {
 
     var body: some Scene {
         WindowGroup(id: MochimoWindow.main) {
+            if let sharedModelContainer {
             SkinnedRoot()
                 .arabicLayout()
                 .storeFallbackNotice()
@@ -124,6 +127,10 @@ struct MochimoApp: App {
                 .leeoStyle(.pebble)
                 // 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
+            } else {
+                StoreBrokenView()
+                    .arabicLayout()
+            }
         }
         .commands { MochimoCommands() }
         // 맥 창은 처음에 대화와 지나온 길이 나란히 들어갈 만큼 연다. 아이패드에서는 쓰이지 않는다.
@@ -132,13 +139,22 @@ struct MochimoApp: App {
         #if os(macOS)
         // 메뉴 막대의 모찌 (→ MenuBarPebble.swift)
         MenuBarExtra {
-            QuickNoteView()
-                .arabicLayout()
-                .environmentObject(manager)
-                .modelContainer(sharedModelContainer)
+            if let sharedModelContainer {
+                QuickNoteView()
+                    .arabicLayout()
+                    .environmentObject(manager)
+                    .modelContainer(sharedModelContainer)
+            } else {
+                StoreBrokenView()
+                    .arabicLayout()
+            }
         } label: {
-            MenuBarPebbleLabel()
-                .modelContainer(sharedModelContainer)
+            if let sharedModelContainer {
+                MenuBarPebbleLabel()
+                    .modelContainer(sharedModelContainer)
+            } else {
+                Image(systemName: "exclamationmark.triangle")
+            }
         }
         .menuBarExtraStyle(.window)
         #endif
@@ -187,7 +203,7 @@ enum StoreFallback {
         NotificationCenter.default.post(name: saveFailed, object: nil)
     }
 
-    static func memoryContainer(schema: Schema, after error: Error) -> ModelContainer {
+    static func memoryContainer(schema: Schema, after error: Error) -> ModelContainer? {
         isActive = true
         print("⚠️ 저장소를 열지 못해 이번 실행은 메모리에서 엽니다: \(error)")
         do {
@@ -197,10 +213,34 @@ enum StoreFallback {
             )
         } catch {
             // 메모리 저장소마저 안 되는 건 스키마 자체가 잘못된 것 — 개발 중에 바로 드러난다.
-            // 여기서 더 물러설 곳은 없다. 모든 화면이 이 모델들을 @Query 로 읽어서, 모델이 빠진
-            // 저장소를 건네면 첫 화면을 그리다 죽는다(같은 죽음이 한 박자 늦을 뿐이다).
-            fatalError("메모리 저장소도 열지 못함: \(error)")
+            // 그래도 죽지는 않는다. 모든 화면이 이 모델들을 @Query 로 읽어 화면을 그릴 수는 없으니,
+            // 저장소 없이 안내 한 장만 띄운다(`StoreBrokenView`). 켤 때마다 죽는 앱은 지우는 것 말고
+            // 사용자가 할 수 있는 일이 없고, 지우면 기기 안의 기록도 같이 사라진다.
+            print("⚠️ 메모리 저장소도 열지 못했습니다: \(error)")
+            return nil
         }
+    }
+}
+
+/// 저장소를 끝내 열지 못했을 때의 화면. 모델을 읽는 화면은 하나도 올리지 않는다.
+///
+/// 문구는 임시 저장소 알림과 같은 것을 쓴다 — 여기까지 오는 일은 거의 없어 새 문구를 스물네 개
+/// 언어로 두지 않았다.
+private struct StoreBrokenView: View {
+    var body: some View {
+        VStack(spacing: 14) {
+            Image(systemName: "exclamationmark.triangle")
+                .font(.largeTitle)
+                .foregroundStyle(.secondary)
+            Text("기록을 열지 못했어요")
+                .font(.title3.weight(.semibold))
+            Text("저장된 기록은 지워지지 않았어요. 다만 지금 적는 내용은 저장되지 않으니, 앱을 껐다 켜 보세요.")
+                .font(.body)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+        }
+        .padding(32)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
@@ -221,7 +261,9 @@ private struct StoreFallbackNotice: ViewModifier {
         }
         // 적은 것을 디스크에 내리지 못했을 때도 같은 말로 알린다 (→ ModelContext.saveNow).
         .onReceive(NotificationCenter.default.publisher(for: StoreFallback.saveFailed)) { _ in
-            isPresented = true
+            // 저장은 대개 시트를 닫는 순간에 한다. 시트가 내려가는 도중에는 알림창이 뜨지 못하니
+            // 내려간 뒤에 띄운다.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) { isPresented = true }
         }
     }
 }

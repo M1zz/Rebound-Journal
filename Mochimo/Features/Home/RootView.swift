@@ -45,6 +45,8 @@ struct RootView: View {
                     nsContext: coreDataContext,
                     modelContext: modelContext
                 )
+                // 켜 둔 알림이 실제로 걸려 있는지 본다 (→ DataManager.repairDailyReminderIfNeeded).
+                manager.repairDailyReminderIfNeeded()
                 // 조약돌 목소리로 쓸 소리 알갱이를 미리 만들어 둔다.
                 // 첫 말풍선이 찍히기 전에 준비돼 있어야 첫 마디부터 소리가 난다.
                 PebbleVoice.shared.prepare()
