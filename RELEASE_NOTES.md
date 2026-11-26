@@ -4,6 +4,158 @@ DeployBar 가 배포할 때 이 파일의 최신 버전 절을 읽어
 App Store Connect 의 "이 버전의 새로운 기능" 칸에 올린다.
 스토어에 나가는 글은 스토어 표시가 붙은 `###` 절에만 쓴다.
 
+## 2.3.2
+
+### App Store (English)
+
+Fixed an issue where the app could suddenly close
+Get a thank-you gift when we use your idea
+Smoother and more reliable overall
+
+### 앱스토어 (한국어)
+
+앱이 갑자기 꺼지던 문제를 고쳤어요
+보낸 의견이 채택되면 감사 선물을 드려요
+더 안정적으로 움직이도록 다듬었어요
+
+### App Store (en-GB)
+
+Fixed an issue where the app could suddenly close
+Get a thank-you gift when we use your idea
+Smoother and more reliable overall
+
+### App Store (zh-Hans)
+
+修复了应用突然退出的问题
+你的建议被采纳后，会收到一份感谢礼物
+整体运行更加稳定流畅
+
+### App Store (zh-Hant)
+
+修正了 App 突然關閉的問題
+你的建議被採納後，會收到一份感謝禮物
+整體運作更加穩定流暢
+
+### App Store (Japanese)
+
+アプリが突然終了する問題を修正しました
+ご意見が採用されるとお礼のギフトが届きます
+全体的に動作がより安定しました
+
+### App Store (Russian)
+
+Исправлено внезапное закрытие приложения
+Если мы примем ваш отзыв, вас ждёт подарок
+Приложение работает стабильнее
+
+### App Store (Spanish)
+
+Corregido el cierre inesperado de la app
+Si adoptamos tu idea, te enviamos un regalo
+Funciona de forma más estable y fluida
+
+### App Store (German)
+
+Unerwartetes Beenden der App behoben
+Danke-Geschenk für umgesetzte Vorschläge
+Läuft jetzt stabiler und flüssiger
+
+### App Store (French)
+
+L'app ne se ferme plus de façon inattendue
+Un cadeau si nous retenons votre idée
+Plus stable et plus fluide
+
+### App Store (Italian)
+
+Risolta la chiusura improvvisa dell'app
+Un regalo se scegliamo la tua idea
+Più stabile e fluida
+
+### App Store (pt-BR)
+
+Corrigimos o fechamento inesperado do app
+Ganhe um presente se usarmos sua ideia
+Mais estável e fluido
+
+### App Store (Thai)
+
+แก้ปัญหาแอปปิดเองกะทันหัน
+รับของขวัญเมื่อเรานำไอเดียของคุณไปใช้
+ทำงานได้ลื่นไหลและเสถียรขึ้น
+
+### App Store (Vietnamese)
+
+Sửa lỗi ứng dụng bị tắt đột ngột
+Nhận quà khi góp ý của bạn được chọn
+Hoạt động ổn định và mượt mà hơn
+
+### App Store (Czech)
+
+Opraveno nečekané zavírání aplikace
+Za přijatý návrh dostanete dárek
+Stabilnější a plynulejší chod
+
+### App Store (Danish)
+
+Rettet at appen pludselig lukkede
+Få en gave, når vi bruger din idé
+Kører mere stabilt og glat
+
+### App Store (Greek)
+
+Διορθώθηκε το απρόσμενο κλείσιμο της εφαρμογής
+Ένα δώρο αν υιοθετήσουμε την ιδέα σας
+Πιο σταθερή και ομαλή λειτουργία
+
+### App Store (Finnish)
+
+Korjattu sovelluksen äkillinen sulkeutuminen
+Saat lahjan, kun toteutamme ideasi
+Toimii vakaammin ja sujuvammin
+
+### App Store (Indonesian)
+
+Memperbaiki aplikasi yang tiba-tiba tertutup
+Dapatkan hadiah saat ide Anda kami pakai
+Berjalan lebih stabil dan lancar
+
+### App Store (Norwegian)
+
+Rettet at appen plutselig lukket seg
+Få en gave når vi bruker ideen din
+Kjører mer stabilt og jevnt
+
+### App Store (Dutch)
+
+De app sluit niet meer onverwacht af
+Een cadeau als we jouw idee gebruiken
+Werkt stabieler en soepeler
+
+### App Store (Polish)
+
+Aplikacja nie zamyka się już nagle
+Prezent, gdy wykorzystamy Twój pomysł
+Działa stabilniej i płynniej
+
+### App Store (Swedish)
+
+Åtgärdat att appen plötsligt stängdes
+Få en gåva när vi använder din idé
+Går stabilare och smidigare
+
+### App Store (Turkish)
+
+Uygulamanın aniden kapanması düzeltildi
+Fikriniz kullanılırsa size bir hediye
+Daha kararlı ve akıcı çalışıyor
+
+### App Store (Arabic)
+
+إصلاح مشكلة إغلاق التطبيق فجأة
+هدية شكر عندما نعتمد اقتراحك
+أداء أكثر ثباتًا وسلاسة
+
 ## 2.3.1
 
 ### 앱스토어 (English)
