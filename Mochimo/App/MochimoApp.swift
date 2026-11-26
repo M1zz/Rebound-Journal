@@ -91,7 +91,7 @@ struct MochimoApp: App {
             ObstacleData.self,
             RecordPhoto.self
         ])
-        var modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        var modelConfiguration = StoreLocation.configuration(schema: schema)
         #if DEBUG
         // 스크린샷 모드는 기록을 지우고 샘플을 심는다. 이 기기의 진짜 기록과 iCloud 에 닿지 않게 메모리에서만 연다.
         if ScreenshotMode.isActive {
@@ -177,6 +177,56 @@ private struct SkinnedRoot: View {
                 \.pebbleSkin,
                 PebbleSkin.effective(PebbleSkin(rawValue: chosenSkin) ?? .free, hasPro: store.hasPro)
             )
+    }
+}
+
+// MARK: - 저장소 자리
+//
+// 앱 그룹 권한이 있으면 SwiftData 는 저장소를 그룹 칸(위젯과 나눠 쓰는 곳)에 만든다. 그룹 칸의
+// SQLite 를 잡은 채 앱이 잠들면 시스템이 0xdead10cc 로 앱을 끝낸다 — 2.1.5 · 2.1.6 · 2.2.0 진단에서
+// 미리 띄워진(백그라운드) 앱이 init 에서 저장소를 여는 중에 잠들어 죽었다. 위젯은 기록 저장소를
+// 읽지 않고(UserDefaults 만 쓴다) 나눠 쓸 까닭이 없으니, 저장소를 앱 자기 칸으로 옮긴다.
+
+enum StoreLocation {
+    /// 앱 자기 칸(Application Support)의 저장소. 그룹 칸에 예전 저장소가 있으면 먼저 옮겨 온다.
+    /// 옮기지 못한 날은 이번 실행만 예전 자리에서 연다 — 기록은 그대로 보인다.
+    static func configuration(schema: Schema) -> ModelConfiguration {
+        let own = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false, groupContainer: .none)
+        let shared = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        return moveStore(from: shared.url, to: own.url) ? own : shared
+    }
+
+    /// `old` 저장소를 `new` 자리로 옮긴다. 새 자리를 써도 되면 true.
+    ///
+    /// 저장소는 파일 하나가 아니다 — `default.store` 와 -wal · -shm, 큰 값(사진)을 담은 `.default_SUPPORT`
+    /// 가 한 벌이라 함께 옮긴다. 하나라도 못 옮기면 옮긴 것을 되돌린다(반쪽 저장소는 기록을 잃는다).
+    /// 새 자리에 이미 저장소가 있으면 건드리지 않는다 — 금고 복원은 두 자리를 다 비우고 되살리므로
+    /// 예전 백업을 되살린 뒤에도 다음 실행에 여기서 다시 옮겨진다.
+    static func moveStore(from old: URL, to new: URL, fileManager fm: FileManager = .default) -> Bool {
+        guard old != new, !fm.fileExists(atPath: new.path) else { return true }
+        guard fm.fileExists(atPath: old.path) else { return true }
+
+        let oldDir = old.deletingLastPathComponent()
+        let newDir = new.deletingLastPathComponent()
+        let stem = old.deletingPathExtension().lastPathComponent   // "default"
+        let names = ((try? fm.contentsOfDirectory(atPath: oldDir.path)) ?? []).filter {
+            $0.hasPrefix(stem + ".") || $0.hasPrefix(stem + "_") || $0.hasPrefix("." + stem + "_")
+        }
+        var moved: [String] = []
+        do {
+            try fm.createDirectory(at: newDir, withIntermediateDirectories: true)
+            for name in names {
+                try fm.moveItem(at: oldDir.appendingPathComponent(name), to: newDir.appendingPathComponent(name))
+                moved.append(name)
+            }
+            return true
+        } catch {
+            print("⚠️ 저장소를 앱 칸으로 옮기지 못해 이번 실행은 예전 자리에서 엽니다: \(error)")
+            for name in moved {
+                try? fm.moveItem(at: newDir.appendingPathComponent(name), to: oldDir.appendingPathComponent(name))
+            }
+            return false
+        }
     }
 }
 
