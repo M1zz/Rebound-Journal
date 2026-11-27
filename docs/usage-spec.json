@@ -1,0 +1,21 @@
+{
+  "$comment": [
+    "FeedbackHubViewer 가 이 앱의 통계를 읽는 스펙. 원본은 이 파일이고, 허브는 scripts/sync-stats-specs.sh 로 복사해 간다.",
+    "release.coreAction 은 품질 탭의 '핵심 기능' 칸과 릴리즈 건강 카드가 읽는다. 이벤트 이름을 바꾸면 여기도 같이 바꿀 것."
+  ],
+  "specVersion": 1,
+  "appId": "com.leeo.ReboundJournal",
+  "appName": "모찌모",
+  "eventLabels": {
+    "goal_created": "목표를 만듦"
+  },
+  "release": {
+    "coreAction": {
+      "label": "목표를 만든 사람",
+      "events": [
+        "goal_created"
+      ],
+      "note": "목표를 세워야 다시 일어서는 기록이 시작된다."
+    }
+  }
+}
