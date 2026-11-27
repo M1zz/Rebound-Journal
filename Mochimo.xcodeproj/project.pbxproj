@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9F9F2963C637E279C4731D2 /* ObjCGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */; };
 		01F995C513311A6681E79643 /* PebbleMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F66578D4FD73232F8D9F4B1 /* PebbleMood.swift */; };
 		02B879B28F710B2B44CCD68A /* AllRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B7A8A52995BD59714800CA /* AllRecordsView.swift */; };
 		04DF9B8401B3D56EEAB084DB /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31426DD095CE5E8470BD382B /* AppCommands.swift */; };
@@ -66,6 +65,7 @@
 		A431489DD48483EAE4C42A2D /* LeftAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D851C813D0A61396CDC575 /* LeftAgo.swift */; };
 		B25A8A2E7BE4B77739BC4DE6 /* WeekStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F45927CE9303F8C2824F89 /* WeekStones.swift */; };
 		B32BFE0E8A87A4194AE1480A /* PebbleSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813DACAB5E98893A5F94005 /* PebbleSkin.swift */; };
+		B9F9F2963C637E279C4731D2 /* ObjCGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */; };
 		BD5BF1B26932033262EC0AD8 /* ProFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875E6F72C2F6F8269A47228 /* ProFeature.swift */; };
 		BF0FE3B79F7CCB0FFDAAE993 /* MochimoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784A190DA8CA3ECBE8C758C /* MochimoWidgetBundle.swift */; };
 		C11178FDF83962B562B6ECCB /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */; };
@@ -91,6 +91,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D0A40687FBE1CF17B21E0467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586F22802A33861C004C7410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F22872A33861C004C7410;
+			remoteInfo = Mochimo;
+		};
 		F7294EA2E61984123CAAC5DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 586F22802A33861C004C7410 /* Project object */;
@@ -115,9 +122,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3FAE88DED9F638D145564937 /* Mochimo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mochimo-Bridging-Header.h; sourceTree = "<group>"; };
-		3852E6FF4E11A09117634779 /* ObjCGuard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCGuard.h; sourceTree = "<group>"; };
-		9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCGuard.m; sourceTree = "<group>"; };
 		008D539F940765D19E5B644C /* MochimoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MochimoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E9DA94B94CF352275DBE84 /* LifeGoalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LifeGoalView.swift; sourceTree = "<group>"; };
 		0573D9A38B692215DBBA001C /* RecordPhotos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordPhotos.swift; sourceTree = "<group>"; };
@@ -131,8 +135,10 @@
 		2865C3F121BCA8EFE72A7C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31426DD095CE5E8470BD382B /* AppCommands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
 		346EF8DBF1848CB2B60477D1 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
+		3852E6FF4E11A09117634779 /* ObjCGuard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCGuard.h; sourceTree = "<group>"; };
 		3BFD7055CFE54796BC366E9C /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
 		3EB3F71B7E7EED57E1375DB7 /* StepIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StepIntents.swift; sourceTree = "<group>"; };
+		3FAE88DED9F638D145564937 /* Mochimo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mochimo-Bridging-Header.h"; sourceTree = "<group>"; };
 		469FA349854C6890405976FC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
 		4F5732830B10A8BF5D346D72 /* ChewyShader.metal */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.metal; path = ChewyShader.metal; sourceTree = "<group>"; };
@@ -166,6 +172,7 @@
 		893BF4C6F27562525995B8B3 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		979420319212C0F8FD12EB31 /* ConversationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationEngine.swift; sourceTree = "<group>"; };
 		9813DACAB5E98893A5F94005 /* PebbleSkin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PebbleSkin.swift; sourceTree = "<group>"; };
+		9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCGuard.m; sourceTree = "<group>"; };
 		9D7CF98A0F7679B8C28DEEFC /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 		A7F45927CE9303F8C2824F89 /* WeekStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStones.swift; sourceTree = "<group>"; };
 		A8CEB7F55F0C4DBCA5F58161 /* MochimoSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MochimoSpec.swift; sourceTree = "<group>"; };
@@ -195,10 +202,21 @@
 		E24EBD032E1D462A60C0EC5C /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
 		E30E82BDF4C608B7A0304FC0 /* PebbleTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTheme.swift; sourceTree = "<group>"; };
 		E953D42F909752BBA4FA405C /* RecordExporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordExporter.swift; sourceTree = "<group>"; };
+		F092AC5E1A74F45E605955A9 /* MochimoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MochimoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F784A190DA8CA3ECBE8C758C /* MochimoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MochimoWidgetBundle.swift; sourceTree = "<group>"; };
 		FA9637483D25A567BB2C364E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		FFDCB78F6E3C142BD77F217C /* DataEraser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataEraser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0F21B521289704296AA7DDED /* MochimoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = MochimoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		586F22852A33861C004C7410 /* Frameworks */ = {
@@ -206,6 +224,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				76CCE816D1E2A31C5D918B96 /* LeeoKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4426D10F5257378083118C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +351,7 @@
 				D2A6396157B5A91A4951FC2D /* MochimoWidget */,
 				586F22892A33861C004C7410 /* Products */,
 				4EBBC6701BA7D5FFC1BF0563 /* AppShortcuts.xcstrings */,
+				0F21B521289704296AA7DDED /* MochimoTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -334,6 +360,7 @@
 			children = (
 				008D539F940765D19E5B644C /* MochimoWidget.appex */,
 				586F22882A33861C004C7410 /* Mochimo.app */,
+				F092AC5E1A74F45E605955A9 /* MochimoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -353,8 +380,8 @@
 				C3A07BCB2DBBCED10057D3C3 /* ViewModel */,
 				58FE87B22E37A04E00B91E3C /* Mochimo.entitlements */,
 				586F228F2A33861D004C7410 /* Assets.xcassets */,
-			
-				3FAE88DED9F638D145564937 /* Mochimo-Bridging-Header.h */,);
+				3FAE88DED9F638D145564937 /* Mochimo-Bridging-Header.h */,
+			);
 			path = Mochimo;
 			sourceTree = "<group>";
 		};
@@ -735,15 +762,36 @@
 				FFDCB78F6E3C142BD77F217C /* DataEraser.swift */,
 				5959FB2999C0F85A2C9E069F /* ScreenshotMode.swift */,
 				73FEC27AE3011B2636BACED0 /* DreamImport.swift */,
-			
 				9A20BE32D8742AF8AC2B1FC2 /* ObjCGuard.m */,
-				3852E6FF4E11A09117634779 /* ObjCGuard.h */,);
+				3852E6FF4E11A09117634779 /* ObjCGuard.h */,
+			);
 			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2D0515F72F3CDA8A93ABBAD1 /* MochimoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7B18E5F99DA39B8C384A54 /* Build configuration list for PBXNativeTarget "MochimoTests" */;
+			buildPhases = (
+				0AA44E11360200999A21668C /* Sources */,
+				C4426D10F5257378083118C4 /* Frameworks */,
+				34E80EAE5B36685817A9F376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8AE9A487508350961C47FDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0F21B521289704296AA7DDED /* MochimoTests */,
+			);
+			name = MochimoTests;
+			productName = MochimoTests;
+			productReference = F092AC5E1A74F45E605955A9 /* MochimoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		586F22872A33861C004C7410 /* Mochimo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 586F22962A33861D004C7410 /* Build configuration list for PBXNativeTarget "Mochimo" */;
@@ -843,6 +891,7 @@
 			targets = (
 				586F22872A33861C004C7410 /* Mochimo */,
 				6197BA0BEE272FF88DD1207C /* MochimoWidget */,
+				2D0515F72F3CDA8A93ABBAD1 /* MochimoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -854,6 +903,13 @@
 			files = (
 				0559C0745C9C5ED50352CC9B /* Localizable.xcstrings in Resources */,
 				F7558BD1606AB36D5F5F8F82 /* InfoPlist.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E80EAE5B36685817A9F376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,6 +928,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0AA44E11360200999A21668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		586F22842A33861C004C7410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -940,8 +1003,8 @@
 				6E07FC651FD7D8F2B1F73D3B /* RecordPhotos.swift in Sources */,
 				816A3EA0442F1101ECAA093F /* LifeGoalView.swift in Sources */,
 				5CE5EFDF458014D296B92AD5 /* DreamImport.swift in Sources */,
-			
-				B9F9F2963C637E279C4731D2 /* ObjCGuard.m in Sources */,);
+				B9F9F2963C637E279C4731D2 /* ObjCGuard.m in Sources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A11D78B82E961502C7054877 /* Sources */ = {
@@ -961,6 +1024,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A8AE9A487508350961C47FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mochimo;
+			target = 586F22872A33861C004C7410 /* Mochimo */;
+			targetProxy = D0A40687FBE1CF17B21E0467 /* PBXContainerItemProxy */;
+		};
 		F7B674EB54D2867F9D4771C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
@@ -1179,13 +1248,13 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
-				SWIFT_OBJC_BRIDGING_HEADER = "Mochimo/Mochimo-Bridging-Header.h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mochimo/Mochimo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1223,21 +1292,69 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal;
-				SWIFT_OBJC_BRIDGING_HEADER = "Mochimo/Mochimo-Bridging-Header.h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mochimo/Mochimo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7431639F0DDD1C5BD879B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal.MochimoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mochimo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mochimo";
+			};
+			name = Debug;
+		};
+		E7360DABD9B531D0E06647AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.ReboundJournal.MochimoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mochimo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mochimo";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E7B18E5F99DA39B8C384A54 /* Build configuration list for PBXNativeTarget "MochimoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7360DABD9B531D0E06647AC /* Release */,
+				B7431639F0DDD1C5BD879B1E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		586F22832A33861C004C7410 /* Build configuration list for PBXProject "Mochimo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
