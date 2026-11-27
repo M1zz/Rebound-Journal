@@ -34,6 +34,8 @@ struct SettingsView: View {
 
     @State private var paywallFeature: ProFeature?
     @State private var isShowingPaywall = false
+    /// 구독 관리 시트 (iOS). 맥은 App Store 구독 페이지를 연다.
+    @State private var isManagingSubscription = false
     @State private var exportFile: ExportFile?
     @State private var exportFailed = false
 
@@ -52,6 +54,9 @@ struct SettingsView: View {
                 .background(PebbleTheme.canvas.ignoresSafeArea())
         }
         .proPaywall(isPresented: $isShowingPaywall, feature: paywallFeature)
+        #if os(iOS)
+        .manageSubscriptionsSheet(isPresented: $isManagingSubscription)
+        #endif
         .sheet(item: $exportFile) { file in
             ShareSheet(items: [file.url])
                 .presentationDetents([.medium, .large])
@@ -235,6 +240,8 @@ struct SettingsView: View {
     @ViewBuilder
     private var proSection: some View {
         if store.hasPro {
+            // 프로를 쓰는 중에도 요금제를 다시 보고, 구독을 관리하고, 복원할 수 있어야 한다.
+            // 이 길이 없으면 이미 구독한 계정(심사용 샌드박스 계정 포함)으로는 요금제 화면에 닿을 수 없다.
             card {
                 HStack(spacing: 12) {
                     Image(systemName: "leaf.fill")
@@ -244,6 +251,19 @@ struct SettingsView: View {
                     Spacer()
                 }
                 .padding()
+
+                Divider().padding(.horizontal)
+                proRow(icon: "list.bullet.rectangle", title: "요금제 보기") {
+                    openPaywall(for: nil)
+                }
+
+                Divider().padding(.horizontal)
+                proRow(icon: "creditcard", title: "구독 관리") {
+                    openSubscriptionManagement()
+                }
+
+                Divider().padding(.horizontal)
+                restoreRow
             }
         } else {
             card {
@@ -272,24 +292,52 @@ struct SettingsView: View {
                 .padding()
 
                 Divider().padding(.horizontal)
-
-                Button {
-                    Task { await store.restore() }
-                } label: {
-                    HStack {
-                        rowIcon("arrow.clockwise")
-                        Text("구매 복원").font(.body)
-                        Spacer()
-                        if store.isRestoring { ProgressView() }
-                    }
-                    .foregroundStyle(.primary)
-                    .padding()
-                    .contentShape(Rectangle())
-                }
-                .buttonStyle(.plain)
-                .disabled(store.isRestoring)
+                restoreRow
             }
         }
+    }
+
+    private var restoreRow: some View {
+        Button {
+            Task { await store.restore() }
+        } label: {
+            HStack {
+                rowIcon("arrow.clockwise")
+                Text("구매 복원").font(.body)
+                Spacer()
+                if store.isRestoring { ProgressView() }
+            }
+            .foregroundStyle(.primary)
+            .padding()
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .disabled(store.isRestoring)
+    }
+
+    private func proRow(icon: String, title: LocalizedStringKey, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack {
+                rowIcon(icon)
+                Text(title).font(.body)
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .font(.body)
+                    .foregroundStyle(.tertiary)
+            }
+            .foregroundStyle(.primary)
+            .padding()
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func openSubscriptionManagement() {
+        #if os(iOS)
+        isManagingSubscription = true
+        #else
+        if let url = URL(string: "https://apps.apple.com/account/subscriptions") { openURL(url) }
+        #endif
     }
 
     // MARK: - 조약돌 말투
