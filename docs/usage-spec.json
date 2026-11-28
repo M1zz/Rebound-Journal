@@ -16,6 +16,7 @@
         "goal_created"
       ],
       "note": "목표를 세워야 다시 일어서는 기록이 시작된다."
-    }
+    },
+    "onboarding": false
   }
 }
